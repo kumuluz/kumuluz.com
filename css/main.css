@@ -76,9 +76,10 @@ body {
 	left: 30px;
 }
 
-/* about */
-#about,
-#services,
+/* why */
+#why,
+#benefits,
+#features,
 #portfolio,
 #team,
 #blog,
@@ -86,8 +87,9 @@ body {
 	padding-top: 60px;
 	padding-bottom: 80px;
 }
-#about h3,
-#services h3,
+#why h3,
+#benefits h3,
+#features h3,
 #portfolio h3,
 #team h3,
 #blog h3,
@@ -98,51 +100,59 @@ body {
 	font-weight: bold;
 	margin-bottom: 35px;
 }
-#about p {
+#why p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.3em;
 	font-weight: 300;
 	color: #444;
 }
-.icon-about a i {
+.icon-why a i {
 	font-size: 3em;
 	margin-right: 10px;
 	margin-top: 10px;
 	color: #666;
 }
-.icon-about a i.fa-weibo:hover {
+.icon-why a i.fa-weibo:hover {
 	color: #d52b2b;
 }
-.icon-about a i.fa-facebook-square:hover {
+.icon-why a i.fa-facebook-square:hover {
 	color: #3c599f;
 }
-.icon-about a i.fa-twitter-square:hover {
+.icon-why a i.fa-twitter-square:hover {
 	color: #5eaade;
 }
-.icon-about a i.fa-google-plus-square:hover {
+.icon-why a i.fa-google-plus-square:hover {
 	color: #da4735;
 }
-.icon-about a i.fa-pinterest-square:hover {
+.icon-why a i.fa-pinterest-square:hover {
 	color: #ca2128;
 }
-.icon-about a i.fa-linkedin:hover {
+.icon-why a i.fa-linkedin:hover {
 	color: #017eb4;
 }
 
-/* Services */
-#services {
+/* benefits */
+#benefits{
 	background: #bf544e;
 	color: #fff;
 }
-#services h3 {
+
+#features {
+	background: #354B5E;
+	color: #fff;
+}
+#benefits h3,
+#features h3 {
 	margin-bottom: 40px;
 }
-#services p {
+#benefits p,
+#features p {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.1em;
 }
-#services span {
+#benefits span,
+#features span {
 	width: 200px;
 	height: 200px;
 	display: inline-block;
@@ -150,18 +160,25 @@ body {
 	border-radius: 50%;
 	margin-bottom: 20px;
 }
-#services span i {
+
+#features span {
+    border-radius: 0;
+}
+
+#benefits span i,
+#features span i {
 	font-size: 5em;
 	padding: 65px 50px;
 }
-#services span i.fa-mobile {
+#benefits span i.fa-mobile {
 	font-size: 7.5em;
 	padding: 50px 50px;
 }
-#services span i.fa-thumbs-up {
+#benefits span i.fa-thumbs-up {
 	padding: 60px 50px;
 }
-#services h4 {
+#benefits h4,
+#features h4 {
 	font-size: 1.6em;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -466,8 +483,9 @@ button.close {
 	}
 }
 @media (max-width:767px) {
-	#about h3,
-	#services h3,
+	#why h3,
+	#benefits h3,
+    #features h3,
 	#portfolio h3,
 	#team h3,
 	#blog h3,
