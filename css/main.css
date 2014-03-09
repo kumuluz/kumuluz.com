@@ -161,6 +161,12 @@ body {
 	margin-bottom: 20px;
 }
 
+#benefits span img, #features span img {
+    width: 100px;
+    height: 100px;
+    margin: 45px;
+}
+
 #features span {
     border-radius: 0;
 }
