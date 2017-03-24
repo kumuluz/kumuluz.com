@@ -1,406 +1,352 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="refresh" content="0; url=https://ee.kumuluz.com" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Kumuluz</title>
-    <link href="images/favicon2.ico" rel="icon" type="image/x-icon" />
-    <!-- Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-    <!-- font -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-  </head>
-  <body>
-    <div id="page">
-      <div class="site-navbar navbar navbar-fixed-top" role="navigation">
+
+    <div class="bannerImage backgroundImage banner">
+        <div>
+            <img class="logo-light" src="/img/logo.png">
+            <h1><span data-i18n="banner.title"></span></h1>
+            <h2><span data-i18n="banner.subTitle"></span></h2>
+        </div>
+    </div>
+
+    <div class="appsWrapper">
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo"></a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#main">Home</a></li>
-              <li><a href="#why">Why</a></li>
-              <li><a href="#benefits">Benefits</a></li>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#team">Team</a></li>
-              <li><a href="#blog">Blog</a></li>
-              <li><a href="#contact">Company</a></li>
-            </ul>
-          </div>
-          <!--/.nav-collapse -->
+            <div class="row apps">
+                <div class="col-xs-12" style="margin-bottom:50px">
+                    <div class="title-line"></div>
+                    <h2><span data-i18n="apps.title"></span></h2>
+                    <h5><span data-i18n="apps.subTitle"></span></h5>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="http://ee.kumuluz.com">
+                        <div class="block">
+                            <img src="/img/apps/ee.png" />
+                            <h2><span data-i18n="apps.ee.title"></span></h2>
+                            <p><span data-i18n="apps.ee.description"></span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="http://api.kumuluz.com">
+                        <div class="block">
+                            <img src="/img/apps/api.png" />
+                            <h2><span data-i18n="apps.api.title"></span></h2>
+                            <p><span data-i18n="apps.api.description"></span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="http://demo.ccm.kumuluz.com">
+                        <div class="block">
+                            <img src="/img/apps/ccm.png" />
+                            <h2><span data-i18n="apps.ccm.title"></span></h2>
+                            <p><span data-i18n="apps.ccm.description"></span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="block">
+                        <img src="/img/apps/ux.png" />
+                        <h2><span data-i18n="apps.ux.title"></span></h2>
+                        <p><span data-i18n="apps.ux.description"></span></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="block">
+                        <img src="/img/apps/integration.png" />
+                        <h2><span data-i18n="apps.integration.title"></span></h2>
+                        <p><span data-i18n="apps.integration.description"></span></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="block">
+                        <img src="/img/apps/devops.png" />
+                        <h2><span data-i18n="apps.devops.title"></span></h2>
+                        <p><span data-i18n="apps.devops.description"></span></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="block" style='position:relative; overflow: hidden;'>
+                        <img src="/img/apps/marketplace.png" />
+                        <h2><span data-i18n="apps.marketplace.title"></span></h2>
+                        <p><span data-i18n="apps.marketplace.description"></span></p>
+                        <div class="ribbon"><span data-i18n="comingSoon"></span></div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <main id="main" class="site-main">
-        <!-- Carousel -->
-        <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators wow fadeInUp">
-            <li data-target="#carousel-example-captions" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-captions" data-slide-to="1" class=""></li>
-            <li data-target="#carousel-example-captions" data-slide-to="2" class=""></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img class="wow pulse" data-wow-duration="3s" alt="1" src="images/bg-1.jpg" alt="bg-1">
-              <div class="carousel-caption">
-                <h3 class="wow bounceInLeft" data-wow-duration="2s">Kumuluz integration platform</h3>
-                <span class="wow bounceInRight" data-wow-duration="2s">Integrate <strong>SaaS</strong>, <strong>On-premise</strong> applications and <strong>IoT</strong> devices</span>
-              </div>
-            </div>
-                          <div class="item">
-              <img class="wow pulse" data-wow-duration="3s" alt="3" src="images/bg-3.jpg" alt="bg-3">
-              <div class="carousel-caption">
-                <h3 class="wow bounceInLeft" data-wow-duration="2s">Large & Midsize businesses</h3>
-                <span class="wow bounceInRight" data-wow-duration="2s">Integrate your backend systems with the <strong>cloud</strong></span>
-              </div>
-            </div>
-            <div class="item">
-              <img class="wow pulse" data-wow-duration="3s" alt="2" src="images/bg-2.jpg" alt="bg-2">
-              <div class="carousel-caption">
-                <h3 class="wow bounceInLeft" data-wow-duration="2s">Cloud and hosting providers</h3>
-                <span class="wow bounceInRight" data-wow-duration="2s">Provide integration capabilities with your own service</span>
-              </div>
-            </div>
-
-          </div>
-          <a class="left carousel-control" href="#carousel-example-captions" data-slide="prev">
-            <span class="fa fa-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-captions" data-slide="next">
-            <span class="fa fa-chevron-right"></span>
-          </a>
-        </div>
-        <!-- why -->
-        <section id="why">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h3>Why Kumuluz?</h3>
-              </div>
-              <div class="col-md-6 col-sm-6 wow bounceInLeft">
-                <p><strong>Business application</strong> and information systems <strong>integration</strong> if one of the most important, but often overlooked and poorly understood problems faced by businesses, organizations and public authorities, regardless of their size or industry.</p> 
-                <p><strong>Kumuluz integration platform</strong> addresses not only the problem of integration, but also the related problems of application <strong>migration</strong> and data <strong>backups</strong>.</p>
-              </div>
-              <div class="col-md-6 col-sm-6 wow bounceInRight">
-                <p>In addition to solving three main integration problems it also provides its users with advanced features of <strong>Master Data Management</strong>, integration of <strong>Internet Of Things</strong> enabled devices and <strong>Big Data</strong> analysis.</p>
-                <p class="icon-why">
-                  <a href="#"><i class="fa fa-weibo"></i></a>
-                  <a href="#"><i class="fa fa-facebook-square"></i></a>
-                  <a href="#"><i class="fa fa-twitter-square"></i></a>
-                  <a href="#"><i class="fa fa-google-plus-square"></i></a>
-                  <a href="#"><i class="fa fa-pinterest-square"></i></a>                           
-                  <a href="#"><i class="fa fa-linkedin"></i></a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- benefits -->
-        <section id="benefits">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h3>Business benefits</h3>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInLeft">
-                <p><span><img src="images/icons/integration.png" alt="Integration icon"/></span></p>
-                <h4>Integration</h4>
-                <p>Integrate SaaS to SaaS or SaaS to on-premise applications in a simple and efficient way.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInUp">
-                <p><span><img src="images/icons/backup.png" alt="Backup icon"/></span></p>
-                <h4>Backup</h4>
-                <p>Your data in the cloud is continuously backed-up to a safe storage location under your control.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInRight">
-                <p><span><img src="images/icons/migration.png" alt="Migration icon"/></span></p>
-                <h4>Migration</h4>
-                <p>Migrate on-premise applications to the cloud and between SaaS vendors without a hassle and prevent vendor lock-in.</p>
-              </div>
-              
-              <div class="col-md-4 col-sm-4 wow bounceInLeft">
-                <p><span><img src="images/icons/mdm.png" alt="MDM icon"/></span></p>
-                <h4>Master Data Management</h4>
-                <p>Enable Master Data Management, which is greatly simplified through automatic building of master data entities.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInUp">
-                <p><span><img src="images/icons/IoT.png" alt="IoT icon"/></span></p>
-                <h4>IoT device integration</h4>
-                <p>Integrate your SaaS and on-premise applications with Internet-of-Things enabled devices.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInRight">
-                <p><span><img src="images/icons/BigData.png" alt="BigData icon"/></span></p>
-                <h4>Big Data</h4>
-                <p>Perform powerful Big Data analytics on top of integrated data in real-time.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- features -->
-        <section id="features">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h3>Cutting-edge technological features</h3>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInLeft">
-                <p><span><img src="images/icons/integration.png" alt="Integration icon"/></span></p>
-                <h4>Hub-based integration architecture</h4>
-                <p>Requires only one adapter per application irrespective of the number of integrated applications.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInUp">
-                <p><span><img src="images/icons/match.png" alt="Match icon"/></span></p>
-                <h4>Automatic schema matching</h4>
-                <p>Uses pattern based identification of matching data and enables automatic or semi-automatic generation of data mapping, which greatly reduces time and effort, particularly for large and complex schemas.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInRight">
-                <p><span><img src="images/icons/mdm.png" alt="MDM icon"/></span></p>
-                <h4>Cross-provider common data model generation</h4>
-                <p>Automatically builds the joint common data model of all integrated applications, which enables 360° view of data, exposing master data entities, BigData analytics, data mining and reporting, greatly simplified mobile device data access</p>
-              </div>
-              
-              <div class="col-md-4 col-sm-4 wow bounceInLeft">
-                <p><span><img src="images/icons/realtime.png" alt="realtime icon"/></span></p>
-                <h4>Event driven, real-time integration</h4>
-                <p>Changes are synced to integrated applications in the moment they occur.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInUp">
-                <p><span><img src="images/icons/IoT.png" alt="IoT icon"/></span></p>
-                <h4>Simplified integration of IoT enabled devices</h4>
-                <p>Integrate your SaaS and on-premise applications with IoT enabled devices through easy-to-understand business APIs, which makes your integrations independent of underlying technology and protocols, reduces vendor lock-in and enables use of different IoT devices in a transparent way.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInRight">
-                <p><span><i class="fa fa-unlock"></i></span></p>
-                <h4>Pre-implemented and open-source adapters</h4>
-                <p>Large set of pre-implemented adapters and open-source model for community adapter development. It’s never been easier to select a pre-developed adapter or to develop your own adapter.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- portfolio -->
-        <!--<section id="portfolio">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h3>Cutting-edge technological features</h3>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInLeft">
-                <div class="imgport" data-toggle="modal" data-target="#modal-login">
-                  <span class="wow fadeInDown">view</span>
-                  <img src="images/1.jpg" alt="1">
-                </div>
-                <h4>Portfolio 1</h4>
-                <p>Published on Jan 17, 2014</p>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInUp">
-                <div class="imgport" data-toggle="modal" data-target="#modal-login">
-                  <span class="wow fadeInDown">view</span>
-                  <img src="images/2.jpg" alt="2">
-                </div>
-                <h4>Portfolio 2</h4>
-                <p>Published on Jan 18, 2014</p>
-              </div>
-              <div class="col-md-4 col-sm-4 wow bounceInRight">
-                <div class="imgport" data-toggle="modal" data-target="#modal-login">
-                  <span class="wow fadeInDown">view</span>
-                  <img src="images/3.jpg" alt="3">
-                </div>
-                <h4>Portfolio 3</h4>
-                <p>Published on Jan 19, 2014</p>
-              </div>
-            </div>
-          </div>
-        </section>-->
-        <!-- team -->
-        <section id="team">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h3>Solid Team</h3>
-              </div>
-              <div class="col-md-3 col-sm-3 wow bounceInLeft">
-                <div class="imgteam">
-                  <!--<ul class="wow fadeInUp">
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                  </ul>-->
-                  <img src="images/p1.jpg" alt="p1">
-                </div>
-                <h4>Eva Zupančič</h4>
-                <p>Director</p>
-              </div>
-              <div class="col-md-3 col-sm-3 wow bounceInLeft">
-                <div class="imgteam">
-                  <!--<ul class="wow fadeInUp">
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                  </ul>-->
-                  <img src="images/p2.jpg" alt="p2">
-                </div>
-                <h4>Aleš Frece</h4>
-                <p>Head of development</p>
-              </div>
-              <div class="col-md-3 col-sm-3 wow bounceInRight">
-                <div class="imgteam">
-                  <!--<ul class="wow fadeInUp">
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                  </ul>-->
-                  <img src="images/p3.jpg" alt="p3">
-                </div>
-                <h4>Zvone Gazvoda</h4>
-                <p>Senior developer</p>
-              </div>
-              <div class="col-md-3 col-sm-3 wow bounceInRight">
-                <div class="imgteam">
-                  <!--<ul class="wow fadeInUp">
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                  </ul>-->
-                  <img src="images/p4.jpg" alt="p4">
-                </div>
-                <h4>Tilen Faganel</h4>
-                <p>Senior Developer</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Blog Posts -->
-        <section id="blog">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h3>Blog Posts</h3>
-              </div>
-              <div class="col-md-6 col-sm-6 wow bounceInLeft">
-                <p>February 28, 2014</p>
-                <h4><a href="single.html">Quick Tip: Integrating On-premise and cloud applications</a></h4>
-                <p>Lorem ipsum dolor sit amet, ne qui animal regione adversarium, ferri nonumes signiferumque qui no, errem doming persecuti pro at. At sit suavitate consectetuer. Ad nec vide tincidunt. An esse docendi his, pro eius dicta dicit id. Qui an ludus albucius delectus, nec in meis corpora, dolorum nusquam torquatos quo ex.</p>
-              </div>
-              <div class="col-md-6 col-sm-6 wow bounceInRight">
-                <ul>
-                  <li>
-                    <p>February 17, 2014</p>
-                    <h5><a href="single.html">Creating a Simple Responsive Html email</a></h5>
-                  </li>
-                  <li>
-                    <p>February 17, 2014</p>
-                    <h5><a href="single.html">Lorem ipsum dolor sit amet</a></h5>
-                  </li>
-                  <li>
-                    <p>February 17, 2014</p>
-                    <h5><a href="single.html">Lorem ipsum dolor sit amet</a></h5>
-                  </li>
-                  <li>
-                    <p>February 17, 2014</p>
-                    <h5><a href="single.html">Lorem ipsum dolor sit amet</a></h5>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="contact">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h3>About company</h3>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4 col-sm-4 wow bounceInLeft">
-                <p class="mail"> <i class="fa"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SUNESIS d.o.o.</p>
-                <p class="mail"> <i class="fa fa-map-marker"></i> &nbsp;&nbsp; Velebitska ulica 28, Ljubljana, Slovenia </p>
-                <p class="mail"> <i class="fa fa-envelope"></i>&nbsp; info(at)sunesis.si </p>
-              </div>
-              <div class="col-md-8 col-sm-8 wow bounceInRight">
-<p>Sunesis name was not chosen randomly, but communicates the core values ​​represented by the company.</p>
-<p>The Greeks had three great words describing three great qualities of the mind. If a man possessed these three qualities he had a mind equipped.</p>
-<p>The first of these words is Sophia - wisdom of ultimate things.</p>
-<p>The second of the three great words is Phronesis - prudence.</p>
-<p>The third of the great Greek words of the mind is Sunesis. Sunesis literally means a uniting, bringing together, integrating. It would be true to say that Sunesis is that faculty of putting two and two together.</p>
-<p>In its essence Sunesis is the power to asses, distinguish, criticize and evaluate, understand and to form judgments.</p>
-
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <footer>
-        Copyright &copy; 2014 SUNESIS d.o.o.        
-      </footer>
     </div>
-    <!-- Scroll to top -->
-    <div class="scroll-to-top affix" data-spy="affix" data-offset-top="200"><a href="#page" class="smooth-scroll"><i class="fa fa-arrow-up"></i></a></div>
-    <!-- modal -->
-    <div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-portfolio">
-        <div class="modal-content">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>       
-          <div class="modal-body">
-            <!--  -->   
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              </ol>
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item">
-                  <img src="images/portfolio.jpg" alt="Portfolio1"> 
+
+    <div class="bannerImage backgroundImage" style="height:100px"></div>
+
+    <div class="dukeAwardWrapper">
+        <div class="container">
+            <div class="row dukeAward">
+                <div class="col-xs-12">
+                    <div class="title-line"></div>
+                    <h2><span data-i18n="duke.title"></span></h2>
+                    <h5><span data-i18n="duke.subTitle"></span></h5>
                 </div>
-                <div class="item">
-                  <img src="images/portfolio2.jpg" alt="Portfolio2"> 
+                <div class="col-xs-12 col-sm-offset-1 col-sm-5 inline-block">
+                    <img style="max-height:400px;" src="/img/duke.jpg" />
                 </div>
-                <div class="item active">
-                  <img src="images/portfolio3.jpg" alt="Portfolio3"> 
+                <div class="col-xs-12 col-sm-5 inline-block">
+                    <h3><span data-i18n="duke.award.title"></span></h3><br/>
+                    <span data-i18n="duke.award.description"></span>
                 </div>
-              </div>
-              <!-- Controls -->
-              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-              <span class="fa fa-chevron-left"></span>
-              </a>
-              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-              <span class="fa fa-chevron-right"></span>
-              </a>
+                <div class="col-xs-12 col-sm-1 inline-block"></div>
+
+                <div class="col-xs-12 col-sm-6 inline-block">
+                    <div class='row' style="margin-top: 60px">
+                        <div class="col-xs-12 col-sm-offset-4 col-sm-4 inline-block">
+                            <img style="width:100%" src="/img/eurocloud.png" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 inline-block">
+                            <br/>
+                            <h4><span data-i18n="duke.award.eurocloud"></span></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 inline-block">
+                    <div class='row' style="margin-top: 60px">
+                        <div class="col-xs-12 col-sm-offset-4 col-sm-4 inline-block">
+                            <img style="width:100%" src="/img/startup.png" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 inline-block">
+                            <br/>
+                            <h4><span data-i18n="duke.award.startup"></span></h4>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.singlePageNav.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>    
-    <script>new WOW().init();</script>
-  </body>
+
+    <div class="bannerImage backgroundImage" style="height:100px"></div>
+
+    <div class="row no-gutter advantages">
+        <div class="col-xs-12" style="margin-bottom:50px">
+            <div class="title-line"></div>
+            <h2><span data-i18n="advantages.title"></span></h2>
+            <h5><span data-i18n="advantages.subTitle"></span></h5>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="block">
+                <img src="/img/advantages/races.png" />
+                <h4><span data-i18n='advantages.advantage1'></span></h4>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="block">
+                <img src="/img/advantages/java.png" />
+                <h4><span data-i18n='advantages.advantage2'></span></h4>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="block">
+                <img src="/img/advantages/padlock.png" />
+                <h4><span data-i18n='advantages.advantage3'></span></h4>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="block">
+                <img src="/img/advantages/cloudy.png" />
+                <h4><span data-i18n='advantages.advantage4'></span></h4>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="block">
+                <img src="/img/advantages/padlock.png" />
+                <h4><span data-i18n='advantages.advantage5'></span></h4>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="block">
+                <img src="/img/advantages/crowdfunding.png" />
+                <h4><span data-i18n='advantages.advantage6'></span></h4>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="block">
+                <img src="/img/advantages/open.png" />
+                <h4><span data-i18n='advantages.advantage7'></span></h4>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="block">
+                <img src="/img/advantages/24-hours.png" />
+                <h4><span data-i18n='advantages.advantage8'></span></h4>
+            </div>
+        </div>
+
+
+
+        <div class='col-xs-12 quote'>
+            <span data-i18n='advantages.quote'></span>
+        </div>
+    </div>
+
+    <div class="bannerImage backgroundImage" style="height:100px"></div>
+
+    <div class="row references">
+        <div class="col-xs-12" style="margin-bottom:50px">
+            <div class="title-line"></div>
+            <h2><span data-i18n="references.title"></span></h2>
+            <h5><span data-i18n="references.subTitle"></span></h5>
+        </div>
+        <span class="clients"></span>
+    </div>
+
+    <div class="bannerImage backgroundImage" style="height:100px"></div>
+
+    <div class="row contactrow">
+        <div class="container worldMapImage contacts-container">
+            <div class="row text-center">
+                <div class="col-xs-12" style="margin-bottom:50px">
+                    <div class="title-line"></div>
+                    <h2><span data-i18n="contact.title"></span></h2>
+                    <h5><span data-i18n="contact.subTitle"></span></h5>
+                </div>
+
+
+                <div class="col-xs-12 col-sm-offset-3 col-sm-3 text-left">
+                    <a href="http://sunesis.si/">
+                        <span class="firm">
+                            <span data-i18n="contact.firm"></span>
+                        </span>
+                    </a>
+                    <br />
+                    <span data-i18n="contact.address"></span>
+                    <br />
+                    <span data-i18n="contact.email"></span>
+                    <br />
+                    <a href="http://sunesis.si/">http://sunesis.si/</a>
+                </div>
+                <div class="col-xs-12 col-sm-4 text-left">
+                    <p>
+                        <span data-i18n="contact.aboutUs"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <br />
+                    <a href="mailto:info@sunesis.si">
+                        <span class="btn btn-primary btn-lg">
+                            <span data-i18n="contact.send"></span>
+                        </span>
+                    </a>
+                    <br /><br/>
+                    <div>
+                        <span data-i18n="contact.follow"></span>
+                    </div>
+                    <div class="social-icons">
+                        <a><i class="fa fa-facebook" ></i></a>
+                        <a><i class="fa fa-twitter" ></i></a>
+                        <a><i class="fa fa-linkedin" ></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class="col-xs-12 col-sm-offset-2 col-sm-8 text-center">
+                    <div class="title-line"></div><br/>
+                    <p><span data-i18n="contact.sunesisMeaning"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row footer">
+                <div class="inline-block block col-xs-12 col-sm-2">
+                    <img src="/img/logo.png" class="logo">
+                </div>
+                <div class="inline-block block col-xs-12 col-sm-7">
+                    <div class="row">
+                        <span class="col-xs-12 col-sm-4">
+                            <a href="http://ee.kumuluz.com/">
+                                <div class="link btn btn-link" data-i18n="apps.ee.title"></div>
+                            </a>
+                        </span>
+                        <span class="col-xs-12 col-sm-4">
+                            <a href="http://api.kumuluz.com/">
+                                <div class="link btn btn-link" data-i18n="apps.api.title"></div>
+                            </a>
+                        </span>
+                        <span class="col-xs-12 col-sm-4">
+                            <a href="http://demo.ccm.kumuluz.com/">
+                                <div class="link btn btn-link" data-i18n="apps.ccm.title"></div>
+                            </a>
+                        </span>
+                        <span class="col-xs-12 col-sm-4">
+                            <a href="">
+                                <div class="link btn btn-link" data-i18n="apps.ux.title"></div>
+                            </a>
+                        </span>
+                        <span class="col-xs-12 col-sm-4">
+                            <a href="">
+                                <div class="link btn btn-link" data-i18n="apps.integration.title"></div>
+                            </a>
+                        </span>
+                        <span class="col-xs-12 col-sm-4">
+                            <a href="">
+                                <div class="link btn btn-link" data-i18n="apps.devops.title"></div>
+                            </a>
+                        </span>
+                        <span class="col-xs-12 col-sm-4">
+                            <a href="/contact">
+                                <div class="link btn btn-link" data-i18n="nav.contact"></div>
+                            </a>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="inline-block block col-xs-12 col-sm-3"></div>
+                <div class="col-xs-12 copyright">
+                    <span>Copyright © 2017 <a href="http://www.sunesis.si">Sunesis</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- /container -->
+    <script src=" //ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js "></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js "><\/script>')
+    </script>
+
+    <script src="js/vendor/bootstrap.min.js "></script>
+    <script type="text/javascript " language="JavaScript " src="js/vendor/jquery.i18n.properties-min.js "></script>
+
+    <script src="js/main.js "></script>
+</body>
+
 </html>
