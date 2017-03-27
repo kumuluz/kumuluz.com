@@ -4,12 +4,14 @@ function translate(lang) {
         path: 'lang/',
         language: lang,
         mode: 'both',
-		cache: true,
         async: true,
         callback: function() {
             $("[data-i18n]").each(function(index, e) {
                 var translation = $(e).attr("data-i18n");
-                $(e).html(jQuery.i18n.prop(translation));
+                var post = jQuery.i18n.prop(translation);
+                if (post !== '[' + translation + ']') {
+                    $(e).html(post);
+                }
             });
         }
     });
