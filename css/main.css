@@ -272,7 +272,7 @@ h2 {
 
 .long-arrow-left:after {
     right: auto;
-    top: -4px;
+    top: -3px;
     left: -11px;
     content: "\e094";
 }
@@ -321,6 +321,12 @@ h2 {
     width: 100%;
     max-width: 300px;
     padding: 10px 50px;
+}
+
+.apps .block img.title {
+    height: 25px;
+    width: auto;
+    padding: 0;
 }
 
 .ribbon {
