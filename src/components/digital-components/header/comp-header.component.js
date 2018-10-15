@@ -11,11 +11,26 @@ export class CompHeaderComponent extends Component {
         image: PropType.string,
         title: PropType.string,
         subtitle: PropType.string,
-        items: PropType.array
+        items: PropType.array,
+        url: PropType.string
     };
 
     constructor(props) {
         super(props);
+    }
+
+    renderImage(image) {
+        const {url} = this.props;
+        if (url) {
+            return (
+                <a href={url} target="_blank" className="set-logo-size">
+                    <img src={image}/>
+                </a>
+            );
+        }
+        return (
+            <img className="set-logo-size" src={image}/>
+        );
     }
 
     render() {
@@ -27,7 +42,7 @@ export class CompHeaderComponent extends Component {
                     <div className="col-9 col-xl-6">
                         <div className="row align-items-center flex-column">
                             <div className="col-10 header-image">
-                                <img src={image}/>
+                                {this.renderImage(image)}
                             </div>
                             <div className="col-10 col-lg-8 p-0">
                                 <h1 className="text-center" dangerouslySetInnerHTML={{__html: title}} />

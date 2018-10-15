@@ -179,7 +179,8 @@ export default class KumuluzEEPage extends Component {
             <div className="km-kumuluz-ee-page">
                 <Helmet title={t("components.ee.title") + " - Kumuluz"}/>
                 <CompNavigationComponent activeTab={"color-ee"} products={digitalPlatformProducts(t)}/>
-                <CompHeaderComponent image={eeLogo} title={"Kumuluz<strong>EE</strong>"}
+                <CompHeaderComponent image={eeLogo}
+                     title={"<a href='https://ee.kumuluz.com' target='_blank'>Kumuluz<strong>EE</strong></a>"} url={"https://ee.kumuluz.com"}
                                      items={[
                                          t("components.ee.header.items.item-1"),
                                          t("components.ee.header.items.item-2"),
@@ -337,29 +338,12 @@ export default class KumuluzEEPage extends Component {
                                        afterText={`<strong class="color-ee">${t("components.ee.benefits.after-text.colored")}</strong> ${t("components.ee.benefits.after-text.text")}`}/>
 
                 <CompUseCasesComponent navbar={{
-                    section1: t("components.ee.capabilities.migration.title"),
-                    section2: t("components.ee.capabilities.comparison.title"),
-                    section3: t("components.ee.capabilities.docker.title"),
-                    section4: t("components.ee.capabilities.framework.title")
+                    section1: t("components.ee.capabilities.comparison.title"),
+                    section2: t("components.ee.capabilities.docker.title"),
+                    section3: t("components.ee.capabilities.framework.title"),
+                    section4: t("components.ee.capabilities.migration.title")
                 }} expandNavbar={true}
                                        section1={
-                                           <div className="container-fluid">
-                                               <div className="row justify-content-center">
-                                                   <div className="col-10">
-                                                       <h2>{t("components.ee.capabilities.migration.subtitle")}</h2>
-                                                       <div className="features">
-                                                           {migrations(t).map((feat, index) => (
-                                                               <p key={index} className="checkbox multi-check orange">
-                                                                   <strong>{feat.title}</strong>
-                                                                   <span>{feat.desc}</span>
-                                                               </p>
-                                                           ))}
-                                                       </div>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       }
-                                       section2={
                                            <div className="container-fluid">
                                                <div className="row justify-content-center">
                                                    <div className="col-10">
@@ -408,7 +392,7 @@ export default class KumuluzEEPage extends Component {
                                                </div>
                                            </div>
                                        }
-                                       section3={
+                                       section2={
                                            <div className="container-fluid">
                                                <div className="row justify-content-center">
                                                    <div className="col-10">
@@ -425,13 +409,30 @@ export default class KumuluzEEPage extends Component {
                                                </div>
                                            </div>
                                        }
-                                       section4={
+                                       section3={
                                            <div className="container-fluid">
                                                <div className="row justify-content-center">
                                                    <div className="col-10 features">
                                                        {framework(t).map((feat, index) => (
                                                            <p key={index} className="checkbox orange">{feat}</p>
                                                        ))}
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       }
+                                       section4={
+                                           <div className="container-fluid">
+                                               <div className="row justify-content-center">
+                                                   <div className="col-10">
+                                                       <h2>{t("components.ee.capabilities.migration.subtitle")}</h2>
+                                                       <div className="features">
+                                                           {migrations(t).map((feat, index) => (
+                                                               <p key={index} className="checkbox multi-check orange">
+                                                                   <strong>{feat.title}</strong>
+                                                                   <span>{feat.desc}</span>
+                                                               </p>
+                                                           ))}
+                                                       </div>
                                                    </div>
                                                </div>
                                            </div>
