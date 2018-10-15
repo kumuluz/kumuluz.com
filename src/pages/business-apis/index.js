@@ -308,7 +308,7 @@ export default class BusinessAPIsPage extends Component {
                                         <div className="arrow-quote" />
                                     </div>
                                     <div className="lightblue-area">
-                                        <p className="quote-author">Adrian Freeman</p>
+                                        <p className="quote-author-name">Adrian Freeman</p>
                                         <p className="quote-author-role">Petrol CTO</p>
                                     </div>
                                 </div>

@@ -12,42 +12,42 @@
   },
   "footer": {
     "products": {
-      "title": ""
+      "title": "Kumuluz Digital"
     },
-    "copyright": "",
+    "copyright": "&copy; Sunesis",
     "social": {
-      "title": ""
+      "title": "Social media"
     },
     "apis": {
-      "title": "",
-      "api1": "",
-      "api2": "",
-      "api3": "",
-      "api4": "",
-      "api5": "",
-      "api6": "",
-      "api7": "",
-      "api8": "",
-      "api9": "",
-      "api10": ""
+      "title": "Business APIs",
+      "api1": "Payment",
+      "api2": "Product Catalog",
+      "api3": "Cart",
+      "api4": "Order",
+      "api5": "Fulfillment",
+      "api6": "Invoice",
+      "api7": "Customer",
+      "api8": "CCM",
+      "api9": "Subscription",
+      "api10": "KYC"
     },
     "community": {
-      "title": "",
-      "link1": "",
-      "link2": "",
-      "link3": "",
-      "link4": ""
+      "title": "Community",
+      "link1": "Blog",
+      "link2": "Open Source",
+      "link3": "Twitter",
+      "link4": "LinkedIn"
     },
     "websites": {
-      "title": ""
+      "title": "Our websites"
     },
     "company": {
-      "title": "",
-      "link1": "",
-      "link2": "",
-      "link3": "",
-      "link4": "",
-      "link5": ""
+      "title": "Company",
+      "link1": "About us",
+      "link2": "Rewards",
+      "link3": "News",
+      "link4": "Careers",
+      "link5": "Legal"
     },
     "contact": {
       "title": "",
@@ -95,49 +95,49 @@
   },
   "products": {
     "kumuluzEE": {
-      "title": "",
-      "description": "",
-      "transformation": ""
+      "title": "kumuluz<span class='font-weight-bold colorEE'>EE</span>",
+      "description": "Microservice framework",
+      "transformation": "Bring your Java monoliths to the microservice framework"
     },
     "kumuluzAPI": {
-      "title": "",
-      "description": "",
-      "transformation": ""
+      "title": "kumuluz<span class='font-weight-bold colorAPI'>API</span>",
+      "description": "API service management",
+      "transformation": "Manage APIs and empower your business with API economy"
     },
     "kumuluzIntegration": {
-      "title": "",
-      "description": "",
-      "transformation": ""
+      "title": "kumuluz<span class='font-weight-bold colorIntegration'>Integration</span>",
+      "description": "Integration platform",
+      "transformation": "Integrate digital solutions, IoT and back-end systems"
     },
     "kumuluzDevOps": {
-      "title": "",
-      "description": "",
-      "transformation": ""
+      "title": "kumuluz<span class='font-weight-bold colorDevOps'>DevOps</span>",
+      "description": "Best of breed DevOps solutions",
+      "transformation": "Development and operations joining forces for continuous deployment"
     },
     "kumuluzUX": {
-      "title": "",
-      "description": "",
-      "transformation": ""
+      "title": "kumuluz<span class='font-weight-bold colorUX'>Ux</span>",
+      "description": "Sophisticated UX framework with BMP integration",
+      "transformation": "Rapidly develop sophisticated and responsive user experiences"
     },
     "kumuluzCCM": {
-      "title": "",
-      "description": "",
-      "transformation": ""
+      "title": "kumuluz<span class='font-weight-bold colorCCM'>CCM</span>",
+      "description": "Customer engagement platform",
+      "transformation": "New digital ways to engage with your customer, anywhere"
     },
     "kumuluzMarketplace": {
-      "title": "",
-      "description": "",
-      "transformation": ""
+      "title": "kumuluz<span class='font-weight-bold colorMarketplace'>Marketplace",
+      "description": "Digital marketplace framework",
+      "transformation": "Rapidly develop customized digital marketplaces to accelerate your business"
     },
     "kumuluzPayment": {
-      "title": "",
-      "description": "",
-      "transformation": ""
+      "title": "kumuluz<span class='font-weight-bold colorPayment'>PaymentAPI</span>",
+      "description": "Easy and flexible solution for digital payments",
+      "transformation": "Charge for your products and services in digital way"
     },
     "kumuluzCrowdsensing": {
-      "title": "",
-      "description": "",
-      "transformation": ""
+      "title": "kumuluz<span class='font-weight-bold colorCrowdsensing'>Crowdsensing</span>",
+      "description": "Platform for collecting and analyzing crowd data using Blockchain",
+      "transformation": "A completely new depth of data about your customers"
     }
   }
 }

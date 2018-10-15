@@ -88,7 +88,7 @@ export const footerLinks = t => [
                 href: "https://ee.kumuluz.com"
             },
             {
-                title: "Corpo website",
+                title: "Sunesis",
                 href: "https://www.sunesis.si"
             }
         ]

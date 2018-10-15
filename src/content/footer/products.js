@@ -7,8 +7,7 @@ export const products = t => {
       name: <div dangerouslySetInnerHTML={{ __html: t('products.kumuluzEE.title') }} />,
       description: t('products.kumuluzEE.description'),
       transformation: t('products.kumuluzEE.transformation'),
-      href: 'https://ee.kumuluz.com',
-      external: true
+      href: '/digital-components/ee'
     },
     {
       id: 'kumuluzAPI',

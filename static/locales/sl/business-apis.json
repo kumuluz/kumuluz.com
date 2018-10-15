@@ -62,10 +62,10 @@
       "link": "Petrol",
       "text": "uporablja Kumuluzove poslovne API-je za razvoj svoje storitvene platforme in digitalnih aplikacij, kot so aplikacije Na poti, Fresh, Travel Aggregator in ostale."
     },
-    "para2": "",
-    "quote": "",
-    "read-more": "Več",
-    "link-to-studies": ""
+    "para2": "Different internal software applications call the Catalogue API to get information and pricing of the products.",
+    "quote": "With KumuluzDigital, you will introduce the latest cloudnative concepts, microservices, APIs and Docker containers. You will adopt agile development, DevOps principles and Continuous Delivery to fast-track your development. You will be finally able to modernize your monolithic applications.",
+    "read-more": "Read more",
+    "link-to-studies": "Case studies on page x"
   },
   "apis": {
     "overview": "Pregled",

@@ -62,10 +62,10 @@
       "link": "Petrol",
       "text": "verwendet Kumuluz Business APIs, um ihre Service-Plattform und digitale Anwendungen, so wie die Anwendungen Na Poti, Fresh, Travel Aggregator und andere, zu entwickeln."
     },
-    "para2": "NI PREVODA",
-    "quote": "NI PREVODA",
-    "read-more": "NI PREVODA",
-    "link-to-studies": "NI PREVODA"
+    "para2": "Different internal software applications call the Catalogue API to get information and pricing of the products.",
+    "quote": "With KumuluzDigital, you will introduce the latest cloudnative concepts, microservices, APIs and Docker containers. You will adopt agile development, DevOps principles and Continuous Delivery to fast-track your development. You will be finally able to modernize your monolithic applications.",
+    "read-more": "Read more",
+    "link-to-studies": "Case studies on page x"
   },
   "apis": {
     "overview": "Überblick",
