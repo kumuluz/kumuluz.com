@@ -1,0 +1,145 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+
+@import "../colors";
+.colored {
+  font-weight: bold;
+}
+.quote, .quote-author {
+  font-size: 1.25rem;
+}
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+
+  .author-title {
+    font-style: italic;
+    margin-left: 2px;
+  }
+}
+.table {
+  tbody tr {
+    &:nth-child(even) {
+      background-color: $white;
+    }
+    &:nth-child(odd) {
+        background-color: $grey-100;
+    }
+  }
+}
+.km-kumuluz-ee-page {
+  .divider-container {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+
+    .divider {
+      width: 25%;
+      background-color: $grey-100;
+      height: 4px;
+    }
+  }
+  .grey-box {
+    padding: 30px;
+    background-color: $grey-100;
+  }
+  .features {
+    padding-top: 40px;
+
+    p.checkbox {
+      margin-left: 60px;
+      display: flex;
+      align-items: center;
+      line-height: normal;
+      margin-bottom: 30px;
+      font-size: 1.25rem;
+
+      &.multi-check {
+        display: block;
+        line-height: unset;
+        strong {
+          margin-top: -50px;
+        }
+        span, strong {
+          display: block;
+        }
+      }
+    }
+    p.checkbox:before {
+      content: '';
+      height: 40px;
+      width: 40px;
+      min-width: 40px;
+      display: inline-block;
+      background-image: url('../../../assets/images/check-mark.svg');
+      margin-left: -60px;
+      margin-right: 20px;
+    }
+    p.checkbox.orange:before {
+      background-color: $ee;
+    }
+  }
+  .contact-info {
+    h3, label {
+      color: $black;
+    }
+  }
+  .integrations {
+    h3 {
+      font-weight: 700;
+      color: $blue-400;
+      margin-bottom: 40px;
+    }
+    p.checkbox {
+      margin-left: 60px;
+      display: flex;
+      align-items: center;
+      line-height: normal;
+      margin-bottom: 30px;
+      font-size: 1.25rem;
+    }
+    p.checkbox:before {
+      content: '';
+      height: 40px;
+      width: 40px;
+      min-width: 40px;
+      display: inline-block;
+      background-image: url('../../../assets/images/check-mark.svg');
+      margin-left: -60px;
+      margin-right: 20px;
+    }
+    p.checkbox.orange:before {
+      background-color: $ee;
+    }
+  }
+  .km-comp-use-cases-component {
+    .menu .menu-item .underline.active {
+      background-color: $ee !important;
+    }
+    .features p.checkbox:before {
+      background-color: $ee !important;
+    }
+  }
+  .km-comp-motto-component {
+    .line {
+      background-color: $ee;
+    }
+  }
+  .prod-grid-title {
+    text-align: center;
+    font-weight: 700;
+    color: $blue-400;
+    margin-bottom: 50px;
+  }
+}
+
+@include device-specific($media-phone) {
+  .km-kumuluz-ee-page {
+    .divider-container {
+      .divider {
+        width: 80%;
+      }
+    }
+  }
+}

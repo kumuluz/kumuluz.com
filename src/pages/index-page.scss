@@ -1,0 +1,508 @@
+@import "../assets/scss/variables";
+@import "../assets/scss/media-mixin";
+
+.grey-divider {
+  margin: 40px 0;
+  min-height: 4px;
+  background-color: $grey-100;
+}
+.eu-sklad {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  text-align: right;
+
+  img {
+    width: 75%;
+    height: auto;
+    box-shadow: 0 7px 20px rgba(17, 28, 81, 0.6);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+.km-index-page {
+  .white-section {
+    padding-top: 100px;
+
+    .header {
+      margin-bottom: 100px;
+      h1 {
+        color: $blue-400;
+      }
+      h2 {
+        color: $blue-300;
+        font-weight: 300;
+      }
+    }
+    .header-blocks {
+      margin-bottom: -125px;
+      z-index: 5;
+
+      .header-block-item {
+        min-height: 250px;
+        flex: 0 0 49% !important;
+        background-color: white;
+        padding: 0;
+        box-shadow: $grey-shadow;
+
+        .block-blue-line {
+          width: 100%;
+          height: 4px;
+          background-color: $blue-100;
+        }
+        .block-item-content {
+          display: flex;
+          margin-top: 30px;
+
+          .block-item-image {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+            img {
+              width: 60%;
+            }
+          }
+          .block-item-text {
+            width: 80%;
+            padding-right: 10px;
+
+            .block-item-above-title {
+              text-transform: uppercase;
+              color: $blue-200;
+              font-weight: bold;
+            }
+            .block-item-title {
+              font-weight: bold;
+              font-size: 25px;
+              line-height: 21px;
+              height: 50px;
+            }
+            .block-item-subtitle {
+              margin-top: 20px;
+              font-size: 18px;
+              height: 80px;
+            }
+            .block-item-buttons {
+              margin-top: 20px;
+              margin-bottom: 20px;
+              display: flex;
+              align-items: center;
+
+              button {
+                display: flex;
+                align-items: center;
+                padding-left: 20px;
+                padding-right: 20px;
+
+                svg {
+                  margin-left: 8px;
+                  margin-top: 2px;
+                }
+              }
+              span {
+                font-size: 18px;
+                cursor: pointer;
+
+                img {
+                  margin-left: 8px;
+                  width: 20px;
+                  min-width: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .dark-blue-section {
+    background: $blue-gradient;
+
+    .content {
+      padding-top: 210px;
+      color: $white;
+
+      h3 {
+        font-weight: 600;
+      }
+      .kumuluz-cube {
+        z-index: 4;
+      }
+    }
+  }
+  .competition-section {
+    padding-top: 100px;
+
+    .competition-title {
+      font-weight: 700;
+      color: $blue-400;
+      margin-bottom: 60px;
+    }
+    .competition-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .competition-item {
+        width: 48%;
+        margin-bottom: 30px;
+
+        img {
+          width: 12%;
+        }
+        .competition-item-title {
+          font-size: 21px;
+          font-weight: bold;
+          margin: 10px 0;
+          font-family: $font-asap;
+        }
+        .competition-item-content {
+          font-size: 18px;
+          font-family: $font-asap;
+        }
+      }
+    }
+  }
+  .business-apis-section {
+    background-color: $blue-400;
+
+    .blue-block-section {
+      display: flex;
+      justify-content: center;
+
+      .image-blue-block {
+        width: 250px;
+        height: 130px;
+        background-color: $blue-200;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 30%;
+        }
+      }
+    }
+    .header {
+      margin-top: 60px;
+      text-align: center;
+
+      h2 {
+        color: $white;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      p {
+        color: $white;
+      }
+    }
+  }
+  .light-blue-section {
+    background: $blue-gradient;
+
+    .blue-block-section {
+      display: flex;
+      justify-content: center;
+
+      .image-blue-block {
+        width: 250px;
+        height: 130px;
+        background-color: $blue-200;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 30%;
+        }
+      }
+    }
+  }
+  .highlights {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .highlight-item {
+      width: 30%;
+      margin-bottom: 40px;
+
+      div {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+
+        &:last-child {
+          padding: 0 20px;
+        }
+      }
+
+      img {
+        width: 25%;
+      }
+    }
+  }
+  .awards-title {
+    color: $blue-100;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }
+  .awards-images {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 25%;
+    }
+  }
+  .other-products-section {
+    background-color: $blue-400;
+
+    .tiles {
+      margin-top: 40px;
+      margin-bottom: 140px;
+
+      h1 {
+        text-align: center;
+        margin-bottom: 60px;
+        color: $white;
+        font-weight: 600;
+        font-size: 1.5rem;
+      }
+      .tile {
+        display: flex;
+        background: $blue-gradient;
+        padding: 30px 20px 20px 10px;
+        margin-bottom: 20px;
+
+        .tile-image {
+          min-width: 100px;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+
+          img {
+            width: 55px;
+            height: 55px;
+          }
+        }
+        .tile-content {
+          width: 90%;
+
+          h5 {
+            text-transform: uppercase;
+            color: $blue-100;
+            font-size: 18px;
+            font-weight: 600;
+          }
+          h4 {
+            color: $white;
+            font-size: 23px;
+            font-weight: 700;
+          }
+          p {
+            color: $white;
+          }
+          a {
+            font-size: 1.25rem;
+
+            img {
+              margin-left: 10px;
+              width: 20px;
+              height: auto;
+            }
+          }
+        }
+        &:hover {
+          background: $blue-300 none;
+        }
+      }
+      .tile-smaller {
+        flex: 0 0 49%;
+      }
+    }
+  }
+}
+
+@include device-specific($media-phone) {
+  .eu-sklad {
+    display: none;
+  }
+
+  .km-index-page {
+    .white-section {
+      .header-blocks {
+        margin-bottom: -260px;
+        .header-block-item {
+          flex: 0 0 99% !important;
+
+          .block-item-text {
+            padding-right: 15px;
+
+            .block-item-buttons {
+              flex-direction: row;
+              justify-content: space-between;
+
+              button {
+                margin-right: 0 !important;
+                padding-left: 20px;
+                padding-right: 20px;
+              }
+            }
+          }
+
+          &:first-child {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    .dark-blue-section {
+      .content {
+        padding-top: 375px;
+        .kumuluz-cube {
+          display: none;
+        }
+        .arrow-divider {
+          margin-top: 0 !important;
+        }
+      }
+    }
+    .competition-section {
+      padding-top: 40px;
+
+      .competition-list {
+        .competition-item {
+          width: 100%;
+
+          div:first-child {
+            display: flex;
+            justify-content: center;
+          }
+          img {
+            width: 30%;
+          }
+          .competition-item-title {
+            text-align: center;
+          }
+          .competition-item-content {
+            text-align: center;
+          }
+        }
+      }
+    }
+    .business-apis-section {
+      margin-top: 40px;
+
+      .header {
+        margin-top: 0;
+      }
+      .blue-block-section {
+        .image-blue-block {
+          position: relative;
+          top: -16vh;
+        }
+      }
+    }
+    .light-blue-section {
+      .blue-block-section {
+        .image-blue-block {
+          position: relative;
+          top: -16vh;
+        }
+      }
+    }
+    .highlights {
+      margin-top: 40px;
+
+      .highlight-item {
+        width: 90%;
+        margin-bottom: 60px;
+      }
+    }
+    .awards-title {
+      text-align: center;
+    }
+    .other-products-section {
+      .tile-smaller {
+        flex: 0 0 100% !important;
+      }
+    }
+  }
+}
+
+@include device-specific($media-md) {
+  .eu-sklad {
+    display: none;
+  }
+
+  .km-index-page {
+    .dark-blue-section {
+      .content {
+        .arrow-divider {
+          margin-top: -15% !important;
+        }
+      }
+    }
+    .business-apis-section {
+      margin-top: 40px;
+
+      .blue-block-section {
+        .image-blue-block {
+          position: relative;
+          top: -22vh;
+        }
+      }
+    }
+    .light-blue-section {
+      .blue-block-section {
+        .image-blue-block {
+          position: relative;
+          top: -22vh;
+        }
+      }
+    }
+  }
+}
+
+@include device-specific($media-xl) {
+  .eu-sklad {
+    display: block;
+  }
+
+  .km-index-page {
+    .dark-blue-section {
+      .content {
+        .arrow-divider {
+          margin-top: -15% !important;
+        }
+      }
+    }
+    .business-apis-section {
+      .blue-block-section {
+        .image-blue-block {
+          position: relative;
+          top: -160px;
+        }
+      }
+      .header {
+        margin-top: -80px;
+      }
+    }
+    .light-blue-section {
+      .blue-block-section {
+        .image-blue-block {
+          position: relative;
+          top: -18vh;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "kumuluz.com",
+  "version": "1.0.0",
+  "description": "New kumuluz.com website",
+  "private": true,
+  "scripts": {
+    "start": "gatsby develop",
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.sunesis.si/kumuluz/ee.kumuluz.com"
+  },
+  "keywords": [
+    "kumuluz"
+  ],
+  "author": "Miha Jamsek <miha_jamsek@windowslive.com> (https://github.com/Jamsek-m)",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-brands-svg-icons": "^5.3.1",
+    "@fortawesome/free-regular-svg-icons": "^5.3.1",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/react-fontawesome": "^0.1.2",
+    "animejs": "^2.2.0",
+    "bootstrap": "^4.1.3",
+    "eslint-plugin-react": "^7.11.1",
+    "firebase": "4.12.1",
+    "gatsby": "1.9.277",
+    "gatsby-link": "^1.6.46",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-plugin-sass": "^1.0.26",
+    "gatsby-plugin-sharp": "^1.6.48",
+    "gatsby-remark-images": "^1.5.67",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44",
+    "google-libphonenumber": "^3.1.14",
+    "i18next": "^11.9.0",
+    "i18next-browser-languagedetector": "^2.2.3",
+    "i18next-localstorage-cache": "^1.1.1",
+    "i18next-xhr-backend": "^1.5.1",
+    "react": "^16.4.2",
+    "react-async-script-loader": "^0.3.0",
+    "react-country-region-selector": "^1.4.1",
+    "react-dom": "^16.4.2",
+    "react-helmet": "^5.2.0",
+    "react-i18next": "^7.12.0",
+    "reactstrap": "^6.4.0",
+    "validator": "^10.7.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "eslint": "^5.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}

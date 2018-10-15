@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "title": "Digital platform - Kumuluz"
+  },
+  "header": {
+    "title": "Kumuluz Digital Platform",
+    "subtitle": "Everything you need to fast-track your digital transformation, with the open, light-weight digital platform."
+  },
+  "digit-strategy": {
+    "title": "Your digital strategy",
+    "subtitle-1": "Ideas for digital products and services, existing monolithic applications, existing IT infrastructure, back-end applications, your development team and IT staff.",
+    "subtitle-2": "Use only parts of the platform vital for your digital transformation"
+  },
+  "digit-platform": {
+    "title": "A network of interconnected, scalable and agile digital applications",
+    "learn-more": "Learn more"
+  },
+  "what-can": {
+    "title": "What KumuluzDigital platform can do for you",
+    "left": {
+      "para-1": "KumuluzDigital platform is the award-winning solution that companies use to implement and accelerate their digital transformation.",
+      "para-2": "KumuluzDigital Platform provides you all the building blocks necessary to fast-track the development of your digital business. The platform enables you the implementation of your digital strategy.",
+      "para-3": "With KumuluzDigital, you will introduce the latest cloud-native concepts, microservices, APIs and Docker containers. You will adopt agile development, DevOps principles and Continuous Delivery to fast track your development. You will be finally able to modernize your monolithic applications."
+    },
+    "right": {
+      "para-1": "The benefits are enormous. You will significantly reduce time-to-market for your digital products, services, applications and marketplace solution with using our platform, agile, DevOps and other cloud-native methods for continuous delivery.",
+      "para-2": {
+        "strong": "And there is much more",
+        "text": "KumuluzDigital offers you the tools to create sophisticated responsive user experience, rapidly develop your own digital marketplaces, implement API economy business models, communicate with your customers in new ways, engage customers, sense their needs and respond instantly, gather digital payments and add many other exciting features, indispensable for the digital economy."
+      }
+    }
+  },
+  "components": {
+    "api": {
+      "title": "KumuluzAPI",
+      "header": {
+        "subtitle": "Overview and manage your APIs in one place. Get ready for API economy.",
+        "items": {
+          "item-1": "Auto API discovery and catalogue population",
+          "item-2": "Multiple gateways support with full security, rate-limiting and authentication",
+          "item-3": "One platform for monitoring, metrics, documentation, API search, etc."
+        }
+      },
+      "about": {
+        "navbar": {
+          "about": {
+            "title": "About the product",
+            "strong": "Expose, manage, control and monetize your APIs and get ready for API economy.",
+            "text": "<p>KumuluzAPI is a lightweight, open, standards-based solution for API Management, API Catalogue, API Gateway, API Marketplace with complete support for cataloguing API-related schemas, such as XML Schemas and JSON documents, providing full insight into APIs, their usage, relations, schemes and dependencies.</p><p>It is based on microservice architecture with full elasticity, scalability and high-availability. Functionalities are exposed through APIs and responsive web application. The KumuluzAPI solution is built to easily integrate with various backend systems, such as ESB, SOA, BPM, different development environments, DevOps (Continuous Integration and Delivery), etc.</p> <p>The product provides support for multiple languages. Currently full support for English and Slovenian is provided. Multiple language support might be important for digitalization within the country and region.</p>",
+            "box": {
+              "title": "Why should you choose KumuluzAPI?",
+              "item-1": "Lightweight, standards-based solution",
+              "item-2": "Better overview",
+              "item-3": "All documentation in one place",
+              "item-4": "Auto API discovery and catalogue population"
+            }
+          },
+          "features": {
+            "title": "Main features",
+            "item-1": "Create a catalogue of services and their APIs for REST and SOAP",
+            "item-2": "Automatically discover APIs and services and populate the catalogue without manual intervention",
+            "item-3": "Integrate with DevOps and Continuous integration/delivery",
+            "item-4": "Document your APIs in a standard, language and technology independent way",
+            "item-5": "Search, filter, test APIs and service",
+            "item-6": "Full versioning support for APIs on different environments and simultaneous version support",
+            "item-7": "Complete lifecycle management of APIs",
+            "item-8": "Full support for microservices and integration with KumuluzEE",
+            "item-9": "Dependency analysis and visualization for APIs, applications and schemas",
+            "item-10": "Included schema (XSD/JSON) support for searching and viewing schemas used in APIs, including dependency analysis in visualization",
+            "item-11": "Multiple plans, SLA, QoS, rate limiting and monetization options",
+            "item-12": "SLA monitoring and real-time compliance",
+            "item-13": "API access approval workflows",
+            "item-14": "Multiple gateways support with full security, rate-limiting and authentication support through multiple providers (such as LDAP, OAuth2, Kerberos, etc.)",
+            "item-15": "Metrics, QoS and SLA monitoring",
+            "item-16": "API and service health monitoring",
+            "item-17": "Support for application servers, virtualized environments, PaaS and Docker-style environments"
+          },
+          "customer": {
+            "title": "Customer & use cases",
+            "subtitle": "Customer & use cases",
+            "content": "<p>Where can you use KumuluzAPI?</p><p>You have few services that you want to expose to third parties. For example, municipality could use KumuluzAPI to expose land register to some other branch of government. With the KumuluzAPI you can manage who has access to exposed APIs, who's using them, you have central management platform for everything. Beside that KumuluzAPI handles security for you, so you only need to manage who you allow to use exposed services.</p>"
+          },
+          "demo": {
+            "title": "Demo",
+            "tryout": "Try it out"
+          }
+        }
+      },
+      "motto": {
+        "title": "APIs allow different applications to talk to each other.",
+        "subtitle": "But, API management can lead to security problems, performance issues and lower productivity if not done properly."
+      },
+      "benefits": {
+        "title": "Main benefits and features of KumuluzAPI",
+        "subtitle": "Lightweight, open, standards-based solution for API Management.",
+        "items": {
+          "item-1": {
+            "title": "Dynamic APIs discovery",
+            "desc": "You can discover APIs either through API Catalogue or in programmatic way using ZooKeeper as a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services."
+          },
+          "item-2": {
+            "title": "Advanced API usage analytics",
+            "desc": "Analytics on API usage, client requests, responses, geolocation of requests, responses, etc. is provided. Reports can be generated automatically. Furthermore, all data can be exported into a Big Data/Analytics tool for further analysis."
+          },
+          "item-3": {
+            "title": "Monitor your system in real-time",
+            "desc": "Real-time monitoring of API health, response times, requests, API clients, gateway performance and scalability and other parameters are supported. Full support for specifying SLA requirements for each API are provided with real-time monitoring of SLA compliance and alarms when SLA parameters are not meet."
+          },
+          "item-4": {
+            "title": "Diagnose and log requests/responses",
+            "desc": "All requests and responses over gateways are logged. History, audit trail of requests and responses is available online or in generated report. Supports full API diagnostic. Active API monitoring is performed in user-configurable intervals (such as every 5 minutes). Active service health is performed and real-time diagnostics, monitoring and alarm notifications are supported."
+          },
+          "item-5": {
+            "title": "Rule-based SLA control",
+            "desc": "KumuluzAPI provides full QoS and SLA control. This includes request throttling, which is rule based and can be flexibly configured. All throttling is related to usage plan. Each API can have one or more usage plans. Fully automatic inbound and outbound SOAP/REST and XSD/JSON transformations are supported and can be configured for each gateway. KumuluzAPI provides full real-time monitoring of SLA parameters and their compliance for each service."
+          }
+        },
+        "after-text": {
+          "colored": "Start benefiting",
+          "text": "from the API economy."
+        }
+      },
+      "use-cases": {
+        "title": "Capabilities, Use Cases & Customer Stories",
+        "items": {
+          "config": {
+            "title": "API Configuration",
+            "item-1": {
+              "bold": "Manual through user interface",
+              "text": "Use modern web application to manage configuration and your APIs."
+            },
+            "item-2": {
+              "bold": "Programmatically through APIs exposed by KumuluzEE",
+              "text": "All configuration is available through KumuluzEE APIs. You can use this to manage your API programmatically."
+            },
+            "item-3": {
+              "bold": "Automatic API configuration at build time",
+              "text": "At build-time, direct integration with Jenkins and Maven enables that APIs are configured, documented and registered automatically as a part of the build cycle."
+            },
+            "item-4": {
+              "bold": "Automatic API configuration at deploy time.",
+              "text": "At deploy-time, APIs are configured, documented and registered as a part of deploy procedure, utilizing tight integration with Nexus repository of artefacts."
+            }
+          },
+          "docs": {
+            "title": "API Documentation",
+            "para": "The documentation of APIs can be either entered manually through UI or automatically integrated.",
+            "item-1": {
+              "bold": "Auto-generated documentation",
+              "text": "Basic documentation is auto-generated out of WSDL for SOAP services and Swagger or RAML for REST services."
+            },
+            "item-2": {
+              "bold": "Supports dependencies and diagrams",
+              "text": "Complete solution for documenting APIs in standardized and conformant way, including full documentation, dependencies, UML diagrams, BPMN diagrams and other means of documentation."
+            },
+            "item-3": {
+              "bold": "Markdown support",
+              "text": "API documentation options also include markdown."
+            }
+          },
+          "publishing": {
+            "title": "API Publishing",
+            "para": "You can publish your own APIs to reduce data silos in your company or build relationships with outside developers.",
+            "item-1": {
+              "bold": "API publishing is supported via API gateways.",
+              "text": "Each API can be published for one or more organizations and on one or more gateways."
+            },
+            "item-2": {
+              "bold": "Publishing APIs for different targets",
+              "text": "APIs can be published for different target user groups. Each API can be published on for one or more organizations and on one or more gateways."
+            },
+            "item-3": {
+              "bold": "Gateway configuration",
+              "text": "For each gateway, security, authentication, rate limiting, SLA and other parameters can be individually configured."
+            }
+          },
+          "security": {
+            "title": "API Security & authentication",
+            "content": "<p>REST services can be secured using SSL/TLS, for authentication OAuth, basic HTTP, SAML, custom security headers and nounces are supported.</p><p>Authentication provider can be one or more external providers, such as LDAP, Oauth2, Kerberos, etc. SOAP service can be secured using WS-Security. Username, X.509 and SAML profiles are supported. Also, basic HTTP and SSL/TLS is supported.</p><p>For each endpoint, full endpoint validation can be enabled. Endpoint translation from gateway to server (virtual endpoint resolution) is automatic.</p>"
+          }
+        }
+      },
+      "prod-grid": "Discover other Kumuluz Digital Building Blocks"
+    },
+    "ee": {
+      "title": "KumuluzEE",
+      "header": {
+        "subtitle": "A lightweight open-source microservice framework.",
+        "items": {
+          "item-1": "Java Duke's Choice Award Winner",
+          "item-2": "MicroProfile compliant",
+          "item-3": "Cloud native architecture with smallest JAR"
+        }
+      },
+      "about": {
+        "about": {
+          "title": "About the product",
+          "left": {
+            "title": "Develop microservices with Java EE technologies",
+            "para-1": "is a lightweight framework for developing microservices using standard Java EE technologies and migrating existing Java EE applications to microservices. KumuluzEE packages microservices as standalone JARs. KumuluzEE microservices are lightweight and optimized for size and start-up time. They fit perfectly with Docker containers.",
+            "para-2": "KumuluzEE also provides extensions for developing common patterns in cloud native architectures, including configuration, logging, discovery, circuit-breakers, metrics, security, event streaming and more."
+          },
+          "right": {
+            "title": "Why should you choose KumuluzEE?",
+            "item-1": {
+              "title": "Fastest startup",
+              "desc": ""
+            },
+            "item-2": {
+              "title": "Smallest JAR",
+              "desc": ""
+            },
+            "item-3": {
+              "title": "Fully cloud native",
+              "desc": ""
+            },
+            "item-4": {
+              "title": "Optimized for Docker and Kubernetes",
+              "desc": ""
+            }
+          }
+        },
+        "features": {
+          "title": "Main features",
+          "left-para": "KumuluzEE allows you to decompose Java EE applications into microservices and prepare them for the cloud. It allows you to create standalone lightweight Java EE microservices that can be efficiently deployed, executed and scaled in the cloud on PaaS and Docker-like environments or as standalone applications. KumuluzEE microservices have minimal footprint and require minimal or no configuration. KumuluzEE automates the tasks, related to the deployment and configuration of Java EE microservices, thus overcoming the major drawback of the microservice architecture and eliminating the need for an application server.",
+          "right": {
+            "title": "At a glance",
+            "item-1": {
+              "title": "Develop Java EE microservices ready for the Cloud",
+              "desc": ""
+            },
+            "item-2": {
+              "title": "Migrate existing Java EE application to microservices",
+              "desc": ""
+            },
+            "item-3": {
+              "title": "Minimal footprint, efficient deployment and scalability in the Cloud",
+              "desc": ""
+            },
+            "item-4": {
+              "title": "Complete control over Java EE components",
+              "desc": ""
+            }
+          }
+        },
+        "customers": {
+          "title": "Customers & Use cases",
+          "item-1": {
+            "quote": "KumuluzEE is a great community effort to power Java EE API based microservices, especially on the cloud.",
+            "author-title": "Senior Java Technologist, Author, Speaker"
+          },
+          "item-2": {
+            "quote": "KumuluzEE truly brings microservice architecture to Java EE. Maven-ready, Fat JAR, modularized dependencies, Docker-ready, and pluggable web container makes it ready to be deployable in any cloud environment. If you are building apps using Java EE, start your microservice journey with KumuluzEE!",
+            "author-title": "Vice President, Developer Relations at Couchbase"
+          },
+          "item-3": {
+            "quote": "Although Java EE specifications and application servers have come down in size, it still wasn't a first technology choice for today's micro services developer when compared to say NodeJS or Spring Boot. That's now changed as KumuluzEE brings a light-weight, application server free way of creating micro services with the full power of Java, the JVM and JavaEE behind it! This innovative stack is truly a worthy Duke Awards winner in 2015.",
+            "author-title": "Java Champion and CEO of jClarity"
+          },
+          "item-4": {
+            "quote": "If you are exploring Microservices for Java EE, you need to take a look at KumuluzEE's novel yet simple approach to automating microservices for you.",
+            "author-title": "Java Champion and Founder of Rightrix Solutions and IndicThreads"
+          }
+        },
+        "info": {
+          "title": "Get more info",
+          "left": {
+            "title": "Community",
+            "subtitle": "Free",
+            "item-1": "KumuluzEE unlimited usage",
+            "item-2": "GitHub issues support"
+          },
+          "right": {
+            "title": "Enterprise",
+            "item-1": "Migration of existing Java EE applications",
+            "item-2": "Full interoperability with Java EE application servers",
+            "item-3": "Support for EJB and JMS",
+            "item-4": "Solution for integrated documentation of microservices",
+            "item-5": "Integration with API Management",
+            "item-6": "Hot fixes",
+            "item-7": "Patch releases",
+            "item-8": "Extended support for implementations",
+            "item-9": "Web and email support",
+            "item-10": "24h response for support"
+          }
+        }
+      },
+      "motto": {
+        "title": "KumuluzEE is part of MicroProfile",
+        "subtitle": "The MicroProfile is a baseline platform definition that optimizes Enterprise Java for a microservices architecture and delivers application portability across multiple MicroProfile runtimes."
+      },
+      "benefits": {
+        "title": "Main benefits and features of KumuluzEE",
+        "subtitle": "Develop microservices with Java EE technologies",
+        "after-text": {
+          "colored": "Start developing",
+          "text": "your digital applications in a future-proof way."
+        },
+        "items": {
+          "item-1": {
+            "title": "Pure Java EE based microservices",
+            "desc": "Develop pure Java EE based microservices using standard Java EE APIs and technologies and pack and execute them as stand-alone (Fat/Uber) JARs."
+          },
+          "item-2": {
+            "title": "Leverage your existing knowledge to migrate applications",
+            "desc": "Leverage your existing Java EE knowledge and extend it to gradually migrate existing Java EE applications to microservices and cloud-native architecture with common cloud-native patterns."
+          },
+          "item-3": {
+            "title": "Configurable Java EE environment",
+            "desc": "KumuluzEE is not a traditional Java EE app server, neither does it embed an app-server inside microservices. It provides configurable Java EE environment inside stand-alone JARs, which only require JRE (Java Runtime Environment) to execute."
+          },
+          "item-4": {
+            "title": "Fastest start-up & small footprint",
+            "desc": "KumuluzEE generates pure, efficient Java microservices, which start considerably faster and have lower footprint than the majority of other Java microservice frameworks. Microservices are light-weight with small footprint, rapid start and container-ready."
+          },
+          "item-5": {
+            "title": "Open source",
+            "desc": "KumuluzEE is fully open, standard-based and extensible."
+          },
+          "item-6": {
+            "title": "Zero lock-in",
+            "desc": "KumuluzEE does not require any specific code. Everything is configured in pom.xml. You have the complete control over Java EE components you are using."
+          },
+          "item-7": {
+            "title": "Integrated with Kumuluz family",
+            "desc": "KumuluzEE is fully integrated with KumuluzAPI, an innovative microservice API Management and other Kumuluz and KumuluzDigital products."
+          },
+          "item-8": {
+            "title": "Compatible with Docker and Kubernetes",
+            "desc": "KumuluzEE microservices can be packed as Docker containers and provide full support for container environments. These microservices are fully compatible with Kubernetes."
+          },
+          "item-9": {
+            "title": "API gateway support and more",
+            "desc": "KumuluzEE provides full support for configuration, service discovery, health, logging, security, fault tolerance, circuit-breakers, event streaming, metrics, REST patterns and more. KumuluzEE microservices provide first-class support for API gateways "
+          }
+        }
+      },
+      "capabilities": {
+        "migration": {
+          "title": "Migration to microservices",
+          "subtitle": "Gradually migrate existing Java EE application to the microservice architecture",
+          "item-1": {
+            "title": "Support for gradual migration",
+            "desc": "KumuluzEE provides full support for gradual migration of existing Java EE application to the microservice architecture."
+          },
+          "item-2": {
+            "title": "Support for step-by-step migration",
+            "desc": "Step-by-step migration is supported so that you can extract one or more services from existing application and migrate them to microservices."
+          },
+          "item-3": {
+            "title": "Classical Java EE application server",
+            "desc": "Part of your application can run as microservices and the rest of the application can continue to operate on your classical Java EE application server. KumuluzEE provides full interoperability for container authentication, CDI, remote EJB calls, remote JMS, data sources, etc."
+          },
+          "item-4": {
+            "title": "Interoperability",
+            "desc": "Microservices build with KumuluzEE will have native interoperability with the rest of the application on your Java EE application server."
+          }
+        },
+        "comparison": {
+          "title": "Comparison with other solutions",
+          "subtitle": "Comparison with other solutions",
+          "para-1": "When selecting a framework for Java EE microservices, you should consider the start-up time, size and memory footprint of a microservice.",
+          "para-2": {
+            "before": "The article",
+            "link": "Java EE microservices: why start-up time and size matter",
+            "after": "shows an interesting comparison of MicroProfile Java EE frameworks, including WebSphere Liberty, WildFly Swarm, Payara, TomEE and KumuluzEE."
+          },
+          "para-3": "KumuluzEE has achieved the fastest start-up time of 3 seconds and the smallest JAR size (11 MB):"
+        },
+        "docker": {
+          "title": "Docker & Kubernetes support",
+          "subtitle": "Docker & Kubernetes support",
+          "item-1": {
+            "title": "Cloud native",
+            "desc": "KumuluzEE allows you to extend your microservices with common cloud-native patterns."
+          },
+          "item-2": {
+            "title": "Support for",
+            "desc": "KumuluzEE provides full support for config, discovery, health, logging, security, fault tolerance, circuit-breakers, event streaming, metrics, REST patterns and more."
+          },
+          "item-3": {
+            "title": "Docker containers",
+            "desc": "KumuluzEE microservices can be packed as Docker containers and provide full support for container environments."
+          },
+          "item-4": {
+            "title": "Compatible with Kubernetes",
+            "desc": "KumuluzEE microservices are fully compatible with Kubernetes."
+          }
+        },
+        "framework": {
+          "title": "Complete and comprehensive framework",
+          "subtitle": "Complete and comprehensive framework",
+          "item-1": "KumuluzEE REST for implementation of common, advanced and flexible REST API functionalities and patterns. Includes support for exposing JPA entities through REST.",
+          "item-2": "KumuluzEE Config for dynamic centralized configuration (using ENV variables or config server, such as etcd or Consul).",
+          "item-3": "KumuluzEE Logs for advanced microservice framework for logging.",
+          "item-4": "KumuluzEE Discovery for dynamic service discovery (etcd or Consul). Fully compatible with Kubernetes.",
+          "item-5": "KumuluzEE Metrics for easy collection and reporting of performance metrics.",
+          "item-6": "KumuluzEE Security for easy integration with OAuth2/OpenID identity and access management providers.",
+          "item-7": "KumuluzEE Health for implementing health checks and exposing microservice health information.",
+          "item-8": "KumuluzEE Fault Tolerance for implementing fault tolerance patterns, circuit-breakers, and decoupling microservices.",
+          "item-9": "KumuluzEE Event Streaming for event streaming support using Apache Kafka.",
+          "item-10": "KumuluzEE Reactive for integration of reactive streams (Vert.x, ReactiveX).",
+          "item-11": "KumuluzEE CORS for Cross-Origin Resource Sharing (CORS) support.",
+          "item-12": "KumuluzEE Swagger for Swagger (OpenAPI 2) support and visualization.",
+          "item-13": "KumuluzEE OpenAPI for OpenaAPI 3 support, interface generation and visualization",
+          "item-14": "KumuluzEE Blockchain for blockchain-enabled microservices."
+        }
+      },
+      "prod-grid": "Discover other Kumuluz Digital Building Blocks"
+    },
+    "integration": {
+      "title": "KumuluzIntegration",
+      "header": {
+        "subtitle": "Bring all your data to one place and become a data-driven organization",
+        "items": {
+          "item-1": "Real-time data integration from any source",
+          "item-2": "Choose many pre-prepared integrations from our library",
+          "item-3": "No integration hassle, at affordable price"
+        }
+      },
+      "about": {
+        "about": {
+          "title": "About the product",
+          "left": {
+            "title": "Integrate on-premise applications, SaaS and IoT devices with on premise back-end applications",
+            "para-1": "addresses the integration challanges between SaaS applications and/or on premise applications. KumuluzIntegration enables you to integrate and synchronize your SaaS and/or on premise applications in matter of minutes.",
+            "para-2": "Using cutting edge innovations in data integration, such as event driven integration, automatic schema matching and building common data model makes integration easier and faster. The data between applications gets synchronized in real-time."
+          },
+          "right": {
+            "title": "Why should you choose KumuluzIntegration?",
+            "item-1": {
+              "title": "Fast integration",
+              "desc": "32% to 80% faster integration than competitors."
+            },
+            "item-2": {
+              "title": "Reduced migration time",
+              "desc": "75% to 90% reduced migration time from legacy applications to SaaS."
+            },
+            "item-3": {
+              "title": "Pre-prepared integrations",
+              "desc": "A rich set of pre-prepared integrations for popular commercial apps."
+            },
+            "item-4": {
+              "title": "Save costs",
+              "desc": "At least 20% less expensive than direct competition and more than 50% lower Total Cost of Ownership."
+            }
+          }
+        },
+        "features": {
+          "title": "Main features",
+          "item-1": "Integration",
+          "item-2": "Backup & migration",
+          "item-3": "Master Data Management & Big data",
+          "item-4": "IoT device integration",
+          "item-5": "Hub based, real-time, event driven",
+          "item-6": "Automatic shema matching"
+        },
+        "customers": {
+          "title": "Customers & Use cases"
+        },
+        "info": {
+          "title": "Get more info"
+        }
+      },
+      "motto": {
+        "title": "We live in a time when data is considered as new Oil.",
+        "subtitle": "Kumuluz integration platform enables you to bring data together from different sources and most importantly helps you refine your data."
+      },
+      "benefits": {
+        "title": "Main benefits and features of KumuluzIntegration",
+        "subtitle": "Fast, scalable and simplified real-time data integration, that will give a completely new edge to your business intelligence",
+        "after-text": {
+          "colored": "Start developing",
+          "text": "your digital applications in a future-proof way."
+        },
+        "items": {
+          "item-1": {
+            "title": "Hub-based integration architecture",
+            "desc": "Requires only one adapter per application irrespective of the number of integrated applications."
+          },
+          "item-2": {
+            "title": "Automatic schema matching",
+            "desc": "Uses pattern based identification of matching data and enables automatic or semi-automatic generation of data mapping, which greatly reduces time and effort, particularly for large and complex schemas."
+          },
+          "item-3": {
+            "title": "Cross-provider common data model generation",
+            "desc": "Automatically builds the joint common data model of all integrated applications, which enables 360° view of data, exposing master data entities, BigData analytics, data mining and reporting, greatly simplified mobile device data access"
+          },
+          "item-4": {
+            "title": "Event driven, real-time integration",
+            "desc": "Changes are synced to integrated applications in the moment they occur."
+          },
+          "item-5": {
+            "title": "Simplified integration of IoT enabled devices",
+            "desc": "Integrate your SaaS and on-premise applications with IoT enabled devices through easy-to-understand business APIs, which makes your integrations independent of underlying technology and protocols, reduces vendor lock-in and enables use of different IoT devices in a transparent way."
+          },
+          "item-6": {
+            "title": "Pre-implemented and open-source adapters",
+            "desc": "Large set of pre-implemented adapters and open-source model for community adapter development. It’s never been easier to select a pre-developed adapter or to develop your own adapter."
+          }
+        }
+      },
+      "use-cases": {
+        "integration": {
+          "title": "Data Integration",
+          "subtitle": "Data integration",
+          "item-1": "Integrate SaaS to SaaS or SaaS to on-premise applications in a simple and efficient way.",
+          "item-2": "Integrate your SaaS and on-premise applications with Internet-of-Things enabled devices."
+        },
+        "migration": {
+          "title": "Data migration & backup",
+          "subtitle": "Data migration & backup",
+          "item-1": "Migrate on-premise applications to the cloud and between SaaS vendors without a hassle and prevent vendor lock-in.",
+          "item-2": "Your data in the cloud is continuously backed-up to a safe storage location under your control."
+        },
+        "management": {
+          "title": "Data Management",
+          "subtitle": "Data Management",
+          "item-1": "Enable Master Data Management, which is greatly simplified through automatic building of master data entities.",
+          "item-2": "Perform powerful Big Data analytics on top of integrated data in real-time."
+        }
+      },
+      "prod-grid": "Discover other Kumuluz Digital Building Blocks"
+    },
+    "ux": {
+      "title": "KumuluzUx",
+      "header": {
+        "subtitle": "Sophisticated framework for enterprise-grade web and mobile user interface with superb experience.",
+        "items": {
+          "item-1": "Rich set of advanced HTML5 and JSF components",
+          "item-2": "BPM integration",
+          "item-3": "Support for mobile platforms"
+        }
+      },
+      "about": {
+        "about": {
+          "title": "About the product",
+          "left": {
+            "title": "Create sophisticated enterprise-grade responsive web and mobile applications",
+            "para": "KumuluzUX Web/Mobile Framework provides a rich set of advanced HTML5 and JSF components for rapid development of enterprise-grade web and mobile user interfaces with superb user experience. The competitive advantage of the KumuluzUX are sophisticated composite components for rapid development of web forms, human tasks, business process interaction, reports and other common interfaces in enterprise information systems. KumuluzUX includes custom components for enterprise-grade user interfaces from banking, financial, insurance and power distribution domains. With KumuluzUX, such interfaces and/or forms and reports can be developed with single line of code."
+          },
+          "right": {
+            "title": "Why should you shoose KumuluzUX?",
+            "item-1": {
+              "title": "Sophisticated composite components",
+              "desc": "For development of web forms, human tasks, business process interaction, reports and other common interfaces"
+            },
+            "item-2": {
+              "title": "Rapid development of web forms",
+              "desc": "Interfaces and/or forms and reports can be developed with single line of code."
+            },
+            "item-3": {
+              "title": "Custom components",
+              "desc": "For enterprise-grade user interfaces from banking, financial, insurance and power distribution domains."
+            }
+          }
+        },
+        "features": {
+          "title": "Main features",
+          "item-1": "Rich set of advanced HTML5 and JSF components for rapid development of enterprise grade web and mobile user interfaces",
+          "item-2": "Full support for BPM and human task integration with integration with IBM BPM, Oracle SOA/BPM Suite and JBoss jBPM",
+          "item-3": "Business session state management",
+          "item-4": "Easy integration of different applications into common UI",
+          "item-5": "Reporting",
+          "item-6": "Domain specific components for banking, finance, insurance and power distribution",
+          "item-7": "Native",
+          "item-8": "Superb user experience"
+        },
+        "customers": {
+          "title": "Customers & Use cases"
+        },
+        "info": {
+          "title": "Get more info"
+        }
+      },
+      "motto": {
+        "title": "User experience is key. It’s the difference between keeping and loosing customer.",
+        "subtitle": "With KumuluzUX you don’t need to worry how it will look on different platforms (mobile, web). KumuluzUX takes care of that and displays your product responsively."
+      },
+      "benefits": {
+        "title": "Main benefits and features of KumuluzUX",
+        "subtitle": "Create sophisticated enterprise-grade progressive, responsive and fluid web and mobile applications with superb user experience, BPM integration and omni-channel support.",
+        "after-text": {
+          "colored": "Start building",
+          "text": "your digital applications platform independent."
+        },
+        "items": {
+          "item-1": {
+            "title": "Rich set of advanced HTML5 and JSF components",
+            "desc": "Use KumuluzUX advanced components for rapid development of enterprise grade web and mobile user interfaces."
+          },
+          "item-2": {
+            "title": "Generate layouts from data source",
+            "desc": "KumuluzUX can generate layouts and render the content directly from data source, ranging from APIs, services, SOAP, REST, OData to data sources such as JDBC, ODBC and JPA."
+          },
+          "item-3": {
+            "title": "BPM integration",
+            "desc": "KumuluzUX provides tight BPM integration with a rich set of component for rapid development of Process Applications using IBM BPM, Oracle SOA/BPM Suite and/or JBoss jBPM."
+          },
+          "item-4": {
+            "title": "State management and reporting",
+            "desc": "KumuluzUX provides specific components for state management and reporting."
+          },
+          "item-5": {
+            "title": "Domain integration",
+            "desc": "Domain specific components for banking, finance, insurance and power distribution."
+          }
+        }
+      },
+      "use-cases": {
+        "components": {
+          "subtitle": "Smart and configurable components",
+          "title": "Smart and configurable components",
+          "item-1": "You can configure components according to your needs.",
+          "item-2": "Smart components can generate layouts and render content.",
+          "item-3": "KumuluzUX can generate layouts and render the content directly from data source.",
+          "item-4": "Support for different data sources, ranging from APIs, services, SOAP, REST, OData to data sources such as JDBC, ODBC and JPA."
+        },
+        "integration": {
+          "title": "BPM and human task integration",
+          "subtitle": "BPM and human task integration",
+          "item-1": "KumuluzUX provides tight BPM integration with a rich set of component for rapid development of Process Applications using IBM BPM, Oracle SOA/BPM Suite and/or JBoss jBPM.",
+          "item-2": "Specific components for state management.",
+          "item-3": "Specific components for reporting.",
+          "item-4": "Support for human task integration with integration with IBM BPM, Oracle SOA/BPM Suite and JBoss jBPM"
+        },
+        "usecases": {
+          "title": "Use cases"
+        },
+        "stories": {
+          "title": "Customer stories"
+        }
+      },
+      "prod-grid": "Discover other Kumuluz Digital Building Blocks"
+    },
+    "marketplace": {
+      "title": "KumuluzMarketplace",
+      "header": {
+        "subtitle": "Rapidly develop digital marketplace solutions with full support for digital business models"
+      },
+      "coming-soon": "COMING SOON",
+      "prod-grid": "Discover other Kumuluz Digital Building Blocks"
+    },
+    "crowdsensing": {
+      "title": "KumuluzCrowdsensing",
+      "header": {
+        "subtitle": "Platform for automatic data collection and measurement through smart devices"
+      },
+      "coming-soon": "COMING SOON",
+      "prod-grid": "Discover other Kumuluz Digital Building Blocks"
+    }
+  }
+}

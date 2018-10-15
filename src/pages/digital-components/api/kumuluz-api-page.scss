@@ -1,0 +1,58 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+@import "../colors";
+.colored {
+  font-weight: bold;
+}
+
+.km-kumuluz-api-page {
+  .api-demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+    .button {
+      margin-top: 40px;
+    }
+  }
+  .divider-container {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+
+    .divider {
+      width: 25%;
+      background-color: $grey-100;
+      height: 4px;
+    }
+  }
+  .section-content {
+    background-color: $grey-100;
+    padding: 30px;
+  }
+  .section-image {
+    img {
+      width: 100%;
+    }
+  }
+  .prod-grid-title {
+    text-align: center;
+    font-weight: 700;
+    color: $blue-400;
+    margin-bottom: 50px;
+  }
+}
+
+@include device-specific($media-phone) {
+  .km-kumuluz-api-page {
+    .divider-container {
+      .divider {
+        width: 80%;
+      }
+    }
+  }
+}

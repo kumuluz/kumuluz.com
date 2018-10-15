@@ -1,0 +1,34 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.km-kumuluz-crowdsensing-page {
+  .divider-container {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+
+    .divider {
+      width: 25%;
+      background-color: $grey-100;
+      height: 4px;
+    }
+  }
+  .coming-soon {
+    font-weight: 700;
+    color: $blue-400;
+  }
+  .prod-grid-title {
+    text-align: center;
+    font-weight: 700;
+    color: $blue-400;
+    margin-bottom: 50px;
+  }
+}
+
+@include device-specific($media-phone) {
+  .km-kumuluz-crowdsensing-page {
+    .coming-soon {
+      margin-top: 40px;
+    }
+  }
+}

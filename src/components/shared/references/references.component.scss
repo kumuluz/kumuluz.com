@@ -1,0 +1,72 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.km-references-component {
+  margin-bottom: 40px;
+
+  .title {
+    display: flex;
+    justify-content: center;
+
+    h4 {
+      text-align: center;
+      color: $blue-400;
+      font-weight: 700;
+      font-size: 1.625rem;
+    }
+  }
+  .reference-list {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .reference-item {
+      width: 16%;
+      position: relative;
+      top: 0;
+      left: 0;
+
+      display: flex;
+      align-items: center;
+      height: 100px;
+      margin: 10px;
+
+      img {
+        height: auto;
+        width: 100%;
+      }
+      span {
+        display: none;
+      }
+      &:hover {
+        span {
+          position: absolute;
+          top:0;
+          left: 0;
+          background: rgba(255, 255, 255, 0.9);
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          height: 100px;
+          width: 100%;
+
+          p {
+            text-align: center;
+            font-size: 1.25rem;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include device-specific($media-phone) {
+  .km-references-component {
+    .reference-item {
+      width: 40% !important;
+    }
+  }
+}
+

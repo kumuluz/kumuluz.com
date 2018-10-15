@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": ""
+  },
+  "header": {
+    "title": "",
+    "subtitle": ""
+  },
+  "our-partners": {
+    "title": "",
+    "description": ""
+  },
+  "what-we-offer": {
+    "title": "",
+    "description": "",
+    "items": {
+      "item-1": "",
+      "item-2": "",
+      "item-3": "",
+      "item-4": ""
+    }
+  },
+  "integration-partners": {
+    "title": "",
+    "summary": ""
+  }
+}
+

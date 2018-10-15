@@ -1,0 +1,13 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.km-how-it-works-component {
+  .blue-section {
+    padding-top: 60px;
+    background: $blue-top-to-bottom-gradient-light;
+
+    h2, p {
+      color: $white;
+    }
+  }
+}

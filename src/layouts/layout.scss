@@ -1,0 +1,107 @@
+@import "../assets/scss/variables";
+
+$primary: $red;
+$info: $blue-100;
+$enable-rounded: false;
+$grid-columns: 10;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Fonts */
+h1 {
+  font-family: $font-rubik;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 300;
+}
+.h1-subtitle {
+  font-family: $font-asap;
+  font-size: 2rem;
+  line-height: 2.375rem;
+}
+
+h2 {
+  font-family: $font-rubik;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.h2-subtitle {
+  font-family: $font-asap;
+  font-size: 1.5rem;
+  line-height: 1.876rem;
+}
+
+h3 {
+  font-family: $font-rubik;
+  font-size: 1.625rem;
+  line-height: 2rem;
+}
+
+.h3-subtitle {
+  font-family: $font-asap;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+h4 {
+  font-family: $font-rubik;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+}
+
+p {
+  font-family: $font-asap;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+.p-small {
+  font-family: $font-asap;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+}
+div, span {
+  font-family: $font-asap;
+}
+
+/* Buttons */
+
+.btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: $white;
+  background: $red;
+  background: $red-gradient;
+  border-color: $red;
+}
+
+.btn-info,
+.btn-info:hover,
+.btn-info:focus {
+  color: $white;
+}
+
+
+.parallax {
+  position: absolute;
+  width: 100%;
+  z-index: 1020;
+  pointer-events: none;
+}
+
+.img-shadow {
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.3);
+}

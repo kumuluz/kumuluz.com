@@ -1,0 +1,128 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.km-arrow-divider-component {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+// top-left
+.arrow-1-blue {
+  border-color: $blue-400 transparent transparent transparent;
+}
+.arrow-1-white {
+  border-color: $white transparent transparent transparent;
+}
+// top-right
+.arrow-2-blue {
+  border-color: $blue-400 transparent transparent transparent;
+}
+.arrow-2-white {
+  border-color: $white transparent transparent transparent;
+}
+// bottom-left
+.arrow-3-blue {
+  border-color: transparent transparent $blue-400 transparent;
+}
+.arrow-3-white {
+  border-color: transparent transparent $white transparent;
+}
+// bottom-right
+.arrow-4-blue {
+  border-color: transparent transparent $blue-400  transparent;
+}
+.arrow-4-white {
+  border-color: transparent transparent $white  transparent;
+}
+
+
+@include device-specific($media-xs) {
+  // top-left
+  .arrow-1 {
+    border-width: 60px 100vw 0 0;
+  }
+  // top-right
+  .arrow-2 {
+    border-width: 60px 0 0 100vw;
+  }
+  // bottom-left
+  .arrow-3 {
+    border-width: 0 100vw 60px 0;
+  }
+  // bottom-right
+  .arrow-4 {
+    border-width: 0 0 60px 100vw;
+  }
+}
+@include device-specific($media-sm) {
+  // top-left
+  .arrow-1 {
+    border-width: 60px 100vw 0 0;
+  }
+  // top-right
+  .arrow-2 {
+    border-width: 60px 0 0 100vw;
+  }
+  // bottom-left
+  .arrow-3 {
+    border-width: 0 100vw 60px 0;
+  }
+  // bottom-right
+  .arrow-4 {
+    border-width: 0 0 60px 100vw;
+  }
+}
+@include device-specific($media-md) {
+  // top-left
+  .arrow-1 {
+    border-width: 120px 100vw 0 0;
+  }
+  // top-right
+  .arrow-2 {
+    border-width: 120px 0 0 100vw;
+  }
+  // bottom-left
+  .arrow-3 {
+    border-width: 0 100vw 120px 0;
+  }
+  // bottom-right
+  .arrow-4 {
+    border-width: 0 0 120px 100vw;
+  }
+}
+@include device-specific($media-lg) {
+  // top-left
+  .arrow-1 {
+    border-width: 120px 100vw 0 0;
+  }
+  // top-right
+  .arrow-2 {
+    border-width: 120px 0 0 100vw;
+  }
+  // bottom-left
+  .arrow-3 {
+    border-width: 0 100vw 120px 0;
+  }
+  // bottom-right
+  .arrow-4 {
+    border-width: 0 0 120px 100vw;
+  }
+}
+@include device-specific($media-xl) {
+  // top-left
+  .arrow-1 {
+    border-width: 240px 100vw 0 0;
+  }
+  // top-right
+  .arrow-2 {
+    border-width: 240px 0 0 100vw;
+  }
+  // bottom-left
+  .arrow-3 {
+    border-width: 0 100vw 240px 0;
+  }
+  // bottom-right
+  .arrow-4 {
+    border-width: 0 0 240px 100vw;
+  }
+}

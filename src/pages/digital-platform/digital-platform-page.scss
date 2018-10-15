@@ -1,0 +1,70 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/media-mixin";
+
+.km-digital-platform-page {
+  .header {
+    padding-top: 100px;
+
+    img {
+      width: 80%;
+      height: auto;
+    }
+    h1 {
+      font-weight: 700;
+      color: $blue-400;
+    }
+    h2 {
+      font-weight: 300;
+      color: $blue-300;
+    }
+  }
+  .dark-blue-section {
+    background-color: $blue-400;
+
+    h1 {
+      font-weight: 700;
+      color: $white;
+    }
+    p {
+      color: $white;
+    }
+    h2 {
+      color: $white;
+    }
+    .button-area {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .what-can-section {
+    h2 {
+      color: $blue-400;
+      margin-bottom: 60px;
+    }
+    .left-side {
+      p:first-child {
+        font-size: 23px;
+      }
+    }
+  }
+}
+
+@include device-specific($media-phone) {
+  .header {
+    .header-image {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+  }
+  .dark-blue-section {
+    .button-area {
+      margin-bottom: 40px;
+    }
+  }
+
+}

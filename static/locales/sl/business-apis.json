@@ -1,0 +1,593 @@
+{
+  "meta": {
+    "title": "Poslovni APIji - Kumuluz"
+  },
+  "header": {
+    "main-title": "Pospešite razvoj svojih digitalnih izdelkov in aplikacij s <strong>Kumuluzovimi poslovnimi API-ji</strong>",
+    "subtitle-1": "Kumuluzovi poslovni API-ji vam omogočajo, da pospešite razvoj svojih digitalnih aplikacij z vnaprej razvitimi funkcionalnostmi, ki jih potrebuje vsaka digitalna aplikacija.",
+    "items": {
+      "what-are": {
+        "title": "Kaj so Kumuluzovi poslovni API-ji?",
+        "desc": "Poslovni aplikacijski programski vmesniki so vnaprej razviti API-ji za pogosto uporabljene digitalne funkcionalnosti, kot so na primer katalog izdelkov, nakupovalna košarica, upravljanje z naročili, izpolnjevanje naročil, izdajanje računov, plačila itd. Naši vnaprej razviti in preizkušeni vmesniki vam omogočajo, da pospešite svoj razvoj tako, da jih najprej vključite, nato pa uporabljate, prilagodite in razširite.<br/><br/>Kumuluzove poslovne API-je lahko prav tako enostavno integrirate s svojimi zalednimi aplikacijami in sistemi."
+      },
+      "who-are": {
+        "title": "Komu so namenjeni Kumuluzovi poslovni aplikacijski programski vmesniki?",
+        "desc": "Naše poslovne API-je uporabljajo predvsem <strong>podjetja, startupi, vlada, agencije</strong>...<br/><br/> in vse druge organizacije, ki morajo pospešiti svoj razvoj."
+      },
+      "what-cost": {
+        "title": "Kakšna je cena Kumuluzovih poslovnih aplikacijskih programskih vmesnikov?",
+        "desc": "Nekatere poslovne API-je lahko preizkusite zastonj ali pa mi za vas naredimo demo predstavitev.<br/><br/>Če API-je želite uporabiti v polnem obsegu, lahko izbrane vmesnike za enkratno plačilo prenesete kot vsebnike Docker."
+      }
+    }
+  },
+  "filters": {
+    "title": "Filtri",
+    "tags": {
+      "show-all": "Pokaži vse",
+      "users": "uporabniki",
+      "ecommerce": "e-poslovanje",
+      "data": "podatki"
+    }
+  },
+  "ways": {
+    "title": "Trije hitri načini uporabe poslovnih aplikacijskih programskih vmesnikov Kumuluz",
+    "left-way": {
+      "title": "Registrirajte se in preizkusite",
+      "para": "Registrirajte se in preizkusite nekatere poslovne API-je.",
+      "button": "Začnite brezplačno."
+    },
+    "center-way": {
+      "title": "Nakupujte s podporo",
+      "para1": "Kupite posamezne vsebnike",
+      "para2": "Kupite in poslovne API-je uporabljajte kot vsebnike",
+      "button": "Brskajte po vmesnikih API",
+      "button-buy": "Nakup"
+    },
+    "right-way": {
+      "title": "Celostna podpora",
+      "para1": "Pridobite izvorno kodo API-jev in izkoristite popolno podporo za največjo možno fleksibilnost.",
+      "para2": "Dovolite, da naša ekipa pomaga vašim razvijalcem v celoti opolnomočiti poslovne API-je.",
+      "button": "Povpraševanje po ponudbi"
+    },
+    "learn-more": {
+      "link": "Več o",
+      "text": "oblikovanju cen"
+    }
+  },
+  "references": "Podjetja ki že uporabljajo naše API-je",
+  "case-study": {
+    "above-title": "Catalogue API",
+    "title": "Primer uporabe:<br/>Petrol uporablja Kumuluz Catalogue API",
+    "para1": {
+      "link": "Petrol",
+      "text": "uporablja Kumuluzove poslovne API-je za razvoj svoje storitvene platforme in digitalnih aplikacij, kot so aplikacije Na poti, Fresh, Travel Aggregator in ostale."
+    },
+    "para2": "",
+    "quote": "",
+    "read-more": "Več",
+    "link-to-studies": ""
+  },
+  "apis": {
+    "overview": "Pregled",
+    "docs": "Dokumentacija",
+    "not-available": "Ni še na voljo",
+    "view-more": "Naloži več",
+    "pricing-per-container": "Cena na vsebnik",
+    "usecases": "Primeri uporabe",
+    "coming-soon": "Več informacij kmalu",
+    "payment-api": {
+      "title": "Plačilo",
+      "shortDesc": "V svojo aplikacijo integrirajte obdelavo plačil, od kreditnih kartic do PayPala in kriptovalut.",
+      "tag": "e-poslovanje",
+      "pricing-desc": "Kupite in uporabljajte Kumuluz Payment kot vsebnik s podporo.",
+      "page": {
+        "title": "Kumuluz Payment",
+        "subtitle-1": "Plačilni vmesnik Kumuluz Payment API poenostavi integracijo s plačilnimi posredniki in sistemi številnih ponudnikov, ki jih vaše stranke že poznajo. Z malo truda lahko podprete najbolj priljubljene plačilne sisteme in za svoje stranke poenostavite plačilni proces.",
+        "subtitle-2": "Vse plačilne sisteme podpira preprost in splošen vmesnik, ki vam prav tako omogoča, da optimizirate transakcijske stroške. Z uporabo vmesnika Kumuluz Payment API lahko izberete najcenejši način plačila in zmanjšate svoje stroške.",
+
+        "how-it-works": {
+          "title": "Delovanje vmesnika",
+          "subtitle": "",
+          "list": {
+            "item-1": "Preprost generičen vmesnik za vse plačilne sisteme",
+            "item-2": "Optimizirajte transakcijske stroške z različnimi plačilnimi posredniki",
+            "item-3": "Vmesnik Kumuluz Payment API je skladen s standardom PCI-DSS",
+            "item-4": "Zasnovan za varnost",
+            "item-5": "Prilagodite izgled plačilnega okenca glede na svoje potrebe",
+            "item-6": "Prilagodite izgled plačilnega okenca glede na svoje potrebe",
+            "item-7": "Povečajte svoje prihodke",
+            "item-8": "Stranke lahko izberejo svoj najljubši način plačila",
+            "item-9": "Dobro dokumentiran, saj vsebuje tudi specifikacijo in dokumentacijo OpenAPI/Swagger"
+          }
+        },
+        "docs": {
+          "title": "Podprti plačilni ponudniki",
+          "body": {
+            "title": "Povzetek dokumentacije",
+            "view": "Ogled dokumentacije"
+          },
+          "item-1": {
+            "title": "Preprosta integracija in nadgraditev",
+            "desc": "Oblikovan je za razvijalce, prav tako pa omogoča preprosto integracijo z obstoječimi sistemi in preprosto dodajanje novih načinov plačila."
+          },
+          "item-2": {
+            "title": "Varen in zanesljiv",
+            "desc": "Transakcije zaščiti s pomočjo modernih metod tokenizacije. Le plačilni sistemi obdelujejo podatke o strankah."
+          },
+          "item-3": {
+            "title": "Enotna platforma za tradicionalna in moderna plačila",
+            "desc": "Enotna rešitev za različne ponudnike plačilnih storitev in plačilne metode, ki podpira debetne in kreditne kartice, sisteme za takojšnje plačilo (PayPal, Apple Pay, Google Wallet, mBills etc.) in kriptovalute. Omogoča uporabo različnih plačilnih posrednikov (Braintree, Stripe, Bankart etc.) ter integracijo spletnih bančnih rešitev."
+          },
+          "item-4": {
+            "title": "Optimizirajte transakcijske stroške",
+            "desc": "Samodejna usmeritev na najcenejši način plačila."
+          }
+        },
+        "usecases": {
+          "item-1": "Imate plačilni sistem, ki uporablja različne plačilne posrednike. Vsak posrednik ima različno ceno, zato za vsako transakcijo plačate drugo ceno. Kumuluzov vmesnik Payment API bo samodejno izbral najcenejšega plačilnega posrednika in vam pomagal prihraniti denar.",
+          "item-2": "Ustvarili ste novo moderno aplikacijo, s katero izdelke prodajate svojim strankam. Vendar če želite strankam omogočiti spletno plačilo, morate uporabiti enega od plačilnih posrednikov in njihov dizajn vgraditi v svojo aplikacijo. To popolnoma uniči vaš dizajn ali, še huje, stranko usmeri na neko drugo spletno stran. Plačilni vmesnik Kumuluz Payment API vam omogoča, da oblikujete in uporabite po meri ustvarjena plačilna okenca in jih vgradite v svojo aplikacijo. Tako uporabnik nikoli ne zapusti vaše aplikacije in ima celovito uporabniško izkušnjo.",
+          "item-3": "Vas skrbi, da boste morali obravnavati občutljive podatke? Plačilni vmesnik Kumuluz Payment API bo za to poskrbel namesto vas. Ne bo vas rabilo skrbeti za varnost. Z uporabo modernih metod tokenizacije omogočamo preprost in varen način obdelovanja transakcij. Prav tako boste skladni s standardom PCI-DDS.",
+          "item-4": "Ste se kdaj spraševali, koliko zaslužite s plačili preko spleta? Ali ste želeli slediti svojim transakcijam? Z uporabo plačilnega API-ja Kumuluz boste imeli enoten sistem upravljanja in nadzora nad vsemi spletnimi in neelektronskimi plačili.",
+          "item-5": "Ali veste, da danes želite podpirati plačilo z debetnimi karticami, v prihodnosti pa morda povečati število načinov plačila? Vas skrbi, kako boste nadgradili svoj sistem, da bo podpiral vse? Plačilni vmesnik Kumuluz Payment API vam zagotavlja enotno platformo za moderne (in tradicionalne) plačilne sisteme. Če želite dodati nov plačilni sistem, lahko to dosežete z minimalno konfiguracijo. Dodajanje podpore za nov plačilni sistem še nikoli ni bilo preprosteje."
+        }
+      }
+
+    },
+    "product-catalog": {
+      "title": "Katalog izdelkov",
+      "shortDesc": "Celovita rešitev za katalog izdelkov v digitalnih in internih aplikacijah, ki vključuje sofisticirane funkcionalnosti za večkanalno podporo, upravljanje zalog, oblikovanje cen, integracijo programov zvestobe in veliko več.",
+      "tag": "podatki",
+      "pricing-desc": "Kupite in uporabljajte Kumuluz Product Catalog kot vsebnik s podporo.",
+      "page": {
+        "title": "Kumuluz Product Catalog",
+        "para": "Vmesnik Kumuluz Product Catalog API je celovita rešitev za katalog izdelkov v digitalnih in internih aplikacijah, ki vključuje sofisticirane funkcionalnosti za večkanalno podporo, upravljanje zalog, cenik, integracijo programov zvestobe in veliko več. Zagotavlja zmogljive funkcionalnosti za upravljanje in dostavo vaših izdelkov do storitev in aplikacij, ki so namenjene vašim strankam. Neopazno se integrira z drugimi Kumuluzovimi poslovnimi API-ji ter zagotavlja vnaprej razvita predloge in podaljške za integracijo z zalednimi sistemi vaše organizacije.",
+        "how-it-works": {
+          "title": "Delovanje vmesnika",
+          "para-1": "Struktura vmesnika Kumuluz Product Catalog je fleksibilna in razširljiva. Vključuje blagovne znamke in izdelke, različice izdelkov, zbirke izdelkov in druge zbirke (hierarhije) ter prodajne kanale in lokacije za različna podjetja (večnajemniška struktura). Za izdelke lahko izberete različne možnosti (specificirate kako razlikovati med različicami) ter atribute, določite različice produktov (specificirate različne možne vrednosti) in njihove značilnosti (specificirate kako obravnavati naročilo in sledeče postopke), cene, davčne stopnje itd.",
+          "para-2": "Kumuluzov vmesnik za katalog izdelkov je integriran z vmesniki za nakupovalno košarico (Cart), naročila (Order), oblikovanje cen (Pricing System), zalogo izdelkov (Product Inventory) in upravljanje programov zvestobe (Loyalty Management). Slika spodaj prikazuje splošno strukturo Kumuluzovega kataloga produktov.",
+          "para-3": "Vmesnik Product Catalog je lahko v celoti integriran z obstoječimi katalogi izdelkov. Če je prisotna obstoječa programska oprema s podatki o izdelkih, lahko vmesnik Kumuluz Product Catalog pridobi prvotne podatke ter jih obogati z dodatnimi podatki, ki niso prisotni v obstoječem katalogu. Prav tako je možno ustvariti aktivno dvosmerno sinhronizacijo med obstoječim katalogom in Kumuluzovim katalogom izdelkov za vse podatke, ki so še zmeraj ohranjeni v obstoječem sistemu.",
+          "para-4": "Vmesnik Kumuluz Product Catalog API ima predpomnilnik, ki omogoča optimalno delovanje v aplikacijah za različne prodajne kanale. Vmesnika za oblikovanje cen in zalogo izdelkov aplikacijam zagotavljata informacije o cenah in zalogah. Te aplikacije uporabljajo vmesnik Kumuluz Cart, s pomočjo katerega obravnavajo strankino naročilo, dokler stranka le-tega ne odda za izpolnitev v vmesnikih Kumuluz Order in Fulfillment."
+        },
+        "docs": {
+          "title": "Povzetek dokumentacije",
+          "view": "Ogled dokumentacije",
+          "item-1": {
+            "title": "Enotna platforma za vse vrste izdelkov in storitev",
+            "desc": "Vmesnik Product Catalog API ne podpira le fizičnih izdelkov temveč tudi storitve, vključno z digitalnimi izdelki in storitvami."
+          },
+          "item-2": {
+            "title": "Obogatite predstavitev svojih ponudb za stranke",
+            "desc": "Uporabite paralelne zbirke in tako hierarhično organizirajte svoj katalog na nešteto različnih načinov, uporabite funkcijo sortiranja za zaporedja znotraj zbirk, dodajte slike za odziven dizajn in mobilne aplikacije, obogatite predstavitve s pomočjo formatiranja, ter omogočite strankam, da primerjajo različne lastnosti."
+          },
+          "item-3": {
+            "title": "Spodbudite svojo prodajo s pomočjo modifikacije izdelkov ter nadgradne in navzkrižne prodaje ",
+            "desc": "Specificirajte komponente, ki jih stranka lahko odstrani, in tako omogočite izmenjave izdelkov, ponudite brezplačne ali plačljive dodatke, ponudite premium izdelke, dodajte priporočene izdelke itd."
+          },
+          "item-4": {
+            "title": "Preprosta integracija in/ali migracija",
+            "desc": "Integracija z obstoječim katalogom izdelkov in njegovimi deli ali migracija iz njega je poenostavljena s pomočjo migracijskih skript in velikega števila razvitih aplikacijskih programskih vmesnikov za spletno sinhronizacijo."
+          },
+          "endpoints": {
+            "title": "Seznam končnih točk",
+            "item-1": "predstavite blagovne znamke izdelkov, ki jih prodajate, ter okrepite trženje blagovne znamke",
+            "item-2": "ponudite prilagojene sklope izdelkov in storitev na različnih prodajnih kanalih",
+            "item-3": "ustvarite hierarhije izdelkov, ponudite dodatke ter priporočite podobne in/ali komplementarne izdelke",
+            "item-4": "podprite vse svoje hčerinske družbe ali vključite katalog izdelkov v večnajemniške rešitve, ki jih zagotavljate vašim strankam",
+            "item-5": "razširite svoje trgovanje po vsem svetu",
+            "item-6": "podprite široko maloprodajno mrežo, v kateri ima vsaka lokacijo specifično ponudbo",
+            "item-7": "uporabite dinamično oblikovanje cen in povečajte prihodke",
+            "item-8": "strankam ponudite široko paleto izdelkov in storitev, vključno z digitalnimi, ter jim omogočite, da primerjajo in personalizirajo izdelke tako, da odstranijo specifične komponente ali dodajo brezplačne in plačljive dodatke",
+            "item-9": "nudite podporo za obdavčitve, ki jih zahtevajo uredbe v različnih državah",
+            "item-10": "prevedite vse, kar lahko stranke berejo",
+            "item-11": "nudite podporo za različice vsakega izdelka, kar se tiče barve, velikosti, sestavin itd., in omogočite primerjavo med njimi"
+          }
+        },
+        "usecases": {
+          "item-1": "Vaš trenutni sistem za management izdelkov je tesno povezan sistem za naročila in plačila, kar vas omejuje pri podpori novih kanalov in digitalne transformacije. Vmesnik za katalog izdelkov zagotavlja mehanizme za integracijo z obstoječimi sistemi, ter tako izdelke in storitve prenese v Kumuluzov katalog izdelkov. To je še posebej pomembno, ko se podatki nahajajo na več lokacijah – na primer podatki o izdelkih, cenah, zalogah, popustih itd., s katerimi upravljajo različni oddelki v organizaciji. Vmesnik Kumuluz Product Catalog tako omogoči skupen in enoten pregled nad izdelki in storitvami, ki jih vaša organizacija prodaja.",
+          "item-2": "Vaša organizacija je začela podpirati nove digitalne kanale, na primer nove mobilne aplikacije. Prilagoditi želite način, kako so izdelki v teh aplikacijah predstavljeni stranki. Kumuluzev vmesnik Product Catalog API vam omogoča, da izdelke razvrstite v različne digitalne kanale s prilagojenimi metapodatki, razvrščanjem, oblikovanjem cen in drugimi informacijami, ki so prilagojene vsakemu posameznemu kanalu.",
+          "item-3": "Digitalna sredstva za izdelke so običajno ročno pripravljena, naložena na daljinski upravljalnik, nato pa omenjena v opisu izdelka z namenom, da bogatijo informacije o izdelku. To je lahko dolgočasno delo zavoljo velike količine različnih obstoječih tipov naprav ter velikosti in resolucij ekranov. Vmesnik Kumuluz Product Catalog omogoča moderne spletne aplikacije za upravljanje s sredstvi, ki se izvajajo v spletnem pregledovalniku (ang. single-page application ali SPA). Naložite lahko, na primer, eno samo sliko visoke ločljivosti za vsak produkt, potem pa izbirate med različnimi razmerji med višino in širino, da pripravite slikovni material za transparente, ikone, vrtiljake itd. Za slike lahko izberete tudi tip naprave in samodejno ustvarite več različnih slik, odvisno od števila pik na palec ter ločljivosti različnih ciljnih ekranov. Prav tako lahko k izdelkom priložite videe in dokumente."
+        }
+      }
+    },
+    "cart": {
+      "title": "Nakupovalna košarica",
+      "shortDesc": "V svojo aplikacijo integrirajte funkcionalnost nakupovalne košarice, tudi na več kanalih. Ponuja vse od dodajanja artiklov v košarico do postopkov nakupa in enostavne integracije z zalednimi sistemi, katalog izdelkov, upravljanje z naročili in izpolnjevanje naročil.",
+      "tag": "e-poslovanje",
+      "pricing-desc": "Kupite in uporabljajte Kumuluz Cart kot vsebnik s podporo.",
+      "page": {
+        "title": "Kumuluz Cart",
+        "para": "Kumuluz Cart je večkanalna rešitev za nakupovalno košarico v vaših aplikacijah. Ponuja vse od dodajanja artiklov v košarico do postopkov nakupa in enostavne integracije z zalednimi sistemi, kataloga izdelkov, upravljanja z naročili in izpolnjevanjem naročil. Vmesnik Kumuluz Cart API poskrbi za celotno podporo pri implementaciji procesov, ki so povezani z nastankom naročil. To vključuje potrjevanje cen, informacije o zalogah in zvestobi, ter ustvarjanje naročil. Kumuluz Cart je integriran z ostalimi aplikacijskimi programskimi vmesniki, kot so Kumuluz Product Catalog, Kumuluz Order in Kumuluz Fulfillment, ter z zalednimi sistemi.",
+        "how-it-works": {
+          "title": "Delovanje vmesnika",
+          "para-1": "Osnovna funkcionalnost vmesnika Kumuluz Cart API je strankam omogočiti, da ustvarijo nove košarice in v košarico dodajo artikle iz Kumuluzovega kataloga izdelkov. Košarice omogočajo celostno večkanalno podporo, kar pomeni, da lahko uporabnik za urejanje košarice uporablja različne kanale ter med tem procesom prav tako med kanali preklaplja.",
+          "para-2": "Kumuluz Cart je popolnoma integriran z vmesnikom Kumuluz Product Catalog API za katalog izdelkov in ostalimi sistemi, od koder prikliče podatke o cenah, popustih, zalogah itd. S temi podatki nato ustvari košarico. Artikle je možno odstraniti ali spremeniti.",
+          "para-3": "Ko artikle dodajate v košarico, lahko prav tako priložite določene dodatne informacije, s pomočjo katerih prilagodite strankin pogled na košarico, na primer vrstni red prikazanih artiklov, lokacija artikla na zalogi, izbrane ugodnosti programov zvestobe in povezani artikli (npr. dodatki, priporočila itd.).",
+          "para-4": "Ko ustvarjate naročilo iz košarice, vmesnik Kumuluz Cart API zagotavlja podporo za dodatne preglede in ukrepe, ki zmanjšajo možnosti za napake v naročilu. To vključuje ukrepe, kot so na primer validacija in rezervacija zalog, validacija in posodobitev cen, validacija stanja zvestobe itd."
+        },
+        "docs": {
+          "title": "Povzetek dokumentacije",
+          "view": "Ogled dokumentacije",
+          "item-1": {
+            "title": "Omogočite strankam, da si do samega konca po svoje urejajo nakupovalno košarico",
+            "desc": "Svojim strankam ponudite sezname želja, prilagoditev značilnosti artiklov v košarici (npr. barva, velikost itd.), povezovanje artiklov za skupno urejanje, paketno prodajo artiklov in povezovanje artiklov za posebne cene itd."
+          },
+          "item-2": {
+            "title": "Izognite se nejevolji strank",
+            "desc": "Samodejno preverite vse zaloge artiklov v košarici pred naročilom in ponudite alternativne lokacije za prevzem ali dostavo ter se izognite nadležnim sporočilom, kot so na primer »Se opravičujemo, vendar izbran artikel trenutno ni na voljo.«"
+          },
+          "item-3": {
+            "title": "Omogočite inovativne poslovne modele",
+            "desc": "Prilagodite cene artiklov glede na status stranke, na primer glede na status zvestobe ali zbrane kupone oziroma kakorkoli drugega želite (npr. posebne časovno omejene ponudbe za posamezno stranko, jubilejne stranke itd.)."
+          },
+          "endpoints": {
+            "title": "Seznam končnih točk",
+            "item-1": "ustvarite prazno košarico, košarico z artikli, sezname želja ali pa spremenite sezname želja v košarice",
+            "item-2": "dodajte artikle v košarico ali jih odstranite iz nje, spremenite obstoječe artikle glede na možnosti v katalogu izdelkov, povežite artikle ter jih tako skupaj urejajte, dodajte pogojene artikle, ter omogočite paketno prodajo artiklov za posebne cene",
+            "item-3": "posodobite cene artiklov v košarici, vključno z osnovnimi in posebnimi cenami",
+            "item-4": "prilagodite cene artiklov glede na status stranke, npr. program zvestobe, kuponi itd.",
+            "item-5": "prilagodite cene artiklov kakorkoli želite, npr. glede na posebne časovno omejene ponudbe za posamezno stranko, jubilejne stranke itd.",
+            "item-6": "preverite dostopnost artiklov na določenih lokacijah",
+            "item-7": "spremenite lokacijo za prevzem ter morebiti odstranite artikle, ki niso na zalogi na novi lokaciji"
+          }
+        },
+        "usecases": {
+          "item-1": "Zaradi več samostojnih zalednih sistemov na osnovi silosa je lahko težko, če ne nemogoče, podpirati možnost večkanalnega naročanja, tj. začeti z naročilom na eni napravi (mobilno, kiosk, splet itd.) in zaključiti na drugi. Vmesnik Kumuluz Cart API zagotavlja moderen odprt OpenAPI vmesnik s preprosto integracijo za vsako platformo. Posledično je možno izmenjati informacije o košarici in naročilu med različnimi klienti/organizacijskimi sistemi, prav tako pa je to preprosto implementirati.",
+          "item-2": "Uporaba različnih kanalov za prodajo dobrin strankam naredi management naročil in podatkov bolj zapleten, saj so podatki distribuirani preko različnih sistemov. Z uporabo vmesnika Kumuluz Cart API lahko svoja naročila shranite in vodite na enem mestu. To poenostavi upravljanje naročil, sledenje in analitične naloge, ter jih naredi transparentne. Kumuluzovo košarico spremlja spletni uporabniški vmesnik, ki je enostaven za uporabo, prav tako pa omogoča upravljanje košarice, naročil in povezanih informacij.",
+          "item-3": {
+            "para-1": "Implementacija moderne prodajne aplikacije zahteva napredne zaledne funkcionalnosti za ustvarjanje naročil. Vmesnik Kumuluz Cart API ne zagotavlja le prostora, kjer so artikli razvrščeni v naročila, temveč tudi aplikacijski programski vmesnik, ki artikle veže na točno določene lokacije za maloprodajo, s točno določenimi cenami, razpoložljivostjo, popusti, programi zvestobe in drugimi podrobnostmi.",
+            "para-2": "Prav tako vam omogoča, da spremenite prevzemno lokacijo za maloprodajo in za novo lokacijo sprožite validacijo lastnosti artikla. Naročeni artikli so lahko povezani, imajo pod artikle, so razvrščeni na točno določen način, vsebujejo metapodatke, lahko jih dodate na sezname želja, na novo razvrstite glede na obstoječa naročila itd. Posledično vmesnik Kumuluz Cart in njegov bogat API zagotavljata funkcionalnosti razvrščanja za vsako aplikacijo, osredotočeno na prodajo: spletno, mobilno, samostoječo ali celo vgrajene sisteme."
+          }
+        }
+      }
+    },
+    "order": {
+      "title": "Naročilo",
+      "shortDesc": "Celostna rešitev za upravljanje z naročili, za tako digitalne kot tudi tradicionalne kanale. Vmesnik je popolnoma fleksibilen in podpira digitalno in fizično oskrbo.",
+      "tag": "e-poslovanje",
+      "pricing-desc": "Kupite in uporabljajte Kumuluz Order kot vsebnik s podporo.",
+      "page": {
+        "title": "Kumuluz Order",
+        "para": "Vmesnik Kumuluz Order API je celovita rešitev za upravljanje z naročili na digitalnih in tradicionalnih kanalih. Je v celoti prilagodljiv ter podpira digitalno in fizično oskrbo. Omogoča ustvarjanje naročil ter različne tokove naročil za različne vire, kot je na primer vmesnik Cart API. Dokument o naročilu vsebuje človeku prijazne identifikacijske kode naročil ter podatke za sledenje.",
+        "how-it-works": {
+          "title": "Delovanje vmesnika",
+          "para": "Ko je naročilo ustvarjeno preko vmesnika Cart API ali ostalih virov, je v Kumuluzovem vmesniku Order API ustvarjen dokument o naročilu, ki vsebuje človeku prijazne identifikacijske kode za naročilo ter podatke za sledenje."
+        },
+        "docs": {
+          "title": "Povzetek dokumentacije",
+          "view": "Ogled dokumentacije",
+          "item-1": {
+            "title": "Omogočite zmogljiv nadzor nad naročili",
+            "desc": "Strankam omogočite, da lahko kadarkoli prekličejo naročilo, ga na novo ustvarijo ter nato spremenijo kakorkoli želijo."
+          },
+          "item-2": {
+            "title": "Omogočite popolno transparentnost med procesom naročanja",
+            "desc": "Strankam omogočite, da vidijo zgodovino svojih naročil kot natančne posnetke stanja naročila, ko je le-to bilo oddano."
+          },
+          "endpoints": {
+            "title": "Seznam končnih točk",
+            "item-1": "ustvarite naročilo iz košarice",
+            "item-2": "zaključite naročilo, ga prekličite ali na novo ustvarite",
+            "item-3": "pridobite zgodovino naročil kot natančne posnetke stanja naročila, ko je le-to bilo oddano"
+          }
+        }
+      }
+    },
+    "fulfillment": {
+      "title": "Izpolnjevanje naročil",
+      "shortDesc": "Vnaprej pripravljena celovita in prilagodljiva rešitev za izpolnjevanje naročil, ki nudi vam prilagojeno podporo za procese naročanja, vključno z izpolnjevanjem naročil skozi digitalne in fizične kanale ter avtomatizirane naprave, kot so prodajni avtomati.",
+      "tag": "e-poslovanje",
+      "pricing-desc": "Kupite in uporabljajte Kumuluz Fulfillment kot vsebnik s podporo.",
+      "page": {
+        "title": "Kumuluz Fulfillment",
+        "para-1": "Vmesnik Kumuluz Fulfillment API je celovita in prilagodljiva rešitev za izpolnjevanje naročil, ki podpira vaše prilagojene procese izpolnjevanja, vključno z izpolnjevanjem naročil skozi digitalne in fizične kanale ter samodejne naprave, kot so prodajni avtomati.",
+        "para-2": "S fleksibilnimi in variabilnimi procesi izpolnjevanja, ki so lahko interni ali pa vključujejo zunanje partnerje, vmesnik obravnava seje za izpolnjevanje naročil. Prav tako podpira različne naprave ter asinhrono komunikacijo s temi napravami (prodajnimi avtomati, bencinskimi črpalkami, polnilnimi postajami itd.).",
+        "how-it-works": {
+          "title": "Delovanje vmesnika",
+          "para-1": "Vmesnik Kumuluz Fulfillment API podpira različne prilagodljive postopke izpolnjevanja naročil. Naročilo gre skozi različne statuse, preden je izpolnjeno. Podprte so različne vrste naročevanja, od fizičnega naročevanja dobrin in storitev do digitalnega naročevanja (kot so na primer spletne vstopnice, prenosi, digitalna sredstva itd.) in naročevanja, podprtega s stroji, skozi naprave, kot so prodajni avtomati, bencinske črpalke in polnilne postaje.",
+          "para-2": "Vmesnik Fulfillment API predvideva, da obstaja nekaj vnaprej opredeljenih stanj najpogostejših postopkov in naprav za naročanje. Seznam stanj med vsakim naročanjem je lahko tako razširjen, kot to zahteva po meri prirejen proces izpolnjevanja naročil.",
+          "para-3": "Vmesnik Fulfillment API strankam omogoča, da asinhrono prejmejo obvestila o procesu naročanja in napravi. Podprta so zanesljiva obvestila in/ali »mehki« podatki za iOS, androidne naprave in spletne brskalnike. Prav tako pa so za vaše inovativne rešitve podprti povratni pozivi WebSocket in REST, ki stranki omogočajo, da nenehno spremlja stanje naročila.",
+          "para-4": "Vmesnik Fulfillment API sinhrone naprave ovije z dodatnimi moduli ter jih tako spremeni v asinhrone naprave, ki podpirajo asinhrono komunikacijo s klienti (mobilnimi ali storitvenimi). Kumuluz Fulfillment API je posplošen do te mere, da lahko podpira tudi prihodnje naprave."
+        },
+        "docs": {
+          "title": "Povzetek dokumentacije",
+          "view": "Ogled dokumentacije",
+          "item-1": {
+            "title": "Takoj prilagodljivi procesi izpolnjevanja naročil",
+            "desc": "Izpolnite naročila s svojimi procesi izpolnjevanja naročil, tudi na avtomatiziranih napravah, ki med drugim vključujejo prodajne avtomate, bencinske črpalke in polnilne postaje."
+          },
+          "item-2": {
+            "title": "Zagotovite transparentnost in angažiranost strank",
+            "desc": "Strankam in zaposlenim omogočite podrobne podatke za spremljanje naročil ter jim zagotovite rešitve, ki jim bodo omogočale, da se odzovejo na neželene zasuke v procesu."
+          },
+          "item-3": {
+            "title": "Angažirajte stranke skozi moderne komunikacijske kanale",
+            "desc": "Uporabite potisna obvestila na mobilnih telefonih, »mehke« podatke v spletnih brskalnikih ali pa implementirajte svoje lastne komunikacijske kanale z uporabo povratnih pozivov WebSocket ali REST."
+          },
+          "item-4": {
+            "title": "Izboljšajte obravnavo tistih nekaj pritožb strank, ki še ostanejo",
+            "desc": "Ker lahko podrobno sledite popravkom, lahko tudi s karseda malo sredstvi učinkovito obravnavate pritožbe strank."
+          },
+          "endpoints": {
+            "title": "Seznam končnih točk",
+            "item-1": "začnite novo sejo za obravnavo naročila ali podprte naprave",
+            "item-2": "spremljajte status seje, obvestite stranko o spremembi statusa ter to spremembo potrdite, razveljavite, zaključite ali zavrnite",
+            "item-3": "imejte stik s procesom obravnave naročil ali podprtimi napravami",
+            "item-4": "izračunajte najhitrejši čas prevzema in o njem obvestite stranko",
+            "item-5": "predlagajte spremembe pri obravnavanem naročilu, npr. čas prevzema in/ali lokacija",
+            "item-6": "zaposlenim ali strankam omogočite, da vidijo predlagane spremembe",
+            "item-7": "zaposlenim ali strankam omogočite, da sprejmejo predlagane spremembe v naročilu ali pa jih zavrnejo",
+            "item-8": "sledite spremembam in tako podprite stranke v primeru pritožb",
+            "item-9": "registrirajte in deregistrirajte aplikacije za potisna obvestila",
+            "item-10": "prijavite ali odjavite naprave za potisna obvestila",
+            "item-11": "upravljajte prijave na vir WebSocket",
+            "item-12": "upravljajte prijave na povratni poziv REST"
+          }
+        },
+        "usecases": {
+          "item-1": {
+            "para": "Po tem, ko ste implementirali aplikacijo za oddajo naročil, se lahko soočite s pomembnim postopkom izpolnjevanja nekaterih naročil, kot so na primer naročila v spletni trgovini. Ta proces je lahko zelo odvisen od ročno opravljenih del ali pa ga podpirajo heterogene aplikacije/sistemi. V teh primerih vmesnik Kumuluz Fulfillment API, ki je povezan z vmesnikom Kumuluz Orders API, spremlja in izvede vse potrebne korake med postopkom izpolnjevanja naročila. Vmesnik Fulfillment API za izpolnjevanje naročil zagotavlja vmesnike, predloge in razširljive generične tokove, ki jih je možno specializirati, da podpirajo vaše primere uporabe. Ti procesi so lahko na primer sledeči:",
+            "items": {
+              "item-1": "izvedba spletnih naročil (vedno manjše zaloge, priprava na pošiljanje, odpošiljanje, vrnitve, vrnitev stroškov itd.),",
+              "item-2": "spremljanje priprave hrane (spremljanje napredka pri korakih priprave hrane za kuharske mojstre),",
+              "item-3": "nadzor vgrajenih naprav (izvedba korakov za, na primer, prodajne avtomate, polnilne postaje itd.)."
+            }
+          },
+          "item-2": "Vaša organizacija zahteva, da spremljate različne ključne kazalnike uspešnosti, ko izpolnjujete naročila. Vmesnik Kumuluz Fulfillment spremlja vsako dejanje ali korak v procesu izpolnjevanja naročila, kar posledično omogoča spremljanje kazalnikov ter ustvarjanje različnih analitičnih poročil, ki merijo uspešnost vaše organizacije."
+        }
+      }
+    },
+    "invoice": {
+      "title": "Izdajanje računov",
+      "shortDesc": "Rešitev za izdajanje računov, s pomočjo katere lahko ustvarjate, obravnavate in dostavljate račune skozi digitalne kanale in na različne naprave.",
+      "tag": "e-poslovanje",
+      "pricing-desc": "Kupite in uporabljajte Kumuluz Invoice kot vsebnik s podporo.",
+      "page": {
+        "title": "Kumuluz Invoice",
+        "para": "Vmesnik Kumuluz Invoice API je celovita rešitev za izdajo računov. Podpira ustvarjanje, procesiranje in dostavo računov skozi digitalne kanale in na različne naprave. Omogoča oblikovanje računov, ustvarjanje računov v različnih formatih in izgledih, ter dostavo računov na različne naprave in skozi različne kanale.",
+        "how-it-works": {
+          "title": "Delovanje vmesnika",
+          "para-1": "Vmesnik Kumuluz Invoice API prejme podatke za izdajo računov in ustvari račun na podlagi teh podatkov.",
+          "para-2": "To vključuje podatke za glavo računa (kot so na primer podatki o stranki, datum storitev/izdelkov, ki so bili priskrbljeni, datum izdaje računa, zapadlost, številka naročila itd.), podatke o obračunanih artiklih (kot so imena izdelkov in storitev ter drugi metapodatki, količine, cene, davčne stopnje, davki, vmesni zneski, popusti, uporabljene ugodnosti itd.) ter podatke za nogo računa (kot so že plačan znesek, dolgovan znesek, podatki za plačilo preko bančnega računa, podatki o banki, drugi podatki za bančno nakazilo, pravna izjava o odgovornosti, kontaktne številke, kontaktni kanali za pritožbe itd.).",
+          "para-3": "Po tem, ko ustvarite račun, ga lahko nadalje spreminjate, nato pa pošljete neposredno na mobilno ali spletno aplikacijo ali izvozite v specifičnih formatih, kot so na primer JSON, XML, PDF itd."
+        },
+        "docs": {
+          "title": "Povzetek dokumentacije",
+          "view": "Ogled dokumentacije",
+          "item-1": {
+            "title": "Združite postopke izdaje računov",
+            "desc": "Ustvarite vse račune, ne glede na to, kako se razlikujejo glede na smernice poslovanja, prodane dobrine, obdavčitve, pravni okvir, predpise posameznih držav in druge podrobnosti, ter jih urejajte s pomočjo enega samega aplikacijskega programskega vmesnika."
+          },
+          "item-2": {
+            "title": "Podprite večkanalno prodajo in dostavite račune, prilagojene na kanal",
+            "desc": "Samodejno preoblikujte svoje račune s podatki, ki so potrebni za različne formate in izglede, da bodo primerni za dostavo skozi različne kanale, vključno z najmodernejšimi, kot so mobilne aplikacije, spletni plačilni sistemi, digitalne denarnice itd."
+          },
+          "item-3": {
+            "title": "Strankam dostavite račune preko njihovega priljubljenega kanala",
+            "desc": "Pooblastite eno samo točko za upravljanje računov in tako omogočite strankam, da izberejo svoj najljubši kanal za dostavo računa v vsakem posameznem primeru uporabe, ne glede na to, ali je ta izbira specifična za kanal, račun, tip dobrine ali katerikoli drugi kriterij."
+          },
+          "endpoints": {
+            "title": "Seznam končnih točk",
+            "item-1": "ustvarite nove račune in iščite po zgodovini računov",
+            "item-2": "prenesite račune v različnih formatih, kot so JSON, XML, PDF itd."
+          }
+        },
+        "usecases": {
+          "item-1": "Vaša organizacija podpira nove kanale uporabe, na katerih je potrebno ustvariti račune. Vmesnik Kumuluz Invoices v tem primeru zagotavlja enotno storitev za ustvarjanje in shranjevanje računov, ki jo je enostavno integrirate v obstoječe in prihodnje aplikacije. Odvisno od vaših potreb lahko imajo vsi računi za vse kanale enoten dizajn in format dokumenta ali pa različne dizajne. To je lahko, na primer, odvisno od specifičnih zahtev tiskalnih naprav, kot je na primer laserski printer. Nadalje enoten sistem za račune prav tako zagotavlja boljšo analitiko ter zmožnosti uporabniških vmesnikov za izdajo računov.",
+          "item-2": "Vaš trenuten sistem izdaje računov je zastarel, nefleksibilen ali razvit na podlagi starih tehnologij. To vas omejuje pri možnostih izdaje računov, ko želite razširiti svoj poslovni model. Vmesnik Kumuluz Invoice API ne zagotavlja le funkcionalnosti za jedrne račune, predloge in ustvarjanje računov, temveč tudi možnosti za razširitev, vzorce in dokumentacijo za enostavno integracijo z dodatnimi sistemi. Tako imate proste roke, da razširite zmožnosti izdaje računov glede na svoje specifične potrebe."
+        }
+      }
+    },
+    "customer": {
+      "title": "Stranke",
+      "shortDesc": "Enostavno upravljajte s svojimi strankami in njihovimi podatki, proučite zgodovino njihovih naročil in poznajte njihove želje in potrebe.",
+      "tag": "uporabniki",
+      "pricing-desc": "Kupite in uporabljajte Kumuluz Customer kot vsebnik s podporo.",
+      "page": {
+        "title": "Kumuluz Customer",
+        "para": "Vmesnik Kumuluz Customers API zagotavlja funkcionalnosti za celosten management strank, njihovih podatkov, pregled njihove zgodovine naročil in poznavanje njihovih želja in potreb. Ponuja enotno točko za holističen vpogled v podatke vaših strank in podatke o vaših interakcijah z njimi.",
+        "how-it-works": {
+          "title": "Delovanje vmesnika",
+          "para": "Z vmesnikom Kumuluz Customers API lahko dodate nove stranke, spreminjate podatke obstoječih strank, v skladu z različnimi predpisi ustvarite poročila o podatkih, ki so shranjeni za posamezno stranko, in selektivno zbrišete podatke, če stranka to zahteva. Vmesnik Kumuluz Customers API prav tako omogoča enoten pogled na podatke strank in podatke o vseh njihovih interakcijah z vašim podjetjem. V tem kontekstu vmesnik Customers API zagotavlja informacije o specifičnih interakcijah in transakcijah, ki so jih stranke opravile in tako izpolnile pogoje za različne programe zvestobe. Če je združen z drugimi aplikacijskimi programskimi vmesniki, potem Kumuluz Customers API prav tako zagotavlja podatke o košaricah, naročilih, procesih izpolnjevanja naročil, računih, plačilih in naročniških razmerjih, odvisno od tega, kateri od Kumuluzovih programskih vmesnikov je dostopen vmesniku Customers API."
+        },
+        "docs": {
+          "title": "Pregled dokumentacije",
+          "view": "Ogled dokumentacije",
+          "item-1": {
+            "title": "Centralno upravljajte z vsemi podatki strank",
+            "desc": "Vmesnik Kumuluz Customers API je centralizirana točka za upravljanje z vsemi podatki strank. Izognite se zastarelim ali manjkajočim podatkom v različnih sistemih ter odstranite nepotrebne komplikacije, ki se pojavijo zaradi manjkajočih ali napačnih podatkov o stranki medtem, ko delate na svojih poslovnih procesih."
+          },
+          "item-2": {
+            "title": "Omogočite enoten vpogled v podatke strank",
+            "desc": "Vmesnik Kumuluz Customers API lahko zagotovi ne le potrebne podatke za trženjske in prodajne postopke temveč tudi vse podatke, povezane s strankami, potrebne za nadaljnje procesiranje (naročevanje, izpolnjevanje naročil, izdajanje računov, plačilo, poročila itd.)"
+          },
+          "item-3": {
+            "title": "Preprost način, kako upoštevati kompleksne predpise za varstvo osebnih podatkov",
+            "desc": "Poročajte o vseh podatkih, ki so v vaši organizaciji shranjeni za posamezno stranko, prispevajte podatke o soglasju strank, ki so ga posredovale za vsako posamezno uporabo podatkov, ter v skladu s strankinimi željami zbrišite podatke in tako upoštevajte kompleksne moderne predpise."
+          },
+          "endpoints": {
+            "title": "Seznam končnih točk",
+            "item-1": "upravljanje osnovnih podatkov strank",
+            "item-2": "upravljanje kontaktnih informacij strank (e-poštni naslovi, telefonske številke, številke telefaksa, računi na družbenih medijih itd.)",
+            "item-3": "upravljanje naslovov strank (dom, izdajanje računa, dostava itd.)",
+            "item-4": "upravljanje vprašanj, prošenj za ponudbe, naročila, pritožbe itd. strank in vaša interakcija s strankami, ne glede na to, kateri komunikacijski kanal je bil uporabljen",
+            "item-5": "vpogled v transakcije strank in štetje za programe zvestobe",
+            "item-6": "strankine odprte košarice na različnih prodajnih kanalih",
+            "item-7": "izdana naročila strank, ne glede na status in uporabljen prodajni kanal",
+            "item-8": "vsa aktivna in pretekla naročila strank",
+            "item-9": "vsi računi strank (odprti, poslani, dostavljeni, dolgovani, delno plačani, plačani itd.)",
+            "item-10": "plačila vseh strank za vsak račun in, če primerno, nesortirana plačila",
+            "item-11": "vse naročnine strank za vaše storitve"
+          }
+        },
+        "usecases": {
+          "item-1": "Vaša trenutna zaledna implementacija shranjuje informacije, ki so povezane s strankami, tako kot so na primer interakcije, naročila, ugodnosti in druge aktivnosti na več mestih. Z uporabo vmesnika Kumuluz Customers API uvedete rešitev, ki bo omogočila zedinjen pregled nad strankami. To vključuje tako njihove osebne podatke, kot so na primer ime, kontaktne informacije in naslov za dostavo, kot tudi naročila, plačila, status zvestobe, naročniška razmerja itd. Vmesnik Kumuluz Customers API se neopazno poveže z drugimi Kumuluzovimi izdelki, prav tako pa vam omogoča, da po meri integrirate svoje zaledne sisteme.",
+          "item-2": "Vaši sistemi uporabnikom trenutno ne omogočajo, da bi si svoje račune nastavili na enem mestu, na primer: uporabniška mobilna aplikacija in spletna trgovina imata različne omejitve. Z uvedbo vmesnika Kumuluz Customers API uporabnikom omogočite, da le enkrat spremenijo nastavitve, kot so gesla, shranjene kreditne kartice, informacije o obvestilih itd. To bistveno olajša upravljanje podatkov za stranke in vašo organizacijo."
+        }
+      }
+    },
+    "ccm": {
+      "title": "CCM",
+      "shortDesc": "Celovita rešitev, ki omogoča, da digitalno angažirate svoje stranke in z njimi komunicirate, kjerkoli in skozi raznolike kanale.",
+      "tag": "uporabniki",
+      "pricing-desc": "Kupite in uporabljajte Kumuluz CCM kot vsebnik s podporo.",
+      "page": {
+        "title": "Kumuluz CCM",
+        "subtitle-1": "KumuluzCCM je platforma za večkanalno komunikacijo (e-pošta, SMS sporočila, potisna obvestila), ki ponuja preprost način združevanja kanalov in preklapljanja med njimi. Aplikacijski programski vmesniki, ki so na voljo, omogočajo varno integracijo z vašimi zalednimi sistemi, vso komunikacijo s strankami pa tako lahko opravljate na enem mestu.",
+        "subtitle-2": "Z uporabo naprednih funkcionalnosti, kot so pošiljanje sporočil, ki so odvisna od lokacije, časa in konteksta, dinamična segmentacija v realnem času in intuitivno analitično orodje, lahko svoje stranke angažirate na preprost in učinkovit način.",
+
+        "how-it-works": {
+          "title": "Delovanje vmesnika",
+          "subtitle": "Grajenje pozitivnih odnosov s strankami od vas zahteva, da dobro razumete njihove potrebe in želje.",
+          "list": {
+            "item-1": "Večkanalna podpora",
+            "item-2": "Segmentacija strank",
+            "item-3": "Integracija z zalednimi sistemi",
+            "item-4": "Spremljanje kampanj",
+            "item-5": "Geografski položaj",
+            "item-6": "Načrtovanje",
+            "item-7": "Testiranje A/B",
+            "item-8": "Personalizacija",
+            "item-9": "Predloge"
+          }
+        },
+        "docs": {
+          "title": "Povzetek dokumentacije",
+          "view": "Ogled dokumentacije",
+          "item-1": {
+            "title": "Večkanalna podpora",
+            "desc": "Ena platforma za komunikacijo preko več kanalov (e-pošta, SMS sporočila, potisna obvestila), ki omogoča združevanje kanalov in preklapljanje med njimi."
+          },
+          "item-2": {
+            "title": "Segmentacija strank",
+            "desc": "Pošiljanje sporočil v pravem kontekstu. Vmesnik KumuluzCCM ustvari dinamične segmente strank, ki se posodobijo v realnem času glede na shranjene podatke o značilnostih strank, njihovi lokaciji, aktivnostih, interakcijah in vedenju."
+          },
+          "item-3": {
+            "title": "Integracija z zalednimi sistemi",
+            "desc": "Primerno za podjetja, saj omogoča enostavno integracijo s sistemi CRM in ostalimi zalednimi sistemi, od koder pridobi podatke o vaših strankah. Na voljo so aplikacijski programski vmesniki za varno integracijo z zalednimi sistemi v realnem času."
+          },
+          "item-4": {
+            "title": "Spremljanje kampanj",
+            "desc": "Zberite povratne informacije strank in se na njih odzovite. S pomočjo pregledne plošče spremljajte učinkovitosti kampanj v realnem času in z enim samim klikom generirajte poročila v PDF."
+
+          },
+          "item-5": {
+            "title": "Geografski položaj in načrtovanje",
+            "desc": "Pošiljanje sporočil ob pravem času, na pravem mestu. Platforma vam omogoča, da sporočila pošljete takoj, ob točno določenem času ali glede na točno določeno aktivnost uporabnika. Nekatera sporočila dobijo pomen v določenem okolju. Vmesnik KumuluzCCM podpira pošiljanje sporočil na podlagi geografskega položaja prejemnika"
+          },
+          "item-6": {
+            "title": "A/B testiranje in optimizacija",
+            "desc": "Hitra in učinkovita komunikacija z vašimi strankami. Vmesnik KumuluzCCM podpira funkcionalnosti testiranja A/B, prilagoditev sporočil, personalizacijo z enim klikom in lahko razumljive vizualne predstavitve statističnih analiz, vse v realnem času."
+          },
+          "item-7": {
+            "title": "Uporabniku prijazno",
+            "desc": "Pošiljanje sporočil je hitro in enostavno, saj vam vmesnik KumuluzCCM omogoča, da z uporabo predlog, urejevalnikov vsebin s takojšnjim predogledom in hitrimi funkcionalnostmi za segmentacijo strank ustvarite kampanje za vse kanale istočasno. KumuluzCCM je zasnovan za oddelke za trženje. Na nobeni točki ne boste potrebovali pomoči osebja IT ali tehničnega osebja."
+          },
+          "item-8": {
+            "title": "V oblaku ali na lokaciji",
+            "desc": "Vmesnik KumuluzCCM je lahko nameščen v oblaku ali na lokaciji, ponuja pa fleksibilne možnosti za prilagoditev in implementacijo."
+          }
+        },
+        "usecases": {
+          "food": {
+            "para-1": "Na integriranem zemljevidu izberite območje okoli svoje restavracije. Ko stranka vstopi na določeno območje, ji pošljite sporočilo s posebno ponudbo. Sporočila SMS so lahko personalizirana glede na lokacijo, čas itd.",
+            "para-2": "V času kosila bi lahko poslali nekaj takšnega:"
+          },
+          "fashion": {
+            "para-1": "Spremljate lahko, kaj si vaše stranke ogledujejo na spletni trgovini. Pripravite personaliziran paket z oblačili, ki si jih je stranka ogledovala, in pošljite e-pošto s personalizirano ponudbo.",
+            "para-2": "Če stranka ne kupi personaliziranega paketa, lahko pošljete SMS sporočilo s posebno ponudbo."
+          },
+          "events": "Kot sponzor lahko s pomočjo relevantnih sporočil povečate svoj vpliv na udeležence dogodkov. Obiskovalcem glasbenega festivala bi lahko na primer poslali nekaj takšnega:",
+          "transport": "Večina ljudi ima točno določeno rutino. Ko zjutraj greste v službo, najverjetneje izberete najhitrejšo pot. Vmesnik KumuluzCCM vam omogoča, da pošljete sporočila, kot so na primer:",
+          "retail": {
+            "para-1": "Razširite svojo mobilno aplikacijo z nakupovalnim seznamom. Ko stranka vstopi v nakupovalno središče in je v neposredni bližini vaše trgovine, ji pošljite potisno obvestilo, ki jo opomni, da kupi vaš izdelek, ki je na njenem seznamu.",
+            "para-2": "Ko uporabnik vstopi v vašo trgovino, ga aplikacija vodi skozi trgovino in mu tako omogoči, da zbere predmete, ki so na njegovem seznamu. Ko uporabnik zaključi nakup, mu pošljete potisno obvestilo z njegovimi točkami zvestobe in kako jih lahko zapravi."
+          }
+        }
+      }
+    },
+    "subscription": {
+      "title": "Naročnina",
+      "shortDesc": "Celovita rešitev, ki omogoča, da digitalno angažirate svoje stranke in z njimi komunicirate, kjerkoli in skozi raznolike kanale.",
+      "tag": "uporabniki",
+      "pricing-desc": "Kupite in uporabljajte Kumuluz Subscription kot vsebnik s podporo.",
+      "page": {
+        "title": "Kumuluz Subscription",
+        "para": "Kumuluz Subscription API je celovita rešitev za upravljanje z naročniškimi razmerji. Podpira poslovne modele, ki temeljijo na prodaji in oskrbi z naročniškimi storitvami, za katere se računi izdajo in plačajo ob točno določenih intervalih.",
+        "how-it-works": {
+          "title": "Delovanje vmesnika",
+          "para-1": "Vmesnik Kumuluz Subscription API ponuja postopke izpolnjevanja naročil za naročila, ki vključujejo naročniške storitve. Le-te so storitve, za katere se računi izdajo in plačajo ob točno določenih intervalih (npr. mesečne naročnine za mobilni telefon, internet, TV, zemeljski plin, kreditne digitalne denarnice itd.). Vmesnik Kumuluz Subscription API omogoča te naročniške storitve (»tisto, kar je naročeno«) tako, da naročene storitve razgradi v storitve za stranke (ang. customer-facing, »tisto, kar bo konfigurirano«).",
+          "para-2": "To vključuje vse storitve, ki jih stranke dejansko uporabljajo, ko je naročilo izpolnjeno (npr. če stranka naroči storitev Zlati TV paket dobi dostop do veliko storitev v obliki TV programov: vključeni so vsi državni brezplačni programi in vsi športni programi, ne pa tudi HBO programi, ki so rezervirani za Diamantni TV paket).",
+          "para-3": "Nadalje je vsaka storitev za stranke dekompozirana v storitve v zalednih sistemih (ang. resource-facing, »kako bo konfigurirano«). To vključuje vse, kar moramo omogočiti, da bo stranka lahko dejansko uporabila naročene storitve (npr. vsak program v naročenem TV paketu zahteva aktivacijo točno določenega kanala PAL/NTSC in/ali HDTV).",
+          "para-4": "Na koncu pa je vsaka storitev v zalednih sistemih razčlenjena v vire, ki morajo biti aktivirani za izpolnjevanje naročila (»kaj bo uporabljeno za konfiguracijo«). Viri vključujejo fizične in logične vire, ki so potrebni za oskrbo zahtevane storitve (npr. nova aktivna naročniška razmerja za vse kanale so logični viri, digitalna dekodirna TV kartica, ki dekodira vse potrebne kanale, pa je fizični vir. Z uporabo vmesnika Kumuluz Invoice API vam vmesnik Kumuluz Subscription API zagotavlja funkcionalnosti za izdajo računov za naročnine, ki temeljijo na fiksni ceni ali porabi. Podprti so tako predplačniški kot tudi naročniški modeli."
+        },
+        "docs": {
+          "title": "Povzetek dokumentacije",
+          "view": "Ogled dokumentacije",
+          "item-1": {
+            "title": "Ponudite široko izbiro storitev, ki jih lahko oskrbite",
+            "desc": "Vmesnik Kumuluz Subscription API za naročnine vam omogoča, da specificirate prodane storitve in jih dekompozirate v fizične in logične vire, ki so potrebni za oskrbo."
+          },
+          "item-2": {
+            "title": "Ponudite strankam fleksibilnost, ki si je želijo",
+            "desc": "Omogočite strankam, da se vključijo v proces dekompozicije naročenih storitev in dodajo dodatne funkcionalnosti (nadgradna prodaja) ali odstranijo nerelevantne funkcionalnosti ter tako zmanjšajo stroške (stranke ne plačajo za stvari, ki jih ne potrebujejo)."
+          },
+          "item-3": {
+            "title": "Podpora naročninam, ki temeljijo na porabi",
+            "desc": "Vmesnik Kumuluz Subscription API za naročnine ne ponuja le podpore za redne naročnine, temveč tudi za naročnine, pri katerih fiksni del spremlja spremenljiv del – poraba (npr. elektrika ali zemeljski plin)."
+          },
+          "item-4": {
+            "title": "Podpora različnim plačilnim modelom",
+            "desc": "Z uporabo vmesnika Kumuluz Invoice API vmesnik Kumuluz Subscription API omogoča predplačniško ali naročniško izdajo računov."
+          },
+          "endpoints": {
+            "title": "Seznam končnih točk",
+            "item-1": "management storitev (ki bodo prodane kot naročniška razmerja) in njihova struktura",
+            "item-2": "dekompozicija storitev v storitve za stranke",
+            "item-3": "dekompozicija storitev za stranke v storitve v zalednih sistemih",
+            "item-4": "dekompozicija storitev v zalednih sistemih v vire",
+            "item-5": "management virov, vključno z rezervacijo in aktivacijo virov, ki so potrebni za oskrbo",
+            "item-6": "aktivacija in upravljanje naročniških razmerij, vključno z obravnavanjem prošenj za spremembe",
+            "item-7": "objavljanje in urejanje podatkov o porabi v naročniškem razmerju, če je to potrebno (ustrezno za npr. elektriko, ne pa za paket TV programov)",
+            "item-8": "izdajanje računov za določeno naročniško razmerje glede na tip naročnine in, če je to potrebno, glede na porabo."
+          }
+        },
+        "usecases": {
+          "item-1": "Vaša organizacija spreminja ali razširja prodajni model s fiksnega na naročniškega. Vmesnik Kumuluz Subscription API vam omogoča, da implementirate dostavo, izdajo računov in druge procese, ki so povezani z naročniškimi izdelki in storitvami. Kumuluz Subscription API se neopazno integrira z drugimi Kumuluzovimi aplikacijskimi programskimi vmesniki, na primer s Kumuluz Customers API za povezavo med naročninami in strankami, Kumuluz Payment API za izvajanje plačil, ter Kumuluz Product Catalog API in Kumuluz Cart API za identifikacijo izdelkov in ustvarjanje naročil.",
+          "item-2": {
+            "para-1": "Vaši trenutni sistemi niso dovolj fleksibilni, da bi lahko natančno konfigurirali naročniške izdelke in storitve, ter posledično tudi ne podpirajo ukrepov, ki so potrebni za njihovo dostavo in oskrbo. Vmesnik Kumuluz Subscription API omogoča popolno fleksibilnost in dovoljuje, da izdelke in storitve dekompozirate do nivoja virov, ki so potrebni za oskrbo.",
+            "para-2": "To pomeni, da naročnine lahko zagotovite tako, da definirate zaledne storitve in kako se le-te sprožijo, ko je naročnina aktivirana/deaktivirana. To vaši organizaciji omogoči popoln nadzor in pregled nad kompozicijo/dekompozicijo ter pregled nad naročniškimi storitvami, s tem povezanimi strankami, plačili, računi itd."
+          }
+        }
+      }
+    },
+    "kyc": {
+      "title": "KYC",
+      "shortDesc": "Aplikacijski programski vmesnik za poznavanje strank (ang. KYC ali know your customers) vam omogoča, da osebno identificirate svoje nove stranke.",
+      "tag": "uporabniki",
+      "pricing-desc": "Kupite in uporabljajte Kumuluz KYC kot vsebnik s podporo.",
+      "page": {
+        "title": "Kumuluz KYC",
+        "para": "Vmesnik Kumuluz KYC API za poznavanje strank vam omogoča, da osebno identificirate svoje nove stranke in varno shranite podatke o njih na način, ki je skladen z uredbo GDPR.",
+        "how-it-works": {
+          "title": "Delovanje vmesnika",
+          "para": "Kumuluzov vmesnik KYC API vključuje funkcionalnosti, ki zbirajo, obravnavajo in varno shranjujejo podatke o vaših strankah. Podpira raznolike procese poznavanja strank, tudi tiste za finančne institucije. Podpira mobilne in spletne procese KYC, vključno s formularji in zalednim procesiranjem, ter varno shranjevanje podatkov. Vmesnik Kumuluz KYC API za poznavanje strank je skladen z uredbo GDPR in podpira različne tokove interakcij s strankami."
+        }
+      }
+    }
+  },
+  "payment": {
+    "purchase-of": "Nakup",
+    "thanks": "Zahvaljujemo se vam za nakup",
+    "fill-form": "Prosim izpolnite spodnji obrazec",
+    "first-name": "Ime",
+    "last-name": "Priimek",
+    "company": "Podjetje",
+    "country": "Država",
+    "email": "Elektronski naslov",
+    "phone": "Telefonska številka",
+    "checkout": "Nadaljujte z nakupom",
+    "provided-info": "Zahvaljujemo se vam za podane informacije. S spodnjim gumbom zaključite nakup.",
+    "completed": "Nakup je bil uspešno zaključen. Poslano vam bo elektronsko sporočilo z navodili",
+    "close": "Zapri"
+  }
+}

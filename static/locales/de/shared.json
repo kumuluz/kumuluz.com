@@ -1,0 +1,143 @@
+{
+  "navbar": {
+    "business-apis": "Business APIs",
+    "digital-platform": "Digitale Plattform",
+    "partners": "Partners",
+    "blog": "Blog",
+    "contact": "Contact us"
+  },
+  "cookies": {
+    "warning": "",
+    "consent": ""
+  },
+  "footer": {
+    "products": {
+      "title": ""
+    },
+    "copyright": "",
+    "social": {
+      "title": ""
+    },
+    "apis": {
+      "title": "",
+      "api1": "",
+      "api2": "",
+      "api3": "",
+      "api4": "",
+      "api5": "",
+      "api6": "",
+      "api7": "",
+      "api8": "",
+      "api9": "",
+      "api10": ""
+    },
+    "community": {
+      "title": "",
+      "link1": "",
+      "link2": "",
+      "link3": "",
+      "link4": ""
+    },
+    "websites": {
+      "title": ""
+    },
+    "company": {
+      "title": "",
+      "link1": "",
+      "link2": "",
+      "link3": "",
+      "link4": "",
+      "link5": ""
+    },
+    "contact": {
+      "title": "",
+      "form": {
+        "name": "",
+        "namePlaceholder": "",
+        "company": "",
+        "companyPlaceholder": "",
+        "email": "",
+        "emailPlaceholder": "",
+        "companySize": "",
+        "companySizeOptions": {
+          "micro": "",
+          "small": "",
+          "medium": "",
+          "large": ""
+        },
+        "phone": "",
+        "phonePlaceholder": "",
+        "partnership": "",
+        "partnershipPlaceholder": "",
+        "partnershipOptions": {
+          "customer": "",
+          "integration": "",
+          "developer": ""
+        },
+        "message": "",
+        "messagePlaceholder": "",
+        "messageHelp": "",
+        "send": "",
+        "errors": {
+          "required": "",
+          "email": "",
+          "phone": ""
+        }
+      },
+      "contact": {
+        "title": "",
+        "company": "",
+        "address": "",
+        "email": "",
+        "phone": ""
+      }
+    }
+  },
+  "products": {
+    "kumuluzEE": {
+      "title": "",
+      "description": "",
+      "transformation": ""
+    },
+    "kumuluzAPI": {
+      "title": "",
+      "description": "",
+      "transformation": ""
+    },
+    "kumuluzIntegration": {
+      "title": "",
+      "description": "",
+      "transformation": ""
+    },
+    "kumuluzDevOps": {
+      "title": "",
+      "description": "",
+      "transformation": ""
+    },
+    "kumuluzUX": {
+      "title": "",
+      "description": "",
+      "transformation": ""
+    },
+    "kumuluzCCM": {
+      "title": "",
+      "description": "",
+      "transformation": ""
+    },
+    "kumuluzMarketplace": {
+      "title": "",
+      "description": "",
+      "transformation": ""
+    },
+    "kumuluzPayment": {
+      "title": "",
+      "description": "",
+      "transformation": ""
+    },
+    "kumuluzCrowdsensing": {
+      "title": "",
+      "description": "",
+      "transformation": ""
+    }
+  }
+}

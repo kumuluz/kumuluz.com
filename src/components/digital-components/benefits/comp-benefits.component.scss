@@ -1,0 +1,23 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+
+.km-comp-benefits-component {
+  background: $blue-top-to-bottom-gradient;
+
+  h2 {
+    color: $white;
+  }
+  p {
+    color: $white;
+  }
+  .nav-buttons button p {
+    color: $blue-100;
+  }
+}
+
+@include device-specific($media-phone) {
+  h2 {
+    margin-top: 40px;
+  }
+}

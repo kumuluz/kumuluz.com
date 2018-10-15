@@ -1,0 +1,89 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.km-app-needs-component {
+  margin-bottom: 80px;
+
+  .subtitle {
+    text-align: center;
+    color: $blue-100;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 40px 0 20px 0;
+  }
+  .needs-row {
+    display: flex;
+    justify-content: center;
+
+    span {
+      margin: 10px 10px;
+      background-color: $white;
+      padding: 10px;
+      font-size: 18px;
+
+      img {
+        min-width: 25px;
+        width: 25px;
+        margin-right: 8px;
+      }
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      &.btn {
+        background-color: $red;
+        padding: 10px 40px;
+      }
+    }
+  }
+  .learn-more-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title, .link, .bullet {
+      margin-right: 30px;
+    }
+    .title {
+      color: $blue-100;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+    .link {
+      font-size: 18px;
+      color: $white;
+
+    }
+    .bullet {
+      display: inline-block;
+      background-color: $blue-100;
+      min-width: 15px;
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+@include device-specific($media-phone) {
+  .needs-row {
+    flex-wrap: wrap;
+
+    span {
+      width: 100%;
+      margin: 0 0 20px 0 !important;
+    }
+  }
+  .learn-more-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > * {
+      margin-bottom: 20px;
+    }
+  }
+}

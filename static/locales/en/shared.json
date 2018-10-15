@@ -1,0 +1,144 @@
+{
+  "navbar": {
+    "business-apis": "Business APIs",
+    "digital-platform": "Digital platform",
+    "partners": "Partners",
+    "use-cases": "Use cases",
+    "blog": "Blog",
+    "contact": "Contact us"
+  },
+  "cookies": {
+    "warning": "This website uses cookies to improve user experience. By using our website you consent to all cookies.",
+    "consent": "I agree"
+  },
+  "footer": {
+    "products": {
+      "title": "Kumuluz Digital"
+    },
+    "copyright": "&copy; Sunesis, All rights reserved",
+    "social": {
+      "title": "Follow us on social media"
+    },
+    "apis": {
+      "title": "Business APIs",
+      "api1": "Payment",
+      "api2": "Product Catalog",
+      "api3": "Cart",
+      "api4": "Order",
+      "api5": "Fulfillment",
+      "api6": "Invoice",
+      "api7": "Customer",
+      "api8": "CCM",
+      "api9": "Subscription",
+      "api10": "KYC"
+    },
+    "community": {
+      "title": "Community",
+      "link1": "Blog",
+      "link2": "Open Source",
+      "link3": "Twitter",
+      "link4": "LinkedIn"
+    },
+    "websites": {
+      "title": "Our websites"
+    },
+    "company": {
+      "title": "Company",
+      "link1": "About us",
+      "link2": "Rewards",
+      "link3": "News",
+      "link4": "Careers",
+      "link5": "Legal"
+    },
+    "contact": {
+      "title": "Talk with our experts",
+      "form": {
+        "name": "First and Last Name",
+        "namePlaceholder": "Your full name",
+        "company": "Company",
+        "companyPlaceholder": "Your company",
+        "email": "Email",
+        "emailPlaceholder": "johndoe at email",
+        "companySize": "Company size",
+        "companySizeOptions": {
+          "micro": "1-9 (Micro)",
+          "small": "10-49 (Small)",
+          "medium": "50-249 (Medium)",
+          "large": "250+ (Large)"
+        },
+        "phone": "Phone number",
+        "phonePlaceholder": "+386 41 123 456",
+        "partnership": "Partnership type",
+        "partnershipPlaceholder": "Type...",
+        "partnershipOptions": {
+          "customer": "Customer",
+          "integration": "Integration partner",
+          "developer": "Developer"
+        },
+        "message": "How can we help?",
+        "messagePlaceholder": "Type your message...",
+        "messageHelp": "Characters left",
+        "send": "Send inquiry",
+        "errors": {
+          "required": "Field is required.",
+          "email": "Invalid e-mail address.",
+          "phone": "Invalid phone number."
+        }
+      },
+      "contact": {
+        "title": "Contact information",
+        "company": "SUNESIS Ltd.",
+        "address": "Smartinska cesta 152,<br /> Ljubljana,<br /> Slovenia",
+        "email": "e: info@sunesis.si",
+        "phone": "tel: +386 2 123 456 78"
+      }
+    }
+  },
+  "products": {
+    "kumuluzEE": {
+      "title": "kumuluz<span class='font-weight-bold colorEE'>EE</span>",
+      "description": "Microservice framework",
+      "transformation": "Bring your Java monoliths to the microservice framework"
+    },
+    "kumuluzAPI": {
+      "title": "kumuluz<span class='font-weight-bold colorAPI'>API</span>",
+      "description": "API service management",
+      "transformation": "Manage APIs and empower your business with API economy"
+    },
+    "kumuluzIntegration": {
+      "title": "kumuluz<span class='font-weight-bold colorIntegration'>Integration</span>",
+      "description": "Integration platform",
+      "transformation": "Integrate digital solutions, IoT and back-end systems"
+    },
+    "kumuluzDevOps": {
+      "title": "kumuluz<span class='font-weight-bold colorDevOps'>DevOps</span>",
+      "description": "Best of breed DevOps solutions",
+      "transformation": "Development and operations joining forces for continuous deployment"
+    },
+    "kumuluzUX": {
+      "title": "kumuluz<span class='font-weight-bold colorUX'>Ux</span>",
+      "description": "Sophisticated UX framework with BMP integration",
+      "transformation": "Rapidly develop sophisticated and responsive user experiences"
+    },
+    "kumuluzCCM": {
+      "title": "kumuluz<span class='font-weight-bold colorCCM'>CCM</span>",
+      "description": "Customer engagement platform",
+      "transformation": "New digital ways to engage with your customer, anywhere"
+    },
+    "kumuluzMarketplace": {
+      "title": "kumuluz<span class='font-weight-bold colorMarketplace'>Marketplace",
+      "description": "Digital marketplace framework",
+      "transformation": "Rapidly develop customized digital marketplaces to accelerate your business"
+    },
+    "kumuluzPayment": {
+      "title": "kumuluz<span class='font-weight-bold colorPayment'>PaymentAPI</span>",
+      "description": "Easy and flexible solution for digital payments",
+      "transformation": "Charge for your products and services in digital way"
+    },
+    "kumuluzCrowdsensing": {
+      "title": "kumuluz<span class='font-weight-bold colorCrowdsensing'>Crowdsensing</span>",
+      "description": "Platform for collecting and analyzing crowd data using Blockchain",
+      "transformation": "A completely new depth of data about your customers"
+    }
+  }
+}

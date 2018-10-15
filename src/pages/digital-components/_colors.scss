@@ -1,0 +1,46 @@
+@import "../../assets/scss/variables";
+
+// COLORS
+.color-ee {
+  color: $ee;
+}
+.color-api {
+  color: $api;
+}
+.color-integration {
+  color: $integration;
+}
+.color-ux {
+  color: $ux;
+}
+.color-ccm {
+  color: $ccm;
+}
+.color-marketplace {
+  color: $marketplace;
+}
+.color-crowdsensing {
+  color: $crowdsensing;
+}
+// BACKGROUND COLORS
+.backcolor-ee {
+  background-color: $ee !important;
+}
+.backcolor-api {
+  background-color: $api !important;
+}
+.backcolor-integration {
+  background-color: $integration !important;
+}
+.backcolor-ux {
+  background-color: $ux !important;
+}
+.backcolor-ccm {
+  background-color: $ccm !important;
+}
+.backcolor-marketplace {
+  background-color: $marketplace !important;
+}
+.backcolor-crowdsensing {
+  background-color: $crowdsensing !important;
+}

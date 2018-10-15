@@ -1,0 +1,13 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.km-api-coming-soon-component {
+  h2 {
+    text-align: center;
+    color: $blue-400;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

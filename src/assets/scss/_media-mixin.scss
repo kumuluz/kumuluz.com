@@ -1,0 +1,12 @@
+$media-xs: '(max-width: 575px)';
+$media-sm: '(min-width: 576px)';
+$media-phone: '(max-width: 768px)';
+$media-md: '(min-width: 768px)';
+$media-lg: '(min-width: 992px)';
+$media-xl: '(min-width: 1200px)';
+
+@mixin device-specific($device) {
+  @media only screen and #{$device} {
+    @content
+  }
+}

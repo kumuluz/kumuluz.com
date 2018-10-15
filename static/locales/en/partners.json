@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Partners - Kumuluz"
+  },
+  "header": {
+    "title": "We <strong>actively collaborate</strong> with integration partners that can empower our <strong>Kumuluz Digital Platform</strong> to help their customers accelerate the digital transformation and develop new digital products.",
+    "subtitle": "Become our partner or find a local one"
+  },
+  "our-partners": {
+    "title": "Who are our integration partners?",
+    "description": "Our partners are most often regional software development companies with a substantial track record, serving the big enterprises in the region."
+  },
+  "what-we-offer": {
+    "title": "What do we offer to our integration partners?",
+    "description": "We offer substantial benefits to our integration partners",
+    "items": {
+      "item-1": "Introduction of components of KumuluzDigital platform ",
+      "item-2": "Integration partners can use our components for their own portfolio of products",
+      "item-3": "They get to know how our products work and get trained for their implementation",
+      "item-4": "There is also possibility of cooperation in development"
+    }
+  },
+  "integration-partners": {
+    "title": "Are you interested in becoming our integration partner?",
+    "summary": "Contact us using the form below"
+  }
+}
+

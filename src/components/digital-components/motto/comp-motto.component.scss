@@ -1,0 +1,37 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.km-comp-motto-component {
+  background-color: $blue-400;
+
+  .line {
+    height: 4px;
+    background-color: $api;
+    width: 15%;
+    margin-bottom: 30px;
+  }
+  h2 {
+    color: $white;
+    margin-bottom: 20px;
+  }
+  p {
+    color: $white;
+  }
+  img {
+    width: 20%;
+    height: 100%;
+  }
+}
+
+@include device-specific($media-phone) {
+  .km-comp-motto-component {
+    .line {
+      margin-top: 40px;
+      width: 60%;
+    }
+    img {
+      width: 60%;
+      height: 100%;
+    }
+  }
+}

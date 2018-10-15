@@ -1,0 +1,119 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.km-api-pricing-component {
+  .dark-blue-section {
+    background-color: $blue-400;
+
+    h2 {
+      text-align: center;
+      color: $white;
+    }
+    .ways-list {
+      margin-top: 80px;
+      display: flex;
+      justify-content: center;
+
+      .way {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        @include set-prop-to-calc-size(width, '100% / 3');
+        padding: 40px 20px;
+
+        h3 {
+          color: $white;
+          text-align: center;
+        }
+        p {
+          color: $white;
+          text-align: center;
+          font-size: 1.25rem;
+        }
+        div {
+          width: 100%;
+          &:last-child {
+            display: flex;
+            justify-content: center;
+          }
+        }
+        span {
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          text-transform: uppercase;
+          cursor: pointer;
+          background-color: $blue-100;
+          color: $white;
+          //width: 45%;
+          padding: 0 10px;
+          height: 40px;
+        }
+        &.left-way {
+          background: linear-gradient(to right, $blue-400, $blue-300);
+        }
+        &.right-way {
+          background: linear-gradient(to left, $blue-400, $blue-300);
+        }
+        &.center-way {
+          background-color: $white;
+          margin-bottom: -20px;
+          margin-top: -20px;
+
+          button{
+              background-color: $blue-100;
+              border:$blue-100;
+              height: 60px;
+          }
+
+          span {
+            width: 75%;
+            height: 60px;
+          }
+          h3 {
+            color: $black;
+            font-family: $font-asap;
+            font-weight: 700;
+          }
+          p {
+            color: $black;
+            &:nth-of-type(1) {
+              color: $grey-300;
+              font-size: 1rem;
+              font-style: italic;
+            }
+          }
+        }
+      }
+    }
+    .learn-more-link {
+      font-size: 1.25rem;
+      color: $white
+    }
+  }
+}
+
+@include device-specific($media-phone) {
+  .km-api-pricing-component {
+    .dark-blue-section {
+      .ways-list {
+        flex-wrap: wrap;
+
+        .way {
+          width: 100% !important;
+
+          &.left-way {
+            background: linear-gradient(to bottom, $blue-400, $blue-300) !important;
+          }
+          &.right-way {
+            background: linear-gradient(to top, $blue-400, $blue-300) !important;
+          }
+        }
+      }
+      .learn-more-link {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

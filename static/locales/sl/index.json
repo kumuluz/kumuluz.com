@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Kumuluz"
+  },
+  "header": {
+    "main-title": "<strong>Pospešite</strong> razvoj svojih <strong>digitalnih produktov</strong> s platformo Kumuluz",
+    "subtitle": "Realizirajte svojo digitalno strategijo",
+    "tiles": {
+      "buttons": {
+        "play-video": "Predvajaj video",
+        "learn-more": "Več"
+      },
+      "left-tile": {
+        "above-title": "POSLOVNI APLIKACIJSKI PROGRAMSKI VMESNIKI KUMULUZ",
+        "title": "API rešitve za takojšnjo uporabo",
+        "subtitle": "Uporabite že razvite poslovne API-je in tako veliko hitreje ustvarite svoje digitalne izdelke in storitve."
+      },
+      "right-tile": {
+        "above-title": "DIGITALNA PLATFORMA KUMULUZ",
+        "title": "Pospešite svojo digitalno transformacijo",
+        "subtitle": "Lahka, odprta in zmagovalna digitalna platforma, ki jo razvojne ekipe obožujejo."
+      }
+    }
+  },
+  "content": {
+    "title": "Vsi gradniki, ki jih potrebujete za svojo digitalno transformacijo",
+    "text": "Kumuluz zagotovi vse gradnike, ki jih potrebujete, da realizirate svojo digitalno transformacijo. Vse od modernizacije vaše obstoječe programske opreme do veliko hitrejšega razvoja novih digitalnih izdelkov in aplikacij.",
+    "blog-link": "Naš blog"
+  },
+  "digitalLandscapeCompetition": {
+    "title": "S Kumuluzovimi izdelki premagajte svojo konkurenco v digitalnem okolju",
+    "item-1": {
+      "title": "300 % hitrejši vstop na trg za vaše digitalne aplikacije",
+      "content": "Z že razvitimi poslovnimi API-ji, mikrostoritvami in oblačno arhitekturo, agilnim pristopom in metodologijo DevOps se za vašo aplikacijo čas vstopa na trg drastično skrajša."
+    },
+    "item-2": {
+      "title": "Ustvarite digitalne, fleksibilne in prilagodljive aplikacije",
+      "content": "Razvijte prave digitalne aplikacije, ki so popolnoma fleksibilne, se lahko hitreje prilagodijo potrebam strank in potrebam vaše digitalne strategije, prav tako pa jih lahko prilagodite med procesom svoje transformacije."
+    },
+    "item-3": {
+      "title": "Zagrabite nove poslovne priložnosti in digitalne poslovne modele",
+      "content": "Na eni sami platformi lahko enostavno povežete svoje aplikacije, naprave ali karkoli drugega, kar želite. Integracija še nikoli ni bila tako enostavna. Dodajte disruptivne digitalne poslovne procese ter jih integrirajte z obstoječimi aplikacijami in managementom poslovnih procesov."
+    },
+    "item-4": {
+      "title": "Svojim strankam redno ponujajte nove funkcionalnosti",
+      "content": "Hitro in agilno lansirajte nove funkcionalnosti za svoje digitalne izdelke in storitve, vsak dan ali celo vsakih nekaj ur. Vaša programska oprema je končno lahko dovolj fleksibilna, da se prilagodi vsem hitrim spremembam na trgu. Nenehno inovirajte in čim hitreje naredite prehod od koncepta do denarja."
+    },
+    "item-5": {
+      "title": "Razumite potrebe svojih strank in se temu primerno odzovite",
+      "content": "Izkoristite digitalne kanale in resnično razumite potrebe svojih strank v roku le nekaj ur ali dni. Zmanjšajte zanko povratnih informacij. Zaznajte potrebe in se takoj odzovite."
+    },
+    "item-6": {
+      "title": "Uporabite najsodobnejše digitalne tehnologije",
+      "content": "V celoti uporabite moderne digitalne tehnologije, vključno z mobilnimi, spletnimi in oblačnimi tehnologijami, aplikacijskimi programskimi vmesniki, internetom stvari, industrijo 4.0, veriženjem blokov, umetno inteligenco …"
+    },
+    "item-7": {
+      "title": "Izboljšajte vzdržljivost in skalirajte",
+      "content": "Občutno zmanjšajte število okvar in izboljšajte vzdržljivost z vgrajeno odpornostjo na napake. Brezskrbno in dinamično skalirajte svoje aplikacije, medtem ko se vaš krog strank veča."
+    },
+    "item-8": {
+      "title": "Prenovite svojo platformo in optimizirajte razvojna sredstva",
+      "content": "Najboljše od vsega je, da ne rabite začeti iz nič, saj namesto tega lahko uporabite obstoječa sredstva in aplikacije ter naredite prehod na novejšo platformo mikrostoritev in oblačnih rešitev."
+    },
+    "item-9": {
+      "title": "Uveljavite svojo digitalno konkurenčno prednost",
+      "content": "Uveljavite digitalno konkurenčno prednost, ki vam bo omogočila, da boste s svojo digitalno transformacijo hitrejši, agilnejši in uspešnejši kot vaša konkurenca. Zmagajte v digitalnem gospodarstvu."
+    },
+    "item-10": {
+      "title": "",
+      "content": ""
+    }
+  },
+  "bapis": {
+    "title": "Poslovni aplikacijski programski vmesniki Kumuluz",
+    "subtitle": "Ni potrebe, da razvijate iz nič. Pospešite svoj razvoj z že razvitimi funkcionalnostmi, ki jih potrebuje vsaka aplikacija. Dodajte jih s Kumuluzovimi poslovnimi aplikacijskimi programskimi vmesniki.",
+    "needs": {
+      "title": "Ali vaša aplikacija potrebuje kaj od sledečega?",
+      "item-1": "Plačilo",
+      "item-2": "Katalog izdelkov",
+      "item-3": "Nakupovalna košarica",
+      "item-4": "Upravljanje z naročili",
+      "item-5": "Izpolnjevanje naročil",
+      "item-6": "Izdajanje računov",
+      "item-7": "Upravljanje odnosov s strankami",
+      "item-8": "Komunikacija s strankami",
+      "item-9": "Upravljanje naročnine",
+      "item-10": "Proces spoznavanja strank",
+      "browse": "Pregled APIjev"
+    },
+    "learn-more": {
+      "title": "Več",
+      "item-1": "Primeri uporabe",
+      "item-2": "Primeri kode",
+      "item-3": "Cenik",
+      "item-4": "E-Trgovina",
+      "item-5": "Podpora"
+    }
+  },
+  "digital-platform": {
+    "title": "Digitalna platforma Kumuluz",
+    "subtitle": "Vse, kar potrebujete, da pospešite svojo digitalno transformacijo z odprto in lahko digitalno platformo.",
+    "items": {
+      "ee": "Mikrostoritveno ogrodje – Prenesite svoje monolitne javanske aplikacije v ogrodje mikrostoritev",
+      "api": "Management vmesnikov API – Upravljajte z API-ji in svoje poslovanje opolnomočite z gospodarstvom vmesnikov API",
+      "integration": "Integracijska platforma – Integrirajte digitalne rešitve, internet stvari in zaledne sisteme",
+      "ux": "Sofisticirano UX ogrodje, v katerega je integriran management poslovnih procesov – Hitro razvijte sofisticirane in odzivne uporabniške izkušnje",
+      "marketplace": "Ogrodje za digitalno tržišče – Hitro razvijte prilagojena digitalna tržišča in pospešite svoje poslovanje",
+      "crowdsensing": "Platforma, ki bo s pomočjo tehnologije veriženja blokov zbrala in analizirala podatke o množicah – Novi poglobljeni podatki o vaših strankah."
+    }
+  },
+  "highlights": {
+    "item-1": "Za organizacije, ki prehajajo na mikrostoritve in arhitekturo v oblaku",
+    "item-2": "Popolnoma odprta, brez kakršnekoli odvisnosti od ponudnika",
+    "item-3": "Nameščena na lokaciji (v vašem podatkovnem središču) ali v oblaku",
+    "item-4": "Ohrani investicijo v vaše obstoječe znanje in veščine",
+    "item-5": "Minimalno predplačilo in popolnoma fleksibilna naložba",
+    "item-6": "Podpora in vzdrževanje 24/7"
+  },
+  "awards": {
+    "title": "Nagrade, ki jih je dobil Sunesisov Kumuluz"
+  },
+  "other-products": {
+    "title": "NAŠI DRUGI IZDELKI, STORITVE IN SKUPNOST",
+    "tiles": {
+      "learn-more": "Več",
+      "first-tile": {
+        "above-title": "NAŠE STORITVE",
+        "title": "Lahko vam pomagamo realizirati vašo digitalno strategijo",
+        "para": "Ponujamo širok izbor storitev na področju svetovanja za IT ter izobraževanja in storitev za razvoj programske opreme, ki podjetjem omogočajo hitrejšo digitalno transformacijo, prav tako pa ponujamo storitve, povezane s prehodom na oblak, prehodom z monolitske na mikrostoritveno arhitekturo, modernizacijo programske opreme in razvojem novih digitalnih izdelkov."
+      },
+      "second-tile": {
+        "above-title": "ODPRTOKODNA SKUPNOST",
+        "title": "Pridružite se skupnosti razvijalcev, programerjev in uporabnikov",
+        "para": "Naše mikrostoritveno ogrodje (EE) je del skupnosti Microprofile.io."
+      },
+      "third-tile": {
+        "above-title": "DECENTRALIZIRANI API-JI IN TEHNOLOGIJA VERIŽENJA BLOKOV",
+        "title": "Resnično decentralizirane aplikacije",
+        "para": "Kumuluzova platforma dAPI uvaja popolnoma decentralizirane API-je, ki uporabljajo tehnologijo veriženja blokov."
+      }
+    }
+  },
+  "customers": {
+    "title": "Kaj naše stranke pravijo o nas",
+    "subtitle": "Poskrbite da vas vaša programska oprema nikoli več ne zafrustrira."
+  },
+  "references": {
+    "title": "Zaupajo nam"
+  }
+}

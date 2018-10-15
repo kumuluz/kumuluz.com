@@ -1,0 +1,593 @@
+{
+  "meta": {
+    "title": "Business APIs - Kumuluz"
+  },
+  "header": {
+    "main-title": "Beschleunigen Sie die Entwicklung Ihrer digitalen Produkte und Anwendungen mit <strong>Kumuluz Business APIs</strong>",
+    "subtitle-1": "Mit den Kumuluz Business-APIs können Sie die Entwicklung Ihrer digitalen Anwendungen beschleunigen, indem Sie vorgefertigte Funktionalitäten hinzufügen, die für jede digitale Anwendung erforderlich sind.",
+    "items": {
+      "what-are": {
+        "title": "Was sind Kumuluz Business APIs?",
+        "desc": "Kumuluz Business APIs sind vorgefertigte APIs für gebräuchliche digitale Funktionalitäten wie Produktkatalog, Warenkorb, Auftragsmanagement, Fulfillment-Management, Fakturierung, Zahlungen usw., mit denen Sie Ihre Entwicklung beschleunigen können, indem Sie unsere vorgefertigten und getesteten APIs miteinbeziehen, sie verwenden, anpassen und erweitern.<br/><br/>Sie können Kumuluz Business APIs auch problemlos in Ihre Backend- / Backoffice-Anwendungen und -Systeme integrieren."
+      },
+      "who-are": {
+        "title": "Für wen sind Kumuluz Business APIs?",
+        "desc": "Unsere Business-APIs werden hauptsächlich verwendet von <strong>Unternehmen, Startups, Regierung, Agenturen</strong>...<br/><br/> und allen anderen Organisationen, die ihre Entwicklung beschleunigen müssen."
+      },
+      "what-cost": {
+        "title": "Was kosten die Kumuluz Business APIs?",
+        "desc": "Sie können einige Business APIs kostenlos testen oder wir erstellen eine Demo für Sie.<br/><br/>Um die APIs in vollem Umfang zu nutzen, laden Sie die ausgewählten APIs als Docker-Container gegen eine Einmalzahlung herunter."
+      }
+    }
+  },
+  "filters": {
+    "title": "NI PREVODA",
+    "tags": {
+      "show-all": "NI PREVODA",
+      "users": "NI PREVODA",
+      "ecommerce": "NI PREVODA",
+      "data": "NI PREVODA"
+    }
+  },
+  "ways": {
+    "title": "Drei schnelle Möglichkeiten, Kumuluz Business APIs zu verwenden",
+    "left-way": {
+      "title": "Registrieren und testen",
+      "para": "Registrieren und testen Sie einige der Business-APIs.",
+      "button": "Starten Sie kostenlos"
+    },
+    "center-way": {
+      "title": "Shop mit Unterstützung",
+      "para1": "Bezahlen Sie per Container",
+      "para2": "Kaufen und verwenden Sie Business-APIs als Container",
+      "button": "APIs Browsen",
+      "button-buy": "Kaufen"
+    },
+    "right-way": {
+      "title": "Volle Unterstützung",
+      "para1": "Bekommen Sie die API-Quellcodes und volle Unterstützung für maximale Flexibilität",
+      "para2": "Lassen Sie unser Team Ihren Entwicklern helfen, Business-APIs vollständig zu stärken.",
+      "button": "Ein Angebot bekommen"
+    },
+    "learn-more": {
+      "link": "Erfahren Sie mehr",
+      "text": "über die Preisgestaltung"
+    }
+  },
+  "references": "Unternehmen, die bereits unsere APIs verwenden",
+  "case-study": {
+    "above-title": "Catalogue API",
+    "title": "NI PREVODA",
+    "para1": {
+      "link": "Petrol",
+      "text": "verwendet Kumuluz Business APIs, um ihre Service-Plattform und digitale Anwendungen, so wie die Anwendungen Na Poti, Fresh, Travel Aggregator und andere, zu entwickeln."
+    },
+    "para2": "NI PREVODA",
+    "quote": "NI PREVODA",
+    "read-more": "NI PREVODA",
+    "link-to-studies": "NI PREVODA"
+  },
+  "apis": {
+    "overview": "Überblick",
+    "docs": "Dokumentation",
+    "not-available": "NI PREVODA",
+    "view-more": "NI PREVODA",
+    "pricing-per-container": "Bezahlen Sie per Container",
+    "usecases": "Fallstudien",
+    "coming-soon": "Bald gibt es mehr Infos",
+    "payment-api": {
+      "title": "Payment",
+      "shortDesc": "Integrieren Sie die Zahlungsabwicklung in Ihre Anwendung, von Kreditkarten über Paypal bis zu Kryptowährungen.",
+      "tag": "NI PREVODA",
+      "pricing-desc": "NI PREVODA",
+      "page": {
+        "title": "Kumuluz Payment",
+        "subtitle-1": "Kumuluz Payment API vereinfacht die Integration mit Payment-Gateways und Systemen verschiedener Anbieter, die Ihre Kunden bereits kennen. Mit minimalem Aufwand können Sie gängige Bezahlsysteme unterstützen und den Bezahlvorgang für Ihre Kunden vereinfachen.",
+        "subtitle-2": "Alle Zahlungssysteme werden durch eine einfache und generische Schnittstelle unterstützt, mit der Sie die Transaktionskosten optimieren können. Mit der Verwendung von Kumuluz Payment API können Sie die günstigste Zahlungsmethode wählen und Ihre Ausgaben senken.",
+
+        "how-it-works": {
+          "title": "Wie die API funktioniert",
+          "subtitle": "",
+          "list": {
+            "item-1": "Einfache generische Schnittstelle für alle Zahlungssysteme",
+            "item-2": "Optimieren Sie die Transaktionskosten mit verschiedenen Payment-Gateways",
+            "item-3": "Kontrollieren und überblicken Sie alle Zahlungen an einem Ort",
+            "item-4": "Kumuluz Payment API ist PCI-DSS-konform",
+            "item-5": "Security by Design (SbD)",
+            "item-6": "Passen Sie das Zahlungsfenster Design Ihren Bedürfnissen an",
+            "item-7": "Steigern Sie Ihren Umsatz",
+            "item-8": "Kunden können ihre bevorzugte Zahlungsmethode wählen",
+            "item-9": "Gut dokumentiert, einschließlich der Open API/Swagger-Spezifikation und -Dokumentation"
+          }
+        },
+        "docs": {
+          "title": "NI PREVODA",
+          "body": {
+            "title": "Zusammenfassung der Dokumentation",
+            "view": "Dokumentation anzeigen"
+          },
+          "item-1": {
+            "title": "Einfache Integration und Aktualisierung",
+            "desc": "Entwickelt für Entwickler und ermöglicht einfache Integration mit bestehenden Systemen und einfaches Hinzufügen neuer Zahlungsoptionen."
+          },
+          "item-2": {
+            "title": "Sicher und geschützt",
+            "desc": "Verwendet moderne Tokenisierungs-Methoden, um Transaktionen zu sichern. Benutzerdaten werden nur von Zahlungssystemen verarbeitet."
+          },
+          "item-3": {
+            "title": "Einheitliche Plattform für traditionelle und moderne Zahlungen",
+            "desc": "Einzellösung für verschiedene Zahlungsanbieter und Zahlungsmethoden für Debit- und Kreditkarten, Instant-Pay-Systeme (PayPal, Apple Pay, Google Wallet, mBills etc.) und Kryptowährungen. Man kann mehrere verschiedene Payment-Gateways (Braintree, Stripe, Bankart, etc.) benutzen, und Online-Banking-Lösungen können integriert werden."
+          },
+          "item-4": {
+            "title": "Optimieren Sie die Transaktionskosten",
+            "desc": "Leitet automatisch zum günstigsten Payment-Gateway."
+          }
+        },
+        "usecases": {
+          "item-1": "Sie haben ein Zahlungssystem, das mehrere Payment-Gateways verwendet. Jedes Gateway hat unterschiedliche Preise, daher zahlen Sie für jede Transaktion unterschiedlich. Kumuluz Payment API wählt automatisch das billigste Gateway und hilft Ihnen so Geld zu sparen.",
+          "item-2": "Sie haben eine neue moderne Anwendung entwickelt, mit der Sie Produkte an Ihre Benutzer verkaufen. Wenn Sie jedoch Benutzern das Online-Bezahlen ermöglichen möchten, müssen Sie eines der Payment-Gateways verwenden und dessen Design in Ihre Anwendung einbetten. Dies ruiniert Ihr Design komplett oder, schlimmer, leitet Nutzer auf eine andere Webseite um. Mit Kumuluz Payment API können Sie benutzerdefinierte Zahlungsbildschirme entwerfen und verwenden, und sie in Ihre Anwendung einbetten. Auf diese Weise verlässt der Benutzer nicht Ihre Anwendung und hat eine makellose Benutzererfahrung.",
+          "item-3": "Sind Sie besorgt, dass Sie mit sensiblen Daten umgehen müssen? Kumuluz Payment API kümmert sich darum. Sie müssen sich um die Sicherheit keine Sorgen machen. Durch den Einsatz moderner Tokenisierungs-Methoden bieten wir eine einfache und sichere Abwicklung Ihrer Transaktionen an. Außerdem erreichen Sie PCI-DDS-Konformität.",
+          "item-4": "Haben Sie sich jemals gefragt, wie viel Sie durch Online-Zahlungsmethoden verdienen? Vielleicht wollten Sie Ihre Transaktionen verfolgen? Mit Kumuluz Payment API haben Sie eine einheitliche Verwaltung und Kontrolle über alle Online- und Offline-Zahlungen.",
+          "item-5": "Sie wissen, dass Sie heute die Zahlung mit Debitkarten unterstützen und vielleicht Ihre Zahlungsmethoden in der Zukunft erweitern möchten? Sind Sie besorgt, wie Sie Ihr System erweitern müssen, um alle Zahlungsmethoden zu unterstützen? Mit Kumuluz Payment API haben Sie eine einheitliche Plattform für moderne (und traditionelle) Zahlungssysteme. Wenn Sie ein neues Zahlungssystem hinzufügen möchten, können Sie dies mit minimalem Konfigurationsmanagement erreichen. Die Unterstützung für ein neues Zahlungssystem war nie einfacher."
+        }
+      }
+
+    },
+    "product-catalog": {
+      "title": "Product Catalog",
+      "shortDesc": "Komplette Produktkataloglösung für digitale und interne Anwendungen mit ausgereiften Funktionen für Omnichannel-Unterstützung, Bestandsverwaltung, Preisgestaltung, Loyalitätsintegration und vieles mehr.",
+      "tag": "NI PREVODA",
+      "pricing-desc": "NI PREVODA",
+      "page": {
+        "title": "Kumuluz Product Catalog",
+        "para": "Der Kumuluz Product Catalog ist eine vollständige Produktkataloglösung für digitale und interne Anwendungen mit ausgereiften Funktionen für Omni-Channel-Support, Bestandsverwaltung, Preisgestaltung, Kundenbindung und vieles mehr. Es bietet leistungsstarke Funktionen zum Verwalten und Bereitstellen Ihrer Produkte für Ihre Endkundendienste und Apps. Es lässt sich nahtlos in andere Kumuluz Business APIs integrieren und bietet vorgefertigte Vorlagen und Erweiterungspunkte für die Integration in die Backend-Systeme Ihrer Organisation.",
+        "how-it-works": {
+          "title": "Wie die API funktioniert",
+          "para-1": "Die Produktbeschreibungsstruktur der Kumuluz Product Catalog API ist flexibel und erweiterbar. Es besteht aus Marken und Produkten, Variationen der Produkte, Kollektionen von Produkten und anderen Sammlungen (Hierarchie), Verkaufskanälen und Standorten für verschiedene Unternehmen (Multi-Tenant). Produkte haben Optionen (um mögliche Optionen für die Variation-Differenzierung anzugeben) und andere Attribute, Variationen von Produkten (spezifiziert durch Optionswerte) mit charakteristischen Werten (Besonderheiten für die Auftragsabwicklung und nachfolgende Prozesse) und andere Attribute, Preise, Steuersätze, etc.",
+          "para-2": "Der Kumuluz Product Catalog ist in den Kumuluz Cart, die Bestellung, das Preismodell, den Produktbestand und das Loyalitätsmanagement integriert. Die folgende Abbildung zeigt die Gesamtstruktur des Kumuluz Product Catalog.",
+          "para-3": "Der Produktkatalog kann vollständig in bestehende Produktkataloge integriert werden. Wenn ein Altsystem mit Produktdaten vorhanden ist, kann der Kumuluz Product Catalog seine ursprünglichen Daten erhalten und diese mit zusätzlichen Daten anreichern, die im vorhandenen (Alt-) Katalog noch nicht vorhanden waren. Eine aktive bidirektionale Synchronisierung zwischen dem vorhandenen Katalog und dem Kumuluz Product Catalog kann für alle Daten eingerichtet werden, die noch im vorhandenen (Alt-) System vorhanden sind.",
+          "para-4": "Die Kumuluz Product Catalog API ist für optimale Leistung in den Vertriebskanalanwendungen zwischengespeichert. Preissystem und Produktinventar stellen den Vertriebskanalanwendungen Preise und Bestände bereit. Vertriebskanalanwendungen verwenden Kumuluz Cart, um Kundenbestellungen zu bearbeiten, bis sie vom Kunden zur Erfüllung der Kumuluz Order und -Fulfillment eingereicht werden."
+        },
+        "docs": {
+          "title": "Zusammenfassung der Dokumentation",
+          "view": "Dokumentation anzeigen",
+          "item-1": {
+            "title": "Einheitliche Plattform für alle Arten von Produkten und Dienstleistungen",
+            "desc": "Die Produktkatalog-API unterstützt nicht nur physische Produkte, sondern auch Dienstleistungen, einschließlich digitaler Produkte und Dienstleistungen."
+          },
+          "item-2": {
+            "title": "Bereichern Sie die Darstellung Ihrer Angebote für Kunden",
+            "desc": "Verwenden Sie parallele Sammlungen, um Ihren Produktkatalog auf unbegrenzte Weise hierarchisch zu organisieren, sortieren Sie nach Arten  innerhalb der Sammlungen, fügen Sie Bilder für responsives Design und mobile Apps hinzu, bereichern Sie Beschreibungen mit Formatierungen und ermöglichen Sie, dass Attribute von Kunden verglichen werden können."
+          },
+          "item-3": {
+            "title": "Steigern Sie Ihren Verkauf durch Produktmodifikation, Upselling und Cross-Selling",
+            "desc": "Ermöglichen Sie Abwechslung der Produkte durch die Angabe von Bestandteilen, die vom Kunden optional entfernt werden können, bieten Sie zusätzliche kostenlose oder kostenpflichtige Add-Ons an, bieten Sie Premiumprodukte an, fügen Sie empfohlene Produkte hinzu usw."
+          },
+          "item-4": {
+            "title": "Einfache Integration und / oder Migration",
+            "desc": "Die Integration mit, oder Migration von, bestehenden Produktkatalogen oder Teilen davon wird durch Migrationsskripte und eine umfangreiche API für die Online-Synchronisierung vereinfacht."
+          },
+          "endpoints": {
+            "title": "Liste der Endpunkte",
+            "item-1": "Präsentieren Sie Marken von Produkten, die Sie verkaufen, und steigern Sie die Markenbildung",
+            "item-2": "Bieten Sie maßgeschneiderte Produkte und Dienstleistungen über verschiedene Vertriebskanäle an",
+            "item-3": "Erstellen Sie Hierarchien von Produkten, bieten Sie Add-Ons an und empfehlen Sie ähnliche und / oder ergänzende Produkte",
+            "item-4": "Unterstützen Sie alle Ihre Niederlassungen oder integrieren Sie den Produktkatalog in eine Multi-Tenant-Lösung, die Sie Ihren Kunden anbieten",
+            "item-5": "Erweitern Sie Ihren Handel weltweit",
+            "item-6": "Unterstützen Sie umfangreiche Einzelhandelsnetzwerke mit jeweils spezifischen Angeboten",
+            "item-7": "Verwenden Sie dynamische Preise, um Ihren Umsatz zu steigern",
+            "item-8": "Bieten Sie eine breite Palette von Produkten und Dienstleistungen an, einschließlich digitaler Produkte, machen Sie Vergleiche möglich und Unterstützen Sie ihre Personalisierung, indem sie es Kunden ermöglichen, bestimmte Elemente zu entfernen oder kostenlose oder kostenpflichtige Add-Ons hinzuzufügen",
+            "item-9": "Unterstützen Sie verschiedene Steuern, die in den verschiedenen Ländern vorgeschrieben sind",
+            "item-10": "Übersetzen Sie alles, was Kunden lesen können",
+            "item-11": "Unterstützen Sie verschiedene Variationen jedes Produktes in Bezug auf Farbe, Größe, Elemente usw. und ermöglichen Sie Vergleiche zwischen Produckten"
+          }
+        },
+        "usecases": {
+          "item-1": "Ihr derzeitiges System zur Verwaltung von Produkten ist ein eng verbundenes Bestell- und Zahlungssystem, das Sie bei der Unterstützung neuer Kanäle und der digitalen Transformation einschränkt. Der Produktkatalog stellt Mechanismen zur Integration in Ihre Altsysteme bereit und bringt somit Produkte und Dienstleistungen in den Kumuluz Product Catalog. Dies kann besonders wichtig sein, wenn sich Daten an mehreren Standorten befinden - zum Beispiel Produkte, Preise, Lagerbestände, Rabatte usw. von verschiedenen Unternehmensbereichen verwaltet werden. Der Kumuluz Product Catalog bietet daher eine einheitliche Auffassung der Produkte und Dienstleistungen, die Ihr Unternehmen anbietet.",
+          "item-2": "Ihre Organisation unterstützt derzeit neue digitale Kanäle, z. B. neue mobile Apps. Sie möchten anpassen, wie Produkte dem Kunden über diese Apps präsentiert werden. Kumuluz Product Catalog API ermöglicht es Ihnen, Produkte in verschiedene digitale Kanäle mit maßgeschneiderten Metadaten, Sortierung, Preisgestaltung und andere auf den jeweiligen Kanal zugeschnittene Informationen zu gruppieren.",
+          "item-3": "Digitale Assets für Produkte werden in der Regel manuell erstellt, auf die Remote-Plattform hochgeladen und dann in der Produktbeschreibung referenziert, um die Produktinformationen anzureichern. Dies kann aufgrund der Vielzahl unterschiedlicher Gerätetypen, Größen und Bildschirmauflösungen eine langwierige Aufgabe sein. Der Kumuluz Product Catalog bietet eine moderne einseitige clientseitige Benutzeranwendung für das Assets-Management. Sie können beispielsweise ein einzelnes hochauflösendes Bild pro Produkt hochladen und dann durch Auswahl verschiedener Seitenverhältnisse Bildmaterial vorbereiten, z. B. für Banner, Symbole, Karussells usw. Für Bilder wählen Sie auch Gerätetypen aus, und mehrere Bilder werden automatisch erstellt für verschiedene Zielbildschirm DPI und Auflösungen. Außerdem können Sie den Produkten Videos und Dokumente hinzufügen."
+        }
+      }
+    },
+    "cart": {
+      "title": "Cart",
+      "shortDesc": "Integrieren Sie Omnichannel-Warenkorb-Funktionalität in Ihren Anwendungen. Vom Hinzufügen zum Warenkorb bis zum Kassier-Vorgang, und einfacher Integration mit Backend, Produktkatalog, Auftragsmanagement und Fulfillment.",
+      "tag": "NI PREVODA",
+      "pricing-desc": "NI PREVODA",
+      "page": {
+        "title": "Kumuluz Cart",
+        "para": "Kumuluz Cart ist eine Komplettlösung für die Omni-Channel-Warenkorb-Funktionalität in Ihren Anwendungen. Vom Hinzufügen zum Warenkorb bis zum Kassier-Vorgang und einfacher Integration mit Backend, Produktkatalog, Auftragsverwaltung und Fulfillment. Kumuluz Cart API bietet vollständige Unterstützung für die Implementierung von Prozessen, die mit der Auftragserstellung verbunden sind. Dies beinhaltet die Bestätigung von Preisen, Vorratsinformationen und Kundentreuedaten und das Erstellen von Bestellungen. Kumuluz Cart kann mit anderen APIs, einschließlich Kumuluz Product Catalog und Kumuluz Order und Fulfillment-APIs, und mit Backend-Systemen integriert werden.",
+        "how-it-works": {
+          "title": "Wie die API funktioniert",
+          "para-1": "Die grundlegende Funktionalität von Kumuluz Cart API ermöglicht es Kunden, neue Warenkörbe zu erstellen und Artikel aus dem Kumuluz Product Catalog zu den Warenkörben hinzuzufügen. Kumuluz Cart API bietet volle Omnichannel-Unterstützung, dadurch kann der Kunde verschiedene Kanäle verwenden um Warenkörbe zu verwalten und während des Prozesses die Kanäle wechseln.",
+          "para-2": "Kumuluz Cart ist vollständig mit der Kumuluz Product Catalog API und anderen Systemen, einschließlich Preisen, Rabatten, Vorrat usw., integriert, wo es Informationen auffindet. Dann konstruiert es einen Warenkorb mit diesen Informationen. Artikel können entfernt oder geändert werden.",
+          "para-3": "Wenn Sie Artikel zum Warenkorb hinzufügen, können Sie bestimmte zusätzliche Informationen zur Anpassung der Kundenansicht des Warenkorbs hinzufügen, z. B. Reihenfolge der Artikel zum Anzeigen, Standort des Artikelvorrats, ausgewählte Treueprämien, ähnliche Artikel - z. B. Add-Ons, Empfehlungen usw.",
+          "para-4": "Beim Erstellen einer Bestellung über den Cart bietet die Kumuluz Cart-API Unterstützung für zusätzliche Prüfungen und Aktionen zur Minimierung von Bestellfehlern. Dazu gehören Maßnahmen wie Bestätigung und Reservierung von Vorräten, Bestätigung und Aktualisierung von Preisen, Bestätigung des Kundentreuestatus usw."
+        },
+        "docs": {
+          "title": "Zusammenfassung der Dokumentation",
+          "view": "Dokumentation anzeigen",
+          "item-1": {
+            "title": "Machen sie es Ihren Kunden möglich, ihren Warenkorb vom Anfang bis zum Ende komplett zu personalisieren",
+            "desc": "Bieten Sie Ihren Kunden Wunschlisten, Modifizierungen von Warenkorbeigenschaften (z. B. Farbe, Größe usw.), Artikelverknüpfung um sie zusammen zu verwalten, Artikelbündelung und -verknüpfung, um Sonderpreise zu erhalten usw."
+          },
+          "item-2": {
+            "title": "Vermeiden Sie Kundenfrustration",
+            "desc": "Überprüfen Sie automatisch alle Lagerbestände vor der Bestellung und bieten Sie alternative Abhol- oder Lieferorte an anstelle von frustrierenden Nachrichten wie: \"Es tut uns leid, aber der ausgewählte Artikel ist im Moment nicht verfügbar.\"."
+          },
+          "item-3": {
+            "title": "Ermöglichen Sie innovative Geschäftsmodelle",
+            "desc": "Passen Sie Artikelpreise dem Kundenstatus an, zum Beispiel dem Treuestatus, den gesammelten Gutscheinen, oder für andere Angelegenheiten, wie z.B.  spezielle zeitlich begrenzte Angebote, zum Jubiläum des Kündens, etc."
+          },
+          "endpoints": {
+            "title": "Liste der Endpunkte",
+            "item-1": "Erstellen Sie einen leeren Warenkorb, erstellen Sie einen Warenkorb mit Artikeln, erstellen Sie Wunschlisten oder verwandeln Sie Wunschlisten in Warenkörbe",
+            "item-2": "Fügen Sie Artikel zum Warenkorb hinzu oder entfernen Sie Artikel, ändern Sie vorhandene Artikel gemäß den Optionen im Produktkatalog, verknüpfen Sie Artikel, um sie zusammen zu verwalten, fügen Sie abhängige Artikel hinzu, bündeln Sie Artikel zu Sonderpreisen",
+            "item-3": "Aktualisiert die Preise von Warenkorb-Artikeln, einschließlich Basis- und Sonderpreisen",
+            "item-4": "Passen sie Artikelpreise an Kundenstatus, bzw. Loyalität, Gutscheine usw., an",
+            "item-5": "Passen sie Artikelpreise an, wie auch immer Sie wollen, bzw. nach speziellen zeitlich begrenzten Angeboten, Jubiläum der Kunden, etc.",
+            "item-6": "Prüfen Sie die Verfügbarkeit von Artikeln an bestimmten Standorten",
+            "item-7": "Ändern Sie den Abholort, aktualisieren Sie die Warenkorbpreise und entfernen Sie möglicherweise Artikel, die am neuen Standort nicht vorrätig sind"
+          }
+        },
+        "usecases": {
+          "item-1": "Die Unterstützung der Omnichannel-Bestellung, zum Beispiel die Auftragstart auf bestimmten Geräten (mobil, Kiosk, Internet usw.) und die Endverarbeitung auf einem anderen Gerät, kann aufgrund mehrerer eigenständiger Silo-basierter Backend-Systeme schwierig, wenn nicht gar unmöglich sein. Kumuluz Cart API, bietet moderne OpenAPI-basierte API, die leicht auf jeder Plattform integriert werden kann. Daher ist der Austausch von Warenkorb- und Bestellinformationen zwischen verschiedenen Kunden/ Organisationssystemen möglich und einfach zu implementieren.",
+          "item-2": "Die Verwendung verschiedener Kanäle für den Verkauf von Waren an Kunden führt zu Komplexität in der Auftrags- und Datenverwaltung, da die Daten über mehrere Systeme verteilt sind. Mit der Kumuluz Cart API werden Ihre Bestellungen an einem Ort gespeichert und verwaltet. Dies macht Auftragsmanagement, Verfolgung und analytische Aufgaben einfach und transparent. Kumuluz Cart verfügt außerdem über ein fortschrittliches, einfach zu bedienendes Web-Frontend zur Verwaltung von Warenkörben, Bestellungen und zugehörigen Informationen.",
+          "item-3": {
+            "para-1": "Die Implementierung einer modernen Verkaufs-App erfordert erweiterte Back-End-Funktionen für die Konstruktion von Aufträgen. Kumuluz Cart API bietet nicht nur einen Ort, an dem Artikel in Bestellungen gruppiert werden, sondern auch eine API, um Artikel an bestimmte Orte für den Einzelhandel zu binden, mit spezifischen Preisen, Verfügbarkeit, Rabatten, Loyalität und anderen Besonderheiten.",
+            "para-2": "Darüber hinaus können Sie Abholorte für den Einzelhandel ändern und die Validierung von Artikelattributen für den neuen Standort auslösen. Artikel in Bestellungen können verknüpft werden, Unterposten haben, auf eine bestimmte Art und Weise bestellt werden, Metadaten haben, sie können zu Wunschlisten hinzugefügt werden, von bestehenden Bestellungen neu geordnet werden usw. Daher bietet Kumuluz Cart mit seiner reichhaltigen API Bestellfunktionalität für jede verkaufsorientierte Anwendung: Web-, Mobile-, Stand-Alone- oder sogar Eingebettete-Systeme."
+          }
+        }
+      }
+    },
+    "order": {
+      "title": "Order",
+      "shortDesc": "Komplette Auftragsmanagement-Lösungen für digitale und traditionelle Kanäle, vollständig flexibel und mit Unterstützung für digitale und physische Bereitstellung.",
+      "tag": "NI PREVODA",
+      "pricing-desc": "NI PREVODA",
+      "page": {
+        "title": "Kumuluz Order",
+        "para": "Order API ist die komplette Bestellverwaltungslösung für digitale und traditionelle Kanäle, völlig flexibel und mit Unterstützung für digitale und physische Bereitstellung. Es ermöglicht die Auftragserstellung und verschiedene Bestellabläufe für verschiedene Quellen, wie zum Beispiel Cart API. Das Bestelldokument enthält einen benutzerfreundlichen Bestellcode und Informationen zur Verfolgung des Fulfillment.",
+        "how-it-works": {
+          "title": "Wie funktioniert die API?",
+          "para": "Wenn die Bestellung über die Cart-API oder anderen Quellen erstellt wird, wird ein Bestelldokument in der Order-API mit benutzerfreundlichen Bestellcodes und Informationen zur Nachverfolgung des Fulfillment erstellt."
+        },
+        "docs": {
+          "title": "Zusammenfassung der Dokumentation",
+          "view": "Dokumentation anzeigen",
+          "item-1": {
+            "title": "Bietet eine leistungsstarke Auftragssteuerung an",
+            "desc": "Ermöglichen Sie Kunden, die Bestellung jederzeit abzubrechen, und die Bestellung neu zu erstellen und die neu erstellte Bestellung zu ändern, wie sie es für richtig halten."
+          },
+          "item-2": {
+            "title": "Ermöglichen Sie vollständige Bestelltransparenz",
+            "desc": "Ermöglichen Sie Kunden, ihre Bestellhistorie zum Zeitpunkt der Bestellung als exakten Schnappschuss zu sehen."
+          },
+          "endpoints": {
+            "title": "Liste der Endpunkte",
+            "item-1": "Bestellung vom Warenkorb erstellen",
+            "item-2": "Bestellung abschließen, Bestellung stornieren und Bestellung neu erstellen",
+            "item-3": "Erhalten Sie die Bestellhistorie als exakten Schnappschuss zum Zeitpunkt der Bestellung"
+          }
+        }
+      }
+    },
+    "fulfillment": {
+      "title": "Fulfillment",
+      "shortDesc": "Vorkonfigurierte, vollständige und anpassbare Fulfillment-Management-Lösungen mit Unterstützung für Ihre individuellen Fulfillment-Prozesse, einschließlich Fulfillment über digitale und physische Kanäle und automatisierte Geräte wie Verkaufsautomaten.",
+      "tag": "NI PREVODA",
+      "pricing-desc": "NI PREVODA",
+      "page": {
+        "title": "Kumuluz Fulfillment",
+        "para-1": "Fulfillment API ist eine vollständige und anpassbare Fulfillment-Management-Lösung mit Unterstützung für Ihre maßgeschneiderten Fulfillment-Prozesse, einschließlich des Fulfillment durch digitale und physische Kanäle und automatisierte Geräte wie Verkaufsautomaten.",
+        "para-2": "Es behandelt Sitzungen zur Auftragserfüllung mit flexiblen und variablen Fulfillment-Prozessen, die sich intern erstrecken oder externe Partner einbeziehen können. Es unterstützt auch verschiedene Geräte und asynchrone Kommunikation mit diesen Geräten (Verkaufsautomaten, Pumpen / Ladestationen, etc.).",
+        "how-it-works": {
+          "title": "Wie funktioniert die API?",
+          "para-1": "Fulfillment API unterstützt verschiedene und anpassbare Fulfillment-Prozesse. Um Fulfillment zu erreichen, geht die Bestellung durch verschiedene Status. Unterschiedliche Arten des Fulfillment werden unterstützt, einschließlich des physischen Fulfillment von Waren und Dienstleistungen, digitales Fulfillment (wie Online-Tickets, Downloads, digitale Assets usw.) und maschinell unterstütztes Fulfillment durch Geräte wie Automaten, Tankstellen und Ladestationen.",
+          "para-2": "Die Fulfillment-API setzt einige vordefinierte Status für die gängigsten Fulfillment-Prozesse und -Geräte voraus. Die Liste der Status in jedem Fulfillment-Prozess kann erweitert werden, wie es bei einem benutzerdefinierten Auftragsabwicklungsprozess erforderlich ist.",
+          "para-3": "Fulfillment API ermöglicht es Kunden, Updates vom Auftragserfüllungsprozess oder von Geräten asynchron zu erhalten. Zuverlässige Benachrichtigungen und / oder \"weiche\" Daten für iOS, Android-Geräte und Webbrowser werden unterstützt. Darüber hinaus werden für Ihre individuellen, innovativen Lösungen Websocket- und REST-Rückrufe unterstützt, um eine kontinuierliche Überwachung der Auftragsabwicklung zu ermöglichen.",
+          "para-4": "Fulfillment API umschließt synchrone Geräte mit zusätzlichen Modulen, um sie asynchron zu machen, um asynchrone Kommunikation mit Klienten (Mobile- oder Dients-) zu unterstützen. Fulfillment API ist so allgemein, dass zukünftige Geräte unterstützt werden können."
+        },
+        "docs": {
+          "title": "Zusammenfassung der Dokumentation",
+          "view": "Dokumentation anzeigen",
+          "item-1": {
+            "title": "Originelle, anpassbare Fulfillment-Prozesse",
+            "desc": "Erfüllen Sie Aufträge nach Ihren individuellen Fulfillment-Prozessen, einschließlich automatisierter Geräte wie Verkaufsautomaten, Tankstellen, und Ladestationen."
+          },
+          "item-2": {
+            "title": "Stellen Sie Transparenz und Kundenbindung sicher",
+            "desc": "Geben Sie den Kunden und den Verantwortlichen für die Auftragsabwicklung detaillierte Überwachungsinformationen und ermöglichen Sie ihnen, auf unerwünschte Wendungen im Prozess zu reagieren, indem Sie ihnen Lösungen anstatt Probleme bieten."
+          },
+          "item-3": {
+            "title": "Erreichen Sie Kunden über moderne Kommunikationskanäle",
+            "desc": "Verwenden Sie Push-Benachrichtigungen auf Mobiltelefonen, \"weiche\" Daten in Webbrowsern oder implementieren Sie Ihre eigenen Kommunikationskanäle mithilfe der WebSocket- oder REST-Rückrufunterstützung."
+          },
+          "item-4": {
+            "title": "Verbessern Sie den Umgang mit den wenigen Kundenbeschwerden, die bleiben",
+            "desc": "Ermächtigt durch detaillierte Revisionsverfolgungen können Kundenbeschwerden mit minimalen Ressourcen effizient bearbeitet werden."
+          },
+          "endpoints": {
+            "title": "Liste der Endpunkte",
+            "item-1": "Starten Sie eine neue Sitzung für die Auftragsbearbeitung oder unterstützte Geräte",
+            "item-2": "Überwachen Sie den Sitzungsstatus, informieren Sie den Kunden über Statusänderungen und bestätigen, beenden, brechen oder lehnen Sie den Status ab",
+            "item-3": "Interagieren Sie mit dem Auftragsabwicklung-Prozess oder unterstützten Geräten",
+            "item-4": "Berechnen Sie die früheste Abholzeit, um den Kunden zu informieren",
+            "item-5": "Schlagen Sie eine Änderung der Bestellung vor, die erfüllt wird, z. Abholzeit und / oder Ort",
+            "item-6": "Ermöglichen Sie dem Auftragsabwicklungs-Beauftragten oder dem Kunden die vorgeschlagenen Änderungen zu sehen",
+            "item-7": "Ermöglichen Sie dem Fulfillment-Beauftragten oder dem Kunden, vorgeschlagene Änderungen an der Bestellung zu akzeptieren oder abzulehnen",
+            "item-8": "Verwenden Sie Revisionsverfolgungen, um Kunden im Falle von Beschwerden zu unterstützen",
+            "item-9": "Apps für Push-Benachrichtigungen registrieren und ihre Registrierung aufheben",
+            "item-10": "Abonnieren und Abstellen von Geräten für Push-Benachrichtigungen",
+            "item-11": "Verwalten Sie WebSocket Live-Datenfeed-Abonnements",
+            "item-12": "Verwalten Sie REST-Rückruf-Abonnements"
+          }
+        },
+        "usecases": {
+          "item-1": {
+            "para": "Nachdem Sie eine Anwendung zur Auftragserteilung implementiert haben, kann der Prozess zur Erfüllung bestimmter Aufträge, z. B. Webshop-Bestellungen, nicht trivial sein. Es kann entweder sehr abhängig von manuellen Aufgaben sein oder von heterogenen Anwendungen / Systemen unterstützt werden. In solchen Fällen kümmert sich die Kumuluz Fulfillment API, die mit der Kumuluz Order API verbunden ist um die Überwachung und Ausführung der notwendigen Schritte im Fulfillment Prozess. Die API bietet Schnittstellen, Vorlagen und erweiterbare generische Abläufe, die auf die Unterstützung Ihrer Anwendungsfälle spezialisiert sein können. Zum Beispiel:",
+            "items": {
+              "item-1": "Ausführung von Web-Aufträgen (Bestandsabnahme, Versandvorbereitung, Versand, Rückgaben, Rückerstattungen usw.),",
+              "item-2": "Überwachung der Lebensmittelzubereitung (Überwachung des Fortschritts der Zubereitung von Speisen für Köche),",
+              "item-3": "Steuerung eingebetteter Geräte (Ausführen von Schritten, beispielsweise für Verkaufsautomaten, Ladegeräte usw.)."
+            }
+          },
+          "item-2": "Ihre Organisation muss verschiedene KPIs überwachen, wenn sie Aufträge ausführt. Kumuluz Fulfillment verfolgt jede Aktion und jeden Schritt im Auftragsabwicklungsprozess. Daher können Sie KPIs verfolgen und verschiedene Analyseberichte generieren, die die Leistung Ihrer Organisation messen."
+        }
+      }
+    },
+    "invoice": {
+      "title": "Invoice",
+      "shortDesc": "Rechnungstellung zur Generierung, Verarbeitung und Zustellung von Rechnungen über digitale Kanäle und zu verschiedenen Geräten.",
+      "tag": "NI PREVODA",
+      "pricing-desc": "NI PREVODA",
+      "page": {
+        "title": "Kumuluz Invoice",
+        "para": "Kumuluz Invoice API ist eine vollständige Lösung für die Rechnungsstellung. Es unterstützt die Generierung, Verarbeitung und Lieferung von Rechnungen über digitale Kanäle und an verschiedene Geräte. Es ermöglicht die Erstellung von Rechnungen, die Erstellung von Rechnungsdokumenten in verschiedenen Formaten und Designs, sowie die Zustellung von Rechnungen an verschiedene Geräte und über verschiedene Kanäle.",
+        "how-it-works": {
+          "title": "Wie funktioniert die API?",
+          "para-1": "Kumuluz Invoice API empfängt Daten für die Rechnungsstellung und erstellt eine Rechnung basierend auf diesen Daten.",
+          "para-2": "Dazu gehören Rechnungskopfdaten (wie Kundendaten, Datum der Dienstleistungen / Produkte, Datum der Rechnungsstellung, Fälligkeitsdatum, Auftragsnummer usw.), Rechnungspostendaten (wie Produkt- und Dienstleistungsnamen und andere Metadaten, Mengen, Preise, Steuersätze, Steuern, Zwischenbeträge, Rabatte, genutzte Vorteile usw.) und Rechnungsfußdaten (wie bereits gezahlter Betrag, geschuldeter Betrag, Informationen zur Zahlung mit Bankkontonummer, Bankdaten, sonstige Banküberweisungsdaten, rechtliche Haftungsausschlüsse, Kontaktnummern, Kontaktkanäle für Beschwerden usw.).",
+          "para-3": "Nachdem die Rechnung erstellt wurde, kann sie weiter bis zu dem Punkt verwaltet werden, an dem sie direkt an eine mobile oder Webanwendung gesendet oder in einem bestimmten Format wie JSON, XML, PDF usw. exportiert wird."
+        },
+        "docs": {
+          "title": "Zusammenfassung der Dokumentation",
+          "view": "Dokumentation anzeigen",
+          "item-1": {
+            "title": "Vereinheitlichen Sie die Rechnungsstellung",
+            "desc": "Erstellen Sie alle Rechnungen mit allen ihren Unterschieden in Bezug auf Geschäftsbereiche, verkaufte Waren, Steuern, Rechtsrahmen, spezifische Länderregelungen und andere Besonderheiten und verwalten Sie diese über eine einzige API."
+          },
+          "item-2": {
+            "title": "Unterstützen Sie Ihren Multichannel-Vertrieb, indem Sie kanaladaptierte Rechnungen liefern",
+            "desc": "Sie können Ihre Rechnungen automatisch mit allen erforderlichen Daten in verschiedene Formate und Aussehen umwandeln, um sie über verschiedene Kanäle, einschließlich der modernsten, wie mobile Apps, Online-Bezahlsysteme, digitale Brieftaschen usw., zu übermitteln."
+          },
+          "item-3": {
+            "title": "Liefern Sie Rechnungen an Kunden über ihre bevorzugten Kanäle",
+            "desc": "Ermöglichen Sie eine Vereinheitlichung der Verwaltung der Rechnungen, damit Ihre Kunden in jedem spezifischen Anwendungsfall ihren bevorzugten Rechnungslieferkanal auswählen können, unabhängig davon, ob dies kanalspezifisch, pro Rechnung, nach Warentyp oder nach anderen Kriterien erfolgt."
+          },
+          "endpoints": {
+            "title": "Liste der Endpunkte",
+            "item-1": "Erstellen Sie neue Rechnungen und durchsuchen Sie die Rechnungshistorie",
+            "item-2": "Erhalte Rechnungen in verschiedenen Formaten wie JSON, XML, PDF usw."
+          }
+        },
+        "usecases": {
+          "item-1": "Ihre Organisation unterstützt neue Vertriebskanäle, in denen Rechnungen erstellt werden müssen. Kumuluz Invoice bietet einen einheitlichen Service für die Generierung und Speicherung von Rechnungen, der einfach in Ihre bestehenden und zukünftigen Anwendungen integriert werden kann. Abhängig von Ihren Anforderungen können alle Rechnungen entweder ein einheitliches Design- und Dokumentformat für alle Kanäle haben oder unterschiedliche Designs haben. Dies kann zum Beispiel auf bestimmte Druckgeräteanforderungen zurückzuführen sein, beispielsweise auf Laser-Rechnungsdrucker. Darüber hinaus bietet die Vereinheitlichung des Fakturierungssystems auch bessere Analyse und Benutzerinteraktion-Funktionen für Rechnungen.",
+          "item-2": "Ihr bestehendes Rechnungssystem ist veraltet, nicht flexibel oder mit alten Technologien entwickelt. Dies schränkt Sie bei der Fakturierungsfunktion bei der Erweiterung des Geschäftsmodells ein. Kumuluz Invoice API enthält nicht nur Kernrechnungen, Vorlagen und Generierung von Rechnungsfunktionen, sondern auch Erweiterungspunkte, Samples und Dokumentation für die einfache Integration mit zusätzlichen Systemen. Auf diese Weise können Sie die Fakturierungsfunktionen Ihren spezifischen Bedürfnissen anpassen."
+        }
+      }
+    },
+    "customer": {
+      "title": "Customer",
+      "shortDesc": "Verwalten Sie Ihre Kunden und deren Daten auf einfache Weise, überblicken Sie die Bestellhistorie und was sich Ihre Kunden wünschen und benötigen.",
+      "tag": "NI PREVODA",
+      "pricing-desc": "NI PREVODA",
+      "page": {
+        "title": "Kumuluz Customer",
+        "para": "Kumuluz Customer API bietet Funktionen für die komplette Verwaltung von Kunden und ihren Daten. Überprüfen Sie ihre Bestellhistorie und verstehen Sie was Ihre Kunden sich wünschen und benötigen. Es bietet eine ganzheitliche Sicht auf die Daten Ihrer Kunden und Daten über die Interaktionen mit Ihren Kunden an. ",
+        "how-it-works": {
+          "title": "Wie funktioniert die API?",
+          "para": "Mit der Kumuluz Customer API können Sie neue Kunden hinzufügen, bestehende Kundendaten ändern, Berichte über Daten erstellen, die für einen bestimmten Kunden gespeichert sind in Übereinstimmung mit verschiedenen Vorschriften, und die Daten selektiv löschen, wenn ein Kunde dies wünscht. Darüber hinaus bietet die Kumuluz Customer API eine ganzheitliche Ansicht der Kundendaten und Daten über die Interaktionen zwischen Kunden und Ihrem Unternehmen. In diesem Zusammenhang bietet die Customer API Informationen zu bestimmten Interaktionen und Transaktionen, die Kunden für verschiedene Kundenbindungsprogramme vornehmen, um sich für diese zu qualifizieren. In Kombination mit anderen Kumuluz-APIs bietet die Kumuluz Customer API auch Daten zu Kunden-Warenkörben, Bestellungen, Auftragsabwicklungsprozessen, Rechnungen, Zahlungen und Abonnements, je nachdem, welche der Kumuluz-APIs für die Customer API verfügbar sind."
+        },
+        "docs": {
+          "title": "Zusammenfassung der Dokumentation",
+          "view": "Dokumentation anzeigen",
+          "item-1": {
+            "title": "Verwalten Sie alle Kundendaten zentral",
+            "desc": "Kumuluz Customer API ist ein zentraler Punkt für die Verwaltung aller Kundendaten. Vermeiden Sie veraltete oder fehlende Daten in verschiedenen Systemen und beseitigen Sie unnötige Komplikationen bei der Bearbeitung Ihrer Geschäftsprozesse aufgrund fehlender oder falscher Kundendaten."
+          },
+          "item-2": {
+            "title": "Einzelansicht für Kundendaten bereitstellen",
+            "desc": "Die Kumuluz Customer API kann nicht nur alle erforderlichen Daten für Marketing- und Verkaufsvorgänge bereitstellen, sondern auch alle kundenbezogenen Daten für die weitere Verarbeitung (Bestellung, Fulfillment, Rechnungsstellung, Zahlungen, Berichterstattung usw.)."
+          },
+          "item-3": {
+            "title": "Erfüllen Sie mühelos komplexe Datenschutzbestimmungen",
+            "desc": "Berichten Sie über alle Kundendaten, die in Ihrem Unternehmen für einen bestimmten Kunden gespeichert sind, geben Sie Informationen über die Zustimmungen der Kunden für jede spezifische Datennutzung an und löschen Sie Daten, die Kunden von Ihnen verlangen, um komplexen modernen Vorschriften zu entsprechen."
+          },
+          "endpoints": {
+            "title": "Liste der Endpunkte",
+            "item-1": "Verwalten grundlegender Kundendaten",
+            "item-2": "Verwalten von Kundenkontakten (E-Mail-Adressen, Telefonnummern, Faxnummern, Konten sozialer Netzwerke usw.)",
+            "item-3": "Verwaltung der Kundenadressen (Hausadresse, Fakturierung, Lieferung, etc.)",
+            "item-4": "Verwalten von Anfragen, Angebotsanfragen, Bestellungen, Beschwerden usw., die Kunden tätigen, und Ihre Interaktionen mit Kunden unabhängig vom verwendeten Kommunikationskanal",
+            "item-5": "Introspektion in Transaktionen, die Kunden machen und für Loyalitätsprogramme zählen",
+            "item-6": "Offene Warenkörbe der Kunden auf verschiedenen Verkaufskanälen",
+            "item-7": "Gebuchte Bestellungen von Kunden unabhängig vom Status und Verkaufskanal",
+            "item-8": "Alle aktiven und früheren Auftragsabwicklungsprozesse von Kunden",
+            "item-9": "Rechnungen aller Kunden (geöffnet, gesendet, geliefert, fällig, teilweise bezahlt, bezahlt usw.)",
+            "item-10": "Zahlungen aller Kunden pro Rechnung und falls dies der Fall ist, unsortierte Zahlungen",
+            "item-11": "Abonnements aller Kunden für Ihre Dienste"
+          }
+        },
+        "usecases": {
+          "item-1": "Ihre aktuelle Back-End-Implementierung speichert Kundeninformationen wie Interaktionen, Bestellungen, Vorteile und andere Aktivitäten an mehreren Orten. Die Kumuluz Customer API ermöglicht eine einheitliche Sicht auf die Kundeninformationen. Dies betrifft nicht nur für persönlichen Daten, wie Name, Kontakt- und Lieferadresse, sondern auch Bestellungen, Zahlungen, Treuestatus, Abonnements, etc. Für diese Unterstützung integriert sich Kumuluz Customer API nicht nur nahtlos mit anderen Kumuluz Produkten, sondern erlaubt auch benutzerdefinierte Integrationen zu Ihren Backend-Systemen hinzufügen.",
+          "item-2": "In Ihren Systemen ist es derzeit nicht möglich, dass Benutzer ihre Konten an einem Ort konfigurieren können, z. B. wenn die mobile Anwendung und das Frontend des Webshops unterschiedliche Anmeldeinformationen verwenden. Mit der Einführung der Kumuluz Customer API ermöglichen Sie Benutzern, Konfigurationen wie Passwörter, gespeicherte Kreditkarten, Benachrichtigungsinformationen usw. nur einmal festzulegen. Dies erleichtert die Verwaltung von Kundendaten für Kunden und für Ihr Unternehmen."
+        }
+      }
+    },
+    "ccm": {
+      "title": "CCM",
+      "shortDesc": "Komplettlösung für das digitale Engagement und die Kommunikation mit Ihren Kunden, überall und über verschiedene Kanäle.",
+      "tag": "NI PREVODA",
+      "pricing-desc": "NI PREVODA",
+      "page": {
+        "title": "Kumuluz CCM",
+        "subtitle-1": "KumuluzCCM ist eine Plattform für Multikanal-Kommunikation (E-Mail, SMS, Push-Benachrichtigungen) mit einer einfachen Kanalkombination und Umschaltung. Verfügbare APIs ermöglichen eine sichere Integration mit Ihren Back-End-Systemen, um die gesamte Kundenkommunikation an einem Ort zu verwalten.",
+        "subtitle-2": "Durch die Verwendung von erweiterten Funktionen wie Ortungs-, Zeit- und kontextabhängigem Nachrichtenversand, dynamischer Segmentierung in Echtzeit und einem intuitiven Analyseinstrument, wird die Interaktion mit Ihren Kunden einfach und effektiv.",
+
+        "how-it-works": {
+          "title": "Wie funktioniert die API?",
+          "subtitle": "",
+          "list": {
+            "item-1": "Multikanalunterstützung",
+            "item-2": "Kundensegmentierung",
+            "item-3": "Integration mit Backend-Systemen",
+            "item-4": "Kampagnenüberwachung",
+            "item-5": "Geo-Standorte",
+            "item-6": "Ablaufplannung",
+            "item-7": "A/B - Tests",
+            "item-8": "Personalisierung",
+            "item-9": "Vorlagen"
+          }
+        },
+        "docs": {
+          "title": "Zusammenfassung der Dokumentation",
+          "view": "Dokumentation anzeigen",
+          "item-1": {
+            "title": "Multikanalunterstützung",
+            "desc": "Eine Plattform für die Multikanal-Kommunikation (E-Mail, SMS, Push-Benachrichtigungen) mit einfacher Kombination und kanalübergreifendem Wechsel."
+          },
+          "item-2": {
+            "title": "Kundensegmentierung",
+            "desc": "Senden von Nachrichten im richtigen Kontext. KumuluzCCM erstellt dynamische Kundensegmente, die in Echtzeit gemäß dem aufgezeichneten Daten über Kundeneigenschaften, ihren Standort, Aktionen, Interaktionen und Verhaltensweisen aktualisiert werden."
+          },
+          "item-3": {
+            "title": "Integration mit Backend-Systemen",
+            "desc": "Geeignet für Unternehmen, da es eine einfache Integration mit CRM-Systemen und anderen Back-End-Systemen ermöglicht, von denen es die Daten über Ihre Kunden ableitet. Verfügbare APIs für die sichere Integration mit Back-End-Systemen in Echtzeit."
+          },
+          "item-4": {
+            "title": "Kampagnenüberwachung",
+            "desc": "Erfassen und reagieren Sie auf Kundenfeedback. Verwenden Sie das Dashboard, um die Kampagneneffektivität in Echtzeit zu überwachen und PDF-Berichte mit nur einem Klick zu generieren."
+
+          },
+          "item-5": {
+            "title": "Geo-Standorte und Planung",
+            "desc": "Senden von Nachrichten an der richtigen Stelle und zur richtigen Zeit. Die Plattform ermöglicht es Ihnen, Nachrichten sofort, zu einem bestimmten Zeitpunkt oder nach einer bestimmten Benutzeraktivität zu senden. Einige Nachrichten haben nur in einer bestimmten Umgebung eine Bedeutung. KumuluzCCM unterstützt das Senden von Nachrichten basierend auf dem Geo-Standort des Empfängers."
+          },
+          "item-6": {
+            "title": "A / B-Tests und -Optimierung",
+            "desc": "Schnelle und effektive Kommunikation mit Ihren Kunden. KumuluzCCM unterstützt die Funktionalität von A / B-Tests, Echtzeit-Nachrichtenanpassung, Personalisierung mit einem einzigen Klick und leicht verständlichen, visuellen Präsentationen von statistischen Analysen, alles in Echtzeit."
+          },
+          "item-7": {
+            "title": "Benutzerfreundlich",
+            "desc": "Das Senden von Nachrichten ist schnell und einfach, da Sie Kampagnen für alle Kanäle gleichzeitig erstellen können, indem Sie Vorlagen, Inhalts-Editoren mit sofortiger Vorschau und schnelle Kundensegmentierungsfunktionen verwenden. KumuluzCCM ist für die Marketingabteilung konzipiert. Sie werden die Hilfe von IT- oder technischem Personal nicht benötigen."
+          },
+          "item-8": {
+            "title": "Cloud oder On-Premise",
+            "desc": "KumuluzCCM bietet Cloud- oder On-Prem-Bereitstellung mit flexiblen Anpassungs- und Implementierungsoptionen."
+          }
+        },
+        "usecases": {
+          "food": {
+            "para-1": "Wählen Sie auf der integrierten Karte den Bereich, in dem sich Ihr Restaurant befindet. Wenn ein Kunde diesen bestimmten Bereich betritt, senden Sie ihm eine SMS mit einem Sonderangebot. Textnachrichten können nach Ort, Uhrzeit usw. personalisiert werden.",
+            "para-2": "Zur Mittagszeit könnten Sie so etwas senden:"
+          },
+          "fashion": {
+            "para-1": "Sie können verfolgen, was sich Ihre Kunden in Ihrem Online-Shop ansehen. Sie können ein personalisiertes Paket mit den Kleidungsstücken vorbereiten, die der Kunde sich angesehen hat, und ihnen per E-Mail ein persönliches Angebot senden.",
+            "para-2": "Wenn der Kunde das personalisierte Angebot nicht kauft, können Sie ihm eine SMS mit einem Sonderangebot senden."
+          },
+          "events": "Als Sponsor können Sie Ihre Wirkung auf die Veranstaltungsbesucher erhöhen, indem Sie ihnen relevante Nachrichten senden. Für Besucher eines Musikfestivals könnten Sie so etwas senden:",
+          "transport": "Viele von uns folgen bestimmten Routinen. Wenn Sie morgens zur Arbeit gehen, wählen Sie wahrscheinlich die schnellste Route. Mit KumuluzCCM können Sie folgende Textnachrichten senden:",
+          "retail": {
+            "para-1": "Erweitern Sie Ihre mobile Anwendung mit einer Einkaufsliste. Wenn Ihr Kunde das Einkaufszentrum betritt und sich in der Nähe Ihres Geschäfts befindet, senden Sie ihm eine Push-Benachrichtigung, die ihn daran erinnert, Ihr Produkt, dass auf seiner Liste ist, zu kaufen.",
+            "para-2": "Wenn der Kunde Ihr Geschäft betritt, kann die Anwendung ihn durch den Laden führen, um Gegenstände auf seiner Liste zu sammeln. Wenn der Kunde den Kauf abgeschlossen hat, senden Sie ihm eine Push-Benachrichtigung mit seinen Treuepunkten und wie er diese ausgeben kann."
+          }
+        }
+      }
+    },
+    "subscription": {
+      "title": "Subscription",
+      "shortDesc": "Komplettlösung für das Abonnement-Management. Unterstützt Geschäftsmodelle für den Verkauf und die Bereitstellung von Abonnementsdiensten, die in bestimmten Intervallen in Rechnung gestellt und bezahlt werden.",
+      "tag": "NI PREVODA",
+      "pricing-desc": "NI PREVODA",
+      "page": {
+        "title": "Kumuluz Subscription",
+        "para": "Kumuluz Subscription API ist eine vollständige Lösung für die Abonnementverwaltung. Es unterstützt Geschäftsmodelle für den Verkauf und die Bereitstellung von Abonnementsdiensten, die in bestimmten Intervallen in Rechnung gestellt und bezahlt werden.",
+        "how-it-works": {
+          "title": "Wie funktioniert die API?",
+          "para-1": "Kumuluz Subscription API bietet Fulfillment-Prozesse für Bestellungen, die Abonnementdienste enthalten. Abonnementdienste sind Dienste, die in bestimmten Zeitabständen in Rechnung gestellt und bezahlt werden (z.B. monatliche Abonnements für Mobiltelefon, Internet, TV, Strom, Erdgas, Cyberwallet usw.). Um diese Abonnementdienste zu aktivieren (\"was bestellt wird\"), zerlegt die Kumuluz Subscription API die bestellten Dienste in kundenorientierte Dienste (\"was zu konfigurieren ist\").",
+          "para-2": "Dies sind Dienste, die Kunden tatsächlich nutzen, wenn die Bestellung erfüllt wird (z.B. wenn ein Kunde einen Service namens Gold TV-Paket bestellt, erhalten sie viele kundenorientierte Dienste in Form von TV-Programmen: alle nationalen Free-TV-Programme und alle Sportprogramme, aber keine der HBO-Programme, die für das Platinum-TV-Paket reserviert sind).",
+          "para-3": "Darüber hinaus wird jeder kundenorientierte Dienst in ressourcenorientierte Dienste zerlegt (\"wie wird es konfiguriert?\"). Dies sind Dienste, die wir bereitstellen müssen, damit der Kunde tatsächlich bestellte Dienste nutzen kann (z.B. erfordert jedes der Programme in dem bestellten TV-Paket eine Aktivierung eines spezifischen PAL / NTSC- und / oder HDTV-Kanals).",
+          "para-4": "Und schließlich wird jeder ressourcenorientierte Dienst auf Ressourcen aufgeteilt, die aktiviert werden müssen, damit der Auftrag erfüllt wird (\"Was wird zum Konfigurieren verwendet\"). Ressourcen sind alle physischen und logischen Notwendigkeiten, die benötigt werden, um den erforderlichen Dienst bereitzustellen (z. B. neue aktive Abonnementen für alle Kanäle als logische Ressourcen, und eine digitale TV-Decoderkarte mit allen für die Decodierung aktivierten Kanälen als physische Ressource). Durch Verwendung der Kumuluz Invoice API kann die Kumuluz Subscription API auch Fakturierungsfunktionen für plan- und verbrauchsbasierte Abonnementen bereitstellen. Unterstützt werden Prepaid- und Postpaid-Modelle."
+        },
+        "docs": {
+          "title": "Zusammenfassung der Dokumentation",
+          "view": "Dokumentation anzeigen",
+          "item-1": {
+            "title": "Bieten Sie eine Vielzahl von Dienstleistungen an, die Sie bereitstellen können",
+            "desc": "Mit der Kumuluz Subscription API können Sie die verkauften Dienste angeben und sie vollständig in physische und logische Ressourcen zerlegen, die für die Bereitstellung benötigt werden."
+          },
+          "item-2": {
+            "title": "Bieten Sie Ihren Kunden die Flexibilität die sie sich wünschen ",
+            "desc": "Ermöglichen Sie Kunden, in den Prozess der Zerlegung geordneter Dienste einzugreifen, um zusätzliche Funktionen hinzuzufügen (Upsale), oder nicht relevante Funktionen zu eliminieren, um Kosten zu sparen (Kunden zahlen nicht für die Sachen, die sie nicht benötigen)."
+          },
+          "item-3": {
+            "title": "Unterstützen Sie auch verbrauchsbasierte Abonnement-Pläne",
+            "desc": "Kumuluz Subscription API bietet Unterstützung nicht nur für reguläre Pläne, sondern auch für Pläne, die einen variablen Anteil neben dem festen haben - Verbrauch (z. B. Strom oder Erdgas)."
+          },
+          "item-4": {
+            "title": "Unterstützen Sie verschiedene Zahlungsmodelle",
+            "desc": "Mithilfe der Kumuluz Invoice API kann die Kumuluz Subscription API eine Prepaid- oder Postpaid-Rechnungsstellung bereitstellen."
+          },
+          "endpoints": {
+            "title": "Liste der Endpunkte",
+            "item-1": "Management von Dienstleistungen (die als Abonnements verkauft werden) und deren Struktur",
+            "item-2": "Zerlegung von Diensten in kundenorientierte Dienste",
+            "item-3": "Zerlegung von kundenorientierten Diensten in ressourcenorientierte Dienste",
+            "item-4": "Zerlegung von ressourcenorientierten Diensten in Ressourcen",
+            "item-5": "Ressourcenverwaltung, einschließlich Reservierung und Aktivierung erforderlicher Ressourcen für die Bereitstellung",
+            "item-6": "Aktivierung und Verwaltung von Abonnements einschließlich der Bearbeitung von Änderungsanträgen",
+            "item-7": "Senden und Bearbeiten von Informationen zum Verbrauch in einem Abonnement, falls zutreffend (z. B. für Strom, aber nicht für TV-Programme)",
+            "item-8": "Abrechnung eines bestimmten Abonnements nach Plan und Verbrauch, falls relevant "
+          }
+        },
+        "usecases": {
+          "item-1": "Ihre Organisation ändert oder erweitert das Verkaufsmodell von Festplänen auf Abonnementbasis. Mit der Kumuluz Subscription API können Sie die Liefer-, Abrechnungs- und andere Prozesse in Bezug auf abonnementbasierte Produkte und Dienstleistungen implementieren. Die Kumuluz Subscription API lässt sich nahtlos in andere Kumuluz APIs integrieren, zum Beispiel mit der Kumuluz Customer API zur Verknüpfung von Abonnements mit Kunden, Kumuluz Payment API zur Ausführung von Zahlungen, Kumuluz Product Catalog API und Kumuluz Cart API zur Identifizierung von Produkten und zur Erstellung von Bestellungen.",
+          "item-2": {
+            "para-1": "Ihre aktuellen Systeme sind nicht flexibel genug, um Abonnementprodukte und -dienste und damit verbundene Vorgänge erforderlich für deren Lieferung und Bereitstellung, genauer zu konfigurieren. Mit der Kumuluz Subscription API erhalten Sie volle Flexibilität für die Zerlegung von Produkten und Diensten in die für die Provisionierung benötigten Ressourcen.",
+            "para-2": "Dies bedeutet, dass Sie Abonnements so bereitstellen können, dass Sie auch definieren, welche die Backend-Dienste sind und wie sie ausgelöst werden, wenn das Abonnement aktiviert / deaktiviert wird. Dies gibt Ihrem Unternehmen die volle Kontrolle über Zusammensetzung / Zerlegung und einen Überblick über abonnierte Dienste, verbundene Kunden, Zahlungen, Rechnungen usw."
+          }
+        }
+      }
+    },
+    "kyc": {
+      "title": "KYC",
+      "shortDesc": "Know-Your-Customers-API ermöglicht es Ihnen, persönliche Identifizierung Ihrer neuen Kunden durchzuführen.",
+      "tag": "NI PREVODA",
+      "pricing-desc": "NI PREVODA",
+      "page": {
+        "title": "Kumuluz KYC",
+        "para": "Know Your Customers API ermöglicht es Ihnen, eine persönliche Identifizierung Ihrer neuen Kunden durchzuführen und die Kundendaten in einer DSGVO-konformen Weise sicher zu speichern.",
+        "how-it-works": {
+          "title": "Wie funktioniert die API?",
+          "para": "Die API bietet die Funktionen zum Sammeln, Verarbeiten und sicherem Speichern der Kundeninformationen. Es unterstützt verschiedene KYC-Prozesse, einschließlich derer für Finanzinstitute. Es unterstützt mobile und Web-KYC-Prozesse, einschließlich Formulare und Back-End-Verarbeitung und sichere Speicherung von Daten. Die KYC-API ist mit der DSGVO konform und unterstützt verschiedene Interaktionsformen mit Kunden."
+        }
+      }
+    }
+  },
+  "payment": {
+    "purchase-of": "",
+    "thanks": "",
+    "fill-form": "",
+    "first-name": "",
+    "last-name": "",
+    "company": "",
+    "country": "",
+    "email": "",
+    "phone": "",
+    "checkout": "",
+    "provided-info": "",
+    "completed": "",
+    "close": ""
+  }
+}

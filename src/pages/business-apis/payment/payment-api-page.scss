@@ -1,0 +1,70 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.km-payment-api-page {
+  .km-unordered-list-component {
+    .list-row {
+      .list-content {
+        font-size: 1rem;
+      }
+      .list-bullet {
+        margin-top: 5px;
+      }
+      &:nth-child(even) {
+        justify-content: flex-end;
+        .list-bullet {
+          order: 2;
+        }
+        .list-content {
+          margin-right: 10px;
+          margin-left: 0;
+          order: 1
+        }
+      }
+    }
+  }
+  .docs-header {
+    .title {
+      margin-bottom: 30px;
+
+      h5 {
+        text-align: center;
+        color: $blue-400;
+        font-weight: 700;
+      }
+    }
+    .images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 14%;
+        height: auto;
+      }
+    }
+  }
+  .docs-body {
+    margin-top: 40px;
+
+    h2 {
+      margin-bottom: 60px;
+      color: $blue-400;
+      font-weight: 700;
+    }
+    h4 {
+      color: $blue-100;
+      font-weight: normal;
+      text-transform: uppercase;
+      margin-top: 30px;
+
+      &:nth-of-type(1) {
+        margin-top: 0;
+      }
+    }
+    .btn-area {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Kumuluz"
+  },
+  "header": {
+    "main-title": "<strong>Beschleunigen</strong> Sie die Entwicklung Ihrer <strong>digitalen Produkte</strong> mit Kumuluz",
+    "subtitle": "Verwirklichen Sie Ihre digitale Strategie",
+    "tiles": {
+      "buttons": {
+        "play-video": "Video abspielen",
+        "learn-more": "Mehr erfahren"
+      },
+      "left-tile": {
+        "above-title": "KUMULUZ BUSINESS APIs",
+        "title": "API-Lösungen für den sofortigen Einsatz",
+        "subtitle": "Verwenden Sie vorgefertigte Business-APIs, um Ihre digitalen Produkte und Dienstleistungen schneller zu erstellen."
+      },
+      "right-tile": {
+        "above-title": "KUMULUZ DIGITALE PLATTFORM",
+        "title": "Beschleunigen Sie Ihre digitale Transformation",
+        "subtitle": "Eine leichte, offene, preisgekrönte digitale Plattform, die Entwicklungsteams lieben."
+      }
+    }
+  },
+  "content": {
+    "title": "Alle Bausteine, die Sie für Ihre digitale Transformation benötigen",
+    "text": "Kumuluz bietet alle notwendigen Bausteine, um Ihre digitale Transformation zum Leben zu erwecken. Von der Modernisierung Ihres Altsystems bis hin zur schnelleren Entwicklung neuer digitaler Produkte und Anwendungsprogramme.",
+    "blog-link": "Blog"
+  },
+  "digitalLandscapeCompetition": {
+    "title": "Schlagen Sie Ihre Konkurrenz in der digitalen Landschaft mit den Kumuluz Produkten",
+    "item-1": {
+      "title": "Verbessern Sie die Markteinführungszeit für Ihre digitalen Anwendungen um 300%",
+      "content": "Mit vorgefertigten Business-APIs, Microservices und cloud-nativer Architektur, agilem Ansatz und DevOps kann die Markteinführungszeit der Anwendung um mehrere Größenordnungen verbessert werden."
+    },
+    "item-2": {
+      "title": "Erstellen Sie Digital-Ready, flexible, adaptive und anpassbare Anwendungen",
+      "content": "Entwickeln Sie echte Digital-Ready-Anwendungen, die vollständig flexibel sind, sich schneller an die Kundenbedürfnisse anpassen lassen, ganz nach Ihren digitalen Strategieanforderungen eingestellt werden können und sich ihren Transformationen anpassen."
+    },
+    "item-3": {
+      "title": "Ergreifen Sie neue Geschäftsmöglichkeiten und digitale Geschäftsmodelle",
+      "content": "Verbinden Sie Ihre Anwendungen, Geräte oder alles, was Sie wollen, einfach auf der gemeinsamen Plattform. Integration war noch nie so einfach. Nehmen Sie störende digitale Geschäftsprozesse auf und integrieren Sie diese mit bestehenden Geschäftsprozessmodellen (BPMs) und Anwendungen."
+    },
+    "item-4": {
+      "title": "Stellen Sie Ihren Kunden stetig neue Funktionen bereit – jeden Tag, jede Stunde. ",
+      "content": "Veröffentlichen Sie neue Funktionen für Ihre digitalen Produkte und Dienstleistungen schnell, jeden Tag und jede Stunde auf agile Weise. Ihre Software kann endlich flexibel genug sein, um sich an alle schnellen Veränderungen auf dem Markt anzupassen. Entwickeln Sie sich stetig weiter und kommen Sie auf dem schnellsten Weg vom Konzept zum Bargeld."
+    },
+    "item-5": {
+      "title": "Verstehen Sie die Bedürfnisse Ihrer Kunden und reagieren Sie entsprechend",
+      "content": "Nutzen Sie digitale Kanäle, um die Bedürfnisse Ihrer Kunden jeden Tag und jede Stunde genau zu verstehen. Kürzen Sie die Feedbackschleife. Spüren Sie die Bedürfnisse und reagieren Sie sofort."
+    },
+    "item-6": {
+      "title": "Nutzen Sie hochmoderne digitale Technologien",
+      "content": "Nutzen Sie hochmoderne digitale Technologien wie Mobile, Web, Cloud, APIs, IdD (Internet der Dinge), Industrie 4.0, Blockchain, Künstliche Intelligenz usw."
+    },
+    "item-7": {
+      "title": "Widerstandsfähigkeit und Skalierbarkeit verbessern",
+      "content": "Verringern Sie die Anzahl der Ausfälle erheblich und verbessern Sie die Widerstandsfähigkeit durch integrierte Fehlertoleranz. Skalieren Sie Ihre Anwendungen dynamisch, ohne sich Sorgen zu machen, wenn Ihre Kundenbasis wächst."
+    },
+    "item-8": {
+      "title": "Erweitern und optimieren Sie Ihre Entwicklungsressourcen",
+      "content": "Das Beste ist, Sie müssen nicht bei Null anfangen. Nutzen Sie stattdessen Ihre vorhandenen Ressourcen und Anwendungen und erweitern Sie sie für Microservice- und Cloud-native Lösungen."
+    },
+    "item-9": {
+      "title": "Stellen Sie Ihren digitalen Wettbewerbsvorteil her",
+      "content": "Stellen Sie Ihren digitalen Wettbewerbsvorteil her, mit dem Ihre digitale Transformation schneller, agiler und erfolgreicher ist als die der Konkurrenz. Gewinnen Sie in der Digitalwirtschaft."
+    },
+    "item-10": {
+      "title": "",
+      "content": ""
+    }
+  },
+  "bapis": {
+    "title": "Kumuluz Business APIs",
+    "subtitle": "Man muss nicht von Grund auf neu entwickeln. Beschleunigen Sie ihre Entwicklung mit vorgefertigten Funktionalitäten, die jede digitale Anwendung benötigt. Fügen Sie sie mit Kumuluz Business APIs hinzu.",
+    "needs": {
+      "title": "Was braucht Ihre Anwendung?",
+      "item-1": "Bezahlung",
+      "item-2": "Produktkatalog",
+      "item-3": "Warenkorb",
+      "item-4": "Auftragsmanagement",
+      "item-5": "Fulfilment Management",
+      "item-6": "Rechnungsstellung",
+      "item-7": "Kundenverwaltung",
+      "item-8": "Kundenkommunikation",
+      "item-9": "Abonnementverwaltung",
+      "item-10": "KYC",
+      "browse": "APIs Browsen"
+    },
+    "learn-more": {
+      "title": "Mehr erfahren",
+      "item-1": "Anwendungsfälle",
+      "item-2": "Code-Beispiele",
+      "item-3": "Preisgestaltung",
+      "item-4": "Online-Geschäft",
+      "item-5": "Unterstützung"
+    }
+  },
+  "digital-platform": {
+    "title": "Kumuluz Digitale Plattform",
+    "subtitle": "Alles, was Sie brauchen, um Ihre digitale Transformation mit der offenen, leichten digitalen Plattform zu beschleunigen.",
+    "items": {
+      "ee": "Microservice Framework - Bringen Sie Ihre Java-Monolithe in das Microservice-Framework",
+      "api": "API-Service-Management - Verwalten Sie APIs und stärken Sie Ihr Geschäft mit API-Wirtschaft ",
+      "integration": "Integrationsplattform - Integrieren Sie digitale Lösungen, IdD- und Backend-Systeme",
+      "ux": "Anspruchsvolles UX-Framework mit BMP-Integration - Entwickeln Sie schnell anspruchsvolle und reaktionsschnelle Benutzererfahrungen",
+      "marketplace": "Digitales Marktplatz Framework - Entwickeln Sie schnell maßgeschneiderte digitale Marktplätze, um Ihr Geschäft zu beschleunigen",
+      "crowdsensing": "Plattform zum Sammeln und Analysieren von Crowd-Data mit Blockchain – Erlangen Sie eine völlig neue Datentiefe über Ihre Kunden"
+    }
+  },
+  "highlights": {
+    "item-1": "Für Organisationen, die auf Microservices und Cloud-native Architektur umsteigen",
+    "item-2": "Vollständig geöffnet, kein Lock-In-Effect",
+    "item-3": "Wird lokal in Ihrem Rechenzentrum oder in der Cloud eingestellt",
+    "item-4": "Bewahrt die Investitionen in Ihre vorhandenen Kenntnisse und Fähigkeiten",
+    "item-5": "Minimale Vorab- und völlig flexible Investition",
+    "item-6": "Rund-um-die-Uhr-Support und Wartung"
+  },
+  "awards": {
+    "title": "Die Auszeichnungen, die Sunesis‘ Kumuluz gewonnen hat:"
+  },
+  "other-products": {
+    "title": "UNSERE ANDEREN PRODUKTE, DIENSTLEISTUNGEN & GEMEINSCHAFT",
+    "tiles": {
+      "learn-more": "Mehr erfahren",
+      "first-tile": {
+        "above-title": "UNSERE DIENSTLEISTUNGEN",
+        "title": "Wir helfen ihnen, Ihre digitale Strategie zum Leben zu erwecken",
+        "para": "Wir bieten eine große Auswahl von IT-Beratungs-, Training- und Softwareentwicklungsdiensten, die Unternehmen bei der schnelleren digitalen Transformation, dem Übergang zur Cloud, dem Übergang von monolithischer zu Microservice-Architektur, Software-Modernisierung und der Entwicklung neuer digitaler Produkte unterstützen."
+      },
+      "second-tile": {
+        "above-title": "OPEN-SOURCE-GEMEINSCHAFT",
+        "title": "Werden Sie Teil eine Gemeinschaft von Entwicklern, Mitwirkenden und Nutzern",
+        "para": "Unser Microservice Framework (EE) ist Mitglied von Microprofile.io."
+      },
+      "third-tile": {
+        "above-title": "DAPIS & BLOCKCHAIN",
+        "title": "Wahrhaft dezentralisierte Anwendungen",
+        "para": "Die dAPI-Plattform von Kumuluz stellt vollständig dezentralisierte APIs mit Blockchain-Technologie vor."
+      }
+    }
+  },
+  "customers": {
+    "title": "NI PREVODA",
+    "subtitle": "NI PREVODA"
+  },
+  "references": {
+    "title": "NI PREVODA"
+  }
+}

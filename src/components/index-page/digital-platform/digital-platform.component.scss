@@ -1,0 +1,114 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.km-digital-platform-component {
+  .title {
+    h1 {
+      font-weight: 700;
+      color: $white;
+      text-align: center;
+    }
+  }
+  .subtitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    p {
+      width: 60%;
+      color: $white;
+      text-align: center;
+    }
+  }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    .grid-item {
+      width: 33.33%;
+      box-sizing: border-box;
+      border-right: 4px solid $blue-100;
+      border-bottom: 4px solid $blue-100;
+      padding: 15px;
+
+      &:nth-child(3n) {
+        border-right: none;
+      }
+      &.last-row {
+        border-bottom: none;
+      }
+      .title {
+        font-size: 1.5rem;
+        color: $white;
+
+        a {
+          color: $white;
+          text-decoration: none;
+        }
+        .colored {
+          font-weight: bold;
+        }
+        .color-ee {
+          color: $ee;
+        }
+        .color-api {
+          color: $api;
+        }
+        .color-integration {
+          color: $integration;
+        }
+        .color-ux {
+          color: $ux;
+        }
+        .color-ccm {
+          color: $ccm;
+        }
+        .color-marketplace {
+          color: $marketplace;
+        }
+        .color-crowdsensing {
+          color: $crowdsensing;
+        }
+      }
+      .desc {
+        font-size: 1rem;
+        color: $white;
+      }
+    }
+  }
+  .button-area {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@include device-specific($media-phone) {
+  .km-digital-platform-component {
+    .subtitle {
+      p {
+        width: 80%;
+      }
+    }
+    .grid {
+      .grid-item {
+        width: 100%;
+        border-right: none;
+        border-bottom: 4px solid $blue-100 !important;
+
+        .title {
+          text-align: center;
+        }
+        .desc {
+          text-align: center;
+        }
+        &:last-child {
+          border-bottom: none !important;
+        }
+      }
+    }
+    .button-area {
+      margin-bottom: 40px;
+    }
+  }
+}

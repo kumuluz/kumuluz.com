@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "title": ""
+  },
+  "header": {
+    "title": "",
+    "subtitle": ""
+  },
+  "digit-strategy": {
+    "title": "",
+    "subtitle-1": "",
+    "subtitle-2": ""
+  },
+  "digit-platform": {
+    "title": "",
+    "learn-more": ""
+  },
+  "what-can": {
+    "title": "",
+    "left": {
+      "para-1": "",
+      "para-2": "",
+      "para-3": ""
+    },
+    "right": {
+      "para-1": "",
+      "para-2": {
+        "strong": "",
+        "text": ""
+      }
+    }
+  },
+  "components": {
+    "api": {
+      "title": "",
+      "header": {
+        "subtitle": "",
+        "items": {
+          "item-1": "",
+          "item-2": "",
+          "item-3": ""
+        }
+      },
+      "about": {
+        "navbar": {
+          "about": {
+            "title": "",
+            "strong": "",
+            "text": "",
+            "box": {
+              "title": "",
+              "item-1": "",
+              "item-2": "",
+              "item-3": "",
+              "item-4": ""
+            }
+          },
+          "features": {
+            "title": "",
+            "item-1": "",
+            "item-2": "",
+            "item-3": "",
+            "item-4": "",
+            "item-5": "",
+            "item-6": "",
+            "item-7": "",
+            "item-8": "",
+            "item-9": "",
+            "item-10": "",
+            "item-11": "",
+            "item-12": "",
+            "item-13": "",
+            "item-14": "",
+            "item-15": "",
+            "item-16": "",
+            "item-17": ""
+          },
+          "customer": {
+            "title": "",
+            "subtitle": "",
+            "content": ""
+          },
+          "demo": {
+            "title": "",
+            "tryout": ""
+          }
+        }
+      },
+      "motto": {
+        "title": "",
+        "subtitle": ""
+      },
+      "benefits": {
+        "title": "",
+        "subtitle": "",
+        "items": {
+          "item-1": {
+            "title": "",
+            "desc": ""
+          },
+          "item-2": {
+            "title": "",
+            "desc": ""
+          },
+          "item-3": {
+            "title": "",
+            "desc": ""
+          },
+          "item-4": {
+            "title": "",
+            "desc": ""
+          },
+          "item-5": {
+            "title": "",
+            "desc": ""
+          }
+        },
+        "after-text": {
+          "colored": "",
+          "text": ""
+        }
+      },
+      "use-cases": {
+        "title": "",
+        "items": {
+          "config": {
+            "title": "",
+            "item-1": {
+              "bold": "",
+              "text": ""
+            },
+            "item-2": {
+              "bold": "",
+              "text": ""
+            },
+            "item-3": {
+              "bold": "",
+              "text": ""
+            },
+            "item-4": {
+              "bold": "",
+              "text": ""
+            }
+          },
+          "docs": {
+            "title": "",
+            "para": "",
+            "item-1": {
+              "bold": "",
+              "text": ""
+            },
+            "item-2": {
+              "bold": "",
+              "text": ""
+            },
+            "item-3": {
+              "bold": "",
+              "text": ""
+            }
+          },
+          "publishing": {
+            "title": "",
+            "para": "",
+            "item-1": {
+              "bold": "",
+              "text": ""
+            },
+            "item-2": {
+              "bold": "",
+              "text": ""
+            },
+            "item-3": {
+              "bold": "",
+              "text": ""
+            }
+          },
+          "security": {
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "prod-grid": ""
+    },
+    "integration": {
+      "title": "",
+      "header": {
+        "subtitle": "",
+        "items": {
+          "item-1": "",
+          "item-2": "",
+          "item-3": ""
+        }
+      },
+      "about": {
+        "about": {
+          "title": "",
+          "left": {
+            "title": "",
+            "para-1": "",
+            "para-2": ""
+          },
+          "right": {
+            "title": "",
+            "item-1": {
+              "title": "",
+              "desc": ""
+            },
+            "item-2": {
+              "title": "",
+              "desc": ""
+            },
+            "item-3": {
+              "title": "",
+              "desc": ""
+            },
+            "item-4": {
+              "title": "",
+              "desc": ""
+            }
+          }
+        },
+        "features": {
+          "title": "",
+          "item-1": "",
+          "item-2": "",
+          "item-3": "",
+          "item-4": "",
+          "item-5": "",
+          "item-6": ""
+        },
+        "customers": {
+          "title": ""
+        },
+        "info": {
+          "title": ""
+        }
+      },
+      "motto": {
+        "title": "",
+        "subtitle": ""
+      },
+      "benefits": {
+        "title": "",
+        "subtitle": "",
+        "after-text": {
+          "colored": "",
+          "text": ""
+        },
+        "items": {
+          "item-1": {
+            "title": "",
+            "desc": ""
+          },
+          "item-2": {
+            "title": "",
+            "desc": ""
+          },
+          "item-3": {
+            "title": "",
+            "desc": ""
+          },
+          "item-4": {
+            "title": "",
+            "desc": ""
+          },
+          "item-5": {
+            "title": "",
+            "desc": ""
+          },
+          "item-6": {
+            "title": "",
+            "desc": ""
+          }
+        }
+      },
+      "use-cases": {
+        "integration": {
+          "title": "",
+          "subtitle": "",
+          "item-1": "",
+          "item-2": ""
+        },
+        "migration": {
+          "title": "",
+          "subtitle": "",
+          "item-1": "",
+          "item-2": ""
+        },
+        "management": {
+          "title": "",
+          "subtitle": "",
+          "item-1": "",
+          "item-2": ""
+        }
+      },
+      "prod-grid": ""
+    },
+    "ux": {
+      "title": "",
+      "header": {
+        "subtitle": "",
+        "items": {
+          "item-1": "",
+          "item-2": "",
+          "item-3": ""
+        }
+      },
+      "about": {
+        "about": {
+          "title": "",
+          "left": {
+            "title": "",
+            "para": ""
+          },
+          "right": {
+            "title": "",
+            "item-1": {
+              "title": "",
+              "desc": ""
+            },
+            "item-2": {
+              "title": "",
+              "desc": ""
+            },
+            "item-3": {
+              "title": "",
+              "desc": ""
+            }
+          }
+        },
+        "features": {
+          "title": "",
+          "item-1": "",
+          "item-2": "",
+          "item-3": "",
+          "item-4": "",
+          "item-5": "",
+          "item-6": "",
+          "item-7": "",
+          "item-8": ""
+        },
+        "customers": {
+          "title": ""
+        },
+        "info": {
+          "title": ""
+        }
+      },
+      "motto": {
+        "title": "",
+        "subtitle": ""
+      },
+      "benefits": {
+        "title": "",
+        "subtitle": "",
+        "after-text": {
+          "colored": "",
+          "text": ""
+        },
+        "items": {
+          "item-1": {
+            "title": "",
+            "desc": ""
+          },
+          "item-2": {
+            "title": "",
+            "desc": ""
+          },
+          "item-3": {
+            "title": "",
+            "desc": ""
+          },
+          "item-4": {
+            "title": "",
+            "desc": ""
+          },
+          "item-5": {
+            "title": "",
+            "desc": ""
+          }
+        }
+      },
+      "use-cases": {
+        "components": {
+          "subtitle": "",
+          "title": "",
+          "item-1": "",
+          "item-2": "",
+          "item-3": "",
+          "item-4": ""
+        },
+        "integration": {
+          "title": "",
+          "subtitle": "",
+          "item-1": "",
+          "item-2": "",
+          "item-3": "",
+          "item-4": ""
+        },
+        "usecases": {
+          "title": ""
+        },
+        "stories": {
+          "title": ""
+        }
+      },
+      "prod-grid": ""
+    },
+    "marketplace": {
+      "title": "",
+      "header": {
+        "subtitle": ""
+      },
+      "coming-soon": "",
+      "prod-grid": ""
+    },
+    "crowdsensing": {
+      "title": "",
+      "header": {
+        "subtitle": ""
+      },
+      "coming-soon": "",
+      "prod-grid": ""
+    }
+  }
+}

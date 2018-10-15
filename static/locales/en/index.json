@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Kumuluz"
+  },
+  "header": {
+    "main-title": "<strong>Fast-track</strong> the development of your <strong>digital products</strong> with Kumuluz",
+    "subtitle": "Make your digital strategy real",
+    "tiles": {
+      "buttons": {
+        "play-video": "Play video",
+        "learn-more": "Learn more"
+      },
+      "left-tile": {
+        "above-title": "Kumuluz Business APIs",
+        "title": "API solutions for immediate use",
+        "subtitle": "Use pre-built business APIs to create your digital products and services much faster."
+      },
+      "right-tile": {
+        "above-title": "Kumuluz Digital Platform",
+        "title": "Fast-track your digital transformation",
+        "subtitle": "A lightweight, open, award-winning digital platform that development teams love."
+      }
+    }
+  },
+  "content": {
+    "title": "All the building blocks you require for your digital transformation",
+    "text": "Kumuluz provides all the building blocks necessary to bring your digital transformation to life. From modernizing your legacy software to much faster development of new digital products and applications.",
+    "blog-link": "Read our blog"
+  },
+  "digitalLandscapeCompetition": {
+    "title": "Beat your competition in the digital landscape with Kumuluz products",
+    "item-1": {
+      "title": "Improve the time-to-market for your digital applications by 300%",
+      "content": "With pre-built Business APIs, microservices and cloud-native architecture, agile approach and DevOps, the application time-to-market can be drastically improved."
+    },
+    "item-2": {
+      "title": "Produce digital ready, flexible, adaptive and customizable applications",
+      "content": "Develop true digital-ready applications that are fully flexible, can adapt to customers’ needs faster, are fully customizable to address your digital strategy needs and can adapt as you transform."
+    },
+    "item-3": {
+      "title": "Seize new business possibilities and digital business models",
+      "content": "Easily connect your applications, devices or anything you want on a common platform. Integration has never been so easy. Incorporate disruptive digital business processes and integrate them with existing BPM and applications."
+    },
+    "item-4": {
+      "title": "Continuously deliver new features for your customers, in mere days or even hours",
+      "content": "Release new features for your digital products and services rapidly, in days or even hours, in an agile way. Your software can finally be flexible enough to adapt to all the fast changes on the market. Never stop innovating and get from concept to cash in the fastest way possible."
+    },
+    "item-5": {
+      "title": "Understand your customer needs and respond accordingly",
+      "content": "Exploit digital channels to truly understand your customers’ needs in days or even hours. Shorten the feedback loop. Sense the needs and respond immediately."
+    },
+    "item-6": {
+      "title": "Utilize state-of-the-art digital technologies",
+      "content": "Fully utilize modern digital technologies, such as mobile, web, cloud, APIs, IoT (Internet of Things), Industry 4.0, Blockchain, Artificial Intelligence, etc."
+    },
+    "item-7": {
+      "title": "Improve resilience and scale",
+      "content": "Significantly reduce the number of failures and improve resilience with fault tolerance built in. Scale your applications dynamically without worries as your customer base increases."
+    },
+    "item-8": {
+      "title": "Replatform and optimize your development resources",
+      "content": "The best thing is that you do not have to start from scratch. Instead use your existing resources and applications and replatform them to microservice and cloud-native solutions."
+    },
+    "item-9": {
+      "title": "Establish your digital competitive edge",
+      "content": "Establish your digital competitive edge that will allow you to be faster, more agile and more successful with your digital transformation than your competition. Win in the digital economy."
+    },
+    "item-10": {
+      "title": "Establish your digital competitive edge",
+      "content": "Establish your digital competitive edge that will allow you to be faster, more agile and more successful with your digital transformation than your competition. Win in the digital economy."
+    }
+  },
+  "bapis": {
+    "title": "Kumuluz Business APIs",
+    "subtitle": "There's no need to develop from scratch. Speed up your development with pre-built functionalities that every digital application requires. Add them with Kumuluz Business APIs.",
+    "needs": {
+      "title": "Does your application need?",
+      "item-1": "Payment",
+      "item-2": "Product Catalog",
+      "item-3": "Shopping Cart",
+      "item-4": "Order Management",
+      "item-5": "Fulfillment Management",
+      "item-6": "Invoicing",
+      "item-7": "Customer Management",
+      "item-8": "Customer Communication",
+      "item-9": "Subscription Management",
+      "item-10": "KYC",
+      "browse": "Browse all APIs"
+    },
+    "learn-more": {
+      "title": "Learn more",
+      "item-1": "Use cases",
+      "item-2": "Code examples",
+      "item-3": "Pricing",
+      "item-4": "E-store",
+      "item-5": "Support"
+    }
+  },
+  "digital-platform": {
+    "title": "Kumuluz Digital Platform",
+    "subtitle": "Everything you need in order to fast-track your digital transformation, with an open, lightweight digital platform.",
+    "items": {
+      "ee": "Microservice framework - Bring your Java monoliths to the microservice framework",
+      "api": "API service management - Manage APIs and empower your business with the API economy",
+      "integration": "Integration platform - Integrate digital solutions, IoT and back-end systems",
+      "ux": "Sophisticated UX framework with BPM integration - Rapidly develop sophisticated and responsive user experiences",
+      "marketplace": "Digital marketplace framework - Rapidly develop customized digital marketplaces to accelerate your business",
+      "crowdsensing": "Platform for collecting and analyzing crowd data using blockchain - A completely new depth of data about your customers"
+    }
+  },
+  "highlights": {
+    "item-1": "For organisations transitioning to microservices & cloud-native architecture",
+    "item-2": "Completely open, zero vendor lock-in",
+    "item-3": "Deploys on-premise in your data center or in the cloud",
+    "item-4": "Preserves the investment in your existing knowledge and skills",
+    "item-5": "Minimal upfront payment and completely flexible investment",
+    "item-6": "24/7 support and maintenance"
+  },
+  "awards": {
+    "title": "The awards Sunesis’ Kumuluz won"
+  },
+  "other-products": {
+    "title": "Our other products, services & community",
+    "tiles": {
+      "learn-more": "Learn more",
+      "first-tile": {
+        "above-title": "Our services",
+        "title": "We can help you bring your digital strategy to life",
+        "para": "We offer a wide range of IT consulting, training and software development services that help enterprises with faster digital transformation, transition to cloud, transition from monolithic to microservice architecture, software modernization and new digital product development."
+      },
+      "second-tile": {
+        "above-title": "Open-source community",
+        "title": "Join a community of developers, contributors and users",
+        "para": "Our Microservice framework (EE) is a member of Microprofile.io."
+      },
+      "third-tile": {
+        "above-title": "Dapis & blockchain",
+        "title": "Truly decentralized applications",
+        "para": "The Kumuluz dAPI platform introduces fully decentralized APIs utilizing blockchain technology."
+      }
+    }
+  },
+  "customers": {
+    "title": "What our customers said about us",
+    "subtitle": "Make sure your software never gets you frustrated again"
+  },
+  "references": {
+    "title": "They trust us"
+  }
+}

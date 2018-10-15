@@ -1,0 +1,86 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+
+.km-unordered-list-component {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+
+  &.list-row-1 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  &.list-row-2 {
+    flex-wrap: wrap;
+
+    .list-row {
+      width: 48%;
+    }
+  }
+  &.list-row-3 {
+    flex-wrap: wrap;
+
+    .list-row {
+      width: 32%;
+    }
+  }
+  .list-row {
+    margin: 10px 0;
+    display: flex;
+    align-items: flex-start !important;
+
+    .list-bullet {
+      margin-top: 8px;
+      display: inline-block;
+      background-color: $blue-100;
+      width: 15px;
+      height: 15px;
+      min-width: 15px;
+    }
+    .list-content {
+      margin-left: 10px;
+      font-size: 1.25rem;
+
+      &.color-white {
+        color: $white !important;
+      }
+      &.color-black {
+        color: $black !important;
+      }
+      &.color-blue {
+        color: $blue-400 !important;
+      }
+    }
+  }
+}
+
+@include device-specific($media-phone) {
+  .list-row-1 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .list-row-2 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    .list-row {
+      width: 100% !important;
+    }
+  }
+  .list-row-3 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    .list-row {
+      width: 100% !important;
+    }
+  }
+  .list-row {
+    align-items: flex-start !important;
+
+    .list-bullet {
+      margin-top: 8px;
+    }
+  }
+}

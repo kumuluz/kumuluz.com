@@ -1,0 +1,85 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+
+.km-comp-product-grid-component {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    .grid-item {
+      width: 33.33%;
+      box-sizing: border-box;
+      border-right: 4px solid $blue-200;
+      border-bottom: 4px solid $blue-200;
+      padding: 15px;
+
+      &:nth-child(3n) {
+        border-right: none;
+      }
+      &.last-row {
+        border-bottom: none;
+      }
+      .title {
+        font-size: 1.5rem;
+        color: $black;
+
+        a {
+          color: $black;
+          text-decoration: none;
+        }
+        .colored {
+          font-weight: bold;
+        }
+        .color-ee {
+          color: $ee;
+        }
+        .color-api {
+          color: $api;
+        }
+        .color-integration {
+          color: $integration;
+        }
+        .color-ux {
+          color: $ux;
+        }
+        .color-ccm {
+          color: $ccm;
+        }
+        .color-marketplace {
+          color: $marketplace;
+        }
+        .color-crowdsensing {
+          color: $crowdsensing;
+        }
+      }
+      .desc {
+        font-size: 1rem;
+        color: $black;
+      }
+    }
+  }
+}
+
+@include device-specific($media-phone) {
+  .km-comp-product-grid-component {
+    .grid {
+      .grid-item {
+        width: 100%;
+        border-right: none;
+        border-bottom: 4px solid $blue-200 !important;
+
+        .title {
+          text-align: center;
+        }
+        .desc {
+          text-align: center;
+        }
+        &:last-child {
+          border-bottom: none !important;
+        }
+      }
+    }
+  }
+}
+

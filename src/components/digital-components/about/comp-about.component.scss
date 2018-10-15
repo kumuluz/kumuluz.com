@@ -1,0 +1,99 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.km-comp-about-component {
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+    .menu-item {
+      width: 24%;
+      cursor: pointer;
+      font-size: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &>span {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .underline {
+          height: 4px;
+          background-color: transparent;
+          display: inline-block;
+          width: 100%;
+
+          &.active {
+            background-color: $api;
+          }
+        }
+      }
+    }
+  }
+  .about {
+    padding-top: 40px;
+
+    .grey-box {
+      background-color: $grey-100;
+      padding: 20px;
+    }
+  }
+  .features {
+    padding-top: 40px;
+
+    p.checkbox {
+      margin-left: 60px;
+      display: flex;
+      align-items: center;
+      line-height: normal;
+      margin-bottom: 30px;
+      font-size: 1.25rem;
+    }
+    p.checkbox:before {
+      content: '';
+      height: 40px;
+      width: 40px;
+      min-width: 40px;
+      display: inline-block;
+      background-image: url('../../../assets/images/check-mark.svg');
+      margin-left: -60px;
+      margin-right: 20px;
+    }
+    p.checkbox.orange:before {
+      background-color: $api;
+    }
+  }
+  .customers {
+    padding-top: 40px;
+
+    h4 {
+      color: $blue-400;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  }
+  .demo {
+    padding-top: 40px;
+  }
+}
+
+@include device-specific($media-phone) {
+  .km-comp-about-component {
+    .menu {
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+      height: unset;
+
+      .menu-item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

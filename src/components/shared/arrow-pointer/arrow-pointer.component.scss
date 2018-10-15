@@ -1,0 +1,11 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+.down-arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 30px 0 30px;
+  border-color: $blue-100 transparent transparent transparent;
+  margin: 60px auto;
+}
