@@ -37,7 +37,7 @@ export class VideoPlayerComponent extends Component {
         const videoPlayerSize = this.calculateWidthAndHeight();
 
         return (
-            <Modal isOpen={this.state.showVideo} toggle={this.showVideoModal}>
+            <Modal isOpen={this.state.showVideo} toggle={this.showVideoModal} className="km-video-player">
                 <ModalHeader toggle={this.showVideoModal}>
                     {title}
                 </ModalHeader>

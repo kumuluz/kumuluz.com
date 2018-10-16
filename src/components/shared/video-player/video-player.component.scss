@@ -1,6 +1,6 @@
 @import "../../../assets/scss/media-mixin";
 
-.modal-dialog {
+.modal-dialog.km-video-player {
   max-width: 96%;
   width: 96%;
   height: 90vh;
@@ -36,7 +36,7 @@
 }
 
 @include device-specific($media-phone) {
-  .modal-dialog {
+  .modal-dialog.km-video-player {
     max-width: 96%;
     width: 96%;
 
