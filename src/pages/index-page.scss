@@ -6,6 +6,7 @@
   min-height: 4px;
   background-color: $grey-100;
 }
+
 .eu-sklad {
   position: absolute;
   bottom: 20px;
@@ -20,6 +21,7 @@
     cursor: pointer;
   }
 }
+
 .km-index-page {
   .white-section {
     padding-top: 100px;
@@ -501,6 +503,28 @@
         .image-blue-block {
           position: relative;
           top: -18vh;
+        }
+      }
+    }
+  }
+}
+
+@include device-specific($media-4k) {
+  .km-index-page {
+    .dark-blue-section {
+      .content {
+        .arrow-divider {
+          margin-top: -7% !important;
+        }
+        .kumuluz-cube {
+          width: 60%;
+          display: flex;
+          justify-content: center;
+
+          img {
+            width: 1200px;
+            height: auto;
+          }
         }
       }
     }

@@ -156,7 +156,7 @@ export default class IndexPage extends Component {
                                 </a>
                             </p>
                         </div>
-                        <div className="col-md-8 col-xl-6 mt-5 kumuluz-cube">
+                        <div className="col-10 col-xl-6 mt-5 kumuluz-cube">
                             <img src={kumuluzCubeImage}/>
                         </div>
                         <div className="col-10 p-0 arrow-divider">
