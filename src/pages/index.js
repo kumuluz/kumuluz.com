@@ -95,10 +95,10 @@ export default class IndexPage extends Component {
                                                 {t("header.tiles.left-tile.subtitle")}
                                             </div>
                                             <div className="block-item-buttons">
-                                                {/*<button className="btn btn-primary mr-4">*/}
-                                                    {/*{t("header.tiles.buttons.play-video")}*/}
-                                                    {/*<FontAwesomeIcon icon={faCaretRight}/>*/}
-                                                {/*</button>*/}
+                                                <button className="btn btn-primary mr-4" onClick={() => this.digitalVideo.showVideoModal()}>
+                                                    {t("header.tiles.buttons.play-video")}
+                                                    <FontAwesomeIcon icon={faCaretRight}/>
+                                                </button>
                                                 <span onClick={() => push("/business-apis")}>
                                                     {t("header.tiles.buttons.learn-more")}
                                                     <img src={arrow}/>
@@ -351,6 +351,9 @@ export default class IndexPage extends Component {
                 <VideoPlayerComponent ref={ref => this.bapisVideo = ref}
                       title={t("header.tiles.right-tile.above-title")}
                       videoUrl={"https://player.vimeo.com/video/295128872"}/>
+                <VideoPlayerComponent ref={ref => this.digitalVideo = ref}
+                    title={t("header.tiles.left-tile.above-title")}
+                    videoUrl={"https://player.vimeo.com/video/295517084"}/>
             </div>
         );
     }
