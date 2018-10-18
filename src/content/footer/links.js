@@ -1,4 +1,4 @@
-import {BLOG_URL, EE_KUMULUZ_URL, IO_KUMULUZ_URL, SOCIAL, SUNESIS_URL} from "../constants";
+import {BLOG_URL, EE_KUMULUZ_URL, GITHUB_ORG_KUMULUZ, IO_KUMULUZ_URL, SOCIAL, SUNESIS_URL} from "../constants";
 
 export const navigation = t => [
     {href: "/services", name: t("menu.services")},
@@ -74,7 +74,7 @@ export const footerLinks = t => [
             },
             {
                 title: t("footer.community.link2"),
-                href: ""
+                href: GITHUB_ORG_KUMULUZ
             },
             {
                 title: t("footer.community.link3"),
@@ -120,10 +120,6 @@ export const footerLinks = t => [
             },
             {
                 title: t("footer.company.link4"),
-                href: ""
-            },
-            {
-                title: t("footer.company.link5"),
                 href: ""
             }
         ]
