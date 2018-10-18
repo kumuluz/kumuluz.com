@@ -11,6 +11,7 @@ import { products as kumuluzDigitalProducts } from "../../../content/footer/prod
 import { footerLinks, socialLinks } from "../../../content/footer/links";
 
 import "./footer.scss";
+import email from "../../../assets/images/email.png";
 
 @translate("shared")
 export class Footer extends Component {
@@ -73,7 +74,7 @@ export class Footer extends Component {
                                       <h4>{t("footer.contact.contact.company")}</h4>
                                       <p dangerouslySetInnerHTML={{ __html: t("footer.contact.contact.address") }} />
                                       <p className="mt-4">
-                                          <a href={"mailto:info@sunesis.si"}>{t("footer.contact.contact.email")}</a>
+                                          <img style={{cursor: "pointer"}} src={email} onClick={() => window.location = "mailto:info@sunesis.si"}/>
                                       </p>
                                       {/*<p>{t('footer.contact.contact.phone')}</p>*/}
 
