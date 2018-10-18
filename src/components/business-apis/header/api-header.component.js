@@ -44,7 +44,7 @@ export class ApiHeaderComponent extends Component {
             <div className="km-api-header-component">
                 <div className="container-fluid">
                     <div className="row justify-content-center">
-                        <div className="col-9 col-lg-8 col-xl-4">
+                        <div className="col-9 col-lg-8 col-xl-5">
                             <div className={directionClass}>
                                 <div className="col-10 mb-3">
                                     <h1 className="text-center">{title}</h1>
