@@ -4,8 +4,7 @@ export const navbarItems = t => [
     {
         url: "/business-apis",
         title: t("navbar.business-apis"),
-        external: false,
-        availableLangs: ["en", "sl", "de"]
+        external: false
     },
     {
         url: "/digital-platform",
