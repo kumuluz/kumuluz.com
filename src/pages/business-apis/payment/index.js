@@ -65,8 +65,8 @@ export default class PaymentApiPage extends Component {
                 <ApiHowItWorksComponent title={t("apis.payment-api.page.how-it-works.title")}
                     subtitle={t("apis.payment-api.page.how-it-works.subtitle")}
                 >
-                    <div>
-                        <UnorderedListComponent fontColor={"white"} rows={2} items={[
+                    <div className="list-extended-margins">
+                        <UnorderedListComponent fontColor={"white"} rows={3} items={[
                             t("apis.payment-api.page.how-it-works.list.item-1"),
                             t("apis.payment-api.page.how-it-works.list.item-2"),
                             t("apis.payment-api.page.how-it-works.list.item-3"),
@@ -78,7 +78,7 @@ export default class PaymentApiPage extends Component {
                             t("apis.payment-api.page.how-it-works.list.item-9")
                         ]}/>
                     </div>
-                    <div>
+                    <div className="mt-5 image">
                         <img src={paymentApiDiagram}/>
                     </div>
                 </ApiHowItWorksComponent>

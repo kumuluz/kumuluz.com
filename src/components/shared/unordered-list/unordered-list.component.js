@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import PropType from "prop-types";
 
 import "./unordered-list.component.scss";
+import checkMark from "../../../assets/images/check-mark.svg";
 
 export class UnorderedListComponent extends Component {
 
@@ -25,7 +26,9 @@ export class UnorderedListComponent extends Component {
             <div className={"km-unordered-list-component " + rowsClass}>
                 {items.map((item, index) => (
                     <div className="list-row" key={index}>
-                        <span className="list-bullet" />
+                        <span className="list-bullet">
+                            <img src={checkMark}/>
+                        </span>
                         <span className={"list-content " + colorClass}>{item}</span>
                     </div>
                 ))}

@@ -7,27 +7,6 @@
     justify-content: center;
     align-items: center;
   }
-  .km-unordered-list-component {
-    .list-row {
-      .list-content {
-        font-size: 1rem;
-      }
-      .list-bullet {
-        margin-top: 5px;
-      }
-      &:nth-child(even) {
-        justify-content: flex-end;
-        .list-bullet {
-          order: 2;
-        }
-        .list-content {
-          margin-right: 10px;
-          margin-left: 0;
-          order: 1
-        }
-      }
-    }
-  }
   .docs-body {
     h2 {
       margin-bottom: 60px;

@@ -90,7 +90,7 @@ export default class CCMApiPage extends Component {
                 <ApiHowItWorksComponent title={t("apis.ccm.page.how-it-works.title")}
                     subtitle={t("apis.ccm.page.how-it-works.subtitle")}>
                     <div>
-                        <UnorderedListComponent fontColor={"white"} rows={2} items={[
+                        <UnorderedListComponent fontColor={"white"} rows={3} items={[
                             t("apis.ccm.page.how-it-works.list.item-1"),
                             t("apis.ccm.page.how-it-works.list.item-2"),
                             t("apis.ccm.page.how-it-works.list.item-3"),
@@ -102,7 +102,7 @@ export default class CCMApiPage extends Component {
                             t("apis.ccm.page.how-it-works.list.item-9")
                         ]}/>
                     </div>
-                    <div className="image-center">
+                    <div className="image-center mt-5">
                         <img src={ccmDemo}/>
                     </div>
                 </ApiHowItWorksComponent>
