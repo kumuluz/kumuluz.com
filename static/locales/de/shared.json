@@ -52,11 +52,11 @@
     "contact": {
       "title": "",
       "form": {
-        "name": "",
+        "name": "Vorname und Nachname",
         "namePlaceholder": "",
-        "company": "",
+        "company": "Unternehmen",
         "companyPlaceholder": "",
-        "email": "",
+        "email": "E-Mail",
         "emailPlaceholder": "",
         "companySize": "",
         "companySizeOptions": {
@@ -65,7 +65,7 @@
           "medium": "",
           "large": ""
         },
-        "phone": "",
+        "phone": "Telefon Nummer",
         "phonePlaceholder": "",
         "partnership": "",
         "partnershipPlaceholder": "",
