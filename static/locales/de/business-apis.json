@@ -21,12 +21,13 @@
     }
   },
   "filters": {
-    "title": "NI PREVODA",
+    "title": "Filter",
+    "placeholder": "NI PREVODA",
     "tags": {
-      "show-all": "NI PREVODA",
-      "users": "NI PREVODA",
-      "ecommerce": "NI PREVODA",
-      "data": "NI PREVODA"
+      "show-all": "Alles anzeigen",
+      "users": "nutzer",
+      "ecommerce": "ecommerce",
+      "data": "daten"
     }
   },
   "ways": {
@@ -56,30 +57,28 @@
   },
   "references": "Unternehmen, die bereits unsere APIs verwenden",
   "case-study": {
-    "above-title": "Catalogue API",
-    "title": "NI PREVODA",
+    "above-title": "Catalog API",
+    "title": "Fallstudie:<br/>Petrol setzt Kumuluz Business API ein",
     "para1": {
       "link": "Petrol",
-      "text": "verwendet Kumuluz Business APIs, um ihre Service-Plattform und digitale Anwendungen, so wie die Anwendungen Na Poti, Fresh, Travel Aggregator und andere, zu entwickeln."
+      "text": "setzt Kumuluz Business API ein um ihre Service-Plattform und digitale Anwendungen, wie Anwendungen Na Poti, Fresh, Reise-Aggregator und andere, zu entwickeln."
     },
-    "para2": "Different internal software applications call the Catalogue API to get information and pricing of the products.",
-    "quote": "With KumuluzDigital, you will introduce the latest cloudnative concepts, microservices, APIs and Docker containers. You will adopt agile development, DevOps principles and Continuous Delivery to fast-track your development. You will be finally able to modernize your monolithic applications.",
-    "read-more": "Read more",
-    "link-to-studies": "Case studies on page x"
+    "para2": "Verschiedene interne Softwareanwendungen kommunizieren mit dem Catalog API, um Informationen und Preise der Produkte zu erhalten.",
+    "quote": "Mit KumuluzDigital werden Sie die neuesten Cloud-nativen Konzepte, Microservices, APIs und Docker-Container vorstellen. Sie übernehmen agile Entwicklung, DevOps-Prinzipien und Continuous Delivery System, um Ihre Entwicklung zu beschleunigen. Sie werden endlich in der Lage sein, Ihre monolithischen Anwendungen zu modernisieren."
   },
   "apis": {
     "overview": "Überblick",
     "docs": "Dokumentation",
-    "not-available": "NI PREVODA",
-    "view-more": "NI PREVODA",
+    "not-available": "Noch nicht verfügbar",
+    "view-more": "Mehr Sehen",
     "pricing-per-container": "Bezahlen Sie per Container",
     "usecases": "Fallstudien",
     "coming-soon": "Bald gibt es mehr Infos",
     "payment-api": {
       "title": "Payment",
       "shortDesc": "Integrieren Sie die Zahlungsabwicklung in Ihre Anwendung, von Kreditkarten über Paypal bis zu Kryptowährungen.",
-      "tag": "NI PREVODA",
-      "pricing-desc": "NI PREVODA",
+      "tag": "ecommerce",
+      "pricing-desc": "Kaufen und Benutzen Sie Kumuluz Payment als Container mit Unterstützung.",
       "page": {
         "title": "Kumuluz Payment",
         "subtitle-1": "Kumuluz Payment API vereinfacht die Integration mit Payment-Gateways und Systemen verschiedener Anbieter, die Ihre Kunden bereits kennen. Mit minimalem Aufwand können Sie gängige Bezahlsysteme unterstützen und den Bezahlvorgang für Ihre Kunden vereinfachen.",
@@ -101,7 +100,7 @@
           }
         },
         "docs": {
-          "title": "NI PREVODA",
+          "title": "Unterstützte Zahlungsanbieter",
           "body": {
             "title": "Zusammenfassung der Dokumentation",
             "view": "Dokumentation anzeigen"
@@ -136,8 +135,8 @@
     "product-catalog": {
       "title": "Product Catalog",
       "shortDesc": "Komplette Produktkataloglösung für digitale und interne Anwendungen mit ausgereiften Funktionen für Omnichannel-Unterstützung, Bestandsverwaltung, Preisgestaltung, Loyalitätsintegration und vieles mehr.",
-      "tag": "NI PREVODA",
-      "pricing-desc": "NI PREVODA",
+      "tag": "daten",
+      "pricing-desc": "Kaufen und Benutzen Sie Kumuluz Product Catalog als Container mit Unterstützung.",
       "page": {
         "title": "Kumuluz Product Catalog",
         "para": "Der Kumuluz Product Catalog ist eine vollständige Produktkataloglösung für digitale und interne Anwendungen mit ausgereiften Funktionen für Omni-Channel-Support, Bestandsverwaltung, Preisgestaltung, Kundenbindung und vieles mehr. Es bietet leistungsstarke Funktionen zum Verwalten und Bereitstellen Ihrer Produkte für Ihre Endkundendienste und Apps. Es lässt sich nahtlos in andere Kumuluz Business APIs integrieren und bietet vorgefertigte Vorlagen und Erweiterungspunkte für die Integration in die Backend-Systeme Ihrer Organisation.",
@@ -192,8 +191,8 @@
     "cart": {
       "title": "Cart",
       "shortDesc": "Integrieren Sie Omnichannel-Warenkorb-Funktionalität in Ihren Anwendungen. Vom Hinzufügen zum Warenkorb bis zum Kassier-Vorgang, und einfacher Integration mit Backend, Produktkatalog, Auftragsmanagement und Fulfillment.",
-      "tag": "NI PREVODA",
-      "pricing-desc": "NI PREVODA",
+      "tag": "ecommerce",
+      "pricing-desc": "Kaufen und Benutzen Sie Kumuluz Cart als Container mit Unterstützung.",
       "page": {
         "title": "Kumuluz Cart",
         "para": "Kumuluz Cart ist eine Komplettlösung für die Omni-Channel-Warenkorb-Funktionalität in Ihren Anwendungen. Vom Hinzufügen zum Warenkorb bis zum Kassier-Vorgang und einfacher Integration mit Backend, Produktkatalog, Auftragsverwaltung und Fulfillment. Kumuluz Cart API bietet vollständige Unterstützung für die Implementierung von Prozessen, die mit der Auftragserstellung verbunden sind. Dies beinhaltet die Bestätigung von Preisen, Vorratsinformationen und Kundentreuedaten und das Erstellen von Bestellungen. Kumuluz Cart kann mit anderen APIs, einschließlich Kumuluz Product Catalog und Kumuluz Order und Fulfillment-APIs, und mit Backend-Systemen integriert werden.",
@@ -243,8 +242,8 @@
     "order": {
       "title": "Order",
       "shortDesc": "Komplette Auftragsmanagement-Lösungen für digitale und traditionelle Kanäle, vollständig flexibel und mit Unterstützung für digitale und physische Bereitstellung.",
-      "tag": "NI PREVODA",
-      "pricing-desc": "NI PREVODA",
+      "tag": "ecommerce",
+      "pricing-desc": "Kaufen und Benutzen Sie Kumuluz Order als Container mit Unterstützung.",
       "page": {
         "title": "Kumuluz Order",
         "para": "Order API ist die komplette Bestellverwaltungslösung für digitale und traditionelle Kanäle, völlig flexibel und mit Unterstützung für digitale und physische Bereitstellung. Es ermöglicht die Auftragserstellung und verschiedene Bestellabläufe für verschiedene Quellen, wie zum Beispiel Cart API. Das Bestelldokument enthält einen benutzerfreundlichen Bestellcode und Informationen zur Verfolgung des Fulfillment.",
@@ -275,8 +274,8 @@
     "fulfillment": {
       "title": "Fulfillment",
       "shortDesc": "Vorkonfigurierte, vollständige und anpassbare Fulfillment-Management-Lösungen mit Unterstützung für Ihre individuellen Fulfillment-Prozesse, einschließlich Fulfillment über digitale und physische Kanäle und automatisierte Geräte wie Verkaufsautomaten.",
-      "tag": "NI PREVODA",
-      "pricing-desc": "NI PREVODA",
+      "tag": "ecommerce",
+      "pricing-desc": "Kaufen und Benutzen Sie Kumuluz Fulfillment als Container mit Unterstützung.",
       "page": {
         "title": "Kumuluz Fulfillment",
         "para-1": "Fulfillment API ist eine vollständige und anpassbare Fulfillment-Management-Lösung mit Unterstützung für Ihre maßgeschneiderten Fulfillment-Prozesse, einschließlich des Fulfillment durch digitale und physische Kanäle und automatisierte Geräte wie Verkaufsautomaten.",
@@ -339,8 +338,8 @@
     "invoice": {
       "title": "Invoice",
       "shortDesc": "Rechnungstellung zur Generierung, Verarbeitung und Zustellung von Rechnungen über digitale Kanäle und zu verschiedenen Geräten.",
-      "tag": "NI PREVODA",
-      "pricing-desc": "NI PREVODA",
+      "tag": "ecommerce",
+      "pricing-desc": "Kaufen und Benutzen Sie Kumuluz Invoice als Container mit Unterstützung.",
       "page": {
         "title": "Kumuluz Invoice",
         "para": "Kumuluz Invoice API ist eine vollständige Lösung für die Rechnungsstellung. Es unterstützt die Generierung, Verarbeitung und Lieferung von Rechnungen über digitale Kanäle und an verschiedene Geräte. Es ermöglicht die Erstellung von Rechnungen, die Erstellung von Rechnungsdokumenten in verschiedenen Formaten und Designs, sowie die Zustellung von Rechnungen an verschiedene Geräte und über verschiedene Kanäle.",
@@ -380,8 +379,8 @@
     "customer": {
       "title": "Customer",
       "shortDesc": "Verwalten Sie Ihre Kunden und deren Daten auf einfache Weise, überblicken Sie die Bestellhistorie und was sich Ihre Kunden wünschen und benötigen.",
-      "tag": "NI PREVODA",
-      "pricing-desc": "NI PREVODA",
+      "tag": "nutzer",
+      "pricing-desc": "Kaufen und Benutzen Sie Kumuluz Customer als Container mit Unterstützung.",
       "page": {
         "title": "Kumuluz Customer",
         "para": "Kumuluz Customer API bietet Funktionen für die komplette Verwaltung von Kunden und ihren Daten. Überprüfen Sie ihre Bestellhistorie und verstehen Sie was Ihre Kunden sich wünschen und benötigen. Es bietet eine ganzheitliche Sicht auf die Daten Ihrer Kunden und Daten über die Interaktionen mit Ihren Kunden an. ",
@@ -428,8 +427,8 @@
     "ccm": {
       "title": "CCM",
       "shortDesc": "Komplettlösung für das digitale Engagement und die Kommunikation mit Ihren Kunden, überall und über verschiedene Kanäle.",
-      "tag": "NI PREVODA",
-      "pricing-desc": "NI PREVODA",
+      "tag": "nutzer",
+      "pricing-desc": "Kaufen und Benutzen Sie Kumuluz CCM als Container mit Unterstützung.",
       "page": {
         "title": "Kumuluz CCM",
         "subtitle-1": "KumuluzCCM ist eine Plattform für Multikanal-Kommunikation (E-Mail, SMS, Push-Benachrichtigungen) mit einer einfachen Kanalkombination und Umschaltung. Verfügbare APIs ermöglichen eine sichere Integration mit Ihren Back-End-Systemen, um die gesamte Kundenkommunikation an einem Ort zu verwalten.",
@@ -508,8 +507,8 @@
     "subscription": {
       "title": "Subscription",
       "shortDesc": "Komplettlösung für das Abonnement-Management. Unterstützt Geschäftsmodelle für den Verkauf und die Bereitstellung von Abonnementsdiensten, die in bestimmten Intervallen in Rechnung gestellt und bezahlt werden.",
-      "tag": "NI PREVODA",
-      "pricing-desc": "NI PREVODA",
+      "tag": "nutzer",
+      "pricing-desc": "Kaufen und Benutzen Sie Kumuluz Subscription als Container mit Unterstützung.",
       "page": {
         "title": "Kumuluz Subscription",
         "para": "Kumuluz Subscription API ist eine vollständige Lösung für die Abonnementverwaltung. Es unterstützt Geschäftsmodelle für den Verkauf und die Bereitstellung von Abonnementsdiensten, die in bestimmten Intervallen in Rechnung gestellt und bezahlt werden.",
@@ -563,8 +562,8 @@
     "kyc": {
       "title": "KYC",
       "shortDesc": "Know-Your-Customers-API ermöglicht es Ihnen, persönliche Identifizierung Ihrer neuen Kunden durchzuführen.",
-      "tag": "NI PREVODA",
-      "pricing-desc": "NI PREVODA",
+      "tag": "nutzer",
+      "pricing-desc": "Kaufen und Benutzen Sie Kumuluz KYC als Container mit Unterstützung.",
       "page": {
         "title": "Kumuluz KYC",
         "para": "Know Your Customers API ermöglicht es Ihnen, eine persönliche Identifizierung Ihrer neuen Kunden durchzuführen und die Kundendaten in einer DSGVO-konformen Weise sicher zu speichern.",
@@ -576,18 +575,18 @@
     }
   },
   "payment": {
-    "purchase-of": "",
-    "thanks": "",
-    "fill-form": "",
-    "first-name": "",
-    "last-name": "",
-    "company": "",
-    "country": "",
-    "email": "",
-    "phone": "",
-    "checkout": "",
-    "provided-info": "",
-    "completed": "",
-    "close": ""
+    "purchase-of": "Kaufen",
+    "thanks": "Danke für den Kauf",
+    "fill-form": "Bitte füllen Sie das folgende Formular aus",
+    "first-name": "Vorname",
+    "last-name": "Nachname",
+    "company": "Unternehmen",
+    "country": "Staat",
+    "email": "E-Mail",
+    "phone": "Telefon Nummer",
+    "checkout": "Weiter zur Kasse",
+    "provided-info": "Danke für die zur Verfügung gestellten Informationen",
+    "completed": "Der Kauf wurde erfolgreich abgeschlossen. Wir senden Ihnen eine E-Mail mit Anweisungen",
+    "close": "Schließen"
   }
 }

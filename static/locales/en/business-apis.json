@@ -22,6 +22,7 @@
   },
   "filters": {
     "title": "Filters",
+    "placeholder": "Search APIs",
     "tags": {
       "show-all": "Show all",
       "users": "users",
@@ -56,16 +57,14 @@
   },
   "references": "Companies that already use our APIs",
   "case-study": {
-    "above-title": "Catalogue API",
+    "above-title": "Catalog API",
     "title": "Case study:<br/>Petrol employs Kumuluz Catalogue API",
     "para1": {
       "link": "Petrol",
       "text": "employs Kumuluz Business APIs to develop their service platform and digital applications, such as applications Na poti, Fresh, Travel Aggregator and others."
     },
-    "para2": "Different internal software applications call the Catalogue API to get information and pricing of the products.",
-    "quote": "With KumuluzDigital, you will introduce the latest cloudnative concepts, microservices, APIs and Docker containers. You will adopt agile development, DevOps principles and Continuous Delivery to fast-track your development. You will be finally able to modernize your monolithic applications.",
-    "read-more": "Read more",
-    "link-to-studies": "Case studies on page x"
+    "para2": "Different internal software applications call the Catalog API to get the information and pricing of the products.",
+    "quote": "With KumuluzDigital, you will introduce the latest cloud-native concepts, microservices, APIs and Docker containers. You will adopt agile development, DevOps principles and Continuous Delivery to fast-track your development. You will be finally able to modernize your monolithic applications."
   },
   "apis": {
     "overview": "Overview",
@@ -80,7 +79,7 @@
       "title": "Payment",
       "shortDesc": "Integrate payment processing in your application, from credit cards to Paypal and cryptocurrencies.",
       "tag": "ecommerce",
-      "pricing-desc": "Buy and use Kumuluz Payment API as a container with support.",
+      "pricing-desc": "Buy and use Kumuluz Payment as a container with support.",
 
       "page": {
         "title": "Kumuluz Payment",

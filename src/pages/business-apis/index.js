@@ -179,7 +179,7 @@ export default class BusinessAPIsPage extends Component {
                             <div className="row mb-5">
                                 <div className="col-25-perc">
                                     <div className="search-bar">
-                                        <input placeholder={"Search APIs"} type="text" onInput={this.filterApis}
+                                        <input placeholder={t("filters.placeholder")} type="text" onInput={this.filterApis}
                                                ref={ref => this.searchbar = ref}/>
                                     </div>
                                     <h4>{t("filters.title")}</h4>
@@ -293,7 +293,7 @@ export default class BusinessAPIsPage extends Component {
                                     <h4>{t("case-study.above-title")}:</h4>
                                     <h3 dangerouslySetInnerHTML={{__html: t("case-study.title")}}/>
                                     <p>
-                                        <a href={""} target="_blank">{t("case-study.para1.link")}</a>
+                                        <a href={"http://www.petrol.si/"} target="_blank">{t("case-study.para1.link")}</a>
                                         &#160;{t("case-study.para1.text")}
                                     </p>
                                     <p>{t("case-study.para2")}</p>
@@ -305,12 +305,12 @@ export default class BusinessAPIsPage extends Component {
                                             {t("case-study.quote")}
                                             <span className="quote right-quote">"</span>
                                         </p>
-                                        <div className="arrow-quote" />
+                                        {/*<div className="arrow-quote" />*/}
                                     </div>
-                                    <div className="lightblue-area">
-                                        <p className="quote-author-name">Adrian Freeman</p>
-                                        <p className="quote-author-role">Petrol CTO</p>
-                                    </div>
+                                    {/*<div className="lightblue-area">*/}
+                                        {/*<p className="quote-author-name">Adrian Freeman</p>*/}
+                                        {/*<p className="quote-author-role">Petrol CTO</p>*/}
+                                    {/*</div>*/}
                                 </div>
                             </div>
                         </div>

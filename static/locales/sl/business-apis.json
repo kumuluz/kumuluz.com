@@ -22,6 +22,7 @@
   },
   "filters": {
     "title": "Filtri",
+    "placeholder": "Išči APIje",
     "tags": {
       "show-all": "Pokaži vse",
       "users": "uporabniki",
@@ -56,16 +57,14 @@
   },
   "references": "Podjetja ki že uporabljajo naše API-je",
   "case-study": {
-    "above-title": "Catalogue API",
-    "title": "Primer uporabe:<br/>Petrol uporablja Kumuluz Catalogue API",
+    "above-title": "Catalog API",
+    "title": "Študija primera:<br/>Petrol uporablja vmesnik Kumuluz Catalog API",
     "para1": {
       "link": "Petrol",
-      "text": "uporablja Kumuluzove poslovne API-je za razvoj svoje storitvene platforme in digitalnih aplikacij, kot so aplikacije Na poti, Fresh, Travel Aggregator in ostale."
+      "text": "uporablja Kumuluzove poslovne API-je za razvoj svoje storitvene platforme in digitalnih aplikacij, kot so Na poti, Fresh, Travel Aggregator in druge."
     },
-    "para2": "Different internal software applications call the Catalogue API to get information and pricing of the products.",
-    "quote": "With KumuluzDigital, you will introduce the latest cloudnative concepts, microservices, APIs and Docker containers. You will adopt agile development, DevOps principles and Continuous Delivery to fast-track your development. You will be finally able to modernize your monolithic applications.",
-    "read-more": "Read more",
-    "link-to-studies": "Case studies on page x"
+    "para2": "Različne interne programske aplikacije se sklicujejo na vmesnik Catalog API, da pridobijo informacije in cene izdelkov.",
+    "quote": "Z vmesnikom KumuluzDigital boste lahko vpeljali najnovejše oblačne koncepte, mikrostoritve, aplikacijske programske vmesnike in vsebnike Docker. Implementirali boste agilni razvoj, principe razvojnih operacij (ang. DevOps) in neprekinjene dostave (ang. continuous delivery), ter tako pospešili svoj razvoj. Končno boste lahko modernizirali svoje monolitske aplikacije."
   },
   "apis": {
     "overview": "Pregled",
