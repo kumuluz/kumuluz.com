@@ -1,6 +1,4 @@
-export const links = {
-    blog: "https://blog.kumuluz.com"
-};
+import {BLOG_URL, EE_KUMULUZ_URL, IO_KUMULUZ_URL, SOCIAL, SUNESIS_URL} from "../constants";
 
 export const navigation = t => [
     {href: "/services", name: t("menu.services")},
@@ -18,7 +16,7 @@ export const navigation = t => [
             {href: "/about/awards", name: t("menu.aboutUs.awards")}
         ]
     },
-    {href: links.blog, name: t("menu.blog"), external: true}
+    {href: BLOG_URL, name: t("menu.blog"), external: true}
 ];
 
 export const footerLinks = t => [
@@ -72,7 +70,7 @@ export const footerLinks = t => [
         links: [
             {
                 title: t("footer.community.link1"),
-                href: "https://blog.kumuluz.com"
+                href: BLOG_URL
             },
             {
                 title: t("footer.community.link2"),
@@ -80,11 +78,11 @@ export const footerLinks = t => [
             },
             {
                 title: t("footer.community.link3"),
-                href: "https://twitter.com/kumuluz"
+                href: SOCIAL.TWITTER_URL
             },
             {
                 title: t("footer.community.link4"),
-                href: "https://www.linkedin.com/company/kumuluz"
+                href: SOCIAL.LINKEDIN_URL
             }
         ]
     },
@@ -93,15 +91,15 @@ export const footerLinks = t => [
         links: [
             {
                 title: "Kumuluz dAPIs",
-                href: "https://www.kumuluz.io"
+                href: IO_KUMULUZ_URL
             },
             {
                 title: "KumuluzEE",
-                href: "https://ee.kumuluz.com"
+                href: EE_KUMULUZ_URL
             },
             {
                 title: "Sunesis",
-                href: "https://www.sunesis.si"
+                href: SUNESIS_URL
             }
         ]
     },
@@ -110,15 +108,15 @@ export const footerLinks = t => [
         links: [
             {
                 title: t("footer.company.link1"),
-                href: "https://sunesis.si/about/sunesis"
+                href: SUNESIS_URL + "/about/sunesis"
             },
             {
                 title: t("footer.company.link2"),
-                href: "https://sunesis.si/about/awards"
+                href: SUNESIS_URL + "/about/awards"
             },
             {
                 title: t("footer.company.link3"),
-                href: "https://blog.kumuluz.com"
+                href: BLOG_URL
             },
             {
                 title: t("footer.company.link4"),
@@ -138,10 +136,10 @@ import twitterIcon from "../../assets/images/social/twitter.svg";
 export const socialLinks = [
     {
         img: twitterIcon,
-        href: "https://twitter.com/kumuluz"
+        href: SOCIAL.TWITTER_URL
     },
     {
         img: linkedInIcon,
-        href: "https://www.linkedin.com/company/kumuluz"
+        href: SOCIAL.LINKEDIN_URL
     }
 ];

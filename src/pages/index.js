@@ -22,7 +22,7 @@ import dukeAward from "../assets/images/duke-award.jpeg";
 import euroCloud from "../assets/images/logo_Eurocloud_C.jpg";
 import startupSlovenia from "../assets/images/startup-slovenia.png";
 import euSkladRegionalniRazvoj from "../assets/images/EU-logo.png";
-import {BLOG_URL} from "../content/constants";
+import {BLOG_URL, EE_KUMULUZ_URL, IO_KUMULUZ_URL, SUNESIS_URL} from "../content/constants";
 import {digitalLandscapeCompetition} from "../content/index-page/digital-landscape-competition.content";
 import {AppNeedsComponent, DigitalPlatformComponent} from "../components/index-page/export";
 import {highlightsList} from "../content/index-page/highlights";
@@ -284,7 +284,7 @@ export default class IndexPage extends Component {
                                         <h4>{t("other-products.tiles.first-tile.title")}</h4>
                                         <p>{t("other-products.tiles.first-tile.para")}</p>
                                         <div>
-                                            <a href={"https://www.sunesis.si/services"} target="_blank" rel="noreferrer noopener">
+                                            <a href={SUNESIS_URL + "/services"} target="_blank" rel="noreferrer noopener">
                                                 {t("other-products.tiles.learn-more")}
                                                 <img src={arrowRed}/>
                                             </a>
@@ -300,7 +300,7 @@ export default class IndexPage extends Component {
                                         <h4>{t("other-products.tiles.second-tile.title")}</h4>
                                         <p>{t("other-products.tiles.second-tile.para")}</p>
                                         <div>
-                                            <a href={"https://ee.kumuluz.com"} target="_blank" rel="noreferrer noopener">
+                                            <a href={EE_KUMULUZ_URL} target="_blank" rel="noreferrer noopener">
                                                 {t("other-products.tiles.learn-more")}
                                                 <img src={arrowRed}/>
                                             </a>
@@ -316,7 +316,7 @@ export default class IndexPage extends Component {
                                         <h4>{t("other-products.tiles.third-tile.title")}</h4>
                                         <p>{t("other-products.tiles.third-tile.para")}</p>
                                         <div>
-                                            <a href={"https://www.kumuluz.io"} target="_blank" rel="noreferrer noopener">
+                                            <a href={IO_KUMULUZ_URL} target="_blank" rel="noreferrer noopener">
                                                 {t("other-products.tiles.learn-more")}
                                                 <img src={arrowRed}/>
                                             </a>

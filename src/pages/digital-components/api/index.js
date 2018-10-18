@@ -24,6 +24,7 @@ import whatIsImage from "../../../assets/images/whatIs.svg";
 import competitiveAdvantageImage from "../../../assets/images/competitiveAdv.svg";
 import transitionCloudImage from "../../../assets/images/transitionCloud.svg";
 import {Helmet} from "react-helmet";
+import {KUMULUZ_DIGITAL} from "../../../content/constants";
 
 const items = t => [
     {
@@ -128,7 +129,7 @@ export default class KumuluzApiPage extends Component {
                         <div className="api-demo">
                             <img src={apiDemo}/>
                             <div className="button">
-                                <a href="https://api.kumuluz.com" rel="noreferrer noopener" target="_blank">
+                                <a href={KUMULUZ_DIGITAL.API_URL} rel="noreferrer noopener" target="_blank">
                                     <span
                                         className="btn btn-primary">{t("components.api.about.navbar.demo.tryout")}</span>
                                 </a>

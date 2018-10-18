@@ -1,3 +1,5 @@
+import {BLOG_URL} from "../constants";
+
 export const navbarItems = t => [
     {
         url: "/business-apis",
@@ -18,7 +20,7 @@ export const navbarItems = t => [
         availableLangs: ["en"]
     },
     {
-        url: "https://blog.kumuluz.com",
+        url: BLOG_URL,
         title: t("navbar.blog"),
         external: true
     },

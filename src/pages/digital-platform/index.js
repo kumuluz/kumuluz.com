@@ -8,6 +8,7 @@ import digitalPlatformCube from "../../assets/images/digital-platform-cube.png";
 import {ArrowDividerComponent, ArrowPointerComponent} from "../../components/shared/export.shared.components";
 import {DigitalPlatformComponent} from "../../components/index-page/export";
 import {Footer} from "../../components/shared/footer/footer";
+import {BLOG_URL} from "../../content/constants";
 
 @translate("digital-platform")
 export default class DigitalPlatformPage extends Component {
@@ -65,7 +66,7 @@ export default class DigitalPlatformPage extends Component {
                                     <h2 className="text-center">{t("digit-platform.title")}</h2>
                                 </div>
                                 <div className="col-10 button-area">
-                                    <a href={"https://blog.kumuluz.com"} target="_blank" rel="noreferrer noopener"
+                                    <a href={BLOG_URL} target="_blank" rel="noreferrer noopener"
                                         className="btn btn-primary">{t("digit-platform.learn-more")}</a>
                                 </div>
                             </div>

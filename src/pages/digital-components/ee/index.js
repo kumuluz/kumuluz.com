@@ -28,6 +28,7 @@ import strategicAdvantageImage from "../../../assets/images/strategicAdv.svg";
 import knowledgeImage from "../../../assets/images/knowledge.svg";
 import {CompProductGridComponent} from "../../../components/digital-components/product-grid/comp-product-grid.component";
 import {Footer} from "../../../components/shared/footer/footer";
+import {EE_KUMULUZ_URL, MICROPROFILE_URL} from "../../../content/constants";
 
 const quotes = t => {
     return [
@@ -185,8 +186,8 @@ export default class KumuluzEEPage extends Component {
                 <Helmet title={t("components.ee.title") + " - Kumuluz"}/>
                 <CompNavigationComponent activeTab={"color-ee"} products={digitalPlatformProducts(t)}/>
                 <CompHeaderComponent image={eeLogo}
-                    title={"<a href='https://ee.kumuluz.com' target='_blank'>Kumuluz<strong>EE</strong></a>"}
-                    url={"https://ee.kumuluz.com"}
+                    title={`<a href='${EE_KUMULUZ_URL}' target='_blank'>Kumuluz<strong>EE</strong></a>`}
+                    url={EE_KUMULUZ_URL}
                     items={[
                         t("components.ee.header.items.item-1"),
                         t("components.ee.header.items.item-2"),
@@ -336,7 +337,7 @@ export default class KumuluzEEPage extends Component {
 
                 <CompMottoComponent title={t("components.ee.motto.title")}
                     subtitle={t("components.ee.motto.subtitle")}
-                    image={mpLogo} imageUrl={"https://microprofile.io/"}
+                    image={mpLogo} imageUrl={MICROPROFILE_URL}
                 />
 
                 <CompBenefitsComponent benefits={benefits(t)} title={t("components.ee.benefits.title")}
