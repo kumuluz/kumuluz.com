@@ -41,7 +41,7 @@ i18n
         fallbackLng: "en",
         ns: ["shared"],
         defaultNS: "shared",
-        debug: true, // <--------- change to debug in console
+        debug: false, // <--------- change to debug in console
         interpolation: {
             escapeValue: false
         },
