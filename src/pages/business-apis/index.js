@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
 import {Helmet} from "react-helmet";
-import Link from "gatsby-link";
+import Link, {push} from "gatsby-link";
 import {translate} from "react-i18next";
 import {UncontrolledTooltip} from "reactstrap";
 
@@ -272,7 +272,7 @@ export default class BusinessAPIsPage extends Component {
                                         <p>{t("ways.right-way.para2")}</p>
                                     </div>
                                     <div>
-                                        <span>{t("ways.right-way.button")}</span>
+                                        <span onClick={() => push("/#contact-us")}>{t("ways.right-way.button")}</span>
                                     </div>
                                 </div>
                             </div>
