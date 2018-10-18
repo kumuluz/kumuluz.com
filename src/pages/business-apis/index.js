@@ -174,7 +174,7 @@ export default class BusinessAPIsPage extends Component {
                 </div>
 
                 <div className="container-fluid mt-5">
-                    <div className="row justify-content-center apis-list">
+                    <div className="row justify-content-center apis-list" id="apis-list">
                         <div className="col-9 col-xl-6">
                             <div className="row mb-5">
                                 <div className="col-25-perc">
@@ -250,7 +250,7 @@ export default class BusinessAPIsPage extends Component {
                                         <p>{t("ways.center-way.para2")}</p>
                                     </div>
                                     <div>
-                                        <span>{t("ways.center-way.button")}</span>
+                                        <span onClick={() => document.getElementById("apis-list").scrollIntoView()}>{t("ways.center-way.button")}</span>
                                     </div>
                                 </div>
                                 <div className="right-way way">

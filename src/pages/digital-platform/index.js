@@ -56,7 +56,7 @@ export default class DigitalPlatformPage extends Component {
                             </div>
                             <div className="row justify-content-center">
                                 <div className="col-10">
-                                    <DigitalPlatformComponent noHeader={true} noButton={true}/>
+                                    <DigitalPlatformComponent linkToBlog={true} noHeader={true} noButton={true}/>
                                 </div>
                                 <div className="col-10">
                                     <ArrowPointerComponent direction={"down"}/>
@@ -65,7 +65,7 @@ export default class DigitalPlatformPage extends Component {
                                     <h2 className="text-center">{t("digit-platform.title")}</h2>
                                 </div>
                                 <div className="col-10 button-area">
-                                    <button className="btn btn-primary">{t("digit-platform.learn-more")}</button>
+                                    <a href={"https://blog.kumuluz.com"} target="_blank" className="btn btn-primary">{t("digit-platform.learn-more")}</a>
                                 </div>
                             </div>
                         </div>

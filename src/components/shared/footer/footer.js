@@ -53,7 +53,7 @@ export class Footer extends Component {
               <h4 className="position-relative text-center">{t('footer.social.title')}</h4>
               <div className="social-icons">
                 {socialLinks.map((link, i) => (
-                  <a key={i} href={link.href}>
+                  <a key={i} href={link.href} target="_blank">
                     <img src={link.img} />
                   </a>
                 ))}
@@ -72,13 +72,15 @@ export class Footer extends Component {
                     <h4 className="blue">{t('footer.contact.contact.title')}</h4>
                     <h4>{t('footer.contact.contact.company')}</h4>
                     <p dangerouslySetInnerHTML={{ __html: t('footer.contact.contact.address') }} />
-                    <p className="mt-4 mb-0">{t('footer.contact.contact.email')}</p>
-                    <p>{t('footer.contact.contact.phone')}</p>
+                    <p className="mt-4">
+                        <a href={"mailto:info@sunesis.si"}>{t('footer.contact.contact.email')}</a>
+                    </p>
+                    {/*<p>{t('footer.contact.contact.phone')}</p>*/}
 
                     <h4 className="blue">{t('footer.social.title')}</h4>
                     <div className="social-icons text-center text-xl-left">
                       {socialLinks.map((link, i) => (
-                        <a key={i} href={link.href}>
+                        <a key={i} href={link.href} target="_blank">
                           <img src={link.img} />
                         </a>
                       ))}
