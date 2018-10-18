@@ -7,10 +7,12 @@ import {applicationNeeds} from "../../../content/index-page/application-needs";
 import "./app-needs.component.scss";
 import checkmarkImage from "../../../assets/images/checkMark.svg";
 
+
+// eslint-disable-next-line no-unused-vars
 const learnMoreLinks = (t) => [
     {
-      isTitle: true,
-      title: t("bapis.learn-more.title")
+        isTitle: true,
+        title: t("bapis.learn-more.title")
     },
     {
         title: t("bapis.learn-more.item-1"),
@@ -93,7 +95,7 @@ export class AppNeedsComponent extends Component {
                 <span key={index} className="link">
                     {link.title}
                 </span>
-            )
+            );
         }
     }
 
@@ -120,9 +122,9 @@ export class AppNeedsComponent extends Component {
                     </div>
                 </div>
                 {/*<div className="learn-more-section">*/}
-                    {/*{learnMoreLinks(t).map((link, index) => {*/}
-                        {/*return this.renderLink(link, index)*/}
-                    {/*})}*/}
+                {/*{learnMoreLinks(t).map((link, index) => {*/}
+                {/*return this.renderLink(link, index)*/}
+                {/*})}*/}
                 {/*</div>*/}
             </div>
         );

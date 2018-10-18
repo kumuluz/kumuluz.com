@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
 
 import "./cookies.component.scss";
@@ -6,13 +7,17 @@ import "./cookies.component.scss";
 @translate("shared")
 export class CookiesComponent extends Component {
 
+    static propTypes = {
+        t: PropType.func
+    };
+
     constructor(props) {
         super(props);
         this.STORAGE_NAME = "COOKIES_AGREED";
         this.acceptCookies = this.acceptCookies.bind(this);
         this.state = {
             show: false
-        }
+        };
     }
 
     componentDidMount() {
@@ -30,7 +35,7 @@ export class CookiesComponent extends Component {
         localStorage.setItem(this.STORAGE_NAME, JSON.stringify(true));
         this.setState({
             show: false
-        })
+        });
     }
 
     render() {

@@ -13,4 +13,4 @@ export const KUMULUZ_DIGITAL = {
 export const SOCIAL = {
     TWITTER_URL: "https://twitter.com/kumuluz",
     LINKEDIN_URL: "https://www.linkedin.com/company/kumuluz"
-}
+};

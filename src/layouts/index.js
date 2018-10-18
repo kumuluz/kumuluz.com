@@ -24,7 +24,7 @@ export default class PageLayout extends Component {
     }
 
     render() {
-        const {children, t} = this.props;
+        const {children} = this.props;
 
         return (
             <div className="km-page-layout">

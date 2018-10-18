@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
 import "./related-apis.component.scss";
 import Link from "gatsby-link";
@@ -8,6 +9,11 @@ import {UncontrolledTooltip} from "reactstrap";
 
 @translate("business-apis")
 export class ApiRelatedApisComponent extends Component {
+
+    static propTypes = {
+        t: PropType.func,
+        apis: PropType.array
+    };
 
     constructor(props) {
         super(props);

@@ -30,12 +30,12 @@ export class CompNavigationComponent extends Component {
                     if (prod.external) {
                         return (
                             <div className="navigation-item" key={index}>
-                                <a href={prod.url} target="_blank">
+                                <a href={prod.url} target="_blank" rel="noreferrer noopener">
                                     <div>{prod.title}</div>
                                     <div className={clazz}/>
                                 </a>
                             </div>
-                        )
+                        );
                     }
                     return (
                         <div className="navigation-item" key={index} >
@@ -44,7 +44,7 @@ export class CompNavigationComponent extends Component {
                                 <div className={clazz}/>
                             </Link>
                         </div>
-                    )
+                    );
                 })}
             </div>
         );

@@ -10,7 +10,8 @@ export class CompUseCasesComponent extends Component {
         section1: PropType.object,
         section2: PropType.object,
         section3: PropType.object,
-        section4: PropType.object
+        section4: PropType.object,
+        expandNavbar: PropType.boolean
     };
 
     constructor(props) {
@@ -18,7 +19,7 @@ export class CompUseCasesComponent extends Component {
         this.changePage = this.changePage.bind(this);
         this.state = {
             activePage: ""
-        }
+        };
     }
 
     componentDidMount() {
@@ -88,28 +89,28 @@ export class CompUseCasesComponent extends Component {
                     </div>
                     {/************** SECTION1 *****************/}
                     <div className="row justify-content-center section"
-                         style={showSection1 ? {display: "flex"} : {display: "none"}}>
+                        style={showSection1 ? {display: "flex"} : {display: "none"}}>
                         <div className="col-9 col-xl-6">
                             {section1}
                         </div>
                     </div>
                     {/************ SECTION2 ***********/}
                     <div className="row justify-content-center section"
-                         style={showSection2 ? {display: "flex"} : {display: "none"}}>
+                        style={showSection2 ? {display: "flex"} : {display: "none"}}>
                         <div className="col-9 col-xl-6">
                             {section2}
                         </div>
                     </div>
                     {/*************** SECTION3 *****************/}
                     <div className="row justify-content-center section"
-                         style={showSection3 ? {display: "flex"} : {display: "none"}}>
+                        style={showSection3 ? {display: "flex"} : {display: "none"}}>
                         <div className="col-9 col-xl-6">
                             {section3}
                         </div>
                     </div>
                     {/*************** SECTION4 *****************/}
                     <div className="row justify-content-center section"
-                         style={showSection4 ? {display: "flex"} : {display: "none"}}>
+                        style={showSection4 ? {display: "flex"} : {display: "none"}}>
                         <div className="col-9 col-xl-6">
                             {section4}
                         </div>

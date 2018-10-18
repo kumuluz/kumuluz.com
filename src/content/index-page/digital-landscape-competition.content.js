@@ -3,7 +3,6 @@ import {Competition} from "./schema/competition.class";
 import competitiveAdv from "../../assets/images/competitiveAdv.svg";
 import efficiency from "../../assets/images/efficiency.svg";
 import financialAdv from "../../assets/images/financialAdv.svg";
-import market from "../../assets/images/market.svg";
 import productivityIncreas from "../../assets/images/productivityIncreas.svg";
 import strategicAdv from "../../assets/images/strategicAdv.svg";
 import fullSupport from "../../assets/images/fullSupport.svg";

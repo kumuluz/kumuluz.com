@@ -28,7 +28,7 @@ export class CompAboutComponent extends Component {
 
         this.state = {
             activePage: ""
-        }
+        };
     }
 
     componentDidMount() {
@@ -93,8 +93,8 @@ export class CompAboutComponent extends Component {
                     </div>
                     {/************** ABOUT *****************/}
                     <div className="row justify-content-center about"
-                         style={showAbout ? {display: "flex"} : {display: "none"}}
-                         ref={ref => this.pages.about = ref}>
+                        style={showAbout ? {display: "flex"} : {display: "none"}}
+                        ref={ref => this.pages.about = ref}>
                         <div className="col-9 col-xl-6">
 
                             <div className="row">
@@ -116,7 +116,7 @@ export class CompAboutComponent extends Component {
                     </div>
                     {/************ FEATURES ***********/}
                     <div className="row justify-content-center features"
-                         style={showFeatures ? {display: "flex"} : {display: "none"}}>
+                        style={showFeatures ? {display: "flex"} : {display: "none"}}>
                         <div className="col-9 col-xl-6">
                             {features.map((feat, index) => (
                                 <p key={index} className="checkbox orange">{feat}</p>
@@ -125,7 +125,7 @@ export class CompAboutComponent extends Component {
                     </div>
                     {/*************** CUSTOMERS *****************/}
                     <div className="row justify-content-center customers"
-                         style={showCustomers ? {display: "flex"} : {display: "none"}}>
+                        style={showCustomers ? {display: "flex"} : {display: "none"}}>
                         <div className="col-9 col-xl-6">
                             <h4>{customers.title}</h4>
                             <div dangerouslySetInnerHTML={{__html: customers.content}}/>
@@ -133,7 +133,7 @@ export class CompAboutComponent extends Component {
                     </div>
                     {/*************** DEMO *****************/}
                     <div className="row justify-content-center demo"
-                         style={showDemo ? {display: "flex"} : {display: "none"}}>
+                        style={showDemo ? {display: "flex"} : {display: "none"}}>
                         <div className="col-9 col-xl-6">
                             {demo}
                         </div>

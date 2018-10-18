@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import Link, {push} from "gatsby-link";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
@@ -13,6 +14,11 @@ import {determineScreenWidth, MOBILE_MENU_VISIBLE_BELOW} from "../../../layouts/
 
 @translate("shared")
 export class NavbarComponent extends Component {
+
+    static propTypes = {
+        t: PropType.func,
+        i18n: PropType.object
+    };
 
     constructor(props) {
         super(props);
@@ -70,7 +76,7 @@ export class NavbarComponent extends Component {
 
         if(item.external) {
             return (
-                <a href={item.url} target="_blank">{item.title}</a>
+                <a href={item.url} target="_blank" rel="noreferrer noopener">{item.title}</a>
             );
         } else {
             return (

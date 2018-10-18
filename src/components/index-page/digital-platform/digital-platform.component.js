@@ -3,7 +3,7 @@ import PropType from "prop-types";
 import {translate} from "react-i18next";
 import Link, {push} from "gatsby-link";
 
-import "./digital-platform.component.scss"
+import "./digital-platform.component.scss";
 import {digitalPlatformProducts} from "../../../content/index-page/digital-platform";
 
 @translate("index")
@@ -20,7 +20,7 @@ export class DigitalPlatformComponent extends Component {
         super(props);
         this.state = {
             lang: props.i18n.language
-        }
+        };
     }
 
     componentWillReceiveProps(nextProps) {
@@ -35,16 +35,16 @@ export class DigitalPlatformComponent extends Component {
 
         if (item.external) {
             return (
-                <a href={item.url} target="_blank">
+                <a href={item.url} target="_blank" rel="noreferrer noopener">
                     {item.title}
                 </a>
-            )
+            );
         } else {
             return (
                 <Link to={item.url}>
                     {item.title}
                 </Link>
-            )
+            );
         }
     }
 

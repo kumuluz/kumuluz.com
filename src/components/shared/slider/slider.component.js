@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
 import anime from "animejs";
-import {Row, Col} from 'reactstrap';
+import {Row, Col} from "reactstrap";
 
 import "./slider.component.scss";
 import {determineScreenWidth, MOBILE_MEDIA} from "../../../layouts/common";
@@ -9,7 +9,7 @@ import {determineScreenWidth, MOBILE_MEDIA} from "../../../layouts/common";
 export class SliderComponent extends Component {
 
     static propTypes = {
-      benefits: PropType.array
+        benefits: PropType.array
     };
 
     constructor(props) {
@@ -37,11 +37,11 @@ export class SliderComponent extends Component {
         if (this.animating) return;
         this.animating = true;
         const moveLeftAnimation = anime({
-            targets: '.benefits',
+            targets: ".benefits",
             translateX: `-=${shiftFor}`,
             duration: 250,
             elasticity: 0,
-            easing: 'easeInQuad'
+            easing: "easeInQuad"
         });
         moveLeftAnimation.finished.then(() => {
             this.setState(state => {
@@ -50,9 +50,9 @@ export class SliderComponent extends Component {
                 let modifiedBenefits = [...benefits.slice(1), ...benefits[0]];
 
                 anime({
-                    targets: '.benefits',
+                    targets: ".benefits",
                     translateX: 0,
-                    easing: 'none',
+                    easing: "none",
                     duration: 0
                 });
 
@@ -70,11 +70,11 @@ export class SliderComponent extends Component {
         if (this.animating) return;
         this.animating = true;
         const moveLeftAnimation = anime({
-            targets: '.benefits',
+            targets: ".benefits",
             translateX: `+=${shiftFor}`,
             duration: 250,
             elasticity: 0,
-            easing: 'easeInQuad'
+            easing: "easeInQuad"
         });
         moveLeftAnimation.finished.then(() => {
             this.setState(state => {
@@ -83,9 +83,9 @@ export class SliderComponent extends Component {
                 let modifiedBenefits = [...benefits[benefits.length - 1], ...benefits.slice(0, benefits.length - 1)];
 
                 anime({
-                    targets: '.benefits',
+                    targets: ".benefits",
                     translateX: 0,
-                    easing: 'none',
+                    easing: "none",
                     duration: 0
                 });
 
@@ -133,7 +133,7 @@ export class SliderComponent extends Component {
                             </button>
                         </div>
                     </Col>
-                    <Col xs="9 my-5" style={{overflow: 'hidden'}} className="scroller-content">
+                    <Col xs="9 my-5" style={{overflow: "hidden"}} className="scroller-content">
                         <div className="benefits" style={this.returnBenefitsStyle()}>
                             {benefits.map((benefit, i) => this.renderBenefit(benefit, i))}
                         </div>

@@ -3,7 +3,6 @@ import PropType from "prop-types";
 import {translate} from "react-i18next";
 
 import "./api-pricing.component.scss";
-import Link from "gatsby-link";
 import { ArrowDividerComponent } from "../../shared/arrow-divider/arrow-divider.component";
 import PaymentComponent from "../payment/payment.component";
 
@@ -14,7 +13,8 @@ export class ApiPricingComponent extends Component {
         t: PropType.func,
         price: PropType.string,
         pricePer: PropType.string,
-        desc: PropType.string
+        desc: PropType.string,
+        itemDesc: PropType.string
     };
 
 
@@ -62,7 +62,7 @@ export class ApiPricingComponent extends Component {
                                         <p>{desc}</p>
                                     </div>
                                     <div>
-                                        <button className="btn btn-primary center-way-button" onClick={e => this.setState({ showModal: true })}>{t("ways.center-way.button-buy")}</button>
+                                        <button className="btn btn-primary center-way-button" onClick={() => this.setState({ showModal: true })}>{t("ways.center-way.button-buy")}</button>
                                     </div>
                                 </div>
                                 <div className="right-way way">
@@ -78,10 +78,10 @@ export class ApiPricingComponent extends Component {
                             </div>
                         </div>
                         {/*<div className="col-9 col-xl-6 text-center mt-5 learn-more-link">*/}
-                            {/*<Link to={"/"}>*/}
-                                {/*{t("ways.learn-more.link")}*/}
-                            {/*</Link>*/}
-                            {/*&#160;{t("ways.learn-more.text")}*/}
+                        {/*<Link to={"/"}>*/}
+                        {/*{t("ways.learn-more.link")}*/}
+                        {/*</Link>*/}
+                        {/*&#160;{t("ways.learn-more.text")}*/}
                         {/*</div>*/}
                         <div className="col-10 p-0 mt-5">
                             <ArrowDividerComponent theme={"white"} corner={3}/>

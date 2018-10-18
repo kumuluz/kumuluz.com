@@ -290,7 +290,7 @@ export class ContactForm extends Component {
                                 invalid={message.touched && message.error}
                             />
                             <FormText className="ml-auto">
-                                {t(`footer.contact.form.messageHelp`)}: {message.maxLength - message.value.length}
+                                {t("footer.contact.form.messageHelp")}: {message.maxLength - message.value.length}
                             </FormText>
                             {message.error && <FormFeedback>{t(`footer.contact.form.errors.${message.error}`)}</FormFeedback>}
                         </FormGroup>

@@ -23,7 +23,7 @@ export class CompHeaderComponent extends Component {
         const {url} = this.props;
         if (url) {
             return (
-                <a href={url} target="_blank" className="set-logo-size">
+                <a href={url} target="_blank" rel="noreferrer noopener" className="set-logo-size">
                     <img src={image}/>
                 </a>
             );

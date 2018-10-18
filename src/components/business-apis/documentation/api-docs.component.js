@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
 
-import "./api-docs.component.scss"
+import "./api-docs.component.scss";
 
 export class ApiDocsComponent extends Component {
 

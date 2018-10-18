@@ -20,16 +20,16 @@ export class CompProductGridComponent extends Component {
     renderLink(item) {
         if (item.external) {
             return (
-                <a href={item.url} target="_blank">
+                <a href={item.url} target="_blank" rel="noreferrer noopener">
                     {item.title}
                 </a>
-            )
+            );
         } else {
             return (
                 <Link to={item.url}>
                     {item.title}
                 </Link>
-            )
+            );
         }
     }
 

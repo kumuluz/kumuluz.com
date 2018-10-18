@@ -36,7 +36,7 @@ export class CompMottoComponent extends Component {
                     {image && (
                         <div className="col-9 col-xl-6 justify-content-center d-flex">
                             {imageUrl ?
-                                <a href={imageUrl} target="_blank">
+                                <a href={imageUrl} target="_blank" rel="noreferrer noopener">
                                     <img src={image}/>
                                 </a>
                                 : <img src={image}/>

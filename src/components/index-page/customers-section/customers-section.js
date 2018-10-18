@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import {translate} from 'react-i18next';
-import {Container, Row, Col} from 'reactstrap';
-import anime from 'animejs';
+import React, {Component} from "react";
+import PropTypes from "prop-types";
+import {translate} from "react-i18next";
+import {Container, Row, Col} from "reactstrap";
+import anime from "animejs";
 
-import './customers-section.scss';
+import "./customers-section.scss";
 
 import {quotes} from "../../../content/index-page/quotes";
 
@@ -19,8 +19,8 @@ export class CustomersSection extends Component {
 
         this.state = {
             quotesPage: 0,
-            width: '0',
-            height: '0'
+            width: "0",
+            height: "0"
         };
 
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
@@ -28,11 +28,11 @@ export class CustomersSection extends Component {
 
     componentDidMount() {
         this.updateWindowDimensions();
-        window.addEventListener('resize', this.updateWindowDimensions);
+        window.addEventListener("resize", this.updateWindowDimensions);
     }
 
     componentWillUnmount() {
-        window.removeEventListener('resize', this.updateWindowDimensions);
+        window.removeEventListener("resize", this.updateWindowDimensions);
     }
 
     updateWindowDimensions() {
@@ -41,10 +41,10 @@ export class CustomersSection extends Component {
 
     toQuotesPage(page) {
         anime({
-            targets: '.customers .customer',
-            rotateY: '360deg',
+            targets: ".customers .customer",
+            rotateY: "360deg",
             duration: 1000,
-            easing: 'easeInQuad'
+            easing: "easeInQuad"
         }).finished.then(() => {
             this.setState(state => {
                 return {
@@ -53,10 +53,10 @@ export class CustomersSection extends Component {
                 };
             });
             anime({
-                targets: '.customers .customer',
-                rotateY: '-360deg',
+                targets: ".customers .customer",
+                rotateY: "-360deg",
                 duration: 1000,
-                easing: 'easeOutQuad'
+                easing: "easeOutQuad"
             });
         });
     }
@@ -64,11 +64,9 @@ export class CustomersSection extends Component {
     render() {
         const {t} = this.props;
 
-        // changed to 1 customer per page, could be cleaned up better
-        const {width} = this.state;
         const quotePagesArray = [];
-        const quotePages = quotes(t).length; //width > 992 ? Math.ceil(quotes.length / 1) : quotes.length;
-        const quotesPerPage = 1; //width > 992 ? 1 : 1;
+        const quotePages = quotes(t).length;
+        const quotesPerPage = 1;
         for (let i = 0; i < quotePages; i++) {
             quotePagesArray.push(i);
         }
@@ -77,8 +75,8 @@ export class CustomersSection extends Component {
             <div className="customers-section">
                 <div className="customers text-center">
                     <Container>
-                        <h2>{t('customers.title')}</h2>
-                        <h2 className="h2-subtitle" dangerouslySetInnerHTML={{__html: t('customers.subtitle')}}/>
+                        <h2>{t("customers.title")}</h2>
+                        <h2 className="h2-subtitle" dangerouslySetInnerHTML={{__html: t("customers.subtitle")}}/>
 
                         <Row className="customers justify-content-center">
                             {quotes(t)
@@ -97,7 +95,7 @@ export class CustomersSection extends Component {
                             <Col md="12" className="mb-5 quotesPagination" xs={10}>
                                 {quotePagesArray.map((p, i) => (
                                     <button key={i} onClick={() => this.toQuotesPage(p)}
-                                            className={p === this.state.quotesPage ? 'active' : ''}/>
+                                        className={p === this.state.quotesPage ? "active" : ""}/>
                                 ))}
                                 <br/>
                                 <br/>

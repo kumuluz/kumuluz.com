@@ -8,7 +8,8 @@ import "./use-cases.component.scss";
 export class ApiUseCasesComponent extends Component {
 
     static propTypes = {
-        useCases: PropType.array
+        useCases: PropType.array,
+        t: PropType.func
     };
 
     constructor(props) {
@@ -30,14 +31,14 @@ export class ApiUseCasesComponent extends Component {
                                         <div className="divider-container" key={index}>
                                             <div className="divider"/>
                                         </div>
-                                    )
+                                    );
                                 } else {
                                     if (typeof useCase === "string") {
                                         return (
                                             <p key={index} className="use-case">
                                                 {useCase}
                                             </p>
-                                        )
+                                        );
                                     } else {
                                         return (
                                             <div key={index} className="use-case">

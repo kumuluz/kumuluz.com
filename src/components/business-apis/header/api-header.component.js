@@ -6,7 +6,6 @@ import "./api-header.component.scss";
 export class ApiHeaderComponent extends Component {
 
     static propTypes = {
-        t: PropType.func,
         title: PropType.string,
         paragraphs: PropType.array,
         paragraphsOrientation: PropType.string
@@ -35,7 +34,7 @@ export class ApiHeaderComponent extends Component {
 
     render() {
 
-        const {t, title, paragraphs, paragraphsOrientation} = this.props;
+        const {title, paragraphs, paragraphsOrientation} = this.props;
         const orientation = paragraphsOrientation !== undefined ? paragraphsOrientation : "row";
 
         const directionClass = orientation === "row" ? "row justify-content-center" : "row align-items-center flex-columns";

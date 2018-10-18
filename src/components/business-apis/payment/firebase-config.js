@@ -1,7 +1,7 @@
-import firebase from 'firebase/app';
-import 'firebase/database';
+import firebase from "firebase/app";
+import "firebase/database";
 
-var config = {
+const config = {
     apiKey: "AIzaSyBvYRkb16g0Zm5IqRy84AU9N0e6GNUiQyE",
     authDomain: "kumuluz-buy.firebaseapp.com",
     databaseURL: "https://kumuluz-buy.firebaseio.com",
@@ -10,5 +10,5 @@ var config = {
     messagingSenderId: "150544649135"
 };
 
-var fire = firebase.initializeApp(config);
+const fire = firebase.initializeApp(config);
 export default fire;
