@@ -8,7 +8,9 @@ export class CompMottoComponent extends Component {
 
     static propTypes = {
         title: PropType.string,
-        subtitle: PropType.string
+        subtitle: PropType.string,
+        image: PropType.string,
+        imageUrl: PropType.string
     };
 
     constructor(props) {
@@ -16,7 +18,7 @@ export class CompMottoComponent extends Component {
     }
 
     render() {
-        const {title, subtitle, image} = this.props;
+        const {title, subtitle, image, imageUrl} = this.props;
 
         return (
             <div className="container-fluid km-comp-motto-component">
@@ -33,7 +35,12 @@ export class CompMottoComponent extends Component {
                     </div>
                     {image && (
                         <div className="col-9 col-xl-6 justify-content-center d-flex">
-                            <img src={image}/>
+                            {imageUrl ?
+                                <a href={imageUrl} target="_blank">
+                                    <img src={image}/>
+                                </a>
+                                : <img src={image}/>
+                            }
                         </div>
                     )}
                 </div>

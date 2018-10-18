@@ -330,7 +330,7 @@ export default class KumuluzEEPage extends Component {
 
                 <CompMottoComponent title={t("components.ee.motto.title")}
                                     subtitle={t("components.ee.motto.subtitle")}
-                                    image={mpLogo}
+                                    image={mpLogo} imageUrl={"https://microprofile.io/"}
                 />
 
                 <CompBenefitsComponent benefits={benefits(t)} title={t("components.ee.benefits.title")}
