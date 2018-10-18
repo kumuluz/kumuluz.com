@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
 
 import "./kumuluz-crowdsensing-page.scss";
@@ -13,6 +14,10 @@ import {Helmet} from "react-helmet";
 @translate("digital-platform")
 export default class KumuluzCrowdsensingPage extends Component {
 
+    static propTypes = {
+        t: PropType.func
+    };
+
     constructor(props) {
         super(props);
     }
@@ -25,8 +30,8 @@ export default class KumuluzCrowdsensingPage extends Component {
                 <CompNavigationComponent activeTab={"color-crowdsensing"} products={digitalPlatformProducts(t)}/>
 
                 <CompHeaderComponent image={crowdLogo} title={"Kumuluz<strong>Crowdsensing</strong>"}
-                                     items={[]}
-                                     subtitle={t("components.crowdsensing.header.subtitle")} />
+                    items={[]}
+                    subtitle={t("components.crowdsensing.header.subtitle")}/>
 
                 <div className="container-fluid">
                     <div className="row justify-content-center">

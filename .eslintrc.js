@@ -4,8 +4,14 @@ module.exports = {
     rules: {
         indent: ["error", 4, {SwitchCase: 1}],
         quotes: ["error", "double"],
-        noConsole: "error",
-        semi: ["error", "always"]
+        "no-console": "error",
+        semi: ["error", "always"],
+        "react/no-deprecated": "off"
+    },
+    parserOptions: {
+        ecmaFeatures: {
+            legacyDecorators: true
+        }
     },
     env: {
         browser: true,

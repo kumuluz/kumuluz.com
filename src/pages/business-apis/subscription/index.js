@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
 import "./subscription-api.page.scss";
 import {Helmet} from "react-helmet";
@@ -68,6 +69,10 @@ const endpoints = t => [
 @translate("business-apis")
 export default class SubscriptionApiPage extends Component {
 
+    static propTypes = {
+        t: PropType.func
+    };
+
     constructor(props) {
         super(props);
     }
@@ -79,8 +84,8 @@ export default class SubscriptionApiPage extends Component {
             <div className="km-subscription-api-page">
                 <Helmet title={t("apis.subscription.page.title") + " - Kumuluz"}/>
                 <ApiHeaderComponent title={t("apis.subscription.page.title")}
-                                    paragraphs={[t("apis.subscription.page.para")]}
-                                    paragraphsOrientation={"row"}
+                    paragraphs={[t("apis.subscription.page.para")]}
+                    paragraphsOrientation={"row"}
                 />
                 <ApiHowItWorksComponent title={t("apis.subscription.page.how-it-works.title")}>
                     <p>{t("apis.subscription.page.how-it-works.para-1")}</p>
@@ -116,7 +121,7 @@ export default class SubscriptionApiPage extends Component {
                                 </div>
                             </div>
                             {/*<div className="col btn-area">*/}
-                                {/*<button className="btn btn-primary">{t("apis.subscription.page.docs.view")}</button>*/}
+                            {/*<button className="btn btn-primary">{t("apis.subscription.page.docs.view")}</button>*/}
                             {/*</div>*/}
                         </div>}
                 />
@@ -135,7 +140,7 @@ export default class SubscriptionApiPage extends Component {
                 <ApiUseCasesComponent useCases={[
                     t("apis.subscription.page.usecases.item-1"),
                     "#",
-                    <div>
+                    <div key="usecase-2">
                         <p>{t("apis.subscription.page.usecases.item-2.para-1")}</p>
                         <p>{t("apis.subscription.page.usecases.item-2.para-2")}</p>
                     </div>

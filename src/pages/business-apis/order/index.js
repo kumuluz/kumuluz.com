@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
 import "./order-api.page.scss";
 import {Helmet} from "react-helmet";
@@ -39,6 +40,10 @@ const endpoints = t => [
 @translate("business-apis")
 export default class OrderApiPage extends Component {
 
+    static propTypes = {
+        t: PropType.func
+    };
+
     constructor(props) {
         super(props);
     }
@@ -50,8 +55,8 @@ export default class OrderApiPage extends Component {
             <div className="km-order-api-page">
                 <Helmet title={t("apis.order.page.title") + " - Kumuluz"}/>
                 <ApiHeaderComponent title={t("apis.order.page.title")}
-                                    paragraphs={[t("apis.order.page.para")]}
-                                    paragraphsOrientation={"row"}
+                    paragraphs={[t("apis.order.page.para")]}
+                    paragraphsOrientation={"row"}
                 />
                 <ApiHowItWorksComponent title={t("apis.order.page.how-it-works.title")}>
                     <p>{t("apis.order.page.how-it-works.para")}</p>
@@ -84,7 +89,7 @@ export default class OrderApiPage extends Component {
                                 </div>
                             </div>
                             {/*<div className="col btn-area">*/}
-                                {/*<button className="btn btn-primary">{t("apis.order.page.docs.view")}</button>*/}
+                            {/*<button className="btn btn-primary">{t("apis.order.page.docs.view")}</button>*/}
                             {/*</div>*/}
                         </div>}
                 />

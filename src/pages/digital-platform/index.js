@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {Helmet} from 'react-helmet';
+import {Helmet} from "react-helmet";
 import {translate} from "react-i18next";
 
 import "./digital-platform-page.scss";
@@ -65,7 +65,8 @@ export default class DigitalPlatformPage extends Component {
                                     <h2 className="text-center">{t("digit-platform.title")}</h2>
                                 </div>
                                 <div className="col-10 button-area">
-                                    <a href={"https://blog.kumuluz.com"} target="_blank" className="btn btn-primary">{t("digit-platform.learn-more")}</a>
+                                    <a href={"https://blog.kumuluz.com"} target="_blank" rel="noreferrer noopener"
+                                        className="btn btn-primary">{t("digit-platform.learn-more")}</a>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +89,9 @@ export default class DigitalPlatformPage extends Component {
                                 </div>
                                 <div className="col-10 col-md-5">
                                     <p>{t("what-can.right.para-1")}</p>
-                                    <p><strong>{t("what-can.right.para-2.strong")}:</strong>&#160;{t("what-can.right.para-2.text")}</p>
+                                    <p>
+                                        <strong>{t("what-can.right.para-2.strong")}:</strong>&#160;{t("what-can.right.para-2.text")}
+                                    </p>
                                 </div>
                             </div>
                         </div>

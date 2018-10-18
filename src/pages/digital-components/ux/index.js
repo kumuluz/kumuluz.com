@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
 
 import "./kumuluz-ux-page.scss";
@@ -61,21 +62,25 @@ const benefits = t => [
 ];
 
 const components = t => [
-  t("components.ux.use-cases.components.item-1"),
-  t("components.ux.use-cases.components.item-2"),
-  t("components.ux.use-cases.components.item-3"),
-  t("components.ux.use-cases.components.item-4")
+    t("components.ux.use-cases.components.item-1"),
+    t("components.ux.use-cases.components.item-2"),
+    t("components.ux.use-cases.components.item-3"),
+    t("components.ux.use-cases.components.item-4")
 ];
 
 const integrations = t => [
-  t("components.ux.use-cases.integration.item-1"),
-  t("components.ux.use-cases.integration.item-2"),
-  t("components.ux.use-cases.integration.item-3"),
-  t("components.ux.use-cases.integration.item-4")
+    t("components.ux.use-cases.integration.item-1"),
+    t("components.ux.use-cases.integration.item-2"),
+    t("components.ux.use-cases.integration.item-3"),
+    t("components.ux.use-cases.integration.item-4")
 ];
 
 @translate("digital-platform")
 export default class KumuluzUxPage extends Component {
+
+    static propTypes = {
+        t: PropType.func
+    };
 
     constructor(props) {
         super(props);
@@ -90,106 +95,106 @@ export default class KumuluzUxPage extends Component {
                 <CompNavigationComponent activeTab={"color-ux"} products={digitalPlatformProducts(t)}/>
 
                 <CompHeaderComponent image={uxLogo} title={"Kumuluz<strong>Ux</strong>"}
-                                     items={[
-                                         t("components.ux.header.items.item-1"),
-                                         t("components.ux.header.items.item-2"),
-                                         t("components.ux.header.items.item-3")
-                                     ]}
-                                     subtitle={t("components.ux.header.subtitle")} />
+                    items={[
+                        t("components.ux.header.items.item-1"),
+                        t("components.ux.header.items.item-2"),
+                        t("components.ux.header.items.item-3")
+                    ]}
+                    subtitle={t("components.ux.header.subtitle")}/>
 
                 <CompUseCasesComponent navbar={{
                     section1: t("components.ux.about.about.title"),
                     section2: t("components.ux.about.features.title"),
                     section3: t("components.ux.about.info.title")
                 }}
-                                       section1={
-                                           <div className="container-fluid">
-                                               <div className="row justify-content-center">
-                                                   <div className="col-10 col-lg-5">
-                                                       <h3>{t("components.ux.about.about.left.title")}</h3>
-                                                       <p>{t("components.ux.about.about.left.para")}</p>
-                                                   </div>
-                                                   <div className="col-10 col-lg-5">
-                                                       <div className="grey-box">
-                                                           <h4>{t("components.ux.about.about.right.title")}</h4>
-                                                           <CollapsableListComponent colorClazz={"color-ux"} chevron={chevron}
-                                                                                     chevronDown={chevronDown} items={[
-                                                               {
-                                                                   title: t("components.ux.about.about.right.item-1.title"),
-                                                                   desc: t("components.ux.about.about.right.item-1.desc")
-                                                               },
-                                                               {
-                                                                   title: t("components.ux.about.about.right.item-2.title"),
-                                                                   desc: t("components.ux.about.about.right.item-2.desc")
-                                                               },
-                                                               {
-                                                                   title: t("components.ux.about.about.right.item-3.title"),
-                                                                   desc: t("components.ux.about.about.right.item-3.desc")
-                                                               }
-                                                           ]}/>
-                                                       </div>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       }
-                                       section2={
-                                           <div className="container-fluid">
-                                               <div className="row justify-content-center">
-                                                   <div className="col-10 features">
-                                                       {features(t).map((feat, index) => (
-                                                           <p key={index} className="checkbox orange">{feat}</p>
-                                                       ))}
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       }
-                                       section3={
-                                           <div className="container-fluid">
-                                               <div className="row justify-content-center">
-                                                   <div className="col-10">
-                                                       <div className="grey-box contact-info">
-                                                           <ContactForm light={false}/>
-                                                       </div>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       }/>
+                section1={
+                    <div className="container-fluid">
+                        <div className="row justify-content-center">
+                            <div className="col-10 col-lg-5">
+                                <h3>{t("components.ux.about.about.left.title")}</h3>
+                                <p>{t("components.ux.about.about.left.para")}</p>
+                            </div>
+                            <div className="col-10 col-lg-5">
+                                <div className="grey-box">
+                                    <h4>{t("components.ux.about.about.right.title")}</h4>
+                                    <CollapsableListComponent colorClazz={"color-ux"} chevron={chevron}
+                                        chevronDown={chevronDown} items={[
+                                            {
+                                                title: t("components.ux.about.about.right.item-1.title"),
+                                                desc: t("components.ux.about.about.right.item-1.desc")
+                                            },
+                                            {
+                                                title: t("components.ux.about.about.right.item-2.title"),
+                                                desc: t("components.ux.about.about.right.item-2.desc")
+                                            },
+                                            {
+                                                title: t("components.ux.about.about.right.item-3.title"),
+                                                desc: t("components.ux.about.about.right.item-3.desc")
+                                            }
+                                        ]}/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                section2={
+                    <div className="container-fluid">
+                        <div className="row justify-content-center">
+                            <div className="col-10 features">
+                                {features(t).map((feat, index) => (
+                                    <p key={index} className="checkbox orange">{feat}</p>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                }
+                section3={
+                    <div className="container-fluid">
+                        <div className="row justify-content-center">
+                            <div className="col-10">
+                                <div className="grey-box contact-info">
+                                    <ContactForm light={false}/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }/>
 
                 <CompMottoComponent title={t("components.ux.motto.title")}
-                                    subtitle={t("components.ux.motto.subtitle")}/>
+                    subtitle={t("components.ux.motto.subtitle")}/>
 
                 <CompBenefitsComponent benefits={benefits(t)} title={t("components.ux.benefits.title")}
-                                       subtitle={t("components.ux.benefits.subtitle")}
-                                       afterText={`<strong class="color-ux">${t("components.ux.benefits.after-text.colored")}</strong> ${t("components.ux.benefits.after-text.text")}`}/>
+                    subtitle={t("components.ux.benefits.subtitle")}
+                    afterText={`<strong class="color-ux">${t("components.ux.benefits.after-text.colored")}</strong> ${t("components.ux.benefits.after-text.text")}`}/>
 
                 <CompUseCasesComponent navbar={{
                     section1: t("components.ux.use-cases.components.title"),
                     section2: t("components.ux.use-cases.integration.title")
                 }}
-                                       section1={
-                                           <div className="container-fluid">
-                                               <div className="row justify-content-center">
-                                                   <div className="col-10 integrations">
-                                                       <h3>{t("components.ux.use-cases.components.subtitle")}</h3>
-                                                       {components(t).map((feat, index) => (
-                                                           <p key={index} className="checkbox orange">{feat}</p>
-                                                       ))}
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       }
-                                       section2={
-                                           <div className="container-fluid">
-                                               <div className="row justify-content-center">
-                                                   <div className="col-10 integrations">
-                                                       <h3>{t("components.integration.use-cases.migration.subtitle")}</h3>
-                                                       {integrations(t).map((feat, index) => (
-                                                           <p key={index} className="checkbox orange">{feat}</p>
-                                                       ))}
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       }/>
+                section1={
+                    <div className="container-fluid">
+                        <div className="row justify-content-center">
+                            <div className="col-10 integrations">
+                                <h3>{t("components.ux.use-cases.components.subtitle")}</h3>
+                                {components(t).map((feat, index) => (
+                                    <p key={index} className="checkbox orange">{feat}</p>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                }
+                section2={
+                    <div className="container-fluid">
+                        <div className="row justify-content-center">
+                            <div className="col-10 integrations">
+                                <h3>{t("components.integration.use-cases.migration.subtitle")}</h3>
+                                {integrations(t).map((feat, index) => (
+                                    <p key={index} className="checkbox orange">{feat}</p>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                }/>
 
                 <div className="divider-container">
                     <div className="divider"/>

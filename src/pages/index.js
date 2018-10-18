@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Helmet} from 'react-helmet';
+import {Helmet} from "react-helmet";
 import {translate} from "react-i18next";
 import PropType from "prop-types";
 import Link, {push} from "gatsby-link";
@@ -43,12 +43,12 @@ export default class IndexPage extends Component {
         super(props);
         this.state = {
             lang: props.i18n.language
-        }
+        };
     }
 
 
     componentWillReceiveProps(newProps) {
-        this.setState({ ...this.state, lang: newProps.i18n.language });
+        this.setState({...this.state, lang: newProps.i18n.language});
     }
 
     render() {
@@ -59,7 +59,7 @@ export default class IndexPage extends Component {
                 <Helmet title={t("meta.title")}/>
                 <div className="eu-sklad">
                     <Link to="/e-poslovanje">
-                        <img src={euSkladRegionalniRazvoj} />
+                        <img src={euSkladRegionalniRazvoj}/>
                     </Link>
                 </div>
 
@@ -67,7 +67,7 @@ export default class IndexPage extends Component {
                     <div className="row align-items-center flex-column header">
                         <div className="col-10 col-xl-4">
                             <h1 className="text-center"
-                                dangerouslySetInnerHTML={{__html: t("header.main-title")}} />
+                                dangerouslySetInnerHTML={{__html: t("header.main-title")}}/>
                         </div>
                         <div className="col-10 col-xl-4">
                             <h2 className="text-center">
@@ -95,7 +95,8 @@ export default class IndexPage extends Component {
                                                 {t("header.tiles.left-tile.subtitle")}
                                             </div>
                                             <div className="block-item-buttons">
-                                                <button className="btn btn-primary mr-4" onClick={() => this.digitalVideo.showVideoModal()}>
+                                                <button className="btn btn-primary mr-4"
+                                                    onClick={() => this.digitalVideo.showVideoModal()}>
                                                     {t("header.tiles.buttons.play-video")}
                                                     <FontAwesomeIcon icon={faCaretRight}/>
                                                 </button>
@@ -124,15 +125,17 @@ export default class IndexPage extends Component {
                                                 {t("header.tiles.right-tile.subtitle")}
                                             </div>
                                             <div className="block-item-buttons">
-                                                <button className="btn btn-primary mr-4" onClick={() => this.bapisVideo.showVideoModal()}>
+                                                <button className="btn btn-primary mr-4"
+                                                    onClick={() => this.bapisVideo.showVideoModal()}>
                                                     {t("header.tiles.buttons.play-video")}
                                                     <FontAwesomeIcon icon={faCaretRight}/>
                                                 </button>
                                                 {this.state.lang === "en" ?
-                                                <span onClick={() => push("/digital-platform")} style={ this.state.lang !== "en" ? {display: "none"} : {}}>
-                                                    {t("header.tiles.buttons.learn-more")}
-                                                    <img src={arrow}/>
-                                                </span> : null }
+                                                    <span onClick={() => push("/digital-platform")}
+                                                        style={this.state.lang !== "en" ? {display: "none"} : {}}>
+                                                        {t("header.tiles.buttons.learn-more")}
+                                                        <img src={arrow}/>
+                                                    </span> : null}
                                             </div>
                                         </div>
                                     </div>
@@ -151,7 +154,7 @@ export default class IndexPage extends Component {
                         <div className="col-10 col-xl-3">
                             <p className="text-center">
                                 {t("content.text")}&#160;
-                                <a href={BLOG_URL} target="_blank">
+                                <a href={BLOG_URL} target="_blank" rel="noreferrer noopener">
                                     {t("content.blog-link")}...
                                 </a>
                             </p>
@@ -253,9 +256,9 @@ export default class IndexPage extends Component {
                                     {t("awards.title")}:
                                 </div>
                                 <div className="col-10 col-md-5 awards-images">
-                                    <img src={dukeAward} />
-                                    <img src={startupSlovenia} />
-                                    <img src={euroCloud} />
+                                    <img src={dukeAward}/>
+                                    <img src={startupSlovenia}/>
+                                    <img src={euroCloud}/>
                                 </div>
                             </div>
                         </div>
@@ -281,7 +284,7 @@ export default class IndexPage extends Component {
                                         <h4>{t("other-products.tiles.first-tile.title")}</h4>
                                         <p>{t("other-products.tiles.first-tile.para")}</p>
                                         <div>
-                                            <a href={"https://www.sunesis.si/services"} target="_blank">
+                                            <a href={"https://www.sunesis.si/services"} target="_blank" rel="noreferrer noopener">
                                                 {t("other-products.tiles.learn-more")}
                                                 <img src={arrowRed}/>
                                             </a>
@@ -297,7 +300,7 @@ export default class IndexPage extends Component {
                                         <h4>{t("other-products.tiles.second-tile.title")}</h4>
                                         <p>{t("other-products.tiles.second-tile.para")}</p>
                                         <div>
-                                            <a href={"https://ee.kumuluz.com"} target="_blank">
+                                            <a href={"https://ee.kumuluz.com"} target="_blank" rel="noreferrer noopener">
                                                 {t("other-products.tiles.learn-more")}
                                                 <img src={arrowRed}/>
                                             </a>
@@ -313,7 +316,7 @@ export default class IndexPage extends Component {
                                         <h4>{t("other-products.tiles.third-tile.title")}</h4>
                                         <p>{t("other-products.tiles.third-tile.para")}</p>
                                         <div>
-                                            <a href={"https://www.kumuluz.io"} target="_blank">
+                                            <a href={"https://www.kumuluz.io"} target="_blank" rel="noreferrer noopener">
                                                 {t("other-products.tiles.learn-more")}
                                                 <img src={arrowRed}/>
                                             </a>
@@ -349,8 +352,8 @@ export default class IndexPage extends Component {
                 <Footer contact/>
 
                 <VideoPlayerComponent ref={ref => this.bapisVideo = ref}
-                      title={t("header.tiles.right-tile.above-title")}
-                      videoUrl={"https://player.vimeo.com/video/295128872"}/>
+                    title={t("header.tiles.right-tile.above-title")}
+                    videoUrl={"https://player.vimeo.com/video/295128872"}/>
                 <VideoPlayerComponent ref={ref => this.digitalVideo = ref}
                     title={t("header.tiles.left-tile.above-title")}
                     videoUrl={"https://player.vimeo.com/video/295517084"}/>

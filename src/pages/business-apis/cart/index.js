@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
 import "./cart-api.page.scss";
 import {Helmet} from "react-helmet";
@@ -61,6 +62,10 @@ const endpoints = t => [
 @translate("business-apis")
 export default class CartApiPage extends Component {
 
+    static propTypes = {
+        t: PropType.func
+    };
+
     constructor(props) {
         super(props);
     }
@@ -72,8 +77,8 @@ export default class CartApiPage extends Component {
             <div className="km-cart-api-page">
                 <Helmet title={t("apis.cart.page.title") + " - Kumuluz"}/>
                 <ApiHeaderComponent title={t("apis.cart.page.title")}
-                                    paragraphs={[t("apis.cart.page.para")]}
-                                    paragraphsOrientation={"row"}
+                    paragraphs={[t("apis.cart.page.para")]}
+                    paragraphsOrientation={"row"}
                 />
                 <ApiHowItWorksComponent title={t("apis.cart.page.how-it-works.title")}>
                     <p>{t("apis.cart.page.how-it-works.para-1")}</p>
@@ -112,7 +117,7 @@ export default class CartApiPage extends Component {
                                 </div>
                             </div>
                             {/*<div className="col btn-area">*/}
-                                {/*<button className="btn btn-primary">{t("apis.cart.page.docs.view")}</button>*/}
+                            {/*<button className="btn btn-primary">{t("apis.cart.page.docs.view")}</button>*/}
                             {/*</div>*/}
                         </div>}
                 />
@@ -133,7 +138,7 @@ export default class CartApiPage extends Component {
                     "#",
                     t("apis.cart.page.usecases.item-2"),
                     "#",
-                    <div>
+                    <div key="usecase-3">
                         <p>{t("apis.cart.page.usecases.item-3.para-1")}</p>
                         <p>{t("apis.cart.page.usecases.item-3.para-2")}</p>
                     </div>

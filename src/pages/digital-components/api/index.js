@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
 
 import "./kumuluz-api-page.scss";
@@ -12,7 +13,7 @@ import apiLogo from "../../../assets/images/digital-platform/api.svg";
 import apiDemo from "../../../assets/images/digital-platform/api-demo.jpg";
 import apiConfig from "../../../assets/images/digital-platform/api-config.jpg";
 import apiPublishing from "../../../assets/images/digital-platform/api-publishing.jpg";
-import apiDocs from "../../../assets/images/digital-platform/api-docs.jpg"
+import apiDocs from "../../../assets/images/digital-platform/api-docs.jpg";
 import chevron from "../../../assets/images/digital-platform/chevrons/chevron-api.svg";
 import chevronDown from "../../../assets/images/digital-platform/chevrons/chevron-api-down.svg";
 
@@ -50,6 +51,10 @@ const items = t => [
 @translate("digital-platform")
 export default class KumuluzApiPage extends Component {
 
+    static propTypes = {
+        t: PropType.func
+    };
+
     constructor(props) {
         super(props);
     }
@@ -67,7 +72,7 @@ export default class KumuluzApiPage extends Component {
                         t("components.api.header.items.item-2"),
                         t("components.api.header.items.item-3")
                     ]}
-                    subtitle={t("components.api.header.subtitle")} />
+                    subtitle={t("components.api.header.subtitle")}/>
                 <CompAboutComponent
                     about={{
                         title: t("components.api.about.navbar.about.strong"),
@@ -123,8 +128,9 @@ export default class KumuluzApiPage extends Component {
                         <div className="api-demo">
                             <img src={apiDemo}/>
                             <div className="button">
-                                <a href="https://api.kumuluz.com" target="_blank">
-                                    <span className="btn btn-primary">{t("components.api.about.navbar.demo.tryout")}</span>
+                                <a href="https://api.kumuluz.com" rel="noreferrer noopener" target="_blank">
+                                    <span
+                                        className="btn btn-primary">{t("components.api.about.navbar.demo.tryout")}</span>
                                 </a>
                             </div>
                         </div>
@@ -143,99 +149,102 @@ export default class KumuluzApiPage extends Component {
                     section3: t("components.api.use-cases.items.publishing.title"),
                     section4: t("components.api.use-cases.items.security.title"),
                 }}
-                   section1={<div className="row justify-content-center">
-                       <div className="col-10 col-lg-5">
-                           <div className="section-content">
-                               <CollapsableListComponent colorClazz="color-api" chevron={chevron} chevronDown={chevronDown} items={[
-                                   {
-                                       title: t("components.api.use-cases.items.config.item-1.bold"),
-                                       desc: t("components.api.use-cases.items.config.item-1.text")
-                                   },
-                                   {
-                                       title: t("components.api.use-cases.items.config.item-2.bold"),
-                                       desc: t("components.api.use-cases.items.config.item-2.text")
-                                   },
-                                   {
-                                       title: t("components.api.use-cases.items.config.item-3.bold"),
-                                       desc: t("components.api.use-cases.items.config.item-3.text")
-                                   },
-                                   {
-                                       title: t("components.api.use-cases.items.config.item-4.bold"),
-                                       desc: t("components.api.use-cases.items.config.item-4.text")
-                                   }
-                               ]}/>
-                           </div>
-                       </div>
-                       <div className="col-10 col-lg-5">
-                            <div className="section-image">
-                                <img src={apiConfig}/>
+                section1={<div className="row justify-content-center">
+                    <div className="col-10 col-lg-5">
+                        <div className="section-content">
+                            <CollapsableListComponent colorClazz="color-api" chevron={chevron}
+                                chevronDown={chevronDown} items={[
+                                    {
+                                        title: t("components.api.use-cases.items.config.item-1.bold"),
+                                        desc: t("components.api.use-cases.items.config.item-1.text")
+                                    },
+                                    {
+                                        title: t("components.api.use-cases.items.config.item-2.bold"),
+                                        desc: t("components.api.use-cases.items.config.item-2.text")
+                                    },
+                                    {
+                                        title: t("components.api.use-cases.items.config.item-3.bold"),
+                                        desc: t("components.api.use-cases.items.config.item-3.text")
+                                    },
+                                    {
+                                        title: t("components.api.use-cases.items.config.item-4.bold"),
+                                        desc: t("components.api.use-cases.items.config.item-4.text")
+                                    }
+                                ]}/>
+                        </div>
+                    </div>
+                    <div className="col-10 col-lg-5">
+                        <div className="section-image">
+                            <img src={apiConfig}/>
+                        </div>
+                    </div>
+                </div>}
+                section2={
+                    <div className="row justify-content-center">
+                        <div className="col-10 col-lg-5">
+                            <div className="section-content">
+                                <p>
+                                    {t("components.api.use-cases.items.docs.para")}
+                                </p>
+                                <CollapsableListComponent colorClazz="color-api" chevron={chevron}
+                                    chevronDown={chevronDown} items={[
+                                        {
+                                            title: t("components.api.use-cases.items.docs.item-1.bold"),
+                                            desc: t("components.api.use-cases.items.docs.item-1.text")
+                                        },
+                                        {
+                                            title: t("components.api.use-cases.items.docs.item-2.bold"),
+                                            desc: t("components.api.use-cases.items.docs.item-2.text")
+                                        },
+                                        {
+                                            title: t("components.api.use-cases.items.docs.item-3.bold"),
+                                            desc: t("components.api.use-cases.items.docs.item-3.text")
+                                        }
+                                    ]}/>
                             </div>
-                       </div>
-                   </div>}
-                   section2={
-                       <div className="row justify-content-center">
-                           <div className="col-10 col-lg-5">
-                               <div className="section-content">
-                                   <p>
-                                       {t("components.api.use-cases.items.docs.para")}
-                                   </p>
-                                   <CollapsableListComponent colorClazz="color-api" chevron={chevron} chevronDown={chevronDown} items={[
-                                       {
-                                           title: t("components.api.use-cases.items.docs.item-1.bold"),
-                                           desc: t("components.api.use-cases.items.docs.item-1.text")
-                                       },
-                                       {
-                                           title: t("components.api.use-cases.items.docs.item-2.bold"),
-                                           desc: t("components.api.use-cases.items.docs.item-2.text")
-                                       },
-                                       {
-                                           title: t("components.api.use-cases.items.docs.item-3.bold"),
-                                           desc: t("components.api.use-cases.items.docs.item-3.text")
-                                       }
-                                   ]}/>
-                               </div>
-                           </div>
-                           <div className="col-10 col-lg-5">
-                               <div className="section-image">
-                                   <img src={apiDocs}/>
-                               </div>
-                           </div>
-                       </div>
-                   }
-                   section3={
-                       <div className="row justify-content-center">
-                           <div className="col-10 col-lg-5">
-                               <div className="section-content">
-                                   <p>
-                                       {t("components.api.use-cases.items.publishing.para")}
-                                   </p>
-                                   <CollapsableListComponent colorClazz="color-api" chevron={chevron} chevronDown={chevronDown} items={[
-                                       {
-                                           title: t("components.api.use-cases.items.publishing.item-1.bold"),
-                                           desc: t("components.api.use-cases.items.publishing.item-1.text")
-                                       },
-                                       {
-                                           title: t("components.api.use-cases.items.publishing.item-2.bold"),
-                                           desc: t("components.api.use-cases.items.publishing.item-2.text")
-                                       },
-                                       {
-                                           title: t("components.api.use-cases.items.publishing.item-3.bold"),
-                                           desc: t("components.api.use-cases.items.publishing.item-3.text")
-                                       }
-                                   ]}/>
-                               </div>
-                           </div>
-                           <div className="col-10 col-lg-5">
-                               <div className="section-image">
-                                   <img src={apiPublishing}/>
-                               </div>
-                           </div>
-                       </div>
-                   }
-                   section4={<div className="row justify-content-center">
-                       <div className="col-10"
-                            dangerouslySetInnerHTML={{__html: t("components.api.use-cases.items.security.content")}}/>
-                   </div>}
+                        </div>
+                        <div className="col-10 col-lg-5">
+                            <div className="section-image">
+                                <img src={apiDocs}/>
+                            </div>
+                        </div>
+                    </div>
+                }
+                section3={
+                    <div className="row justify-content-center">
+                        <div className="col-10 col-lg-5">
+                            <div className="section-content">
+                                <p>
+                                    {t("components.api.use-cases.items.publishing.para")}
+                                </p>
+                                <CollapsableListComponent colorClazz="color-api" chevron={chevron}
+                                    chevronDown={chevronDown} items={[
+                                        {
+                                            title: t("components.api.use-cases.items.publishing.item-1.bold"),
+                                            desc: t("components.api.use-cases.items.publishing.item-1.text")
+                                        },
+                                        {
+                                            title: t("components.api.use-cases.items.publishing.item-2.bold"),
+                                            desc: t("components.api.use-cases.items.publishing.item-2.text")
+                                        },
+                                        {
+                                            title: t("components.api.use-cases.items.publishing.item-3.bold"),
+                                            desc: t("components.api.use-cases.items.publishing.item-3.text")
+                                        }
+                                    ]}/>
+                            </div>
+                        </div>
+                        <div className="col-10 col-lg-5">
+                            <div className="section-image">
+                                <img src={apiPublishing}/>
+                            </div>
+                        </div>
+                    </div>
+                }
+                section4={<div className="row justify-content-center">
+                    <div className="col-10"
+                        dangerouslySetInnerHTML={{__html: t("components.api.use-cases.items.security.content")}}/>
+                </div>}
                 />
 
                 <div className="divider-container">

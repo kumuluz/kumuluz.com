@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {Helmet} from 'react-helmet';
+import {Helmet} from "react-helmet";
 import {translate} from "react-i18next";
 
 import "./payment-api-page.scss";
@@ -54,16 +54,16 @@ export default class PaymentApiPage extends Component {
             <div className="km-payment-api-page">
                 <Helmet title={t("apis.payment-api.page.title") + " - Kumuluz"}/>
                 <ApiHeaderComponent title={t("apis.payment-api.page.title")}
-                                    paragraphs={
-                                        [
-                                            t("apis.payment-api.page.subtitle-1"),
-                                            t("apis.payment-api.page.subtitle-2")
-                                        ]
-                                    }
-                                    paragraphsOrientation={"row"}
+                    paragraphs={
+                        [
+                            t("apis.payment-api.page.subtitle-1"),
+                            t("apis.payment-api.page.subtitle-2")
+                        ]
+                    }
+                    paragraphsOrientation={"row"}
                 />
                 <ApiHowItWorksComponent title={t("apis.payment-api.page.how-it-works.title")}
-                subtitle={t("apis.payment-api.page.how-it-works.subtitle")}
+                    subtitle={t("apis.payment-api.page.how-it-works.subtitle")}
                 >
                     <div>
                         <UnorderedListComponent fontColor={"white"} rows={2} items={[
@@ -106,7 +106,7 @@ export default class PaymentApiPage extends Component {
                                 ))}
                             </div>
                             {/*<div className="col btn-area">*/}
-                                {/*<button className="btn btn-primary">{t("apis.payment-api.page.docs.body.view")}</button>*/}
+                            {/*<button className="btn btn-primary">{t("apis.payment-api.page.docs.body.view")}</button>*/}
                             {/*</div>*/}
                         </div>
                     )}

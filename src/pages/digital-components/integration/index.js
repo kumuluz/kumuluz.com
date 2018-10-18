@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
 import {
     CompBenefitsComponent,
@@ -8,8 +9,8 @@ import {
 import "./kumuluz-integration-page.scss";
 import {digitalPlatformProducts} from "../../../content/index-page/digital-platform";
 import integrationLogo from "../../../assets/images/digital-platform/integration.svg";
-import chevron from "../../../assets/images/digital-platform/chevrons/chevron-integration.svg"
-import chevronDown from "../../../assets/images/digital-platform/chevrons/chevron-integration-down.svg"
+import chevron from "../../../assets/images/digital-platform/chevrons/chevron-integration.svg";
+import chevronDown from "../../../assets/images/digital-platform/chevrons/chevron-integration-down.svg";
 import {CollapsableListComponent} from "../../../components/shared/export.shared.components";
 import {ContactForm} from "../../../components/shared/contact-form/contact-form";
 import {Footer} from "../../../components/shared/footer/footer";
@@ -82,6 +83,10 @@ const management = t => [
 @translate("digital-platform")
 export default class KumuluzIntegrationPage extends Component {
 
+    static propTypes = {
+        t: PropType.func
+    };
+
     constructor(props) {
         super(props);
     }
@@ -94,12 +99,12 @@ export default class KumuluzIntegrationPage extends Component {
                 <Helmet title={t("components.integration.title") + " - Kumuluz"}/>
                 <CompNavigationComponent activeTab={"color-integration"} products={digitalPlatformProducts(t)}/>
                 <CompHeaderComponent image={integrationLogo} title={"Kumuluz<strong>Integration</strong>"}
-                     items={[
-                         t("components.integration.header.items.item-1"),
-                         t("components.integration.header.items.item-2"),
-                         t("components.integration.header.items.item-3")
-                     ]}
-                     subtitle={t("components.integration.header.subtitle")} />
+                    items={[
+                        t("components.integration.header.items.item-1"),
+                        t("components.integration.header.items.item-2"),
+                        t("components.integration.header.items.item-3")
+                    ]}
+                    subtitle={t("components.integration.header.subtitle")}/>
 
                 <CompUseCasesComponent navbar={{
                     section1: t("components.integration.about.about.title"),
@@ -112,8 +117,8 @@ export default class KumuluzIntegrationPage extends Component {
                             <div className="col-10 col-lg-5">
                                 <h3>{t("components.integration.about.about.left.title")}</h3>
                                 <p>
-                                    Kumuluz<span className="color-integration">Integration</span>
-                                    &#160;{t("components.integration.about.about.left.para-1")}
+                                        Kumuluz<span className="color-integration">Integration</span>
+                                        &#160;{t("components.integration.about.about.left.para-1")}
                                 </p>
                                 <p>{t("components.integration.about.about.left.para-2")}</p>
                             </div>
@@ -122,23 +127,23 @@ export default class KumuluzIntegrationPage extends Component {
                                     <h4>{t("components.integration.about.about.right.title")}</h4>
                                     <CollapsableListComponent colorClazz={"color-integration"} chevron={chevron}
                                         chevronDown={chevronDown} items={[
-                                        {
-                                            title: t("components.integration.about.about.right.item-1.title"),
-                                            desc: t("components.integration.about.about.right.item-1.desc")
-                                        },
-                                        {
-                                            title: t("components.integration.about.about.right.item-2.title"),
-                                            desc: t("components.integration.about.about.right.item-2.desc")
-                                        },
-                                        {
-                                            title: t("components.integration.about.about.right.item-3.title"),
-                                            desc: t("components.integration.about.about.right.item-3.desc")
-                                        },
-                                        {
-                                            title: t("components.integration.about.about.right.item-4.title"),
-                                            desc: t("components.integration.about.about.right.item-4.desc")
-                                        }
-                                    ]}/>
+                                            {
+                                                title: t("components.integration.about.about.right.item-1.title"),
+                                                desc: t("components.integration.about.about.right.item-1.desc")
+                                            },
+                                            {
+                                                title: t("components.integration.about.about.right.item-2.title"),
+                                                desc: t("components.integration.about.about.right.item-2.desc")
+                                            },
+                                            {
+                                                title: t("components.integration.about.about.right.item-3.title"),
+                                                desc: t("components.integration.about.about.right.item-3.desc")
+                                            },
+                                            {
+                                                title: t("components.integration.about.about.right.item-4.title"),
+                                                desc: t("components.integration.about.about.right.item-4.desc")
+                                            }
+                                        ]}/>
                                 </div>
                             </div>
                         </div>
@@ -171,8 +176,8 @@ export default class KumuluzIntegrationPage extends Component {
                     subtitle={t("components.integration.motto.subtitle")}/>
 
                 <CompBenefitsComponent benefits={benefits(t)} title={t("components.integration.benefits.title")}
-                   subtitle={t("components.integration.benefits.subtitle")}
-                   afterText={`<strong class="color-integration">${t("components.integration.benefits.after-text.colored")}</strong> ${t("components.integration.benefits.after-text.text")}`}/>
+                    subtitle={t("components.integration.benefits.subtitle")}
+                    afterText={`<strong class="color-integration">${t("components.integration.benefits.after-text.colored")}</strong> ${t("components.integration.benefits.after-text.text")}`}/>
 
                 <CompUseCasesComponent navbar={{
                     section1: t("components.integration.use-cases.integration.title"),
@@ -193,26 +198,26 @@ export default class KumuluzIntegrationPage extends Component {
                 }
                 section2={
                     <div className="container-fluid">
-                       <div className="row justify-content-center">
-                           <div className="col-10 integrations">
-                               <h3>{t("components.integration.use-cases.migration.subtitle")}</h3>
-                               {migrations(t).map((feat, index) => (
-                                   <p key={index} className="checkbox orange">{feat}</p>
-                               ))}
-                           </div>
-                       </div>
+                        <div className="row justify-content-center">
+                            <div className="col-10 integrations">
+                                <h3>{t("components.integration.use-cases.migration.subtitle")}</h3>
+                                {migrations(t).map((feat, index) => (
+                                    <p key={index} className="checkbox orange">{feat}</p>
+                                ))}
+                            </div>
+                        </div>
                     </div>
                 }
                 section3={
                     <div className="container-fluid">
-                       <div className="row justify-content-center">
-                           <div className="col-10 integrations">
-                               <h3>{t("components.integration.use-cases.management.subtitle")}</h3>
-                               {management(t).map((feat, index) => (
-                                   <p key={index} className="checkbox orange">{feat}</p>
-                               ))}
-                           </div>
-                       </div>
+                        <div className="row justify-content-center">
+                            <div className="col-10 integrations">
+                                <h3>{t("components.integration.use-cases.management.subtitle")}</h3>
+                                {management(t).map((feat, index) => (
+                                    <p key={index} className="checkbox orange">{feat}</p>
+                                ))}
+                            </div>
+                        </div>
                     </div>
                 }/>
 

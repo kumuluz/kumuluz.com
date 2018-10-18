@@ -1,6 +1,7 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
-import {Helmet} from 'react-helmet';
+import {Helmet} from "react-helmet";
 
 import "./product-catalog-api.page.scss";
 import {Footer} from "../../../components/shared/footer/footer";
@@ -83,6 +84,10 @@ const endpoints = t => [
 @translate("business-apis")
 export default class ProductCatalogApiPage extends Component {
 
+    static propTypes = {
+        t: PropType.func
+    };
+
     constructor(props) {
         super(props);
     }
@@ -94,8 +99,8 @@ export default class ProductCatalogApiPage extends Component {
             <div className="km-product-catalog-api-page">
                 <Helmet title={t("apis.product-catalog.page.title") + " - Kumuluz"}/>
                 <ApiHeaderComponent title={t("apis.product-catalog.page.title")}
-                                    paragraphs={[t("apis.product-catalog.page.para")]}
-                                    paragraphsOrientation={"row"}
+                    paragraphs={[t("apis.product-catalog.page.para")]}
+                    paragraphsOrientation={"row"}
                 />
                 <ApiHowItWorksComponent title={t("apis.product-catalog.page.how-it-works.title")}>
                     <p>{t("apis.product-catalog.page.how-it-works.para-1")}</p>
@@ -134,7 +139,7 @@ export default class ProductCatalogApiPage extends Component {
                                 </div>
                             </div>
                             {/*<div className="col btn-area">*/}
-                                {/*<button className="btn btn-primary">{t("apis.product-catalog.page.docs.view")}</button>*/}
+                            {/*<button className="btn btn-primary">{t("apis.product-catalog.page.docs.view")}</button>*/}
                             {/*</div>*/}
                         </div>}
                 />

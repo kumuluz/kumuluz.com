@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {Helmet} from 'react-helmet';
+import PropType from "prop-types";
+import {Helmet} from "react-helmet";
 import {translate} from "react-i18next";
 
 import "./partners-page.scss";
@@ -8,6 +9,10 @@ import {Footer} from "../../components/shared/footer/footer";
 
 @translate("partners")
 export default class PartnersPage extends Component {
+
+    static propTypes = {
+        t: PropType.func
+    };
 
     constructor(props) {
         super(props);
@@ -44,7 +49,7 @@ export default class PartnersPage extends Component {
                                     </div>
                                 </div>
                                 <div className="col-10 divider-container">
-                                    <div className="divider" />
+                                    <div className="divider"/>
                                 </div>
                                 <div className="col-10">
                                     <h3 className="text-center">{t("what-we-offer.title")}</h3>
@@ -52,12 +57,12 @@ export default class PartnersPage extends Component {
                                         {t("what-we-offer.description")}
                                     </p>
                                     <UnorderedListComponent rows={2} fontColor={"white"}
-                                                            items={[
-                                                                t("what-we-offer.items.item-1"),
-                                                                t("what-we-offer.items.item-2"),
-                                                                t("what-we-offer.items.item-3"),
-                                                                t("what-we-offer.items.item-4"),
-                                                            ]}/>
+                                        items={[
+                                            t("what-we-offer.items.item-1"),
+                                            t("what-we-offer.items.item-2"),
+                                            t("what-we-offer.items.item-3"),
+                                            t("what-we-offer.items.item-4"),
+                                        ]}/>
                                 </div>
                             </div>
                         </div>

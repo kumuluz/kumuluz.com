@@ -1,6 +1,7 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
-import {Helmet} from 'react-helmet';
+import {Helmet} from "react-helmet";
 import {ApiHeaderComponent} from "../../../components/business-apis/header/api-header.component";
 import {
     ApiDocsComponent,
@@ -62,6 +63,10 @@ const docsItems = t => [
 @translate("business-apis")
 export default class CCMApiPage extends Component {
 
+    static propTypes = {
+        t: PropType.func
+    };
+
     constructor(props) {
         super(props);
     }
@@ -73,17 +78,17 @@ export default class CCMApiPage extends Component {
             <div className="km-ccm-api-page">
                 <Helmet title={t("apis.ccm.page.title") + " - Kumuluz"}/>
                 <ApiHeaderComponent title={t("apis.ccm.page.title")}
-                                    paragraphs={
-                                        [
-                                            t("apis.ccm.page.subtitle-1"),
-                                            t("apis.ccm.page.subtitle-2")
-                                        ]
-                                    }
-                                    paragraphsOrientation={"column"}
+                    paragraphs={
+                        [
+                            t("apis.ccm.page.subtitle-1"),
+                            t("apis.ccm.page.subtitle-2")
+                        ]
+                    }
+                    paragraphsOrientation={"column"}
                 />
 
                 <ApiHowItWorksComponent title={t("apis.ccm.page.how-it-works.title")}
-                                        subtitle={t("apis.ccm.page.how-it-works.subtitle")}>
+                    subtitle={t("apis.ccm.page.how-it-works.subtitle")}>
                     <div>
                         <UnorderedListComponent fontColor={"white"} rows={2} items={[
                             t("apis.ccm.page.how-it-works.list.item-1"),
@@ -119,7 +124,7 @@ export default class CCMApiPage extends Component {
                                 ))}
                             </div>
                             {/*<div className="col btn-area">*/}
-                                {/*<button className="btn btn-primary">{t("apis.ccm.page.docs.view")}</button>*/}
+                            {/*<button className="btn btn-primary">{t("apis.ccm.page.docs.view")}</button>*/}
                             {/*</div>*/}
                         </div>}
                 />
@@ -136,7 +141,7 @@ export default class CCMApiPage extends Component {
                 }/>
 
                 <ApiUseCasesComponent useCases={[
-                    <div className="container food">
+                    <div className="container food" key="usecase-1">
                         <div className="row justify-content-between">
                             <div className="col-10 col-lg-7">
                                 <p>{t("apis.ccm.page.usecases.food.para-1")}</p>
@@ -156,7 +161,7 @@ export default class CCMApiPage extends Component {
                         </div>
                     </div>,
                     "#",
-                    <div className="container fashion">
+                    <div className="container fashion" key="usecase-2">
                         <div className="row">
                             <div className="col-10">
                                 <p>{t("apis.ccm.page.usecases.fashion.para-1")}</p>
@@ -173,7 +178,7 @@ export default class CCMApiPage extends Component {
                         </div>
                     </div>,
                     "#",
-                    <div className="container events">
+                    <div className="container events" key="usecase-3">
                         <div className="row justify-content-between align-items-center">
                             <div className="col-10 col-lg-6 text-left">
                                 <p>{t("apis.ccm.page.usecases.events")}</p>
@@ -184,7 +189,7 @@ export default class CCMApiPage extends Component {
                         </div>
                     </div>,
                     "#",
-                    <div className="container transport">
+                    <div className="container transport" key="usecase-4">
                         <div className="row justify-content-between align-items-center">
                             <div className="col-10 col-lg-6 text-left">
                                 <p>{t("apis.ccm.page.usecases.transport")}</p>
@@ -195,7 +200,7 @@ export default class CCMApiPage extends Component {
                         </div>
                     </div>,
                     "#",
-                    <div className="container retail">
+                    <div className="container retail" key="usecase-5">
                         <div className="row justify-content-between align-items-center">
                             <div className="col-10 col-lg-6 text-left">
                                 <p>{t("apis.ccm.page.usecases.retail.para-1")}</p>

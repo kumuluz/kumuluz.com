@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {Helmet} from 'react-helmet';
+import PropType from "prop-types";
+import {Helmet} from "react-helmet";
 import {translate} from "react-i18next";
 
 import "./e-poslovanje-page.scss";
@@ -10,6 +11,10 @@ import {Footer} from "../../components/shared/footer/footer";
 
 @translate("e-poslovanje")
 export default class EPoslovanjePage extends Component {
+
+    static propTypes = {
+        t: PropType.func
+    };
 
     constructor(props) {
         super(props);
@@ -41,7 +46,8 @@ export default class EPoslovanjePage extends Component {
                                     za regionalni razvoj.
                                 </p>
                                 <p>
-                                    Spletna stran EKP v Sloveniji: <a href="http://www.eu-skladi.si/" target="_blank">http://www.eu-skladi.si/</a>
+                                    Spletna stran EKP v Sloveniji: <a href="http://www.eu-skladi.si/" rel="noreferrer noopener"
+                                        target="_blank">http://www.eu-skladi.si/</a>
                                 </p>
                                 <p>
                                     <strong>Naziv operacije:</strong>

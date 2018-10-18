@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
 import {digitalPlatformProducts} from "../../../content/index-page/digital-platform";
 import {CompNavigationComponent} from "../../../components/digital-components/navigation/comp-navigation.component";
@@ -13,6 +14,10 @@ import {Helmet} from "react-helmet";
 @translate("digital-platform")
 export default class KumuluzMarketplacePage extends Component {
 
+    static propTypes = {
+        t: PropType.func
+    };
+
     constructor(props) {
         super(props);
     }
@@ -26,8 +31,8 @@ export default class KumuluzMarketplacePage extends Component {
                 <CompNavigationComponent activeTab={"color-marketplace"} products={digitalPlatformProducts(t)}/>
 
                 <CompHeaderComponent image={marketplaceLogo} title={"Kumuluz<strong>Marketplace</strong>"}
-                                     items={[]}
-                                     subtitle={t("components.marketplace.header.subtitle")} />
+                    items={[]}
+                    subtitle={t("components.marketplace.header.subtitle")}/>
 
                 <div className="container-fluid">
                     <div className="row justify-content-center">

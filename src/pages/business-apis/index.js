@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {Helmet} from 'react-helmet';
+import PropType from "prop-types";
+import {Helmet} from "react-helmet";
 import Link from "gatsby-link";
 import {translate} from "react-i18next";
 import {UncontrolledTooltip} from "reactstrap";
@@ -16,6 +17,11 @@ import {Footer} from "../../components/shared/footer/footer";
 
 @translate("business-apis")
 export default class BusinessAPIsPage extends Component {
+
+    static propTypes = {
+        t: PropType.func,
+        i18n: PropType.object
+    };
 
     constructor(props) {
         super(props);
@@ -123,14 +129,14 @@ export default class BusinessAPIsPage extends Component {
             return (
                 <span className="docs-btn">
                     {t("apis.docs")}
-                    <img src={arrowIcon} />
+                    <img src={arrowIcon}/>
                 </span>
             );
         } else {
             return (
                 <span className="docs-btn disabled-docs" id={"docs-btn-" + api.id}>
                     {t("apis.docs")}
-                    <img src={arrowIconGrey} />
+                    <img src={arrowIconGrey}/>
                     <UncontrolledTooltip target={"docs-btn-" + api.id} placement={"top"}>
                         {t("apis.not-available")}
                     </UncontrolledTooltip>
@@ -163,7 +169,7 @@ export default class BusinessAPIsPage extends Component {
                                         <img src={item.image}/>
                                     </div>
                                     <p className="title">{item.title}</p>
-                                    <p className="desc" dangerouslySetInnerHTML={{__html: item.desc}} />
+                                    <p className="desc" dangerouslySetInnerHTML={{__html: item.desc}}/>
                                 </div>
                             ))}
                         </div>
@@ -179,17 +185,21 @@ export default class BusinessAPIsPage extends Component {
                             <div className="row mb-5">
                                 <div className="col-25-perc">
                                     <div className="search-bar">
-                                        <input placeholder={t("filters.placeholder")} type="text" onInput={this.filterApis}
-                                               ref={ref => this.searchbar = ref}/>
+                                        <input placeholder={t("filters.placeholder")} type="text"
+                                            onInput={this.filterApis}
+                                            ref={ref => this.searchbar = ref}/>
                                     </div>
                                     <h4>{t("filters.title")}</h4>
                                     <div className="filters">
-                                        <span className={this.state.activeTag === "" ? "tag-filter active-filter" : "tag-filter"}
-                                              onClick={() => this.filterByTag("")}>
+                                        <span
+                                            className={this.state.activeTag === "" ? "tag-filter active-filter" : "tag-filter"}
+                                            onClick={() => this.filterByTag("")}>
                                             {t("filters.tags.show-all")}
                                         </span>
                                         {tags(t).map((tag, index) => (
-                                            <span className={this.state.activeTag === tag ? "tag-filter active-filter" : "tag-filter"} key={index} onClick={() => this.filterByTag(tag)}>
+                                            <span
+                                                className={this.state.activeTag === tag ? "tag-filter active-filter" : "tag-filter"}
+                                                key={index} onClick={() => this.filterByTag(tag)}>
                                                 {tag}
                                             </span>
                                         ))}
@@ -218,7 +228,8 @@ export default class BusinessAPIsPage extends Component {
                                         ))}
                                     </div>
                                     <div className="view-more-btn">
-                                        <span onClick={this.loadMore} ref={ref => this.viewMoreBtn = ref}>{t("apis.view-more")}</span>
+                                        <span onClick={this.loadMore}
+                                            ref={ref => this.viewMoreBtn = ref}>{t("apis.view-more")}</span>
                                     </div>
                                 </div>
                             </div>
@@ -250,7 +261,8 @@ export default class BusinessAPIsPage extends Component {
                                         <p>{t("ways.center-way.para2")}</p>
                                     </div>
                                     <div>
-                                        <span onClick={() => document.getElementById("apis-list").scrollIntoView()}>{t("ways.center-way.button")}</span>
+                                        <span
+                                            onClick={() => document.getElementById("apis-list").scrollIntoView()}>{t("ways.center-way.button")}</span>
                                     </div>
                                 </div>
                                 <div className="right-way way">
@@ -266,10 +278,10 @@ export default class BusinessAPIsPage extends Component {
                             </div>
                         </div>
                         {/*<div className="col-9 col-xl-6 text-center mt-5 learn-more-link">*/}
-                            {/*<Link to={"/"}>*/}
-                                {/*{t("ways.learn-more.link")}*/}
-                            {/*</Link>*/}
-                            {/*&#160;{t("ways.learn-more.text")}*/}
+                        {/*<Link to={"/"}>*/}
+                        {/*{t("ways.learn-more.link")}*/}
+                        {/*</Link>*/}
+                        {/*&#160;{t("ways.learn-more.text")}*/}
                         {/*</div>*/}
                         <div className="col-10 p-0 mt-5">
                             <ArrowDividerComponent theme={"white"} corner={3}/>
@@ -293,7 +305,8 @@ export default class BusinessAPIsPage extends Component {
                                     <h4>{t("case-study.above-title")}:</h4>
                                     <h3 dangerouslySetInnerHTML={{__html: t("case-study.title")}}/>
                                     <p>
-                                        <a href={"http://www.petrol.si/"} target="_blank">{t("case-study.para1.link")}</a>
+                                        <a href={"http://www.petrol.si/"} rel="noreferrer noopener"
+                                            target="_blank">{t("case-study.para1.link")}</a>
                                         &#160;{t("case-study.para1.text")}
                                     </p>
                                     <p>{t("case-study.para2")}</p>
@@ -301,15 +314,15 @@ export default class BusinessAPIsPage extends Component {
                                 <div className="col-10 col-md-5 quote-container">
                                     <div className="grey-area">
                                         <p>
-                                            <span className="quote">"</span>
+                                            <span className="quote">&#34;</span>
                                             {t("case-study.quote")}
-                                            <span className="quote right-quote">"</span>
+                                            <span className="quote right-quote">&#34;</span>
                                         </p>
                                         {/*<div className="arrow-quote" />*/}
                                     </div>
                                     {/*<div className="lightblue-area">*/}
-                                        {/*<p className="quote-author-name">Adrian Freeman</p>*/}
-                                        {/*<p className="quote-author-role">Petrol CTO</p>*/}
+                                    {/*<p className="quote-author-name">Adrian Freeman</p>*/}
+                                    {/*<p className="quote-author-role">Petrol CTO</p>*/}
                                     {/*</div>*/}
                                 </div>
                             </div>

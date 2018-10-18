@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropType from "prop-types";
 import {translate} from "react-i18next";
 import "./fulfillment-api.page.scss";
 import {Helmet} from "react-helmet";
@@ -85,6 +86,10 @@ const endpoints = t => [
 @translate("business-apis")
 export default class FulfillmentApiPage extends Component {
 
+    static propTypes = {
+        t: PropType.func
+    };
+
     constructor(props) {
         super(props);
     }
@@ -96,11 +101,11 @@ export default class FulfillmentApiPage extends Component {
             <div className="km-fulfillment-api-page">
                 <Helmet title={t("apis.fulfillment.page.title") + " - Kumuluz"}/>
                 <ApiHeaderComponent title={t("apis.fulfillment.page.title")}
-                                    paragraphs={[
-                                        t("apis.fulfillment.page.para-1"),
-                                        t("apis.fulfillment.page.para-2")
-                                    ]}
-                                    paragraphsOrientation={"column"}
+                    paragraphs={[
+                        t("apis.fulfillment.page.para-1"),
+                        t("apis.fulfillment.page.para-2")
+                    ]}
+                    paragraphsOrientation={"column"}
                 />
                 <ApiHowItWorksComponent title={t("apis.fulfillment.page.how-it-works.title")}>
                     <p>{t("apis.fulfillment.page.how-it-works.para-1")}</p>
@@ -136,7 +141,7 @@ export default class FulfillmentApiPage extends Component {
                                 </div>
                             </div>
                             {/*<div className="col btn-area">*/}
-                                {/*<button className="btn btn-primary">{t("apis.fulfillment.page.docs.view")}</button>*/}
+                            {/*<button className="btn btn-primary">{t("apis.fulfillment.page.docs.view")}</button>*/}
                             {/*</div>*/}
                         </div>}
                 />
@@ -153,7 +158,7 @@ export default class FulfillmentApiPage extends Component {
                 }/>
 
                 <ApiUseCasesComponent useCases={[
-                    <div>
+                    <div key="usecase-1">
                         <p>{t("apis.fulfillment.page.usecases.item-1.para")}</p>
                         <UnorderedListComponent rows={1} fontColor={"black"} items={[
                             t("apis.fulfillment.page.usecases.item-1.items.item-1"),
