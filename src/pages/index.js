@@ -352,10 +352,8 @@ export default class IndexPage extends Component {
                 <Footer contact/>
 
                 <VideoPlayerComponent ref={ref => this.bapisVideo = ref}
-                    title={t("header.tiles.right-tile.above-title")}
                     videoUrl={"https://player.vimeo.com/video/295128872"}/>
                 <VideoPlayerComponent ref={ref => this.digitalVideo = ref}
-                    title={t("header.tiles.left-tile.above-title")}
                     videoUrl={"https://player.vimeo.com/video/295517084"}/>
             </div>
         );

@@ -59,13 +59,11 @@ export class VideoPlayerComponent extends Component {
     }
 
     render() {
-        const {title, videoUrl} = this.props;
+        const {videoUrl} = this.props;
 
         return (
             <Modal isOpen={this.state.showVideo} toggle={this.showVideoModal} className="km-video-player">
-                <ModalHeader toggle={this.showVideoModal}>
-                    {title}
-                </ModalHeader>
+                <ModalHeader toggle={this.showVideoModal} />
                 <ModalBody>
                     <iframe src={videoUrl} width={this.state.player.width} height={this.state.player.height}
                         frameBorder="0"
