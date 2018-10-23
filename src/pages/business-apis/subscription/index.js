@@ -11,6 +11,7 @@ import {ApiUseCasesComponent} from "../../../components/business-apis/use-cases/
 import {Footer} from "../../../components/shared/footer/footer";
 import {businessApisList} from "../../../content/business-apis/business-apis";
 import {ApiRelatedApisComponent} from "../../../components/business-apis/related-apis/related-apis.component";
+import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 const docsItems = t => [
     {
@@ -75,6 +76,10 @@ export default class SubscriptionApiPage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

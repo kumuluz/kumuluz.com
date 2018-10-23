@@ -29,6 +29,7 @@ import knowledgeImage from "../../../assets/images/knowledge.svg";
 import {CompProductGridComponent} from "../../../components/digital-components/product-grid/comp-product-grid.component";
 import {Footer} from "../../../components/shared/footer/footer";
 import {EE_KUMULUZ_URL, MICROPROFILE_URL} from "../../../content/constants";
+import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 const quotes = t => {
     return [
@@ -176,6 +177,10 @@ export default class KumuluzEEPage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

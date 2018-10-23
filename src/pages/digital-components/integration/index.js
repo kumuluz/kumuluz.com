@@ -31,6 +31,7 @@ import productivityIncreaseImage from "../../../assets/images/productivityIncrea
 import digitalPlatformImage from "../../../assets/images/digitalPlatform.svg";
 import forWhoImage from "../../../assets/images/forWho.svg";
 import {Helmet} from "react-helmet";
+import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 const benefits = t => [
     {
@@ -89,6 +90,10 @@ export default class KumuluzIntegrationPage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

@@ -7,6 +7,7 @@ import {ApiHeaderComponent} from "../../../components/business-apis/header/api-h
 import {ApiHowItWorksComponent} from "../../../components/business-apis/how-it-works/api-how-it-works.component";
 import {Footer} from "../../../components/shared/footer/footer";
 import {ApiComingSoonComponent} from "../../../components/business-apis/export";
+import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 @translate("business-apis")
 export default class KycApiPage extends Component {
@@ -17,6 +18,10 @@ export default class KycApiPage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

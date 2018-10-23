@@ -13,6 +13,7 @@ import arrowIconGrey from "../../assets/images/arrow-grey.svg";
 import {headersList} from "../../content/business-apis/headers";
 import {businessApisList, tags} from "../../content/business-apis/business-apis";
 import {Footer} from "../../components/shared/footer/footer";
+import {GoogleAnalyticsService} from "../../components/shared/google-analytics/google-analytics.service";
 
 
 @translate("business-apis")
@@ -39,6 +40,7 @@ export default class BusinessAPIsPage extends Component {
     }
 
     componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
         const {t} = this.props;
         this.setState({
             ...this.state,

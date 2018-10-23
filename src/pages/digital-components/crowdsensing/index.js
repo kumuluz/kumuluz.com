@@ -10,6 +10,7 @@ import crowdLogo from "../../../assets/images/digital-platform/crowdsensing.svg"
 import {CompProductGridComponent} from "../../../components/digital-components/product-grid/comp-product-grid.component";
 import {Footer} from "../../../components/shared/footer/footer";
 import {Helmet} from "react-helmet";
+import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 @translate("digital-platform")
 export default class KumuluzCrowdsensingPage extends Component {
@@ -20,6 +21,10 @@ export default class KumuluzCrowdsensingPage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

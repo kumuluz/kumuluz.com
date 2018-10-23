@@ -9,6 +9,7 @@ import {ArrowDividerComponent, ArrowPointerComponent} from "../../components/sha
 import {DigitalPlatformComponent} from "../../components/index-page/export";
 import {Footer} from "../../components/shared/footer/footer";
 import {BLOG_URL} from "../../content/constants";
+import {GoogleAnalyticsService} from "../../components/shared/google-analytics/google-analytics.service";
 
 @translate("digital-platform")
 export default class DigitalPlatformPage extends Component {
@@ -19,6 +20,10 @@ export default class DigitalPlatformPage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

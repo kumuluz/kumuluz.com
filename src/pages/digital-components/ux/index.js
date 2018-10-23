@@ -32,6 +32,7 @@ import competitiveAdvantageImage from "../../../assets/images/competitiveAdv.svg
 import strategicAdvantageImage from "../../../assets/images/strategicAdv.svg";
 import knowledgeImage from "../../../assets/images/knowledge.svg";
 import {Helmet} from "react-helmet";
+import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 const benefits = t => [
     {
@@ -84,6 +85,10 @@ export default class KumuluzUxPage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

@@ -8,6 +8,7 @@ import spiritSloveniaImage from "../../assets/images/spirit-slovenia.png";
 import ministryGospodarskiRazvojImage from "../../assets/images/minist-gosp-razvoj.jpg";
 import euSkladImage from "../../assets/images/eu-sklad-reg-razvoj.png";
 import {Footer} from "../../components/shared/footer/footer";
+import {GoogleAnalyticsService} from "../../components/shared/google-analytics/google-analytics.service";
 
 @translate("e-poslovanje")
 export default class EPoslovanjePage extends Component {
@@ -18,6 +19,10 @@ export default class EPoslovanjePage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

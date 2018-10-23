@@ -24,6 +24,7 @@ import ccmUseCase6 from "../../../assets/images/digital-platform/ccm-usecase6.jp
 import ccmUseCase7 from "../../../assets/images/digital-platform/ccm-usecase7.jpg";
 import ccmUseCase8 from "../../../assets/images/digital-platform/ccm-usecase8.jpg";
 import {businessApisList} from "../../../content/business-apis/business-apis";
+import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 const docsItems = t => [
     {
@@ -69,6 +70,10 @@ export default class CCMApiPage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

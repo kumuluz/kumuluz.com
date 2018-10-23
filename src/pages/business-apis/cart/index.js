@@ -12,6 +12,7 @@ import {ApiUseCasesComponent} from "../../../components/business-apis/use-cases/
 import {Footer} from "../../../components/shared/footer/footer";
 import {ApiRelatedApisComponent} from "../../../components/business-apis/export";
 import {businessApisList} from "../../../content/business-apis/business-apis";
+import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 const docsItems = t => [
     {
@@ -68,6 +69,10 @@ export default class CartApiPage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

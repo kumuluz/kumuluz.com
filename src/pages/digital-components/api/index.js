@@ -25,6 +25,7 @@ import competitiveAdvantageImage from "../../../assets/images/competitiveAdv.svg
 import transitionCloudImage from "../../../assets/images/transitionCloud.svg";
 import {Helmet} from "react-helmet";
 import {KUMULUZ_DIGITAL} from "../../../content/constants";
+import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 const items = t => [
     {
@@ -58,6 +59,10 @@ export default class KumuluzApiPage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

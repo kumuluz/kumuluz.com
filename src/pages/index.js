@@ -30,6 +30,7 @@ import {Footer} from "../components/shared/footer/footer";
 import {CustomersSection} from "../components/index-page/customers-section/customers-section";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCaretRight} from "@fortawesome/free-solid-svg-icons";
+import {GoogleAnalyticsService} from "../components/shared/google-analytics/google-analytics.service";
 
 @translate("index")
 export default class IndexPage extends Component {
@@ -46,6 +47,9 @@ export default class IndexPage extends Component {
         };
     }
 
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
+    }
 
     componentWillReceiveProps(newProps) {
         this.setState({...this.state, lang: newProps.i18n.language});

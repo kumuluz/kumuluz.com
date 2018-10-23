@@ -16,6 +16,7 @@ import {Footer} from "../../../components/shared/footer/footer";
 
 import payPalLogo from "../../../assets/images/apis/payment/paypal.png";
 import {businessApisList} from "../../../content/business-apis/business-apis";
+import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 const docsItems = t => [
     {
@@ -45,6 +46,10 @@ export default class PaymentApiPage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {

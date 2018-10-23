@@ -10,6 +10,7 @@ import {Footer} from "../../../components/shared/footer/footer";
 
 import "./kumuluz-marketplace-page.scss";
 import {Helmet} from "react-helmet";
+import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 @translate("digital-platform")
 export default class KumuluzMarketplacePage extends Component {
@@ -20,6 +21,10 @@ export default class KumuluzMarketplacePage extends Component {
 
     constructor(props) {
         super(props);
+    }
+
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
     }
 
     render() {
