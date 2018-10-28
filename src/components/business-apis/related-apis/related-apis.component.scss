@@ -30,7 +30,7 @@
       }
       .api-desc {
         margin: 20px 0;
-        height: 125px;
+        height: 150px;
       }
       .buttons {
         display: flex;
@@ -62,6 +62,18 @@
             color: $grey-300;
           }
         }
+      }
+    }
+  }
+}
+
+@include device-specific($media-phone) {
+  .km-related-apis-component {
+    .apis-grid {
+      justify-content: center;
+
+      .api-item {
+        width: 90%;
       }
     }
   }
