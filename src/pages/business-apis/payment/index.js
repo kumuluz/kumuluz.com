@@ -13,10 +13,23 @@ import {
 } from "../../../components/business-apis/export";
 import {UnorderedListComponent} from "../../../components/shared/export.shared.components";
 import {Footer} from "../../../components/shared/footer/footer";
-
-import payPalLogo from "../../../assets/images/apis/payment/paypal.png";
 import {businessApisList} from "../../../content/business-apis/business-apis";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
+
+import payPalLogo from "../../../assets/images/apis/payment/paypal.png";
+import creditCardsLogo from "../../../assets/images/apis/payment/credit-cards.png";
+import alipayLogo from "../../../assets/images/apis/payment/ali-pay.png";
+import applepayLogo from "../../../assets/images/apis/payment/apple-pay.png";
+import googlepayLogo from "../../../assets/images/apis/payment/google-pay.png";
+import wechatpayLogo from "../../../assets/images/apis/payment/wechat-pay.png";
+import bitcoinLogo from "../../../assets/images/apis/payment/bitcoin.png";
+import mbillsLogo from "../../../assets/images/apis/payment/mbills.png";
+import nlbKlikLogo from "../../../assets/images/apis/payment/nlb-klik.png";
+import abankaLogo from "../../../assets/images/apis/payment/abanka.png";
+import bankartLogo from "../../../assets/images/apis/payment/bankart.png";
+import braintreeLogo from "../../../assets/images/apis/payment/braintree.png";
+import stripeLogo from "../../../assets/images/apis/payment/stripe.png";
+
 
 const docsItems = t => [
     {
@@ -94,7 +107,21 @@ export default class PaymentApiPage extends Component {
                                 <h5>{t("apis.payment-api.page.docs.title")}</h5>
                             </div>
                             <div className="images">
+                                <img src={creditCardsLogo}/>
                                 <img src={payPalLogo}/>
+                                <img src={alipayLogo}/>
+                                <img src={applepayLogo}/>
+                                <img src={googlepayLogo}/>
+                                <img src={bitcoinLogo}/>
+                            </div>
+                            <div className="images mt-5">
+                                <img src={wechatpayLogo}/>
+                                <img src={mbillsLogo}/>
+                                <img src={nlbKlikLogo}/>
+                                <img src={abankaLogo}/>
+                                <img src={bankartLogo}/>
+                                <img src={braintreeLogo}/>
+                                <img src={stripeLogo}/>
                             </div>
                         </div>
                     )}
