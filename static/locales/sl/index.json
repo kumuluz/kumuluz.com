@@ -143,12 +143,31 @@
   "customers": {
     "title": "Kaj naše stranke pravijo o nas",
     "subtitle": "Poskrbite da vas vaša programska oprema nikoli več ne zafrustrira.",
-    "adriatic": "Adriatic Slovenica uporablja Kumuluzove API-je in mikrostoritve za interne sisteme in integracijo partnerjev. Vmesniki Kumuluz API poganjajo trg aplikacijskih programskih vmesnikov za izdelke v zavarovalni panogi, trenutno pa ga uporablja več kot 3000 partnerskih podjetij v Južnovzhodni Evropi. Adriatic Slovenica v svojih digitalnih kanalih, kot je na primer <a href='https://www.wiz.si/' target='_blank'>Wiz</a>, prav tako uporablja vmesnik Kumuluz Payment za spletna plačila. Kumuluz nam je omogočil lažjo integracijo in večjo produktivnost, ter je zelo pomemben za naše digitalne kanale.",
-    "petrol": "Petrol uporablja Kumuluz kot ogrodje za svoje digitalne izdelke. Kumuluzove mikrostoritve poganjajo inovativne mobilne aplikacije za digitalno okolje, kot je na primer <a href='https://www.petrol.si/mobilna-aplikacija-na-poti' target='_blank'>Na poti</a>, ter kar nekaj nujno potrebnih zalednih sistemov, vključno s Payment, Invoicing, Cart, Order, Fulfillment in Product Catalog. Kumuluz nam je omogočil, da smo pospešili razvoj in skrajšali čas, potreben za vstop na trg. Platforma Kumuluz je postala cenjen del naše strategije za digitalno transformacijo.",
-    "apl": "Agencija za pospeševanje likvidnosti (APL) uporablja Kumuluz za razvoj platforme za faktoring naslednje generacije. Uporaba Kumuluza je že bistveno izboljšala fleksibilnost, skalabilnost in mobilnost naše programske opreme. S prehodom z monolitske na mikrostoritveno arhitekturo lahko zdaj nove funkcionalnosti dodamo veliko hitreje. S Kumuluzom bomo novo platformo za faktoring lahko razvili trikrat hitreje kot s tradicionalnimi razvojnimi dejavnostmi.",
-    "couchbase": "KumuluzEE resnično pripelje mikrostoritveno arhitekturo v Javo EE. Modularni spletni vsebnik je pripravljen za Maven, omogoča Fat JAR in modularizirane odvisnosti, ter je pripravljen na vsebnike Docker, kar omogoča, da je lahko takoj nameščen v katerokoli oblačno okolje. Če gradite aplikacije v okolju Java EE, začnite svojo mikrostoritveno pot s platformo KumuluzEE!",
-    "jclarity": "Četudi so se specifikacije in aplikacijski serverji platforme Java EE zmanjšali, le-ta še vedno ni bila prva tehnološka izbira za mikrostoritvene razvijalce v primerjavi s platformami, kot sta na primer NodeJS ali Spring Boot. To se je sedaj spremenilo, saj KumuluzEE omogoča način ustvarjanja mikrostoritev, ki je lahek in ne potrebuje aplikacijskih serverjev, prav tako pa je podprt s polno močjo storitev Java, JVM in Java EE. Ta inovativen sklad je zaslužen zmagovalec nagrade Duke Awards leta 2015.",
-    "rightrix": "Če iščete mikrostoritve za platformo Java EE, si morate ogledati nov in preprost način, ki vam ga KumuluzEE ponuja za avtomatizacijo mikrostoritev."
+    "adriatic": {
+      "text": "Adriatic Slovenica uporablja Kumuluzove API-je in mikrostoritve za interne sisteme in integracijo partnerjev. Vmesniki Kumuluz API poganjajo trg aplikacijskih programskih vmesnikov za izdelke v zavarovalni panogi, trenutno pa ga uporablja več kot 3000 partnerskih podjetij v Južnovzhodni Evropi. Adriatic Slovenica v svojih digitalnih kanalih, kot je na primer <a href='https://www.wiz.si/' target='_blank'>Wiz</a>, prav tako uporablja vmesnik Kumuluz Payment za spletna plačila. Kumuluz nam je omogočil lažjo integracijo in večjo produktivnost, ter je zelo pomemben za naše digitalne kanale.",
+      "title": "CIO pri Adriatic Slovenici"
+    },
+    "petrol": {
+      "text": "Petrol uporablja Kumuluz kot ogrodje za svoje digitalne izdelke. Kumuluzove mikrostoritve poganjajo inovativne mobilne aplikacije za digitalno okolje, kot je na primer <a href='https://www.petrol.si/mobilna-aplikacija-na-poti' target='_blank'>Na poti</a>, ter kar nekaj nujno potrebnih zalednih sistemov, vključno s Payment, Invoicing, Cart, Order, Fulfillment in Product Catalog. Kumuluz nam je omogočil, da smo pospešili razvoj in skrajšali čas, potreben za vstop na trg. Platforma Kumuluz je postala cenjen del naše strategije za digitalno transformacijo.",
+      "title": "CIO pri Petrolu"
+    },
+    "apl": {
+      "text": "Agencija za pospeševanje likvidnosti (APL) uporablja Kumuluz za razvoj platforme za faktoring naslednje generacije. Uporaba Kumuluza je že bistveno izboljšala fleksibilnost, skalabilnost in mobilnost naše programske opreme. S prehodom z monolitske na mikrostoritveno arhitekturo lahko zdaj nove funkcionalnosti dodamo veliko hitreje. S Kumuluzom bomo novo platformo za faktoring lahko razvili trikrat hitreje kot s tradicionalnimi razvojnimi dejavnostmi.",
+      "title": "CIO pri APL"
+    },
+    "couchbase": {
+      "text": "KumuluzEE resnično pripelje mikrostoritveno arhitekturo v Javo EE. Modularni spletni vsebnik je pripravljen za Maven, omogoča Fat JAR in modularizirane odvisnosti, ter je pripravljen na vsebnike Docker, kar omogoča, da je lahko takoj nameščen v katerokoli oblačno okolje. Če gradite aplikacije v okolju Java EE, začnite svojo mikrostoritveno pot s platformo KumuluzEE!",
+      "title": "Podpredsednik, odnosi z razvijalci pri Couchbase"
+    },
+    "jclarity": {
+      "text": "Četudi so se specifikacije in aplikacijski serverji platforme Java EE zmanjšali, le-ta še vedno ni bila prva tehnološka izbira za mikrostoritvene razvijalce v primerjavi s platformami, kot sta na primer NodeJS ali Spring Boot. To se je sedaj spremenilo, saj KumuluzEE omogoča način ustvarjanja mikrostoritev, ki je lahek in ne potrebuje aplikacijskih serverjev, prav tako pa je podprt s polno močjo storitev Java, JVM in Java EE. Ta inovativen sklad je zaslužen zmagovalec nagrade Duke Awards leta 2015.",
+      "title": "Java Champion in CEO pri jClarity"
+    },
+    "rightrix": {
+      "text": "Če iščete mikrostoritve za platformo Java EE, si morate ogledati nov in preprost način, ki vam ga KumuluzEE ponuja za avtomatizacijo mikrostoritev.",
+      "title": "Java Champion in ustanovitelj Rightrix Solutions and IndicThreads"
+    }
+
   },
   "references": {
     "title": "Zaupajo nam"

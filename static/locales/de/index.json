@@ -143,12 +143,30 @@
   "customers": {
     "title": "Was unsere Kunden über uns sagen",
     "subtitle": "Sorgen Sie dafür, dass Ihre Software Sie nie wieder frustriert",
-    "adriatic": "Adriatic Slovenica nutzt Kumuluz API und Microservices für interne Systeme und Partnerintegration. Kumuluz API treibt den API Wirtschaftsmarkt für Versicherungsprodukte voran, die derzeit von über 3000 Partnerunternehmen in Südosteuropa genutzt wird. Darüber hinaus nutzt Adriatic Slovenica Kumuluz Payment für Online-Zahlungen in seinen digitalen Kanälen wie <a href='https://www.wiz.si/' target='_blank'>Wiz</a>. Kumuluz haben uns eine einfachere Integration und höhere Produktivität ermöglicht und sind sehr wichtig für unsere digitalen Kanäle.",
-    "petrol": "Petrol nutzt Kumuluz als Rückgrat für digitale Produkte. Kumuluz Microservices betreiben innovative mobile Anwendungen für digitale Systeme, wie <a href='https://www.petrol.si/mobilna-aplikacija-na-poti' target='_blank'>Na poti</a>, und mehrere missionskritische Backend-Systeme, einschließlich Payment, Invoicing, Cart, Order, Fulfillment und Product Catalog. Mit Kumuluz war es uns ermöglicht die Entwicklung zu beschleunigen und die Markteinführungszeit zu verkürzen. Die Kumuluz-Plattform ist zu einem wertvollen Bestandteil unserer Strategie der digitalen Transformation geworden.",
-    "apl": "Agency for accelerating liquidity (APL) benutzt Kumuluz zur Entwicklung der zukünftigen Factoring-Plattform. Mit Kumuluz haben wir die Flexibilität, Skalierbarkeit und Mobilität unserer Software bereits erheblich verbessert. Beim Wechsel von der monolithischen zur Microservice-Architektur können wir jetzt neue Funktionalitäten wesentlich schneller hinzufügen. Mit Kumuluz können wir die neue Factoring-Plattform 3x schneller entwickeln als mit traditionellen Entwicklungspraktiken. ",
-    "couchbase": "KumuluzEE bringt Microservice-Architektur zu Java EE. MAVEN-ready, Fat JAR, modulare Abhängigkeiten, Docker-Ready und ein steckbarer Web-Container machen es bereit für die Einsetzung in jeder Cloud-Umgebung. Wenn Sie Anwendungen mit Java EE erstellen, starten Sie Ihre Microservice-Reise mit KumuluzEE!",
-    "jclarity": "Obwohl die Java EE-Spezifikationen und Anwendungsserver in ihrer Größe zurückgegangen sind, waren sie für den heutigen Microservices-Entwickler, im Vergleich zu NodeJS oder Spring Boot, noch nicht die erste Wahl. Das ändert sich jetzt, da KumuluzEE eine leichte, anwendungsserverfreie Möglichkeit bietet, Mikroservices mit der vollen Leistungsfähigkeit von Java, JVM und JavaEE zu erstellen! Dieses innovative Stack ist ein würdiger 2015 Duke-Award-Gewinner.",
-    "rightrix": "Wenn Sie Microservices für Java EE erkunden, müssen Sie sich KumuluzEE‘s neuartigen, aber einfachen Ansatz zur Automatisierung von Microservices ansehen."
+    "adriatic": {
+      "text": "Adriatic Slovenica nutzt Kumuluz API und Microservices für interne Systeme und Partnerintegration. Kumuluz API treibt den API Wirtschaftsmarkt für Versicherungsprodukte voran, die derzeit von über 3000 Partnerunternehmen in Südosteuropa genutzt wird. Darüber hinaus nutzt Adriatic Slovenica Kumuluz Payment für Online-Zahlungen in seinen digitalen Kanälen wie <a href='https://www.wiz.si/' target='_blank'>Wiz</a>. Kumuluz haben uns eine einfachere Integration und höhere Produktivität ermöglicht und sind sehr wichtig für unsere digitalen Kanäle.",
+      "title": "CIO von Adriatic Slovenica"
+    },
+    "petrol": {
+      "text": "Petrol nutzt Kumuluz als Rückgrat für digitale Produkte. Kumuluz Microservices betreiben innovative mobile Anwendungen für digitale Systeme, wie <a href='https://www.petrol.si/mobilna-aplikacija-na-poti' target='_blank'>Na poti</a>, und mehrere missionskritische Backend-Systeme, einschließlich Payment, Invoicing, Cart, Order, Fulfillment und Product Catalog. Mit Kumuluz war es uns ermöglicht die Entwicklung zu beschleunigen und die Markteinführungszeit zu verkürzen. Die Kumuluz-Plattform ist zu einem wertvollen Bestandteil unserer Strategie der digitalen Transformation geworden.",
+      "title": "CIO von Petrol"
+    },
+    "apl": {
+      "text": "Agency for accelerating liquidity (APL) benutzt Kumuluz zur Entwicklung der zukünftigen Factoring-Plattform. Mit Kumuluz haben wir die Flexibilität, Skalierbarkeit und Mobilität unserer Software bereits erheblich verbessert. Beim Wechsel von der monolithischen zur Microservice-Architektur können wir jetzt neue Funktionalitäten wesentlich schneller hinzufügen. Mit Kumuluz können wir die neue Factoring-Plattform 3x schneller entwickeln als mit traditionellen Entwicklungspraktiken.",
+      "title": "CIO von APL"
+    },
+    "couchbase": {
+      "text": "KumuluzEE bringt Microservice-Architektur zu Java EE. MAVEN-ready, Fat JAR, modulare Abhängigkeiten, Docker-Ready und ein steckbarer Web-Container machen es bereit für die Einsetzung in jeder Cloud-Umgebung. Wenn Sie Anwendungen mit Java EE erstellen, starten Sie Ihre Microservice-Reise mit KumuluzEE!",
+      "title": "Vizepräsident, Entwicklerbeziehungen bei Couchbase"
+    },
+    "jclarity": {
+      "text": "Obwohl die Java EE-Spezifikationen und Anwendungsserver in ihrer Größe zurückgegangen sind, waren sie für den heutigen Microservices-Entwickler, im Vergleich zu NodeJS oder Spring Boot, noch nicht die erste Wahl. Das ändert sich jetzt, da KumuluzEE eine leichte, anwendungsserverfreie Möglichkeit bietet, Mikroservices mit der vollen Leistungsfähigkeit von Java, JVM und JavaEE zu erstellen! Dieses innovative Stack ist ein würdiger 2015 Duke-Award-Gewinner.",
+      "title": "Java Champion und CEO von jClarity"
+    },
+    "rightrix": {
+      "text": "Wenn Sie Microservices für Java EE erkunden, müssen Sie sich KumuluzEE‘s neuartigen, aber einfachen Ansatz zur Automatisierung von Microservices ansehen.",
+      "title": "Java Champion und Gründer von Rightrix Solutions und IndicThreads"
+    }
   },
   "references": {
     "title": "Sie vertrauen uns"

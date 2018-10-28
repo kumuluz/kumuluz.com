@@ -4,17 +4,17 @@
     "digital-platform": "Digitale Plattform",
     "partners": "Partners",
     "blog": "Blog",
-    "contact": "Contact us"
+    "contact": "Kontakt"
   },
   "cookies": {
-    "warning": "",
-    "consent": ""
+    "warning": "Diese Webseite verwendet Cookies, um die Benutzererfahrung zu verbessern. Durch die Nutzung unserer Webseite stimmen Sie allen Cookies gemäß unserer Cookie-Richtlinie zu.",
+    "consent": "Ich stimme zu"
   },
   "footer": {
     "products": {
       "title": "Kumuluz Digital"
     },
-    "copyright": "&copy; Sunesis",
+    "copyright": "&copy; Sunesis, Alle Rechte vorbehalten",
     "social": {
       "title": "Social media"
     },
@@ -32,64 +32,64 @@
       "api10": "KYC"
     },
     "community": {
-      "title": "Community",
+      "title": "Gemeinschaft",
       "link1": "Blog",
       "link2": "Open Source",
       "link3": "Twitter",
       "link4": "LinkedIn"
     },
     "websites": {
-      "title": "Our websites"
+      "title": "Unsere Webseiten"
     },
     "company": {
-      "title": "Company",
-      "link1": "About us",
-      "link2": "Rewards",
-      "link3": "News",
-      "link4": "Careers",
+      "title": "Unternehmen",
+      "link1": "Über uns",
+      "link2": "Belohnungen/Prämien",
+      "link3": "Neuigkeiten",
+      "link4": "Kariere",
       "link5": "Legal"
     },
     "contact": {
-      "title": "",
+      "title": "Sprechen Sie mit unseren Experten",
       "form": {
         "name": "Vorname und Nachname",
-        "namePlaceholder": "",
+        "namePlaceholder": "Ihr vollständiger Name",
         "company": "Unternehmen",
-        "companyPlaceholder": "",
+        "companyPlaceholder": "Ihr Unternehmen",
         "email": "E-Mail",
-        "emailPlaceholder": "",
-        "companySize": "",
+        "emailPlaceholder": "johndoe at email",
+        "companySize": "Unternehmensgröße",
         "companySizeOptions": {
-          "micro": "",
-          "small": "",
-          "medium": "",
-          "large": ""
+          "micro": "Micro",
+          "small": "Klein",
+          "medium": "Medium",
+          "large": "Groß"
         },
         "phone": "Telefon Nummer",
-        "phonePlaceholder": "",
-        "partnership": "",
-        "partnershipPlaceholder": "",
+        "phonePlaceholder": "+386 41 123 456",
+        "partnership": "Partnerschaftstyp",
+        "partnershipPlaceholder": "Typ...",
         "partnershipOptions": {
-          "customer": "",
-          "integration": "",
-          "developer": ""
+          "customer": "Kunde",
+          "integration": "Integrationspartner",
+          "developer": "Entwickler"
         },
-        "message": "",
-        "messagePlaceholder": "",
-        "messageHelp": "",
-        "send": "",
+        "message": "Wie können wir helfen?",
+        "messagePlaceholder": "Geben Sie Ihre Nachricht ein...",
+        "messageHelp": "Zeichen übrig",
+        "send": "Anfrage absenden",
         "errors": {
-          "required": "",
-          "email": "",
-          "phone": ""
+          "required": "Feld ist erforderlich.",
+          "email": "Ungültige E-Mail-Adresse.",
+          "phone": "Ungültige Telefonnummer."
         }
       },
       "contact": {
-        "title": "",
-        "company": "",
-        "address": "",
-        "email": "",
-        "phone": ""
+        "title": "Kontaktinformation",
+        "company": "SUNESIS GmbH",
+        "address": "Smartinska cesta 152,<br /> Ljubljana,<br /> Slovenia",
+        "email": "e: info@sunesis.si",
+        "phone": "tel: +386 2 123 456 78"
       }
     }
   },
