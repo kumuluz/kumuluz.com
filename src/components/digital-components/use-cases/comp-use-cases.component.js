@@ -11,7 +11,7 @@ export class CompUseCasesComponent extends Component {
         section2: PropType.object,
         section3: PropType.object,
         section4: PropType.object,
-        expandNavbar: PropType.boolean
+        expandNavbar: PropType.bool
     };
 
     constructor(props) {

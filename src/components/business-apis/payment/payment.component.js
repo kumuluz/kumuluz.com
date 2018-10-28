@@ -19,10 +19,10 @@ class PaymentComponent extends Component {
 
     static propTypes = {
         t: PropType.func,
-        isScriptLoaded: PropType.boolean,
-        isScriptLoadSucceed: PropType.boolean,
+        isScriptLoaded: PropType.bool,
+        isScriptLoadSucceed: PropType.bool,
         onCloseModal: PropType.func,
-        showModal: PropType.func,
+        showModal: PropType.bool,
         price: PropType.string,
         desc: PropType.string
     };
