@@ -8,40 +8,40 @@ import imageHarshadOak from "../../assets/images/quotes/harshad_oak.jpg";
 
 export const quotes = t => [
     {
-        quote: t("customers.adriatic"),
+        quote: t("customers.adriatic.text"),
         photo: imageEdvardSimec,
         name: "Edvard Šimec",
-        company: "CIO at Adriatic Slovenica"
+        company: t("customers.adriatic.title")
     },
     {
-        quote: t("customers.petrol"),
+        quote: t("customers.petrol.text"),
         photo: imagePavelSkerlj,
         name: "Pavel Škerlj",
-        company: "CIO at Petrol"
+        company: t("customers.petrol.title")
     },
     {
-        quote: t("customers.apl"),
+        quote: t("customers.apl.text"),
         photo: imageToneCerne,
         name: "Tone Černe",
-        company: "CEO at APL"
+        company: t("customers.apl.title")
     },
 
     {
-        quote: t("customers.couchbase"),
+        quote: t("customers.couchbase.text"),
         photo: imageArunGupta,
         name: "Arun Gupta",
-        company: "Vice President, Developer Relations at Couchbase"
+        company: t("customers.couchbase.title")
     },
     {
-        quote: t("customers.jclarity"),
+        quote: t("customers.jclarity.text"),
         photo: imageMartijnVerburg,
         name: "Martijn Verburg",
-        company: "Java Champion and CEO of jClarity"
+        company: t("customers.jclarity.title")
     },
     {
-        quote: t("customers.rightrix"),
+        quote: t("customers.rightrix.text"),
         photo: imageHarshadOak,
         name: "Harshad Oak",
-        company: "Java Champion and Founder of Rightrix Solutions and IndicThreads"
+        company: t("customers.rightrix.title")
     }
 ];
