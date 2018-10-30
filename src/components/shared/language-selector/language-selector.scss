@@ -18,8 +18,8 @@
     .dropdown-selector {
       position: absolute;
       z-index: 100;
-      left: 20px;
-      top: -70px;
+      left: 60px;
+      top: -80px;
       background: $white;
       padding: 0.5rem 1rem 0;
       color: $black;
@@ -47,11 +47,11 @@
   }
 }
 
-@include device-specific('(min-width: 1710px)') {
+@include device-specific('(min-width: 992px)') {
   .lang {
     .dropdown {
       .dropdown-selector {
-        left: 0;
+        left: -30px;
         top: 30px;
       }
     }
