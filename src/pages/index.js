@@ -69,7 +69,7 @@ export default class IndexPage extends Component {
 
                 <div className="container-fluid white-section">
                     <div className="row align-items-center flex-column header">
-                        <div className="col-10 col-xl-4">
+                        <div className="col-10 col-md-8 col-xl-5">
                             <h1 className="text-center"
                                 dangerouslySetInnerHTML={{__html: t("header.main-title")}}/>
                         </div>
