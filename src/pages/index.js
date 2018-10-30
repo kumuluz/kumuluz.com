@@ -150,7 +150,7 @@ export default class IndexPage extends Component {
                 </div>
                 <div className="container-fluid dark-blue-section">
                     <div className="row align-items-center flex-column content">
-                        <div className="col-10 col-xl-3">
+                        <div className="col-10 col-xl-4">
                             <h3 className="text-center">
                                 {t("content.title")}
                             </h3>
