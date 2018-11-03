@@ -37,7 +37,7 @@ i18n
     .use(reactI18nextModule)
     .init({
         load: "languageOnly",
-        preload: ["en"],
+        preload: ["en", "sl", "de"],
         fallbackLng: "en",
         ns: ["shared"],
         defaultNS: "shared",
@@ -46,7 +46,7 @@ i18n
             escapeValue: false
         },
         react: {
-            wait: false,
+            wait: true,
             bindI18n: "languageChanged loaded"
         }
     });

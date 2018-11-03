@@ -34,23 +34,23 @@
     "api": {
       "title": "KumuluzAPI",
       "header": {
-        "subtitle": "Overview and manage your APIs in one place. Get ready for API economy.",
+        "subtitle": "Overview and manage your APIs in one place. Get ready for the API economy.",
         "items": {
           "item-1": "Auto API discovery and catalogue population",
-          "item-2": "Multiple gateways support with full security, rate-limiting and authentication",
-          "item-3": "One platform for monitoring, metrics, documentation, API search, etc."
+          "item-2": "Multiple gateways support with full security, rate limiting and authentication",
+          "item-3": "One platform for monitoring, metrics, documentation, API search etc."
         }
       },
       "about": {
         "navbar": {
           "about": {
             "title": "About the product",
-            "strong": "Expose, manage, control and monetize your APIs and get ready for API economy.",
-            "text": "<p>KumuluzAPI is a lightweight, open, standards-based solution for API Management, API Catalogue, API Gateway, API Marketplace with complete support for cataloguing API-related schemas, such as XML Schemas and JSON documents, providing full insight into APIs, their usage, relations, schemes and dependencies.</p><p>It is based on microservice architecture with full elasticity, scalability and high-availability. Functionalities are exposed through APIs and responsive web application. The KumuluzAPI solution is built to easily integrate with various backend systems, such as ESB, SOA, BPM, different development environments, DevOps (Continuous Integration and Delivery), etc.</p> <p>The product provides support for multiple languages. Currently full support for English and Slovenian is provided. Multiple language support might be important for digitalization within the country and region.</p>",
+            "strong": "Expose, manage, control and monetize your APIs and get ready for the API economy.",
+            "text": "<p>KumuluzAPI is a lightweight, open, standards-based solution for API Management, API Catalogue, API Gateway, API Marketplace with complete support for cataloguing API-related schemas, such as XML Schemas and JSON documents, providing full insight into APIs, their usage, relations, schemes and dependencies.</p><p>It is based on the microservice architecture with full elasticity, scalability and high availability. Functionalities are exposed through APIs and responsive web applications. The KumuluzAPI solution is built to easily integrate with various backend systems, such as ESB, SOA, BPM, different development environments, DevOps (Continuous Integration and Delivery) and more.</p><p>The product provides support for multiple languages. Currently full support for English and Slovenian is provided. Multiple language support might be important for digitalization within the country and region.</p>",
             "box": {
               "title": "Why should you choose KumuluzAPI?",
               "item-1": "Lightweight, standards-based solution",
-              "item-2": "Better overview",
+              "item-2": "Better management of APIs",
               "item-3": "All documentation in one place",
               "item-4": "Auto API discovery and catalogue population"
             }
@@ -60,8 +60,8 @@
             "item-1": "Create a catalogue of services and their APIs for REST and SOAP",
             "item-2": "Automatically discover APIs and services and populate the catalogue without manual intervention",
             "item-3": "Integrate with DevOps and Continuous integration/delivery",
-            "item-4": "Document your APIs in a standard, language and technology independent way",
-            "item-5": "Search, filter, test APIs and service",
+            "item-4": "Document your APIs in a standard, language- and technology independent way",
+            "item-5": "Search, filter, test APIs and services",
             "item-6": "Full versioning support for APIs on different environments and simultaneous version support",
             "item-7": "Complete lifecycle management of APIs",
             "item-8": "Full support for microservices and integration with KumuluzEE",
@@ -76,9 +76,9 @@
             "item-17": "Support for application servers, virtualized environments, PaaS and Docker-style environments"
           },
           "customer": {
-            "title": "Customer & use cases",
-            "subtitle": "Customer & use cases",
-            "content": "<p>Where can you use KumuluzAPI?</p><p>You have few services that you want to expose to third parties. For example, municipality could use KumuluzAPI to expose land register to some other branch of government. With the KumuluzAPI you can manage who has access to exposed APIs, who's using them, you have central management platform for everything. Beside that KumuluzAPI handles security for you, so you only need to manage who you allow to use exposed services.</p>"
+            "title": "Customers & Use Cases",
+            "subtitle": "Customers & Use Cases",
+            "content": "<p>Where can you use KumuluzAPI?</p><p>You have a few services that you want to expose to third parties. For example, the municipality could use KumuluzAPI to expose the land register to some other branch of government. With the KumuluzAPI you can manage who has access to the exposed APIs and who's using them, you have a central management platform for everything. Additionally, KumuluzAPI handles security for you, so you only need to manage who is allowed to use the exposed services.</p>"
           },
           "demo": {
             "title": "Demo",
@@ -88,7 +88,7 @@
       },
       "motto": {
         "title": "APIs allow different applications to talk to each other.",
-        "subtitle": "But, API management can lead to security problems, performance issues and lower productivity if not done properly."
+        "subtitle": "However, API management can lead to security problems, performance issues and lower productivity if not done properly."
       },
       "benefits": {
         "title": "Main benefits and features of KumuluzAPI",
@@ -96,23 +96,27 @@
         "items": {
           "item-1": {
             "title": "Dynamic APIs discovery",
-            "desc": "You can discover APIs either through API Catalogue or in programmatic way using ZooKeeper as a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services."
+            "desc": "You can discover APIs either through the API Catalogue or in a programmatic way using ZooKeeper as a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services."
           },
           "item-2": {
             "title": "Advanced API usage analytics",
             "desc": "Analytics on API usage, client requests, responses, geolocation of requests, responses, etc. is provided. Reports can be generated automatically. Furthermore, all data can be exported into a Big Data/Analytics tool for further analysis."
           },
           "item-3": {
-            "title": "Monitor your system in real-time",
+            "title": "Monitor your system in real time",
             "desc": "Real-time monitoring of API health, response times, requests, API clients, gateway performance and scalability and other parameters are supported. Full support for specifying SLA requirements for each API are provided with real-time monitoring of SLA compliance and alarms when SLA parameters are not meet."
           },
           "item-4": {
             "title": "Diagnose and log requests/responses",
-            "desc": "All requests and responses over gateways are logged. History, audit trail of requests and responses is available online or in generated report. Supports full API diagnostic. Active API monitoring is performed in user-configurable intervals (such as every 5 minutes). Active service health is performed and real-time diagnostics, monitoring and alarm notifications are supported."
+            "desc": "All requests and responses over gateways are logged. History, the audit trail of requests and responses, is available online or in a generated report. Supports full API diagnostics. Active API monitoring is performed in user-configurable intervals (for example every 5 minutes). Active service health is performed and real-time diagnostics, monitoring and alarm notifications are supported."
           },
           "item-5": {
             "title": "Rule-based SLA control",
-            "desc": "KumuluzAPI provides full QoS and SLA control. This includes request throttling, which is rule based and can be flexibly configured. All throttling is related to usage plan. Each API can have one or more usage plans. Fully automatic inbound and outbound SOAP/REST and XSD/JSON transformations are supported and can be configured for each gateway. KumuluzAPI provides full real-time monitoring of SLA parameters and their compliance for each service."
+            "desc": "KumuluzAPI provides full QoS and SLA control. This includes request throttling, which is rule based and can be flexibly configured. All throttling is related to the usage plan. Each API can have one or more usage plans. Fully automatic inbound and outbound SOAP/REST and XSD/JSON transformations are supported and can be configured for each gateway."
+          },
+          "item-6": {
+            "title": "Dynamic APIs discovery",
+            "desc": "You can discover APIs either through the API Catalogue or in a programmatic way using ZooKeeper as a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services."
           }
         },
         "after-text": {
@@ -126,20 +130,20 @@
           "config": {
             "title": "API Configuration",
             "item-1": {
-              "bold": "Manual through user interface",
-              "text": "Use modern web application to manage configuration and your APIs."
+              "bold": "Manually through a user interface",
+              "text": "Use modern web applications to manage configuration and your APIs."
             },
             "item-2": {
               "bold": "Programmatically through APIs exposed by KumuluzEE",
-              "text": "All configuration is available through KumuluzEE APIs. You can use this to manage your API programmatically."
+              "text": "All configuration is available through KumuluzEE APIs. You can use this to manage your APIs programmatically."
             },
             "item-3": {
               "bold": "Automatic API configuration at build time",
-              "text": "At build-time, direct integration with Jenkins and Maven enables that APIs are configured, documented and registered automatically as a part of the build cycle."
+              "text": "At build time, direct integration with Jenkins and Maven enables that APIs are configured, documented and registered automatically as part of the build cycle."
             },
             "item-4": {
-              "bold": "Automatic API configuration at deploy time.",
-              "text": "At deploy-time, APIs are configured, documented and registered as a part of deploy procedure, utilizing tight integration with Nexus repository of artefacts."
+              "bold": "Automatic API configuration at deploy time",
+              "text": "At deploy-time, APIs are configured, documented and registered as part of the deploy procedure, utilizing tight integration with the Nexus repository of artefacts."
             }
           },
           "docs": {
@@ -147,11 +151,11 @@
             "para": "The documentation of APIs can be either entered manually through UI or automatically integrated.",
             "item-1": {
               "bold": "Auto-generated documentation",
-              "text": "Basic documentation is auto-generated out of WSDL for SOAP services and Swagger or RAML for REST services."
+              "text": "Basic documentation is auto-generated from WSDL for SOAP services and from Swagger or RAML for REST services."
             },
             "item-2": {
               "bold": "Supports dependencies and diagrams",
-              "text": "Complete solution for documenting APIs in standardized and conformant way, including full documentation, dependencies, UML diagrams, BPMN diagrams and other means of documentation."
+              "text": "Complete solution for documenting APIs in a standardized and conformant way, including full documentation, dependencies, UML diagrams, BPMN diagrams and other means of documentation."
             },
             "item-3": {
               "bold": "Markdown support",
@@ -166,8 +170,8 @@
               "text": "Each API can be published for one or more organizations and on one or more gateways."
             },
             "item-2": {
-              "bold": "Publishing APIs for different targets",
-              "text": "APIs can be published for different target user groups. Each API can be published on for one or more organizations and on one or more gateways."
+              "bold": "Publishing APIs for different target groups",
+              "text": "APIs can be published for different target user groups. Each API can be published for one or more organizations and on one or more gateways."
             },
             "item-3": {
               "bold": "Gateway configuration",
@@ -176,7 +180,7 @@
           },
           "security": {
             "title": "API Security & authentication",
-            "content": "<p>REST services can be secured using SSL/TLS, for authentication OAuth, basic HTTP, SAML, custom security headers and nounces are supported.</p><p>Authentication provider can be one or more external providers, such as LDAP, Oauth2, Kerberos, etc. SOAP service can be secured using WS-Security. Username, X.509 and SAML profiles are supported. Also, basic HTTP and SSL/TLS is supported.</p><p>For each endpoint, full endpoint validation can be enabled. Endpoint translation from gateway to server (virtual endpoint resolution) is automatic.</p>"
+            "content": "<p>REST services can be secured using SSL/TLS, for authentication OAuth, basic HTTP, SAML, custom security headers and nonces are supported.</p><p>The authentication provider can be one or more external providers, such as LDAP, Oauth2, Kerberos, etc. SOAP services can be secured using WS-Security. Username, X.509 and SAML profiles are supported. Additionally, basic HTTP and SSL/TLS are supported.</p><p>For each endpoint, full endpoint validation can be enabled. Endpoint translation from gateway to server (virtual endpoint resolution) is automatic.</p>"
           }
         }
       },
@@ -189,16 +193,18 @@
         "items": {
           "item-1": "Java Duke's Choice Award Winner",
           "item-2": "MicroProfile compliant",
-          "item-3": "Cloud native architecture with smallest JAR"
+          "item-3": "Cloud native architecture with the smallest JAR",
+          "item-4": "Supports Java, JavaEE/JakartaEE, Node.js, Go and other languages"
         }
       },
       "about": {
         "about": {
           "title": "About the product",
           "left": {
-            "title": "Develop microservices with Java EE technologies",
-            "para-1": "is a lightweight framework for developing microservices using standard Java EE technologies and migrating existing Java EE applications to microservices. KumuluzEE packages microservices as standalone JARs. KumuluzEE microservices are lightweight and optimized for size and start-up time. They fit perfectly with Docker containers.",
-            "para-2": "KumuluzEE also provides extensions for developing common patterns in cloud native architectures, including configuration, logging, discovery, circuit-breakers, metrics, security, event streaming and more."
+            "title": "Develop microservices with Java technologies and support for other languages.",
+            "para-1": "is a lightweight framework for developing microservices using standard Java, JavaEE/JakartaEE technologies and migrating existing Java applications to microservices. KumuluzEE packages microservices as standalone JARs. KumuluzEE microservices are lightweight and optimized for size and start-up time. They fit perfectly with Docker containers.",
+            "para-2": "KumuluzEE also provides extensions for developing common patterns in cloud native architectures, including configuration, logging, discovery, circuit-breakers, metrics, security, event streaming and more.",
+            "para-3": "KumuluzEE supports Java, Node.js, Go and other programming languages. It also provides support for Blockchain, gRPC, GraphQL and many other advanced technologies."
           },
           "right": {
             "title": "Why should you choose KumuluzEE?",
@@ -211,7 +217,7 @@
               "desc": ""
             },
             "item-3": {
-              "title": "Fully cloud native",
+              "title": "Fully cloud-native",
               "desc": ""
             },
             "item-4": {
@@ -222,15 +228,16 @@
         },
         "features": {
           "title": "Main features",
-          "left-para": "KumuluzEE allows you to decompose Java EE applications into microservices and prepare them for the cloud. It allows you to create standalone lightweight Java EE microservices that can be efficiently deployed, executed and scaled in the cloud on PaaS and Docker-like environments or as standalone applications. KumuluzEE microservices have minimal footprint and require minimal or no configuration. KumuluzEE automates the tasks, related to the deployment and configuration of Java EE microservices, thus overcoming the major drawback of the microservice architecture and eliminating the need for an application server.",
+          "left-para-1": "KumuluzEE allows you to decompose Java applications into microservices and prepare them for cloud-native architecture. It allows you to create standalone lightweight Java and JavaEE/JakartaEE microservices that can be efficiently deployed, executed and scaled in the cloud on PaaS and Docker-like environments or as standalone applications. It also supports other languages, such as Node.js, Go, and more.",
+          "left-para-2": "KumuluzEE microservices have a minimal footprint and require minimal or no configuration. KumuluzEE automates tasks related to the deployment and configuration of Java microservices, thus overcoming the major drawback of the microservice architecture and eliminating the need for an application server.",
           "right": {
             "title": "At a glance",
             "item-1": {
-              "title": "Develop Java EE microservices ready for the Cloud",
+              "title": "Develop Java and JavaEE/JakartaEE microservices ready for the Cloud",
               "desc": ""
             },
             "item-2": {
-              "title": "Migrate existing Java EE application to microservices",
+              "title": "Migrate existing Java and JavaEE applications to microservices",
               "desc": ""
             },
             "item-3": {
@@ -238,7 +245,7 @@
               "desc": ""
             },
             "item-4": {
-              "title": "Complete control over Java EE components",
+              "title": "Complete control over Java components",
               "desc": ""
             }
           }
@@ -338,53 +345,49 @@
       "capabilities": {
         "migration": {
           "title": "Migration to microservices",
-          "subtitle": "Gradually migrate existing Java EE application to the microservice architecture",
+          "subtitle": "Gradually migrate existing Java and JavaEE applications to the microservice architecture",
           "item-1": {
             "title": "Support for gradual migration",
-            "desc": "KumuluzEE provides full support for gradual migration of existing Java EE application to the microservice architecture."
+            "desc": "KumuluzEE provides full support for gradual migration of existing Java EE applications to the microservice architecture. Step-by-step migration is supported, allowing you to extract one or more services from existing applications and migrate them to microservices."
           },
           "item-2": {
-            "title": "Support for step-by-step migration",
-            "desc": "Step-by-step migration is supported so that you can extract one or more services from existing application and migrate them to microservices."
+            "title": "Classical Java EE application server",
+            "desc": "Part of your application can run as a microservice and the rest of the application can continue to operate on your classical Java EE application server. KumuluzEE provides full interoperability for container authentication, CDI, remote EJB calls, remote JMS, data sources, etc."
           },
           "item-3": {
-            "title": "Classical Java EE application server",
-            "desc": "Part of your application can run as microservices and the rest of the application can continue to operate on your classical Java EE application server. KumuluzEE provides full interoperability for container authentication, CDI, remote EJB calls, remote JMS, data sources, etc."
-          },
-          "item-4": {
             "title": "Interoperability",
-            "desc": "Microservices build with KumuluzEE will have native interoperability with the rest of the application on your Java EE application server."
+            "desc": "Microservices build with KumuluzEE will have native interoperability with the rest of the applications on your Java EE application server."
           }
         },
         "comparison": {
           "title": "Comparison with other solutions",
           "subtitle": "Comparison with other solutions",
-          "para-1": "When selecting a framework for Java EE microservices, you should consider the start-up time, size and memory footprint of a microservice.",
+          "para-1": "When selecting a framework for Java microservices, you should consider the start-up time, size and memory footprint of a microservice.",
           "para-2": {
             "before": "The article",
             "link": "Java EE microservices: why start-up time and size matter",
             "after": "shows an interesting comparison of MicroProfile Java EE frameworks, including WebSphere Liberty, WildFly Swarm, Payara, TomEE and KumuluzEE."
           },
-          "para-3": "KumuluzEE has achieved the fastest start-up time of 3 seconds and the smallest JAR size (11 MB):"
+          "para-3": "KumuluzEE has achieved the fastest start-up time of 3 seconds and the smallest JAR size of 11 MB:"
         },
         "docker": {
           "title": "Docker & Kubernetes support",
           "subtitle": "Docker & Kubernetes support",
           "item-1": {
-            "title": "Cloud native",
+            "title": "Cloud-native",
             "desc": "KumuluzEE allows you to extend your microservices with common cloud-native patterns."
           },
           "item-2": {
-            "title": "Support for",
-            "desc": "KumuluzEE provides full support for config, discovery, health, logging, security, fault tolerance, circuit-breakers, event streaming, metrics, REST patterns and more."
+            "title": "Support for cloud-native patterns",
+            "desc": "KumuluzEE provides full support for config, discovery, health, logging, security, fault tolerance, circuit breakers, event streaming, metrics, REST patterns, gRPC, GraphQL, Blockchain and more."
           },
           "item-3": {
             "title": "Docker containers",
             "desc": "KumuluzEE microservices can be packed as Docker containers and provide full support for container environments."
           },
           "item-4": {
-            "title": "Compatible with Kubernetes",
-            "desc": "KumuluzEE microservices are fully compatible with Kubernetes."
+            "title": "Optimized for Kubernetes",
+            "desc": "KumuluzEE microservices are fully optimized for Kubernetes, including configuration, service discovery, health, metrics and fault tolerance."
           }
         },
         "framework": {
@@ -397,13 +400,16 @@
           "item-5": "KumuluzEE Metrics for easy collection and reporting of performance metrics.",
           "item-6": "KumuluzEE Security for easy integration with OAuth2/OpenID identity and access management providers.",
           "item-7": "KumuluzEE Health for implementing health checks and exposing microservice health information.",
-          "item-8": "KumuluzEE Fault Tolerance for implementing fault tolerance patterns, circuit-breakers, and decoupling microservices.",
+          "item-8": "KumuluzEE Fault Tolerance for implementing fault tolerance patterns, circuit breakers, and decoupling microservices.",
           "item-9": "KumuluzEE Event Streaming for event streaming support using Apache Kafka.",
           "item-10": "KumuluzEE Reactive for integration of reactive streams (Vert.x, ReactiveX).",
           "item-11": "KumuluzEE CORS for Cross-Origin Resource Sharing (CORS) support.",
           "item-12": "KumuluzEE Swagger for Swagger (OpenAPI 2) support and visualization.",
-          "item-13": "KumuluzEE OpenAPI for OpenaAPI 3 support, interface generation and visualization",
-          "item-14": "KumuluzEE Blockchain for blockchain-enabled microservices."
+          "item-13": "KumuluzEE OpenAPI for OpenAPI 3 support, interface generation and visualization.",
+          "item-14": "KumuluzEE Testing for providing tools and utilities for testing KumuluzEE microservices.",
+          "item-15": "KumuluzEE gRPC for native support for gRPC based services.",
+          "item-16": "KumuluzEE GraphQL for native support for GraphQL.",
+          "item-17": "KumuluzEE Ethereum for Ethereum-enabled microservices (Blockchain)."
         }
       },
       "prod-grid": "Discover other Kumuluz Digital Building Blocks"

@@ -32,155 +32,387 @@
   },
   "components": {
     "api": {
-      "title": "",
+      "title": "KumuluzAPI",
       "header": {
-        "subtitle": "",
+        "subtitle": "Naredite pregled in upravljajte svoje aplikacijske programske vmesnike na enem mestu. Pripravite se na gospodarstvo API-jev.",
         "items": {
-          "item-1": "",
-          "item-2": "",
-          "item-3": ""
+          "item-1": "Samodejno iskanje API-jev in katalog populacije",
+          "item-2": "Podpora več prehodom s polno varnostjo, omejitvijo hitrosti in avtentikacijo",
+          "item-3": "Ena sama platforma za monitoring, metrike, dokumentacijo, iskanje API-jev itd."
         }
       },
       "about": {
         "navbar": {
           "about": {
-            "title": "",
-            "strong": "",
-            "text": "",
+            "title": "O izdelku",
+            "strong": "Razkrite, upravljajte, nadzirajte in monetizirajte svoje aplikacijske programske vmesnike ter se tako pripravite na gospodarstvo API-jev.",
+            "text": "<p>KumuluzAPI je lahka, odprtokodna standardna rešitev, ki podpira storitve API Management, API Catalogue, API Gateway in API Marketplace. Prav tako podpira katalogiziranje shem, povezanih z API-ji, kot so sheme XML in dokumenti JSON, ki omogočajo poln vpogled v API-je, njihovo uporabo, odnose, sheme in odvisnosti.</p><p>Temelji na mikrostoritveni arhitekturi ter je popolnoma elastična, skalabilna in visoko razpoložljiva. Funkcionalnosti so izpostavljene preko API-jev in odzivnih spletnih aplikacij. Rešitev KumuluzAPI je zgrajena s ciljem, da omogoča preprosto integracijo z raznimi zalednimi sistemi, kot so ESB, SOA, BPM, različna razvojna okolja, DevOps (neprekinjena integracija in dostava) itd.</p><p>Izdelek ponuja podporo za več jezikov. Trenutno je omogočena celotna podpora za angleščino in slovenščino. Večjezična podpora bo pomembna za digitalizacijo znotraj države in regije.</p>",
             "box": {
-              "title": "",
-              "item-1": "",
-              "item-2": "",
-              "item-3": "",
-              "item-4": ""
+              "title": "Zakaj izbrati Kumuluz API?",
+              "item-1": "Lahka standardna rešitev",
+              "item-2": "Boljše upravljanje aplikacijskih programskih vmesnikov",
+              "item-3": "Vsa dokumentacija na enem metu",
+              "item-4": "Samodejno odkritje API-jev in katalog populacije"
             }
           },
           "features": {
-            "title": "",
-            "item-1": "",
-            "item-2": "",
-            "item-3": "",
-            "item-4": "",
-            "item-5": "",
-            "item-6": "",
-            "item-7": "",
-            "item-8": "",
-            "item-9": "",
-            "item-10": "",
-            "item-11": "",
-            "item-12": "",
-            "item-13": "",
-            "item-14": "",
-            "item-15": "",
-            "item-16": "",
-            "item-17": ""
+            "title": "Glavne značilnosti",
+            "item-1": "Ustvarite dialog storitev in njihovih API-jev za protokola REST in SOAP",
+            "item-2": "Samodejno iščite API-je in storitve ter napolnite katalog brez ročnega posredovanja",
+            "item-3": "Integrirajte z metodologijama DevOps in neprekinjeno integracijo/dostavo",
+            "item-4": "Dokumentirajte svoje API-je na standardni način, ki ni odvisen od jezika in tehnologije",
+            "item-5": "Iščite, filtrirajte, testirajte API-je in storitve",
+            "item-6": "Popolna podpora shranjevanju različic za API-je v različnih okoljih ter podpora simultanim verzijam ",
+            "item-7": "Popolno upravljanje življenjskega cikla API-jev ",
+            "item-8": "Popolna podpora za mikrostoritve in integracija s platformo KumuluzEE",
+            "item-9": "Analiza odvisnosti in vizualizacija za API-je, aplikacije in sheme",
+            "item-10": "Vključena podpora shemam (XSD/JSON) za iskanje in ogled shem, ki so uporabljene v API-jih, vključno z analizo odvisnosti in vizualizacijo",
+            "item-11": "Več načrtov, sporazum o ravni storitve, kvaliteta storitve, možnosti za omejevanje hitrosti in monetizacijo",
+            "item-12": "Spremljanje sporazuma o ravni storitve in skladnost z njim v realnem času",
+            "item-13": "Dostop vmesnika API do odobravanja poteka dela",
+            "item-14": "Podpora za več prehodov s polno varnostjo, omejevanjem hitrosti in podporo preverjanju pristnosti skozi različne ponudnike (kot so LDAP, OAuth2, Kerberos itd.)",
+            "item-15": "Spremljanje metrik, kvalitete storitve in sporazuma o ravni storitve",
+            "item-16": "Spremljanje stanja API-jev in storitev",
+            "item-17": "Podpora za aplikacijske strežnike, virtualizirana okolja, platforme kot storitve in okolja v stilu vsebnika Docker"
           },
           "customer": {
-            "title": "",
-            "subtitle": "",
-            "content": ""
+            "title": "Stranke in primeri uporabe",
+            "subtitle": "Stranke in primeri uporabe",
+            "content": "<p>Kje lahko uporabite KumuluzAPI?</p><p>Imate nekaj storitev, ki jih želite na voljo dati tretjim strankam. Na primer, občina bi lahko uporabila KumuluzAPI in tako dala na voljo zemljiško knjigo neki drugi veji vlade. S platformo KumuluzAPI lahko določite, kdo ima dostop do teh izpostavljenih API-jev ter kdo jih uporablja, prav tako pa imate za vse centralno upravljalno platformo. KumuluzAPI namesto vas poskrbi za varnost, zato morate le določiti, komu boste dovolili uporabiti izpostavljene storitve.</p>"
           },
           "demo": {
-            "title": "",
-            "tryout": ""
+            "title": "Demo predstavitev",
+            "tryout": "Preizkusite"
           }
         }
       },
       "motto": {
-        "title": "",
-        "subtitle": ""
+        "title": "API-ji različnim aplikacijam dovoljujejo, da komunicirajo med sabo",
+        "subtitle": "Vendar pa upravljanje API-jev lahko vodi v probleme z varnostjo, težave z delovanjem in manjšo produktivnost, če ni opravljeno tako kot treba."
       },
       "benefits": {
-        "title": "",
-        "subtitle": "",
+        "title": "Glavne prednosti in značilnosti rešitve KumuluzAPI",
+        "subtitle": "Lahka, odprta rešitev za standardno upravljanje API-jev.",
         "items": {
           "item-1": {
-            "title": "",
-            "desc": ""
+            "title": "Dinamično odkrivanje API-jev",
+            "desc": "API-je lahko odkrijete skozi katalog aplikacijskih programskih vmesnikov ali načrtno tako, da uporabite centralizirano storitev ZooKeeper in ohranite informacije o konfiguraciji ter poimenovanje, omogočite distribuirano sinhronizacijo in ponudite skupinske storitve."
           },
           "item-2": {
-            "title": "",
-            "desc": ""
+            "title": "Napredna analitika uporabe API-jev",
+            "desc": "Na voljo je analitika uporabe API-jev, zahtev strank, odzivov, geografske lokacije zahtev, odzivov itd. Poročila lahko ustvarite samodejno. Prav tako lahko izvozite vse podatke v orodje za masovne podatke/analitiko, ki omogoča nadaljnjo analizo."
           },
           "item-3": {
-            "title": "",
-            "desc": ""
+            "title": "Spremljajte svoj sistem v realnem času",
+            "desc": "Podprto je spremljanje stanja API-jev, njihovega odzivnega časa, zahtev, klientov API, delovanja prehodov, skalabilnosti in ostalih parametrov v realnem času. Za vsak API je omogočena polna podpora za specifikacijo zahtev sporazuma o ravni storitev, prav tako pa je omogočeno spremljanje skladnosti s sporazumom v realnem času in alarmi, ko parametri dogovora niso izpolnjeni."
           },
           "item-4": {
-            "title": "",
-            "desc": ""
+            "title": "Diagnosticirajte in beležite zahteve/odzive",
+            "desc": "Vse zahteve in odzivi preko prehodov so beleženi. Zgodovina, revizijska sled zahtev in odzivov je dostopna preko spleta ali v generiranem poročilu. Podprta je celotna diagnostika API-jev. Aktiven monitoring API-jev se izvaja v intervalih, ki jih določi uporabnik (na primer vsakih pet minut). Stanje storitve se aktivno preverja, podprti pa so tudi diagnostika v realnem času, monitoring in obvestila o alarmih."
           },
           "item-5": {
-            "title": "",
-            "desc": ""
+            "title": "Nadzor nad dogovorom o ravni storitev, ki temelji na pravilih",
+            "desc": "KumuluzAPI omogoča popoln nadzor nad kvaliteto storitev in sporazumom o ravni storitev. To vključuje zaviranje zahtev, ki temelji na pravilih in je lahko fleksibilno nastavljeno. Vso zaviranje je povezano z načrtom uporabe. Vsak API ima lahko enega ali več načrtov uporabe. Podprte so popolnoma samodejne transformacije vhodnih in izhodnih protokolov SOAP/REST in shem XSD/JSON, ki so lahko konfigurirane za vsak prehod. KumuluzAPI omogoča celovito spremljanje parametrov dogovora o ravni storitev v realnem času ter skladnost teh parametrov z vsako storitvijo."
+          },
+          "item-6": {
+            "title": "Dinamično odkrivanje API-jev",
+            "desc": "API-je lahko odkrijete skozi katalog aplikacijskih programskih vmesnikov ali načrtno tako, da uporabite centralizirano storitev ZooKeeper kot in ohranite informacije o konfiguraciji ter poimenovanje, omogočite distribuirano sinhronizacijo in ponudite skupinske storitve."
           }
         },
         "after-text": {
-          "colored": "",
-          "text": ""
+          "colored": "Izkoristite",
+          "text": "okolje aplikacijskih programskih vmesnikov."
         }
       },
       "use-cases": {
-        "title": "",
+        "title": "Zmožnosti, primeri uporabe in mnenja strank",
         "items": {
           "config": {
-            "title": "",
+            "title": "API konfiguracija",
             "item-1": {
-              "bold": "",
-              "text": ""
+              "bold": "Ročno preko uporabniškega vmesnika",
+              "text": "Uporabite moderne spletne aplikacije za upravljanje konfiguracije in svojih API-jev."
             },
             "item-2": {
-              "bold": "",
-              "text": ""
+              "bold": "Programsko skozi API-je, ki jih izpostavi KumuluzEE",
+              "text": "Vsa konfiguracija je na voljo skozi aplikacijske programske vmesnike KumuluzEE, ki jih lahko uporabite, da programsko upravljate s svojimi API-ji."
             },
             "item-3": {
-              "bold": "",
-              "text": ""
+              "bold": "Samodejna konfiguracija API-jev pri gradnji",
+              "text": "Pri gradnji neposredna integracija z orodjema Jenkins in Maven omogoča, da so API-ji samodejno konfigurirani, dokumentirani in registrirani kot del gradbenega ciklusa."
             },
             "item-4": {
-              "bold": "",
-              "text": ""
+              "bold": "Samodejna konfiguracija API-jev ob zagonu",
+              "text": "Ob zagonu so API-ji konfigurirani, dokumentirani in registrirani kot del zagonskega postopka, uporabljajo pa tesno integracijo s skladiščem artefaktov Nexus."
             }
           },
           "docs": {
-            "title": "",
-            "para": "",
+            "title": "API dokumentacija",
+            "para": "Dokumentacijo za API-je lahko vnesete ročno skozi uporabniški vmesnik ali pa samodejno integrirate. ",
             "item-1": {
-              "bold": "",
-              "text": ""
+              "bold": "Samodejno ustvarjena dokumentacija",
+              "text": "Osnovna dokumentacija je samodejno ustvarjena iz jezika WSDL za protokol SOAP in jezikov Swagger ali RAML za protokol REST."
             },
             "item-2": {
-              "bold": "",
-              "text": ""
+              "bold": "Podpira odvisnosti in diagrame",
+              "text": "Celostna rešitev za dokumentiranje API-jev na standardiziran in skladen, vključno s polno dokumentacijo, odvisnostmi, diagrami UML, diagrami BPMN in ostalimi načini dokumentacije."
             },
             "item-3": {
-              "bold": "",
-              "text": ""
+              "bold": "Podpora za Markdown",
+              "text": "Možnosti za API dokumentacijo prav tako vključujejo Markdown."
             }
           },
           "publishing": {
-            "title": "",
-            "para": "",
+            "title": "API Publishing",
+            "para": "Objavite lahko lastne API-je in tako zmanjšate silose podatkov v svojem podjetju ali zgradite razmerja z zunanjimi razvijalci.",
             "item-1": {
-              "bold": "",
-              "text": ""
+              "bold": "Platformo API Publishing podpira platforma API Gateways",
+              "text": "Vsak API je lahko objavljen za eno ali več organizacij ter na enem ali več prehodih."
             },
             "item-2": {
-              "bold": "",
-              "text": ""
+              "bold": "Objava API-jev za različne ciljne skupine",
+              "text": "API-ji so lahko objavljeni za različne ciljne skupine uporabnikov. Vsak API je lahko objavljen za eno ali več organizacij ter na enem ali več prehodih."
             },
             "item-3": {
-              "bold": "",
-              "text": ""
+              "bold": "Konfiguracija prehodov",
+              "text": "Za vsak prehod lahko posamezno nastavite varnost, preverjanje pristnosti, omejitev hitrosti, sporazum o ravni storitve in ostale parametre."
             }
           },
           "security": {
-            "title": "",
-            "content": ""
+            "title": "API varnost in preverjanje pristnosti",
+            "content": "<p>Storitve REST so lahko varovane z uporabo SSL/TLS, za preverjanje pristnosti pa so podprti OAuth, osnovni http, SAML, po meri narejene varnostne glave in žetoni (ang. nonce).</p><p>Ponudniki za preverjanje pristnosti so lahko zunanji ponudniki, kot so LDAP, Oauth2, Kerberos itd. Storitve SOAP so lahko varovane s pomočjo WS-Security. Profili Username, X.509 in SAML so podprti. Prav tako sta podprta osnovna http in SSL/TLS.</p><p>Za vsako končno točko je omogočena popolna validacija končne točke. Prevod končne točke od prehoda do strežnika (resolucija virtualne končne točke) je samodejen.</p>"
           }
         }
       },
-      "prod-grid": ""
+      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
+    },
+    "ee": {
+      "title": "KumuluzEE",
+      "header": {
+        "subtitle": "Lahko, odprtokodno mikrostoritveno ogrodje.",
+        "items": {
+          "item-1": "Zmagovalec nagrade Java Duke's Choice Award",
+          "item-2": "Skladno z MicroProfile",
+          "item-3": "Oblačna arhitektura z najmanjšo datoteko JAR",
+          "item-4": "Podpira jezike Java, JavaEE/JakartaEE, Node.js, Go in druge"
+        }
+      },
+      "about": {
+        "about": {
+          "title": "O izdelku",
+          "left": {
+            "title": "Razvijte mikrostoritve z javanskimi tehnologijami in podporo za druge jezike.",
+            "para-1": "je lahko ogrodje, v katerem lahko razvijate mikrostoritve s pomočjo standardnih tehnologij Java, JavaEE/JakartaEE, ter prestavite obstoječe aplikacije iz Jave v mikrostoritveno ogrodje. KumuluzEE mikrostoritve zapakira kot samostojne datoteke JAR. Mikrostoritve KumuluzEE so lahke ter optimizirane za velikost in čas zagona. Popolno se prilegajo z vsebniki Docker.",
+            "para-2": "KumuluzEE prav tako ponuja razširitve za razvoj skupnih vzorcev v oblačnih arhitekturah, vključno s konfiguracijo, beleženjem, iskanjem, varnostnimi stikali, metrikami, varnostjo, prenosom dogodkov in več.",
+            "para-3": "KumuluzEE podpira programske jezike Java, Node.js, Go in ostale. Prav tako ponuja podporo za tehnologijo veriženja blokov, gRPC, GraphQL in mnoge druge napredne tehnologije."
+          },
+          "right": {
+            "title": "Zakaj izbrati KumuluzEE?",
+            "item-1": {
+              "title": "Najhitrejši čas zagona",
+              "desc": ""
+            },
+            "item-2": {
+              "title": "Najmanjša datoteka JAR",
+              "desc": ""
+            },
+            "item-3": {
+              "title": "Popolnoma prilagojen za oblak",
+              "desc": ""
+            },
+            "item-4": {
+              "title": "Optimiziran za vsebnike Docker in Kubernetes",
+              "desc": ""
+            }
+          }
+        },
+        "features": {
+          "title": "Glavne značilnosti",
+          "left-para-1": "KumuluzEE vam omogoča, da Java aplikacije dekompozirate v mikrostoritve ter jih pripravite na oblačno arhitekturo. Omogoča vam, da ustvarite samostojne lahke mikrostoritve Java in JavaEE/JakartaEE, ki jih lahko učinkovito namestite, izvajate in skalirate v oblaku, tako v obliki platform kot storitev (ang. platform as a service ali PaaS) in okoljih vsebnikov, kot je Docker, kot tudi v samostojnih aplikacijah. KumuluzEE podpira tudi druge jezike, kot so Node.js, Go in podobni.",
+          "left-para-2": "Mikrostoritve KumuluzEE zasedajo karseda malo pomnilnika in zahtevajo minimalno ali nič konfiguracije. KumuluzEE avtomatizira naloge, ki so povezane z namestitvijo in konfiguracijo javanskih mikrostoritev, s čimer premaga veliko pomanjkljivost mikrostoritvene arhitekture ter odpravi potrebo po aplikacijskem strežniku.",
+          "right": {
+            "title": "Na pogled",
+            "item-1": {
+              "title": "Razvijte mikrostoritve Java in JavaEE/JakartaEE, ki so pripravljene na oblak",
+              "desc": ""
+            },
+            "item-2": {
+              "title": "Prenesite obstoječe aplikacije Java in JavaEE v ogrodje mikrostoritev",
+              "desc": ""
+            },
+            "item-3": {
+              "title": "Minimalno zasedanje pomnilnika, učinkovita namestitev in skalabilnost v oblaku",
+              "desc": ""
+            },
+            "item-4": {
+              "title": "Popoln nadzor nad javanskimi komponentami",
+              "desc": ""
+            }
+          }
+        },
+        "customers": {
+          "title": "Stranke in primeri uporabe",
+          "item-1": {
+            "quote": "KumuluzEE predstavlja odlična skupna prizadevanja za razvoj mikrostoritev, ki temeljijo na javanskih API-jih, predvsem v oblaku.",
+            "author-title": "Senior Java Technologist, avtor, govorec"
+          },
+          "item-2": {
+            "quote": "KumuluzEE resnično pripelje mikrostoritveno arhitekturo v Javo EE. Modularni spletni vsebnik je pripravljen za Maven, omogoča Fat JAR in modularizirane odvisnosti, ter je pripravljen na vsebnike Docker, kar omogoča, da je lahko takoj nameščen v katerokoli oblačno okolje. Če gradite aplikacije v okolju Java EE, začnite svojo mikrostoritveno pot s platformo KumuluzEE!",
+            "author-title": "podpredsednik, odnosi z razvijalci pri podjetju Couchbase"
+          },
+          "item-3": {
+            "quote": "Četudi so se specifikacije in aplikacijski serverji platforme Java EE zmanjšali, le-ta še vedno ni bila prva tehnološka izbira za mikrostoritvene razvijalce v primerjavi s platformami, kot sta na primer NodeJS ali Spring Boot. To se je sedaj spremenilo, saj KumuluzEE omogoča način ustvarjanja mikrostoritev, ki je lahek in ne potrebuje aplikacijskih strežnikov, prav tako pa je podprt s polno močjo storitev Java, JVM in Java EE. Ta inovativen sklad je zaslužen zmagovalec nagrade Duke Awards leta 2015.",
+            "author-title": "prvak v Javi in direktor podjetja jClarity"
+          },
+          "item-4": {
+            "quote": "Če iščete mikrostoritve za platformo Java EE, si morate ogledati nov in preprost način, ki vam ga KumuluzEE ponuja za avtomatizacijo mikrostoritev.",
+            "author-title": "prvak v Javi in ustanovitelj podjetij Rightrix Solutions in IndicThreads"
+          }
+        },
+        "info": {
+          "title": "Več informacij",
+          "left": {
+            "title": "Skupnost",
+            "subtitle": "Brezplačno",
+            "item-1": "Neomejena uporaba platforme KumuluzEE",
+            "item-2": "Podpora za GitHub vprašanja"
+          },
+          "right": {
+            "title": "Enterprise",
+            "item-1": "Migracija obstoječih Java EE aplikacij",
+            "item-2": "Popolna medobratovalnost z aplikacijskimi strežniki Java EE",
+            "item-3": "Podpora vmesnikom EJB in JMS",
+            "item-4": "Rešitev za integrirano dokumentacijo mikrostoritev",
+            "item-5": "Integracija s storitvijo API Management",
+            "item-6": "Sprotni popravki",
+            "item-7": "Programski popravki ",
+            "item-8": "Razširjena podpora za implementacije",
+            "item-9": "Spletna in e-poštna podpora",
+            "item-10": "24-urni odziv za podporo"
+          }
+        }
+      },
+      "motto": {
+        "title": "KumuluzEE je del platforme MicroProfile",
+        "subtitle": "MicroProfile je osnovna platforma, ki Enterprise Javo optimizira za mikrostoritveno arhitekturo ter omogoči prenosljivost aplikacij med različnimi izvajalniki na MicroProfile."
+      },
+      "benefits": {
+        "title": "Glavne prednosti in značilnosti KumuluzEE",
+        "subtitle": "Razvijajte mikrostoritve z Java EE tehnologijami",
+        "after-text": {
+          "colored": "Začnite razvijati",
+          "text": "svoje digitalne aplikacije neodvisno od prihodnosti."
+        },
+        "items": {
+          "item-1": {
+            "title": "Pristne javanske mikrostoritve",
+            "desc": "Razvijte pristne mikrostoritve, ki temeljijo na platformah Java/JavaEE/JakartaEE, z uporabo standardnih javanskih API-jev in tehnologij, ter jih zapakirajte in izvedite kot samostojne (Fat/Uber) JAR datoteke."
+          },
+          "item-2": {
+            "title": "Izkoristite svoje obstoječe znanje za migracijo aplikacij",
+            "desc": "Izkoristite svoje obstoječe znanje Jave in ga razširite ter tako postopoma prenesite obstoječe aplikacije iz Jave in Jave EE v ogrodje mikrostoritev in oblačne arhitekture s skupnimi oblačnimi vzorci."
+          },
+          "item-3": {
+            "title": "Nastavljivo javansko okolje",
+            "desc": "KumuluzEE ni tradicionalni aplikacijski strežnik za Javo EE, prav tako pa ne vgradi aplikacijskega strežnika znotraj mikrostoritev. Ponuja nastavljivo Java EE okolje znotraj samostojnih datotek JAR, ki za izvedbo potrebujejo le okolje JRE (ang. Java Runtime Environment)."
+          },
+          "item-4": {
+            "title": "Najhitrejši čas izvedbe in majhno zasedanje pomnilnika",
+            "desc": "KumuluzEE generira pristne, učinkovite javanske mikrostoritve, ki se zaženejo bistveno hitreje ter zasedejo manj pomnilnika kot večina ostalih mikrostoritvenih javanskih ogrodij. Mikrostoritve so lahke, zasedajo malo pomnilnika ter se hitro zaženejo, prav tako pa so pripravljene na vsebnike."
+          },
+          "item-5": {
+            "title": "Odprtokoden",
+            "desc": "KumuluzEE je popolnoma odprtokoden, standarden ter razširljiv."
+          },
+          "item-6": {
+            "title": "Brez odvisnosti od ponudnika",
+            "desc": "KumuluzEE ne potrebuje nobene specifične kode. Vse je konfigurirano v datoteki pom.xml. Tako imate popoln nadzor nad javanskimi komponentami, ki jih uporabljate."
+          },
+          "item-7": {
+            "title": "Optimiziran za vsebnike Docker in Kubernetes",
+            "desc": "Mikrostoritve KumuluzEE so optimizirane za vsebnike Docker in ponujajo popolno podporo za vsebniška okolja. Mikrostoritve so popolnoma optimizirane za Kubernetes ter vključujejo konfiguracijo, iskanje storitev, ustreznost stanja sistema, metrike in preskakovanje napak."
+          },
+          "item-8": {
+            "title": "Odprt za druge jezike",
+            "desc": "KumuluzEE ni namenjen le Javi, temveč nudi podporo tudi za Node.js in Go, drugi jeziki pa prihajajo kmalu."
+          },
+          "item-9": {
+            "title": "Popolna oblačna arhitektura in več",
+            "desc": "KumuluzEE nudi popolno podporo za konfiguracijo, iskanje storitev, ustreznost stanja sistema, beleženje, varnost, preskakovanje napak, varnostna stikala, prenos dogodkov, metrike, vzorce REST in ostalo. Mikrostoritve KumuluzEE ponujajo prvovrstno podporo za prehode API. KumuluzEE prav tako podpira gRPC, GraphQL, tehnologijo veriženja blokov, prenos dogodkov in mnoge druge napredne tehnologije."
+          }
+        }
+      },
+      "capabilities": {
+        "migration": {
+          "title": "Migracija na mikrostoritve",
+          "subtitle": "Postopoma prenesite obstoječe aplikacije iz Jave in Jave EE v mikrostoritveno arhitekturo",
+          "item-1": {
+            "title": "Podpora za postopno migracijo",
+            "desc": "KumuluzEE omogoča popolno podporo za postopno migracijo obstoječih Java EE aplikacij v mikrostoritveno arhitekturo. Podprta je migracija po korakih, kar vam omogoča, da eno ali več storitev odstranite iz obstoječih aplikacij ter jih prenesete v ogrodje mikrostoritev."
+          },
+          "item-2": {
+            "title": "Tradicionalni aplikacijski strežnik Java EE",
+            "desc": "Del vaše aplikacije lahko deluje kot mikrostoritev, preostanek pa lahko še nadalje deluje na tradicionalnem aplikacijskem strežniku Java EE. KumuluzEE omogoča popolno medobratovalnost za avtentikacijo vsebnikov, CDI, oddaljeni klici EJB, oddaljen JMS, viri podatkov itd."
+          },
+          "item-3": {
+            "title": "Medobratovalnost",
+            "desc": "Mikrostoritve, zgrajene s platformo KumuluzEE, bodo imele vgrajeno medobratovalnost s preostalimi aplikacijami na vašem aplikacijskem strežniku Java EE."
+          }
+        },
+        "comparison": {
+          "title": "Primerjava z ostalimi rešitvami",
+          "subtitle": "Primerjava z ostalimi rešitvami",
+          "para-1": "Ko izbirate ogrodje za javanske mikrostoritve, morate preveriti zagonski čas ter velikost mikrostoritve in koliko pomnilnika zaseda.",
+          "para-2": {
+            "before": "Članek",
+            "link": "Java EE mikrostoritve: zakaj sta pomembna čas zagona in velikost",
+            "after": "pokaže zanimivo primerjavo ogrodij MicroProfile Java EE, vključno z ogrodji WebSphere Liberty, WildFly Swarm, Payara, TomEE in KumuluzEE."
+          },
+          "para-3": "KumuluzEE je dosegel najhitrejši čas zagona, tj. 3 sekunde, in najmanjšo velikost datoteke JAR, tj. 11 MB:"
+        },
+        "docker": {
+          "title": "Podpora za vsebnika Docker in Kubernetes",
+          "subtitle": "Podpora za vsebnika Docker in Kubernetes",
+          "item-1": {
+            "title": "Zgrajen za oblak",
+            "desc": "KumuluzEE vam omogoča, da svoje mikrostoritve razširite s pogostimi oblačnimi vzorci."
+          },
+          "item-2": {
+            "title": "Podpora oblačnim vzorcem",
+            "desc": "KumuluzEE ponuja popolno podporo za konfiguracijo, iskanje, pregled ustreznosti stanja sistema, beleženje, varnost, preskakovanje napak, varnostna stikala, prenos dogodkov, metrike, vzorce REST, tehnologiji gRPC in GraphQL, tehnologijo veriženja blokov in več."
+          },
+          "item-3": {
+            "title": "Vsebniki Docker",
+            "desc": "Mikrostoritve KumuluzEE so lahko pakirane kot vsebniki Docker ter omogočajo popolno podporo za vsebniška okolja."
+          },
+          "item-4": {
+            "title": "Optimiziran za Kubernetes",
+            "desc": "Mikrostoritve KumuluzEE so v celoti optimizirane za Kubernetes, vključno s konfiguracijo, iskanjem storitev, pregledi ustreznosti stanja sistema, metrikami in preskakovanjem napak."
+          }
+        },
+        "framework": {
+          "title": "Dovršeno in celovito ogrodje",
+          "subtitle": "Dovršeno in celovito ogrodje",
+          "item-1": "KumuluzEE REST za implementacijo pogostih, naprednih in fleksibilnih funkcionalnosti in vzorcev REST API. Vključuje podporo za izpostavljanje objektov JPA skozi protokol REST.",
+          "item-2": "KumuluzEE Config za dinamično centralizirano konfiguracijo (uporaba spremenljivk ENV ali konfig strežnikov, kot sta etcd ali Consul).",
+          "item-3": "KumuluzEE Logs kot napredno mikrostoritveno ogrodje za beleženje.",
+          "item-4": "KumuluzEE Discovery za dinamično odkrivanje storitev (etcd ali Consul). Popolnoma združljiv s Kubernetes.",
+          "item-5": "KumuluzEE Metrics za preprosto zbiranje in poročanje o metrikah uspešnosti.",
+          "item-6": "KumuluzEE Security za preprosto integracijo z identiteto OAuth2/OpenID in ponudnikov upravljanja dostopa.",
+          "item-7": "KumuluzEE Health za implementacijo pregledov stanja ter razkritje ustreznosti stanja sistema mikrostoritev.",
+          "item-8": "KumuluzEE Fault Tolerance za implementacijo preskakovanja napak, varnostnih stikal in razklopitev mikrostoritev.",
+          "item-9": "KumuluzEE Event Streaming za podporo prenosov dogodkov z uporabo platforme Apache Kafka.",
+          "item-10": "KumuluzEE Reactive za integracijo reaktivnih tokov (Vert.x, ReactiveX).",
+          "item-11": "KumuluzEE CORS za podporo delitve virov navzkrižnega izvora (ang. Cross-Origin Resource Sharing ali CORS).",
+          "item-12": "KumuluzEE Swagger za podporo in vizualizacijo Swagger (OpenAPI 2).",
+          "item-13": "KumuluzEE OpenAPI za podporo specifikaciji OpenAPI 3, generacijo vmesnikov in vizualizacijo.",
+          "item-14": "KumuluzEE Testing za orodja in pripomočke za testiranje mikrostoritev KumuluzEE.",
+          "item-15": "KumuluzEE gRPC za vgrajeno podporo storitvam, ki temeljijo na gRPC.",
+          "item-16": "KumuluzEE GraphQL za vgrajeno podporo za GraphQL.",
+          "item-17": "KumuluzEE Ethereum za mikrostoritve, ki omogočajo Ethereum (tehnologija veriženja blokov)."
+        }
+      },
+      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
     },
     "integration": {
       "title": "",
@@ -294,7 +526,7 @@
           "item-2": ""
         }
       },
-      "prod-grid": ""
+      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
     },
     "ux": {
       "title": "",
@@ -405,7 +637,7 @@
           "title": ""
         }
       },
-      "prod-grid": ""
+      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
     },
     "marketplace": {
       "title": "",
@@ -413,7 +645,7 @@
         "subtitle": ""
       },
       "coming-soon": "",
-      "prod-grid": ""
+      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
     },
     "crowdsensing": {
       "title": "",
@@ -421,7 +653,7 @@
         "subtitle": ""
       },
       "coming-soon": "",
-      "prod-grid": ""
+      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
     }
   }
 }

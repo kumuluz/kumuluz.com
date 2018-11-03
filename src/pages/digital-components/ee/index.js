@@ -119,10 +119,6 @@ const migrations = t => {
         {
             title: t("components.ee.capabilities.migration.item-3.title"),
             desc: t("components.ee.capabilities.migration.item-3.desc")
-        },
-        {
-            title: t("components.ee.capabilities.migration.item-4.title"),
-            desc: t("components.ee.capabilities.migration.item-4.desc")
         }
     ];
 };
@@ -163,7 +159,10 @@ const framework = t => {
         t("components.ee.capabilities.framework.item-11"),
         t("components.ee.capabilities.framework.item-12"),
         t("components.ee.capabilities.framework.item-13"),
-        t("components.ee.capabilities.framework.item-14")
+        t("components.ee.capabilities.framework.item-14"),
+        t("components.ee.capabilities.framework.item-15"),
+        t("components.ee.capabilities.framework.item-16"),
+        t("components.ee.capabilities.framework.item-17")
 
     ];
 };
@@ -196,7 +195,8 @@ export default class KumuluzEEPage extends Component {
                     items={[
                         t("components.ee.header.items.item-1"),
                         t("components.ee.header.items.item-2"),
-                        t("components.ee.header.items.item-3")
+                        t("components.ee.header.items.item-3"),
+                        t("components.ee.header.items.item-4")
                     ]}
                     subtitle={t("components.ee.header.subtitle")}/>
 
@@ -216,6 +216,7 @@ export default class KumuluzEEPage extends Component {
                                         &#160;{t("components.ee.about.about.left.para-1")}
                                 </p>
                                 <p>{t("components.ee.about.about.left.para-2")}</p>
+                                <p>{t("components.ee.about.about.left.para-3")}</p>
                             </div>
                             <div className="col-10 col-lg-5">
                                 <div className="grey-box">
@@ -249,7 +250,8 @@ export default class KumuluzEEPage extends Component {
                     <div className="container-fluid">
                         <div className="row justify-content-center">
                             <div className="col-10 col-lg-5">
-                                <p>{t("components.ee.about.features.left-para")}</p>
+                                <p>{t("components.ee.about.features.left-para-1")}</p>
+                                <p>{t("components.ee.about.features.left-para-2")}</p>
                             </div>
                             <div className="col-10 col-lg-5">
                                 <div className="grey-box">
