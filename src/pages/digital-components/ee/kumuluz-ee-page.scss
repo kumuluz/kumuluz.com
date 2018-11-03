@@ -28,10 +28,11 @@
     }
   }
 }
-.km-comp-header-component .items .item {
-  width: 24%;
-}
+
 .km-kumuluz-ee-page {
+  .km-comp-header-component .items .item {
+    width: 24%;
+  }
   .divider-container {
     display: flex;
     justify-content: center;
