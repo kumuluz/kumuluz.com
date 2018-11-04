@@ -24,6 +24,8 @@ const features = t => [
     t("components.ux.about.features.item-4"),
     t("components.ux.about.features.item-5"),
     t("components.ux.about.features.item-6"),
+    t("components.ux.about.features.item-7"),
+    t("components.ux.about.features.item-8"),
 ];
 
 import digitalPlatformImage from "../../../assets/images/digitalPlatform.svg";
