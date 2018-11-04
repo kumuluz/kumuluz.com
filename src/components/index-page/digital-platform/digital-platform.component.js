@@ -28,11 +28,6 @@ export class DigitalPlatformComponent extends Component {
     }
 
     renderLink(item) {
-        if (this.state.lang !== "en") {
-            return (<a>{item.title}</a>);
-        }
-
-
         if (item.external) {
             return (
                 <a href={item.url} target="_blank" rel="noreferrer noopener">

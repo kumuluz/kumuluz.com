@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": ""
+    "title": "Digitale platform - Kumuluz"
   },
   "header": {
-    "title": "",
+    "title": "Kumuluz Digitale Platform",
     "subtitle": ""
   },
   "digit-strategy": {
@@ -31,384 +31,607 @@
     }
   },
   "components": {
-    "api": {
-      "title": "",
+    "ee": {
+      "title": "KumuluzEE",
       "header": {
-        "subtitle": "",
+        "subtitle": "Ein leichter Open-Source-Microservice-Framework.",
         "items": {
-          "item-1": "",
-          "item-2": "",
-          "item-3": ""
+          "item-1": "Gewinner des Java Duke’s Choice Award",
+          "item-2": "MicroProfile-konform",
+          "item-3": "Cloud-native Architektur mit dem kleinsten JAR",
+          "item-4": "Unterstützt Java, JavaEE/JakartaEE, Node.js, Go und andere Sprachen"
+        }
+      },
+      "about": {
+        "about": {
+          "title": "Über das Produkt",
+          "left": {
+            "title": "Entwickeln Sie Microservices mit Java-Technologien und Unterstützung für andere Sprachen.",
+            "para-1": "ist ein leichtgewichtiges Framework für die Entwicklung von Microservices unter Verwendung von Standard-Java, JavaEE/akartaEE-Technologien und zur Migration bestehender Java-Anwendungen zu Microservices. KumuluzEE verpackt Microservices als eigenständige JARs. KumuluzEE Microservices sind leicht und für Größe und Startzeit optimiert. Sie passen perfekt zu Docker-Containern.",
+            "para-2": "KumuluzEE bietet auch Erweiterungen für die Entwicklung gebräuchlicher Muster in Cloud-nativen Architekturen, einschließlich Konfiguration, Protokollierung, Erkennung, Leistungsschalter, Metriken, Sicherheit, Event-Streaming und anderes.",
+            "para-3": "KumuluzEE unterstützt Java, Node.js, Go und andere Programmiersprachen. Es bietet auch Unterstützung für Blockchain, gRPC, GraphQL und viele andere fortschrittliche Technologien."
+          },
+          "right": {
+            "title": "Warum sollten Sie KumuluzEE wählen?",
+            "item-1": {
+              "title": "Schnellster Start",
+              "desc": ""
+            },
+            "item-2": {
+              "title": "Kleinstes JAR",
+              "desc": ""
+            },
+            "item-3": {
+              "title": "Vollständig cloud-nativ",
+              "desc": ""
+            },
+            "item-4": {
+              "title": "Optimiert für Docker und Kubernetes",
+              "desc": ""
+            }
+          }
+        },
+        "features": {
+          "title": "Hauptmerkmale",
+          "left-para-1": "Mit KumuluzEE können Sie Java-Anwendungen in Microservices zerlegen und für Cloud-native Architektur vorbereiten. Es ermöglicht Ihnen eigenständige leichte Java und JavaEE/JakartaEE Microservices zu schaffen, die effizient in der Cloud, in PaaS- und Docker-ähnlichen Umgebungen, oder als eigenständige Anwendungen bereitgestellt, ausgeführt und skaliert werden können. Es unterstützt auch Sprachen wie Node.js, Go und andere.",
+          "left-para-2": "KumuluzEE-Microservices haben minimalen Platzbedarf und erfordern minimale oder keine Konfiguration. KumuluzEE automatisiert die Aufgaben im Zusammenhang mit der Bereitstellung und Konfiguration von Java-Microservices und überwindet damit den Hauptnachteil der Microservice-Architektur und macht einen Anwendungsserver überflüssig.",
+          "right": {
+            "title": "Auf einen Blick",
+            "item-1": {
+              "title": "Entwickeln Sie Java und JavaEE/JakartaEE Microservices, die für die Cloud bereit sind",
+              "desc": ""
+            },
+            "item-2": {
+              "title": "Migrieren Sie vorhandene Java- und JavaEE-Anwendungen zu Microservices",
+              "desc": ""
+            },
+            "item-3": {
+              "title": "Minimaler Platzbedarf, effiziente Bereitstellung und Skalierbarkeit in der Cloud",
+              "desc": ""
+            },
+            "item-4": {
+              "title": "Vollständige Kontrolle über Java-Komponenten",
+              "desc": ""
+            }
+          }
+        },
+        "customers": {
+          "title": "Kunden und Anwendungsfälle",
+          "item-1": {
+            "quote": "KumuluzEE ist eine großartige Gemeinschaftsinitiative, um Java EE API-basierte Microservices zu betreiben, insbesondere in der Cloud.",
+            "author-title": "Senior Java Technologe, Autor, Sprecher"
+          },
+          "item-2": {
+            "quote": "KumuluzEE bringt Microservice-Architektur zu Java EE. MAVEN-ready, Fat JAR, modulare Abhängigkeiten, Docker-Ready und ein steckbarer Web-Container machen es bereit für die Einsetzung in jeder Cloud-Umgebung. Wenn Sie Anwendungen mit Java EE erstellen, starten Sie Ihre Microservice-Reise mit KumuluzEE!",
+            "author-title": "Vizepräsident, Entwicklerbeziehungen bei Couchbase"
+          },
+          "item-3": {
+            "quote": "Obwohl die Java EE-Spezifikationen und Anwendungsserver in ihrer Größe zurückgegangen sind, waren sie für den heutigen Microservices-Entwickler, im Vergleich zu NodeJS oder Spring Boot, noch nicht die erste Wahl. Das ändert sich jetzt, da KumuluzEE eine leichte, anwendungsserverfreie Möglichkeit bietet, Mikroservices mit der vollen Leistungsfähigkeit von Java, JVM und JavaEE zu erstellen! Dieses innovative Stack ist ein würdiger 2015 Duke-Award-Gewinner.",
+            "author-title": "Java-Champion und CEO von jClarity"
+          },
+          "item-4": {
+            "quote": "Wenn Sie Microservices für Java EE erkunden, müssen Sie sich KumuluzEE‘s neuartigen, aber einfachen Ansatz zur Automatisierung von Microservices ansehen.",
+            "author-title": "Java Champion und Gründer von Rightrix Solutions und IndicThreads"
+          }
+        },
+        "info": {
+          "title": "Holen Sie sich mehr Informationen",
+          "left": {
+            "title": "Community",
+            "subtitle": "Kostenlos",
+            "item-1": "KumuluzEE unbegrenzte Nutzung",
+            "item-2": "GitHub Problem-Unterstützung"
+          },
+          "right": {
+            "title": "Enterprise",
+            "item-1": "Migration der bestehenden Java EE-Anwendungen",
+            "item-2": "Volle Interoperabilität mit Java EE-Anwendungsservern",
+            "item-3": "Unterstützung für EJB und JMS",
+            "item-4": "Lösung für die integrierte Dokumentation von Microservices",
+            "item-5": "Integration mit API Management",
+            "item-6": "Hotfixes",
+            "item-7": "Patch-Releases",
+            "item-8": "Erweiterte Unterstützung für Implementierungen",
+            "item-9": "Web- und E-Mail Unterstützung",
+            "item-10": "Beantwortung der Anfragen 24/7"
+          }
+        }
+      },
+      "motto": {
+        "title": "KumuluzEE ist Teil von MicroProfile",
+        "subtitle": "Das MicroProfile ist eine Baseline-Plattform-Definition, die Enterprise Java für eine Microservices-Architektur optimiert und die Portabilität von Anwendungen über mehrere MicroProfile-Laufzeiten hinweg ermöglicht."
+      },
+      "benefits": {
+        "title": "Hauptvorteile und Merkmale von KumuluzEE",
+        "subtitle": "Entwickeln Sie Microservices mit Java und JavaEE/JakrataEE Technologien",
+        "after-text": {
+          "colored": "Beginnen Sie",
+          "text": "mit der zukunftssicheren Entwicklung Ihrer digitalen Anwendungen."
+        },
+        "items": {
+          "item-1": {
+            "title": "Reine Java-basierte Microservices",
+            "desc": "Entwickeln Sie reine Java/JavaEE/JakartaEE-basierte Microservices mit den Standard-Java-EE-APIs und -Technologien und packen und führen Sie sie als eigenständige (Fat/Uber) JARs aus."
+          },
+          "item-2": {
+            "title": "Nützen Sie Ihr vorhandenes Wissen, um Anwendungen zu migrieren",
+            "desc": "Nützen Sie Ihr vorhandenes Java-Wissen und erweitern Sie es, um vorhandene Java- und Java EE-Anwendungen schrittweise in Microservices und Cloud-native Architektur mit gängigen Cloud-nativen Mustern zu migrieren."
+          },
+          "item-3": {
+            "title": "Konfigurierbare Java-Umgebung",
+            "desc": "KumuluzEE ist kein traditioneller Java EE App-Server, und es bettet auch keinen App-Server in Microservices ein. Es bietet eine konfigurierbare Java EE-Umgebung in eigenständigen JARs, die nur JRE (Java Runtime Environment) für die Ausführung erfordert."
+          },
+          "item-4": {
+            "title": "Schnellste Startzeit und geringer Platzbedarf",
+            "desc": "KumuluzEE generiert reine, effiziente Java-Microservices, die wesentlich schneller starten und weniger Platz beanspruchen als die meisten anderen Java-Microservice-Frameworks. Microservices sind leicht, platzsparend, schnell startbereit und Container-Ready."
+          },
+          "item-5": {
+            "title": "Open source",
+            "desc": "KumuluzEE ist vollständig offen, standardbasiert und erweiterbar."
+          },
+          "item-6": {
+            "title": "Keine Lock-In-Effeckt",
+            "desc": "KumuluzEE benötigt keinen spezifischen Code. Alles ist in pom.xml konfiguriert. Sie haben die vollständige Kontrolle über die Java-Komponenten, die Sie verwenden."
+          },
+          "item-7": {
+            "title": "Optimiert für Docker und Kubernetes",
+            "desc": "KumuluzEE-Microservices sind für Docker-Container optimiert und bieten volle Unterstützung für Containerumgebungen. Microservices werden vollständig mit Kubernetes optimiert, einschließlich der Konfiguration, Service Discovery, Systemzustand, Metriken und Fehlertoleranz."
+          },
+          "item-8": {
+            "title": "Offen für andere Sprachen",
+            "desc": "KumuluzEE ist nicht auf Java begrenzt. Zusätzlich zu Java bietet es Unterstützung für Node.js und Go. Weitere Sprachen folgen in Kürze."
+          },
+          "item-9": {
+            "title": "Vollständige Cloud-native Architektur und anderes ",
+            "desc": "KumuluzEE bietet volle Unterstützung für Konfiguration, Service Discovery, Systemzustand, Protokollierung, Sicherheit, Fehlertoleranz, Leistungsschalter, Event-Streaming, Metriken, REST-Muster und anderes. KumuluzEE-Microservices bieten erstklassige Unterstützung für API-Gateways. KumuluzEE unterstützt auch gRPC, GraphQL, Blockchain, Event-Streaming und viele andere fortschrittliche Technologien."
+          }
+        }
+      },
+      "capabilities": {
+        "migration": {
+          "title": "Migration zu Microservices",
+          "subtitle": "Allmähliche Migration vorhandener Java- und JavaEE-Anwendungen in die Microservice-Architektur",
+          "item-1": {
+            "title": "Unterstützung für allmähliche Migration",
+            "desc": "KumuluzEE bietet vollständige Unterstützung für die allmähliche Migration bestehender Java EE-Anwendungen in die Microservice-Architektur. Die schrittweise Migration wird unterstützt, sodass Sie einen oder mehrere Services aus einer vorhandenen Anwendung extrahieren und zu Microservices migrieren können."
+          },
+          "item-2": {
+            "title": "Klassischer Java EE-Anwendungsserver",
+            "desc": "Ein Teil Ihrer Anwendung kann als Microservices ausgeführt werden und der Rest der Anwendung kann weiterhin auf Ihrem klassischen Java EE-Anwendungsserver ausgeführt werden. KumuluzEE bietet vollständige Interoperabilität für Container-Authentifizierung, CDI, Remote-EJB-Aufrufe, Remote-JMS, Datenquellen usw."
+          },
+          "item-3": {
+            "title": "Interoperabilität",
+            "desc": "Microservices, die mit KumuluzEE erstellt wurden, verfügen über eine native Interoperabilität mit dem Rest der Anwendung auf Ihrem Java EE-Anwendungsserver."
+          }
+        },
+        "comparison": {
+          "title": "Im Vergleich mit anderen Lösungen",
+          "subtitle": "Im Vergleich mit anderen Lösungen",
+          "para-1": "Bei der Auswahl eines Frameworks für Java-Microservices sollten Sie die Startzeit, die Größe und den Speicherbedarf eines Mikroservices berücksichtigen.",
+          "para-2": {
+            "before": "Der Artikel",
+            "link": "Java EE Microservices: Why Start-up Time and Size Matter",
+            "after": "zeigt einen interessanten Vergleich von MicroProfile Java EE-Frameworks, einschließlich WebSphere Liberty, WildFly Swarm, Payara, TomEE und KumuluzEE."
+          },
+          "para-3": "KumuluzEE hat die schnellste Startzeit von 3 Sekunden und die kleinste JAR-Größe (11 MB) erreicht:"
+        },
+        "docker": {
+          "title": "Docker & Kubernetes Unterstützung",
+          "subtitle": "Docker & Kubernetes Unterstützung",
+          "item-1": {
+            "title": "Cloud-nativ",
+            "desc": "KumuluzEE ermöglicht es Ihnen, Ihre Microservices mit gängigen Cloud-nativen Mustern zu erweitern."
+          },
+          "item-2": {
+            "title": "Unterstützung für Cloud-native Muster",
+            "desc": "KumuluzEE bietet vollständige Unterstützung für Konfiguration, Erkennung, Systemzustand, Protokollierung, Sicherheit, Fehlertoleranz, Leistungsschalter, Event-Streaming, Metriken, REST-Muster, gRPC, GraphQL, Blockchain und anderes."
+          },
+          "item-3": {
+            "title": "Docker-Container",
+            "desc": "KumuluzEE-Microservices können als Docker-Container gepackt werden und bieten volle Unterstützung für Containerumgebungen."
+          },
+          "item-4": {
+            "title": "Für Kubernetes optimiert",
+            "desc": "KumuluzEE-Microservices sind vollständig für Kubernetes optimiert, einschließlich der Konfiguration, Service Discovery, Systemzustand, Metriken und Fehlertoleranz."
+          }
+        },
+        "framework": {
+          "title": "Vollständiger und umfassender Framework",
+          "subtitle": "Vollständiger und umfassender Framework",
+          "item-1": "KumuluzEE REST für die Implementierung allgemeiner, erweiterter und flexibler REST-API-Funktionen und -Muster. Bietet Unterstützung für die Bereitstellung von JPA-Entitäten durch REST.",
+          "item-2": "KumuluzEE Config für dynamische zentralisierte Konfiguration (mithilfe von ENV-Variablen oder Konfigurationsservern, z. B. etcd oder Consul).",
+          "item-3": "KumuluzEE Logs für erweiterte Microservice-Frameworks für die Protokollierung.",
+          "item-4": "KumuluzEE Discovery für dynamische Service-Erkennung (etcd oder Consul). Völlig kompatibel mit Kubernetes.",
+          "item-5": "KumuluzEE Metrics zur einfachen Erfassung und Berichterstellung von performance-Metriken. ",
+          "item-6": "KumuluzEE Security für die einfache Integration mit OAuth2/OpenID Identität und Zugangsverwaltung Anbietern.",
+          "item-7": "KumuluzEE Health zur Implementierung von Systemzustandsprüfungen und zur Offenlegung von dem Systemzustand der Microservices.",
+          "item-8": "KumuluzEE Fault Tolerance für die Implementierung von Fehlertoleranzmustern, Leistungsschaltern und Entkopplung von Microservices.",
+          "item-9": "KumuluzEE Event Streaming für die Unterstützung von Event-Streaming mit Apache Kafka.",
+          "item-10": "KumuluzEE Reactive für die Integration reaktiver Streams (Vert.x, ReactiveX).",
+          "item-11": "KumuluzEE CORS für die Unterstützung von CORS (Cross-Origin Resource Sharing).",
+          "item-12": "KumuluzEE Swagger für Swagger (OpenAPI 2) Unterstützung und Visualisierung.",
+          "item-13": "KumuluzEE OpenAPI für OpenaAPI 3-Unterstützung, Schnittstellengenerierung und Visualisierung.",
+          "item-14": "KumuluzEE Testing zum Bereitstellen von Tools und Hilfsmittel zum Testen von KumuluzEE-Microservices.",
+          "item-15": "KumuluzEE gRPC für native Unterstützung für gRPC-basierte Services.",
+          "item-16": "KumuluzEE GraphQL für native Unterstützung von GraphQL.",
+          "item-17": "KumuluzEE Ethereum für Ethereum-fähige Microservices (Blockchain)."
+        }
+      },
+      "prod-grid": "Discover other Kumuluz Digital Building Blocks"
+    },
+    "api": {
+      "title": "KumuluzAPI",
+      "header": {
+        "subtitle": "Überblick und Verwaltung Ihrer APIs an einem Ort. Machen Sie sich bereit für die API-Wirtschaft.",
+        "items": {
+          "item-1": "Automatische API-Erkennung und Katalogpopulation",
+          "item-2": "Multiple-Gateways-Unterstützung mit voller Sicherheit, Ratenbegrenzung und Authentifizierung",
+          "item-3": "Eine Plattform für Überwachung, Metriken, Dokumentation, API-Suche usw."
         }
       },
       "about": {
         "navbar": {
           "about": {
-            "title": "",
-            "strong": "",
-            "text": "",
+            "title": "Über das Produkt",
+            "strong": "Präsentieren, verwalten, kontrollieren und monetarisieren Sie Ihre APIs und machen Sie sich bereit für API Economy.",
+            "text": "<p>ist eine einfache, offene, standardbasierte Lösung für API Management, API Catalog, API Gateway und API Marketplace, mit vollständiger Unterstützung für die Katalogisierung von API-bezogenen Schemas, wie XML-Schemas und JSON-Dokumenten, die einen vollständigen Einblick in APIs, und deren Verwendung, Beziehungen, Schemas und Abhängigkeiten, bieten.</p><p>Es basiert auf Microservice-Architektur mit voller Elastizität, Skalierbarkeit und hoher Verfügbarkeit. Funktionalitäten werden durch APIs und reaktionsfähige Webanwendungen offengelegt. Die KumuluzAPI-Lösung ist für die einfache Integration in verschiedene Backend-Systeme wie ESB, SOA, BPM, und verschiedene Entwicklungsumgebungen, DevOps (kontinuierliche Integration und Lieferung) usw. ausgelegt.</p><p>Das Produkt bietet Unterstützung für mehrere Sprachen. Gegenwärtig wird volle Unterstützung für Englisch und Slowenisch angeboten. Die Unterstützung mehrerer Sprachen könnte für die Digitalisierung innerhalb des Landes und der Region wichtig sein.</p>",
             "box": {
-              "title": "",
-              "item-1": "",
-              "item-2": "",
-              "item-3": "",
-              "item-4": ""
+              "title": "Warum sollten Sie KumuluzAPI wählen?",
+              "item-1": "Leichte, standardbasierte Lösung",
+              "item-2": "Bessere Verwaltung von APIs",
+              "item-3": "Die gesamte Dokumentation an einem Ort",
+              "item-4": "Automatische API-Erkennung und Katalogausfüllung"
             }
           },
           "features": {
-            "title": "",
-            "item-1": "",
-            "item-2": "",
-            "item-3": "",
-            "item-4": "",
-            "item-5": "",
-            "item-6": "",
-            "item-7": "",
-            "item-8": "",
-            "item-9": "",
-            "item-10": "",
-            "item-11": "",
-            "item-12": "",
-            "item-13": "",
-            "item-14": "",
-            "item-15": "",
-            "item-16": "",
-            "item-17": ""
+            "title": "Hauptmerkmale",
+            "item-1": "Erstellen Sie einen Katalog von Services und deren APIs für REST und SOAP",
+            "item-2": "Automatische Erkennung von APIs und Services und Auffüllen des Katalogs ohne manuelle Eingriffe",
+            "item-3": "Integration mit DevOps und kontinuierliche Integration/Lieferung",
+            "item-4": "Dokumentieren Sie Ihre APIs auf standardmäßige, sprach- und technologieunabhängige Weise",
+            "item-5": "Suchen, filtern, testen Sie APIs und Services",
+            "item-6": "Volle Versionierungsunterstützung für APIs in verschiedenen Umgebungen und Simultaneversion-Unterstützung",
+            "item-7": "Vollständige Lebenszyklusverwaltung von APIs",
+            "item-8": "Volle Unterstützung für Microservices und Integration mit KumuluzEE",
+            "item-9": "Abhängigkeitsanalyse und Visualisierung für APIs, Anwendungen und Schemas",
+            "item-10": "Unterstützung für enthaltene Schemas (XSD/JSON) zum Suchen und Anzeigen von Schemas, die in den APIs verwendet werden, einschließlich der Abhängigkeitsanalyse und der Visualisierung",
+            "item-11": "Mehrere Pläne, SLA, QoS, Ratenbegrenzung und Monetarisierungsoptionen",
+            "item-12": "SLA-Überwachung und Echtzeit-Compliance",
+            "item-13": "API-Zugriffsgenehmigungsworkflows",
+            "item-14": "Unterstützung mehrerer Gateways mit vollständiger Sicherheit, Ratenbegrenzung und Authentifizierungsunterstützung durch mehrere Anbieter (z. B. LDAP, OAuth2, Kerberos usw.)",
+            "item-15": "Metriken, QoS und SLA-monitoring ",
+            "item-16": "API- und Servicestatusmonitoring ",
+            "item-17": "Unterstützung für Anwendungsserver, virtualisierte Umgebungen, PaaS- und Docker-ähnliche Umgebungen"
           },
           "customer": {
-            "title": "",
-            "subtitle": "",
-            "content": ""
+            "title": "Kunden und Anwendungsfälle",
+            "subtitle": "Wo können Sie KumuluzAPI verwenden?",
+            "content": "Sie haben wenige Services, die Sie an Dritte weitergeben möchten. Zum Beispiel könnte die Gemeinde KumuluzAPI nützen, um das Grundbuch einem anderen Regierungszweig zugänglich zu machen. Mit der KumuluzAPI können Sie verwalten, wer Zugriff auf offengelegte APIs hat, wer sie verwendet, Sie haben eine zentrale Verwaltungsplattform für alles. Außerdem kümmert sich KumuluzAPI um die Sicherheit für Sie, sodass Sie nur verwalten müssen, wer offengelegte Services verwenden darf."
           },
           "demo": {
-            "title": "",
-            "tryout": ""
+            "title": "Demo",
+            "tryout": "Probieren Sie es aus"
           }
         }
       },
       "motto": {
-        "title": "",
-        "subtitle": ""
+        "title": "APIs ermöglichen es verschiedenen Anwendungen, miteinander zu kommunizieren.",
+        "subtitle": "Die API-Verwaltung kann jedoch zu Sicherheitsproblemen, Leistungsproblemen und einer geringeren Produktivität führen, wenn dies nicht ordnungsgemäß durchgeführt wird."
       },
       "benefits": {
-        "title": "",
-        "subtitle": "",
+        "title": "Hauptvorteile und Merkmale von KumuluzAPI",
+        "subtitle": "Leichte, offene, standardbasierte Lösung für die API-Verwaltung.",
         "items": {
           "item-1": {
-            "title": "",
-            "desc": ""
+            "title": "Erweiterte Analyse der API-Nutzung",
+            "desc": "Analysen zur API-Nutzung, Klient-Anfragen, Antworten, Geolokalisierung von Anfragen, usw. werden bereitgestellt. Berichte können automatisch generiert werden. Darüber hinaus können alle Daten zur weiteren Analyse in ein Big Data/Analytics-Tool exportiert werden."
           },
           "item-2": {
-            "title": "",
-            "desc": ""
+            "title": "Überwachen Sie Ihr System in Echtzeit",
+            "desc": "Echtzeitüberwachung von API-Status, Antwortzeiten, Anforderungen, API Klienten, Gateway-Leistung und Skalierbarkeit und anderen Parametern werden unterstützt. Vollständige Unterstützung für die Angabe von SLA-Anforderungen für jede API wird mit Echtzeitüberwachung der SLA-Konformität und von Alarmen bereitgestellt, wenn SLA-Parameter nicht erfüllt sind."
           },
           "item-3": {
-            "title": "",
-            "desc": ""
+            "title": "Diagnostizieren und protokollieren Sie Anfragen/Antworten",
+            "desc": "Alle Anfragen und Antworten über Gateways werden protokolliert. Verlauf, Audit Trail der Anfragen und Antworten ist online oder im generierten Bericht verfügbar. Unterstützt die vollständige API-Diagnose. Die aktive API-Überwachung erfolgt in vom Benutzer konfigurierbaren Intervallen (z. B. alle 5 Minuten). Der Servicezustand wird aktiv überprüft und Echtzeit-Diagnose-, Überwachungs- und Alarmbenachrichtigungen werden unterstützt."
           },
           "item-4": {
-            "title": "",
-            "desc": ""
+            "title": "Regelbasierte SLA-Kontrolle",
+            "desc": "KumuluzAPI bietet vollständige QoS- und SLA-Kontrolle. Dies umfasst die Anforderungsdrosselung, die regelbasiert ist und flexibel konfiguriert werden kann. Die gesamte Drosselung hängt mit dem Nutzungsplan zusammen. Jede API kann einen oder mehrere Nutzungspläne haben."
           },
           "item-5": {
-            "title": "",
-            "desc": ""
+            "title": "Vollautomatische ein- und ausgehende SOAP/REST- und XSD/JSON-Transformationen",
+            "desc": "werden unterstützt und können für jedes Gateway konfiguriert werden. KumuluzAPI bietet vollständige Echtzeitüberwachung der SLA-Parameter und deren Einhaltung für jeden Service."
+          },
+          "item-6": {
+            "title": "Dynamische APIs-Erkennung",
+            "desc": "Sie können APIs entweder über den API Catalog oder auf programmatische Weise mit ZooKeeper als zentralisiertem Service zum Verwalten von Konfigurationsinformationen, Benennen, Bereitstellen von verteilter Synchronisierung und Bereitstellen von Gruppenservices ermitteln."
           }
         },
         "after-text": {
-          "colored": "",
-          "text": ""
+          "colored": "Beginnen Sie",
+          "text": "von der API-Wirtschaft zu profitieren."
         }
       },
       "use-cases": {
-        "title": "",
+        "title": "Fähigkeiten, Anwendungsfälle und Kundenberichte",
         "items": {
           "config": {
-            "title": "",
+            "title": "API-Konfiguration",
             "item-1": {
-              "bold": "",
-              "text": ""
+              "bold": "Manuell durch Benutzerschnittstelle",
+              "text": "Verwenden Sie eine moderne Webanwendung, um die Konfiguration und Ihre APIs zu verwalten."
             },
             "item-2": {
-              "bold": "",
-              "text": ""
+              "bold": "Programmgesteuert über APIs, die von KumuluzEE bereitgestellt werden",
+              "text": "Alle Konfigurationen sind über KumuluzEE-APIs verfügbar. Sie können dies verwenden, um Ihre API programmgesteuert zu verwalten."
             },
             "item-3": {
-              "bold": "",
-              "text": ""
+              "bold": "Automatische API-Konfiguration zum Zeitpunkt der Erstellung",
+              "text": "Bei der Erstellung ermöglicht die direkte Integration mit Jenkins und Maven, dass APIs automatisch als Teil des Erstellungs-Zyklus konfiguriert, dokumentiert und registriert werden."
             },
             "item-4": {
-              "bold": "",
-              "text": ""
+              "bold": "Automatische API-Konfiguration zur Bereitstellungszeit",
+              "text": "Während der Bereitstellung werden APIs als Teil der Bereitstellungsprozedur konfiguriert, dokumentiert und registriert. Dabei wird die enge Integration mit dem Nexus-Repository für Artefakte genutzt."
             }
           },
           "docs": {
-            "title": "",
-            "para": "",
+            "title": "API-Dokumentation",
+            "para": "Die Dokumentation von APIs kann entweder manuell über die Benutzerschnittstelle eingegeben oder automatisch integriert werden.",
             "item-1": {
-              "bold": "",
-              "text": ""
+              "bold": "Automatisch generierte Dokumentation",
+              "text": "Die Basisdokumentation wird automatisch aus WSDL für SOAP-Services und Swagger oder RAML für REST-Services generiert."
             },
             "item-2": {
-              "bold": "",
-              "text": ""
+              "bold": "Unterstützt Abhängigkeiten und Diagramme",
+              "text": "Komplettlösung für die standardisierte und konforme Dokumentation von APIs, einschließlich vollständiger Dokumentation, Abhängigkeiten, UML-Diagrammen, BPMN-Diagrammen und anderen Dokumentationsmitteln."
             },
             "item-3": {
-              "bold": "",
-              "text": ""
+              "bold": "Markdown-Unterstützung",
+              "text": "API-Dokumentationsoptionen enthalten auch Markdown. "
             }
           },
           "publishing": {
-            "title": "",
-            "para": "",
+            "title": "API Veröffentlichung",
+            "para": "Sie können Ihre eigenen APIs veröffentlichen, um Datensilos in Ihrem Unternehmen zu reduzieren oder Beziehungen mit externen Entwicklern aufzubauen.",
             "item-1": {
-              "bold": "",
-              "text": ""
+              "bold": "API Veröffentlichung wird über API Gateways unterstützt",
+              "text": "Jede API kann für eine oder mehrere Organisationen und auf einem oder mehreren Gateways veröffentlicht werden."
             },
             "item-2": {
-              "bold": "",
-              "text": ""
+              "bold": "Veröffentlichung von APIs für verschiedene Ziele",
+              "text": "APIs können für verschiedene Zielbenutzergruppen veröffentlicht werden. Jede API kann für eine oder mehrere Organisationen und auf einem oder mehreren Gateways veröffentlicht werden."
             },
             "item-3": {
-              "bold": "",
-              "text": ""
+              "bold": "Gateway-Konfiguration",
+              "text": "Für jedes Gateway können Sicherheit, Authentifizierung, Ratenbegrenzung, SLA und andere Parameter individuell konfiguriert werden."
             }
           },
           "security": {
-            "title": "",
-            "content": ""
+            "title": "API Sicherheit und Authentifizierung",
+            "content": "<p>REST-Services können mit SSL/TLS gesichert werden, für die Authentifizierung werden OAuth, Basis-HTTP, SAML, benutzerdefinierte Authentication Header und Nonces unterstützt.</p><p>Der Authentifizierungsanbieter kann einen oder mehrere externe Anbieter wie LDAP, Oauth2, Kerberos usw. umfassen.Der SOAP-Service kann mit WS-Security gesichert werden. Benutzername, X.509 und SAML-Profile werden unterstützt. Außerdem wird einfaches HTTP und SSL/TLS unterstützt.</p><p>Für jeden Endpunkt kann die vollständige Endpunktvalidierung aktiviert werden. Die Endpunktübersetzung vom Gateway zum Server (virtuelle Endpunktauflösung) erfolgt automatisch.</p>"
           }
         }
       },
       "prod-grid": ""
     },
     "integration": {
-      "title": "",
+      "title": "KumuluzIntegration",
       "header": {
-        "subtitle": "",
+        "subtitle": "Bringen Sie alle Ihre Daten an einen Ort und werden Sie zu einer datengesteuerten Organisation",
         "items": {
-          "item-1": "",
-          "item-2": "",
-          "item-3": ""
+          "item-1": "Echtzeit-Datenintegration von jeder Quelle",
+          "item-2": "Wählen Sie viele vorbereitete Integrationen aus unserer Bibliothek",
+          "item-3": "Kein Integrationsaufwand, zu einem günstigen Preis"
         }
       },
       "about": {
         "about": {
-          "title": "",
+          "title": "Über das Produkt",
           "left": {
-            "title": "",
-            "para-1": "",
-            "para-2": ""
+            "title": "Integrieren Sie On-Premise-Anwendungen, SaaS- und IdD-Geräte mit On-Premise-Backend-Anwendungen",
+            "para-1": "adressiert die Integrationsherausforderungen zwischen SaaS-Anwendungen und/oder On-Premise-Anwendungen. Mit KumuluzIntegration können Sie Ihre SaaS- und/oder On-Premise-Anwendungen in wenigen Minuten integrieren und synchronisieren.",
+            "para-2": "Durch die Verwendung neuester Innovationen in der Datenintegration, wie z. B. ereignisgesteuerte Integration, automatisches Schema Matching und Erstellung eines gemeinsamen Datenmodells, wird die Integration einfacher und schneller. Die Daten zwischen den Anwendungen werden in Echtzeit synchronisiert."
           },
           "right": {
-            "title": "",
+            "title": "Warum sollten Sie KumuluzIntegration wählen?",
             "item-1": {
-              "title": "",
-              "desc": ""
+              "title": "Schnelle Integration",
+              "desc": "32% bis 80% schnellere Integration als die Konkurrenz."
             },
             "item-2": {
-              "title": "",
-              "desc": ""
+              "title": "Reduzierte Migrationszeit",
+              "desc": "75% bis 90% reduzierte Migrationszeit von Legacy-Anwendungen zu SaaS."
             },
             "item-3": {
-              "title": "",
-              "desc": ""
+              "title": "Vorbereitete Integrationen",
+              "desc": "Ein reichhaltiges Set von vorbereiteten Integrationen für beliebte kommerzielle Apps."
             },
             "item-4": {
-              "title": "",
-              "desc": ""
+              "title": "Sparen Sie Kosten",
+              "desc": "Mindestens 20% günstiger als die direkte Konkurrenz und um mehr als 50% niedrigere Gesamtbetriebskosten."
             }
           }
         },
         "features": {
-          "title": "",
-          "item-1": "",
-          "item-2": "",
-          "item-3": "",
-          "item-4": "",
-          "item-5": "",
-          "item-6": ""
-        },
-        "customers": {
-          "title": ""
+          "title": "Hauptmerkmale",
+          "item-1": "Integration",
+          "item-2": "Backup und Migration",
+          "item-3": "Stammdatenverwaltung & Big Data",
+          "item-4": "IdD-Geräteintegration",
+          "item-5": "Hubbasiert, in Echtzeit, ereignisgesteuert",
+          "item-6": "Automatischer Schema Matching"
         },
         "info": {
-          "title": ""
+          "title": "Mehr Informationen"
         }
       },
       "motto": {
-        "title": "",
-        "subtitle": ""
+        "title": "Wir leben in einer Zeit, in der Daten als neues Öl betrachtet werden.",
+        "subtitle": "Die KumuluzIntegration-Plattform ermöglicht es Ihnen, Daten aus verschiedenen Quellen zusammenzutragen und sie zu verfeinern."
       },
       "benefits": {
-        "title": "",
-        "subtitle": "",
+        "title": "Hauptvorteile und Merkmale von KumuluzIntegration",
+        "subtitle": "Schnelle, skalierbare und vereinfachte Echtzeit-Datenintegration, die Ihrer Geschäftsanalytik einen neuen Vorteil verleiht.",
         "after-text": {
-          "colored": "",
-          "text": ""
+          "colored": "Beginnen Sie",
+          "text": "mit der zukunftssicheren Entwicklung Ihrer digitalen Anwendungen."
         },
         "items": {
           "item-1": {
-            "title": "",
-            "desc": ""
+            "title": "Hub-basierte Integrationsarchitektur",
+            "desc": "Erfordert nur einen Adapter pro Anwendung, unabhängig von der Anzahl der integrierten Anwendungen."
           },
           "item-2": {
-            "title": "",
-            "desc": ""
+            "title": "Automatisches Schema Matching",
+            "desc": "Verwendet die musterbasierte Identifizierung übereinstimmender Daten und ermöglicht die automatische oder halbautomatische Generierung von Datenzuordnungen, was insbesondere bei großen und komplexen Schemas den Zeit- und Arbeitsaufwand erheblich reduziert."
           },
           "item-3": {
-            "title": "",
-            "desc": ""
+            "title": "Provider-übergreifende Gemeinsames-Datenmodellgenerierung",
+            "desc": "Erstellt automatisch das Gemeinsames Datenmodell aller integrierten Anwendungen, dass eine 360-Grad-Ansicht der Daten, die Darstellung von Stammdateneinheiten, Big Data-Analysen, Data Mining und Reporting sowie einen stark vereinfachten Datenzugriff für mobile Geräte ermöglicht"
           },
           "item-4": {
-            "title": "",
-            "desc": ""
+            "title": "Ereignisgesteuerte Echtzeitintegration",
+            "desc": "Änderungen werden mit integrierten Anwendungen in dem Moment synchronisiert, in dem sie auftreten."
           },
           "item-5": {
-            "title": "",
-            "desc": ""
+            "title": "Vereinfachte Integration von IdD-fähigen Geräten",
+            "desc": "Integrieren Sie Ihre SaaS- und On-Premise-Anwendungen mit IdD-fähigen Geräten über einfach zu verstehende Business-APIs. Dadurch werden Ihre Integrationen unabhängig von der zugrunde liegenden Technologie und Protokollen, der Lock-In-Effekt wird reduziert und die Verwendung verschiedener IdD-Geräte wird transparent."
           },
           "item-6": {
-            "title": "",
-            "desc": ""
+            "title": "Vorinstallierte und Open-Source-Adapter",
+            "desc": "Großes Set vorimplementierten Adapter und Open-Source-Modell für die Entwicklung von Community-Adaptern. Es war nie einfacher, einen vorentwickelten Adapter auszuwählen oder einen eigenen Adapter zu entwickeln."
           }
         }
       },
       "use-cases": {
         "integration": {
-          "title": "",
-          "subtitle": "",
-          "item-1": "",
-          "item-2": ""
+          "title": "Datenintegration",
+          "subtitle": "Datenintegration",
+          "item-1": "<strong>Integration</strong><br/>Integrieren Sie SaaS zu SaaS oder SaaS zu On-Premise-Anwendungen auf einfache und effiziente Weise.",
+          "item-2": "<strong>IdD-Geräteintegration</strong><br/>Integrieren Sie Ihre SaaS- und On-Premise-Anwendungen mit Internet-der-Dinge-fähigen Geräten."
         },
         "migration": {
-          "title": "",
-          "subtitle": "",
-          "item-1": "",
-          "item-2": ""
+          "title": "Datenmigration und Backup",
+          "subtitle": "Datenmigration und Backup",
+          "item-1": "<strong>Migration</strong><br/>Migrieren Sie On-Premise-Anwendungen ohne Probleme in die Cloud und zwischen SaaS-Anbietern und verhindern Sie die Abhängigkeit von den Anbietern.",
+          "item-2": "<strong>Backup</strong><br/>Ihre Daten in der Cloud werden kontinuierlich an einem sicheren Speicherort unter Ihrer Kontrolle gesichert."
         },
         "management": {
-          "title": "",
-          "subtitle": "",
-          "item-1": "",
-          "item-2": ""
+          "title": "Datenverwaltung",
+          "subtitle": "Datenverwaltung",
+          "item-1": "<strong>Stammdatenverwaltung</strong><br/>Aktivieren Sie die Stammdatenverwaltung, das durch die automatische Erstellung von Stammdatenentitäten stark vereinfacht wird.",
+          "item-2": "<strong>Big Data</strong><br/>Führen Sie leistungsstarke integrierte Big Data-Analysen zusätzlich zu integrierten Daten in Echtzeit durch."
         }
       },
       "prod-grid": ""
     },
     "ux": {
-      "title": "",
+      "title": "KumuluzUX",
       "header": {
-        "subtitle": "",
+        "subtitle": "Ausgereifter Rahmen für Unternehmensrang Web- und Mobile-Benutzerschnittstelle mit hervorragender Erfahrung.",
         "items": {
-          "item-1": "",
-          "item-2": "",
-          "item-3": ""
+          "item-1": "Umfangreiches Set an erweiterten HTML5- und JSF-Komponenten",
+          "item-2": "BPM-Integration",
+          "item-3": "Unterstützung für mobile Plattformen"
         }
       },
       "about": {
         "about": {
-          "title": "",
+          "title": "Über das Produkt",
           "left": {
-            "title": "",
-            "para": ""
+            "title": "Erstellen Sie anspruchsvolle Responsive Web- und Mobile-Anwendungen für Unternehmen",
+            "para": "KumuluzUX Web/Mobile Framework bietet eine breite Palette an erweiterten HTML5- und JSF-Komponenten für die schnelle Entwicklung von Web- und Mobilen-Benutzerschnittstellen für Unternehmen mit hervorragender Benutzererfahrung.Der Wettbewerbsvorteil des KumuluzUX sind komplexe Komponenten für die schnelle Entwicklung von Webformularen, menschlichen Aufgaben, Geschäftsprozessinteraktionen, Berichten und anderen gängigen Schnittstellen in Informationssystemen für Unternehmen. KumuluzUX enthält kundenspezifische Komponenten für Benutzerschnittstellen auf Unternehmensebene aus den Bereichen Banking, Finanzen, Versicherungen und Energieverteilung. Mit KumuluzUX können solche Schnittstellen und/oder Formulare und Berichte mit einer einzigen Codezeile entwickelt werden."
           },
           "right": {
-            "title": "",
+            "title": "Warum sollten Sie KumuluzUX wählen?",
             "item-1": {
-              "title": "",
-              "desc": ""
+              "title": "Hochentwickelte Composite-Komponenten",
+              "desc": "Für die Entwicklung von Webformularen, menschlichen Aufgaben, Geschäftsprozessinteraktionen, Berichten und anderen gängigen Schnittstellen"
             },
             "item-2": {
-              "title": "",
-              "desc": ""
+              "title": "Schnelle Entwicklung von Webformularen",
+              "desc": "Schnittstellen und/oder Formulare und Berichte können mit einer einzelnen Codezeile entwickelt werden."
             },
             "item-3": {
-              "title": "",
-              "desc": ""
+              "title": "Benutzerdefinierte Komponenten",
+              "desc": "Für Benutzerschnittstellen auf der Unternehmensebene aus den Bereichen Banking, Finanzen, Versicherungen und Energieverteilung."
             }
           }
         },
         "features": {
-          "title": "",
-          "item-1": "",
-          "item-2": "",
-          "item-3": "",
-          "item-4": "",
-          "item-5": "",
-          "item-6": "",
-          "item-7": "",
-          "item-8": ""
+          "title": "Hauptmerkmale",
+          "item-1": "Umfangreiches Angebot an erweiterten HTML5- und JSF-Komponenten für die schnelle Entwicklung von Web- und Mobilen-Benutzeroberflächen für Unternehmen",
+          "item-2": "Volle Unterstützung für BPM- und Human-Task-Integration durch Integration mit IBM BPM, Oracle SOA/BPM Suite und JBoss jBPM",
+          "item-3": "Geschäftssitzungsstatusverwaltung",
+          "item-4": "Einfache Integration verschiedener Anwendungen in eine gemeinsame Benutzerschnittstelle",
+          "item-5": "Berichterstattung",
+          "item-6": "Domänenspezifische Komponenten für Banken, Finanzen, Versicherungen und Energieverteilung",
+          "item-7": "Nativ",
+          "item-8": "Hervorragende Benutzererfahrung"
         },
         "customers": {
           "title": ""
         },
         "info": {
-          "title": ""
+          "title": "Holen Sie sich mehr Informationen"
         }
       },
       "motto": {
-        "title": "",
-        "subtitle": ""
+        "title": "Benutzererfahrung ist der wesentlich. Es ist der Unterschied zwischen Kunden zu behalten und zu verlieren.",
+        "subtitle": "Mit KumuluzUX brauchen Sie sich keine Gedanken darüber zu machen, wie es auf verschiedenen Plattformen aussieht (Mobile, Web). KumuluzUX kümmert sich darum und zeigt Ihr Produkt entsprechend an."
       },
       "benefits": {
-        "title": "",
-        "subtitle": "",
+        "title": "Hauptvorteile und Merkmale von KumuluzUX",
+        "subtitle": "Erstellen Sie fortschrittliche, reaktionsschnelle und flexible Web- und Mobile-Anwendungen der Enterprise-Klasse mit hervorragender Benutzererfahrung, BPM-Integration und Omni-Channel-Unterstützung.",
         "after-text": {
-          "colored": "",
-          "text": ""
+          "colored": "Beginnen Sie",
+          "text": "mit dem eigenständigen Aufbau Ihrer digitalen Anwendungsplattform."
         },
         "items": {
           "item-1": {
-            "title": "",
-            "desc": ""
+            "title": "Reichhaltiges Set von erweiterten HTML5 und JSF-Komponenten",
+            "desc": "Verwenden Sie die fortschrittlichen Komponenten von KumuluzUX für die schnelle Entwicklung von Web- und Mobilen-Benutzeroberflächen für Unternehmen."
           },
           "item-2": {
-            "title": "",
-            "desc": ""
+            "title": "Generieren Sie Layouts aus der Datenquelle",
+            "desc": "KumuluzUX kann Layouts generieren und den Inhalt direkt aus der Datenquelle rendern, von APIs, Services, SOAP, REST, OData bis hin zu Datenquellen wie JDBC, ODBC und JPA."
           },
           "item-3": {
-            "title": "",
-            "desc": ""
+            "title": "BPM-Integration",
+            "desc": "KumuluzUX bietet eine enge BPM-Integration mit einer umfangreichen Komponentenpalette für die schnelle Entwicklung von Prozessanwendungen mit IBM BPM, Oracle SOA/BPM Suite und/oder JBoss jBPM."
           },
           "item-4": {
-            "title": "",
-            "desc": ""
+            "title": "Zustand Verwaltung und Berichterstattung",
+            "desc": "KumuluzUX bietet spezifische Komponenten für die Verwaltung und Berichterstattung des Zustandes."
           },
           "item-5": {
-            "title": "",
-            "desc": ""
+            "title": "Domänenintegration",
+            "desc": "Domänenspezifische Komponenten für Banken, Finanzen, Versicherungen und Energieverteilung."
           }
         }
       },
       "use-cases": {
         "components": {
-          "subtitle": "",
-          "title": "",
-          "item-1": "",
-          "item-2": "",
-          "item-3": "",
-          "item-4": ""
+          "subtitle": "Intelligente und konfigurierbare Komponenten",
+          "title": "Intelligente und konfigurierbare Komponenten",
+          "item-1": "<strong>Konfigurierbare Komponenten</strong><br/>Sie können Komponenten nach Ihren Bedürfnissen konfigurieren.",
+          "item-2": "<strong>Intelligente Komponenten</strong><br/>Intelligente Komponenten können Layouts generieren und Inhalte rendern.",
+          "item-3": "<strong>Layout Generierung</strong><br/>KumuluzUX kann Layouts generieren und den Inhalt direkt aus der Datenquelle rendern.",
+          "item-4": "<strong>Unterstützung für verschiedene Datenquellen</strong><br/>Unterstützung für verschiedene Datenquellen, von APIs, Services, SOAP, REST, OData bis hin zu Datenquellen wie JDBC, ODBC und JPA."
         },
         "integration": {
-          "title": "",
-          "subtitle": "",
-          "item-1": "",
-          "item-2": "",
-          "item-3": "",
-          "item-4": ""
-        },
-        "usecases": {
-          "title": ""
-        },
-        "stories": {
-          "title": ""
+          "title": "BPM und Human-Task-Integration",
+          "subtitle": "BPM und Human-Task-Integration",
+          "item-1": "<strong>BPM-Integration</strong><br/>KumuluzUX bietet eine enge BPM-Integration mit einer umfangreichen Komponentenpalette für die schnelle Entwicklung von Prozessanwendungen mit IBM BPM, Oracle SOA/BPM Suite und/oder JBoss jBPM.",
+          "item-2": "<strong>Zustand-Verwaltung-Komponenten</strong><br/>Spezifische Komponenten für die Zustandsverwaltung.",
+          "item-3": "<strong>Berichterstattung-Komponenten</strong><br/>Spezifische Komponenten für die Berichterstattung.",
+          "item-4": "<strong>Human-Task-Integration</strong><br/>Unterstützung für die Integration von Human-Task-Integration mit IBM BPM, Oracle SOA/BPM Suite und JBoss jBPM"
         }
       },
       "prod-grid": ""
     },
     "marketplace": {
-      "title": "",
+      "title": "KumuluzMarketplace",
       "header": {
         "subtitle": ""
       },
@@ -416,7 +639,7 @@
       "prod-grid": ""
     },
     "crowdsensing": {
-      "title": "",
+      "title": "KumuluzCrowdsensing",
       "header": {
         "subtitle": ""
       },
