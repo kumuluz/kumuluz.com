@@ -33,6 +33,7 @@ import strategicAdvantageImage from "../../../assets/images/strategicAdv.svg";
 import knowledgeImage from "../../../assets/images/knowledge.svg";
 import {Helmet} from "react-helmet";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
+import {CheckboxListComponent} from "../../../components/shared/export.shared.components";
 
 const benefits = t => [
     {
@@ -117,7 +118,7 @@ export default class KumuluzUxPage extends Component {
                         <div className="row justify-content-center">
                             <div className="col-10 col-lg-5">
                                 <h3>{t("components.ux.about.about.left.title")}</h3>
-                                <p>{t("components.ux.about.about.left.para")}</p>
+                                <p dangerouslySetInnerHTML={{__html: t("components.ux.about.about.left.para")}} />
                             </div>
                             <div className="col-10 col-lg-5">
                                 <div className="grey-box">
@@ -181,9 +182,7 @@ export default class KumuluzUxPage extends Component {
                         <div className="row justify-content-center">
                             <div className="col-10 integrations">
                                 <h3>{t("components.ux.use-cases.components.subtitle")}</h3>
-                                {components(t).map((feat, index) => (
-                                    <p key={index} className="checkbox orange">{feat}</p>
-                                ))}
+                                <CheckboxListComponent items={components(t)} checkboxColor={"#eed25d"}/>
                             </div>
                         </div>
                     </div>
@@ -193,9 +192,7 @@ export default class KumuluzUxPage extends Component {
                         <div className="row justify-content-center">
                             <div className="col-10 integrations">
                                 <h3>{t("components.integration.use-cases.migration.subtitle")}</h3>
-                                {integrations(t).map((feat, index) => (
-                                    <p key={index} className="checkbox orange">{feat}</p>
-                                ))}
+                                <CheckboxListComponent items={integrations(t)} checkboxColor={"#eed25d"}/>
                             </div>
                         </div>
                     </div>

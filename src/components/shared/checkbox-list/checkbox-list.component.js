@@ -35,7 +35,7 @@ export class CheckboxListComponent extends Component {
                             <span className="checkbox" style={colorStyle}>
                                 <img src={checkMark}/>
                             </span>
-                            <span className="content">{item}</span>
+                            <span className="content" dangerouslySetInnerHTML={{__html: item}} />
                         </div>
                     ))}
                 </div>

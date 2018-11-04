@@ -415,244 +415,244 @@
       "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
     },
     "integration": {
-      "title": "",
+      "title": "KumuluzIntegration",
       "header": {
-        "subtitle": "",
+        "subtitle": "Pripeljite vse svoje podatke na eno mesto in postanite podatkovna organizacija",
         "items": {
-          "item-1": "",
-          "item-2": "",
-          "item-3": ""
+          "item-1": "Integracija podatkov iz kateregakoli vira v realnem času",
+          "item-2": "Izberite med mnogimi predhodno pripravljenimi integracijami v naši knjižnici ",
+          "item-3": "Nobenih preglavic z integracijo, po dostopni ceni"
         }
       },
       "about": {
         "about": {
-          "title": "",
+          "title": "O izdelku",
           "left": {
-            "title": "",
-            "para-1": "",
-            "para-2": ""
+            "title": "Aplikacije na lokaciji, aplikacije SaaS in naprave, ki podpirajo internet stvari, lahko integrirate z zalednimi aplikacijami na lokaciji.",
+            "para-1": "naslovi izzive integracije med SaaS aplikacijami in/ali aplikacijami na lokaciji. KumuluzIntegration vam omogoča, da v le nekaj minutah integrirate in sinhronizirate svoje SaaS aplikacije in/ali aplikacije na lokaciji.",
+            "para-2": "Uporaba najnaprednejših inovacij za integracijo podatkov, kot je na primer integracija ob dogodku, samodejno usklajevanje shem in grajenje skupnega podatkovnega modela poenostavijo in pospešijo integracijo. Podatki med aplikacijami so sinhronizirani v realnem času."
           },
           "right": {
-            "title": "",
+            "title": "Zakaj izbrati KumuluzIntegration?",
             "item-1": {
-              "title": "",
-              "desc": ""
+              "title": "Hitra integracija",
+              "desc": "32 % do 80 % hitrejša integracija kot konkurenca."
             },
             "item-2": {
-              "title": "",
-              "desc": ""
+              "title": "Skrajšan migracijski čas",
+              "desc": "75 % do 90 % krajši čas migracije od obstoječih aplikacij na programsko opremo v obliki storitve."
             },
             "item-3": {
-              "title": "",
-              "desc": ""
+              "title": "Predhodno pripravljene integracije",
+              "desc": "Bogat nabor predhodno pripravljenih integracij za priljubljene komercialne aplikacije. "
             },
             "item-4": {
-              "title": "",
-              "desc": ""
+              "title": "Prihranite na stroških",
+              "desc": "Vsaj 20 % cenejši kot neposredna konkurenca in več kot 50 % nižji skupni stroški lastništva."
             }
           }
         },
         "features": {
-          "title": "",
-          "item-1": "",
-          "item-2": "",
-          "item-3": "",
-          "item-4": "",
-          "item-5": "",
-          "item-6": ""
+          "title": "Glavne značilnosti",
+          "item-1": "Integracija",
+          "item-2": "Varnostna kopija in migracija",
+          "item-3": "Upravljanje ključnih podatkov in masovnih podatkov",
+          "item-4": "Integracija z napravami, ki podpirajo internet stvari",
+          "item-5": "Temelji na vozlišču, v realnem času, ob dogodku",
+          "item-6": "Samodejno usklajevanje shem"
         },
         "customers": {
-          "title": ""
+          "title": "Stranke in primeri uporabe"
         },
         "info": {
-          "title": ""
+          "title": "Več informacij"
         }
       },
       "motto": {
-        "title": "",
-        "subtitle": ""
+        "title": "Živimo v času, ko so podatki kot nova nafta.",
+        "subtitle": "Integracijska platforma Kumuluz vam omogoča, da združite podatke iz različnih virov in, še pomembneje, vam te podatke prav tako pomaga prečistiti."
       },
       "benefits": {
-        "title": "",
-        "subtitle": "",
+        "title": "Glavne prednosti in značilnosti platforme KumuluzIntegration",
+        "subtitle": "Hitra, skalabilna in poenostavljena integracija podatkov v realnem času, ki bo vaši poslovni inteligenci dala popolnoma novo ostrino.",
         "after-text": {
-          "colored": "",
-          "text": ""
+          "colored": "Začnite razvijati",
+          "text": "digitalne aplikacije, ki so neodvisne od prihodnosti."
         },
         "items": {
           "item-1": {
-            "title": "",
-            "desc": ""
+            "title": "Integracijska vozliščna arhitektura",
+            "desc": "Zahteva le en adapter za vsako aplikacijo, ne glede na to, koliko aplikacij je integriranih."
           },
           "item-2": {
-            "title": "",
-            "desc": ""
+            "title": "Samodejno usklajevanje shem",
+            "desc": "Uporablja identifikacijo ujemajočih se podatkov na podlagi vzorcev ter omogoča samodejno ali pol-samodejno generacijo podatkovnih kart, kar bistveno zmanjša čas in napor, predvsem za velike in kompleksne sheme."
           },
           "item-3": {
-            "title": "",
-            "desc": ""
+            "title": "Generacija splošnih podatkovnih modelov navzkrižnih ponudnikov",
+            "desc": "Samodejno zgradi skupni podatkovni model vseh integriranih aplikacij, kar ponuja 360° pogled na podatke in izpostavi ključne podatkovne enote, omogoča analitiko masovnih podatkov, luščenje podatkov in poročanje ter bistveno poenostavljen dostop do podatkov preko mobilnih naprav."
           },
           "item-4": {
-            "title": "",
-            "desc": ""
+            "title": "Integracija ob dogodku v realnem času",
+            "desc": "Spremembe so v integriranih aplikacijah sinhronizirane takoj, ko se dogodijo."
           },
           "item-5": {
-            "title": "",
-            "desc": ""
+            "title": "Poenostavljena integracija naprav, ki podpirajo internet stvari",
+            "desc": "Svoje aplikacije v obliki storitev in na lokaciji integrirajte z napravami, ki podpirajo internet stvari, skozi lahko razumljive poslovne API-je. Posledično so vaše integracije neodvisne od osnovnih tehnologij in protokolov, zmanjša se odvisnost od ponudnikov, prav tako pa je omogočena transparentna uporaba različnih naprav, ki podpirajo internet stvari."
           },
           "item-6": {
-            "title": "",
-            "desc": ""
+            "title": "Vnaprej implementirani in odprtokodni adapterji",
+            "desc": "Velik nabor vnaprej implementiranih adapterjev in odprtokodnih modelov za razvoj adapterjev za skupnost. Še nikoli ni bilo tako preprosto izbrati že zgrajenega adapterja ali razviti svoj lasten adapter."
           }
         }
       },
       "use-cases": {
         "integration": {
-          "title": "",
-          "subtitle": "",
-          "item-1": "",
-          "item-2": ""
+          "title": "Integracija podatkov",
+          "subtitle": "Integracija podatkov",
+          "item-1": "<strong>Integracija</strong><br/>Preprosto in učinkovito integrirajte aplikacije SaaS z drugimi aplikacijami SaaS ali pa aplikacije SaaS z aplikacijami na lokaciji.",
+          "item-2": "<strong>Integracija naprav interneta stvari</strong><br/>Integrirajte svoje aplikacije SaaS in na lokacijo z napravami, ki podpirajo internet stvari."
         },
         "migration": {
-          "title": "",
-          "subtitle": "",
-          "item-1": "",
-          "item-2": ""
+          "title": "Migracija in varnostne kopije podatkov",
+          "subtitle": "Migracija in varnostne kopije podatkov",
+          "item-1": "<strong>Migracija</strong><br/>Brez težav migrirajte aplikacije iz lokacije v oblak in med ponudniki SaaS ter preprečite odvisnost od ponudnika.",
+          "item-2": "<strong>Varnostne kopije</strong><br/>Vaši podatki v oblaku so redno varnostno kopirani na varno lokacijo za shranjevanje, ki je pod vašim nadzorom."
         },
         "management": {
-          "title": "",
-          "subtitle": "",
-          "item-1": "",
-          "item-2": ""
+          "title": "Upravljanje podatkov",
+          "subtitle": "Upravljanje podatkov",
+          "item-1": "<strong>Upravljanje ključnih podatkov</strong><br/>Omogočite upravljanje ključnih podatkov, kar je bistveno poenostavljeno skozi samodejno grajenje ključnih podatkovnih enot.",
+          "item-2": "<strong>Masovni podatki</strong><br/>Opravljajte mogočne analize masovnih podatkov na podlagi integriranih podatkov v realnem času."
         }
       },
       "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
     },
     "ux": {
-      "title": "",
+      "title": "KumuluzUx",
       "header": {
-        "subtitle": "",
+        "subtitle": "Sofisticirano ogrodje za spletne in mobilne uporabniške vmesnike za podjetja s prvovrstno izkušnjo.",
         "items": {
-          "item-1": "",
-          "item-2": "",
-          "item-3": ""
+          "item-1": "Bogat nabor naprednih komponent HTML5 in JSF ",
+          "item-2": "Integracija upravljanja poslovnih procesov (ang. BPM ali business process management)",
+          "item-3": "Podpora za mobilne platforme"
         }
       },
       "about": {
         "about": {
-          "title": "",
+          "title": "O izdelku",
           "left": {
-            "title": "",
-            "para": ""
+            "title": "Ustvarite sofisticirane odzivne spletne in mobilne aplikacije za podjetja",
+            "para": "KumuluzUX spletno in mobilno ogrodje ponuja bogat nabor naprednih komponent HTML5 in JSF za hiter razvoj spletnih in mobilnih uporabniških vmesnikov za podjetja s prvovrstno uporabniško izkušnjo.<br/><br/>Konkurenčna prednost platforme KumuluzUX so sofisticirane sestavljene komponente za hiter razvoj spletnih formularjev, človeških nalog, interakcije poslovnih procesov, poročil in drugih pogostih vmesnikov v informacijskih sistemih podjetij. KumuluzUX vključuje po meri narejene komponente uporabniške vmesnike za podjetja na področjih bančništva, financ, zavarovanja in distribucije električne energije. S platformo KumuluzUX lahko takšne vmesnike in/ali obrazce in poročila ustvarite z eno samo vrstico kode."
           },
           "right": {
-            "title": "",
+            "title": "Zakaj izbrati KumuluzUX?",
             "item-1": {
-              "title": "",
-              "desc": ""
+              "title": "Sofisticirane sestavljene komponente",
+              "desc": "Za razvoj spletnih obrazcev, človeških nalog, interakcij poslovnih procesov, poročil in drugih pogostih vmesnikov."
             },
             "item-2": {
-              "title": "",
-              "desc": ""
+              "title": "Hiter razvoj spletnih obrazcev",
+              "desc": "Vmesniki in/ali obrazci in poročila lahko razvijete z eno samo vrstico kode."
             },
             "item-3": {
-              "title": "",
-              "desc": ""
+              "title": "Po meri narejene komponente",
+              "desc": "Za uporabniške vmesnike za podjetja s področij bančništva, financ, zavarovanj in distribucije električne energije."
             }
           }
         },
         "features": {
-          "title": "",
-          "item-1": "",
-          "item-2": "",
-          "item-3": "",
-          "item-4": "",
-          "item-5": "",
-          "item-6": "",
-          "item-7": "",
-          "item-8": ""
+          "title": "Glavne značilnosti",
+          "item-1": "Bogat nabor naprednih komponent HTML5 in JSF za hiter razvoj spletnih in mobilnih uporabniških vmesnikov za podjetja",
+          "item-2": "Polna podpora za integracijo managementa poslovnih procesov (BPM) in človeških nalog s pomočjo integracije s platformami IBM BPM, Oracle SOA/BPM Suite in JBoss jBPM",
+          "item-3": "Management stanja poslovnih sej",
+          "item-4": "Preprosta integracija različnih aplikacij v skupni uporabniški vmesnik",
+          "item-5": "Poročanje",
+          "item-6": "Komponente, prilagojene za domeno bančništva, financ, zavarovanje in distribucijo električne energije",
+          "item-7": "Vgrajen",
+          "item-8": "Prvovrstna uporabniška izkušnja"
         },
         "customers": {
-          "title": ""
+          "title": "Stranke in primeri uporabe"
         },
         "info": {
-          "title": ""
+          "title": "Več informacij"
         }
       },
       "motto": {
-        "title": "",
-        "subtitle": ""
+        "title": "Uporabniška izkušnja je ključna. Predstavlja razliko med tem, ali stranke ohranite ali izgubite.",
+        "subtitle": "S platformo KumuluzUX vas ne rabi skrbeti, kako bo vaš izdelek izgledal na različnih platformah (mobilni, spletni). KumuluzUX za to poskrbi in vaš izdelek odzivno prikaže."
       },
       "benefits": {
-        "title": "",
-        "subtitle": "",
+        "title": "Glavne koristi in značilnosti platforme KumuluzUX ",
+        "subtitle": "Ustvarite sofisticirane progresivne, odzivne in spremenljive spletne in mobilne aplikacije za podjetja s prvovrstno uporabniško izkušnjo, integracijo managementa poslovnih procesov in večkanalno podporo.",
         "after-text": {
-          "colored": "",
-          "text": ""
+          "colored": "Začnite graditi",
+          "text": "digitalne aplikacije, ki niso odvisne od platforme."
         },
         "items": {
           "item-1": {
-            "title": "",
-            "desc": ""
+            "title": "Bogat nabor naprednih komponent HTML5 in JSF",
+            "desc": "Uporabite napredne komponente KumuluzUX za hiter razvoj spletnih in mobilnih uporabniških vmesnikov za podjetja."
           },
           "item-2": {
-            "title": "",
-            "desc": ""
+            "title": "Ustvarite postavitve iz vira podatkov",
+            "desc": "KumuluzUX lahko ustvari postavitve in ponudi vsebine neposredno iz vira podatkov, ki vključujejo vse od API-jev, storitev, SOAP, REST in OData do virov, kot so JDBC, ODBC in JPA."
           },
           "item-3": {
-            "title": "",
-            "desc": ""
+            "title": "Integracija managementa poslovnih procesov",
+            "desc": "KumuluzUX ponuja tesno integracijo managementa poslovnih procesov z bogatim naborom komponent za hiter razvoj procesnih aplikacij z uporabo platform IBM BPM, Oracle SOA/BPM Suite in/ali JBoss jBPM."
           },
           "item-4": {
-            "title": "",
-            "desc": ""
+            "title": "Upravljanje stanj in poročanje",
+            "desc": "KumuluzUX ponuja specifične komponente za upravljanje in poročanje o stanjih."
           },
           "item-5": {
-            "title": "",
-            "desc": ""
+            "title": "Domenska integracija",
+            "desc": "Domenske specifične komponente za bančništvo, finance, zavarovanje in distribucijo električne energije."
           }
         }
       },
       "use-cases": {
         "components": {
-          "subtitle": "",
-          "title": "",
-          "item-1": "",
-          "item-2": "",
-          "item-3": "",
-          "item-4": ""
+          "subtitle": "Pametne in nastavljive komponente",
+          "title": "Pametne in nastavljive komponente",
+          "item-1": "<strong>Nastavljive komponente</strong><br/>Komponente lahko nastavite glede na svoje potrebe.",
+          "item-2": "<strong>Pametne komponente</strong><br/>Pametne komponente lahko ustvarijo postavitve in ponudijo vsebine.",
+          "item-3": "<strong>Ustvarjanje postavitev</strong><br/>KumuluzUX lahko ustvari postavitve in ponudi vsebine neposredno iz virov podatkov.",
+          "item-4": "<strong>Podpora za različne vire podatkov</strong><br/>Podpora za različne vire podatkov, ki segajo od API-jev, storitev, SOAP, REST in OData do virov, kot so JDBC, ODBC in JPA."
         },
         "integration": {
-          "title": "",
-          "subtitle": "",
-          "item-1": "",
-          "item-2": "",
-          "item-3": "",
-          "item-4": ""
+          "title": "BPM in integracija človeških nalog",
+          "subtitle": "BPM in integracija človeških nalog",
+          "item-1": "<strong>Integracija BPM</strong><br/>KumuluzUX omogoča tesno integracijo managementa poslovnih procesov z bogatim naborom komponent za hiter razvoj procesnih aplikacij s pomočjo platform IBM BPM, Oracle SOA/BPM in/ali JBoss jBPM.",
+          "item-2": "<strong>Komponente za upravljanje stanja</strong><br/>Specifične komponente za upravljanje stanja.",
+          "item-3": "<strong>Poročanje o komponentah</strong><br/>Specifične komponente za poročanje.",
+          "item-4": "<strong>Integracija človeških nalog</strong><br/>Podpora za integracijo človeških nalog preko integracije s platformami IBM BPM, Oracle SOA/BPM Suite in JBoss jBPM."
         },
         "usecases": {
-          "title": ""
+          "title": "Primeri uporabe"
         },
         "stories": {
-          "title": ""
+          "title": "Zgodbe strank"
         }
       },
       "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
     },
     "marketplace": {
-      "title": "",
+      "title": "KumuluzMarketplace",
       "header": {
-        "subtitle": ""
+        "subtitle": "Hitro razvijte digitalne tržne rešitve s polno podporo digitalnim poslovnim modelom"
       },
-      "coming-soon": "",
+      "coming-soon": "PRIHAJA KMALU",
       "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
     },
     "crowdsensing": {
-      "title": "",
+      "title": "KumuluzCrowdsensing",
       "header": {
-        "subtitle": ""
+        "subtitle": "Platforma za avtomatsko zbiranje podatkov in meritev skozi pametne naprave"
       },
-      "coming-soon": "",
+      "coming-soon": "PRIHAJA KMALU",
       "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
     }
   }

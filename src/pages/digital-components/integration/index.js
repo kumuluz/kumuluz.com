@@ -11,7 +11,7 @@ import {digitalPlatformProducts} from "../../../content/index-page/digital-platf
 import integrationLogo from "../../../assets/images/digital-platform/integration.svg";
 import chevron from "../../../assets/images/digital-platform/chevrons/chevron-integration.svg";
 import chevronDown from "../../../assets/images/digital-platform/chevrons/chevron-integration-down.svg";
-import {CollapsableListComponent} from "../../../components/shared/export.shared.components";
+import {CheckboxListComponent, CollapsableListComponent} from "../../../components/shared/export.shared.components";
 import {ContactForm} from "../../../components/shared/contact-form/contact-form";
 import {Footer} from "../../../components/shared/footer/footer";
 
@@ -194,9 +194,7 @@ export default class KumuluzIntegrationPage extends Component {
                         <div className="row justify-content-center">
                             <div className="col-10 integrations">
                                 <h3>{t("components.integration.use-cases.integration.subtitle")}</h3>
-                                {integrations(t).map((feat, index) => (
-                                    <p key={index} className="checkbox orange">{feat}</p>
-                                ))}
+                                <CheckboxListComponent items={integrations(t)} checkboxColor={"#8bc34a"}/>
                             </div>
                         </div>
                     </div>
@@ -206,9 +204,7 @@ export default class KumuluzIntegrationPage extends Component {
                         <div className="row justify-content-center">
                             <div className="col-10 integrations">
                                 <h3>{t("components.integration.use-cases.migration.subtitle")}</h3>
-                                {migrations(t).map((feat, index) => (
-                                    <p key={index} className="checkbox orange">{feat}</p>
-                                ))}
+                                <CheckboxListComponent items={migrations(t)} checkboxColor={"#8bc34a"}/>
                             </div>
                         </div>
                     </div>
@@ -218,9 +214,7 @@ export default class KumuluzIntegrationPage extends Component {
                         <div className="row justify-content-center">
                             <div className="col-10 integrations">
                                 <h3>{t("components.integration.use-cases.management.subtitle")}</h3>
-                                {management(t).map((feat, index) => (
-                                    <p key={index} className="checkbox orange">{feat}</p>
-                                ))}
+                                <CheckboxListComponent items={management(t)} checkboxColor={"#8bc34a"}/>
                             </div>
                         </div>
                     </div>

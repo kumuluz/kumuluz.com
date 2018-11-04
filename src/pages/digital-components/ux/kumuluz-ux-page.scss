@@ -86,6 +86,21 @@
     .features p.checkbox:before {
       background-color: $ux !important;
     }
+    .checkbox-list-component {
+      .checkbox-list-item {
+        align-items: flex-start;
+
+        .checkbox {
+          margin-top: 8px;
+          height: 40px;
+          width: 40px;
+          min-width: 40px;
+        }
+        .content {
+          margin-left: 20px;
+        }
+      }
+    }
   }
   .km-comp-motto-component {
     .line {

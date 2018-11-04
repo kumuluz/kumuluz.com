@@ -420,17 +420,17 @@
         "subtitle": "Bring all your data to one place and become a data-driven organization",
         "items": {
           "item-1": "Real-time data integration from any source",
-          "item-2": "Choose many pre-prepared integrations from our library",
-          "item-3": "No integration hassle, at affordable price"
+          "item-2": "Choose from amongst many pre-prepared integrations from our library",
+          "item-3": "No integration hassle, at an affordable price"
         }
       },
       "about": {
         "about": {
           "title": "About the product",
           "left": {
-            "title": "Integrate on-premise applications, SaaS and IoT devices with on premise back-end applications",
-            "para-1": "addresses the integration challanges between SaaS applications and/or on premise applications. KumuluzIntegration enables you to integrate and synchronize your SaaS and/or on premise applications in matter of minutes.",
-            "para-2": "Using cutting edge innovations in data integration, such as event driven integration, automatic schema matching and building common data model makes integration easier and faster. The data between applications gets synchronized in real-time."
+            "title": "Integrate on-premise applications, SaaS and IoT devices with on premise back-end applications.",
+            "para-1": "addresses integration challenges between SaaS applications and/or on premise applications. KumuluzIntegration enables you to integrate and synchronize your SaaS and/or on premise applications in a matter of minutes.",
+            "para-2": "Using cutting edge innovations in data integration, such as event driven integration, automatic schema matching and building common data models makes integration easier and faster. The data between applications is synchronized in real time."
           },
           "right": {
             "title": "Why should you choose KumuluzIntegration?",
@@ -459,7 +459,7 @@
           "item-3": "Master Data Management & Big data",
           "item-4": "IoT device integration",
           "item-5": "Hub based, real-time, event driven",
-          "item-6": "Automatic shema matching"
+          "item-6": "Automatic schema matching"
         },
         "customers": {
           "title": "Customers & Use cases"
@@ -474,7 +474,7 @@
       },
       "benefits": {
         "title": "Main benefits and features of KumuluzIntegration",
-        "subtitle": "Fast, scalable and simplified real-time data integration, that will give a completely new edge to your business intelligence",
+        "subtitle": "Fast, scalable and simplified real-time data integration that will give a completely new edge to your business intelligence.",
         "after-text": {
           "colored": "Start developing",
           "text": "your digital applications in a future-proof way."
@@ -482,15 +482,15 @@
         "items": {
           "item-1": {
             "title": "Hub-based integration architecture",
-            "desc": "Requires only one adapter per application irrespective of the number of integrated applications."
+            "desc": "Requires only one adapter per application, irrespective of the number of integrated applications."
           },
           "item-2": {
             "title": "Automatic schema matching",
-            "desc": "Uses pattern based identification of matching data and enables automatic or semi-automatic generation of data mapping, which greatly reduces time and effort, particularly for large and complex schemas."
+            "desc": "Uses pattern based identification of matching data and enables automatic or semi automatic generation of data mapping, which greatly reduces time and effort, particularly for large and complex schemas."
           },
           "item-3": {
             "title": "Cross-provider common data model generation",
-            "desc": "Automatically builds the joint common data model of all integrated applications, which enables 360° view of data, exposing master data entities, BigData analytics, data mining and reporting, greatly simplified mobile device data access"
+            "desc": "Automatically builds a joint common data model of all integrated applications, enabling a 360° view of data, exposing master data entities, enabling Big Data analytics, data mining and reporting, and greatly simplifying mobile device data access."
           },
           "item-4": {
             "title": "Event driven, real-time integration",
@@ -498,32 +498,32 @@
           },
           "item-5": {
             "title": "Simplified integration of IoT enabled devices",
-            "desc": "Integrate your SaaS and on-premise applications with IoT enabled devices through easy-to-understand business APIs, which makes your integrations independent of underlying technology and protocols, reduces vendor lock-in and enables use of different IoT devices in a transparent way."
+            "desc": "Integrate your SaaS and on-premise applications with IoT enabled devices through easy-to-understand business APIs, which makes your integrations independent of the underlying technology and protocols, reduces vendor lock-in and enables use of different IoT devices in a transparent way."
           },
           "item-6": {
             "title": "Pre-implemented and open-source adapters",
-            "desc": "Large set of pre-implemented adapters and open-source model for community adapter development. It’s never been easier to select a pre-developed adapter or to develop your own adapter."
+            "desc": "Large set of pre-implemented adapters and open-source models for community adapter development. It has never been easier to select a pre-developed adapter or to develop your own adapter."
           }
         }
       },
       "use-cases": {
         "integration": {
-          "title": "Data Integration",
+          "title": "Data integration",
           "subtitle": "Data integration",
-          "item-1": "Integrate SaaS to SaaS or SaaS to on-premise applications in a simple and efficient way.",
-          "item-2": "Integrate your SaaS and on-premise applications with Internet-of-Things enabled devices."
+          "item-1": "<strong>Integration</strong><br/>Integrate SaaS to SaaS or SaaS to on-premise applications in a simple and efficient way.",
+          "item-2": "<strong>IoT device integration</strong><br/>Integrate your SaaS and on-premise applications with Internet-of-Things enabled devices."
         },
         "migration": {
           "title": "Data migration & backup",
           "subtitle": "Data migration & backup",
-          "item-1": "Migrate on-premise applications to the cloud and between SaaS vendors without a hassle and prevent vendor lock-in.",
-          "item-2": "Your data in the cloud is continuously backed-up to a safe storage location under your control."
+          "item-1": "<strong>Migration</strong><br/>Migrate on-premise applications to the cloud and between SaaS vendors without a hassle, and prevent vendor lock-in.",
+          "item-2": "<strong>Backup</strong><br/>Your data in the cloud is continuously backed up to a safe storage location under your control."
         },
         "management": {
           "title": "Data Management",
           "subtitle": "Data Management",
-          "item-1": "Enable Master Data Management, which is greatly simplified through automatic building of master data entities.",
-          "item-2": "Perform powerful Big Data analytics on top of integrated data in real-time."
+          "item-1": "<strong>Master Data Management</strong><br/>Enable Master Data Management, which is greatly simplified through automatic building of master data entities.",
+          "item-2": "<strong>Big Data</strong><br/>Perform powerful Big Data analytics on top of integrated data in real-time."
         }
       },
       "prod-grid": "Discover other Kumuluz Digital Building Blocks"
@@ -531,7 +531,7 @@
     "ux": {
       "title": "KumuluzUx",
       "header": {
-        "subtitle": "Sophisticated framework for enterprise-grade web and mobile user interface with superb experience.",
+        "subtitle": "Sophisticated framework for enterprise-grade web and mobile user interfaces with a superb experience.",
         "items": {
           "item-1": "Rich set of advanced HTML5 and JSF components",
           "item-2": "BPM integration",
@@ -543,21 +543,21 @@
           "title": "About the product",
           "left": {
             "title": "Create sophisticated enterprise-grade responsive web and mobile applications",
-            "para": "KumuluzUX Web/Mobile Framework provides a rich set of advanced HTML5 and JSF components for rapid development of enterprise-grade web and mobile user interfaces with superb user experience. The competitive advantage of the KumuluzUX are sophisticated composite components for rapid development of web forms, human tasks, business process interaction, reports and other common interfaces in enterprise information systems. KumuluzUX includes custom components for enterprise-grade user interfaces from banking, financial, insurance and power distribution domains. With KumuluzUX, such interfaces and/or forms and reports can be developed with single line of code."
+            "para": "KumuluzUX Web/Mobile Framework provides a rich set of advanced HTML5 and JSF components for rapid development of enterprise-grade web and mobile user interfaces with superb user experience.<br/><br/>The competitive advantage of KumuluzUX are sophisticated composite components for a rapid development of web forms, human tasks, business process interaction, reports and other common interfaces in enterprise information systems. KumuluzUX includes custom components for enterprise-grade user interfaces from the domains of banking, finance, insurance and power distribution. With KumuluzUX, such interfaces and/or forms and reports can be developed with single line of code."
           },
           "right": {
-            "title": "Why should you shoose KumuluzUX?",
+            "title": "Why should you choose KumuluzUX?",
             "item-1": {
               "title": "Sophisticated composite components",
-              "desc": "For development of web forms, human tasks, business process interaction, reports and other common interfaces"
+              "desc": "For the development of web forms, human tasks, business process interaction, reports and other common interfaces."
             },
             "item-2": {
               "title": "Rapid development of web forms",
-              "desc": "Interfaces and/or forms and reports can be developed with single line of code."
+              "desc": "Interfaces and/or forms and reports can be developed with a single line of code."
             },
             "item-3": {
               "title": "Custom components",
-              "desc": "For enterprise-grade user interfaces from banking, financial, insurance and power distribution domains."
+              "desc": "For enterprise-grade user interfaces from the domains of banking, finance, insurance and power distribution."
             }
           }
         },
@@ -566,7 +566,7 @@
           "item-1": "Rich set of advanced HTML5 and JSF components for rapid development of enterprise grade web and mobile user interfaces",
           "item-2": "Full support for BPM and human task integration with integration with IBM BPM, Oracle SOA/BPM Suite and JBoss jBPM",
           "item-3": "Business session state management",
-          "item-4": "Easy integration of different applications into common UI",
+          "item-4": "Easy integration of different applications into a common UI",
           "item-5": "Reporting",
           "item-6": "Domain specific components for banking, finance, insurance and power distribution",
           "item-7": "Native",
@@ -580,28 +580,28 @@
         }
       },
       "motto": {
-        "title": "User experience is key. It’s the difference between keeping and loosing customer.",
-        "subtitle": "With KumuluzUX you don’t need to worry how it will look on different platforms (mobile, web). KumuluzUX takes care of that and displays your product responsively."
+        "title": "User experience is key. It’s the difference between keeping and losing customers.",
+        "subtitle": "With KumuluzUX, you don’t need to worry about how it will look on different platforms (mobile, web). KumuluzUX takes care of that and displays your product responsively."
       },
       "benefits": {
         "title": "Main benefits and features of KumuluzUX",
-        "subtitle": "Create sophisticated enterprise-grade progressive, responsive and fluid web and mobile applications with superb user experience, BPM integration and omni-channel support.",
+        "subtitle": "Create sophisticated enterprise-grade progressive, responsive and fluid web and mobile applications with a superb user experience, BPM integration and omni-channel support.",
         "after-text": {
           "colored": "Start building",
-          "text": "your digital applications platform independent."
+          "text": "platform-independent digital applications."
         },
         "items": {
           "item-1": {
             "title": "Rich set of advanced HTML5 and JSF components",
-            "desc": "Use KumuluzUX advanced components for rapid development of enterprise grade web and mobile user interfaces."
+            "desc": "Use KumuluzUX advanced components for a rapid development of enterprise grade web and mobile user interfaces."
           },
           "item-2": {
             "title": "Generate layouts from data source",
-            "desc": "KumuluzUX can generate layouts and render the content directly from data source, ranging from APIs, services, SOAP, REST, OData to data sources such as JDBC, ODBC and JPA."
+            "desc": "KumuluzUX can generate layouts and render the content directly from a data source, ranging from APIs, services, SOAP, REST and OData to data sources such as JDBC, ODBC and JPA."
           },
           "item-3": {
             "title": "BPM integration",
-            "desc": "KumuluzUX provides tight BPM integration with a rich set of component for rapid development of Process Applications using IBM BPM, Oracle SOA/BPM Suite and/or JBoss jBPM."
+            "desc": "KumuluzUX provides tight BPM integration with a rich set of components for rapid development of process applications using IBM BPM, Oracle SOA/BPM Suite and/or JBoss jBPM."
           },
           "item-4": {
             "title": "State management and reporting",
@@ -617,18 +617,18 @@
         "components": {
           "subtitle": "Smart and configurable components",
           "title": "Smart and configurable components",
-          "item-1": "You can configure components according to your needs.",
-          "item-2": "Smart components can generate layouts and render content.",
-          "item-3": "KumuluzUX can generate layouts and render the content directly from data source.",
-          "item-4": "Support for different data sources, ranging from APIs, services, SOAP, REST, OData to data sources such as JDBC, ODBC and JPA."
+          "item-1": "<strong>Configurable components</strong><br/>You can configure components according to your needs.",
+          "item-2": "<strong>Smart components</strong><br/>Smart components can generate layouts and render content.",
+          "item-3": "<strong>Layout generation</strong><br/>KumuluzUX can generate layouts and render the content directly from a data source.",
+          "item-4": "<strong>Different data source support</strong><br/>Support for different data sources, ranging from APIs, services, SOAP, REST and OData to data sources such as JDBC, ODBC and JPA."
         },
         "integration": {
           "title": "BPM and human task integration",
           "subtitle": "BPM and human task integration",
-          "item-1": "KumuluzUX provides tight BPM integration with a rich set of component for rapid development of Process Applications using IBM BPM, Oracle SOA/BPM Suite and/or JBoss jBPM.",
-          "item-2": "Specific components for state management.",
-          "item-3": "Specific components for reporting.",
-          "item-4": "Support for human task integration with integration with IBM BPM, Oracle SOA/BPM Suite and JBoss jBPM"
+          "item-1": "<strong>BPM integration</strong><br/>KumuluzUX provides tight BPM integration with a rich set of components for rapid development of process applications using IBM BPM, Oracle SOA/BPM Suite and/or JBoss jBPM.",
+          "item-2": "<strong>State management components</strong><br/>Specific components for state management.",
+          "item-3": "<strong>Reporting components</strong><br/>Specific components for reporting.",
+          "item-4": "<strong>Human task integration</strong><br/>Support for human task integration through integration with IBM BPM, Oracle SOA/BPM Suite and JBoss jBPM."
         },
         "usecases": {
           "title": "Use cases"
