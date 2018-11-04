@@ -4,25 +4,29 @@
   },
   "header": {
     "title": "We <strong>actively collaborate</strong> with integration partners that can empower our <strong>Kumuluz Digital Platform</strong> to help their customers accelerate the digital transformation and develop new digital products.",
-    "subtitle": "Become our partner or find a local one"
+    "subtitle": "Become our partner"
   },
   "our-partners": {
     "title": "Who are our integration partners?",
-    "description": "Our partners are most often regional software development companies with a substantial track record, serving the big enterprises in the region."
+    "description": "Our partners are most often regional system integrators and software development companies with a substantial track record, serving big enterprises, companies, the government and other institutions in the region."
   },
   "what-we-offer": {
     "title": "What do we offer to our integration partners?",
     "description": "We offer substantial benefits to our integration partners",
     "items": {
-      "item-1": "Introduction of components of KumuluzDigital platform ",
-      "item-2": "Integration partners can use our components for their own portfolio of products",
-      "item-3": "They get to know how our products work and get trained for their implementation",
-      "item-4": "There is also possibility of cooperation in development"
+      "item-1": "Introduction of Kumuluz Digital Platform components",
+      "item-2": "Use and reuse of Kumuluz Business APIs",
+      "item-3": "Use of our components for the partners’ own portfolio of products",
+      "item-4": "Knowledge of how our products work and training for their implementation",
+      "item-5": "Possibility of cooperation in the development",
+      "item-6": "Full training to get familiar with the Kumuluz products",
+      "item-7": "Full support",
+      "item-8": "Full access to new versions"
     }
   },
   "integration-partners": {
     "title": "Are you interested in becoming our integration partner?",
-    "summary": "Contact us using the form below"
+    "summary": "Contact us using the form below."
   }
 }
 

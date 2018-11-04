@@ -10,13 +10,13 @@ export const navbarItems = t => [
         url: "/digital-platform",
         title: t("navbar.digital-platform"),
         external: false,
-        availableLangs: ["en"]
+        availableLangs: ["en", "sl"]
     },
     {
         url: "/partners",
         title: t("navbar.partners"),
         external: false,
-        availableLangs: ["en"]
+        availableLangs: ["en", "sl"]
     },
     {
         url: BLOG_URL,

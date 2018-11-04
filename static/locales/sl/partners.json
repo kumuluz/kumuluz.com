@@ -1,28 +1,32 @@
 {
   "meta": {
-    "title": ""
+    "title": "Partnerji - Kumuluz"
   },
   "header": {
-    "title": "",
-    "subtitle": ""
+    "title": "<strong>Aktivno sodelujemo</strong> z integracijskimi partnerji, ki lahko okrepijo <strong>Kumuluzovo digitalno platformo</strong> in poslovne aplikacijske programske vmesnike, ter tako svojim strankam pomagajo pospešiti digitalno transformacijo in razviti nove digitalne izdelke.",
+    "subtitle": "Postanite naš partner."
   },
   "our-partners": {
-    "title": "",
-    "description": ""
+    "title": "Kdo so naši integracijski partnerji?",
+    "description": "Naši partnerji so najpogosteje regionalni sistemski integratorji in podjetja za razvoj programske opreme, ki trajno dosegajo opazne rezultate ter služijo velikim družbam, podjetjem, vladi in ostalim institucijam v regiji."
   },
   "what-we-offer": {
-    "title": "",
-    "description": "",
+    "title": "Kaj ponujamo našim integracijskim partnerjem?",
+    "description": "Našim integracijskim partnerjem ponujamo znatne koristi",
     "items": {
-      "item-1": "",
-      "item-2": "",
-      "item-3": "",
-      "item-4": ""
+      "item-1": "Uvedba komponent Kumuluzove digitalne platforme",
+      "item-2": "Uporaba in večkratna uporaba Kumuluzovih poslovnih API-jev",
+      "item-3": "Integracijski partnerji lahko naše komponente uporabljajo za svoj portfelj izdelkov",
+      "item-4": "Partnerji se naučijo, kako naši izdelki delujejo ter so usposobljeni za njihovo implementacijo",
+      "item-5": "Možnost sodelovanja pri razvoju",
+      "item-6": "Integracijski partnerji so celostno usposobljeni in se spoznajo s Kumuluzovimi izdelki",
+      "item-7": "Integracijski partnerji dobijo popolno podporo",
+      "item-8": "Neomejen dostop do novih različic "
     }
   },
   "integration-partners": {
-    "title": "",
-    "summary": ""
+    "title": "Želite postati naš integracijski partner?",
+    "summary": "Kontaktirajte nas preko obrazca spodaj"
   }
 }
 

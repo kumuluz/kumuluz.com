@@ -67,6 +67,10 @@ export default class PartnersPage extends Component {
                                             t("what-we-offer.items.item-2"),
                                             t("what-we-offer.items.item-3"),
                                             t("what-we-offer.items.item-4"),
+                                            t("what-we-offer.items.item-5"),
+                                            t("what-we-offer.items.item-6"),
+                                            t("what-we-offer.items.item-7"),
+                                            t("what-we-offer.items.item-8")
                                         ]}/>
                                 </div>
                             </div>
