@@ -89,12 +89,6 @@ export class NavbarComponent extends Component {
         const {t} = this.props;
         const {language} = this.state;
 
-        const hideIfNotTranslatedYet = (item) => {
-            return item.availableLangs !== undefined && !item.availableLangs.includes(language);
-        };
-
-        const displayedItems = navbarItems(t).filter(it => !hideIfNotTranslatedYet(it));
-
         return (
             <div className="km-navbar-component">
                 <nav>
@@ -111,7 +105,7 @@ export class NavbarComponent extends Component {
 
                     <div className="link-container" ref={ref => this.linkMenu = ref}>
                         <div className="links">
-                            {displayedItems.map((item, index) =>  (
+                            {navbarItems(t).map((item, index) =>  (
                                 <div key={index} className="link-item">
                                     {this.renderLinkItem(item)}
                                 </div>

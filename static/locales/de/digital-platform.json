@@ -1,32 +1,32 @@
 {
   "meta": {
-    "title": "Digitale platform - Kumuluz"
+    "title": "Digitale plattform - Kumuluz"
   },
   "header": {
-    "title": "Kumuluz Digitale Platform",
-    "subtitle": ""
+    "title": "Kumuluz Digitale Plattform",
+    "subtitle": "Alles, was Sie für die Beschleunigung Ihrer digitalen Transformation benötigen, mit der offenen, leichten digitalen Plattform."
   },
   "digit-strategy": {
-    "title": "",
-    "subtitle-1": "",
-    "subtitle-2": ""
+    "title": "Ihre digitale Strategie",
+    "subtitle-1": "Ideen für digitale Produkte und Dienstleistungen, vorhandene monolithische Anwendungen, vorhandene IT-Infrastruktur, Backend-Anwendungen, Ihr Entwicklungsteam und Ihre IT-Mitarbeiter.",
+    "subtitle-2": "Verwenden Sie nur die Teile der Plattform, die für Ihre digitale Transformation wesentlich sind"
   },
   "digit-platform": {
-    "title": "",
-    "learn-more": ""
+    "title": "Ein Netzwerk aus miteinander verbundenen, skalierbaren und agilen digitalen Anwendungen",
+    "learn-more": "Mehr erfahren"
   },
   "what-can": {
-    "title": "",
+    "title": "Was kann die KumuluzDigital-Plattform für Sie tun?",
     "left": {
-      "para-1": "",
-      "para-2": "",
-      "para-3": ""
+      "para-1": "Die KumuluzDigital-Plattform ist die preisgekrönte Lösung, mit der Unternehmen ihre digitale Transformation implementieren und beschleunigen können.",
+      "para-2": "Die KumuluzDigital-Plattform bietet Ihnen alle notwendigen Bausteine, um die Entwicklung Ihres digitalen Geschäfts zu beschleunigen. Die Plattform ermöglicht Ihnen die Umsetzung Ihrer digitalen Strategie.",
+      "para-3": "Mit Kumuluz Digital stellen Sie die neuesten Cloud-nativen Konzepte, Mikroservices, APIs und Docker-Container vor. Sie adoptieren eine agile Entwicklung, DevOps-Prinzipien und Continuous Delivery, um Ihre Entwicklung beschleunigen zu können. Endlich können Sie Ihre monolithischen Anwendungen modernisieren. Sie entwickeln eine ausgefeilte Benutzererfahrung und komplexe Marktplatzlösungen."
     },
     "right": {
-      "para-1": "",
+      "para-1": "Die Vorteile sind enorm. Sie können die Bereitstellungszeit für Ihre digitalen Produkte, Services, Anwendungen und Marktplatzlösungen erheblich reduzieren, indem Sie unsere Plattform, Agile Entwicklung, DevOps und andere Cloud-native Methoden für die kontinuierliche Bereitstellung verwenden.",
       "para-2": {
-        "strong": "",
-        "text": ""
+        "strong": "Und es gibt noch viel mehr",
+        "text": "KumuluzDigital bietet Ihnen die Werkzeuge, um eine ausgefeilte, reaktionsschnelle Benutzererfahrung zu schaffen, schnell eigene digitale Marktplätze zu entwickeln, API-Economy-Geschäftsmodelle zu implementieren, mit Ihren Kunden auf neue Weise zu kommunizieren, Kunden zu gewinnen, ihre Bedürfnisse zu erfassen und auf sie zu reagieren, digitale Zahlungen zu sammeln, und weitere aufregende Funktionen hinzuzufügen, die für die digitale Wirtschaft unverzichtbar sind."
       }
     }
   },
@@ -257,7 +257,7 @@
           "item-17": "KumuluzEE Ethereum für Ethereum-fähige Microservices (Blockchain)."
         }
       },
-      "prod-grid": "Discover other Kumuluz Digital Building Blocks"
+      "prod-grid": "Entdecken Sie andere digitale Bausteine von Kumuluz"
     },
     "api": {
       "title": "KumuluzAPI",
@@ -412,7 +412,7 @@
           }
         }
       },
-      "prod-grid": ""
+      "prod-grid": "Entdecken Sie andere digitale Bausteine von Kumuluz"
     },
     "integration": {
       "title": "KumuluzIntegration",
@@ -523,7 +523,7 @@
           "item-2": "<strong>Big Data</strong><br/>Führen Sie leistungsstarke integrierte Big Data-Analysen zusätzlich zu integrierten Daten in Echtzeit durch."
         }
       },
-      "prod-grid": ""
+      "prod-grid": "Entdecken Sie andere digitale Bausteine von Kumuluz"
     },
     "ux": {
       "title": "KumuluzUX",
@@ -568,9 +568,6 @@
           "item-6": "Domänenspezifische Komponenten für Banken, Finanzen, Versicherungen und Energieverteilung",
           "item-7": "Nativ",
           "item-8": "Hervorragende Benutzererfahrung"
-        },
-        "customers": {
-          "title": ""
         },
         "info": {
           "title": "Holen Sie sich mehr Informationen"
@@ -628,23 +625,23 @@
           "item-4": "<strong>Human-Task-Integration</strong><br/>Unterstützung für die Integration von Human-Task-Integration mit IBM BPM, Oracle SOA/BPM Suite und JBoss jBPM"
         }
       },
-      "prod-grid": ""
+      "prod-grid": "Entdecken Sie andere digitale Bausteine von Kumuluz"
     },
     "marketplace": {
       "title": "KumuluzMarketplace",
       "header": {
-        "subtitle": ""
+        "subtitle": "Entwickeln Sie digitale Marktplatzlösungen schnell und mit voller Unterstützung für digitale Geschäftsmodelle"
       },
-      "coming-soon": "",
-      "prod-grid": ""
+      "coming-soon": "DEMNÄCHST",
+      "prod-grid": "Entdecken Sie andere digitale Bausteine von Kumuluz"
     },
     "crowdsensing": {
       "title": "KumuluzCrowdsensing",
       "header": {
-        "subtitle": ""
+        "subtitle": "Plattform für die automatische Datenerfassung und -messung durch intelligente Geräte"
       },
-      "coming-soon": "",
-      "prod-grid": ""
+      "coming-soon": "DEMNÄCHST",
+      "prod-grid": "Entdecken Sie andere digitale Bausteine von Kumuluz"
     }
   }
 }

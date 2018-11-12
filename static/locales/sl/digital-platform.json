@@ -4,29 +4,29 @@
   },
   "header": {
     "title": "Kumuluz Digitalna Platforma",
-    "subtitle": ""
+    "subtitle": "Vse, kar potrebujete, da pospešite svojo digitalno transformacijo z odprto in lahko digitalno platformo."
   },
   "digit-strategy": {
-    "title": "",
-    "subtitle-1": "",
-    "subtitle-2": ""
+    "title": "Vaša digitalna strategija",
+    "subtitle-1": "Ideje za digitalne produkte in storitve, obstoječe monolitne aplikacije, obstoječo IT infrastrukturo, zaledne aplikacije, vašo razvojno ekipo in IT osebje.",
+    "subtitle-2": "Uporabite samo gradnike, ki so vitalni za vašo digitalno transformacijo"
   },
   "digit-platform": {
-    "title": "",
+    "title": "Omrežje povezanih, skalabilnih in agilnih digitalnih aplikacij.",
     "learn-more": "Več"
   },
   "what-can": {
-    "title": "",
+    "title": "Kaj lahko platforma Kumuluz Digital stori za vas",
     "left": {
-      "para-1": "",
-      "para-2": "",
-      "para-3": ""
+      "para-1": "Platforma Kumuluz Digital je zmagovalna rešitev, ki jo podjetja uporabljajo, da implementirajo in pospešijo svojo digitalno transformacijo.",
+      "para-2": "Platforma Kumuluz Digital zagotovi vse gradnike, ki jih potrebujete, da pospešite razvoj svojega digitalnega poslovanja. Platforma vam omogoči hitro implementacijo vaše digitalne strategije.",
+      "para-3": "S platformo Kumuluz Digital boste vpeljali najnovejše oblačne koncepte, mikrostoritve, API-je in vsebnike Docker. Uporabili boste agilni razvoj, principe DevOps in neprekinjeno dostavo, ter tako pospešili svoj razvoj. Končno boste lahko modernizirali svoje monolitske aplikacije. Razvili boste sofisticirano uporabniško izkušnjo in kompleksne rešitve za trg."
     },
     "right": {
-      "para-1": "",
+      "para-1": "Koristi je ogromno. Z našo platformo ter agilnimi, DevOps in drugimi oblačnimi metodami boste bistveno skrajšali čas vstopa na trg za svoje digitalne izdelke, storitve, aplikacije in rešitve za trg.",
       "para-2": {
-        "strong": "",
-        "text": ""
+        "strong": "In še mnogo več",
+        "text": "Kumuluz Digital vam ponuja orodja, ki so potrebna, da ustvarite sofisticirano in odzivno uporabniško izkušnjo, hitro razvijete svoje lastne digitalne trge, implementirate poslovne modele za gospodarstvo vmesnikov API, na nove načine komunicirate s svojimi kupci, pritegnite kupce, zaznate njihove potrebe in se na njih takoj odzovete, zberete digitalna plačila in dodate mnoge druge zanimive funkcionalnosti, ki so nepogrešljive v digitalnem gospodarstvu."
       }
     }
   },

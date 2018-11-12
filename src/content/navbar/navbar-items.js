@@ -9,14 +9,12 @@ export const navbarItems = t => [
     {
         url: "/digital-platform",
         title: t("navbar.digital-platform"),
-        external: false,
-        availableLangs: ["en"]
+        external: false
     },
     {
         url: "/partners",
         title: t("navbar.partners"),
-        external: false,
-        availableLangs: ["en", "sl"]
+        external: false
     },
     {
         url: BLOG_URL,
