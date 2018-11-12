@@ -1,28 +1,31 @@
 {
   "meta": {
-    "title": ""
+    "title": "Partner - Kumuluz"
   },
   "header": {
-    "title": "",
-    "subtitle": ""
+    "title": "Wir <strong>arbeiten aktiv</strong> mit Integrationspartnern zusammen, mit denen unsere <strong>Kumuluz Digital Platform</strong>- und Business-APIs den Kunden helfen können, die digitale Transformation zu beschleunigen und neue digitale Produkte zu entwickeln.",
+    "subtitle": "Werden Sie unser Partner."
   },
   "our-partners": {
-    "title": "",
-    "description": ""
+    "title": "Wer sind unsere Integrationspartner?",
+    "description": "Unsere Partner sind meistens regionale Systemintegratoren und Softwareentwicklungsunternehmen, die große Erfolge vorweisen können und große Betriebe, Unternehmen, die Regierung und andere Institutionen in der Region bedienen."
   },
   "what-we-offer": {
-    "title": "",
-    "description": "",
+    "title": "Was bieten wir unseren Integrationspartnern an?",
+    "description": "Wir bieten unseren Integrationspartnern erhebliche Vorteile",
     "items": {
-      "item-1": "",
-      "item-2": "",
-      "item-3": "",
-      "item-4": ""
+      "item-1": "Einführung von Kumuluz Digital Platform-Komponenten",
+      "item-2": "Verwendung und Wiederverwendung von Kumuluz Business APIs",
+      "item-3": "Verwendung unserer Komponenten für das eigene Produktportfolio der Partner ",
+      "item-4": "Wissen über die Funktionsweise unserer Produkte und Training für deren Implementierung",
+      "item-5": "Möglichkeit der Zusammenarbeit an der Entwicklung",
+      "item-6": "Vollständiges Training, um die Partner mit den Kumuluz-Produkten vertraut zu machen",
+      "item-7": "Volle Unterstützung",
+      "item-8": "Voller Zugriff auf neue Versionen"
     }
   },
   "integration-partners": {
-    "title": "",
-    "summary": ""
+    "title": "Möchten Sie unser Integrationspartner werden?",
+    "summary": "Kontaktieren Sie uns über das untenstehende Formular."
   }
 }
-
