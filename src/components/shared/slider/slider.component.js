@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {translate} from "react-i18next";
 import PropType from "prop-types";
 import anime from "animejs";
 import {Row, Col} from "reactstrap";
@@ -6,15 +7,18 @@ import {Row, Col} from "reactstrap";
 import "./slider.component.scss";
 import {determineScreenWidth, MOBILE_MEDIA} from "../../../layouts/common";
 
+@translate()
 export class SliderComponent extends Component {
 
     static propTypes = {
+        i18n: PropType.object,
         benefits: PropType.array
     };
 
     constructor(props) {
         super(props);
         this.state = {
+            lang: props.i18n.language,
             benefits: [
                 props.benefits[props.benefits.length - 1],
                 ...props.benefits.slice(),
@@ -22,6 +26,22 @@ export class SliderComponent extends Component {
             ]
         };
         this.animating = false;
+    }
+
+    // eslint-disable-next-line no-unused-vars
+    componentWillReceiveProps(nextProps, nextCtx) {
+        if (nextProps.i18n.language !== this.state.lang) {
+            this.setState(() => {
+                return {
+                    lang: nextProps.i18n.language,
+                    benefits: [
+                        nextProps.benefits[nextProps.benefits.length - 1],
+                        ...nextProps.benefits.slice(),
+                        ...nextProps.benefits.slice(0, nextProps.benefits.length - 1)
+                    ]
+                };
+            });
+        }
     }
 
     returnShiftFor() {
