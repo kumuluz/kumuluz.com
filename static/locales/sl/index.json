@@ -4,7 +4,7 @@
   },
   "header": {
     "main-title": "<strong>Pospešite</strong> razvoj svojih <strong>digitalnih produktov</strong> s platformo Kumuluz",
-    "subtitle": "Uresničite svojo digitalno strategijo",
+    "subtitle": "Ponujamo orodaja za realizacijo vaše digitalne strategije",
     "tiles": {
       "buttons": {
         "play-video": "Predvajaj video",
@@ -17,14 +17,14 @@
       },
       "right-tile": {
         "above-title": "DIGITALNA PLATFORMA KUMULUZ",
-        "title": "Pospešite svojo digitalno transformacijo",
+        "title": "Orodja za implementacijo novih poslovnih modelov",
         "subtitle": "Lahka, odprta in nagrajena digitalna platforma, ki jo razvojne ekipe obožujejo."
       }
     }
   },
   "content": {
     "title": "Vsi gradniki, ki jih potrebujete za svojo digitalno transformacijo",
-    "text": "Kumuluz zagotovlja vse gradnike, ki jih potrebujete za realizacijo vaše digitalne transformacije. Vse, od modernizacije obstoječe programske opreme do orodij za veliko hitrejši razvoj novih digitalnih izdelkov in aplikacij.",
+    "text": "Od modernizacije obstoječe programske opreme do orodij za veliko hitrejši razvoj novih digitalnih izdelkov in aplikacij.",
     "blog-link": "Naš blog"
   },
   "digitalLandscapeCompetition": {
@@ -35,7 +35,7 @@
     },
     "item-2": {
       "title": "Ustvarite digitalne, fleksibilne in prilagodljive aplikacije",
-      "content": "Razvijte prave digitalne aplikacije, ki so popolnoma fleksibilne, se lahko hitro prilagodijo potrebam strank in potrebam vaše digitalne strategije, že med samim procesom digitalne transformacije."
+      "content": "Razvijte digitalne aplikacije, ki so popolnoma fleksibilne, se lahko hitro prilagodijo potrebam strank in potrebam vaše digitalne strategije, že med samim procesom digitalne transformacije."
     },
     "item-3": {
       "title": "Zagrabite nove poslovne priložnosti in digitalne poslovne modele",
@@ -43,7 +43,7 @@
     },
     "item-4": {
       "title": "Svojim strankam redno ponujajte nove funkcionalnosti",
-      "content": "Hitro in agilno lansirajte nove funkcionalnosti za svoje digitalne izdelke in storitve, vsak dan ali celo vsakih nekaj ur. Vaša programska oprema je končno lahko dovolj fleksibilna, da se prilagodi vsem hitrim spremembam na trgu. Nenehno inovirajte in čim hitreje naredite prehod od koncepta do denarja."
+      "content": "Hitro in agilno lansirajte nove funkcionalnosti digitalnih izdelkov in storitev, vsak dan ali celo vsakih nekaj ur. Vaša programska oprema je končno lahko dovolj fleksibilna, da se prilagodi vsem hitrim spremembam na trgu. Nenehno inovirajte in čim hitreje naredite prehod od koncepta do denarja."
     },
     "item-5": {
       "title": "Razumite potrebe svojih strank in se temu primerno odzovite",
@@ -51,14 +51,14 @@
     },
     "item-6": {
       "title": "Uporabite najsodobnejše digitalne tehnologije",
-      "content": "V celoti uporabite moderne digitalne tehnologije, vključno z mobilnimi, spletnimi in oblačnimi tehnologijami, aplikacijskimi programskimi vmesniki, internetom stvari, industrijo 4.0, veriženjem blokov, umetno inteligenco …"
+      "content": "V celoti uporabite moderne digitalne tehnologije, vključno z mobilnimi, spletnimi in oblačnimi tehnologijami, aplikacijskimi programskimi vmesniki, internetom stvari, industrijo 4.0, veriženjem blokov, umetno inteligenco in drugimi tehnologijami."
     },
     "item-7": {
       "title": "Izboljšajte odpornost in obseg",
       "content": "Občutno zmanjšajte število okvar in izboljšajte odpornost na napake. Brezskrbno in dinamično skalirajte svoje aplikacije, medtem ko se vaš krog strank veča."
     },
     "item-8": {
-      "title": "Prenovite svojo platformo in optimizirajte razvojna sredstva",
+      "title": "Prenovite svojo platformo in optimizirajte sredstva za razvoj",
       "content": "Najboljše od vsega je, da ne rabite začeti iz nič, saj namesto tega lahko uporabite obstoječe rešitve in aplikacije ter naredite prehod na novejšo platformo mikrostoritev in oblačnih rešitev."
     },
     "item-9": {
