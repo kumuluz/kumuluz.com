@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "business-apis": "Poslovni APIji",
+    "business-apis": "Poslovni API-ji",
     "digital-platform": "Digitalna platforma",
     "partners": "Partnerji",
     "use-cases": "Primeri uporabe",
@@ -17,17 +17,17 @@
     },
     "copyright": "&copy; Sunesis, Vse pravice pridržane",
     "social": {
-      "title": "Sledite nam na socialnih omrežjih"
+      "title": "Sledite nam na družbenih omrežjih"
     },
     "apis": {
-      "title": "Poslovni APIji",
-      "api1": "Plačilo",
+      "title": "Poslovni API-ji",
+      "api1": "Plačevanje",
       "api2": "Katalog izdelkov",
       "api3": "Nakupovalna košarica",
       "api4": "Upravljanje z naročili",
       "api5": "Izpolnjevanje naročil",
       "api6": "Izdajanje računov",
-      "api7": "Uporavljanje odnosov s strankami",
+      "api7": "Upravljanje odnosov s strankami",
       "api8": "Komunikacija s strankami",
       "api9": "Upravljanje naročnine",
       "api10": "Proces spoznavanja strank"
@@ -53,10 +53,10 @@
     "contact": {
       "title": "Govorite z našimi strokovnjaki",
       "form": {
-        "name": "Ime in Priimek",
+        "name": "Ime in priimek",
         "namePlaceholder": "Vaše polno ime",
         "company": "Podjetje",
-        "companyPlaceholder": "Vaše podjetje",
+        "companyPlaceholder": "Podjetje",
         "email": "Elektronski naslov",
         "emailPlaceholder": "janeznovak at email",
         "companySize": "Velikost podjetja",
