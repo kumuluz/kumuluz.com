@@ -4,7 +4,7 @@
   },
   "header": {
     "main-title": "Pospešite razvoj svojih digitalnih izdelkov in aplikacij s <strong>Kumuluz poslovnimi API-ji</strong>",
-    "subtitle-1": "Kumuluz poslovni API-ji omogočajo, da pospešite razvoj svojih digitalnih aplikacij z vnaprej razvitimi funkcionalnostmi, ki jih potrebuje vsaka digitalna aplikacija.",
+    "subtitle-1": "Vnaprej razvite funkcionalnosti, ki jih potrebuje vsaka digitalna aplikacija.",
     "items": {
       "what-are": {
         "title": "Kaj so Kumuluz poslovni API-ji?",
@@ -35,7 +35,7 @@
     "left-way": {
       "title": "Registrirajte se in preizkusite brezplačno",
       "para": "Registrirajte se in preizkusite nekatere poslovne API-je.",
-      "button": "Začnite brezplačno."
+      "button": "Začnite brezplačno"
     },
     "center-way": {
       "title": "Nakupujte s podporo",
@@ -64,7 +64,7 @@
       "text": "uporablja Kumuluz poslovne API-je za razvoj svoje storitvene platforme in digitalnih aplikacij, kot so Na poti, Fresh, Travel Aggregator in druge."
     },
     "para2": "Različne interne programske aplikacije se sklicujejo na vmesnik Catalog API, da pridobijo informacije in cene izdelkov.",
-    "quote": "Z vmesnikom KumuluzDigital boste lahko vpeljali najnovejše oblačne koncepte, mikrostoritve, aplikacijske programske vmesnike in vsebnike Docker. Implementirali boste agilni razvoj, principe razvojnih operacij (ang. DevOps) in neprekinjene dostave (ang. continuous delivery), ter tako pospešili svoj razvoj. Končno boste lahko modernizirali svoje monolitne aplikacije."
+    "quote": "Z vmesnikom KumuluzDigital smo vpeljali najnovejše oblačne koncepte, mikrostoritve, aplikacijske programske vmesnike in vsebnike Docker. Implementirali smo agilni razvoj, principe razvojnih operacij (ang. DevOps) in neprekinjene dostave (ang. continuous delivery), ter tako pospešili svoj razvoj. Končno smo modernizirali naše monolitne aplikacije."
   },
   "apis": {
     "overview": "Pregled",
