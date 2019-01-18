@@ -17,7 +17,7 @@
       },
       "right-tile": {
         "above-title": "DIGITALNA PLATFORMA KUMULUZ",
-        "title": "Orodja za implementacijo novih poslovnih modelov",
+        "title": "Ogrodje za implementacijo novih poslovnih modelov",
         "subtitle": "Lahka, odprta in nagrajena digitalna platforma, ki jo razvojne ekipe obožujejo."
       }
     }
@@ -30,7 +30,7 @@
   "digitalLandscapeCompetition": {
     "title": "Z izdelki skupine Kumuluz premagajte svojo konkurenco v digitalnem okolju",
     "item-1": {
-      "title": "300 % hitrejši vstop na trg za vaše digitalne aplikacije",
+      "title": "Trikrat hitrejši vstop na trg za vaše digitalne aplikacije",
       "content": "Z že razvitimi poslovnimi API-ji, mikrostoritvami in oblačno arhitekturo, agilnim pristopom in metodologijo DevOps se za vašo aplikacijo čas vstopa na trg drastično skrajša."
     },
     "item-2": {
@@ -105,7 +105,7 @@
       "integration": "Integracijska platforma – Integrirajte digitalne rešitve, internet stvari in zaledne sisteme",
       "ux": "UX ogrodje z integriranim managementom poslovnih procesov – Na preprost način razvijte sofisticirane in odzivne uporabniške izkušnje",
       "marketplace": "Ogrodje za digitalno tržišče – Hitro razvijte prilagojena digitalna tržišča in pospešite svoje poslovanje",
-      "crowdsensing": "Platforma, ki bo s pomočjo tehnologije veriženja blokov zbrala in analizirala podatke o množicah – Pridobite nove poglobljene podatki o vaših strankah z mobilnim zajemom"
+      "crowdsensing": "Platforma za avtomatsko zbiranje in analizo podatkov s pomočjo tehnologije veriženja blokov – Pridobite nove poglobljene podatki o vaših strankah skozi pametne naprave"
     }
   },
   "highlights": {
@@ -126,7 +126,7 @@
       "first-tile": {
         "above-title": "NAŠE STORITVE",
         "title": "Lahko vam pomagamo realizirati vašo digitalno strategijo",
-        "para": "Ponujamo širok izbor storitev na področju svetovanja za IT ter izobraževanja in storitev za razvoj programske opreme, ki podjetjem omogočajo hitrejšo digitalno transformacijo, prav tako pa ponujamo storitve, povezane s prehodom na oblak, prehodom z monolitne na mikrostoritveno arhitekturo, modernizacijo programske opreme in razvojem novih digitalnih izdelkov."
+        "para": "Ponujamo širok nabor storitev na področju IT svetovanja in storitev razvoja programske opreme, ki podjetjem omogočajo hitrejšo digitalno transformacijo. Ponujamo storitve, povezane s prehodom na oblak, prehodom z monolitne na mikrostoritveno arhitekturo, modernizacijo programske opreme in razvojem novih digitalnih izdelkov."
       },
       "second-tile": {
         "above-title": "ODPRTOKODNA SKUPNOST",
@@ -142,7 +142,7 @@
   },
   "customers": {
     "title": "Kaj naše stranke pravijo o nas",
-    "subtitle": "Poskrbite da vas vaša programska oprema nikoli več ne zafrustrira.",
+    "subtitle": "Poskrbite, da vas vaša programska oprema nikoli več ne bo jezila.",
     "adriatic": {
       "text": "Adriatic Slovenica uporablja Kumuluzove API-je in mikrostoritve za integracijo internih sistemov s sistemi partnerjev. Na vmesnikih Kumuluz API sloni trg aplikacijskih programskih vmesnikov za izdelke v zavarovalniški panogi, ki ga trenutno uporablja več kot 3000 partnerskih podjetij v Jugovzhodni Evropi. Adriatic Slovenica v svojih digitalnih kanalih, kot je na primer <a href='https://www.wiz.si/' target='_blank'>Wiz</a>, prav tako uporablja vmesnik Kumuluz Payment za spletna plačila. Kumuluz nam je omogočil lažjo integracijo in večjo produktivnost, ter je zelo pomemben za naše digitalne kanale.",
       "title": "CIO pri Adriatic Slovenici"
