@@ -3,13 +3,13 @@
     "title": "Digitalna platforma - Kumuluz"
   },
   "header": {
-    "title": "Kumuluz Digitalna Platforma",
-    "subtitle": "Vse, kar potrebujete, da pospešite svojo digitalno transformacijo z odprto in lahko digitalno platformo."
+    "title": "Digitalna platforma Kumuluz",
+    "subtitle": "Vse, kar potrebujete, da pospešite svojo digitalno transformacijo, je odprta in lahka digitalna platforma."
   },
   "digit-strategy": {
-    "title": "Vaša digitalna strategija",
-    "subtitle-1": "Ideje za digitalne produkte in storitve, obstoječe monolitne aplikacije, obstoječo IT infrastrukturo, zaledne aplikacije, vašo razvojno ekipo in IT osebje.",
-    "subtitle-2": "Uporabite samo gradnike, ki so vitalni za vašo digitalno transformacijo"
+    "title": "Za uresničitev vaše digitalne strategije",
+    "subtitle-1": "Digitalna platforma Kumuluz zagotovi vse gradnike, ki jih potrebujete za vpeljavo razvoja v oblaku, uporabo mikrostoritev in aplikacijskih programskih vmesnikov, integracijo z zalednimi in oblačnimi sistemi, za razvoj napredne uporabniške izkušnje in implementacijo lastega digitalnega tržišča.",
+    "subtitle-2": "Uporabite samo tiste gradnike, ki so ključnega pomena pri vaši digitalni transformaciji:"
   },
   "digit-platform": {
     "title": "Omrežje povezanih, skalabilnih in agilnih digitalnih aplikacij.",
@@ -19,8 +19,8 @@
     "title": "Kaj lahko platforma Kumuluz Digital stori za vas",
     "left": {
       "para-1": "Platforma Kumuluz Digital je zmagovalna rešitev, ki jo podjetja uporabljajo, da implementirajo in pospešijo svojo digitalno transformacijo.",
-      "para-2": "Platforma Kumuluz Digital zagotovi vse gradnike, ki jih potrebujete, da pospešite razvoj svojega digitalnega poslovanja. Platforma vam omogoči hitro implementacijo vaše digitalne strategije.",
-      "para-3": "S platformo Kumuluz Digital boste vpeljali najnovejše oblačne koncepte, mikrostoritve, API-je in vsebnike Docker. Uporabili boste agilni razvoj, principe DevOps in neprekinjeno dostavo, ter tako pospešili svoj razvoj. Končno boste lahko modernizirali svoje monolitske aplikacije. Razvili boste sofisticirano uporabniško izkušnjo in kompleksne rešitve za trg."
+      "para-2": "Platforma Kumuluz Digital zagotovi vse gradnike, ki jih potrebujete, da pospešite razvoj svojega digitalnega poslovanja. Omogoča hitro implementacijo vaše digitalne strategije.",
+      "para-3": "S platformo Kumuluz Digital lahko na enostaven način vpeljete najnovejše oblačne koncepte, mikrostoritve, API-je in vsebnike Docker. Je ogrodje za vpeljavo agilnega razvoja, principov DevOps in neprekinjene dostave, ter posledično hitrejšega razvoja. Končno boste lahko modernizirali svoje monolitske aplikacije. Razvili boste sofisticirano uporabniško izkušnjo in kompleksne rešitve za trg."
     },
     "right": {
       "para-1": "Koristi je ogromno. Z našo platformo ter agilnimi, DevOps in drugimi oblačnimi metodami boste bistveno skrajšali čas vstopa na trg za svoje digitalne izdelke, storitve, aplikacije in rešitve za trg.",
@@ -34,7 +34,7 @@
     "api": {
       "title": "KumuluzAPI",
       "header": {
-        "subtitle": "Naredite pregled in upravljajte svoje aplikacijske programske vmesnike na enem mestu. Pripravite se na gospodarstvo API-jev.",
+        "subtitle": "Naredite pregled in upravljajte svoje aplikacijske programske vmesnike na enem mestu. Pripravite se na ekonomijo API-jev.",
         "items": {
           "item-1": "Samodejno iskanje API-jev in katalog populacije",
           "item-2": "Podpora več prehodom s polno varnostjo, omejitvijo hitrosti in avtentikacijo",
@@ -45,29 +45,29 @@
         "navbar": {
           "about": {
             "title": "O izdelku",
-            "strong": "Razkrite, upravljajte, nadzirajte in monetizirajte svoje aplikacijske programske vmesnike ter se tako pripravite na gospodarstvo API-jev.",
-            "text": "<p>KumuluzAPI je lahka, odprtokodna standardna rešitev, ki podpira storitve API Management, API Catalogue, API Gateway in API Marketplace. Prav tako podpira katalogiziranje shem, povezanih z API-ji, kot so sheme XML in dokumenti JSON, ki omogočajo poln vpogled v API-je, njihovo uporabo, odnose, sheme in odvisnosti.</p><p>Temelji na mikrostoritveni arhitekturi ter je popolnoma elastična, skalabilna in visoko razpoložljiva. Funkcionalnosti so izpostavljene preko API-jev in odzivnih spletnih aplikacij. Rešitev KumuluzAPI je zgrajena s ciljem, da omogoča preprosto integracijo z raznimi zalednimi sistemi, kot so ESB, SOA, BPM, različna razvojna okolja, DevOps (neprekinjena integracija in dostava) itd.</p><p>Izdelek ponuja podporo za več jezikov. Trenutno je omogočena celotna podpora za angleščino in slovenščino. Večjezična podpora bo pomembna za digitalizacijo znotraj države in regije.</p>",
+            "strong": "Izpostavljanje, upravljanje, nadzor in monetizacija aplikacijskih programskih vmesnikov kot osnova za uspešno API ekonomijo.",
+            "text": "<p>KumuluzAPI je lahka, odprtokodna standardizirana rešitev, ki podpira storitve API Management, API Catalogue, API Gateway in API Marketplace. Prav tako podpira katalogiziranje shem, povezanih z API-ji, kot so sheme XML in dokumenti JSON, ki omogočajo poln vpogled v API-je, njihovo uporabo, odnose, sheme in odvisnosti.</p><p>Temelji na mikrostoritveni arhitekturi ter je popolnoma elastična, skalabilna in visoko razpoložljiva. Funkcionalnosti so izpostavljene preko API-jev in odzivnih spletnih aplikacij. Rešitev KumuluzAPI je zgrajena s ciljem, da omogoča preprosto integracijo z različnim zalednimi sistemi, kot so ESB, SOA, BPM, različna razvojna okolja, DevOps (neprekinjena integracija in dostava) itd.</p><p>Izdelek ponuja podporo za več jezikov. Trenutno je omogočena celotna podpora za angleščino in slovenščino. Večjezična podpora je pomembna za digitalizacijo znotraj države in regije.</p>",
             "box": {
-              "title": "Zakaj izbrati Kumuluz API?",
+              "title": "Zakaj izbrati KumuluzAPI?",
               "item-1": "Lahka standardna rešitev",
               "item-2": "Boljše upravljanje aplikacijskih programskih vmesnikov",
               "item-3": "Vsa dokumentacija na enem metu",
-              "item-4": "Samodejno odkritje API-jev in katalog populacije"
+              "item-4": "Samodejno odkrivanje API-jev in katalog populacije"
             }
           },
           "features": {
             "title": "Glavne značilnosti",
-            "item-1": "Ustvarite dialog storitev in njihovih API-jev za protokola REST in SOAP",
-            "item-2": "Samodejno iščite API-je in storitve ter napolnite katalog brez ročnega posredovanja",
-            "item-3": "Integrirajte z metodologijama DevOps in neprekinjeno integracijo/dostavo",
-            "item-4": "Dokumentirajte svoje API-je na standardni način, ki ni odvisen od jezika in tehnologije",
-            "item-5": "Iščite, filtrirajte, testirajte API-je in storitve",
-            "item-6": "Popolna podpora shranjevanju različic za API-je v različnih okoljih ter podpora simultanim verzijam ",
-            "item-7": "Popolno upravljanje življenjskega cikla API-jev ",
+            "item-1": "Izdelava kataloga storitev in njihovih API-jev za protokola REST in SOAP",
+            "item-2": "Samodejno iskanje API-je in storitev ter polnjenje kataloga brez ročnega posredovanja",
+            "item-3": "Integracija z metodologijama DevOps in neprekinjeno integracijo/dostavo",
+            "item-4": "Dokumentacija lastnih API-jev na standardni način, ki ni odvisen od jezika in tehnologije",
+            "item-5": "Iskanje, filtriranje, testiranje API-jev in storitev",
+            "item-6": "Popolna podpora za shranjevanje različic za API-je v različnih okoljih ter podpora za simultan verzije ",
+            "item-7": "Upravljanje celotnega življenjskega cikla API-jev ",
             "item-8": "Popolna podpora za mikrostoritve in integracija s platformo KumuluzEE",
             "item-9": "Analiza odvisnosti in vizualizacija za API-je, aplikacije in sheme",
-            "item-10": "Vključena podpora shemam (XSD/JSON) za iskanje in ogled shem, ki so uporabljene v API-jih, vključno z analizo odvisnosti in vizualizacijo",
-            "item-11": "Več načrtov, sporazum o ravni storitve, kvaliteta storitve, možnosti za omejevanje hitrosti in monetizacijo",
+            "item-10": "Podpora za sheme (XSD/JSON) za iskanje in ogled shem, ki so uporabljene v API-jih, vključno z analizo odvisnosti in vizualizacijo",
+            "item-11": "Več načrtov, sporazum o ravni storitve, kvaliteta storitve, možnosti za omejitve in monetizacijo",
             "item-12": "Spremljanje sporazuma o ravni storitve in skladnost z njim v realnem času",
             "item-13": "Dostop vmesnika API do odobravanja poteka dela",
             "item-14": "Podpora za več prehodov s polno varnostjo, omejevanjem hitrosti in podporo preverjanju pristnosti skozi različne ponudnike (kot so LDAP, OAuth2, Kerberos itd.)",
@@ -78,7 +78,7 @@
           "customer": {
             "title": "Stranke in primeri uporabe",
             "subtitle": "Stranke in primeri uporabe",
-            "content": "<p>Kje lahko uporabite KumuluzAPI?</p><p>Imate nekaj storitev, ki jih želite na voljo dati tretjim strankam. Na primer, občina bi lahko uporabila KumuluzAPI in tako dala na voljo zemljiško knjigo neki drugi veji vlade. S platformo KumuluzAPI lahko določite, kdo ima dostop do teh izpostavljenih API-jev ter kdo jih uporablja, prav tako pa imate za vse centralno upravljalno platformo. KumuluzAPI namesto vas poskrbi za varnost, zato morate le določiti, komu boste dovolili uporabiti izpostavljene storitve.</p>"
+            "content": "<p>Kje lahko uporabite KumuluzAPI?</p><p>Imate nekaj storitev, ki jih želite dati na voljo svojim strankam ali partnerjem. Na primer, občina lahko uporabi KumuluzAPI in da na voljo zemljiško knjigo drugemu uradu ali organu vlade. S platformo KumuluzAPI lahko določimo, kdo ima dostop do teh izpostavljenih API-jev in kako jih lahko uporablja, vse to prek centralne platforma za uporavljanje API-jev. KumuluzAPI poskrbi za varnost - potrebno je le določiti, komu bomo dovolili uporabljati izpostavljene storitve.</p>"
           },
           "demo": {
             "title": "Demo predstavitev",
@@ -92,15 +92,15 @@
       },
       "benefits": {
         "title": "Glavne prednosti in značilnosti rešitve KumuluzAPI",
-        "subtitle": "Lahka, odprta rešitev za standardno upravljanje API-jev.",
+        "subtitle": "Lahka, odprta rešitev za standardizirano upravljanje API-jev.",
         "items": {
           "item-1": {
             "title": "Dinamično odkrivanje API-jev",
-            "desc": "API-je lahko odkrijete skozi katalog aplikacijskih programskih vmesnikov ali načrtno tako, da uporabite centralizirano storitev ZooKeeper in ohranite informacije o konfiguraciji ter poimenovanje, omogočite distribuirano sinhronizacijo in ponudite skupinske storitve."
+            "desc": "API-je lahko odkrijete preko kataloga aplikacijskih programskih vmesnikov ali programirano z uporabo centralizirane storitve ZooKeeper za vzdrževanje informacij o konfiguraciji, poimenovanje, zagotavljanje porazdeljene sinhronizacije in zagotavljanje skupinskih storitev."
           },
           "item-2": {
             "title": "Napredna analitika uporabe API-jev",
-            "desc": "Na voljo je analitika uporabe API-jev, zahtev strank, odzivov, geografske lokacije zahtev, odzivov itd. Poročila lahko ustvarite samodejno. Prav tako lahko izvozite vse podatke v orodje za masovne podatke/analitiko, ki omogoča nadaljnjo analizo."
+            "desc": "Na voljo je analitika uporabe API-jev, zahtev strank, odzivov, geografske lokacije zahtev, odzivov itd. Poročila se lahko kreirajo samodejno. Vse podatke lahko izvozite v orodja za masovne podatke/analitiko, ki omogočajo nadaljnjo analizo."
           },
           "item-3": {
             "title": "Spremljajte svoj sistem v realnem času",
@@ -108,20 +108,20 @@
           },
           "item-4": {
             "title": "Diagnosticirajte in beležite zahteve/odzive",
-            "desc": "Vse zahteve in odzivi preko prehodov so beleženi. Zgodovina, revizijska sled zahtev in odzivov je dostopna preko spleta ali v generiranem poročilu. Podprta je celotna diagnostika API-jev. Aktiven monitoring API-jev se izvaja v intervalih, ki jih določi uporabnik (na primer vsakih pet minut). Stanje storitve se aktivno preverja, podprti pa so tudi diagnostika v realnem času, monitoring in obvestila o alarmih."
+            "desc": "Vse zahteve in odzivi preko prehodov se beležijo. Zgodovina, revizijska sled zahtev in odzivov je dostopna preko spleta ali v generiranem poročilu. Podprta je celotna diagnostika API-jev. Aktiven monitoring API-jev se izvaja v intervalih, ki jih določi uporabnik (na primer vsakih pet minut). Stanje storitve se aktivno preverja, podprti pa so tudi diagnostika v realnem času, monitoring in obvestila o alarmih."
           },
           "item-5": {
             "title": "Nadzor nad dogovorom o ravni storitev, ki temelji na pravilih",
-            "desc": "KumuluzAPI omogoča popoln nadzor nad kvaliteto storitev in sporazumom o ravni storitev. To vključuje zaviranje zahtev, ki temelji na pravilih in je lahko fleksibilno nastavljeno. Vso zaviranje je povezano z načrtom uporabe. Vsak API ima lahko enega ali več načrtov uporabe. Podprte so popolnoma samodejne transformacije vhodnih in izhodnih protokolov SOAP/REST in shem XSD/JSON, ki so lahko konfigurirane za vsak prehod. KumuluzAPI omogoča celovito spremljanje parametrov dogovora o ravni storitev v realnem času ter skladnost teh parametrov z vsako storitvijo."
+            "desc": "KumuluzAPI omogoča popoln nadzor nad kvaliteto storitev in sporazumom o ravni storitev. To vključuje zavračanje zahtev glede na pravila, ki se lahko fleksibilno nastavijo. Zavračanje je povezano z načrtom uporabe. Vsak API ima lahko enega ali več načrtov uporabe. Podprte so popolnoma samodejne transformacije vhodnih in izhodnih protokolov SOAP/REST in shem XSD/JSON, ki so lahko konfigurirane za vsak prehod. KumuluzAPI omogoča celovito spremljanje parametrov dogovora o ravni storitev v realnem času ter skladnost teh parametrov z vsako storitvijo."
           },
           "item-6": {
             "title": "Dinamično odkrivanje API-jev",
-            "desc": "API-je lahko odkrijete skozi katalog aplikacijskih programskih vmesnikov ali načrtno tako, da uporabite centralizirano storitev ZooKeeper kot in ohranite informacije o konfiguraciji ter poimenovanje, omogočite distribuirano sinhronizacijo in ponudite skupinske storitve."
+            "desc": "API-je lahko odkrijete preko kataloga aplikacijskih programskih vmesnikov ali programirano z uporabo centralizirane storitve ZooKeeper za vzdrževanje informacij o konfiguraciji, poimenovanje, zagotavljanje porazdeljene sinhronizacije in zagotavljanje skupinskih storitev."
           }
         },
         "after-text": {
           "colored": "Izkoristite",
-          "text": "okolje aplikacijskih programskih vmesnikov."
+          "text": "možnosti API ekonomije."
         }
       },
       "use-cases": {
@@ -134,12 +134,12 @@
               "text": "Uporabite moderne spletne aplikacije za upravljanje konfiguracije in svojih API-jev."
             },
             "item-2": {
-              "bold": "Programsko skozi API-je, ki jih izpostavi KumuluzEE",
-              "text": "Vsa konfiguracija je na voljo skozi aplikacijske programske vmesnike KumuluzEE, ki jih lahko uporabite, da programsko upravljate s svojimi API-ji."
+              "bold": "Programsko prekov API-jev, ki jih izpostavi KumuluzEE",
+              "text": "Vsa konfiguracija je na voljo preko aplikacijskih programskih vmesnikov KumuluzEE, ki jih lahko uporabite, da programsko upravljate s svojimi API-ji."
             },
             "item-3": {
-              "bold": "Samodejna konfiguracija API-jev pri gradnji",
-              "text": "Pri gradnji neposredna integracija z orodjema Jenkins in Maven omogoča, da so API-ji samodejno konfigurirani, dokumentirani in registrirani kot del gradbenega ciklusa."
+              "bold": "Samodejna konfiguracija API-jev med razvojem",
+              "text": "Neposredna integracija z Jenkinsom in Mavenom omogoča, da so API-ji konfigurirani, dokumentirani in registrirani samodejno kot del cikla razvoja API-jev."
             },
             "item-4": {
               "bold": "Samodejna konfiguracija API-jev ob zagonu",
@@ -148,14 +148,14 @@
           },
           "docs": {
             "title": "API dokumentacija",
-            "para": "Dokumentacijo za API-je lahko vnesete ročno skozi uporabniški vmesnik ali pa samodejno integrirate. ",
+            "para": "Dokumentacijo za API-je lahko vnesete ročno prek uporabniškega vmesnika ali jo samodejno generirate. ",
             "item-1": {
-              "bold": "Samodejno ustvarjena dokumentacija",
-              "text": "Osnovna dokumentacija je samodejno ustvarjena iz jezika WSDL za protokol SOAP in jezikov Swagger ali RAML za protokol REST."
+              "bold": "Samodejno generiranje dokumentacije",
+              "text": "Osnovna dokumentacija se kreira samodejno iz jezika WSDL za protokol SOAP in jezikov Swagger ali RAML za protokol REST."
             },
             "item-2": {
-              "bold": "Podpira odvisnosti in diagrame",
-              "text": "Celostna rešitev za dokumentiranje API-jev na standardiziran in skladen, vključno s polno dokumentacijo, odvisnostmi, diagrami UML, diagrami BPMN in ostalimi načini dokumentacije."
+              "bold": "Podpira za odvisnosti in diagrame",
+              "text": "Celostna rešitev za dokumentiranje API-jev na standardiziran in skladen način, vključno s polno dokumentacijo, odvisnostmi, diagrami UML, diagrami BPMN in ostalimi načini dokumentacije."
             },
             "item-3": {
               "bold": "Podpora za Markdown",
@@ -163,7 +163,7 @@
             }
           },
           "publishing": {
-            "title": "API Publishing",
+            "title": "API objavljanje",
             "para": "Objavite lahko lastne API-je in tako zmanjšate silose podatkov v svojem podjetju ali zgradite razmerja z zunanjimi razvijalci.",
             "item-1": {
               "bold": "Platformo API Publishing podpira platforma API Gateways",
