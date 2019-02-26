@@ -1,4 +1,4 @@
-export const MOBILE_MENU_VISIBLE_BELOW = 1710;
+export const MOBILE_MENU_VISIBLE_BELOW = 993;
 export const MOBILE_MEDIA = 790;
 
 export const determineScreenWidth = () => {
