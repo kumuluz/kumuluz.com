@@ -1,22 +1,22 @@
 {
   "meta": {
-    "title": "Poslovni APIji - Kumuluz"
+    "title": "Poslovni API-ji - Kumuluz"
   },
   "header": {
-    "main-title": "Pospešite razvoj svojih digitalnih izdelkov in aplikacij s <strong>Kumuluzovimi poslovnimi API-ji</strong>",
-    "subtitle-1": "Kumuluzovi poslovni API-ji vam omogočajo, da pospešite razvoj svojih digitalnih aplikacij z vnaprej razvitimi funkcionalnostmi, ki jih potrebuje vsaka digitalna aplikacija.",
+    "main-title": "Pospešite razvoj svojih digitalnih izdelkov in aplikacij s <strong>Kumuluz poslovnimi API-ji</strong>",
+    "subtitle-1": "Vnaprej razvite funkcionalnosti, ki jih potrebuje vsaka digitalna aplikacija.",
     "items": {
       "what-are": {
-        "title": "Kaj so Kumuluzovi poslovni API-ji?",
-        "desc": "Poslovni aplikacijski programski vmesniki so vnaprej razviti API-ji za pogosto uporabljene digitalne funkcionalnosti, kot so na primer katalog izdelkov, nakupovalna košarica, upravljanje z naročili, izpolnjevanje naročil, izdajanje računov, plačila itd. Naši vnaprej razviti in preizkušeni vmesniki vam omogočajo, da pospešite svoj razvoj tako, da jih najprej vključite, nato pa uporabljate, prilagodite in razširite.<br/><br/>Kumuluzove poslovne API-je lahko prav tako enostavno integrirate s svojimi zalednimi aplikacijami in sistemi."
+        "title": "Kaj so Kumuluz poslovni API-ji?",
+        "desc": "Poslovni aplikacijski programski vmesniki so vnaprej razviti API-ji za pogosto uporabljene digitalne funkcionalnosti, kot so na primer katalog izdelkov, nakupovalna košarica, upravljanje z naročili, izpolnjevanje naročil, izdajanje računov, plačila itd. Naši vnaprej razviti in preizkušeni vmesniki vam omogočajo, da pospešite svoj razvoj tako, da jih najprej vključite v svojo aplilkacijo, nato pa po lastnih potrebah prilagodite in razširite.<br/><br/>Kumuluz poslovne API-je lahko prav tako enostavno integrirate s svojimi zalednimi aplikacijami in sistemi."
       },
       "who-are": {
-        "title": "Komu so namenjeni Kumuluzovi poslovni aplikacijski programski vmesniki?",
-        "desc": "Naše poslovne API-je uporabljajo predvsem <strong>podjetja, startupi, vlada, agencije</strong>...<br/><br/> in vse druge organizacije, ki morajo pospešiti svoj razvoj."
+        "title": "Komu so namenjeni Kumuluz poslovni aplikacijski programski vmesniki?",
+        "desc": "Naše poslovne API-je uporabljajo predvsem <strong>podjetja, startupi, vlada, agencije,</strong>...<br/><br/> in vse druge organizacije, ki želijo pospešiti svoj razvoj."
       },
       "what-cost": {
-        "title": "Kakšna je cena Kumuluzovih poslovnih aplikacijskih programskih vmesnikov?",
-        "desc": "Nekatere poslovne API-je lahko preizkusite zastonj ali pa mi za vas naredimo demo predstavitev.<br/><br/>Če API-je želite uporabiti v polnem obsegu, lahko izbrane vmesnike za enkratno plačilo prenesete kot vsebnike Docker."
+        "title": "Kakšna je cena Kumuluz poslovnih aplikacijskih programskih vmesnikov?",
+        "desc": "Nekatere poslovne API-je lahko preizkusite brezplačno, nekateri so vam na voljo v predstavitvenem načinu.<br/><br/>Če želite API-je uporabljati v polnem obsegu, lahko izbrane vmesnike za enkratno plačilo prenesete kot vsebnike Docker."
       }
     }
   },
@@ -33,9 +33,9 @@
   "ways": {
     "title": "Trije hitri načini uporabe poslovnih aplikacijskih programskih vmesnikov Kumuluz",
     "left-way": {
-      "title": "Registrirajte se in preizkusite",
+      "title": "Registrirajte se in preizkusite brezplačno",
       "para": "Registrirajte se in preizkusite nekatere poslovne API-je.",
-      "button": "Začnite brezplačno."
+      "button": "Začnite brezplačno"
     },
     "center-way": {
       "title": "Nakupujte s podporo",
@@ -47,24 +47,24 @@
     "right-way": {
       "title": "Celostna podpora",
       "para1": "Pridobite izvorno kodo API-jev in izkoristite popolno podporo za največjo možno fleksibilnost.",
-      "para2": "Dovolite, da naša ekipa pomaga vašim razvijalcem v celoti opolnomočiti poslovne API-je.",
-      "button": "Povpraševanje po ponudbi"
+      "para2": "Dovolite, da naša ekipa pomaga vašim razvijalcem v celoti izkoristiti poslovne API-je.",
+      "button": "Oddajte povpraševanje"
     },
     "learn-more": {
       "link": "Več o",
       "text": "oblikovanju cen"
     }
   },
-  "references": "Podjetja ki že uporabljajo naše API-je",
+  "references": "Podjetja, ki že uporabljajo Kumuluz API-je",
   "case-study": {
     "above-title": "Catalog API",
-    "title": "Študija primera:<br/>Petrol uporablja vmesnik Kumuluz Catalog API",
+    "title": "Študija primera:<br/>Petrol uporablja Kumuluz Catalog API",
     "para1": {
       "link": "Petrol",
-      "text": "uporablja Kumuluzove poslovne API-je za razvoj svoje storitvene platforme in digitalnih aplikacij, kot so Na poti, Fresh, Travel Aggregator in druge."
+      "text": "uporablja Kumuluz poslovne API-je za razvoj svoje storitvene platforme in digitalnih aplikacij, kot so Na poti, Fresh, Travel Aggregator in druge."
     },
     "para2": "Različne interne programske aplikacije se sklicujejo na vmesnik Catalog API, da pridobijo informacije in cene izdelkov.",
-    "quote": "Z vmesnikom KumuluzDigital boste lahko vpeljali najnovejše oblačne koncepte, mikrostoritve, aplikacijske programske vmesnike in vsebnike Docker. Implementirali boste agilni razvoj, principe razvojnih operacij (ang. DevOps) in neprekinjene dostave (ang. continuous delivery), ter tako pospešili svoj razvoj. Končno boste lahko modernizirali svoje monolitske aplikacije."
+    "quote": "Z vmesnikom KumuluzDigital smo vpeljali najnovejše oblačne koncepte, mikrostoritve, aplikacijske programske vmesnike in vsebnike Docker. Implementirali smo agilni razvoj, principe razvojnih operacij (ang. DevOps) in neprekinjene dostave (ang. continuous delivery), ter tako pospešili svoj razvoj. Končno smo modernizirali naše monolitne aplikacije."
   },
   "apis": {
     "overview": "Pregled",
