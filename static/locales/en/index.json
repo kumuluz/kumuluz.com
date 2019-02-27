@@ -170,5 +170,10 @@
   },
   "references": {
     "title": "They trust us"
+  },
+  "thanks": {
+    "title": "Thank you for your contact",
+    "text": "Shortly, you will be redirected to",
+    "link": "homepage"
   }
 }

@@ -171,5 +171,10 @@
   },
   "references": {
     "title": "Zaupajo nam"
+  },
+  "thanks": {
+    "title": "Hvala za vaš kontakt",
+    "text": "V kratkem boste preusmerjeni na",
+    "link": "prvotno stran"
   }
 }
