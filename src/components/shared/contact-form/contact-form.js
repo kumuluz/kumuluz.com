@@ -295,7 +295,7 @@ export class ContactForm extends Component {
                             {message.error && <FormFeedback>{t(`footer.contact.form.errors.${message.error}`)}</FormFeedback>}
                         </FormGroup>
                     </Col>
-                    <Button color="primary" className="mt-3" disabled={!valid}>
+                    <Button color="primary" className="mt-3" disabled={!valid} type="submit">
                         {t("footer.contact.form.send")}
                     </Button>
                 </Form>
