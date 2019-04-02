@@ -24,6 +24,7 @@ import solveraLynxImage from "../../assets/images/references/solvera_lynx.png";
 import srcImage from "../../assets/images/references/src.jpg";
 import tovarnaPodjemovImage from "../../assets/images/references/tovarna_podjemov.jpg";
 import zzzsImage from "../../assets/images/references/zzzs.jpg";
+import citytechImage from "../../assets/images/references/citytech.png";
 
 export const referencesList = [
     {
@@ -129,5 +130,9 @@ export const referencesList = [
     {
         image: ebradImage,
         name: "European Bank for Reconstruction and Development (EBRD), EU"
+    },
+    {
+        image: citytechImage,
+        name: "Citytech"
     }
 ];
