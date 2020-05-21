@@ -151,9 +151,9 @@ export class ContactForm extends Component {
             <div className={`contact-form ${light && "light"}`}>
                 {(!smallTitle && <h3 className="blue">{t("footer.contact.title")}</h3>) || <h4>{t("footer.contact.title")}</h4>}
                 <Form className="row col pr-0" /*onSubmit={e => this.submitForm(e)}*/ method="POST" action="/thanks/"
-                    name="contact-form" data-netlify="true" data-netlify-honeypot="bot-field">
+                    name="contact-form" data-netlify="true" data-netlify-honeypot="itsatrap">
                     <input type="hidden" name="form-name" value="contact-form" />
-                    <input type="hidden" name="bot-field" />
+                    <input type="hidden" name="itsatrap" />
                     <Col xs="10" lg="5" className="pr-5">
                         <FormGroup row>
                             <Label for="fullName" xs="10">
