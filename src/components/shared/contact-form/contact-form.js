@@ -38,18 +38,18 @@ export class ContactForm extends Component {
                         required: true,
                         email: true
                     },
-                    companySize: {
+                    /*companySize: {
                         value: "",
                         required: true
-                    },
+                    },*/
                     phoneNumber: {
                         value: "",
                         phone: true
                     },
-                    partnership: {
+                    /*partnership: {
                         value: "",
                         required: true
-                    },
+                    },*/
                     message: {
                         value: "",
                         required: true,
@@ -211,6 +211,7 @@ export class ContactForm extends Component {
                             {email.error && <FormFeedback>{t(`footer.contact.form.errors.${email.error}`)}</FormFeedback>}
                         </FormGroup>
                     </Col>
+                    {/*
                     <Col xs="10" lg="5" className="pr-5">
                         <FormGroup row>
                             <Label for="companySize" xs="10">
@@ -234,6 +235,7 @@ export class ContactForm extends Component {
                             <FormFeedback>{t(`footer.contact.form.errors.${companySize.error}`)}</FormFeedback>}
                         </FormGroup>
                     </Col>
+                    */}
                     <Col xs="10" lg="5" className="pr-5">
                         <FormGroup row>
                             <Label for="phoneNumber" xs="10">
@@ -253,6 +255,7 @@ export class ContactForm extends Component {
                             <FormFeedback>{t(`footer.contact.form.errors.${phoneNumber.error}`)}</FormFeedback>}
                         </FormGroup>
                     </Col>
+                    {/*
                     <Col xs="10" lg="5" className="pr-5">
                         <FormGroup row>
                             <Label for="partnership" xs="10">
@@ -276,6 +279,7 @@ export class ContactForm extends Component {
                             <FormFeedback>{t(`footer.contact.form.errors.${partnership.error}`)}</FormFeedback>}
                         </FormGroup>
                     </Col>
+                    */}
                     <Col xs="10" className="mt-3 pr-5">
                         <FormGroup row>
                             <Label for="message" xs="10">
