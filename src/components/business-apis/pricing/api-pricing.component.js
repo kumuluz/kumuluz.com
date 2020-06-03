@@ -57,12 +57,14 @@ export class ApiPricingComponent extends Component {
                                 </div>
                                 <div className="way center-way">
                                     <div>
-                                        <h3 className="center-way-title">{price}&#160;€</h3>
-                                        <p>{pricePer}</p>
-                                        <p>{desc}</p>
+                                        {/*<h3 className="center-way-title">{price}&#160;€</h3>*/}
+                                        {/*<p>{pricePer}</p>*/}
+                                        <p style={{marginTop: "40px"}}>{desc}</p>
                                     </div>
                                     <div>
-                                        <button className="btn btn-primary center-way-button" onClick={() => this.setState({ showModal: true })}>{t("ways.center-way.button-buy")}</button>
+                                        <button className="btn btn-primary center-way-button" onClick={() => this.setState({ showModal: true })}>
+                                            {t("ways.center-way.button-buy")}
+                                        </button>
                                     </div>
                                 </div>
                                 <div className="right-way way">
