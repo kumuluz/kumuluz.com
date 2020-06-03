@@ -5,6 +5,7 @@ import {translate} from "react-i18next";
 import "./api-pricing.component.scss";
 import { ArrowDividerComponent } from "../../shared/arrow-divider/arrow-divider.component";
 import PaymentComponent from "../payment/payment.component";
+import {push} from "gatsby-link";
 
 @translate("business-apis")
 export class ApiPricingComponent extends Component {
@@ -26,11 +27,20 @@ export class ApiPricingComponent extends Component {
         };
 
         this.closeModal = this.closeModal.bind(this);
+        this.jumpToContact = this.jumpToContact.bind(this);
     }
 
     closeModal() {
-
         this.setState({ showModal: false });
+    }
+    
+    jumpToContact() {
+        const contactForm = document.getElementById("contact-us");
+        if (contactForm) {
+            contactForm.scrollIntoView();
+        } else {
+            push("/#contact-us");
+        }
     }
 
     render() {
@@ -62,7 +72,7 @@ export class ApiPricingComponent extends Component {
                                         <p style={{marginTop: "40px"}}>{desc}</p>
                                     </div>
                                     <div>
-                                        <button className="btn btn-primary center-way-button" onClick={() => this.setState({ showModal: true })}>
+                                        <button className="btn btn-primary center-way-button" onClick={() => this.jumpToContact()}>
                                             {t("ways.center-way.button-buy")}
                                         </button>
                                     </div>
