@@ -6,7 +6,7 @@ import {translate} from "react-i18next";
 
 import "./layout.scss";
 import {NavbarComponent} from "../components/shared/navbar/navbar.component";
-import favicon from "./favicon.ico";
+import favicon from "./kumuluz-iconx32.svg";
 import {CookiesComponent} from "../components/shared/export.shared.components";
 
 

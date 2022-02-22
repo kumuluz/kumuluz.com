@@ -253,7 +253,7 @@ export default class BusinessAPIsPage extends Component {
                                         <p>{t("ways.left-way.para")}</p>
                                     </div>
                                     <div>
-                                        <span>{t("ways.left-way.button")}</span>
+                                        <span onClick={() => push("/#contact-us")}>{t("ways.left-way.button")}</span>
                                     </div>
                                 </div>
                                 <div className="center-way way">
@@ -263,8 +263,7 @@ export default class BusinessAPIsPage extends Component {
                                         <p>{t("ways.center-way.para2")}</p>
                                     </div>
                                     <div>
-                                        <span
-                                            onClick={() => document.getElementById("apis-list").scrollIntoView()}>{t("ways.center-way.button")}</span>
+                                        <span onClick={() => push("/#contact-us")}>{t("ways.center-way.button")}</span>
                                     </div>
                                 </div>
                                 <div className="right-way way">
