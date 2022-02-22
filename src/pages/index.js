@@ -134,9 +134,8 @@ export default class IndexPage extends Component {
                                                     {t("header.tiles.buttons.play-video")}
                                                     <FontAwesomeIcon icon={faCaretRight}/>
                                                 </button>
-                                                <span onClick={() => push("/digital-platform")}
-                                                    style={this.state.lang !== "en" ? {display: "none"} : {}}>
-                                                        {t("header.tiles.buttons.learn-more")}
+                                                <span onClick={() => push("/digital-platform")}>
+                                                    {t("header.tiles.buttons.learn-more")}
                                                     <img src={arrow}/>
                                                 </span>
                                             </div>
