@@ -1,6 +1,7 @@
 
 export const BLOG_URL = "https://blog.kumuluz.com";
 export const EE_KUMULUZ_URL = "https://ee.kumuluz.com";
+export const API_KUMULUZ_URL = "https://api.kumuluz.com";
 export const IO_KUMULUZ_URL = "https://kumuluz.io";
 export const SUNESIS_URL = "https://sunesis.si";
 export const MICROPROFILE_URL = "https://microprofile.io";

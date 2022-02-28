@@ -136,6 +136,9 @@
     color: $blue-400;
     margin-bottom: 50px;
   }
+  .button-area {
+    padding-top: 30px;
+  }
 }
 
 @include device-specific($media-phone) {

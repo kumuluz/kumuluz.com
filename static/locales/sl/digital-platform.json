@@ -184,7 +184,10 @@
           }
         }
       },
-      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
+      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike",
+      "external": {
+        "more": "Več na spletni strani"
+      }
     },
     "ee": {
       "title": "KumuluzEE",
@@ -412,7 +415,10 @@
           "item-17": "KumuluzEE Ethereum za mikrostoritve, ki omogočajo Ethereum (tehnologija veriženja blokov)."
         }
       },
-      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
+      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike",
+      "external": {
+        "more": "Več na spletni strani"
+      }
     },
     "integration": {
       "title": "KumuluzIntegration",

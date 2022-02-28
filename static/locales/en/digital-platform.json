@@ -184,7 +184,10 @@
           }
         }
       },
-      "prod-grid": "Discover other Kumuluz Digital Building Blocks"
+      "prod-grid": "Discover other Kumuluz Digital Building Blocks",
+      "external": {
+        "more": "Learn more"
+      }
     },
     "ee": {
       "title": "KumuluzEE",
@@ -412,7 +415,10 @@
           "item-17": "KumuluzEE Ethereum for Ethereum-enabled microservices (Blockchain)."
         }
       },
-      "prod-grid": "Discover other Kumuluz Digital Building Blocks"
+      "prod-grid": "Discover other Kumuluz Digital Building Blocks",
+      "external": {
+        "more": "Learn more"
+      }
     },
     "integration": {
       "title": "KumuluzIntegration",
