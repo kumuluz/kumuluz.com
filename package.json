@@ -50,7 +50,7 @@
     "react-helmet": "^5.2.0",
     "react-i18next": "^7.12.0",
     "reactstrap": "^6.4.0",
-    "validator": "^10.7.1",
+    "validator": "^13.7.0",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
