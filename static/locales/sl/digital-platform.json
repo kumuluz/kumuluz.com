@@ -184,7 +184,10 @@
           }
         }
       },
-      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
+      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike",
+      "external": {
+        "more": "Več na spletni strani"
+      }
     },
     "ee": {
       "title": "KumuluzEE",
@@ -412,7 +415,10 @@
           "item-17": "KumuluzEE Ethereum za mikrostoritve, ki omogočajo Ethereum (tehnologija veriženja blokov)."
         }
       },
-      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
+      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike",
+      "external": {
+        "more": "Več na spletni strani"
+      }
     },
     "integration": {
       "title": "KumuluzIntegration",
@@ -650,10 +656,127 @@
     "crowdsensing": {
       "title": "KumuluzCrowdsensing",
       "header": {
-        "subtitle": "Platforma za avtomatsko zbiranje podatkov in meritev skozi pametne naprave"
+        "subtitle": "Platforma za avtomatsko zbiranje podatkov in meritev skozi pametne naprave",
+        "items": {
+          "item-1": "Uporaba najsodobnejših tehnologij in analitike",
+          "item-2": "Interakcija z uporabniki v pravem trenutku",
+          "item-3": "Anonimizirani, integrirani in skrbno varovani podatki"
+        }
       },
-      "coming-soon": "PRIHAJA KMALU",
-      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike"
+      "about": {
+        "navbar": {
+          "about": {
+            "title": "O izdelku",
+            "strong": "Približajte se vašim (potencialnim) strankam s personalizirano večkanalno komunikacijo.",
+            "text": "<p>KumuluzCrowdsensing je orodje za obveščanje strank o produktih in storitvah, s katerim boste povečali prodajo in tržni delež. Ker se KumuluzCrowdsensing integrira z ostalimi sistemi, iz katerih pridobiva podatke o strankah in analitično spremlja vse kampanje, bo vaša komunikacija z njimi kvalitetna in osebna, s čimer boste poskrbeli za dobro uporabniško izkušnjo in poskrbeli za zadovoljstvo vaših strank.</p><p>Z zbiranjem podatkov in kreiranjem profilov strank vam KumuluzCrowdsensing pomaga razumeti njihove želje in potrebe. S pošiljanjem sporočil in komunikacijo, ki je na podlagi zgrajenih profilov prilagojena posameznim strankam, se boste z njimi povezali na poseben, nevsiljiv način, hkrati pa gradili na vaši digitalni prepoznavnosti in povečali moč blagovne znamke.</p><p>Platforma temelji na naprednih tehnoloških konceptih, kot so tehnologija veriženja blokov, algoritmi za anonimizacijo, zlivanje in integracija podatkov in še več. Na ta način lahko zagotovite povsem nov nivo personalizirane in relevantne komunikacije z vašimi strankami.</p>",
+            "box": {
+              "title": "Zakaj izbrati KumuluzCrowdsensing?",
+              "item-1": "Impresivna izkušnja sporočanja",
+              "item-2": "Usklajena komunikacija preko vseh kanalov",
+              "item-3": "Dinamična segmentacija in avtomatizacija",
+              "item-4": "Poglobljeno razumevanje strank",
+              "item-5": "Povečanje prodaje in hitrejša rast",
+              "item-6": "Napredna analitika in poročanje",
+              "item-7": "Idealna rešitev za oblikovanje naprednih rešitev pametnega mesta"
+            }
+          },
+          "features": {
+            "title": "Glavne značilnosti",
+            "item-1": "Segmentacija uporabnikov glede na njihove trenutne, najnovejše podatke, njihovo lokacijo, dejanja in obnašanje.",
+            "item-2": "Izdelava profila uporabnika, ki se sproti posodablja glede na interakcije, preference, intenzivnost komunikacije, zanimanja, lokacijske in demografske podatke.",
+            "item-3": "Podpora za vse sodobne osebne komunikacijske kanale in enostavno preklapljanje med njimi",
+            "item-4": "Intuitiven uporabniški vmesnik za uporabo platforme ter urejanje besedil",
+            "item-5": "Pošiljanje sporočil takoj ali ob določenem času",
+            "item-6": "Podprto geo-lokacijsko pošiljanje sporočil: ko stranka vstopi, zapusti ali se določen čas nahaja na določeni lokaciji",
+            "item-7": "Zbiranje podatkov iz različnih virov (senzorji, mobilni telefoni, IoT naprave)",
+            "item-8": "Spremljanje vsakega poslanega sporočila: kdaj je bilo dostavljeno, prebrano in posredovano",
+            "item-9": "Zbiranje, agregiranje in anonimizacija podatkov",
+            "item-10": "Nadzorna plošča za pregled vseh in vsakega posameznega odgovora na poslano sporočilo",
+            "item-11": "Zbirka orodij za optimizacijo pošiljanja sporočil in samodejno pošiljanje, pregled in spremembe kampanj",
+            "item-12": "Zagotavljanje ustrezne varnosti zbranih podatkov (enkripcija ipd.)",
+            "item-13": "Primerno za podjetja, saj omogoča enostavno integracijo s sistemi CRM in ostalimi zalednimi sistemi",
+            "item-14": "Namestitev v oblaku ali na lokaciji",
+            "item-15": "Omogoča hiter razvoj novih digitalnih rešitev"
+          },
+          "customer": {
+            "title": "Stranke in primeri uporabe",
+            "subtitle": "Stranke in primeri uporabe",
+            "items": {
+              "item-1": "<strong>Prevoz</strong><br/>Obvestite stranke o obvozu in naj na novi poti obiščejo vaš bencinski servis.",
+              "item-2": "<strong>Gostinstvo</strong><br/>Pošljite sporočilo, ko so stranke blizu vaše restavracije.",
+              "item-3": "<strong>Trgovina</strong><br/>Ko stranka konča nakup, pošljite informacijo o stanju točk zvestobe.",
+              "item-4": "<strong>Dogodki</strong><br/>Kot sponzor dogodka pošljite udeležencem posebno ponudbo na samem dogodku.",
+              "item-5": "<strong>Moda</strong><br/>Pošljite stranki ponudbo za obleko, ki si jo je v trgovini najbolj ogledovala."            }
+          },
+          "demo": {
+            "title": "Demo predstavitev",
+            "tryout": "Preizkusite"
+          }
+        }
+      },
+      "motto": {
+        "title": "KumuluzCrowdsensing je tehnološko srce pametnega mesta",
+        "subtitle": "Ključen element pametnih mest je učinkovita integracija različnih storitev IKT in naprav IoT ter zmožnost zbiranja in procesiranja podatkov ter njihove analize, skozi katere zagotavljamo storitve za upravljanje pametnega mesta."
+      },
+      "benefits": {
+        "title": "Glavne prednosti in značilnosti rešitve KumuluzCrowdsensing",
+        "subtitle": "Temelji na API-jih, mikrostoritvah in »cloud-native« arhitekturi.",
+        "items": {
+          "item-1": {
+            "title": "Zbiranje informacij",
+            "desc": "Platforma omogoča pasivno zbiranje informacij preko senzorjev, prav tako pa tudi aktivno zbiranje informacij s strani strank, kot so npr. ankete na tablicah na fizičnih lokacijah.\n\nViri podatkov so lahko mobilni telefoni, tablice, pametne ure, IoT naprave in senzorji, pametna prometna infrastruktura, senzorji pametnih stavb itd."
+          },
+          "item-2": {
+            "title": "Obdelava in varovanje podatkov",
+            "desc": "Zbrane informacije lahko obdelujete na ravni posameznikov, segmentov in množic. Podatke lahko enostavno združujete z drugimi podatki ter pridobite ključne vpoglede in informacije za poslovno odločanje in personalizirano komuniciranje.\n\nPri tem je zagotovljena anonimizacija in integracija podatkov z zlivanjem iz različnih senzorjev in naprav, kar omogoča zmogljivo, skalabilno in robustno integracijo podatkov ter pripravo teh podatkov za aplikativno uporabo."
+          },
+          "item-3": {
+            "title": "Tehnologija veriženja blokov (»Blockchain«)",
+            "desc": "The platform is also based on distributed and encrypted data storage with the use of blockchain technology for storing sensitive data. \n\nIt also enables the use of smart contracts in accessing and monetizing the data."
+          },
+          "item-4": {
+            "title": "Enostavna integracija z drugimi sistemi",
+            "desc": "S KumuluzCrowdsensing so podatki ustrezno zbrani, integrirani, filtrirani, shranjeni, anonimizirani in drugače pripravljeni ter izpostavljeni skozi programske vmesnike (API-je) .\n\nKontakte vaših strank uvozite ali pa jih direktno integrirajte z vašimi sistemi in podatkovnimi bazami, kot so podatki v CRM, ERP ipd."
+          },
+          "item-5": {
+            "title": "Pametna mesta",
+            "desc": "KumuluzCrowdsensing je idealna rešitev za oblikovanje naprednih rešitev pametnega mesta ter izboljšanje kakovosti bivanja občanov. \nPametno mesto mora temeljiti na dejanskih podatkih o množicah, kar omogoča ravno KumuluzCrowdsensing.\n\nPrebivalcem in obiskovalcem se lahko ponudi povsem nove storitve na podlagi zaznavanja potreb množic in izboljšano infrastrukturo."
+          },
+          "item-6": {
+            "title": "Prijazna za razvijalce",
+            "desc": "Razvijalcem je na voljo dostop do izbranih (javnih) API-jev, prav tako pa je na voljo SDK za razvijalce rešitev za pametna mesta in skupnosti, kar omogoča hiter in standardiziran razvoj vedno novih inovativnih rešitev na platformi KumuluzCrowdsensing."
+          }
+        },
+        "after-text": {
+          "colored": "Vključite",
+          "text": "svoje (potencialne) stranke"
+        }
+      },
+      "use-cases": {
+        "creating": {
+          "title": "Oblikovanje sporočil",
+          "subtitle": "Oblikovanje sporočil",
+          "item-1": "<strong>Izbor segmentov</strong><br/>Pošiljanje sporočil v pravem kontekstu. KumuluzCrowdsensing ustvari dinamične segmente strank, ki se posodobijo v realnem času glede na shranjene podatke o značilnostih strank, njihovi lokaciji, aktivnostih, interakcijah in vedenju.",
+          "item-2": "<strong>Izbor kanalov</strong><br/>Ena platforma za komunikacijo preko več kanalov (e-pošta, SMS sporočila, potisna obvestila), ki omogoča združevanje kanalov in preklapljanje med njimi.",
+          "item-3": "<strong>Oblikovanje sporočila</strong><br/>Pošiljanje sporočil je hitro in enostavno, saj platforma omogoča, da z uporabo predlog, urejevalnikov vsebin s takojšnjim predogledom in hitrimi funkcionalnostmi za segmentacijo strank ustvarite sporočila za vse kanale istočasno. Uporabniški vmesnik je skrbno načrtovan, zato na nobeni točki ne boste potrebovali pomoči osebja IT ali tehničnega osebja."
+        },
+        "targeting": {
+          "title": "Nastavitve tarčenja",
+          "subtitle": "Nastavitve tarčenja",
+          "item-1": "<strong>Čas pošiljanja in geolokacija</strong><br/>Pošiljanje sporočil ob pravem času, na pravem mestu. Platforma vam omogoča, da sporočila pošljete takoj, ob točno določenem času ali glede na točno določeno aktivnost uporabnika. Nekatera sporočila dobijo pomen v določenem okolju. Vmesnik podpira pošiljanje sporočil na podlagi geografskega položaja prejemnika.",
+          "item-2": "<strong>Sprotna optimizacija</strong><br/>Hitra in učinkovita komunikacija z vašimi strankami. KumuluzCrowdsensing podpira funkcionalnosti testiranja A/B, prilagoditev sporočil, personalizacijo z enim klikom in lahko razumljive vizualne predstavitve statističnih analiz, vse v realnem času."
+        },
+        "after": {
+          "title": "Po sporočanju",
+          "subtitle": "Po sporočanju",
+          "item-1": "<strong>Analitika v realnem času</strong><br/>Zberite povratne informacije strank in se na njih odzovite. S pomočjo pregledne plošče spremljajte učinkovitost komunikacije v realnem času in z enim samim klikom generirajte poročila v PDF.\nNapredna analitika omogoča boljše razumevanje strank in analizo trendov, modul, temelječ na umetni inteligenci, pa napoved uporabe sredstev na podlagi analize množic.",
+          "item-2": "<strong>Obdelava podatkov</strong><br/>Zbrane informacije lahko obdelujete na ravni posameznikov, segmentov in množic. Podatke lahko enostavno združujete z drugimi podatki ter pridobite ključne vpoglede in informacije za poslovno odločanje in personalizirano komuniciranje.\nPri tem je zagotovljena anonimizacija in integracija podatkov z zlivanjem iz različnih senzorjev in naprav, kar omogoča zmogljivo, skalabilno in robustno integracijo podatkov ter pripravo teh podatkov za aplikativno uporabo."
+        }
+      },
+      "prod-grid": "Odkrijte ostale Kumuluz Digital gradnike",
+      "external": {
+        "more": "Več na spletni strani"
+      }
     }
   }
 }

@@ -190,7 +190,7 @@ export default class KumuluzEEPage extends Component {
                 <Helmet title={t("components.ee.title") + " - Kumuluz"}/>
                 <CompNavigationComponent activeTab={"color-ee"} products={digitalPlatformProducts(t)}/>
                 <CompHeaderComponent image={eeLogo}
-                    title={`<a href='${EE_KUMULUZ_URL}' target='_blank'>Kumuluz<strong>EE</strong></a>`}
+                    title={"<span>Kumuluz<strong>EE</strong></span>"}
                     url={EE_KUMULUZ_URL}
                     items={[
                         t("components.ee.header.items.item-1"),
@@ -313,6 +313,12 @@ export default class KumuluzEEPage extends Component {
                                                     t("components.ee.about.info.left.item-1"),
                                                     t("components.ee.about.info.left.item-2")
                                                 ]}/>
+                                            
+                                            <div className="button-area">
+                                                <a className="btn btn-primary" href={EE_KUMULUZ_URL} target="_blank" rel="noreferrer noopener">
+                                                    {t("components.ee.external.more")}
+                                                </a>
+                                            </div>
                                         </div>
                                         <div className="grey-box contact-info">
                                             <ContactForm light={false}/>
@@ -453,6 +459,16 @@ export default class KumuluzEEPage extends Component {
                         </div>
                     </div>
                 }/>
+    
+                <div className="container-fluid mt-5">
+                    <div className="row justify-content-center">
+                        <div className="col-9 col-lg-8 col-xl-6 d-flex justify-content-center">
+                            <a className="btn btn-primary" href={EE_KUMULUZ_URL} target="_blank" rel="noreferrer noopener">
+                                {t("components.ee.external.more")}
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
 
                 <div className="divider-container">

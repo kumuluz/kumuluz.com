@@ -24,8 +24,9 @@ import whatIsImage from "../../../assets/images/whatIs.svg";
 import competitiveAdvantageImage from "../../../assets/images/competitiveAdv.svg";
 import transitionCloudImage from "../../../assets/images/transitionCloud.svg";
 import {Helmet} from "react-helmet";
-import {KUMULUZ_DIGITAL} from "../../../content/constants";
+import {API_KUMULUZ_URL} from "../../../content/constants";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
+import {push} from "gatsby-link";
 
 const items = t => [
     {
@@ -64,6 +65,15 @@ export default class KumuluzApiPage extends Component {
     componentDidMount() {
         GoogleAnalyticsService.registerPageView();
     }
+    
+    jumpToContact() {
+        const contactForm = document.getElementById("contact-us");
+        if (contactForm) {
+            contactForm.scrollIntoView();
+        } else {
+            push("/#contact-us");
+        }
+    }
 
     render() {
         const {t} = this.props;
@@ -73,6 +83,7 @@ export default class KumuluzApiPage extends Component {
                 <Helmet title={t("components.api.title") + " - Kumuluz"}/>
                 <CompNavigationComponent activeTab={"color-api"} products={digitalPlatformProducts(t)}/>
                 <CompHeaderComponent image={apiLogo} title={"Kumuluz<strong>API</strong>"}
+                    url={API_KUMULUZ_URL}
                     items={[
                         t("components.api.header.items.item-1"),
                         t("components.api.header.items.item-2"),
@@ -80,6 +91,9 @@ export default class KumuluzApiPage extends Component {
                     ]}
                     subtitle={t("components.api.header.subtitle")}/>
                 <CompAboutComponent
+                    chevron={chevron}
+                    chevronDown={chevronDown}
+                    colorClazz={"color-api"}
                     about={{
                         title: t("components.api.about.navbar.about.strong"),
                         content: t("components.api.about.navbar.about.text")
@@ -134,10 +148,9 @@ export default class KumuluzApiPage extends Component {
                         <div className="api-demo">
                             <img src={apiDemo}/>
                             <div className="button">
-                                <a href={KUMULUZ_DIGITAL.API_URL} rel="noreferrer noopener" target="_blank">
-                                    <span
-                                        className="btn btn-primary">{t("components.api.about.navbar.demo.tryout")}</span>
-                                </a>
+                                <button className="btn btn-primary" onClick={this.jumpToContact}>
+                                    {t("components.api.about.navbar.demo.tryout")}
+                                </button>
                             </div>
                         </div>
                     }
@@ -252,6 +265,16 @@ export default class KumuluzApiPage extends Component {
                         dangerouslySetInnerHTML={{__html: t("components.api.use-cases.items.security.content")}}/>
                 </div>}
                 />
+    
+                <div className="container-fluid mt-5 button-area">
+                    <div className="row justify-content-center">
+                        <div className="col-9 col-lg-8 col-xl-6 d-flex justify-content-center">
+                            <a className="btn btn-primary" href={API_KUMULUZ_URL} target="_blank" rel="noreferrer noopener">
+                                {t("components.api.external.more")}
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <div className="divider-container">
                     <div className="divider"/>

@@ -70,10 +70,7 @@ export default class DigitalPlatformPage extends Component {
                                 <div className="col-10">
                                     <h2 className="text-center">{t("digit-platform.title")}</h2>
                                 </div>
-                                <div className="col-10 button-area">
-                                    <a href={BLOG_URL} target="_blank" rel="noreferrer noopener"
-                                        className="btn btn-primary">{t("digit-platform.learn-more")}</a>
-                                </div>
+                                <div className="col-10 button-area"/>
                             </div>
                         </div>
                         <div className="col-10 p-0">

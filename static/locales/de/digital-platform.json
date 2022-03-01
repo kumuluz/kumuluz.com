@@ -257,7 +257,10 @@
           "item-17": "KumuluzEE Ethereum für Ethereum-fähige Microservices (Blockchain)."
         }
       },
-      "prod-grid": "Entdecken Sie andere digitale Bausteine von Kumuluz"
+      "prod-grid": "Entdecken Sie andere digitale Bausteine von Kumuluz",
+      "external": {
+        "more": "Mehrerfahren"
+      }
     },
     "api": {
       "title": "KumuluzAPI",
@@ -412,7 +415,10 @@
           }
         }
       },
-      "prod-grid": "Entdecken Sie andere digitale Bausteine von Kumuluz"
+      "prod-grid": "Entdecken Sie andere digitale Bausteine von Kumuluz",
+      "external": {
+        "more": "Mehrerfahren"
+      }
     },
     "integration": {
       "title": "KumuluzIntegration",
