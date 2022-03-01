@@ -656,10 +656,127 @@
     "crowdsensing": {
       "title": "KumuluzCrowdsensing",
       "header": {
-        "subtitle": "Platform for automatic data collection and measurement through smart devices"
+        "subtitle": "Platform for automatic data collection and measurement through smart devices",
+        "items": {
+          "item-1": "Making use of the most recent technologies and analytics",
+          "item-2": "Interact with users at the right time",
+          "item-3": "Anonymized, integrated and highly secure data"
+        }
       },
-      "coming-soon": "COMING SOON",
-      "prod-grid": "Discover other Kumuluz Digital Building Blocks"
+      "about": {
+        "navbar": {
+          "about": {
+            "title": "About the product",
+            "strong": "Engage your (potential) customers with personalized, multi-channel communication.",
+            "text": "<p>KumuluzCrowdsensing is a tool for keeping your customers informed about your products and services, which will increase sales and market share. As KumuluzCrowdsensing integrates with other systems to obtain customer information and precisely monitor all campaigns, your communication with your customers will be high-level and personal, resulting in an excellent user experience and ensuring the satisfaction of your customers.</p><p>By collecting data and creating customer profiles, KumuluzCrowdsensing will help you understand their needs and requirements. By messaging and developing communication tailored to individual customers using their profiles, you will connect with your customers in a specific, non-invasive way, while building your digital presence and strengthening the power of your brand.</p><p>The platform is based on advanced technological concepts like blockchain, anonymisation algorithms, merging, data integration and much more. Thus, you can be sure that your personalized, intelligent communication with your customers will be at a completely new level.</p>",
+            "box": {
+              "title": "Why should you choose KumuluzCrowdsensing?",
+              "item-1": "An impressive experience in communication",
+              "item-2": "Synchronized communication across all channels",
+              "item-3": "Dynamic segmentation and automatization",
+              "item-4": "Achieve an in-depth understanding of your customers",
+              "item-5": "Increasing sales and accelerating growth",
+              "item-6": "Advanced analytics and reporting",
+              "item-7": "The ideal solution for designing advanced smart city solutions"
+            }
+          },
+          "features": {
+            "title": "Main features",
+            "item-1": "Customer segmentation based on current, most up-to-date information on customers, their locations, actions and behavior.",
+            "item-2": "Creating a user profile that is updated according to interactions, preferences, communication intensity, interests, location and demographic data.",
+            "item-3": "Support for all modern communication channels and easy switching between them",
+            "item-4": "Intuitive user interface for using the platform and creating messages",
+            "item-5": "Sending messages immediately or at a specified time",
+            "item-6": "Supported geo-located messaging: when a customer enters, leaves, or stays at a specific location",
+            "item-7": "Collection of data from various sources (sensors, mobile phones, IoT devices)",
+            "item-8": "Monitoring of each message sent: when it was delivered, read and forwarded",
+            "item-9": "Collection, aggregation and anonymization of data",
+            "item-10": "Dashboard for reviewing each and every individual response to a sent message",
+            "item-11": "A set of tools to optimize messaging and automatic sending, review, and editing of  campaigns",
+            "item-12": "Ensuring adequate security of collected data (encryption, etc.)",
+            "item-13": "Suitable for enterprises, as it allows easy integration with CRM systems and other back-office systems",
+            "item-14": "Cloud or on-premise installation",
+            "item-15": "Enables the rapid development of new digital solutions"
+          },
+          "customer": {
+            "title": "Customers & Use Cases",
+            "subtitle": "Customers & Use Cases",
+            "items": {
+              "item-1": "<strong>Transport</strong><br/>Notify the customer about a detour and invite him to visit your gas station on the new route.",
+              "item-2": "<strong>Food & Drink</strong><br/>Send a message whenever customers are close to your restaurant.",
+              "item-3": "<strong>Retail</strong><br/>When the customer finishes his purchase, send him a report on the status of his loyalty points.",
+              "item-4": "<strong>Events</strong><br/>As a sponsor of an event, provide your customers with a special offer at the event.",
+              "item-5": "<strong>Fashion</strong><br/>Send the customer an offer for the dress he spent the most time looking at in the store."            }
+          },
+          "demo": {
+            "title": "Demo",
+            "tryout": "Try it out"
+          }
+        }
+      },
+      "motto": {
+        "title": "KumuluzCrowdsensing is the technological heart of smart cities",
+        "subtitle": "The key element of smart cities is the effective integration of various ICT services and IoT devices as well as the capability to collect, process and analyze data, all of which contributes to our ability to offer services in smart city management."
+      },
+      "benefits": {
+        "title": "Main benefits and features of KumuluzCrowdsensing",
+        "subtitle": "Based on APIs, microservices and “cloud-native” architecture.",
+        "items": {
+          "item-1": {
+            "title": "Collecting information",
+            "desc": "The platform enables passive collection of information through sensors as well as active collection of information from the customers themselves, e.g. through surveys on physically located tablets.\n\nMobile phones, tablets, smart watches, IoT devices or sensors, smart traffic infrastructure, sensors in smart buildings etc. can all be sources of information."
+          },
+          "item-2": {
+            "title": "Data processing and data security",
+            "desc": "The collected data can be processed on the individual level, in segments or crowds. The data can easily be compiled with other data to gain crucial insights and information for making business decisions and developing personalized communication.\n\nAll of these processes come with a guaranteed anonymization and merging of data by compiling it from various sensors and devices, allowing it to be effectively, scalably and robustly integrated and prepared for applied use."
+          },
+          "item-3": {
+            "title": "Blockchain technology",
+            "desc": "The platform is also based on distributed and encrypted data storage with the use of blockchain technology for storing sensitive data. \n\nIt also enables the use of smart contracts in accessing and monetizing the data."
+          },
+          "item-4": {
+            "title": "Integration with other systems made easy",
+            "desc": "With Kumuluz Crowdsensing, the data is suitably collected, integrated, filtered, stored, anonymized and treated in other ways, then exposed through APIs.\n\nThe contacts of your customers may be imported or directly integrated with your existing systems and databases, like CRM or ERP data etc."
+          },
+          "item-5": {
+            "title": "Smart cities",
+            "desc": "KumuluzCrowdsensing is the ideal resource for creating advanced solutions in smart cities and improving the quality of life for residents. A smart city must draw on actual crowd information, which is exactly what KumuluzCrowdsensing is bringing to the table.\n\nResidents and visitors can be offered wholly new services, which draw from sensing the needs of crowds, as well as improvements in infrastructure."
+          },
+          "item-6": {
+            "title": "Developer friendly",
+            "desc": "Developers can access selected (public) APIs. Those developing smart city and community solutions can also make use of an SDK, which makes fast, standardized development of ever new innovative solutions on the KumuluzCrowdsensing platform possible."
+          }
+        },
+        "after-text": {
+          "colored": "Engage",
+          "text": "your (potential) customers"
+        }
+      },
+      "use-cases": {
+        "creating": {
+          "title": "Creating the message",
+          "subtitle": "Creating the message",
+          "item-1": "<strong>Choosing the segments</strong><br/>Sending messages in the right context. KumuluzCrowdsensing creates dynamic customer segments, which are updated in real time according to the recorded data about customer properties, their location, actions, interactions and behavior.",
+          "item-2": "<strong>Choosing the channels</strong><br/>One platform for multi-channel communication (email, SMS, push notifications) with a simple combination and switching across channels.",
+          "item-3": "<strong>Creating the message</strong><br/>Sending messages is fast and easy because it allows you to create messages for all channels at the same time, using templates, content editors with instant preview and quick customer segmentation functions. The user interface is very intuitive, so you will not need the help of IT or technical staff at any point."
+        },
+        "targeting": {
+          "title": "Targeting settings",
+          "subtitle": "Targeting settings",
+          "item-1": "<strong>Messaging schedule and geolocation</strong><br/>Sending messages in the right place and at the right time. The platform allows you to send messages immediately, at a specific time or a specific user activity. Some messages only have meaning in a particular environment. It supports sending messages based on the geolocation of the recipient.",
+          "item-2": "<strong>Simultaneous optimization</strong><br/>Fast and effective communication with your customers. KumuluzCrowdsensing supports the functionality of A/B testing, message adaptation, personalization with a single click, and easily understandable visual presentations of statistical analyses, everything in real time."
+        },
+        "after": {
+          "title": "After messaging",
+          "subtitle": "After messaging",
+          "item-1": "<strong>Real-time analytics</strong><br/>Capture and respond to customer feedback. Use the dashboard to monitor communication effectiveness in real-time and generate PDF reports with a single click.\nAdvanced analytics will enhance your understanding of customers and boost your trend analysis, and the AI-based module will improve the usage of resources based on crowd analysis.",
+          "item-2": "<strong>Data processing</strong><br/>The collected data can be processed on the individual level, in segments or crowds. The data can easily be compiled with other data to gain crucial insights and information for making business decisions and developing personalized communication.\nAll of these processes come with a guaranteed anonymization and merging of data by compiling it from various sensors and devices, allowing it to be effectively, scalably and robustly integrated and prepared for applied use."
+        }
+      },
+      "prod-grid": "Discover other Kumuluz Digital Building Blocks",
+      "external": {
+        "more": "Learn more"
+      }
     }
   }
 }

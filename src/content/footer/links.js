@@ -52,10 +52,6 @@ export const footerLinks = t => [
                 href: "/business-apis/customer"
             },
             {
-                title: t("footer.apis.api8"),
-                href: "/business-apis/ccm"
-            },
-            {
                 title: t("footer.apis.api9"),
                 href: "/business-apis/subscription"
             },
@@ -117,10 +113,6 @@ export const footerLinks = t => [
             {
                 title: t("footer.company.link3"),
                 href: BLOG_URL
-            },
-            {
-                title: t("footer.company.link4"),
-                href: ""
             }
         ]
     }

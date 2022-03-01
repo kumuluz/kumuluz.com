@@ -1,7 +1,41 @@
 @import "../../../assets/scss/variables";
 @import "../../../assets/scss/media-mixin";
 
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/media-mixin";
+
+
+@import "../colors";
+.colored {
+  font-weight: bold;
+}
+.quote, .quote-author {
+  font-size: 1.25rem;
+}
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+
+  .author-title {
+    font-style: italic;
+    margin-left: 2px;
+  }
+}
+.table {
+  tbody tr {
+    &:nth-child(even) {
+      background-color: $white;
+    }
+    &:nth-child(odd) {
+      background-color: $grey-100;
+    }
+  }
+}
+
 .km-kumuluz-crowdsensing-page {
+  .km-comp-header-component .items .item {
+    width: 24%;
+  }
   .divider-container {
     display: flex;
     justify-content: center;
@@ -13,9 +47,99 @@
       height: 4px;
     }
   }
-  .coming-soon {
-    font-weight: 700;
-    color: $blue-400;
+  .grey-box {
+    padding: 30px;
+    background-color: $grey-100;
+  }
+  .features {
+    padding-top: 40px;
+
+    p.checkbox {
+      margin-left: 60px;
+      display: flex;
+      align-items: center;
+      line-height: normal;
+      margin-bottom: 30px;
+      font-size: 1.25rem;
+
+      &.multi-check {
+        display: block;
+        line-height: unset;
+        strong {
+          margin-top: -50px;
+        }
+        span, strong {
+          display: block;
+        }
+      }
+    }
+    p.checkbox:before {
+      content: '';
+      height: 40px;
+      width: 40px;
+      min-width: 40px;
+      display: inline-block;
+      background-image: url('../../../assets/images/check-mark.svg');
+      margin-left: -60px;
+      margin-right: 20px;
+    }
+    p.checkbox.orange:before {
+      background-color: $crowdsensing !important;
+    }
+  }
+  .contact-info {
+    h3, label {
+      color: $black;
+    }
+  }
+  .integrations {
+    h3 {
+      font-weight: 700;
+      color: $blue-400;
+      margin-bottom: 40px;
+    }
+    p.checkbox {
+      margin-left: 60px;
+      display: flex;
+      align-items: center;
+      line-height: normal;
+      margin-bottom: 30px;
+      font-size: 1.25rem;
+    }
+    p.checkbox:before {
+      content: '';
+      height: 40px;
+      width: 40px;
+      min-width: 40px;
+      display: inline-block;
+      background-image: url('../../../assets/images/check-mark.svg');
+      margin-left: -60px;
+      margin-right: 20px;
+    }
+    p.checkbox.orange:before {
+      background-color: $crowdsensing !important;
+    }
+  }
+  .km-comp-about-component {
+    .menu .menu-item .underline.active {
+      background-color: $crowdsensing !important;
+    }
+    .features p.checkbox:before {
+      background-color: $crowdsensing !important;
+    }
+  }
+  .km-comp-use-cases-component {
+    .menu .menu-item .underline.active {
+      background-color: $crowdsensing !important;
+    }
+    .features p.checkbox:before {
+      background-color: $crowdsensing !important;
+    }
+  }
+  .km-comp-motto-component {
+    .line {
+      background-color: $crowdsensing !important;
+    }
   }
   .prod-grid-title {
     text-align: center;
@@ -23,12 +147,32 @@
     color: $blue-400;
     margin-bottom: 50px;
   }
+  .button-area {
+    padding-top: 30px;
+  }
+  .crowdsensing-demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+    .button {
+      margin-top: 40px;
+    }
+  }
+  .button-area {
+    padding-top: 30px;
+  }
 }
 
 @include device-specific($media-phone) {
   .km-kumuluz-crowdsensing-page {
-    .coming-soon {
-      margin-top: 40px;
+    .divider-container {
+      .divider {
+        width: 80%;
+      }
     }
   }
 }

@@ -24,7 +24,7 @@ import whatIsImage from "../../../assets/images/whatIs.svg";
 import competitiveAdvantageImage from "../../../assets/images/competitiveAdv.svg";
 import transitionCloudImage from "../../../assets/images/transitionCloud.svg";
 import {Helmet} from "react-helmet";
-import {API_KUMULUZ_URL, EE_KUMULUZ_URL, KUMULUZ_DIGITAL} from "../../../content/constants";
+import {API_KUMULUZ_URL} from "../../../content/constants";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 import {push} from "gatsby-link";
 
@@ -91,6 +91,9 @@ export default class KumuluzApiPage extends Component {
                     ]}
                     subtitle={t("components.api.header.subtitle")}/>
                 <CompAboutComponent
+                    chevron={chevron}
+                    chevronDown={chevronDown}
+                    colorClazz={"color-api"}
                     about={{
                         title: t("components.api.about.navbar.about.strong"),
                         content: t("components.api.about.navbar.about.text")

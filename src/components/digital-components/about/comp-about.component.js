@@ -3,8 +3,6 @@ import PropType from "prop-types";
 
 import "./comp-about.component.scss";
 import {CollapsableListComponent} from "../../shared/export.shared.components";
-import chevron from "../../../assets/images/digital-platform/chevrons/chevron-api.svg";
-import chevronDown from "../../../assets/images/digital-platform/chevrons/chevron-api-down.svg";
 
 export class CompAboutComponent extends Component {
 
@@ -17,8 +15,12 @@ export class CompAboutComponent extends Component {
         featuresTitle: PropType.string,
         customers: PropType.object,
         customersTitle: PropType.string,
+        customersComponent: PropType.any,
         demo: PropType.object,
-        demoTitle: PropType.string
+        demoTitle: PropType.string,
+        colorClazz: PropType.string,
+        chevron: PropType.any,
+        chevronDown: PropType.any,
     };
 
     constructor(props) {
@@ -45,7 +47,8 @@ export class CompAboutComponent extends Component {
 
     render() {
         const {about, features, customers, demo, aboutTitle,
-            customersTitle, demoTitle, featuresTitle, aboutItems, aboutBoxTitle} = this.props;
+            customersTitle, demoTitle, featuresTitle, aboutItems,
+            aboutBoxTitle, colorClazz, chevron, chevronDown, customersComponent} = this.props;
         const showAbout = this.state.activePage === "about";
         const showFeatures = this.state.activePage === "features";
         const showCustomers = this.state.activePage === "customers";
@@ -70,7 +73,8 @@ export class CompAboutComponent extends Component {
                                     <span>
                                         {featuresTitle}
                                     </span>
-                                    <span className={"underline" + (showFeatures ? " active" : "")}/>
+                                    <span
+                                        className={"underline" + (showFeatures ? " active" : "")}/>
                                 </span>
                             </div>
                             <div className="menu-item" onClick={() => this.changePage("customers")}>
@@ -108,7 +112,7 @@ export class CompAboutComponent extends Component {
                                     <div className="grey-box">
                                         <p>{aboutBoxTitle}</p>
                                         <CollapsableListComponent chevron={chevron}
-                                            chevronDown={chevronDown} colorClazz={"color-api"} items={aboutItems}/>
+                                            chevronDown={chevronDown} colorClazz={colorClazz} items={aboutItems}/>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +123,7 @@ export class CompAboutComponent extends Component {
                         style={showFeatures ? {display: "flex"} : {display: "none"}}>
                         <div className="col-9 col-xl-6">
                             {features.map((feat, index) => (
-                                <p key={index} className="checkbox orange">{feat}</p>
+                                <p key={index} className={"checkbox orange"}>{feat}</p>
                             ))}
                         </div>
                     </div>
@@ -127,8 +131,12 @@ export class CompAboutComponent extends Component {
                     <div className="row justify-content-center customers"
                         style={showCustomers ? {display: "flex"} : {display: "none"}}>
                         <div className="col-9 col-xl-6">
-                            <h4>{customers.title}</h4>
-                            <div dangerouslySetInnerHTML={{__html: customers.content}}/>
+                            {customersComponent ? customersComponent : (
+                                <div>
+                                    <h4>{customers.title}</h4>
+                                    <div dangerouslySetInnerHTML={{__html: customers.content}}/>
+                                </div>
+                            )}
                         </div>
                     </div>
                     {/*************** DEMO *****************/}
