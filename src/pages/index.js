@@ -61,11 +61,13 @@ export default class IndexPage extends Component {
         return (
             <div className="km-index-page">
                 <Helmet title={t("meta.title")}/>
+                {/*
                 <div className="eu-sklad">
                     <Link to="/e-poslovanje">
                         <img src={euSkladRegionalniRazvoj}/>
                     </Link>
                 </div>
+                */}
 
                 <div className="container-fluid white-section">
                     <div className="row align-items-center flex-column header">
