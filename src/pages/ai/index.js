@@ -37,13 +37,13 @@ export default class ThanksPage extends Component {
           <div>
             <Col xs="12" className="px-0">
               <div className="text-center pt-5 p-3 p-lg p-lg-0">
-                <div className="justify-content-center">
+                <Row className="justify-content-center">
                   <Col xs="12" lg="10" xl="8">
                     <h1>{t("title")}</h1>
                     <p>{t("block1")}</p>
                     <p>{t("block2")}</p>
                   </Col>
-                </div>
+                </Row>
               </div>
             </Col>
           </div>
@@ -109,6 +109,7 @@ export default class ThanksPage extends Component {
                     </div>
                   </Col>
                 </div>
+
                 <div className="space-top content-body">
                   <Col md={6} className="mobile-image">
                     <img
