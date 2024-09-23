@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import Link from "gatsby-link";
 import { translate } from "react-i18next";
 import { Helmet } from "react-helmet";
 import { Footer } from "../../components/shared/footer/footer";
@@ -72,15 +73,15 @@ export default class ThanksPage extends Component {
           <div className="index-content-component">
             <div className="flex-column d-flex align-items-center">
               <div className="flex-column d-flex align-items-center" style={{ marginTop: "60px" }}>
-                <div className="mt-5 content-body">
-                  <Col md={6}>
+                <Row className="mt-5 content-body">
+                  <Col>
                     <img
                       src={stockAi}
-                      style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
+                      style={{ width: "100%", minWidth: "300px", borderRadius: "16px", border: "8px solid #DCDCDC" }}
                       alt="stock-ai-form"
                     />
                   </Col>
-                  <Col md={6}>
+                  <Col>
                     <div className="title">
                       <h2>{t("services.item1.title")}</h2>
                       <div className="title-underline" />
@@ -88,93 +89,113 @@ export default class ThanksPage extends Component {
                     <h3>{t("services.item1.subtitle")}</h3>
                     <p>{t("services.item1.description")}</p>
                     <div>
-                      <Col ms={12}>
-                        <div className="d-flex">
-                          <Col md="6">
+                      <Col>
+                        <div className="d-flex flex-column flex-sm-row">
+                          <Col>
                             <Itemized label={t("services.item1.items.item1")} />
                           </Col>
-                          <Col md="6">
+                          <Col>
                             <Itemized label={t("services.item1.items.item2")} />
                           </Col>
                         </div>
-                        <div className="items-margin-top d-flex">
-                          <Col md="6">
+                        <div className="items-margin-top d-flex flex-column flex-sm-row">
+                          <Col>
                             <Itemized label={t("services.item1.items.item3")} />
                           </Col>
-                          <Col md="6">
+                          <Col>
                             <Itemized label={t("services.item1.items.item4")} />
                           </Col>
                         </div>
                       </Col>
                     </div>
+                    <Col className="mt-5">
+                      <a
+                        href="https://sunesis.si/services/ai"
+                        className="mt-5"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="overview-btn">{t("services.learn-more")}</span>
+                      </a>
+                    </Col>
                   </Col>
-                </div>
+                </Row>
 
-                <div className="space-top content-body">
-                  <Col md={6} className="mobile-image">
+                <Row className="space-top content-body">
+                  <Col className="mobile-image">
                     <img
                       src={stockKnowledge}
-                      style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
+                      style={{ width: "100%", minWidth: "300px", borderRadius: "16px", border: "8px solid #DCDCDC" }}
                       alt="stock-architecture"
                     />
                   </Col>
 
-                  <Col md={6}>
+                  <Col>
                     <h3 style={{ marginBottom: 0 }}>{t("services.item2.above-title")}</h3>
                     <div className="title" style={{ marginBottom: "30px" }}>
-                      <h2>{t("services.item2.title")}</h2>
+                      <h2 style={{ margin: 0 }}>{t("services.item2.title")}</h2>
                       <div className="title-underline" />
                     </div>
                     <p>{t("services.item2.description")}</p>
                     <p>{t("services.item2.description2")}</p>
-                    <div>
-                      <Col ms={12}>
-                        <div className="d-flex">
-                          <Col md="6">
+                    <Row>
+                      <Col>
+                        <div className="d-flex flex-column flex-sm-row">
+                          <Col>
                             <Itemized label={t("services.item2.items.item1")} />
                           </Col>
-                          <Col md="6">
+                          <Col>
                             <Itemized label={t("services.item2.items.item2")} />
                           </Col>
                         </div>
-                        <div className="items-margin-top d-flex">
-                          <Col md="6">
+                        <div className="items-margin-top d-flex flex-column flex-sm-row">
+                          <Col>
                             <Itemized label={t("services.item2.items.item3")} />
                           </Col>
-                          <Col md="6">
+                          <Col>
                             <Itemized label={t("services.item2.items.item4")} />
                           </Col>
                         </div>
-                        <div className="items-margin-top d-flex">
-                          <Col md="6">
+                        <div className="items-margin-top d-flex flex-column flex-sm-row">
+                          <Col>
                             <Itemized label={t("services.item2.items.item5")} />
                           </Col>
                         </div>
                       </Col>
-                    </div>
+                    </Row>
+                    <Col className="mt-5">
+                      <a
+                        href="https://sunesis.si/products/ai-smart-assistant"
+                        className="mt-5"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="overview-btn">{t("services.learn-more")}</span>
+                      </a>
+                    </Col>
                   </Col>
-                  <Col md={6} className="mobile-image-hidden">
+                  <Col className="mobile-image-hidden">
                     <img
                       src={stockKnowledge}
-                      style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
+                      style={{ width: "100%", minWidth: "300px", borderRadius: "16px", border: "8px solid #DCDCDC" }}
                       alt="stock-architecture"
                     />
                   </Col>
-                </div>
+                </Row>
               </div>
             </div>
 
             <div className="flex-column d-flex align-items-center">
               <div className="flex-column d-flex align-items-center">
-                <div className="mt-5 content-body">
-                  <Col md={6}>
+                <Row className="mt-5 content-body">
+                  <Col>
                     <img
                       src={stockSmartAssistant}
-                      style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
+                      style={{ width: "100%", minWidth: "300px", borderRadius: "16px", border: "8px solid #DCDCDC" }}
                       alt="stock-security"
                     />
                   </Col>
-                  <Col md={6}>
+                  <Col>
                     <div className="title">
                       <h2>{t("services.item3.title")}</h2>
                       <div className="title-underline" />
@@ -182,36 +203,45 @@ export default class ThanksPage extends Component {
                     <h3>{t("services.item3.subtitle")}</h3>
                     <p>{t("services.item3.description")}</p>
                     <p>{t("services.item3.description2")}</p>
-                    <div>
-                      <Col ms={12}>
-                        <div className="d-flex">
-                          <Col md="6">
-                            <Itemized label={t("services.item3.items.item1")} />
-                          </Col>
-                          <Col md="6">
-                            <Itemized label={t("services.item3.items.item2")} />
-                          </Col>
-                        </div>
-                        <div className="items-margin-top d-flex">
-                          <Col md="6">
-                            <Itemized label={t("services.item3.items.item3")} />
-                          </Col>
-                          <Col md="6">
-                            <Itemized label={t("services.item3.items.item4")} />
-                          </Col>
-                        </div>
-                        <div className="items-margin-top d-flex">
-                          <Col md="6">
-                            <Itemized label={t("services.item3.items.item5")} />
-                          </Col>
-                          <Col md="6">
-                            <Itemized label={t("services.item3.items.item6")} />
-                          </Col>
-                        </div>
-                      </Col>
-                    </div>
+                    <Col>
+                      <div className="d-flex flex-column flex-sm-row">
+                        <Col>
+                          <Itemized label={t("services.item3.items.item1")} />
+                        </Col>
+                        <Col>
+                          <Itemized label={t("services.item3.items.item2")} />
+                        </Col>
+                      </div>
+                      <div className="items-margin-top d-flex flex-column flex-sm-row">
+                        <Col>
+                          <Itemized label={t("services.item3.items.item3")} />
+                        </Col>
+                        <Col>
+                          <Itemized label={t("services.item3.items.item4")} />
+                        </Col>
+                      </div>
+                      <div className="items-margin-top d-flex flex-column flex-sm-row">
+                        <Col>
+                          <Itemized label={t("services.item3.items.item5")} />
+                        </Col>
+                        <Col>
+                          <Itemized label={t("services.item3.items.item6")} />
+                        </Col>
+                      </div>
+                    </Col>
+
+                    <Col className="mt-5 mb-5">
+                      <a
+                        href="https://sunesis.si/products/ai-knowledge-mentor"
+                        className="mt-5"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="overview-btn">{t("services.learn-more")}</span>
+                      </a>
+                    </Col>
                   </Col>
-                </div>
+                </Row>
               </div>
             </div>
           </div>
