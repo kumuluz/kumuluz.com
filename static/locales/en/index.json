@@ -15,10 +15,15 @@
         "title": "API solutions for immediate use",
         "subtitle": "Use pre-built business APIs to create your digital products and services much faster."
       },
-      "right-tile": {
+      "middle-tile": {
         "above-title": "Kumuluz Digital Platform",
         "title": "Fast-track your digital transformation",
         "subtitle": "A lightweight, open, award-winning digital platform that development teams love."
+      },
+      "right-tile": {
+        "above-title": "Kumuluz AI",
+        "title": "Grow your business with AI and GPT",
+        "subtitle": "Unlock innovation, efficiency and growth with AI and GPT with focus on privacy and security."
       }
     }
   },

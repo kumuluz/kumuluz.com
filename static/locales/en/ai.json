@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Kumuluz"
+  },
+  "title": "Unlock innovation , efficiency and growth with AI and GPT",
+  "block1": "We specialize in embedding cutting-edge AI technologies into your existing enterprise applications by leveraging Open AI services, including OpenAI's GPT models, AI search and others.",
+  "block2": "With focus on data security, privacy, seamless integration of conversational user interfaces with business applications and cost efficiency.",
+  "item1": "Development of new AI applications for your business",
+  "item2": "Integrations in your existing enterprise applications",
+  "item3": "Our own AI and GPT solutions",
+  "services": {
+    "learn-more": "Learn more",
+    "item1": {
+      "title": "Cloud-native",
+      "subtitle": "digital AI solutions development",
+      "description": "We develop effective cloud-native AI solutions with optimized architectures for scalability and high performance. In addition, we implement cost-efficient strategies to make AI and GPT integration sustainable for your business.",
+      "items": {
+        "item1": "Seamless GPT integration with form-based applications",
+        "item2": "Optimized architectural integration with OpenAI",
+        "item3": "Improved data and document security",
+        "item4": "Scalability, speed and cost control"
+      }
+    },
+    "item2": {
+      "above-title": "AI Smart Assistant",
+      "title": "Accelerate AI integration with pre-built components",
+      "description": "Our AI Smart Assistant and solution accelerators provide pre-built, tested and customizable components that enable seamless AI integration into your existing business applications, shortening development cycles and driving innovation faster.",
+      "description2": "Our pre-built APIs cover a wide range of components that are designed to be integrated into AI workflows with minimal customization and provide a solid foundation for advanced AI capabilities.",
+      "items": {
+        "item1": "Natural language processing API",
+        "item2": "Recommendation engine API",
+        "item3": "AI Chatbot API",
+        "item4": "Document processing API",
+        "item5": "Automated machine learning API and others"
+      }
+    },
+    "item3": {
+      "title": "AI Knowledge Mentor",
+      "subtitle": "Revolutionary knowledge management and onboarding",
+      "description": "A revolutionary AI knowledge management platform that consolidates your organization's expertise into one intelligent and employee-engaging system. AI Knowledge Mentor is designed to continuously grow and adapt with usage. ",
+      "description2": "It improves employee onboarding, promotes seamless knowledge sharing and ensures that important information is always accessible — whether it’s a simple issue or a complex operational question.",
+      "items": {
+        "item1": "AI-powered knowledge graph",
+        "item2": "Natural language processing (NLP)",
+        "item3": "Intelligent onboarding with gamification",
+        "item4": "Secure integration with document systems",
+        "item5": "Scalable knowledge building",
+        "item6": "Adaptable to company needs"
+      }
+    }
+  },
+  "cta": {
+    "title": "Main benefits and use cases",
+    "subtitle": "From improving the customer experience to automating complex processes, our AI-powered solutions are designed to drive efficiency, innovation and growth.",
+    "table": {
+      "left": {
+        "item1": "Enhanced customer experience",
+        "item2": "Automated business processes",
+        "item3": "Advanced data analytics",
+        "item4": "Intelligent search and knowledge management",
+        "item5": "Personalized user experiences"
+      },
+      "right": {
+        "item1": "Employee onboarding and training",
+        "item2": "Preparation of business documents",
+        "item3": "Analysis of documents and documentation",
+        "item4": "Customer analysis and segmentation",
+        "item5": "Compliance and risk management"
+      },
+      "end": "Let’s explore the main benefits for your business in a workshop."
+    }
+  }
+}

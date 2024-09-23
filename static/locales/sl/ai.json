@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Kumuluz"
+  },
+  "title": "Odklenite inovacije, učinkovitost in rast z umetno inteligenco in GPT",
+  "block1": "Specializirani smo za vgradnjo najsodobnejših tehnologij umetne inteligence v vaše obstoječe poslovne aplikacije z uporabo storitev OpenAI, vključno z modeli GPT, AI iskanjem in drugimi.",
+  "block2": "S poudarkom na varnosti podatkov, zasebnosti, brezhibni integraciji pogovornih uporabniških vmesnikov z poslovnimi aplikacijami ter stroškovni učinkovitosti.",
+  "item1": "Razvoj novih aplikacij umetne inteligence za vaše podjetje",
+  "item2": "Integracije v vaše obstoječe poslovne aplikacije",
+  "item3": "Naše lastne rešitve umetne inteligence in GPT",
+  "services": {
+    "learn-more": "Izvedite več",
+    "item1": {
+      "title": "Rešitve za digitalno umetno inteligenco, zasnovane v oblaku",
+      "subtitle": "digitalni razvoj rešitev umetne inteligence",
+      "description": "Razvijamo učinkovite rešitve umetne inteligence, zasnovane v oblaku, z optimiziranimi arhitekturami za razširljivost in visoko zmogljivost. Poleg tega izvajamo stroškovno učinkovite strategije za trajnostno integracijo AI in GPT v vaše poslovanje.",
+      "items": {
+        "item1": "Brezhibna integracija GPT z aplikacijami na obrazcih",
+        "item2": "Optimizirana arhitekturna integracija z OpenAI",
+        "item3": "Izboljšana varnost podatkov in dokumentov",
+        "item4": "Razširljivost, hitrost in nadzor stroškov"
+      }
+    },
+    "item2": {
+      "above-title": "Pametni AI asistent",
+      "title": "Pospešite integracijo umetne inteligence s predpripravljenimi komponentami",
+      "description": "Naš pametni AI asistent in pospeševalci rešitev ponujajo predpripravljene, preizkušene in prilagodljive komponente, ki omogočajo brezhibno integracijo umetne inteligence v vaše obstoječe poslovne aplikacije, kar skrajša razvojne cikle in hitreje spodbuja inovacije.",
+      "description2": "Naši predpripravljeni API-ji pokrivajo širok spekter komponent, ki so zasnovane za integracijo v AI delovne tokove z minimalno prilagoditvijo in zagotavljajo trdne temelje za napredne zmogljivosti umetne inteligence.",
+      "items": {
+        "item1": "API za obdelavo naravnega jezika",
+        "item2": "API za priporočilni sistem",
+        "item3": "API za AI chatbot",
+        "item4": "API za obdelavo dokumentov",
+        "item5": "API za avtomatizirano strojno učenje in drugi"
+      }
+    },
+    "item3": {
+      "title": "Mentor znanja umetne inteligence",
+      "subtitle": "Revolucionarno upravljanje znanja in uvajanje",
+      "description": "Revolucionarna platforma za upravljanje znanja z umetno inteligenco, ki združuje strokovno znanje vaše organizacije v en inteligenten in za zaposlene prijazen sistem. Mentor znanja umetne inteligence je zasnovan tako, da se nenehno razvija in prilagaja z uporabo.",
+      "description2": "Izboljšuje uvajanje zaposlenih, spodbuja brezhibno deljenje znanja in zagotavlja, da so pomembne informacije vedno dostopne – ne glede na to, ali gre za preprosto težavo ali zapleteno operativno vprašanje.",
+      "items": {
+        "item1": "Z umetno inteligenco podprta baza znanja",
+        "item2": "Obdelava naravnega jezika (NLP)",
+        "item3": "Pametno uvajanje z gamifikacijo",
+        "item4": "Varnostna integracija z dokumentnimi sistemi",
+        "item5": "Razširljivo gradnjo znanja",
+        "item6": "Prilagodljivo potrebam podjetja"
+      }
+    }
+  },
+  "cta": {
+    "title": "Glavne prednosti in primeri uporabe",
+    "subtitle": "Od izboljšanja izkušnje strank do avtomatizacije kompleksnih procesov so naše rešitve, ki jih poganja umetna inteligenca, zasnovane za povečanje učinkovitosti, inovacij in rasti.",
+    "table": {
+      "left": {
+        "item1": "Izboljšana izkušnja strank",
+        "item2": "Avtomatizirani poslovni procesi",
+        "item3": "Napredna analiza podatkov",
+        "item4": "Inteligentno iskanje in upravljanje znanja",
+        "item5": "Personalizirane uporabniške izkušnje"
+      },
+      "right": {
+        "item1": "Uvajanje in usposabljanje zaposlenih",
+        "item2": "Priprava poslovnih dokumentov",
+        "item3": "Analiza dokumentov in dokumentacije",
+        "item4": "Analiza in segmentacija strank",
+        "item5": "Upravljanje skladnosti in tveganj"
+      },
+      "end": "Raziskujmo glavne prednosti za vaše podjetje na delavnici."
+    }
+  }
+}

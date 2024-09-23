@@ -15,10 +15,15 @@
         "title": "API rešitve za takojšnjo uporabo",
         "subtitle": "Uporabite že razvite poslovne API-je in tako veliko hitreje ustvarite svoje digitalne izdelke in storitve."
       },
-      "right-tile": {
+      "middle-tile": {
         "above-title": "DIGITALNA PLATFORMA KUMULUZ",
         "title": "Ogrodje za implementacijo novih poslovnih modelov",
         "subtitle": "Lahka, odprta in nagrajena digitalna platforma, ki jo razvojne ekipe obožujejo."
+      },
+      "right-tile": {
+        "above-title": "Kumuluz AI",
+        "title": "Razširite svoje poslovanje z AI in GPT",
+        "subtitle": "Odklenite inovacije, učinkovitost in rast z AI in GPT s poudarkom na zasebnosti in varnosti."
       }
     }
   },
@@ -167,7 +172,6 @@
       "text": "Če iščete mikrostoritve za platformo Java EE, si morate ogledati nov in preprost način, ki vam ga KumuluzEE ponuja za avtomatizacijo mikrostoritev.",
       "title": "Java Champion in ustanovitelj Rightrix Solutions and IndicThreads"
     }
-
   },
   "references": {
     "title": "Zaupajo nam"
