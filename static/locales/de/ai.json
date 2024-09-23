@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Kumuluz"
+  },
+  "title": "Innovation, Effizienz und Wachstum mit KI und GPT freischalten",
+  "block1": "Wir spezialisieren uns auf die Integration modernster KI-Technologien in Ihre bestehenden Unternehmensanwendungen, indem wir OpenAI-Dienste nutzen, einschließlich OpenAI's GPT-Modelle, KI-Suche und mehr.",
+  "block2": "Mit Fokus auf Datensicherheit, Datenschutz, nahtlose Integration von konversationellen Benutzeroberflächen in Geschäftsanwendungen und Kosteneffizienz.",
+  "item1": "Entwicklung neuer KI-Anwendungen für Ihr Unternehmen",
+  "item2": "Integrationen in Ihre bestehenden Unternehmensanwendungen",
+  "item3": "Unsere eigenen KI- und GPT-Lösungen",
+  "services": {
+    "learn-more": "Mehr erfahren",
+    "item1": {
+      "title": "Cloud-native",
+      "subtitle": "digitale KI-Lösungsentwicklung",
+      "description": "Wir entwickeln effektive cloud-native KI-Lösungen mit optimierten Architekturen für Skalierbarkeit und hohe Leistung. Darüber hinaus implementieren wir kosteneffiziente Strategien, um die Integration von KI und GPT für Ihr Unternehmen nachhaltig zu gestalten.",
+      "items": {
+        "item1": "Nahtlose GPT-Integration in formularbasierte Anwendungen",
+        "item2": "Optimierte architektonische Integration mit OpenAI",
+        "item3": "Verbesserte Daten- und Dokumentensicherheit",
+        "item4": "Skalierbarkeit, Geschwindigkeit und Kostenkontrolle"
+      }
+    },
+    "item2": {
+      "above-title": "KI-Smart-Assistent",
+      "title": "Beschleunigen Sie die KI-Integration mit vorgefertigten Komponenten",
+      "description": "Unser KI-Smart-Assistent und unsere Lösungsbeschleuniger bieten vorgefertigte, getestete und anpassbare Komponenten, die eine nahtlose KI-Integration in Ihre bestehenden Geschäfts­anwendungen ermöglichen, die Entwicklungs­zyklen verkürzen und Innovation schneller vorantreiben.",
+      "description2": "Unsere vorgefertigten APIs decken eine breite Palette von Komponenten ab, die mit minimaler Anpassung in KI-Workflows integriert werden können und eine solide Grundlage für fortgeschrittene KI-Fähigkeiten bieten.",
+      "items": {
+        "item1": "API für natürliche Sprachverarbeitung",
+        "item2": "Empfehlungs­maschine API",
+        "item3": "KI-Chatbot API",
+        "item4": "Dokumenten­verarbeitungs-API",
+        "item5": "Automatisierte maschinelle Lern-API und andere"
+      }
+    },
+    "item3": {
+      "title": "KI-Wissensmentor",
+      "subtitle": "Revolutionäres Wissensmanagement und Onboarding",
+      "description": "Eine revolutionäre KI-Wissens­management­plattform, die das Know-how Ihrer Organisation in einem intelligenten und mitarbeiter­freundlichen System bündelt. Der KI-Wissens­mentor ist darauf ausgelegt, sich kontinuierlich mit der Nutzung weiterzuentwickeln.",
+      "description2": "Er verbessert das Mitarbeiter-Onboarding, fördert den nahtlosen Wissensaustausch und stellt sicher, dass wichtige Informationen immer zugänglich sind — sei es eine einfache Frage oder ein komplexes betriebs­wirtschaftliches Problem.",
+      "items": {
+        "item1": "KI-gestützter Wissensgraph",
+        "item2": "Natürliche Sprachverarbeitung (NLP)",
+        "item3": "Intelligentes Onboarding mit Gamification",
+        "item4": "Sichere Integration mit Dokumenten­systemen",
+        "item5": "Skalierbarer Wissensaufbau",
+        "item6": "Anpassbar an die Unternehmens­bedürfnisse"
+      }
+    }
+  },
+  "cta": {
+    "title": "Hauptvorteile und Anwendungsfälle",
+    "subtitle": "Von der Verbesserung der Kunden­erfahrung bis hin zur Automatisierung komplexer Prozesse sind unsere KI-gestützten Lösungen darauf ausgelegt, Effizienz, Innovation und Wachstum zu fördern.",
+    "table": {
+      "left": {
+        "item1": "Verbesserte Kunden­erfahrung",
+        "item2": "Automatisierte Geschäftsprozesse",
+        "item3": "Erweiterte Datenanalyse",
+        "item4": "Intelligente Suche und Wissensmanagement",
+        "item5": "Personalisierte Benutzererfahrungen"
+      },
+      "right": {
+        "item1": "Mitarbeiter-Onboarding und Schulung",
+        "item2": "Vorbereitung von Geschäfts­dokumenten",
+        "item3": "Analyse von Dokumenten und Unterlagen",
+        "item4": "Kundenanalyse und Segmentierung",
+        "item5": "Compliance und Risiko­management"
+      },
+      "end": "Lassen Sie uns die Hauptvorteile für Ihr Unternehmen in einem Workshop erkunden."
+    }
+  }
+}

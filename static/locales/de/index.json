@@ -15,10 +15,15 @@
         "title": "API-Lösungen für den sofortigen Einsatz",
         "subtitle": "Verwenden Sie vorgefertigte Business-APIs, um Ihre digitalen Produkte und Dienstleistungen schneller zu erstellen."
       },
-      "right-tile": {
+      "middle-tile": {
         "above-title": "KUMULUZ DIGITALE PLATTFORM",
         "title": "Beschleunigen Sie Ihre digitale Transformation",
         "subtitle": "Eine leichte, offene, preisgekrönte digitale Plattform, die Entwicklungsteams lieben."
+      },
+      "right-tile": {
+        "above-title": "Kumuluz AI",
+        "title": "Wachsen Sie Ihr Geschäft mit AI und GPT",
+        "subtitle": "Entfesseln Sie Innovation, Effizienz und Wachstum mit AI und GPT mit Fokus auf Datenschutz und Sicherheit."
       }
     }
   },

@@ -2,11 +2,15 @@ $blue-100: #5dc2ef;
 $blue-200: #367dbf;
 $blue-300: #254a99;
 $blue-400: #2b2b6f;
+
+$beige: #F4F5F5;
+
 $blue-gradient: linear-gradient(to right, $blue-300, $blue-400);
 $blue-gradient-left: linear-gradient(to left, $blue-300, $blue-400);
 $blue-light-gradient: linear-gradient(to right, $blue-200, $blue-300);
 $blue-top-to-bottom-gradient: linear-gradient(to bottom, $blue-300, $blue-400);
 $blue-top-to-bottom-gradient-light: linear-gradient(to bottom, $blue-200, $blue-300);
+$white-blue-light-gradient: linear-gradient(to right, transparent, $blue-100);
 
 $red: #ec6b6b;
 $red-gradient: linear-gradient(to right, $red, #ce5050);
@@ -26,17 +30,23 @@ $black: #333;
 $grey: #e6e7e8;
 $grey-100: #f4f5f5;
 $grey-300: #a6a6a6;
-$light-grey: rgba(36,54,138,.2);
+$light-grey: rgba(36, 54, 138, .2);
 $grey-shadow: 0 7px 20px $light-grey;
 $red-shadow: 0px 0px 20px $red;
 
 @mixin disable-text-selection() {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
 @mixin set-prop-to-calc-size($prop, $expr) {
@@ -49,5 +59,7 @@ $red-shadow: 0px 0px 20px $red;
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,500,700');
 @import url('https://fonts.googleapis.com/css?family=Asap:400,700');
 
-$font-rubik: 'Rubik', sans-serif;
-$font-asap: 'Asap', sans-serif;
+$font-rubik: 'Rubik',
+sans-serif;
+$font-asap: 'Asap',
+sans-serif;
