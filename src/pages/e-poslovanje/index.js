@@ -1,17 +1,16 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
 import {Helmet} from "react-helmet";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 import "./e-poslovanje-page.scss";
 import spiritSloveniaImage from "../../assets/images/spirit-slovenia.png";
 import ministryGospodarskiRazvojImage from "../../assets/images/minist-gosp-razvoj.jpg";
 import euSkladImage from "../../assets/images/eu-sklad-reg-razvoj.png";
-import {Footer} from "../../components/shared/footer/footer";
+import Footer from "../../components/shared/footer/footer";
 import {GoogleAnalyticsService} from "../../components/shared/google-analytics/google-analytics.service";
 
-@translate("e-poslovanje")
-export default class EPoslovanjePage extends Component {
+class EPoslovanjePage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -137,3 +136,6 @@ export default class EPoslovanjePage extends Component {
         );
     }
 }
+
+
+export default withTranslation("e-poslovanje")(EPoslovanjePage);

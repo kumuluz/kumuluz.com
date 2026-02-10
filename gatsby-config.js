@@ -7,7 +7,9 @@ module.exports = {
         {
             resolve: "gatsby-plugin-sass",
             options: {
-                precision: 10
+                sassOptions: {
+                    precision: 10
+                }
             }
         },
         {
@@ -18,6 +20,7 @@ module.exports = {
             }
         },
         "gatsby-plugin-sharp",
+        "gatsby-plugin-image",
         {
             resolve: "gatsby-transformer-remark",
             options: {
@@ -30,6 +33,14 @@ module.exports = {
                     }
                 ]
             }
-        }
+        },
+        {
+            resolve: "gatsby-plugin-manifest",
+            options: {
+                start_url: "/",
+                display: "minimal-ui",
+                icon: "src/components/layout/kumuluz-iconx32.svg", // This path must exist
+            },
+        },
     ]
 };

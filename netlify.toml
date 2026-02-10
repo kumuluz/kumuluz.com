@@ -1,4 +1,5 @@
 [build]
   command = "npm run build"
   publish = "public"
-  environment = {NODE_VERSION = "8.17.0"}
+  environment = { NODE_VERSION = "18.20.4" }
+

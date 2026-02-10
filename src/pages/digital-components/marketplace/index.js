@@ -1,19 +1,18 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import {digitalPlatformProducts} from "../../../content/index-page/digital-platform";
-import {CompNavigationComponent} from "../../../components/digital-components/navigation/comp-navigation.component";
+import CompNavigationComponent from "../../../components/digital-components/navigation/comp-navigation.component";
 import marketplaceLogo from "../../../assets/images/digital-platform/marketplace.svg";
 import {CompHeaderComponent} from "../../../components/digital-components/header/comp-header.component";
-import {CompProductGridComponent} from "../../../components/digital-components/product-grid/comp-product-grid.component";
-import {Footer} from "../../../components/shared/footer/footer";
+import CompProductGridComponent from "../../../components/digital-components/product-grid/comp-product-grid.component";
+import Footer from "../../../components/shared/footer/footer";
 
 import "./kumuluz-marketplace-page.scss";
 import {Helmet} from "react-helmet";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
-@translate("digital-platform")
-export default class KumuluzMarketplacePage extends Component {
+class KumuluzMarketplacePage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -67,3 +66,6 @@ export default class KumuluzMarketplacePage extends Component {
         );
     }
 }
+
+
+export default withTranslation("digital-platform")(KumuluzMarketplacePage);

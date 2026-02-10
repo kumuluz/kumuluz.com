@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import Link from "gatsby-link";
-import { translate } from "react-i18next";
+import { Link } from "gatsby";
+import { withTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
-import { Footer } from "../../components/shared/footer/footer";
+import Footer from "../../components/shared/footer/footer";
 import { Col, Container, Row } from "reactstrap";
 import { ServiceRangeBox } from "../../components/shared/service-range-box/service-range-box";
 import { Itemized } from "../../components/shared/itemized/itemized.component";
@@ -17,8 +17,7 @@ import stockSmartAssistant from "../../assets/images/ai/stock-smart-assistant.jp
 
 import "./ai-page.scss";
 
-@translate("ai")
-export default class ThanksPage extends Component {
+class AIPage extends Component {
   static propTypes = {
     t: PropTypes.func,
   };
@@ -281,3 +280,6 @@ export default class ThanksPage extends Component {
     );
   }
 }
+
+
+export default withTranslation("ai")(AIPage);

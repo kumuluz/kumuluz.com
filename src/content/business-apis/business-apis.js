@@ -15,7 +15,6 @@ export const businessApisList = t => {
         new BApi("fulfillment", t("apis.fulfillment.title"), t("apis.fulfillment.shortDesc"), "/business-apis/fulfillment", "/business-apis/fulfillment", t("apis.fulfillment.tag")),
         new BApi("invoice", t("apis.invoice.title"), t("apis.invoice.shortDesc"), "/business-apis/invoice", "/business-apis/invoice", t("apis.invoice.tag")),
         new BApi("customer", t("apis.customer.title"), t("apis.customer.shortDesc"), "/business-apis/customer", "/business-apis/customer", t("apis.customer.tag")),
-        new BApi("ccm", t("apis.ccm.title"), t("apis.ccm.shortDesc"), "/business-apis/ccm", "/business-apis/ccm", t("apis.ccm.tag")),
         new BApi("subscription", t("apis.subscription.title"), t("apis.subscription.shortDesc"), "/business-apis/subscription", "/business-apis/subscription", t("apis.subscription.tag")),
         new BApi("kyc", t("apis.kyc.title"), t("apis.kyc.shortDesc"), "/business-apis/kyc", "/business-apis/kyc", t("apis.kyc.tag"), true)
     ];

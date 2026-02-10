@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
-import {push} from "gatsby-link";
+import { withTranslation } from "react-i18next";
+import { navigate } from "gatsby";
 
 import {applicationNeeds} from "../../../content/index-page/application-needs";
 import "./app-needs.component.scss";
@@ -53,8 +53,7 @@ const learnMoreLinks = (t) => [
     }
 ];
 
-@translate("index")
-export class AppNeedsComponent extends Component {
+class AppNeedsComponent extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -67,7 +66,7 @@ export class AppNeedsComponent extends Component {
     renderBox(item, index) {
         if (item.isButton) {
             return (
-                <span className="btn btn-primary" key={index} onClick={() => push("/business-apis")}>
+                <span className="btn btn-primary" key={index} onClick={() => navigate("/business-apis")}>
                     {item.title}
                 </span>
             );
@@ -130,3 +129,6 @@ export class AppNeedsComponent extends Component {
         );
     }
 }
+
+
+export default withTranslation("index")(AppNeedsComponent);

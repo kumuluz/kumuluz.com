@@ -1,11 +1,10 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 import "./cookies.component.scss";
 
-@translate("shared")
-export class CookiesComponent extends Component {
+class CookiesComponent extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -51,3 +50,6 @@ export class CookiesComponent extends Component {
         );
     }
 }
+
+
+export default withTranslation("shared")(CookiesComponent);

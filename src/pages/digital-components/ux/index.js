@@ -1,21 +1,21 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 import "./kumuluz-ux-page.scss";
 import {digitalPlatformProducts} from "../../../content/index-page/digital-platform";
-import {CompNavigationComponent} from "../../../components/digital-components/navigation/comp-navigation.component";
+import CompNavigationComponent from "../../../components/digital-components/navigation/comp-navigation.component";
 import uxLogo from "../../../assets/images/digital-platform/ux.svg";
 import {CompHeaderComponent} from "../../../components/digital-components/header/comp-header.component";
 import {CompUseCasesComponent} from "../../../components/digital-components/use-cases/comp-use-cases.component";
 import {CollapsableListComponent} from "../../../components/shared/collapsable-list/collapsable-list.component";
 import chevron from "../../../assets/images/digital-platform/chevrons/chevron-ux.svg";
 import chevronDown from "../../../assets/images/digital-platform/chevrons/chevron-ux-down.svg";
-import {ContactForm} from "../../../components/shared/contact-form/contact-form";
+import ContactForm from "../../../components/shared/contact-form/contact-form";
 import {CompMottoComponent} from "../../../components/digital-components/motto/comp-motto.component";
 import {CompBenefitsComponent} from "../../../components/digital-components/benefits/comp-benefits.component";
-import {CompProductGridComponent} from "../../../components/digital-components/product-grid/comp-product-grid.component";
-import {Footer} from "../../../components/shared/footer/footer";
+import CompProductGridComponent from "../../../components/digital-components/product-grid/comp-product-grid.component";
+import Footer from "../../../components/shared/footer/footer";
 
 const features = t => [
     t("components.ux.about.features.item-1"),
@@ -79,8 +79,7 @@ const integrations = t => [
     t("components.ux.use-cases.integration.item-4")
 ];
 
-@translate("digital-platform")
-export default class KumuluzUxPage extends Component {
+class KumuluzUxPage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -219,3 +218,6 @@ export default class KumuluzUxPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("digital-platform")(KumuluzUxPage);

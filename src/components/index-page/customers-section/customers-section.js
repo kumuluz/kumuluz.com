@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import PropTypes from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import {Container, Row, Col} from "reactstrap";
 import anime from "animejs";
 
@@ -8,8 +8,7 @@ import "./customers-section.scss";
 
 import {quotes} from "../../../content/index-page/quotes";
 
-@translate("index")
-export class CustomersSection extends Component {
+class CustomersSection extends Component {
     static propTypes = {
         t: PropTypes.func
     };
@@ -36,10 +35,14 @@ export class CustomersSection extends Component {
     }
 
     updateWindowDimensions() {
-        this.setState({...this.state, width: window.innerWidth, height: window.innerHeight});
+        if (typeof window !== "undefined") {
+            this.setState({...this.state, width: window.innerWidth, height: window.innerHeight});
+        }
     }
 
     toQuotesPage(page) {
+        if (typeof window === "undefined" || typeof anime === "undefined" || !anime) return;
+        
         anime({
             targets: ".customers .customer",
             rotateY: "360deg",
@@ -107,3 +110,6 @@ export class CustomersSection extends Component {
         );
     }
 }
+
+
+export default withTranslation("index")(CustomersSection);

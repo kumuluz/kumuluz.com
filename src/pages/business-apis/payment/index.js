@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
 import {Helmet} from "react-helmet";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 import "./payment-api-page.scss";
 import paymentApiDiagram from "../../../assets/images/apis/payment-api-diagram.svg";
@@ -12,7 +12,7 @@ import {
     ApiPricingComponent, ApiUseCasesComponent, ApiRelatedApisComponent
 } from "../../../components/business-apis/export";
 import {UnorderedListComponent} from "../../../components/shared/export.shared.components";
-import {Footer} from "../../../components/shared/footer/footer";
+import Footer from "../../../components/shared/footer/footer";
 import {businessApisList} from "../../../content/business-apis/business-apis";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
@@ -50,8 +50,7 @@ const docsItems = t => [
     }
 ];
 
-@translate("business-apis")
-export default class PaymentApiPage extends Component {
+class PaymentApiPage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -172,3 +171,6 @@ export default class PaymentApiPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("business-apis")(PaymentApiPage);

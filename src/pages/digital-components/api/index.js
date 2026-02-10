@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 import "./kumuluz-api-page.scss";
 import {
@@ -18,7 +18,7 @@ import chevron from "../../../assets/images/digital-platform/chevrons/chevron-ap
 import chevronDown from "../../../assets/images/digital-platform/chevrons/chevron-api-down.svg";
 
 import {CollapsableListComponent} from "../../../components/shared/export.shared.components";
-import {Footer} from "../../../components/shared/footer/footer";
+import Footer from "../../../components/shared/footer/footer";
 import strategicAdvantageImage from "../../../assets/images/strategicAdv.svg";
 import whatIsImage from "../../../assets/images/whatIs.svg";
 import competitiveAdvantageImage from "../../../assets/images/competitiveAdv.svg";
@@ -26,7 +26,6 @@ import transitionCloudImage from "../../../assets/images/transitionCloud.svg";
 import {Helmet} from "react-helmet";
 import {API_KUMULUZ_URL} from "../../../content/constants";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
-import {push} from "gatsby-link";
 
 const items = t => [
     {
@@ -51,8 +50,7 @@ const items = t => [
     }
 ];
 
-@translate("digital-platform")
-export default class KumuluzApiPage extends Component {
+class KumuluzApiPage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -71,7 +69,7 @@ export default class KumuluzApiPage extends Component {
         if (contactForm) {
             contactForm.scrollIntoView();
         } else {
-            push("/#contact-us");
+            navigate("/#contact-us");
         }
     }
 
@@ -295,3 +293,6 @@ export default class KumuluzApiPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("digital-platform")(KumuluzApiPage);

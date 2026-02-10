@@ -1,14 +1,13 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
+import { navigate } from "gatsby";
 
 import "./api-pricing.component.scss";
 import { ArrowDividerComponent } from "../../shared/arrow-divider/arrow-divider.component";
 import PaymentComponent from "../payment/payment.component";
-import {push} from "gatsby-link";
 
-@translate("business-apis")
-export class ApiPricingComponent extends Component {
+class ApiPricingComponent extends Component {
 
     static propTypes = {
         t: PropType.func,
@@ -39,7 +38,7 @@ export class ApiPricingComponent extends Component {
         if (contactForm) {
             contactForm.scrollIntoView();
         } else {
-            push("/#contact-us");
+            navigate("/#contact-us");
         }
     }
 
@@ -113,3 +112,6 @@ export class ApiPricingComponent extends Component {
         );
     }
 }
+
+
+export default withTranslation("business-apis")(ApiPricingComponent);

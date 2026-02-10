@@ -1,17 +1,17 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import "./fulfillment-api.page.scss";
 import {Helmet} from "react-helmet";
 import {ApiHeaderComponent} from "../../../components/business-apis/header/api-header.component";
 import {ApiHowItWorksComponent} from "../../../components/business-apis/how-it-works/api-how-it-works.component";
 import {ApiDocsComponent} from "../../../components/business-apis/documentation/api-docs.component";
-import {ApiPricingComponent} from "../../../components/business-apis/pricing/api-pricing.component";
-import {ApiUseCasesComponent} from "../../../components/business-apis/use-cases/use-cases.component";
-import {Footer} from "../../../components/shared/footer/footer";
+import ApiPricingComponent from "../../../components/business-apis/pricing/api-pricing.component";
+import ApiUseCasesComponent from "../../../components/business-apis/use-cases/use-cases.component";
+import Footer from "../../../components/shared/footer/footer";
 import {UnorderedListComponent} from "../../../components/shared/export.shared.components";
 import {businessApisList} from "../../../content/business-apis/business-apis";
-import {ApiRelatedApisComponent} from "../../../components/business-apis/related-apis/related-apis.component";
+import ApiRelatedApisComponent from "../../../components/business-apis/related-apis/related-apis.component";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 const docsItems = t => [
@@ -84,8 +84,7 @@ const endpoints = t => [
     }
 ];
 
-@translate("business-apis")
-export default class FulfillmentApiPage extends Component {
+class FulfillmentApiPage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -180,3 +179,6 @@ export default class FulfillmentApiPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("business-apis")(FulfillmentApiPage);

@@ -1,11 +1,11 @@
 import React, {Component} from "react";
 import PropTypes from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import {Container, Row, Col} from "reactstrap";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 
-import {LanguageSelector} from "../language-selector/language-selector";
-import {ContactForm} from "../contact-form/contact-form";
+import LanguageSelector from "../language-selector/language-selector";
+import ContactForm from "../contact-form/contact-form";
 
 import {products as kumuluzDigitalProducts} from "../../../content/footer/products";
 import {footerLinks, socialLinks} from "../../../content/footer/links";
@@ -13,8 +13,7 @@ import {footerLinks, socialLinks} from "../../../content/footer/links";
 import "./footer.scss";
 import email from "../../../assets/images/email.png";
 
-@translate("shared")
-export class Footer extends Component {
+class Footer extends Component {
     static propTypes = {
         t: PropTypes.func,
         social: PropTypes.any,
@@ -159,3 +158,6 @@ export class Footer extends Component {
         );
     }
 }
+
+
+export default withTranslation("shared")(Footer);

@@ -1,11 +1,10 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 import "./use-cases.component.scss";
 
-@translate("business-apis")
-export class ApiUseCasesComponent extends Component {
+class ApiUseCasesComponent extends Component {
 
     static propTypes = {
         useCases: PropType.array,
@@ -55,3 +54,6 @@ export class ApiUseCasesComponent extends Component {
         );
     }
 }
+
+
+export default withTranslation("business-apis")(ApiUseCasesComponent);

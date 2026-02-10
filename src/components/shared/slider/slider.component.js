@@ -1,14 +1,13 @@
 import React, {Component} from "react";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import PropType from "prop-types";
 import anime from "animejs";
 import {Row, Col} from "reactstrap";
 
 import "./slider.component.scss";
-import {determineScreenWidth, MOBILE_MEDIA} from "../../../layouts/common";
+import {determineScreenWidth, MOBILE_MEDIA} from "../../layout/common";
 
-@translate()
-export class SliderComponent extends Component {
+class SliderComponent extends Component {
 
     static propTypes = {
         i18n: PropType.object,
@@ -17,28 +16,30 @@ export class SliderComponent extends Component {
 
     constructor(props) {
         super(props);
+        const benefits = props.benefits || [];
         this.state = {
             lang: props.i18n.language,
-            benefits: [
-                props.benefits[props.benefits.length - 1],
-                ...props.benefits.slice(),
-                ...props.benefits.slice(0, props.benefits.length - 1)
-            ]
+            benefits: benefits.length > 0 ? [
+                benefits[benefits.length - 1],
+                ...benefits.slice(),
+                ...benefits.slice(0, benefits.length - 1)
+            ] : []
         };
         this.animating = false;
     }
 
     // eslint-disable-next-line no-unused-vars
-    componentWillReceiveProps(nextProps, nextCtx) {
+    UNSAFE_componentWillReceiveProps(nextProps, nextCtx) {
         if (nextProps.i18n.language !== this.state.lang) {
+            const benefits = nextProps.benefits || [];
             this.setState(() => {
                 return {
                     lang: nextProps.i18n.language,
-                    benefits: [
-                        nextProps.benefits[nextProps.benefits.length - 1],
-                        ...nextProps.benefits.slice(),
-                        ...nextProps.benefits.slice(0, nextProps.benefits.length - 1)
-                    ]
+                    benefits: benefits.length > 0 ? [
+                        benefits[benefits.length - 1],
+                        ...benefits.slice(),
+                        ...benefits.slice(0, benefits.length - 1)
+                    ] : []
                 };
             });
         }
@@ -53,69 +54,113 @@ export class SliderComponent extends Component {
     }
 
     moveLeft() {
+        if (typeof window === "undefined" || typeof anime === "undefined" || !anime) return;
+        
+        const benefitsElement = document.querySelector(".benefits");
+        if (!benefitsElement) return;
+        
         const shiftFor = `${this.returnShiftFor()}`;
         if (this.animating) return;
         this.animating = true;
-        const moveLeftAnimation = anime({
-            targets: ".benefits",
-            translateX: `-=${shiftFor}`,
-            duration: 250,
-            elasticity: 0,
-            easing: "easeInQuad"
-        });
-        moveLeftAnimation.finished.then(() => {
-            this.setState(state => {
-                const {benefits} = state;
-
-                let modifiedBenefits = [...benefits.slice(1), ...benefits[0]];
-
-                anime({
-                    targets: ".benefits",
-                    translateX: 0,
-                    easing: "none",
-                    duration: 0
-                });
-
-                this.animating = false;
-                return {
-                    ...state,
-                    benefits: modifiedBenefits
-                };
+        
+        try {
+            const moveLeftAnimation = anime({
+                targets: ".benefits",
+                translateX: `-=${shiftFor}`,
+                duration: 250,
+                easing: "linear"
             });
-        });
+            
+            if (moveLeftAnimation && moveLeftAnimation.finished) {
+                moveLeftAnimation.finished.then(() => {
+                    this.setState(state => {
+                        const {benefits} = state;
+
+                        let modifiedBenefits = [...benefits.slice(1), benefits[0]];
+
+                        if (typeof window !== "undefined" && typeof anime !== "undefined" && anime) {
+                            try {
+                                anime({
+                                    targets: ".benefits",
+                                    translateX: 0,
+                                    duration: 0
+                                });
+                            } catch (e) {
+                                console.error("Anime reset error:", e);
+                            }
+                        }
+
+                        this.animating = false;
+                        return {
+                            ...state,
+                            benefits: modifiedBenefits
+                        };
+                    });
+                }).catch(() => {
+                    this.animating = false;
+                });
+            } else {
+                this.animating = false;
+            }
+        } catch (error) {
+            console.error("Anime error:", error);
+            this.animating = false;
+        }
     }
 
     moveRight() {
+        if (typeof window === "undefined" || typeof anime === "undefined" || !anime) return;
+        
+        const benefitsElement = document.querySelector(".benefits");
+        if (!benefitsElement) return;
+        
         const shiftFor = `${this.returnShiftFor()}`;
         if (this.animating) return;
         this.animating = true;
-        const moveLeftAnimation = anime({
-            targets: ".benefits",
-            translateX: `+=${shiftFor}`,
-            duration: 250,
-            elasticity: 0,
-            easing: "easeInQuad"
-        });
-        moveLeftAnimation.finished.then(() => {
-            this.setState(state => {
-                const {benefits} = state;
-
-                let modifiedBenefits = [...benefits[benefits.length - 1], ...benefits.slice(0, benefits.length - 1)];
-
-                anime({
-                    targets: ".benefits",
-                    translateX: 0,
-                    easing: "none",
-                    duration: 0
-                });
-
-                this.animating = false;
-                return {
-                    ...state,
-                    benefits: modifiedBenefits
-                };
+        
+        try {
+            const moveLeftAnimation = anime({
+                targets: ".benefits",
+                translateX: `+=${shiftFor}`,
+                duration: 250,
+                easing: "linear"
             });
-        });
+            
+            if (moveLeftAnimation && moveLeftAnimation.finished) {
+                moveLeftAnimation.finished.then(() => {
+                    this.setState(state => {
+                        const {benefits} = state;
+
+                        let modifiedBenefits = [benefits[benefits.length - 1], ...benefits.slice(0, benefits.length - 1)];
+
+                        if (typeof window !== "undefined" && typeof anime !== "undefined" && anime) {
+                            try {
+                                anime({
+                                    targets: ".benefits",
+                                    translateX: 0,
+                                    duration: 0
+                                });
+                            } catch (e) {
+                                console.error("Anime reset error:", e);
+                            }
+                        }
+
+                        this.animating = false;
+                        return {
+                            ...state,
+                            benefits: modifiedBenefits
+                        };
+                    });
+                }).catch(() => {
+                    this.animating = false;
+                });
+            } else {
+                this.animating = false;
+            }
+        } catch (error) {
+            console.error("Anime error:", error);
+            this.animating = false;
+        }
     }
 
     renderBenefit(benefit, i) {
@@ -138,6 +183,10 @@ export class SliderComponent extends Component {
 
     render() {
         const {benefits} = this.state;
+
+        if (!benefits || benefits.length === 0) {
+            return null;
+        }
 
         return (
             <div className="km-slider-component">
@@ -163,3 +212,6 @@ export class SliderComponent extends Component {
         );
     }
 }
+
+
+export default withTranslation()(SliderComponent);

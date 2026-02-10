@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { translate } from "react-i18next";
+import { withTranslation } from "react-i18next";
 import { Row, Col } from "reactstrap";
 
 import {digitalPlatformProducts} from "../../../content/index-page/digital-platform";
 
 import "./products-grid.scss";
 
-@translate()
-export class ProductsGrid extends Component {
+class ProductsGrid extends Component {
   static propTypes = {
       t: PropTypes.func,
       i18n: PropTypes.object,
@@ -43,3 +42,6 @@ export class ProductsGrid extends Component {
       );
   }
 }
+
+
+export default withTranslation()(ProductsGrid);

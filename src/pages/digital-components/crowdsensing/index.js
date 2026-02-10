@@ -1,15 +1,13 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 
-import {CompNavigationComponent} from "../../../components/digital-components/navigation/comp-navigation.component";
+import CompNavigationComponent from "../../../components/digital-components/navigation/comp-navigation.component";
 import {digitalPlatformProducts} from "../../../content/index-page/digital-platform";
 import {CompHeaderComponent} from "../../../components/digital-components/header/comp-header.component";
 import crowdLogo from "../../../assets/images/digital-platform/crowdsensing.svg";
-import {
-    CompProductGridComponent
-} from "../../../components/digital-components/product-grid/comp-product-grid.component";
-import {Footer} from "../../../components/shared/footer/footer";
+import CompProductGridComponent from "../../../components/digital-components/product-grid/comp-product-grid.component";
+import Footer from "../../../components/shared/footer/footer";
 import {Helmet} from "react-helmet";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 import {CROWDSENSING_KUMULUZ_URL} from "../../../content/constants";
@@ -29,7 +27,6 @@ import peopleImage from "../../../assets/images/forWho.svg";
 import digitalPlatformImage from "../../../assets/images/digitalPlatform.svg";
 import {CompUseCasesComponent} from "../../../components/digital-components/use-cases/comp-use-cases.component";
 import {CheckboxListComponent} from "../../../components/shared/checkbox-list/checkbox-list.component";
-import {push} from "gatsby-link";
 
 const items = t => [
     {
@@ -88,8 +85,7 @@ export const customersItems = t => [
     t("components.crowdsensing.about.navbar.customer.items.item-5"),
 ];
 
-@translate("digital-platform")
-export default class KumuluzCrowdsensingPage extends Component {
+class KumuluzCrowdsensingPage extends Component {
     
     static propTypes = {
         t: PropType.func
@@ -108,7 +104,7 @@ export default class KumuluzCrowdsensingPage extends Component {
         if (contactForm) {
             contactForm.scrollIntoView();
         } else {
-            push("/#contact-us");
+            navigate("/#contact-us");
         }
     }
     
@@ -277,3 +273,6 @@ export default class KumuluzCrowdsensingPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("digital-platform")(KumuluzCrowdsensingPage);

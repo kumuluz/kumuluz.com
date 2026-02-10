@@ -1,19 +1,19 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import {Helmet} from "react-helmet";
 
 import "./product-catalog-api.page.scss";
-import {Footer} from "../../../components/shared/footer/footer";
+import Footer from "../../../components/shared/footer/footer";
 import {ApiHeaderComponent} from "../../../components/business-apis/header/api-header.component";
 import {ApiHowItWorksComponent} from "../../../components/business-apis/how-it-works/api-how-it-works.component";
 
 import howItWorks from "../../../assets/images/apis/product-catalog/how-it-works.png";
 import {ApiDocsComponent} from "../../../components/business-apis/documentation/api-docs.component";
-import {ApiPricingComponent} from "../../../components/business-apis/pricing/api-pricing.component";
-import {ApiUseCasesComponent} from "../../../components/business-apis/use-cases/use-cases.component";
+import ApiPricingComponent from "../../../components/business-apis/pricing/api-pricing.component";
+import ApiUseCasesComponent from "../../../components/business-apis/use-cases/use-cases.component";
 import {businessApisList} from "../../../content/business-apis/business-apis";
-import {ApiRelatedApisComponent} from "../../../components/business-apis/related-apis/related-apis.component";
+import ApiRelatedApisComponent from "../../../components/business-apis/related-apis/related-apis.component";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
 const docsItems = t => [
@@ -82,8 +82,7 @@ const endpoints = t => [
     }
 ];
 
-@translate("business-apis")
-export default class ProductCatalogApiPage extends Component {
+class ProductCatalogApiPage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -173,3 +172,6 @@ export default class ProductCatalogApiPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("business-apis")(ProductCatalogApiPage);

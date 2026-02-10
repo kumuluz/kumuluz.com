@@ -1,14 +1,13 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import "./related-apis.component.scss";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 import arrowIcon from "../../../assets/images/arrow-blue-200.svg";
 import arrowIconGrey from "../../../assets/images/arrow-grey.svg";
 import {UncontrolledTooltip} from "reactstrap";
 
-@translate("business-apis")
-export class ApiRelatedApisComponent extends Component {
+class ApiRelatedApisComponent extends Component {
 
     static propTypes = {
         t: PropType.func,
@@ -90,3 +89,6 @@ export class ApiRelatedApisComponent extends Component {
         );
     }
 }
+
+
+export default withTranslation("business-apis")(ApiRelatedApisComponent);

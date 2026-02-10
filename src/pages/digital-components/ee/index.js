@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import {Helmet} from "react-helmet";
 
 import "./kumuluz-ee-page.scss";
@@ -9,10 +9,10 @@ import mpLogo from "../../../assets/images/digital-platform/ee-mp.png";
 import chevron from "../../../assets/images/digital-platform/chevrons/chevron-ee.svg";
 import chevronDown from "../../../assets/images/digital-platform/chevrons/chevron-ee-down.svg";
 import {digitalPlatformProducts} from "../../../content/index-page/digital-platform";
-import {CompNavigationComponent} from "../../../components/digital-components/navigation/comp-navigation.component";
+import CompNavigationComponent from "../../../components/digital-components/navigation/comp-navigation.component";
 import {CompHeaderComponent} from "../../../components/digital-components/header/comp-header.component";
 import {CollapsableListComponent} from "../../../components/shared/collapsable-list/collapsable-list.component";
-import {ContactForm} from "../../../components/shared/contact-form/contact-form";
+import ContactForm from "../../../components/shared/contact-form/contact-form";
 import {CompUseCasesComponent} from "../../../components/digital-components/use-cases/comp-use-cases.component";
 import {CheckboxListComponent} from "../../../components/shared/export.shared.components";
 import {CompMottoComponent} from "../../../components/digital-components/motto/comp-motto.component";
@@ -26,8 +26,8 @@ import forWhoImage from "../../../assets/images/forWho.svg";
 import lockinImage from "../../../assets/images/lockIn.svg";
 import strategicAdvantageImage from "../../../assets/images/strategicAdv.svg";
 import knowledgeImage from "../../../assets/images/knowledge.svg";
-import {CompProductGridComponent} from "../../../components/digital-components/product-grid/comp-product-grid.component";
-import {Footer} from "../../../components/shared/footer/footer";
+import CompProductGridComponent from "../../../components/digital-components/product-grid/comp-product-grid.component";
+import Footer from "../../../components/shared/footer/footer";
 import {EE_KUMULUZ_URL, MICROPROFILE_URL} from "../../../content/constants";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
@@ -167,8 +167,7 @@ const framework = t => {
     ];
 };
 
-@translate("digital-platform")
-export default class KumuluzEEPage extends Component {
+class KumuluzEEPage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -490,3 +489,6 @@ export default class KumuluzEEPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("digital-platform")(KumuluzEEPage);
