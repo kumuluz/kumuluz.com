@@ -3,3 +3,13 @@
   publish = "public"
   environment = { NODE_VERSION = "18.20.4" }
 
+[build.processing]
+  skip_processing = false
+
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
+  
+  [plugins.inputs]
+    allPageHeaders = []
+    excludeFiles = [".cache/adapters/node_modules/.bin/**"]
+
