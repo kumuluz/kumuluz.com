@@ -1,13 +1,12 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
-import Link, {push} from "gatsby-link";
+import { withTranslation } from "react-i18next";
+import { Link, navigate } from "gatsby";
 
 import "./digital-platform.component.scss";
 import {digitalPlatformProducts} from "../../../content/index-page/digital-platform";
 
-@translate("index")
-export class DigitalPlatformComponent extends Component {
+class DigitalPlatformComponent extends Component {
 
     static propTypes = {
         t: PropType.func,
@@ -23,7 +22,7 @@ export class DigitalPlatformComponent extends Component {
         };
     }
 
-    componentWillReceiveProps(nextProps) {
+    UNSAFE_componentWillReceiveProps(nextProps) {
         this.setState({ ...this.state, lang: nextProps.i18n.language });
     }
 
@@ -82,10 +81,13 @@ export class DigitalPlatformComponent extends Component {
                 </div>
                 {showButton ?
                     <div className="button-area">
-                        <button onClick={() => push("/digital-platform")} className="btn btn-primary">{t("header.tiles.buttons.learn-more")}</button>
+                        <button onClick={() => navigate("/digital-platform")} className="btn btn-primary">{t("header.tiles.buttons.learn-more")}</button>
                     </div>
                     : null}
             </div>
         );
     }
 }
+
+
+export default withTranslation("index")(DigitalPlatformComponent);

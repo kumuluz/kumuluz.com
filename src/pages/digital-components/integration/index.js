@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import {
     CompBenefitsComponent,
     CompHeaderComponent, CompMottoComponent,
@@ -12,8 +12,8 @@ import integrationLogo from "../../../assets/images/digital-platform/integration
 import chevron from "../../../assets/images/digital-platform/chevrons/chevron-integration.svg";
 import chevronDown from "../../../assets/images/digital-platform/chevrons/chevron-integration-down.svg";
 import {CheckboxListComponent, CollapsableListComponent} from "../../../components/shared/export.shared.components";
-import {ContactForm} from "../../../components/shared/contact-form/contact-form";
-import {Footer} from "../../../components/shared/footer/footer";
+import ContactForm from "../../../components/shared/contact-form/contact-form";
+import Footer from "../../../components/shared/footer/footer";
 
 const features = t => [
     t("components.integration.about.features.item-1"),
@@ -81,8 +81,7 @@ const management = t => [
     t("components.integration.use-cases.management.item-2")
 ];
 
-@translate("digital-platform")
-export default class KumuluzIntegrationPage extends Component {
+class KumuluzIntegrationPage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -239,3 +238,6 @@ export default class KumuluzIntegrationPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("digital-platform")(KumuluzIntegrationPage);

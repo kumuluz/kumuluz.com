@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { translate } from "react-i18next";
+import { withTranslation } from "react-i18next";
 import anime from "animejs";
-import {push} from "gatsby-link";
+import { navigate } from "gatsby";
 
 import "./language-selector.scss";
 import languageIcon from "./language-select.svg";
 import languageIconDark from "./language-select-dark.svg";
 import dropdownIcon from "./dropdown-icon.svg";
 
-@translate("language")
-export class LanguageSelector extends Component {
+class LanguageSelector extends Component {
   static propTypes = {
       t: PropTypes.func,
       i18n: PropTypes.object,
@@ -29,17 +28,19 @@ export class LanguageSelector extends Component {
       this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
       this.setState({ ...this.state, language: nextProps.i18n.language });
   }
 
   componentDidUpdate(prevProps, prevState) {
       if (!prevState.showDropdown && this.state.showDropdown) {
-          anime({
-              targets: ".dropdown-selector",
-              opacity: [0, 1],
-              translateY: ["-50px", "0px"]
-          });
+          if (typeof window !== "undefined" && typeof anime !== "undefined" && anime) {
+              anime({
+                  targets: ".dropdown-selector",
+                  opacity: [0, 1],
+                  translateY: ["-50px", "0px"]
+              });
+          }
       }
   }
 
@@ -49,7 +50,7 @@ export class LanguageSelector extends Component {
       // redirect from untranslated page to index
       const url = typeof window !== "undefined" ? window.location.pathname : "";
       if (["/partners", "/digital-platform"].includes(url)) {
-          push("/");
+          navigate("/");
       }
 
       i18n.changeLanguage(lng);
@@ -74,6 +75,8 @@ export class LanguageSelector extends Component {
       } else {
           setTimeout(() => setNewState(), 250);
       }
+
+      if (typeof window === "undefined" || typeof anime === "undefined" || !anime) return;
 
       if (newVal) {
           anime({
@@ -130,3 +133,6 @@ export class LanguageSelector extends Component {
       );
   }
 }
+
+
+export default withTranslation("language")(LanguageSelector);

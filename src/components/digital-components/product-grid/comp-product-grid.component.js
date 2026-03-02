@@ -1,13 +1,12 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
-import Link from "gatsby-link";
+import { withTranslation } from "react-i18next";
+import { Link } from "gatsby";
 
 import "./comp-product-grid.component.scss";
 import {digitalPlatformProducts} from "../../../content/index-page/digital-platform";
 
-@translate("index")
-export class CompProductGridComponent extends Component {
+class CompProductGridComponent extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -58,3 +57,6 @@ export class CompProductGridComponent extends Component {
         );
     }
 }
+
+
+export default withTranslation("index")(CompProductGridComponent);

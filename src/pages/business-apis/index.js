@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
 import {Helmet} from "react-helmet";
-import Link, {push} from "gatsby-link";
-import {translate} from "react-i18next";
+import { Link, navigate } from "gatsby";
+import { withTranslation } from "react-i18next";
 import {UncontrolledTooltip} from "reactstrap";
 
 import {ArrowDividerComponent, ReferencesComponent} from "../../components/shared/export.shared.components";
@@ -12,12 +12,11 @@ import arrowIcon from "../../assets/images/arrow-blue-200.svg";
 import arrowIconGrey from "../../assets/images/arrow-grey.svg";
 import {headersList} from "../../content/business-apis/headers";
 import {businessApisList, tags} from "../../content/business-apis/business-apis";
-import {Footer} from "../../components/shared/footer/footer";
+import Footer from "../../components/shared/footer/footer";
 import {GoogleAnalyticsService} from "../../components/shared/google-analytics/google-analytics.service";
 
 
-@translate("business-apis")
-export default class BusinessAPIsPage extends Component {
+class BusinessAPIsPage extends Component {
 
     static propTypes = {
         t: PropType.func,
@@ -55,7 +54,7 @@ export default class BusinessAPIsPage extends Component {
         };
     }
 
-    componentWillReceiveProps(nextProps) {
+    UNSAFE_componentWillReceiveProps(nextProps) {
         if (nextProps.i18n.language !== this.state.lang) {
             this.setState({
                 ...this.state,
@@ -253,7 +252,7 @@ export default class BusinessAPIsPage extends Component {
                                         <p>{t("ways.left-way.para")}</p>
                                     </div>
                                     <div>
-                                        <span onClick={() => push("/#contact-us")}>{t("ways.left-way.button")}</span>
+                                        <span onClick={() => navigate("/#contact-us")}>{t("ways.left-way.button")}</span>
                                     </div>
                                 </div>
                                 <div className="center-way way">
@@ -263,7 +262,7 @@ export default class BusinessAPIsPage extends Component {
                                         <p>{t("ways.center-way.para2")}</p>
                                     </div>
                                     <div>
-                                        <span onClick={() => push("/#contact-us")}>{t("ways.center-way.button")}</span>
+                                        <span onClick={() => navigate("/#contact-us")}>{t("ways.center-way.button")}</span>
                                     </div>
                                 </div>
                                 <div className="right-way way">
@@ -273,7 +272,7 @@ export default class BusinessAPIsPage extends Component {
                                         <p>{t("ways.right-way.para2")}</p>
                                     </div>
                                     <div>
-                                        <span onClick={() => push("/#contact-us")}>{t("ways.right-way.button")}</span>
+                                        <span onClick={() => navigate("/#contact-us")}>{t("ways.right-way.button")}</span>
                                     </div>
                                 </div>
                             </div>
@@ -336,3 +335,6 @@ export default class BusinessAPIsPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("business-apis")(BusinessAPIsPage);

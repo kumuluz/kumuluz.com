@@ -1,19 +1,18 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import Link, {push} from "gatsby-link";
+import { Link, navigate } from "gatsby";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 import "./navbar.component.scss";
 import kumuluzLogo from "../../../assets/images/kumuluz-logo.svg";
 import {navbarItems} from "../../../content/navbar/navbar-items";
-import {LanguageSelector} from "../language-selector/language-selector";
-import {determineScreenWidth, MOBILE_MENU_VISIBLE_BELOW} from "../../../layouts/common";
+import LanguageSelector from "../language-selector/language-selector";
+import {determineScreenWidth, MOBILE_MENU_VISIBLE_BELOW} from "../../layout/common";
 
 
-@translate("shared")
-export class NavbarComponent extends Component {
+class NavbarComponent extends Component {
 
     static propTypes = {
         t: PropType.func,
@@ -31,7 +30,7 @@ export class NavbarComponent extends Component {
 
     }
 
-    componentWillReceiveProps(nextProps) {
+    UNSAFE_componentWillReceiveProps(nextProps) {
         this.setState({
             language: nextProps.i18n.language
         });
@@ -61,7 +60,7 @@ export class NavbarComponent extends Component {
         if (contactForm) {
             contactForm.scrollIntoView();
         } else {
-            push("/#contact-us");
+            navigate("/#contact-us");
         }
     }
 
@@ -120,3 +119,6 @@ export class NavbarComponent extends Component {
         );
     }
 }
+
+
+export default withTranslation("shared")(NavbarComponent);

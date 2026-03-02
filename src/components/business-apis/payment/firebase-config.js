@@ -1,5 +1,5 @@
-import firebase from "firebase/app";
-import "firebase/database";
+import { initializeApp } from "firebase/app";
+import { getDatabase } from "firebase/database";
 
 const config = {
     apiKey: "AIzaSyBvYRkb16g0Zm5IqRy84AU9N0e6GNUiQyE",
@@ -10,5 +10,8 @@ const config = {
     messagingSenderId: "150544649135"
 };
 
-const fire = firebase.initializeApp(config);
+const fire = initializeApp(config);
+const database = getDatabase(fire);
+
+export { database };
 export default fire;

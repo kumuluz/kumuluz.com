@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
-import { translate } from "react-i18next";
+import { withTranslation } from "react-i18next";
 import PropType from "prop-types";
-import Link, { push } from "gatsby-link";
+import { Link, navigate } from "gatsby";
 
 import "./index-page.scss";
 import {
@@ -26,14 +26,13 @@ import { BLOG_URL, EE_KUMULUZ_URL, IO_KUMULUZ_URL, SUNESIS_URL } from "../conten
 import { digitalLandscapeCompetition } from "../content/index-page/digital-landscape-competition.content";
 import { AppNeedsComponent, DigitalPlatformComponent } from "../components/index-page/export";
 import { highlightsList } from "../content/index-page/highlights";
-import { Footer } from "../components/shared/footer/footer";
-import { CustomersSection } from "../components/index-page/customers-section/customers-section";
+import Footer from "../components/shared/footer/footer";
+import CustomersSection from "../components/index-page/customers-section/customers-section";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import { GoogleAnalyticsService } from "../components/shared/google-analytics/google-analytics.service";
 
-@translate("index")
-export default class IndexPage extends Component {
+class IndexPage extends Component {
   static propTypes = {
     t: PropType.func,
     i18n: PropType.object,
@@ -50,7 +49,7 @@ export default class IndexPage extends Component {
     GoogleAnalyticsService.registerPageView();
   }
 
-  componentWillReceiveProps(newProps) {
+  UNSAFE_componentWillReceiveProps(newProps) {
     this.setState({ ...this.state, lang: newProps.i18n.language });
   }
 
@@ -95,7 +94,7 @@ export default class IndexPage extends Component {
                           {t("header.tiles.buttons.play-video")}
                           <FontAwesomeIcon icon={faCaretRight} />
                         </button>
-                        <span onClick={() => push("/business-apis")}>
+                        <span onClick={() => navigate("/business-apis")}>
                           {t("header.tiles.buttons.learn-more")}
                           <img src={arrow} />
                         </span>
@@ -118,7 +117,7 @@ export default class IndexPage extends Component {
                           {t("header.tiles.buttons.play-video")}
                           <FontAwesomeIcon icon={faCaretRight} />
                         </button>
-                        <span onClick={() => push("/business-apis")}>
+                        <span onClick={() => navigate("/business-apis")}>
                           {t("header.tiles.buttons.learn-more")}
                           <img src={arrow} />
                         </span>
@@ -137,7 +136,7 @@ export default class IndexPage extends Component {
                       <div className="block-item-title">{t("header.tiles.right-tile.title")}</div>
                       <div className="block-item-subtitle">{t("header.tiles.right-tile.subtitle")}</div>
                       <div className="block-item-buttons">
-                        <span onClick={() => push("/ai")}>
+                        <span onClick={() => navigate("/ai")}>
                           {t("header.tiles.buttons.learn-more")}
                           <img src={arrow} />
                         </span>
@@ -354,3 +353,6 @@ export default class IndexPage extends Component {
     );
   }
 }
+
+
+export default withTranslation("index")(IndexPage);

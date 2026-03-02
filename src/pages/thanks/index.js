@@ -1,15 +1,14 @@
 import React, {Component} from "react";
 import PropTypes from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import {Helmet} from "react-helmet";
-import {Footer} from "../../components/shared/footer/footer";
+import Footer from "../../components/shared/footer/footer";
 import {Col, Container, Row} from "reactstrap";
-import Link, {push} from "gatsby-link";
+import { Link, navigate } from "gatsby";
 
 import "./thanks-page.scss";
 
-@translate("index")
-export default class ThanksPage extends Component {
+class ThanksPage extends Component {
 
     static propTypes = {
         t: PropTypes.func
@@ -21,7 +20,7 @@ export default class ThanksPage extends Component {
 
     componentDidMount() {
         setTimeout(() => {
-            push("/");
+            navigate("/");
         }, 3000);
     }
 
@@ -43,3 +42,6 @@ export default class ThanksPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("index")(ThanksPage);

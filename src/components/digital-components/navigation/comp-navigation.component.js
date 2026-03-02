@@ -1,12 +1,11 @@
 import React, {Component} from "react";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 import "./comp-navigation.component.scss";
 
-@translate("digital-platform")
-export class CompNavigationComponent extends Component {
+class CompNavigationComponent extends Component {
 
     static propTypes = {
         t: PropType.func,
@@ -50,3 +49,6 @@ export class CompNavigationComponent extends Component {
         );
     }
 }
+
+
+export default withTranslation("digital-platform")(CompNavigationComponent);

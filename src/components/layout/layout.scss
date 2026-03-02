@@ -1,10 +1,10 @@
-@import "../assets/scss/variables";
+@import "../../assets/scss/variables";
 
 $primary: $red;
 $info: $blue-100;
 $enable-rounded: false;
 $grid-columns: 10;
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
 
 body {
   overflow-x: hidden;

@@ -1,14 +1,13 @@
 import React, {Component} from "react";
 import PropTypes from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import {Col, Form, FormGroup, Label, Input, Button, FormFeedback, FormText} from "reactstrap";
 import isEmail from "validator/lib/isEmail";
 import {PhoneNumberUtil, PhoneNumberFormat} from "google-libphonenumber";
 
 import "./contact-form.scss";
 
-@translate()
-export class ContactForm extends Component {
+class ContactForm extends Component {
     static propTypes = {
         t: PropTypes.func,
         light: PropTypes.bool,
@@ -310,3 +309,6 @@ export class ContactForm extends Component {
         );
     }
 }
+
+
+export default withTranslation()(ContactForm);

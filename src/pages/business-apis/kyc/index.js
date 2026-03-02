@@ -1,16 +1,15 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import "./kyc-api.page.scss";
 import {Helmet} from "react-helmet";
 import {ApiHeaderComponent} from "../../../components/business-apis/header/api-header.component";
 import {ApiHowItWorksComponent} from "../../../components/business-apis/how-it-works/api-how-it-works.component";
-import {Footer} from "../../../components/shared/footer/footer";
+import Footer from "../../../components/shared/footer/footer";
 import {ApiComingSoonComponent} from "../../../components/business-apis/export";
 import {GoogleAnalyticsService} from "../../../components/shared/google-analytics/google-analytics.service";
 
-@translate("business-apis")
-export default class KycApiPage extends Component {
+class KycApiPage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -45,3 +44,6 @@ export default class KycApiPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("business-apis")(KycApiPage);

@@ -1,15 +1,14 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
 import {Helmet} from "react-helmet";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 import "./partners-page.scss";
 import {ArrowDividerComponent, UnorderedListComponent} from "../../components/shared/export.shared.components";
-import {Footer} from "../../components/shared/footer/footer";
+import Footer from "../../components/shared/footer/footer";
 import {GoogleAnalyticsService} from "../../components/shared/google-analytics/google-analytics.service";
 
-@translate("partners")
-export default class PartnersPage extends Component {
+class PartnersPage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -95,3 +94,6 @@ export default class PartnersPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("partners")(PartnersPage);

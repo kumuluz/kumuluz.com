@@ -4,7 +4,7 @@
 import React, { Component } from "react";
 import PropType from "prop-types";
 import ReactDOM from "react-dom";
-import { translate } from "react-i18next";
+import { withTranslation } from "react-i18next";
 import scriptLoader from "react-async-script-loader";
 import "./payment.component.scss";
 
@@ -12,9 +12,9 @@ import { CountryDropdown } from "react-country-region-selector";
 
 import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
 
-import fire from "./firebase-config";
+import fire, { database } from "./firebase-config";
+import { ref, push, update } from "firebase/database";
 
-@translate("business-apis")
 class PaymentComponent extends Component {
 
     static propTypes = {
@@ -71,7 +71,7 @@ class PaymentComponent extends Component {
         }
     }
 
-    componentWillReceiveProps(nextProps) {
+    UNSAFE_componentWillReceiveProps(nextProps) {
 
         const {
             isScriptLoaded,
@@ -95,44 +95,33 @@ class PaymentComponent extends Component {
         event.preventDefault();
         this.setState({ disabled: true });
 
-        var buyersRef = fire.database().ref().child("customers");
+        var buyersRef = ref(database, "customers");
 
         var tempThis = this;
-        var buyerId = buyersRef.push({
+        var newBuyerRef = push(buyersRef, {
             firstname: this.state.buyerFirstName,
             lastname: this.state.buyerLastName,
             company: this.state.buyerCompany,
             country: this.state.buyerCountry,
             email: this.state.buyerEmail,
             phone: this.state.buyerPhone
-        }, function (error) {
-            if (error) {
+        });
 
-                tempThis.setState({ disabled: false });
-                return;
-            }
+        if (newBuyerRef.key) {
             tempThis.setIsDataSaved(true);
-
-
-        }).getKey();
-
-        this.setState({ buyerId: buyerId });
+            this.setState({ buyerId: newBuyerRef.key });
+        } else {
+            tempThis.setState({ disabled: false });
+        }
 
     }
 
     updateBuyer(buyerId, payerID, paymentID) {
-        var buyerRef = fire.database().ref().child("customers").child(buyerId);
+        var buyerRef = ref(database, "customers/" + buyerId);
 
         const data = { payerID: payerID, paymentID: paymentID };
 
-        buyerRef.update(data, function (error) {
-            if (error) {
-                //console.error(error)
-                return;
-            }
-
-
-        });
+        update(buyerRef, data);
 
     }
 
@@ -311,5 +300,4 @@ class PaymentComponent extends Component {
 
 }
 
-export default scriptLoader("https://www.paypalobjects.com/api/checkout.js")(PaymentComponent);
-
+export default withTranslation("business-apis")(scriptLoader("https://www.paypalobjects.com/api/checkout.js")(PaymentComponent));

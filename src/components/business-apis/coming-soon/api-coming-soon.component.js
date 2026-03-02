@@ -1,10 +1,9 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 import "./api-coming-soon.component.scss";
 
-@translate("business-apis")
-export class ApiComingSoonComponent extends Component {
+class ApiComingSoonComponent extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -29,3 +28,6 @@ export class ApiComingSoonComponent extends Component {
         );
     }
 }
+
+
+export default withTranslation("business-apis")(ApiComingSoonComponent);

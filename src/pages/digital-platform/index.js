@@ -1,18 +1,17 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
 import {Helmet} from "react-helmet";
-import {translate} from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 import "./digital-platform-page.scss";
 import digitalPlatformCube from "../../assets/images/digital-platform-cube.png";
 import {ArrowDividerComponent, ArrowPointerComponent} from "../../components/shared/export.shared.components";
 import {DigitalPlatformComponent} from "../../components/index-page/export";
-import {Footer} from "../../components/shared/footer/footer";
+import Footer from "../../components/shared/footer/footer";
 import {BLOG_URL} from "../../content/constants";
 import {GoogleAnalyticsService} from "../../components/shared/google-analytics/google-analytics.service";
 
-@translate("digital-platform")
-export default class DigitalPlatformPage extends Component {
+class DigitalPlatformPage extends Component {
 
     static propTypes = {
         t: PropType.func
@@ -106,3 +105,6 @@ export default class DigitalPlatformPage extends Component {
         );
     }
 }
+
+
+export default withTranslation("digital-platform")(DigitalPlatformPage);

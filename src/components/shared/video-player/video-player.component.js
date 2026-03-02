@@ -3,7 +3,7 @@ import PropType from "prop-types";
 import {Modal, ModalBody, ModalHeader} from "reactstrap";
 
 import "./video-player.component.scss";
-import {determineScreenWidth} from "../../../layouts/common";
+import {determineScreenWidth} from "../../layout/common";
 
 export class VideoPlayerComponent extends Component {
 
