@@ -83,18 +83,18 @@ class IndexPage extends Component {
                   <div className="block-blue-line" />
                   <div className="block-item-content">
                     <div className="block-item-image">
-                      <img src={businessApisImage} />
+                      <img src={digitalPlatformImage} />
                     </div>
                     <div className="block-item-text">
-                      <div className="block-item-above-title">{t("header.tiles.left-tile.above-title")}</div>
-                      <div className="block-item-title">{t("header.tiles.left-tile.title")}</div>
-                      <div className="block-item-subtitle">{t("header.tiles.left-tile.subtitle")}</div>
+                      <div className="block-item-above-title">{t("header.tiles.right-tile.above-title")}</div>
+                      <div className="block-item-title">{t("header.tiles.right-tile.title")}</div>
+                      <div className="block-item-subtitle">{t("header.tiles.right-tile.subtitle")}</div>
                       <div className="block-item-buttons">
-                        <button className="btn btn-primary mr-4" onClick={() => this.digitalVideo.showVideoModal()}>
+                        <button className="btn btn-primary mr-4" style={{visibility: "hidden"}}>
                           {t("header.tiles.buttons.play-video")}
                           <FontAwesomeIcon icon={faCaretRight} />
                         </button>
-                        <span onClick={() => navigate("/business-apis")}>
+                        <span onClick={() => window.open("https://kumuluz-smart-assistant.vercel.app/", "_blank", "noreferrer")}>
                           {t("header.tiles.buttons.learn-more")}
                           <img src={arrow} />
                         </span>
@@ -129,14 +129,18 @@ class IndexPage extends Component {
                   <div className="block-blue-line" />
                   <div className="block-item-content">
                     <div className="block-item-image">
-                      <img src={digitalPlatformImage} />
+                      <img src={businessApisImage} />
                     </div>
                     <div className="block-item-text">
-                      <div className="block-item-above-title">{t("header.tiles.right-tile.above-title")}</div>
-                      <div className="block-item-title">{t("header.tiles.right-tile.title")}</div>
-                      <div className="block-item-subtitle">{t("header.tiles.right-tile.subtitle")}</div>
+                      <div className="block-item-above-title">{t("header.tiles.left-tile.above-title")}</div>
+                      <div className="block-item-title">{t("header.tiles.left-tile.title")}</div>
+                      <div className="block-item-subtitle">{t("header.tiles.left-tile.subtitle")}</div>
                       <div className="block-item-buttons">
-                        <span onClick={() => navigate("/ai")}>
+                        <button className="btn btn-primary mr-4" onClick={() => this.digitalVideo.showVideoModal()}>
+                          {t("header.tiles.buttons.play-video")}
+                          <FontAwesomeIcon icon={faCaretRight} />
+                        </button>
+                        <span onClick={() => navigate("/business-apis")}>
                           {t("header.tiles.buttons.learn-more")}
                           <img src={arrow} />
                         </span>
