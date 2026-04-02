@@ -83,6 +83,52 @@ class IndexPage extends Component {
                   <div className="block-blue-line" />
                   <div className="block-item-content">
                     <div className="block-item-image">
+                      <img src={digitalPlatformImage} />
+                    </div>
+                    <div className="block-item-text">
+                      <div className="block-item-above-title">{t("header.tiles.right-tile.above-title")}</div>
+                      <div className="block-item-title">{t("header.tiles.right-tile.title")}</div>
+                      <div className="block-item-subtitle">{t("header.tiles.right-tile.subtitle")}</div>
+                      <div className="block-item-buttons">
+                        <button className="btn btn-primary mr-4" style={{visibility: "hidden"}}>
+                          {t("header.tiles.buttons.play-video")}
+                          <FontAwesomeIcon icon={faCaretRight} />
+                        </button>
+                        <span onClick={() => window.open("/ai", "_blank", "noreferrer")}>
+                          {t("header.tiles.buttons.learn-more")}
+                          <img src={arrow} />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-10 col-xl-5 header-block-item">
+                  <div className="block-blue-line" />
+                  <div className="block-item-content">
+                    <div className="block-item-image">
+                      <img src={digitalPlatformImage} />
+                    </div>
+                    <div className="block-item-text">
+                      <div className="block-item-above-title">{t("header.tiles.smart-assistant-tile.above-title")}</div>
+                      <div className="block-item-title">{t("header.tiles.smart-assistant-tile.title")}</div>
+                      <div className="block-item-subtitle">{t("header.tiles.smart-assistant-tile.subtitle")}</div>
+                      <div className="block-item-buttons">
+                        <button className="btn btn-primary mr-4" style={{visibility: "hidden"}}>
+                          {t("header.tiles.buttons.play-video")}
+                          <FontAwesomeIcon icon={faCaretRight} />
+                        </button>
+                        <span onClick={() => window.open("https://ai.kumuluz.com/", "_blank", "noreferrer")}>
+                          {t("header.tiles.buttons.learn-more")}
+                          <img src={arrow} />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-10 col-xl-5 header-block-item mt-4">
+                  <div className="block-blue-line" />
+                  <div className="block-item-content">
+                    <div className="block-item-image">
                       <img src={businessApisImage} />
                     </div>
                     <div className="block-item-text">
@@ -102,7 +148,7 @@ class IndexPage extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-10 col-xl-5 header-block-item">
+                <div className="col-10 col-xl-5 header-block-item mt-4">
                   <div className="block-blue-line" />
                   <div className="block-item-content">
                     <div className="block-item-image">
@@ -118,25 +164,6 @@ class IndexPage extends Component {
                           <FontAwesomeIcon icon={faCaretRight} />
                         </button>
                         <span onClick={() => navigate("/business-apis")}>
-                          {t("header.tiles.buttons.learn-more")}
-                          <img src={arrow} />
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-10 col-xl-5 header-block-item mt-4">
-                  <div className="block-blue-line" />
-                  <div className="block-item-content">
-                    <div className="block-item-image">
-                      <img src={digitalPlatformImage} />
-                    </div>
-                    <div className="block-item-text">
-                      <div className="block-item-above-title">{t("header.tiles.right-tile.above-title")}</div>
-                      <div className="block-item-title">{t("header.tiles.right-tile.title")}</div>
-                      <div className="block-item-subtitle">{t("header.tiles.right-tile.subtitle")}</div>
-                      <div className="block-item-buttons">
-                        <span onClick={() => navigate("/ai")}>
                           {t("header.tiles.buttons.learn-more")}
                           <img src={arrow} />
                         </span>

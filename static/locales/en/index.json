@@ -24,6 +24,11 @@
         "above-title": "Kumuluz AI",
         "title": "Grow your business with AI and GPT",
         "subtitle": "Unlock innovation, efficiency and growth with AI and GPT with focus on privacy and security."
+      },
+      "smart-assistant-tile": {
+        "above-title": "KUMULUZ SMART ASSISTANT",
+        "title": "Automate your business processes",
+        "subtitle": "Built on your rules, it protects your data and ensures every task is executed to your company's exact standards."
       }
     }
   },
