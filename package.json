@@ -11,7 +11,7 @@
     "clean": "gatsby clean",
     "lint": "eslint ./src/**/*.js --fix"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://git.sunesis.si/kumuluz/ee.kumuluz.com"
   },
@@ -26,6 +26,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@netlify/plugin-csp-nonce": "^1.6.2",
     "ajv": "^8.12.0",
     "ajv-keywords": "^5.1.0",
     "animejs": "^3.2.2",

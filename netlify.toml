@@ -3,3 +3,9 @@
   publish = "public"
   environment = { NODE_VERSION = "18.20.4" }
 
+[[plugins]]
+  package = "@netlify/plugin-csp-nonce"
+  [plugins.inputs]
+    reportOnly = false
+    unsafeEval = false
+
