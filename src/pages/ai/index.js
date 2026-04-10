@@ -88,24 +88,10 @@ class AIPage extends Component {
                     <h3>{t("services.item1.subtitle")}</h3>
                     <p>{t("services.item1.description")}</p>
                     <div>
-                      <Col>
-                        <div className="d-flex flex-column flex-sm-row">
-                          <Col>
-                            <Itemized label={t("services.item1.items.item1")} />
-                          </Col>
-                          <Col>
-                            <Itemized label={t("services.item1.items.item2")} />
-                          </Col>
-                        </div>
-                        <div className="items-margin-top d-flex flex-column flex-sm-row">
-                          <Col>
-                            <Itemized label={t("services.item1.items.item3")} />
-                          </Col>
-                          <Col>
-                            <Itemized label={t("services.item1.items.item4")} />
-                          </Col>
-                        </div>
-                      </Col>
+                      <Itemized label={t("services.item1.items.item1")} />
+                      <Itemized label={t("services.item1.items.item2")} />
+                      <Itemized label={t("services.item1.items.item3")} />
+                      <Itemized label={t("services.item1.items.item4")} />
                     </div>
                     <Col className="mt-5">
                       <a
@@ -137,31 +123,13 @@ class AIPage extends Component {
                     </div>
                     <p>{t("services.item2.description")}</p>
                     <p>{t("services.item2.description2")}</p>
-                    <Row>
-                      <Col>
-                        <div className="d-flex flex-column flex-sm-row">
-                          <Col>
-                            <Itemized label={t("services.item2.items.item1")} />
-                          </Col>
-                          <Col>
-                            <Itemized label={t("services.item2.items.item2")} />
-                          </Col>
-                        </div>
-                        <div className="items-margin-top d-flex flex-column flex-sm-row">
-                          <Col>
-                            <Itemized label={t("services.item2.items.item3")} />
-                          </Col>
-                          <Col>
-                            <Itemized label={t("services.item2.items.item4")} />
-                          </Col>
-                        </div>
-                        <div className="items-margin-top d-flex flex-column flex-sm-row">
-                          <Col>
-                            <Itemized label={t("services.item2.items.item5")} />
-                          </Col>
-                        </div>
-                      </Col>
-                    </Row>
+                    <div>
+                      <Itemized label={t("services.item2.items.item1")} />
+                      <Itemized label={t("services.item2.items.item2")} />
+                      <Itemized label={t("services.item2.items.item3")} />
+                      <Itemized label={t("services.item2.items.item4")} />
+                      <Itemized label={t("services.item2.items.item5")} />
+                    </div>
                     <Col className="mt-5">
                       <a
                         href="https://sunesis.si/products/ai-smart-assistant"
@@ -202,32 +170,14 @@ class AIPage extends Component {
                     <h3>{t("services.item3.subtitle")}</h3>
                     <p>{t("services.item3.description")}</p>
                     <p>{t("services.item3.description2")}</p>
-                    <Col>
-                      <div className="d-flex flex-column flex-sm-row">
-                        <Col>
-                          <Itemized label={t("services.item3.items.item1")} />
-                        </Col>
-                        <Col>
-                          <Itemized label={t("services.item3.items.item2")} />
-                        </Col>
-                      </div>
-                      <div className="items-margin-top d-flex flex-column flex-sm-row">
-                        <Col>
-                          <Itemized label={t("services.item3.items.item3")} />
-                        </Col>
-                        <Col>
-                          <Itemized label={t("services.item3.items.item4")} />
-                        </Col>
-                      </div>
-                      <div className="items-margin-top d-flex flex-column flex-sm-row">
-                        <Col>
-                          <Itemized label={t("services.item3.items.item5")} />
-                        </Col>
-                        <Col>
-                          <Itemized label={t("services.item3.items.item6")} />
-                        </Col>
-                      </div>
-                    </Col>
+                    <div>
+                      <Itemized label={t("services.item3.items.item1")} />
+                      <Itemized label={t("services.item3.items.item2")} />
+                      <Itemized label={t("services.item3.items.item3")} />
+                      <Itemized label={t("services.item3.items.item4")} />
+                      <Itemized label={t("services.item3.items.item5")} />
+                      <Itemized label={t("services.item3.items.item6")} />
+                    </div>
 
                     <Col className="mt-5 mb-5">
                       <a
