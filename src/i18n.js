@@ -62,8 +62,13 @@ const resources = {
   },
 };
 
-i18n
-  .use(LanguageDetector)
+const i18nInstance = i18n;
+
+if (typeof window !== "undefined") {
+  i18nInstance.use(LanguageDetector);
+}
+
+i18nInstance
   .use(initReactI18next)
   .init({
     resources,
@@ -80,4 +85,4 @@ i18n
     },
   });
 
-export default i18n;
+export default i18nInstance;
