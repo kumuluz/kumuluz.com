@@ -66,8 +66,11 @@
         "item3": "Analysis of documents and documentation",
         "item4": "Customer analysis and segmentation",
         "item5": "Compliance and risk management"
-      },
-      "end": "Let’s explore the main benefits for your business in a workshop."
+      }
+    },
+    "benefits":{
+      "title": "Let’s explore the main benefits for your business in a workshop.",
+      "summary": "Contact us using the form below."
     }
   }
 }

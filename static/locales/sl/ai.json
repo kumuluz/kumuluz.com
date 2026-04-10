@@ -68,6 +68,11 @@
         "item5": "Upravljanje skladnosti in tveganj"
       },
       "end": "Raziskujmo glavne prednosti za vaše podjetje na delavnici."
+    },
+    "benefits": {
+      "title": "Raziskujmo glavne prednosti za vaše podjetje na delavnici.",
+      "summary": "Kontaktirajte nas z obrazcem spodaj."
     }
   }
 }
+

@@ -10,7 +10,7 @@ $phone-width: 90%;
     width: 100%;
     padding-top: 60px;
     padding-bottom: 40px;
-    background-color: $blue-300;
+    background: linear-gradient(to right, $blue-300, $blue-400);
 
     h1 {
       color: $white;
@@ -26,12 +26,33 @@ $phone-width: 90%;
     }
   }
 
+  .blue-div
+  {
+    background-color: $blue-400;
+  }
+
   .arrow-header {
+    width: 100%;
+    height: 240px;
+    background: linear-gradient(to right, $blue-300, $blue-400);
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+  }
+
+  .white-arrow {
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 0 100vw 240px 0;
-    border-color: transparent $blue-300 transparent transparent;
+    border-color: transparent white transparent transparent;
+    transform: rotate(180deg);
+  }
+
+  .white-arrow-reversed {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 240px 100vw 0 0;
+    border-color: $white transparent transparent transparent;
   }
 
   .beige-arrow {
@@ -51,58 +72,39 @@ $phone-width: 90%;
     transform: rotate(180deg);
   }
 
-  .beige-content {
+  .blue-content {
     width: 100%;
-    background-color: $beige;
+    background-color: $blue-400;
     padding-left: 20%;
     padding-right: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
-    .table-wrapper {
-      .use-case-table {
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-        border: 2px solid black;
-
-        .content {
-          padding: 1rem;
-          text-align: left;
-          flex: 1;
-        }
-
-        .table-separator {
-          width: 2px;
-          background-color: black;
-        }
-
-        li {
-          font-size: 18px;
-          text-align: left;
-          list-style-position: outside;
-          margin-left: 1rem;
-
-          &::marker {
-            color: $blue-300;
-          }
-        }
-
-        ul {
-          flex: 1;
-          padding-left: 20px;
-          margin: 0;
-        }
-      }
-
-      .table-end {
-        border: 2px solid black;
-        border-top: none;
-        font-size: 18px;
-        font-weight: 600;
-        padding: 0.5rem;
-      }
+    h2 {
+      color: $white;
     }
 
+    p {
+      color: $white;
+    }
 
+    .km-unordered-list-component {
+      margin-top: 40px;
+    }
+
+    .table-end {
+      color: $white;
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+
+  }
+  
+  .benefits-section {
+    h2 {
+      color: $blue-400;
+    }
   }
 
   .service-range {
@@ -312,6 +314,14 @@ $phone-width: 90%;
       border-width: 0 100vw 60px 0;
     }
 
+    .white-arrow {
+      border-width: 0 100vw 60px 0;
+    }
+
+    .white-arrow-reversed {
+      border-width: 60px 100vw 0 0;
+    }
+
     .beige-arrow {
       border-width: 0 100vw 60px 0;
     }
@@ -321,6 +331,11 @@ $phone-width: 90%;
     }
 
     .beige-content {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    .blue-content {
       padding-left: 2rem;
       padding-right: 2rem;
     }
@@ -440,6 +455,14 @@ $phone-width: 90%;
 
     .arrow-header {
       border-width: 0 100vw 120px 0;
+    }
+
+    .white-arrow {
+      border-width: 0 100vw 120px 0;
+    }
+
+    .white-arrow-reversed {
+      border-width: 120px 100vw 0 0;
     }
 
     .beige-arrow {
