@@ -9,7 +9,7 @@ import { ServiceRangeBox } from "../../components/shared/service-range-box/servi
 import { Itemized } from "../../components/shared/itemized/itemized.component";
 import { UnorderedListComponent } from "../../components/shared/export.shared.components";
 import { ArrowDividerComponent } from "../../components/shared/export.shared.components";
-import contactForm from "../../components/shared/contact-form/contact-form";
+
 
 import rangeReplatforming from "../../assets/images/ai/replatforming.svg";
 import rangeTransformation from "../../assets/images/ai/transformation.svg";
