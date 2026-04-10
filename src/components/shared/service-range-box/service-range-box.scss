@@ -5,6 +5,8 @@
   .box {
     width: 100%;
     margin: 5px !important;
+    margin-top: 15px !important;
+    padding: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     p {
@@ -14,7 +16,9 @@
     }
 
     img {
-      width: 33%;
+      width: auto;
+      max-width: 33%;
+      max-height: 80px;
     }
 
     .img-div {
@@ -40,7 +44,9 @@
     }
 
     img {
-      width: 33%;
+      width: auto;
+      max-width: 33%;
+      max-height: 80px;
     }
 
     .img-div {

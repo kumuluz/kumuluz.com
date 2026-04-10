@@ -59,7 +59,7 @@ class AIPage extends Component {
               <div className="content text-center pr-3 pl-3 p-lg-0">
                 <Row className="justify-content-center">
                   <Col xs="12" lg="10" xl="8">
-                    <div className="boxes-container">
+                    <div className="boxes-container ">
                       <ServiceRangeBox img={rangeTransformation} text={t("item1")} />
                       <ServiceRangeBox img={rangeTransProducts} text={t("item2")} />
                       <ServiceRangeBox img={rangeReplatforming} text={t("item3")} />
