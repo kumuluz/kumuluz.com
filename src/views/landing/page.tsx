@@ -20,7 +20,7 @@ type LandingPageProps = {
   language: LanguageCode
 }
 
-export function LandingPage({ content }: LandingPageProps) {
+export function LandingPage({ content, language }: LandingPageProps) {
   return (
     <MotionConfig reducedMotion="user">
       <HeroSection content={content.hero} />
@@ -35,7 +35,10 @@ export function LandingPage({ content }: LandingPageProps) {
       <SelectedWorkSection content={content.landingPageSections.selectedWork} />
       <ContactHelpSection content={content.landingPageSections.contactHelp} />
       <ContactStepsSection content={content.landingPageSections.contactSteps} />
-      <FinalCtaSection content={content.landingPageSections.finalCta} />
+      <FinalCtaSection
+        content={content.landingPageSections.finalCta}
+        language={language}
+      />
     </MotionConfig>
   )
 }

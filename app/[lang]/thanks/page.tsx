@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
 import { AccentProvider } from '@/components/accent-provider'
-import { partnersPages } from '@/content/partners/partners'
-import { buildPageMetadata } from '@/lib/metadata'
+import { landingContent } from '@/content/landing/landing'
 import type { LanguageCode } from '@/lib/router'
-import { PartnersRoute } from '@/views/routes/partners-route'
+import { ThanksPage } from '@/views/thanks/page'
 
 type PageParams = { params: Promise<{ lang: string }> }
 
@@ -12,11 +11,10 @@ export async function generateMetadata({
 }: PageParams): Promise<Metadata> {
   const { lang } = await params
   const language = lang as LanguageCode
-  return buildPageMetadata(
-    language,
-    { name: 'partners' },
-    partnersPages['selected-work'][language].seo,
-  )
+  return {
+    title: landingContent[language].thanks.title,
+    robots: { index: false, follow: false },
+  }
 }
 
 export default async function Page({ params }: PageParams) {
@@ -24,7 +22,7 @@ export default async function Page({ params }: PageParams) {
   const language = lang as LanguageCode
   return (
     <AccentProvider color="blue">
-      <PartnersRoute language={language} slug="selected-work" />
+      <ThanksPage language={language} />
     </AccentProvider>
   )
 }

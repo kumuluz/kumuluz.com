@@ -338,11 +338,20 @@ const enLanding = {
         consent:
           'By submitting this form, you agree that Sunesis may contact you regarding your inquiry.',
         submitLabel: 'Submit request',
-        thankYouTitle: 'Thank you — your request has been submitted.',
-        thankYouText:
-          'The Kumuluz team will review your inquiry and contact you soon.',
+        emailRequiredError: 'Please enter your email address.',
+        emailInvalidError: 'Please enter a valid email address.',
+        phoneInvalidError: 'Please enter a valid phone number.',
+        messageRequiredError: 'Please enter a message.',
+        sendingLabel: 'Sending…',
+        errorMessage:
+          'Something went wrong sending your message. Please try again or email us directly.',
       },
     },
+  },
+  thanks: {
+    title: 'Thank you — your request has been submitted.',
+    text: 'The Kumuluz team will review your inquiry and contact you soon.',
+    backLabel: 'Back to home',
   },
 } as const
 
@@ -684,11 +693,20 @@ const slLanding = {
         consent:
           'Z oddajo tega obrazca se strinjate, da vas Sunesis lahko kontaktira glede vašega povpraševanja.',
         submitLabel: 'Pošljite povpraševanje',
-        thankYouTitle: 'Hvala — vaše povpraševanje je bilo oddano.',
-        thankYouText:
-          'Ekipa Kumuluz bo pregledala vaše povpraševanje in vas kmalu kontaktirala.',
+        emailRequiredError: 'Vnesite svoj e-poštni naslov.',
+        emailInvalidError: 'Vnesite veljaven e-poštni naslov.',
+        phoneInvalidError: 'Vnesite veljavno telefonsko številko.',
+        messageRequiredError: 'Vnesite sporočilo.',
+        sendingLabel: 'Pošiljanje…',
+        errorMessage:
+          'Pri pošiljanju sporočila je prišlo do napake. Poskusite znova ali nam pišite neposredno.',
       },
     },
+  },
+  thanks: {
+    title: 'Hvala — vaše povpraševanje je bilo oddano.',
+    text: 'Ekipa Kumuluz bo pregledala vaše povpraševanje in vas kmalu kontaktirala.',
+    backLabel: 'Nazaj na domačo stran',
   },
 } as const
 

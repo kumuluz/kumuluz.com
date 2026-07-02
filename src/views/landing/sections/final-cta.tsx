@@ -1,9 +1,12 @@
 import { Building2, Check, Mail } from 'lucide-react'
+import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import type { LandingContent } from '../../../content/landing/landing'
+import type { LanguageCode } from '../../../lib/router'
 
 type FinalCtaSectionProps = {
   content: LandingContent['landingPageSections']['finalCta']
+  language: LanguageCode
 }
 
 const MAPS_URL = 'https://maps.app.goo.gl/sUypTyZYofbouHZ79'
@@ -13,8 +16,29 @@ const fieldClassName =
 
 const labelClassName = 'block text-sm font-semibold text-neutral-900'
 
-export function FinalCtaSection({ content }: FinalCtaSectionProps) {
+const errorClassName = 'text-sm text-red-600'
+
+const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+const PHONE_PATTERN = /^\+?(?:[\s().-]*\d){7,15}[\s().-]*$/
+
+const FORM_NAME = 'contact'
+
+type FieldErrors = {
+  email?: string
+  phone?: string
+  message?: string
+}
+
+type SubmitStatus = 'idle' | 'submitting' | 'error'
+
+const encodeFormData = (data: Record<string, string>) =>
+  Object.keys(data)
+    .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+    .join('&')
+
+export function FinalCtaSection({ content, language }: FinalCtaSectionProps) {
   const { contact, form } = content
+  const router = useRouter()
   const [firstName, setFirstName] = useState('')
   const [lastName, setLastName] = useState('')
   const [email, setEmail] = useState('')
@@ -25,7 +49,8 @@ export function FinalCtaSection({ content }: FinalCtaSectionProps) {
   const [interests, setInterests] = useState<string[]>([])
   const [stage, setStage] = useState('')
   const [message, setMessage] = useState('')
-  const [submitted, setSubmitted] = useState(false)
+  const [errors, setErrors] = useState<FieldErrors>({})
+  const [status, setStatus] = useState<SubmitStatus>('idle')
 
   const toggleInterest = (option: string) => {
     setInterests((current) =>
@@ -35,31 +60,71 @@ export function FinalCtaSection({ content }: FinalCtaSectionProps) {
     )
   }
 
-  const handleSubmit: React.ComponentProps<'form'>['onSubmit'] = (event) => {
+  const validate = (): FieldErrors => {
+    const nextErrors: FieldErrors = {}
+
+    const trimmedEmail = email.trim()
+    if (!trimmedEmail) {
+      nextErrors.email = form.emailRequiredError
+    } else if (!EMAIL_PATTERN.test(trimmedEmail)) {
+      nextErrors.email = form.emailInvalidError
+    }
+
+    const trimmedPhone = phone.trim()
+    if (trimmedPhone && !PHONE_PATTERN.test(trimmedPhone)) {
+      nextErrors.phone = form.phoneInvalidError
+    }
+
+    if (!message.trim()) {
+      nextErrors.message = form.messageRequiredError
+    }
+
+    return nextErrors
+  }
+
+  const handleSubmit: React.ComponentProps<'form'>['onSubmit'] = async (
+    event,
+  ) => {
     event.preventDefault()
 
-    const name = [firstName, lastName].filter(Boolean).join(' ').trim()
-    const subject = name ? `Website inquiry from ${name}` : 'Website inquiry'
-    const body = [
-      `Name: ${name}`,
-      `Email: ${email}`,
-      `Company: ${company}`,
-      jobTitle ? `Job title: ${jobTitle}` : null,
-      phone ? `Phone: ${phone}` : null,
-      country ? `Country: ${country}` : null,
-      interests.length ? `Interest area: ${interests.join(', ')}` : null,
-      stage ? `Project stage: ${stage}` : null,
-      '',
-      message,
-    ]
-      .filter((line) => line !== null)
-      .join('\n')
+    const nextErrors = validate()
+    setErrors(nextErrors)
+    if (Object.keys(nextErrors).length > 0) {
+      return
+    }
 
-    setSubmitted(true)
-    window.location.href = `mailto:${contact.email}?subject=${encodeURIComponent(
-      subject,
-    )}&body=${encodeURIComponent(body)}`
+    setStatus('submitting')
+
+    try {
+      const response = await fetch('/__forms.html', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encodeFormData({
+          'form-name': FORM_NAME,
+          firstName,
+          lastName,
+          email,
+          company,
+          jobTitle,
+          phone,
+          country,
+          interest: interests.join(', '),
+          stage,
+          message,
+        }),
+      })
+
+      if (!response.ok) {
+        throw new Error(`Form submission failed: ${response.status}`)
+      }
+
+      router.push(`/${language}/thanks/`)
+    } catch {
+      setStatus('error')
+    }
   }
+
+  const isSubmitting = status === 'submitting'
 
   return (
     <section
@@ -135,210 +200,255 @@ export function FinalCtaSection({ content }: FinalCtaSectionProps) {
           </div>
         </div>
 
-        {submitted ? (
-          <div className="flex flex-col justify-center rounded-2xl border border-neutral-200 bg-neutral-50 px-8 py-12">
-            <h3 className="text-2xl font-bold leading-snug text-neutral-900">
-              {form.thankYouTitle}
+        <form
+          className="flex flex-col gap-6"
+          data-netlify="true"
+          name={FORM_NAME}
+          netlify-honeypot="bot-field"
+          noValidate
+          onSubmit={handleSubmit}
+        >
+          <input name="form-name" type="hidden" value={FORM_NAME} />
+          <p className="hidden">
+            <label>
+              Do not fill this out if you are human:{' '}
+              <input name="bot-field" tabIndex={-1} />
+            </label>
+          </p>
+          <div>
+            <h3 className="text-xl font-bold leading-snug text-neutral-900">
+              {form.title}
             </h3>
-            <p className="mt-4 text-base leading-8 text-neutral-600">
-              {form.thankYouText}
+            <p className="mt-2 text-sm leading-7 text-neutral-600">
+              {form.intro}
             </p>
           </div>
-        ) : (
-          <form
-            className="flex flex-col gap-6"
-            noValidate
-            onSubmit={handleSubmit}
-          >
-            <div>
-              <h3 className="text-xl font-bold leading-snug text-neutral-900">
-                {form.title}
-              </h3>
-              <p className="mt-2 text-sm leading-7 text-neutral-600">
-                {form.intro}
-              </p>
-            </div>
-            <div className="grid gap-6 sm:grid-cols-2">
-              <div className="space-y-2">
-                <label className={labelClassName} htmlFor="contact-first-name">
-                  {form.firstNameLabel} *
-                </label>
-                <input
-                  autoComplete="given-name"
-                  className={fieldClassName}
-                  id="contact-first-name"
-                  name="firstName"
-                  onChange={(event) => setFirstName(event.target.value)}
-                  required
-                  type="text"
-                  value={firstName}
-                />
-              </div>
-              <div className="space-y-2">
-                <label className={labelClassName} htmlFor="contact-last-name">
-                  {form.lastNameLabel} *
-                </label>
-                <input
-                  autoComplete="family-name"
-                  className={fieldClassName}
-                  id="contact-last-name"
-                  name="lastName"
-                  onChange={(event) => setLastName(event.target.value)}
-                  required
-                  type="text"
-                  value={lastName}
-                />
-              </div>
-            </div>
+          <div className="grid gap-6 sm:grid-cols-2">
             <div className="space-y-2">
-              <label className={labelClassName} htmlFor="contact-email">
-                {form.emailLabel} *
+              <label className={labelClassName} htmlFor="contact-first-name">
+                {form.firstNameLabel} *
               </label>
               <input
-                autoComplete="email"
+                autoComplete="given-name"
                 className={fieldClassName}
-                id="contact-email"
-                name="email"
-                onChange={(event) => setEmail(event.target.value)}
+                id="contact-first-name"
+                name="firstName"
+                onChange={(event) => setFirstName(event.target.value)}
                 required
-                type="email"
-                value={email}
+                type="text"
+                value={firstName}
               />
             </div>
-            <div className="grid gap-6 sm:grid-cols-2">
-              <div className="space-y-2">
-                <label className={labelClassName} htmlFor="contact-company">
-                  {form.companyLabel} *
-                </label>
-                <input
-                  autoComplete="organization"
-                  className={fieldClassName}
-                  id="contact-company"
-                  name="company"
-                  onChange={(event) => setCompany(event.target.value)}
-                  required
-                  type="text"
-                  value={company}
-                />
-              </div>
-              <div className="space-y-2">
-                <label className={labelClassName} htmlFor="contact-job-title">
-                  {form.jobTitleLabel}
-                </label>
-                <input
-                  autoComplete="organization-title"
-                  className={fieldClassName}
-                  id="contact-job-title"
-                  name="jobTitle"
-                  onChange={(event) => setJobTitle(event.target.value)}
-                  type="text"
-                  value={jobTitle}
-                />
-              </div>
+            <div className="space-y-2">
+              <label className={labelClassName} htmlFor="contact-last-name">
+                {form.lastNameLabel} *
+              </label>
+              <input
+                autoComplete="family-name"
+                className={fieldClassName}
+                id="contact-last-name"
+                name="lastName"
+                onChange={(event) => setLastName(event.target.value)}
+                required
+                type="text"
+                value={lastName}
+              />
             </div>
-            <div className="grid gap-6 sm:grid-cols-2">
-              <div className="space-y-2">
-                <label className={labelClassName} htmlFor="contact-phone">
-                  {form.phoneLabel}
-                </label>
-                <input
-                  autoComplete="tel"
-                  className={fieldClassName}
-                  id="contact-phone"
-                  name="phone"
-                  onChange={(event) => setPhone(event.target.value)}
-                  type="tel"
-                  value={phone}
-                />
-              </div>
-              <div className="space-y-2">
-                <label className={labelClassName} htmlFor="contact-country">
-                  {form.countryLabel}
-                </label>
-                <input
-                  autoComplete="country-name"
-                  className={fieldClassName}
-                  id="contact-country"
-                  name="country"
-                  onChange={(event) => setCountry(event.target.value)}
-                  type="text"
-                  value={country}
-                />
-              </div>
+          </div>
+          <div className="space-y-2">
+            <label className={labelClassName} htmlFor="contact-email">
+              {form.emailLabel} *
+            </label>
+            <input
+              aria-describedby={errors.email ? 'contact-email-error' : undefined}
+              aria-invalid={errors.email ? true : undefined}
+              autoComplete="email"
+              className={fieldClassName}
+              id="contact-email"
+              name="email"
+              onChange={(event) => {
+                setEmail(event.target.value)
+                if (errors.email) {
+                  setErrors((prev) => ({ ...prev, email: undefined }))
+                }
+              }}
+              required
+              type="email"
+              value={email}
+            />
+            {errors.email ? (
+              <p className={errorClassName} id="contact-email-error">
+                {errors.email}
+              </p>
+            ) : null}
+          </div>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <div className="space-y-2">
+              <label className={labelClassName} htmlFor="contact-company">
+                {form.companyLabel} *
+              </label>
+              <input
+                autoComplete="organization"
+                className={fieldClassName}
+                id="contact-company"
+                name="company"
+                onChange={(event) => setCompany(event.target.value)}
+                required
+                type="text"
+                value={company}
+              />
             </div>
-            <fieldset className="space-y-3">
-              <legend className={labelClassName}>{form.interestLabel}</legend>
-              <div className="grid gap-2 sm:grid-cols-2">
-                {form.interestOptions.map((option) => (
-                  <label
-                    className="group flex cursor-pointer items-center gap-2.5 text-sm text-neutral-700"
-                    key={option}
-                  >
-                    <input
-                      checked={interests.includes(option)}
-                      className="peer sr-only"
-                      name="interest"
-                      onChange={() => toggleInterest(option)}
-                      type="checkbox"
-                      value={option}
+            <div className="space-y-2">
+              <label className={labelClassName} htmlFor="contact-job-title">
+                {form.jobTitleLabel}
+              </label>
+              <input
+                autoComplete="organization-title"
+                className={fieldClassName}
+                id="contact-job-title"
+                name="jobTitle"
+                onChange={(event) => setJobTitle(event.target.value)}
+                type="text"
+                value={jobTitle}
+              />
+            </div>
+          </div>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <div className="space-y-2">
+              <label className={labelClassName} htmlFor="contact-phone">
+                {form.phoneLabel}
+              </label>
+              <input
+                aria-describedby={
+                  errors.phone ? 'contact-phone-error' : undefined
+                }
+                aria-invalid={errors.phone ? true : undefined}
+                autoComplete="tel"
+                className={fieldClassName}
+                id="contact-phone"
+                name="phone"
+                onChange={(event) => {
+                  setPhone(event.target.value)
+                  if (errors.phone) {
+                    setErrors((prev) => ({ ...prev, phone: undefined }))
+                  }
+                }}
+                type="tel"
+                value={phone}
+              />
+              {errors.phone ? (
+                <p className={errorClassName} id="contact-phone-error">
+                  {errors.phone}
+                </p>
+              ) : null}
+            </div>
+            <div className="space-y-2">
+              <label className={labelClassName} htmlFor="contact-country">
+                {form.countryLabel}
+              </label>
+              <input
+                autoComplete="country-name"
+                className={fieldClassName}
+                id="contact-country"
+                name="country"
+                onChange={(event) => setCountry(event.target.value)}
+                type="text"
+                value={country}
+              />
+            </div>
+          </div>
+          <fieldset className="space-y-3">
+            <legend className={labelClassName}>{form.interestLabel}</legend>
+            <div className="grid gap-2 sm:grid-cols-2">
+              {form.interestOptions.map((option) => (
+                <label
+                  className="group flex cursor-pointer items-center gap-2.5 text-sm text-neutral-700"
+                  key={option}
+                >
+                  <input
+                    checked={interests.includes(option)}
+                    className="peer sr-only"
+                    name="interest"
+                    onChange={() => toggleInterest(option)}
+                    type="checkbox"
+                    value={option}
+                  />
+                  <span className="flex size-5 shrink-0 items-center justify-center rounded-md border border-neutral-300 bg-white transition-colors group-hover:border-accent-500 peer-checked:border-accent-700 peer-checked:bg-accent-700 peer-focus-visible:ring-2 peer-focus-visible:ring-accent-600/40 peer-focus-visible:ring-offset-1">
+                    <Check
+                      aria-hidden="true"
+                      className="size-3.5 text-white"
+                      strokeWidth={3}
                     />
-                    <span className="flex size-5 shrink-0 items-center justify-center rounded-md border border-neutral-300 bg-white transition-colors group-hover:border-accent-500 peer-checked:border-accent-700 peer-checked:bg-accent-700 peer-focus-visible:ring-2 peer-focus-visible:ring-accent-600/40 peer-focus-visible:ring-offset-1">
-                      <Check
-                        aria-hidden="true"
-                        className="size-3.5 text-white"
-                        strokeWidth={3}
-                      />
-                    </span>
-                    {option}
-                  </label>
-                ))}
-              </div>
-            </fieldset>
-            <div className="space-y-2">
-              <label className={labelClassName} htmlFor="contact-stage">
-                {form.stageLabel}
-              </label>
-              <select
-                className={fieldClassName}
-                id="contact-stage"
-                name="stage"
-                onChange={(event) => setStage(event.target.value)}
-                value={stage}
-              >
-                <option value="">{form.stagePlaceholder}</option>
-                {form.stageOptions.map((option) => (
-                  <option key={option} value={option}>
-                    {option}
-                  </option>
-                ))}
-              </select>
+                  </span>
+                  {option}
+                </label>
+              ))}
             </div>
-            <div className="space-y-2">
-              <label className={labelClassName} htmlFor="contact-message">
-                {form.messageLabel}
-              </label>
-              <textarea
-                className={`${fieldClassName} min-h-36 resize-y`}
-                id="contact-message"
-                name="message"
-                onChange={(event) => setMessage(event.target.value)}
-                placeholder={form.messagePlaceholder}
-                required
-                rows={5}
-                value={message}
-              />
-            </div>
-            <p className="text-xs leading-6 text-neutral-500">{form.consent}</p>
-            <div className="flex justify-end">
-              <button
-                className="inline-flex min-h-11 items-center justify-center rounded-lg bg-accent-700 px-6 text-sm font-semibold text-white transition-colors hover:bg-accent-800"
-                type="submit"
-              >
-                {form.submitLabel}
-              </button>
-            </div>
-          </form>
-        )}
+          </fieldset>
+          <div className="space-y-2">
+            <label className={labelClassName} htmlFor="contact-stage">
+              {form.stageLabel}
+            </label>
+            <select
+              className={fieldClassName}
+              id="contact-stage"
+              name="stage"
+              onChange={(event) => setStage(event.target.value)}
+              value={stage}
+            >
+              <option value="">{form.stagePlaceholder}</option>
+              {form.stageOptions.map((option) => (
+                <option key={option} value={option}>
+                  {option}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div className="space-y-2">
+            <label className={labelClassName} htmlFor="contact-message">
+              {form.messageLabel}
+            </label>
+            <textarea
+              aria-describedby={
+                errors.message ? 'contact-message-error' : undefined
+              }
+              aria-invalid={errors.message ? true : undefined}
+              className={`${fieldClassName} min-h-36 resize-y`}
+              id="contact-message"
+              name="message"
+              onChange={(event) => {
+                setMessage(event.target.value)
+                if (errors.message) {
+                  setErrors((prev) => ({ ...prev, message: undefined }))
+                }
+              }}
+              placeholder={form.messagePlaceholder}
+              required
+              rows={5}
+              value={message}
+            />
+            {errors.message ? (
+              <p className={errorClassName} id="contact-message-error">
+                {errors.message}
+              </p>
+            ) : null}
+          </div>
+          <p className="text-xs leading-6 text-neutral-500">{form.consent}</p>
+          <div className="flex flex-col items-end gap-3">
+            {status === 'error' ? (
+              <p className="w-full text-sm font-medium text-red-600" role="alert">
+                {form.errorMessage}
+              </p>
+            ) : null}
+            <button
+              className="inline-flex min-h-11 items-center justify-center rounded-lg bg-accent-700 px-6 text-sm font-semibold text-white transition-colors hover:bg-accent-800 disabled:cursor-not-allowed disabled:opacity-60"
+              disabled={isSubmitting}
+              type="submit"
+            >
+              {isSubmitting ? form.sendingLabel : form.submitLabel}
+            </button>
+          </div>
+        </form>
       </div>
     </section>
   )
