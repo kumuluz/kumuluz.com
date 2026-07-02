@@ -1,0 +1,152 @@
+@import 'tailwindcss';
+
+/* AccentProvider remaps the accent palette via var(--color-<name>-<step>) from
+   inline styles, which Tailwind's class scanner can't see — so unused palettes
+   (rose, emerald, …) would be tree-shaken away and the override would resolve
+   to nothing. Force-generating one utility per color/step keeps every palette
+   variable in the output so any Tailwind color name works as an accent. */
+@source inline(
+  "bg-{red,orange,amber,yellow,lime,green,emerald,teal,cyan,sky,blue,indigo,violet,purple,fuchsia,pink,rose,slate,gray,zinc,neutral,stone}-{50,100,200,300,400,500,600,700,800,900,950}"
+);
+
+/* Swappable accent palette. Utilities use `accent-*` (e.g. bg-accent-700) and
+   resolve to the variables below at use-time, so an override on any ancestor
+   element recolors everything inside it. `@theme inline` is required — it keeps
+   the utilities pointing at the variable instead of copying its value. */
+@theme inline {
+  --color-accent-50: var(--accent-50);
+  --color-accent-100: var(--accent-100);
+  --color-accent-200: var(--accent-200);
+  --color-accent-300: var(--accent-300);
+  --color-accent-400: var(--accent-400);
+  --color-accent-500: var(--accent-500);
+  --color-accent-600: var(--accent-600);
+  --color-accent-700: var(--accent-700);
+  --color-accent-800: var(--accent-800);
+  --color-accent-900: var(--accent-900);
+  --color-accent-950: var(--accent-950);
+}
+
+/* Default accent = blue. AccentProvider overrides these per-page by remapping
+   each step to another Tailwind palette (e.g. var(--color-emerald-700)). */
+:root {
+  --accent-50: var(--color-blue-50);
+  --accent-100: var(--color-blue-100);
+  --accent-200: var(--color-blue-200);
+  --accent-300: var(--color-blue-300);
+  --accent-400: var(--color-blue-400);
+  --accent-500: var(--color-blue-500);
+  --accent-600: var(--color-blue-600);
+  --accent-700: var(--color-blue-700);
+  --accent-800: var(--color-blue-800);
+  --accent-900: var(--color-blue-900);
+  --accent-950: var(--color-blue-950);
+}
+
+:root {
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  color: #171717;
+  /* Overscroll/rubber-band coloring: white at the top (page), dark at the
+     bottom (footer).
+     - Firefox paints the viewport-fixed gradient below into both ends.
+     - Chrome/Safari ignore the fixed image there and instead use the solid
+       background-color of <html> (top) and <body> (bottom), set here and on
+       the body rule respectively. */
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 50%,
+    #0a0a0a 50%,
+    #0a0a0a 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  /* Dark fallback used by Chrome/Safari for the bottom overscroll region (see
+     the :root rule). Hidden behind the page content during normal scrolling. */
+  background: #0a0a0a;
+}
+
+@keyframes marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(calc(-50% - 0.5rem), 0, 0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 180s linear infinite;
+}
+
+.references-marquee__viewport {
+  scrollbar-width: none;
+}
+
+.references-marquee__viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.references-marquee__track {
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+.references-marquee__track:has(.references-marquee__item:hover) {
+  animation-play-state: paused;
+}
+
+.references-marquee__track:has(.references-marquee__item:hover)
+  .references-marquee__item {
+  opacity: 0.6;
+  filter: grayscale(1);
+}
+
+.references-marquee__track:has(.references-marquee__item:hover)
+  .references-marquee__item:hover {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+.animate-float {
+  animation: float 7s ease-in-out infinite;
+}

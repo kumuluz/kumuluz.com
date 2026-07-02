@@ -1,0 +1,82 @@
+export type ReferenceLogo = { stem: string; folder: string; url: string }
+
+export const referenceLogos: ReferenceLogo[] = [
+  { stem: '1_ibm', folder: '', url: '/images/references/1_ibm.png' },
+  { stem: '2_nlb', folder: '', url: '/images/references/2_nlb.png' },
+  { stem: '3_akrapovic', folder: '', url: '/images/references/3_akrapovic.png' },
+  { stem: '4_petrol', folder: '', url: '/images/references/4_petrol.png' },
+  { stem: '5_sava', folder: '', url: '/images/references/5_sava.png' },
+  { stem: '6_otp', folder: '', url: '/images/references/6_otp.png' },
+  { stem: '7_flare', folder: '', url: '/images/references/7_flare.png' },
+  { stem: '8_generali', folder: '', url: '/images/references/8_generali.png' },
+  { stem: '9_oracle', folder: '', url: '/images/references/9_oracle.png' },
+  { stem: '9_snaga', folder: '', url: '/images/references/9_snaga.png' },
+  { stem: 'cybergrid', folder: '', url: '/images/references/cybergrid.png' },
+  { stem: 'ebcont', folder: '', url: '/images/references/ebcont.png' },
+  { stem: 'energetika_ljubljana', folder: '', url: '/images/references/energetika_ljubljana.png' },
+  { stem: 'adriatic-slovenica', folder: 'extras', url: '/images/references/extras/adriatic-slovenica.png' },
+  { stem: 'chile', folder: 'extras', url: '/images/references/extras/chile.png' },
+  { stem: 'citytech', folder: 'extras', url: '/images/references/extras/citytech.png' },
+  { stem: 'ebrad', folder: 'extras', url: '/images/references/extras/ebrad.png' },
+  { stem: 'everis', folder: 'extras', url: '/images/references/extras/everis.png' },
+  { stem: 'globepayroll', folder: 'extras', url: '/images/references/extras/globepayroll.png' },
+  { stem: 'hardlab', folder: 'extras', url: '/images/references/extras/hardlab.png' },
+  { stem: 'informatika', folder: 'extras', url: '/images/references/extras/informatika.png' },
+  { stem: 'irc', folder: 'extras', url: '/images/references/extras/irc.png' },
+  { stem: 'kneip', folder: 'extras', url: '/images/references/extras/kneip.png' },
+  { stem: 'mmturist', folder: 'extras', url: '/images/references/extras/mmturist.png' },
+  { stem: 'osocial', folder: 'extras', url: '/images/references/extras/osocial.png' },
+  { stem: 'pbs', folder: 'extras', url: '/images/references/extras/pbs.png' },
+  { stem: 'plinovodi', folder: 'extras', url: '/images/references/extras/plinovodi.png' },
+  { stem: 'prva', folder: 'extras', url: '/images/references/extras/prva.png' },
+  { stem: 'solvera_lynx', folder: 'extras', url: '/images/references/extras/solvera_lynx.png' },
+  { stem: 'src', folder: 'extras', url: '/images/references/extras/src.png' },
+  { stem: 'tovarna_podjemov', folder: 'extras', url: '/images/references/extras/tovarna_podjemov.png' },
+  { stem: 'vsrs', folder: 'extras', url: '/images/references/extras/vsrs.png' },
+  { stem: 'zzzs', folder: 'extras', url: '/images/references/extras/zzzs.png' },
+  { stem: 'gen-i', folder: '', url: '/images/references/gen-i.png' },
+  { stem: 'giz', folder: '', url: '/images/references/giz.png' },
+  { stem: 'riko', folder: '', url: '/images/references/riko.png' },
+  { stem: 'aegis', folder: 'horizon', url: '/images/references/horizon/aegis.png' },
+  { stem: 'atos', folder: 'horizon', url: '/images/references/horizon/atos.png' },
+  { stem: 'caixa', folder: 'horizon', url: '/images/references/horizon/caixa.png' },
+  { stem: 'cap-watt', folder: 'horizon', url: '/images/references/horizon/cap-watt.png' },
+  { stem: 'cndr', folder: 'horizon', url: '/images/references/horizon/cndr.png' },
+  { stem: 'ease', folder: 'horizon', url: '/images/references/horizon/ease.png' },
+  { stem: 'eaton', folder: 'horizon', url: '/images/references/horizon/eaton.png' },
+  { stem: 'edp', folder: 'horizon', url: '/images/references/horizon/edp.png' },
+  { stem: 'enel', folder: 'horizon', url: '/images/references/horizon/enel.png' },
+  { stem: 'eng', folder: 'horizon', url: '/images/references/horizon/eng.png' },
+  { stem: 'hess', folder: 'horizon', url: '/images/references/horizon/hess.png' },
+  { stem: 'inesctec', folder: 'horizon', url: '/images/references/horizon/inesctec.png' },
+  { stem: 'inlecom', folder: 'horizon', url: '/images/references/horizon/inlecom.png' },
+  { stem: 'instrasoft', folder: 'horizon', url: '/images/references/horizon/instrasoft.png' },
+  { stem: 'julich', folder: 'horizon', url: '/images/references/horizon/julich.png' },
+  { stem: 'konnecta', folder: 'horizon', url: '/images/references/horizon/konnecta.png' },
+  { stem: 'piraneus', folder: 'horizon', url: '/images/references/horizon/piraneus.png' },
+  { stem: 'redhat', folder: 'horizon', url: '/images/references/horizon/redhat.png' },
+  { stem: 'rwth', folder: 'horizon', url: '/images/references/horizon/rwth.png' },
+  { stem: 'serveo', folder: 'horizon', url: '/images/references/horizon/serveo.png' },
+  { stem: 'sphynx', folder: 'horizon', url: '/images/references/horizon/sphynx.png' },
+  { stem: 'tehnoloski-gozd', folder: 'horizon', url: '/images/references/horizon/tehnoloski-gozd.png' },
+  { stem: 'tuc', folder: 'horizon', url: '/images/references/horizon/tuc.png' },
+  { stem: 'um', folder: 'horizon', url: '/images/references/horizon/um.png' },
+  { stem: 'vde', folder: 'horizon', url: '/images/references/horizon/vde.png' },
+  { stem: 'waboost', folder: 'horizon', url: '/images/references/horizon/waboost.png' },
+  { stem: 'ministry_justice', folder: '', url: '/images/references/ministry_justice.png' },
+  { stem: 'ministry_public_admin', folder: '', url: '/images/references/ministry_public_admin.png' },
+]
+
+export const topLevelReferenceLogos = referenceLogos.filter((l) => l.folder === '')
+
+export const referenceUrlByStem: Record<string, string> = Object.fromEntries(
+  referenceLogos.map((l) => [l.stem, l.url]),
+)
+
+export const referenceStemsByFolder: Record<string, string[]> = referenceLogos.reduce(
+  (acc, l) => {
+    ;(acc[l.folder] ??= []).push(l.stem)
+    return acc
+  },
+  {} as Record<string, string[]>,
+)

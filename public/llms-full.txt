@@ -1,0 +1,90 @@
+# Kumuluz — Full machine-readable brief
+
+Kumuluz is an enterprise platform family developed and delivered by Sunesis. It
+helps organizations build governed platforms where AI agents, APIs, business
+capabilities, workflows, digital services and data work together.
+
+This file is a curated, machine-readable product brief — not a copy of the full
+site. For canonical pages see https://kumuluz.com/sitemap.xml.
+
+## Kumuluz in brief
+
+- Enterprise platform family developed and delivered by Sunesis.
+- Main products: KumuluzAI Platform, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform and Kumuluz Crowdsensing.
+- Main solution areas: AgenticAI platforms, enterprise AI assistants, AI knowledge management, API management, cloud-native digital platforms, Business APIs and smart communities.
+- Designed for enterprise environments where governance, security, integration, auditability and production readiness matter.
+- Helps organizations connect AI agents, APIs, business capabilities, workflows, digital services and data.
+
+## Homepage
+
+URL: https://kumuluz.com/en/
+Enterprise platforms for AgenticAI, APIs and digital services. Kumuluz helps
+organizations build governed AgenticAI platforms, API ecosystems, reusable
+Business APIs, cloud-native digital services and AI-enhanced data solutions.
+
+## Products
+
+### KumuluzAI Platform
+URL: https://kumuluz.com/en/products/kumuluz-ai/
+Enterprise AgenticAI platform for building secure, governed and production-ready
+AI agents, assistants, RAG solutions and AI-powered business automation. Runs and
+governs agents, tools, model routing, approvals, auditability and cost visibility.
+
+### Kumuluz API
+URL: https://kumuluz.com/en/products/kumuluz-api/
+API management platform that exposes, manages, secures and monitors APIs across
+teams, partners, digital ecosystems and AI agents. Provides API cataloging,
+developer portals, gateway management, access control, MCP-oriented API exposure,
+contextual routing, LLM routing and token usage logging.
+
+### Kumuluz Business APIs
+URL: https://kumuluz.com/en/products/business-apis/
+Reusable, AgenticAI-ready and workflow-ready business capabilities exposed as
+agent-callable APIs for products, AI agents and workflows.
+
+### Kumuluz Digital Platform
+URL: https://kumuluz.com/en/products/digital-platform/
+Cloud-native foundation for building digital services, APIs, connectors,
+MCP-enabled tools and deterministic workflows that applications and AI agents use.
+
+### Kumuluz Crowdsensing
+URL: https://kumuluz.com/en/products/crowdsensing/
+Collects and processes distributed real-world data using privacy-aware
+processing, analytics and AI-enhanced insight generation for smart services and
+smart communities.
+
+## Solutions
+
+Overview: https://kumuluz.com/en/solutions/
+
+- Agentic AI Platforms — https://kumuluz.com/en/solutions/agentic-ai-platforms/
+  Governed enterprise platforms where AI agents safely use enterprise knowledge,
+  APIs, tools, workflows and business systems.
+- Enterprise AI Assistants — https://kumuluz.com/en/solutions/enterprise-ai-assistants/
+  AI assistants for customers and employees without creating isolated AI silos.
+- AI Knowledge Management — https://kumuluz.com/en/solutions/ai-knowledge-management/
+  Make enterprise knowledge accessible through governed, source-aware AI and RAG.
+- API Management & API Economy — https://kumuluz.com/en/solutions/api-management/
+  Turn APIs into governed digital assets for teams, partners and AI agents.
+- Cloud-native Digital Platforms — https://kumuluz.com/en/solutions/cloud-native-digital-platforms/
+  Cloud-native platforms that support applications, workflows and AI agents.
+- Business APIs — https://kumuluz.com/en/solutions/business-apis/
+  Reusable business capabilities for digital products, AI agents and workflows.
+- Crowdsensing & Smart Communities — https://kumuluz.com/en/solutions/crowdsensing-smart-communities/
+  Distributed data and AI analytics for smart community services.
+
+## Why Kumuluz
+
+URL: https://kumuluz.com/en/about/
+Kumuluz is designed for organizations that need secure, governed,
+integration-ready and production-ready platform foundations for enterprise AI,
+APIs, workflows, digital services and data-driven smart services.
+
+## Delivered by Sunesis
+
+Kumuluz is developed and delivered by Sunesis, a Slovenian enterprise software
+engineering and technology company. https://sunesis.si/en/
+
+## Contact
+
+Request a demo or contact the Kumuluz team: https://kumuluz.com/en/#contact
