@@ -14,7 +14,7 @@ export function HeroSection({ content }: HeroSectionProps) {
     <div className="relative isolate overflow-hidden">
       <LandingBackground />
       <section className="relative px-5 pt-18 sm:px-6 lg:px-0">
-        <div className="mx-auto grid max-w-[120rem] sm:items-center lg:items-end gap-8 py-32 lg:border-l lg:border-neutral-200 lg:gap-8 lg:px-28 lg:min-h-[calc(100svh-20rem)] xl:px-36">
+        <div className="mx-auto grid max-w-[120rem] sm:items-center lg:items-end gap-8 py-32 lg:border-l lg:border-neutral-200 lg:gap-8 lg:px-28 lg:min-h-[calc(100svh-16rem)] xl:px-36">
           <RevealGroup className="w-full max-w-[680px] lg:max-w-[760px] xl:max-w-[820px]">
             <RevealItem>
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-accent-600">
