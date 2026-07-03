@@ -81,7 +81,7 @@ export function Header({
                   setMobileOpen(false)
                 }}
               />
-              <Button href="https://blog.kumuluz.com/" size="md" tone="ghost">
+              <Button href="https://blog.sunesis.si/" size="md" tone="ghost">
                 {content.blog}
               </Button>
               <Button href={contactHref(language)} size="md" tone="primary">
