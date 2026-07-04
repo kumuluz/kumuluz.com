@@ -46,6 +46,7 @@ export function DesktopNavigation({
         if (!opens) {
           const href = topNavHref(item.label, language)
           if (href) {
+            const isExternal = href.startsWith('http')
             return (
               <a
                 className={className}
@@ -53,6 +54,8 @@ export function DesktopNavigation({
                 key={item.label}
                 onFocus={() => onActiveItemChange(null)}
                 onMouseEnter={() => onActiveItemChange(null)}
+                rel={isExternal ? 'noreferrer' : undefined}
+                target={isExternal ? '_blank' : undefined}
               >
                 {item.label}
               </a>

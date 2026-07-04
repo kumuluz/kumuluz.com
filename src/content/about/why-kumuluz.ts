@@ -25,7 +25,7 @@ const en: AboutPageContent = {
   },
   hero: {
     type: 'hero',
-    eyebrow: 'Why Kumuluz',
+    eyebrow: 'Benefits',
     title:
       'A connected platform family for enterprise AI, APIs and digital services',
     body: [
@@ -510,7 +510,7 @@ const sl: AboutPageContent = {
   },
   hero: {
     type: 'hero',
-    eyebrow: 'Zakaj Kumuluz',
+    eyebrow: 'Prednosti',
     title:
       'Povezana družina platform za poslovni AI, API-je in digitalne storitve',
     body: [

@@ -40,20 +40,34 @@ export function solutionSlugForLabel(label: string): SolutionSlug | null {
 const BLOG_URL = 'https://blog.kumuluz.com/'
 
 const topNavRouteByLabel: Record<string, 'about'> = {
-  'Why Kumuluz?': 'about',
-  'Zakaj Kumuluz?': 'about',
+  Benefits: 'about',
+  Prednosti: 'about',
+}
+
+const topNavExternalHrefByLabel: Record<string, string> = {
+  Sunesis: 'https://sunesis.si/',
 }
 
 export function topNavHref(
   label: string,
   language: LanguageCode,
 ): string | null {
+  const externalHref = topNavExternalHrefByLabel[label]
+
+  if (externalHref) {
+    return externalHref
+  }
+
   const route = topNavRouteByLabel[label]
   return route ? buildPath(language, { name: route }) : null
 }
 
 export function contactHref(language: LanguageCode): string {
   return `${buildPath(language, { name: 'landing' })}#contact`
+}
+
+export function insightsHref(language: LanguageCode): string {
+  return `https://sunesis.si/${language}/insights`
 }
 
 export function footerLinkHref(

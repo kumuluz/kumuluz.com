@@ -95,7 +95,12 @@ export const slContent = {
         ],
       },
       {
-        label: 'Zakaj Kumuluz?',
+        label: 'Prednosti',
+        hasDropdown: false,
+        groups: [],
+      },
+      {
+        label: 'Sunesis',
         hasDropdown: false,
         groups: [],
       },

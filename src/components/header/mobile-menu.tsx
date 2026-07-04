@@ -150,12 +150,17 @@ export function MobileMenu({
                       )
                     }
 
+                    const href = topNavHref(item.label, language) ?? '#'
+                    const isExternal = href.startsWith('http')
+
                     return (
                       <a
                         className="flex w-full items-center justify-between border-b border-neutral-200 py-4 text-xl font-semibold text-neutral-900 transition-colors active:text-accent-700"
-                        href={topNavHref(item.label, language) ?? '#'}
+                        href={href}
                         key={item.label}
                         onClick={onClose}
+                        rel={isExternal ? 'noreferrer' : undefined}
+                        target={isExternal ? '_blank' : undefined}
                       >
                         {item.label}
                       </a>

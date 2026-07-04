@@ -95,7 +95,12 @@ export const enContent = {
         ],
       },
       {
-        label: 'Why Kumuluz?',
+        label: 'Benefits',
+        hasDropdown: false,
+        groups: [],
+      },
+      {
+        label: 'Sunesis',
         hasDropdown: false,
         groups: [],
       },
