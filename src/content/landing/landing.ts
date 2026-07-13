@@ -293,7 +293,7 @@ const enLanding = {
         address: [
           'SUNESIS d.o.o.',
           'Ulica gledališča BTC 2',
-          'Ljubljana',
+          '1000 Ljubljana',
           'Slovenia',
         ],
         email: 'info@sunesis.si',
@@ -648,7 +648,7 @@ const slLanding = {
         address: [
           'SUNESIS d.o.o.',
           'Ulica gledališča BTC 2',
-          'Ljubljana',
+          '1000 Ljubljana',
           'Slovenija',
         ],
         email: 'info@sunesis.si',
