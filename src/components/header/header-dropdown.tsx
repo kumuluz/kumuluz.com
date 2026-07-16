@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import { AnimatePresence, motion } from 'motion/react'
-import { accentVars } from '../accent-provider'
+import { accentClassName } from '../accent-provider'
 import { accentForPath } from '../../lib/accents'
 import { contactHref, dropdownLinkHref } from '../../lib/expertise-links'
 import { useLocation } from '../../lib/navigation'
@@ -90,10 +90,13 @@ export function HeaderDropdown({
                     return (
                       <motion.a
                         aria-current={isActive ? 'page' : undefined}
-                        className="group flex flex-col gap-2"
+                        className={`group flex flex-col gap-2 ${
+                          href !== '#'
+                            ? accentClassName(accentForPath(href))
+                            : ''
+                        }`}
                         href={href}
                         key={link.label}
-                        style={href !== '#' ? accentVars(accentForPath(href)) : undefined}
                         whileHover={{ x: 0 }}
                         transition={ITEM_SPRING}
                         variants={{

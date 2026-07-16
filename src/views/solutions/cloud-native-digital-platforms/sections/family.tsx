@@ -1,5 +1,5 @@
 import { motion } from 'motion/react'
-import { accentVars } from '../../../../components/accent-provider'
+import { accentClassName } from '../../../../components/accent-provider'
 import { Reveal, RevealGroup, revealItem } from '../../../../components/motion'
 import { familyProductLink, familyTitleRank } from '../../../../lib/accents'
 import { useLocation } from '../../../../lib/navigation'
@@ -77,9 +77,9 @@ export function FamilySection({
           return link ? (
             <motion.a
               {...motionProps}
+              className={`${className} ${accentClassName(link.accent)}`}
               href={link.href}
               key={item.title}
-              style={accentVars(link.accent)}
             >
               {content}
             </motion.a>

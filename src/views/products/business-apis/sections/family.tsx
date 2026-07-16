@@ -1,5 +1,5 @@
 import { motion } from 'motion/react'
-import { accentVars } from '../../../../components/accent-provider'
+import { accentClassName } from '../../../../components/accent-provider'
 import { Reveal, RevealGroup, revealItem } from '../../../../components/motion'
 import { productAccents } from '../../../../lib/accents'
 import { useLocation } from '../../../../lib/navigation'
@@ -56,10 +56,9 @@ export function FamilySection({
                 isActive
                   ? 'border-accent-400/70 bg-accent-700 ring-1 ring-accent-400/40'
                   : 'border-white/10 bg-white/[0.04] hover:border-accent-400/70 hover:bg-accent-500/10'
-              }`}
+              } ${accentClassName(productAccents[item.slug])}`}
               href={href}
               key={item.slug}
-              style={accentVars(productAccents[item.slug])}
               transition={{ duration: 0.2, ease: 'easeOut' }}
               variants={revealItem}
               whileHover={{ scale: 1.02 }}
