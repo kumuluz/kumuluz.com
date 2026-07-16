@@ -1,5 +1,4 @@
 import { ChevronDown } from 'lucide-react'
-import { motion } from 'motion/react'
 import { topNavHref } from '../../lib/expertise-links'
 import type { LanguageCode } from '../../lib/router'
 import type { HeaderProps, NavItem } from './types'
@@ -30,17 +29,17 @@ export function DesktopNavigation({
         }`
 
         const chevron = item.hasDropdown ? (
-          <motion.span
-            animate={{ rotate: isActive ? 180 : 0 }}
-            className="flex"
-            transition={{ type: 'spring', stiffness: 320, damping: 24 }}
+          <span
+            className={`flex transition-transform duration-300 ${
+              isActive ? 'rotate-180' : 'rotate-0'
+            }`}
           >
             <ChevronDown
               aria-hidden="true"
               className="size-4 shrink-0"
               strokeWidth={2.25}
             />
-          </motion.span>
+          </span>
         ) : null
 
         if (!opens) {
