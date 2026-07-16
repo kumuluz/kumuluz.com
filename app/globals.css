@@ -1,12 +1,8 @@
 @import 'tailwindcss';
 
-/* AccentProvider remaps the accent palette via var(--color-<name>-<step>) from
-   inline styles, which Tailwind's class scanner can't see — so unused palettes
-   (rose, emerald, …) would be tree-shaken away and the override would resolve
-   to nothing. Force-generating one utility per color/step keeps every palette
-   variable in the output so any Tailwind color name works as an accent. */
+/* Keep the palettes used by the CSP-safe accent classes in Tailwind's output. */
 @source inline(
-  "bg-{red,orange,amber,yellow,lime,green,emerald,teal,cyan,sky,blue,indigo,violet,purple,fuchsia,pink,rose,slate,gray,zinc,neutral,stone}-{50,100,200,300,400,500,600,700,800,900,950}"
+  "bg-{red,orange,emerald,blue,indigo,purple}-{50,100,200,300,400,500,600,700,800,900,950}"
 );
 
 /* Swappable accent palette. Utilities use `accent-*` (e.g. bg-accent-700) and
@@ -27,8 +23,7 @@
   --color-accent-950: var(--accent-950);
 }
 
-/* Default accent = blue. AccentProvider overrides these per-page by remapping
-   each step to another Tailwind palette (e.g. var(--color-emerald-700)). */
+/* Default accent = blue. Accent classes remap it without inline styles. */
 :root {
   --accent-50: var(--color-blue-50);
   --accent-100: var(--color-blue-100);
@@ -41,6 +36,90 @@
   --accent-800: var(--color-blue-800);
   --accent-900: var(--color-blue-900);
   --accent-950: var(--color-blue-950);
+}
+
+.accent-red {
+  --accent-50: var(--color-red-50);
+  --accent-100: var(--color-red-100);
+  --accent-200: var(--color-red-200);
+  --accent-300: var(--color-red-300);
+  --accent-400: var(--color-red-400);
+  --accent-500: var(--color-red-500);
+  --accent-600: var(--color-red-600);
+  --accent-700: var(--color-red-700);
+  --accent-800: var(--color-red-800);
+  --accent-900: var(--color-red-900);
+  --accent-950: var(--color-red-950);
+}
+
+.accent-orange {
+  --accent-50: var(--color-orange-50);
+  --accent-100: var(--color-orange-100);
+  --accent-200: var(--color-orange-200);
+  --accent-300: var(--color-orange-300);
+  --accent-400: var(--color-orange-400);
+  --accent-500: var(--color-orange-500);
+  --accent-600: var(--color-orange-600);
+  --accent-700: var(--color-orange-700);
+  --accent-800: var(--color-orange-800);
+  --accent-900: var(--color-orange-900);
+  --accent-950: var(--color-orange-950);
+}
+
+.accent-emerald {
+  --accent-50: var(--color-emerald-50);
+  --accent-100: var(--color-emerald-100);
+  --accent-200: var(--color-emerald-200);
+  --accent-300: var(--color-emerald-300);
+  --accent-400: var(--color-emerald-400);
+  --accent-500: var(--color-emerald-500);
+  --accent-600: var(--color-emerald-600);
+  --accent-700: var(--color-emerald-700);
+  --accent-800: var(--color-emerald-800);
+  --accent-900: var(--color-emerald-900);
+  --accent-950: var(--color-emerald-950);
+}
+
+.accent-blue {
+  --accent-50: var(--color-blue-50);
+  --accent-100: var(--color-blue-100);
+  --accent-200: var(--color-blue-200);
+  --accent-300: var(--color-blue-300);
+  --accent-400: var(--color-blue-400);
+  --accent-500: var(--color-blue-500);
+  --accent-600: var(--color-blue-600);
+  --accent-700: var(--color-blue-700);
+  --accent-800: var(--color-blue-800);
+  --accent-900: var(--color-blue-900);
+  --accent-950: var(--color-blue-950);
+}
+
+.accent-indigo {
+  --accent-50: var(--color-indigo-50);
+  --accent-100: var(--color-indigo-100);
+  --accent-200: var(--color-indigo-200);
+  --accent-300: var(--color-indigo-300);
+  --accent-400: var(--color-indigo-400);
+  --accent-500: var(--color-indigo-500);
+  --accent-600: var(--color-indigo-600);
+  --accent-700: var(--color-indigo-700);
+  --accent-800: var(--color-indigo-800);
+  --accent-900: var(--color-indigo-900);
+  --accent-950: var(--color-indigo-950);
+}
+
+.accent-purple {
+  --accent-50: var(--color-purple-50);
+  --accent-100: var(--color-purple-100);
+  --accent-200: var(--color-purple-200);
+  --accent-300: var(--color-purple-300);
+  --accent-400: var(--color-purple-400);
+  --accent-500: var(--color-purple-500);
+  --accent-600: var(--color-purple-600);
+  --accent-700: var(--color-purple-700);
+  --accent-800: var(--color-purple-800);
+  --accent-900: var(--color-purple-900);
+  --accent-950: var(--color-purple-950);
 }
 
 :root {

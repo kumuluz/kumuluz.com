@@ -1,6 +1,6 @@
 import type { LucideIcon } from 'lucide-react'
 import { motion } from 'motion/react'
-import { accentVars, type AccentColor } from '../accent-provider'
+import { accentClassName, type AccentColor } from '../accent-provider'
 import { revealItem } from '../motion'
 
 type CardCProps = {
@@ -25,8 +25,7 @@ export function CardC({
       href
         ? 'hover:border-accent-400/70 hover:bg-accent-500/10'
         : 'hover:bg-neutral-900'
-    }`,
-    style: href && accent ? accentVars(accent) : undefined,
+    } ${href && accent ? accentClassName(accent) : ''}`,
     transition: { duration: 0.2, ease: 'easeOut' },
     variants: revealItem,
     whileHover: { scale: 1.02 },
