@@ -171,6 +171,22 @@ body {
   background: #0a0a0a;
 }
 
+/* Keep viewport-reveal content hidden before its Web Animation starts.
+   These stylesheet rules preserve the strict CSP without inline styles. */
+[data-viewport-animation='reveal'],
+[data-viewport-animation='reveal-group'] > * {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-viewport-animation='reveal'],
+  [data-viewport-animation='reveal-group'] > * {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @keyframes marquee {
   from {
     transform: translate3d(0, 0, 0);
