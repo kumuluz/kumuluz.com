@@ -34,19 +34,25 @@ function useViewportAnimation<T extends HTMLElement>(
   }: ViewportAnimationOptions,
 ) {
   const ref = useRef<T>(null)
+  const hasAnimated = useRef(false)
 
   useEffect(() => {
     const host = ref.current
+    if (!host || hasAnimated.current) {
+      return
+    }
+
     const reducedMotion = window.matchMedia(
       '(prefers-reduced-motion: reduce)',
     ).matches
 
     if (
-      !host ||
       reducedMotion ||
       !('IntersectionObserver' in window) ||
       typeof host.animate !== 'function'
     ) {
+      host.removeAttribute('data-viewport-animation')
+      hasAnimated.current = true
       return
     }
 
@@ -64,6 +70,8 @@ function useViewportAnimation<T extends HTMLElement>(
           return
         }
 
+        host.removeAttribute('data-viewport-animation')
+        hasAnimated.current = true
         animations = targets.map((element, index) => {
           const animation = element.animate(keyframes, {
             delay: (delay + index * stagger) * 1000,
@@ -108,7 +116,7 @@ export function Reveal({ children, className, delay = 0 }: RevealProps) {
   })
 
   return (
-    <div className={className} ref={ref}>
+    <div className={className} data-viewport-animation="reveal" ref={ref}>
       {children}
     </div>
   )
@@ -124,7 +132,7 @@ export function RevealGroup({ children, className, delay = 0 }: RevealProps) {
   })
 
   return (
-    <div className={className} ref={ref}>
+    <div className={className} data-viewport-animation="reveal-group" ref={ref}>
       {children}
     </div>
   )
