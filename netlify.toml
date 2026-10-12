@@ -1,5 +1,5 @@
 [build]
-  command = "next build"
+  command = "npm run build"
   publish = "out"
 
 [[headers]]
@@ -9,6 +9,26 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), geolocation=(), microphone=(), payment=(), usb=()"
+
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=UTF-8"
+
+[[headers]]
+  for = "/llms-full.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=UTF-8"
+
+[[headers]]
+  for = "/agents.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=UTF-8"
+
+[[headers]]
+  for = "/docs/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=UTF-8"
 
 [[plugins]]
   package = "@netlify/plugin-csp-nonce"

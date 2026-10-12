@@ -208,6 +208,19 @@ export function Footer({ content, contact, language }: FooterProps) {
           <p className="text-sm text-neutral-500">
             {copyright.replace('{year}', String(year))}
           </p>
+          <nav
+            aria-label={
+              language === 'sl' ? 'Viri za AI agente' : 'AI agent resources'
+            }
+            className="flex flex-wrap justify-center gap-4 text-sm text-neutral-500"
+          >
+            <a className="transition-colors hover:text-white" href="/llms.txt">
+              {language === 'sl' ? 'Vsebine za AI (EN)' : 'AI discovery (EN)'}
+            </a>
+            <a className="transition-colors hover:text-white" href="/agents.md">
+              {language === 'sl' ? 'Vodnik za agente (EN)' : 'Agent guide (EN)'}
+            </a>
+          </nav>
           <div className="flex items-center gap-5">
             {socialLinks.map(({ key, label, href, Icon }) => (
               <a

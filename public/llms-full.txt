@@ -1,90 +1,750 @@
 # Kumuluz — Full machine-readable brief
 
-Kumuluz is an enterprise platform family developed and delivered by Sunesis. It
-helps organizations build governed platforms where AI agents, APIs, business
-capabilities, workflows, digital services and data work together.
+Kumuluz is a modern connected enterprise platform family developed and delivered by Sunesis. It connects AI agents, governed APIs, reusable business capabilities, cloud-native services, deterministic workflows and distributed data.
 
-This file is a curated, machine-readable product brief — not a copy of the full
-site. For canonical pages see https://kumuluz.com/sitemap.xml.
+Generated from the curated English Markdown documents linked in [llms.txt](https://kumuluz.com/llms.txt). Canonical HTML pages remain the authoritative product presentation. Examples are not promises of packaged integrations; deployment-specific scope and governance must be agreed with Sunesis.
 
-## Kumuluz in brief
+---
 
-- Enterprise platform family developed and delivered by Sunesis.
-- Main products: KumuluzAI Platform, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform and Kumuluz Crowdsensing.
-- Main solution areas: AgenticAI platforms, enterprise AI assistants, AI knowledge management, API management, cloud-native digital platforms, Business APIs and smart communities.
-- Designed for enterprise environments where governance, security, integration, auditability and production readiness matter.
-- Helps organizations connect AI agents, APIs, business capabilities, workflows, digital services and data.
+Source: https://kumuluz.com/docs/architecture.md
 
-## Homepage
+## Kumuluz architecture
 
-URL: https://kumuluz.com/en/
-Enterprise platforms for AgenticAI, APIs and digital services. Kumuluz helps
-organizations build governed AgenticAI platforms, API ecosystems, reusable
-Business APIs, cloud-native digital services and AI-enhanced data solutions.
+Kumuluz supports a connected, API-first enterprise architecture in which AI agents, digital channels, business operations, workflows and real-world data have distinct responsibilities. The architecture below describes the advertised relationships; it is not a mandatory deployment topology or a claim that every component is included in every implementation.
 
-## Products
+Canonical HTML: https://kumuluz.com/en/about/
 
-### KumuluzAI Platform
-URL: https://kumuluz.com/en/products/kumuluz-ai/
-Enterprise AgenticAI platform for building secure, governed and production-ready
-AI agents, assistants, RAG solutions and AI-powered business automation. Runs and
-governs agents, tools, model routing, approvals, auditability and cost visibility.
+### Architectural layers and product responsibilities
 
-### Kumuluz API
-URL: https://kumuluz.com/en/products/kumuluz-api/
-API management platform that exposes, manages, secures and monitors APIs across
-teams, partners, digital ecosystems and AI agents. Provides API cataloging,
-developer portals, gateway management, access control, MCP-oriented API exposure,
-contextual routing, LLM routing and token usage logging.
+1. **Users and channels.** Portals, mobile applications, partner systems, employee tools and conversational interfaces consume approved capabilities.
+2. **Agents and knowledge.** [KumuluzAI Platform](https://kumuluz.com/docs/kumuluz-ai.md) provides agent runtime and orchestration, enterprise RAG, tool integration, model routing and centralized governance. Knowledge retrieval preserves permissions and source traceability.
+3. **API and tool governance.** [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md) catalogs interfaces, manages consumers and subscriptions, applies gateway access policies, performs basic request checks and supports contextual routing. Its MCP server and MCP exposure patterns help agentic systems discover approved capabilities. LLM routing and token logging support visibility into AI-enabled API usage.
+4. **Business capabilities.** [Kumuluz Business APIs](https://kumuluz.com/docs/business-apis.md) encapsulate reusable operations such as customer lookup, order status, payments, onboarding, KYC, cases and notifications.
+5. **Services, connectors and workflows.** [Kumuluz Digital Platform](https://kumuluz.com/docs/digital-platform.md) supplies foundations for modular backend services, API-first interfaces, MCP-enabled tools, adapters and workflow implementation.
+6. **Enterprise systems.** Existing applications, databases and core systems remain behind controlled integration boundaries. ERP, CRM, billing and document systems are delivery-specific integration examples, not a guaranteed connector inventory.
+7. **Distributed data.** [Kumuluz Crowdsensing](https://kumuluz.com/docs/crowdsensing.md) collects observations from users, devices and sensors, processes them with privacy-aware patterns, and exposes insights through APIs, dashboards and smart services.
+8. **Operations.** Identity, configuration, deployment automation, logging, metrics, tracing, lifecycle management and auditability span the selected layers.
 
-### Kumuluz Business APIs
-URL: https://kumuluz.com/en/products/business-apis/
-Reusable, AgenticAI-ready and workflow-ready business capabilities exposed as
-agent-callable APIs for products, AI agents and workflows.
+### Agentic reasoning versus deterministic execution
 
-### Kumuluz Digital Platform
-URL: https://kumuluz.com/en/products/digital-platform/
-Cloud-native foundation for building digital services, APIs, connectors,
-MCP-enabled tools and deterministic workflows that applications and AI agents use.
+Agents can interpret intent, retrieve context, propose actions and call approved tools. Business-critical processes may instead require defined steps, validation, approval, retries, timeouts and compensation. The English content describes Temporal, Camunda or similar engines as workflow implementation options.
 
-### Kumuluz Crowdsensing
-URL: https://kumuluz.com/en/products/crowdsensing/
-Collects and processes distributed real-world data using privacy-aware
-processing, analytics and AI-enhanced insight generation for smart services and
-smart communities.
+An illustrative onboarding flow could use an agent to explain requirements and prepare context, Business APIs to submit documents and check status, and a workflow to enforce review and execute approved steps. Kumuluz API controls the exposed interfaces; Digital Platform supports implementation of services and connectors. The workflow, contracts, idempotency and compensation behavior must be designed for the specific process.
 
-## Solutions
+### Explicit trust boundaries
 
-Overview: https://kumuluz.com/en/solutions/
+- **Knowledge boundary:** access to an assistant does not imply access to every indexed document.
+- **Tool boundary:** agent permissions, input/output schemas and allowed operations constrain tool use; MCP discovery does not grant execution rights.
+- **Gateway boundary:** routing and basic request validation do not replace business rules or service-level authorization.
+- **Process boundary:** reasoning and recommendations do not bypass approvals or deterministic business execution.
+- **Data boundary:** collection, consent, anonymization, aggregation and onward use must be defined before sharing observations or AI context.
+- **Model boundary:** external providers, private models and hybrid routing require appropriate data-handling policies.
 
-- Agentic AI Platforms — https://kumuluz.com/en/solutions/agentic-ai-platforms/
-  Governed enterprise platforms where AI agents safely use enterprise knowledge,
-  APIs, tools, workflows and business systems.
-- Enterprise AI Assistants — https://kumuluz.com/en/solutions/enterprise-ai-assistants/
-  AI assistants for customers and employees without creating isolated AI silos.
-- AI Knowledge Management — https://kumuluz.com/en/solutions/ai-knowledge-management/
-  Make enterprise knowledge accessible through governed, source-aware AI and RAG.
-- API Management & API Economy — https://kumuluz.com/en/solutions/api-management/
-  Turn APIs into governed digital assets for teams, partners and AI agents.
-- Cloud-native Digital Platforms — https://kumuluz.com/en/solutions/cloud-native-digital-platforms/
-  Cloud-native platforms that support applications, workflows and AI agents.
-- Business APIs — https://kumuluz.com/en/solutions/business-apis/
-  Reusable business capabilities for digital products, AI agents and workflows.
-- Crowdsensing & Smart Communities — https://kumuluz.com/en/solutions/crowdsensing-smart-communities/
-  Distributed data and AI analytics for smart community services.
+Audit trails and operational visibility support review; they do not by themselves establish regulatory compliance or certification.
 
-## Why Kumuluz
+### Runtime and deployment direction
 
-URL: https://kumuluz.com/en/about/
-Kumuluz is designed for organizations that need secure, governed,
-integration-ready and production-ready platform foundations for enterprise AI,
-APIs, workflows, digital services and data-driven smart services.
+Digital Platform is framework-flexible and uses MicroProfile- and Jakarta EE-compatible technology patterns, with Quarkus preferred for new Java cloud-native projects. KumuluzEE belongs to earlier cloud-native heritage and is maintained where needed in existing environments, rather than being the primary foundation for new projects.
 
-## Delivered by Sunesis
+Deployment varies by product. KumuluzAI advertises dedicated single-tenant, cloud, hybrid and on-premise options with Kubernetes/OpenShift-oriented operation. Kumuluz API describes on-premise and SaaS models. Digital Platform describes cloud, hybrid and on-premise delivery; Crowdsensing describes cloud-native services and hybrid integration. These product-specific descriptions should not be flattened into an identical deployment promise for the whole family.
 
-Kumuluz is developed and delivered by Sunesis, a Slovenian enterprise software
-engineering and technology company. https://sunesis.si/en/
+### All seven solution entry points
 
-## Contact
+[Agentic AI platforms](https://kumuluz.com/en/solutions/agentic-ai-platforms/), [enterprise AI assistants](https://kumuluz.com/en/solutions/enterprise-ai-assistants/), [AI knowledge management](https://kumuluz.com/en/solutions/ai-knowledge-management/), [API management and API economy](https://kumuluz.com/en/solutions/api-management/), [cloud-native digital platforms](https://kumuluz.com/en/solutions/cloud-native-digital-platforms/), [Business APIs](https://kumuluz.com/en/solutions/business-apis/), and [crowdsensing and smart communities](https://kumuluz.com/en/solutions/crowdsensing-smart-communities/) describe different starting needs for this architecture.
 
-Request a demo or contact the Kumuluz team: https://kumuluz.com/en/#contact
+### Related documentation and discussion
+
+See [overview](https://kumuluz.com/docs/overview.md), [solutions](https://kumuluz.com/docs/solutions.md), [FAQ](https://kumuluz.com/docs/faq.md) and [company](https://kumuluz.com/docs/company.md).
+
+[Request an architecture-focused demo or contact the team](https://kumuluz.com/en/#contact). Share identity, data residency, integration, workflow and operational requirements so the proposed boundaries can be evaluated.
+
+---
+
+Source: https://kumuluz.com/docs/business-apis.md
+
+## Kumuluz Business APIs
+
+Kumuluz Business APIs provide a reusable business capability layer for digital products, partners, workflows and AI agents. They expose business-oriented operations rather than giving each application or agent direct, inconsistent access to backend systems.
+
+Canonical HTML: https://kumuluz.com/en/products/business-apis/
+
+Capabilities can wrap existing functionality, aggregate enterprise systems or implement new reusable services. The public catalogue explicitly presents the following as **example APIs**, not a guarantee that every named endpoint is preinstalled, available without implementation or suitable unchanged for every organisation.
+
+### Advertised business capability catalogue
+
+All seven domains and 49 API names below are explicitly advertised examples in the current English Business APIs catalogue. They are not inferred endpoint names or a fixed package inventory.
+
+#### Customer and identity
+
+Customer profiles, data, accounts, consent and lifecycle operations:
+
+- Customer profile API
+- Customer data API
+- User account API
+- Customer consent API
+- Customer status API
+- Customer lifecycle API
+- Customer eligibility API
+
+#### Products and catalogs
+
+Product/service information, pricing, availability and offers:
+
+- Product catalog API
+- Product details API
+- Pricing API
+- Availability API
+- Product recommendation API
+- Product configuration API
+- Offer API
+
+#### Orders and transactions
+
+Ordering, transaction handling, payments and confirmations:
+
+- Order API
+- Order status API
+- Transaction API
+- Payment initiation API
+- Payment status API
+- Confirmation API
+- Refund or cancellation API
+
+#### Subscriptions and billing
+
+Subscription-based services, financial interactions and renewals:
+
+- Subscription API
+- Subscription status API
+- Plan management API
+- Invoice API
+- Billing API
+- Renewal API
+- Payment due API
+
+#### KYC and onboarding
+
+Onboarding, identity verification, document collection and compliance-related processes:
+
+- Onboarding API
+- KYC process API
+- Identity verification API
+- Document submission API
+- Application status API
+- Compliance check API
+- Approval status API
+
+#### Cases, tasks and workflows
+
+Case management, task handling, assignment, escalation and process status:
+
+- Case API
+- Case status API
+- Task API
+- Task assignment API
+- Escalation API
+- Workflow status API
+- Approval API
+
+#### Notifications and communication
+
+Messages, reminders, communication preferences and handover:
+
+- Notification API
+- Email message API
+- SMS message API
+- Push notification API
+- Reminder API
+- Communication preference API
+- Conversation handover API
+
+### Supported design and delivery capabilities
+
+The advertised foundation includes reusable API contracts, domain-oriented capability modelling, consistent behavior, API-first development and versioning-ready structure.
+
+AI-tool readiness includes agent-callable interfaces, tool descriptions, input/output schemas, MCP-oriented exposure, tool permission models and agent-specific access policies. Workflow readiness includes Temporal activity patterns, Camunda service-task patterns, idempotency support, retries, compensation readiness, process visibility and long-running workflow support.
+
+Other capabilities include business-friendly abstraction of backend complexity, API/event-based integration, data transformation, backend orchestration, documentation and catalog readiness, access control integration, developer portal compatibility and lifecycle governance. Security patterns include authentication, authorization, OAuth2/OIDC compatibility, role-based access, service-to-service security and agent-to-tool authorization. Observability covers usage, agent/workflow invocation tracking, logging, errors and lifecycle planning.
+
+These are design capabilities and implementation patterns. Retry safety, idempotency and compensation must be defined for each operation rather than assumed from the existence of an API.
+
+### Use cases
+
+Business APIs support customer self-service portals, mobile apps, partner portals, digital commerce, subscriptions and onboarding. Agent scenarios include customer lookup, KYC assistance, order status, case preparation and service requests. Workflow scenarios include onboarding, KYC, approvals and other controlled long-running processes.
+
+Legacy core systems, ERP, CRM, billing, document systems and mainframes are example integration targets. A delivery-specific onboarding flow might expose document submission and application status while keeping approval in a workflow. This does not assert a preconfigured connector or a complete regulated onboarding process.
+
+### Architectural relationships
+
+Business APIs sit between digital channels, agents/workflow engines and enterprise systems. Integration services connect the business contracts to their underlying systems.
+
+[KumuluzAI](https://kumuluz.com/docs/kumuluz-ai.md) can use approved Business APIs as tools. [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md) can catalog, secure, document, expose and monitor them; existing API management platforms are also described as an option. [Digital Platform](https://kumuluz.com/docs/digital-platform.md) supports their cloud-native implementation and connectors. [Crowdsensing](https://kumuluz.com/docs/crowdsensing.md) insights can feed notifications, cases, tasks or customer interactions.
+
+Temporal, Camunda or similar engines can orchestrate deterministic steps using these APIs as activities, service tasks or connectors.
+
+### Governance and deployment boundaries
+
+Business operations require validation, authorization, business rules, data ownership and approval requirements. Agents may help prepare an action without being permitted to commit it. Invocation tracking should distinguish agent, user, workflow and system context.
+
+The content describes cloud-native implementation, hybrid integration and on-premise compatibility. Deployment, underlying systems, API inventory, contracts and operating responsibilities are delivery-specific. A KYC or compliance-check API does not itself establish legal compliance or certification.
+
+### Related documentation and next steps
+
+Read [overview](https://kumuluz.com/docs/overview.md), [architecture](https://kumuluz.com/docs/architecture.md), [solutions](https://kumuluz.com/docs/solutions.md), [FAQ](https://kumuluz.com/docs/faq.md) and [company](https://kumuluz.com/docs/company.md).
+
+[Request a Business APIs demo or contact the team](https://kumuluz.com/en/#contact) with the capabilities you repeatedly rebuild and the systems that own the relevant data.
+
+---
+
+Source: https://kumuluz.com/docs/company.md
+
+## Sunesis and Kumuluz
+
+Sunesis develops and delivers Kumuluz. Kumuluz is its family of reusable enterprise platform products and accelerators; Sunesis provides the architecture, implementation, integration and delivery expertise that adapts those foundations to an organisation's environment.
+
+Canonical HTML: https://kumuluz.com/en/about/
+
+Additional English context: [Kumuluz platforms and accelerators](https://kumuluz.com/en/kumuluz/).
+
+### Product foundations and tailored delivery
+
+The current family contains [KumuluzAI Platform](https://kumuluz.com/docs/kumuluz-ai.md), [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md), [Kumuluz Business APIs](https://kumuluz.com/docs/business-apis.md), [Kumuluz Digital Platform](https://kumuluz.com/docs/digital-platform.md) and [Kumuluz Crowdsensing](https://kumuluz.com/docs/crowdsensing.md).
+
+The advertised approach combines shared capabilities with project-specific engineering:
+
+- Enterprise architecture across AI agents, APIs, services, workflows, integrations and data platforms.
+- Implementation and integration with existing systems, identity providers, APIs and data sources.
+- Cloud-native and DevOps delivery involving containers, Kubernetes/OpenShift, CI/CD, automation and observability.
+- AgenticAI delivery covering agents, assistants, RAG, controlled tools, approvals and auditability.
+- API and workflow delivery covering API ecosystems, reusable Business APIs and Temporal/Camunda implementation patterns.
+- Evolution from a focused use case into broader platform adoption.
+
+The distinction matters: product capabilities provide a reusable starting point, while configuration, interfaces, process semantics, security policies and operational responsibilities are determined for the delivery.
+
+### Enterprise use and research context
+
+The English landing content names banking, insurance, aviation maintenance and enterprise services as deployment contexts, including OTP banka, Generali, Prva zavarovalnica, Zavarovalniska skupina Sava and Adria Tehnika. These are advertised experience references, not evidence that every organisation uses every current product or capability.
+
+Crowdsensing is described as used in the Green.Dat.AI Horizon Europe context for AI-ready data spaces and sustainable data analytics. That research context should not be interpreted as a general product certification, a quantified energy saving or an identical implementation available for every project.
+
+Typical application areas include governed enterprise agents, employee knowledge access, partner APIs, customer portals, reusable onboarding and payment capabilities, modernization and smart community data services. ERP, CRM, document and billing systems are delivery-specific integration examples rather than an assertion of universal preconfigured connectors.
+
+### Cloud-native heritage and current direction
+
+KumuluzEE is an earlier Sunesis microservice framework. The English ecosystem page records its Java Duke's Choice Award at JavaOne in 2015. This is historical recognition, not certification of the current five-product family.
+
+The current Digital Platform direction is framework-flexible, MicroProfile/Jakarta EE-compatible and Quarkus-first for new Java cloud-native projects. KumuluzEE remains part of the historical story and is maintained where needed for existing environments, rather than serving as the primary foundation for new projects. No deprecation or licensing conclusion follows from that distinction.
+
+### Governance and engagement boundaries
+
+Sunesis describes security, identity, controlled tool/API access, auditability, observability and human oversight as enterprise architecture concerns from the beginning. The customer environment determines the concrete policies, data sources, deployment model and approval requirements.
+
+Public descriptions do not define licenses, regulatory certifications, contractual service levels, support commitments or measured performance guarantees. Those matters require explicit agreement rather than inference from words such as enterprise-ready or cloud-native.
+
+### Related documentation and contact
+
+Read [overview](https://kumuluz.com/docs/overview.md), [architecture](https://kumuluz.com/docs/architecture.md), [solutions](https://kumuluz.com/docs/solutions.md) and [product selection FAQ](https://kumuluz.com/docs/faq.md).
+
+[Request a demo or contact Sunesis through Kumuluz](https://kumuluz.com/en/#contact). Share business goals, current systems, constraints and possible starting use cases for a focused discussion.
+
+---
+
+Source: https://kumuluz.com/docs/crowdsensing.md
+
+## Kumuluz Crowdsensing
+
+Kumuluz Crowdsensing is an AI-enhanced platform for collecting, processing and interpreting distributed real-world data. It connects observations from people, mobile applications, IoT devices, sensors, infrastructure and enterprise systems with analytics, smart services and decision support.
+
+Canonical HTML: https://kumuluz.com/en/products/crowdsensing/
+
+Its AI role includes background data analysis, not only conversational interaction. Raw signals need validation, aggregation, interpretation and responsible handling before they become useful context or actions.
+
+### Supported capability areas
+
+- **Distributed data collection:** observations, device signals, user input and events from distributed sources.
+- **Crowdsensing data processing:** validation, cleaning, aggregation and transformation into structured datasets.
+- **AI algorithms and analytics:** anomaly detection, pattern recognition, prediction/forecasting, segmentation, recommendation support and intelligent interpretation.
+- **Data quality improvement:** validation, noise reduction, duplicate detection and reliability scoring.
+- **Privacy-aware data handling:** anonymization, aggregation, consent-aware processing and responsible use patterns.
+- **Geolocation and context awareness:** location-related observations and contextual services.
+- **Segmentation and personalization:** group behaviors, locations or needs for relevant analysis and communication.
+- **Dashboards and visualization:** maps, reports, trends and operational views.
+- **Alerts, triggers and workflows:** connect observations or analytical insights to notifications and service actions.
+- **API and integration readiness:** expose data, insights, events and platform capabilities to other systems.
+- **AI agent integration:** provide structured real-world context for agents and assistants.
+
+Analytical methods and processing rules are configured for the data and use case. Prediction and recommendations support decisions; they are not promises of accuracy or fully automatic execution.
+
+### Use cases
+
+Advertised scenarios include smart cities and communities, IoT-enabled data collection, AI-enhanced analytics services, personalized/contextual communication, field data collection and AI-ready data services.
+
+Examples include citizen feedback, infrastructure reporting, environmental observations, mobility signals, field-team reports, energy/utility observations, agriculture sensor data, customer feedback and enterprise asset observations. These are use-case directions rather than assertions that every sensor protocol, mobile application or industry backend is supplied.
+
+A delivery-specific infrastructure reporting service could collect user observations, aggregate location-related signals, display trends and create a reviewed service task. The data collection purpose, consent, visibility and action thresholds need to be designed for that service.
+
+### Architectural relationships
+
+The advertised architecture has data-source, collection, processing/privacy, AI/analytics, visualization/insight, API/integration and smart-service layers.
+
+[KumuluzAI Platform](https://kumuluz.com/docs/kumuluz-ai.md) can use approved data and insights as context. [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md) can expose, secure and monitor the resulting data or analytics APIs. [Digital Platform](https://kumuluz.com/docs/digital-platform.md) can supply services, connectors and workflows around the solution. [Business APIs](https://kumuluz.com/docs/business-apis.md) can connect insights to notifications, cases, tasks, service requests and customer interactions.
+
+An insight becoming available to an agent does not authorize the agent to disclose personal data or execute a business action. The data-sharing and action boundaries remain separate.
+
+### Green.Dat.AI research context
+
+The English product content states that Kumuluz Crowdsensing has been used in the Green.Dat.AI Horizon Europe context, connecting distributed data collection with AI-ready data spaces and sustainable data analytics. It discusses energy-efficient analytics context and cross-industry pilots such as smart energy, agriculture, mobility and banking.
+
+This is an advertised research and innovation context, not a claim that every production delivery includes those pilots, achieves measured energy savings or holds a certification.
+
+### Deployment and governance boundaries
+
+The product describes cloud-native deployment, hybrid integration with existing platforms, API-based integration, analytics pipelines and monitoring of data flows, events, alerts and service behavior.
+
+Privacy-aware processing is an implementation capability, not automatic legal compliance. Collection purpose, consent, anonymization, aggregation, access rights and onward use must be defined for the selected data. Sensitive location or behavior information requires particular attention when reused for personalization or agent context.
+
+Actual data connectors, analytics, operating responsibilities and commercial terms depend on scope. Public descriptions do not establish licenses, service-level agreements, measured performance or blanket out-of-the-box integrations.
+
+### Related documentation and next steps
+
+Read [overview](https://kumuluz.com/docs/overview.md), [architecture](https://kumuluz.com/docs/architecture.md), [solutions](https://kumuluz.com/docs/solutions.md), [FAQ](https://kumuluz.com/docs/faq.md) and [company](https://kumuluz.com/docs/company.md).
+
+[Request a Crowdsensing demo or contact the team](https://kumuluz.com/en/#contact) with the observations you need, intended service outcomes and privacy constraints.
+
+---
+
+Source: https://kumuluz.com/docs/digital-platform.md
+
+## Kumuluz Digital Platform
+
+Kumuluz Digital Platform is a cloud-native, API-first and AI-agent-ready engineering foundation for enterprise digital services. It supports development of modular backend services, APIs, integration connectors, MCP-enabled tools and deterministic workflow orchestrations used by applications, partners and agents.
+
+Canonical HTML: https://kumuluz.com/en/products/digital-platform/
+
+It is framework-flexible, with MicroProfile- and Jakarta EE-compatible technology patterns and Quarkus as the preferred foundation for new Java cloud-native projects.
+
+### Core platform capability catalogue
+
+#### Cloud-native architecture
+
+Container-ready services, Kubernetes-oriented deployment, scalable backend design, resilience/availability patterns, environment portability and cloud, hybrid or on-premise deployment support.
+
+#### Framework-flexible, Quarkus-first
+
+MicroProfile-compatible architecture, Jakarta EE-compatible development principles, runtime flexibility and Kubernetes-oriented design. Quarkus is preferred for new Java cloud-native work; the platform is not described as requiring a single runtime for every environment.
+
+#### Service and API development
+
+Cloud-native services, API-first design, business capability APIs, internal/external interfaces, agent-callable service patterns, service contracts, versioning and reusable APIs.
+
+#### MCP tools and agent integration
+
+MCP-compatible tool patterns, agent-callable APIs, tool-safe service design, metadata and schemas, integration adapters, controlled backend access and reusable agent skills.
+
+#### Workflow orchestration
+
+Temporal and Camunda patterns, long-running processes, human-in-the-loop workflows, service tasks, activity execution, retry/compensation patterns and process observability.
+
+#### Microservice foundations
+
+Modular service design, domain-driven service boundaries, independent evolution, service communication, data ownership considerations and incremental modernization.
+
+#### Enterprise integration readiness
+
+Legacy and enterprise application integration, APIs, event-driven patterns, connector/adapter development, data exchange workflows, partner connectivity and backend-for-frontend patterns.
+
+#### Security and identity integration
+
+Authentication/authorization patterns, OAuth2/OpenID Connect support patterns, enterprise identity integration, role-based access, API/tool security, service-to-service security and secure session/token handling.
+
+#### DevOps and deployment readiness
+
+CI/CD-ready application structure, containers, Kubernetes patterns, environment configuration, automated release workflows, infrastructure/platform integration and production deployment support.
+
+#### Observability and operations
+
+Logging, metrics, monitoring, tracing readiness, OpenTelemetry-oriented observability, health/readiness probes, workflow/service-call visibility, dashboards and operational supportability.
+
+#### Reusable platform patterns
+
+Architecture templates, standardized backends, shared services, reusable APIs, tools/connectors, workflows, security/deployment templates and delivery accelerators.
+
+### Agent-ready and reusable building blocks
+
+The advertised agent-ready building blocks are **agent-ready services**, **tool-safe APIs**, **MCP-enabled tools**, **connectors and adapters**, **workflow orchestration**, and **reusable skills and capabilities**. These give agents approved interfaces instead of direct, uncontrolled backend access.
+
+The product also advertises examples of reusable digital capabilities:
+
+- User and profile services
+- Customer data APIs
+- Product catalog APIs
+- Order and subscription services
+- Notification services
+- Integration services
+- Business workflow services
+- Agent tools and skills
+
+These describe capabilities that teams can create and reuse; they are not a blanket promise of preconfigured modules or enterprise connectors.
+
+### Use cases and modernization paths
+
+The current English catalogue names seven delivery scenario groups:
+
+| Advertised scenario                    | Explicit examples                                                                                                                                                                                                                            |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enterprise digital platforms           | Customer self-service platforms, partner portals, business portals, internal enterprise platforms, digital service platforms and multi-channel digital solutions.                                                                            |
+| AI-agent-ready service layers          | Agent-callable services, tool-safe APIs, MCP-enabled tools, agent integration adapters, agentic workflow services and controlled backend access layers.                                                                                      |
+| API-first backend platforms            | API-based backend systems, digital channel backends, mobile application backends, partner API platforms, internal service platforms and business capability APIs.                                                                            |
+| Workflow orchestration platforms       | Temporal-based workflows, Camunda-based workflows, approval workflows, onboarding workflows, case management workflows, long-running business processes and human-in-the-loop process automation.                                            |
+| Cloud-native application modernization | Legacy system API enablement, modularization of monolithic systems, strangler pattern modernization, AI-readiness for legacy systems, containerization readiness, cloud-native migration foundations and incremental modernization roadmaps. |
+| Microservice-based digital solutions   | Domain-driven microservices, modular backend architectures, event-enabled services, service-based business platforms, independently deployable components and scalable distributed applications.                                             |
+| Reusable digital capabilities          | User/profile services, customer data APIs, product catalog APIs, order/subscription services, notification services, integration services, business workflow services and agent tools/skills, detailed above.                                |
+
+These are advertised scenarios and examples, not additional named flagship products or a list of modules automatically supplied in every deployment.
+
+Modernization patterns include API enablement, tool-safe service design, MCP-enabled exposure, modularization, workflow boundaries, the strangler pattern, integration modernization and platform consolidation. Existing systems can remain in place while selected functionality is wrapped or replaced incrementally.
+
+For example, a delivery-specific customer portal could use reusable customer APIs, integration adapters and an approval workflow around an existing billing system. The billing integration, business rules and migration plan require project design rather than being assumed available out of the box.
+
+### Architectural relationships
+
+Digital channels and agents consume an API/tool layer backed by modular services. A workflow orchestration layer executes deterministic steps. Integration connectors reach enterprise systems, while deployment, security, configuration, CI/CD and observability form the operations layer.
+
+[KumuluzAI](https://kumuluz.com/docs/kumuluz-ai.md) runs and governs agents that use these services and tools. [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md) governs API exposure and consumer access. [Business APIs](https://kumuluz.com/docs/business-apis.md) organize reusable business capabilities on the backend. [Crowdsensing](https://kumuluz.com/docs/crowdsensing.md) can contribute data and insights to digital applications.
+
+### Governance, deployment and heritage
+
+Agents can gather context or suggest actions, while services and workflow engines enforce critical business execution. Tool contracts, validation, authorization, idempotency, approvals and auditability must be implemented for the process. Gateway or MCP access does not remove those responsibilities.
+
+The product describes cloud, hybrid and on-premise delivery, container/Kubernetes-oriented deployment and OpenShift-compatible architecture. Exact infrastructure and operational responsibilities depend on the delivery.
+
+#### KumuluzEE and the current technology direction
+
+The current English Digital Platform page identifies KumuluzEE as an earlier microservice framework, maintained where needed in existing environments, but not the primary foundation for new projects. The new-project direction is framework-flexible and Quarkus-first.
+
+This distinction does not establish deprecation, licensing terms, certification or performance guarantees.
+
+### Related documentation and next steps
+
+See [overview](https://kumuluz.com/docs/overview.md), [architecture](https://kumuluz.com/docs/architecture.md), [solutions](https://kumuluz.com/docs/solutions.md), [FAQ](https://kumuluz.com/docs/faq.md) and [company](https://kumuluz.com/docs/company.md).
+
+[Request a Digital Platform demo or contact the team](https://kumuluz.com/en/#contact) with your application boundaries, existing systems and modernization goals.
+
+---
+
+Source: https://kumuluz.com/docs/faq.md
+
+## Kumuluz product selection FAQ
+
+This FAQ explains product roles and selection boundaries using the public English product and solution descriptions. It is a discovery aid, not a deployment specification or commercial offer.
+
+Canonical HTML: https://kumuluz.com/en/
+
+### Which product should I start with?
+
+Choose [KumuluzAI Platform](https://kumuluz.com/docs/kumuluz-ai.md) for governed agents, assistants and enterprise knowledge retrieval. Choose [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md) to discover, expose, secure and monitor existing APIs. Choose [Kumuluz Business APIs](https://kumuluz.com/docs/business-apis.md) when repeated business functions need reusable contracts. Choose [Kumuluz Digital Platform](https://kumuluz.com/docs/digital-platform.md) to build services, connectors and workflows. Choose [Kumuluz Crowdsensing](https://kumuluz.com/docs/crowdsensing.md) when the core problem is collecting and interpreting distributed real-world data.
+
+These roles can be combined, but adopting one product does not require adopting the entire family.
+
+### Is KumuluzAI just a chatbot?
+
+No. Its advertised role includes agent runtime and orchestration, RAG, tool calling, model routing, identity-aware access, guardrails, human approvals, auditability and usage/cost visibility. Conversational assistants are useful starting solutions on this broader foundation.
+
+AI Smart Assistant focuses on customer and employee assistance, support and digital service navigation. AI Knowledge Mentor focuses on internal documents, procedures, onboarding and learning. They are named AI assistants and knowledge accelerators, not extra top-level family products.
+
+### How do Kumuluz API and Business APIs differ?
+
+Kumuluz API manages the API ecosystem: catalogs, documentation, consumers, subscriptions, access policies, gateways, change visibility and analytics. Business APIs provide the actual reusable business operations, such as customer data, order status, invoicing, KYC, onboarding or notifications. Business APIs may be governed by Kumuluz API or an existing API management platform.
+
+### How does Digital Platform differ from Business APIs?
+
+Digital Platform supplies engineering foundations for services, integrations, MCP-enabled tools, workflow implementation, deployment and operations. Business APIs organize reusable business capabilities and contracts that can be implemented on those foundations. One concerns the platform foundation; the other concerns business meaning and reuse.
+
+### Does MCP support make every backend safe for an agent?
+
+No. MCP-oriented interfaces can make approved capabilities discoverable and callable, but authorization, tool schemas, input validation, least privilege, business rules and auditability remain necessary. Kumuluz API also advertises its own MCP server for interaction with the API management platform itself. That is distinct from exposing a selected business API as an agent tool.
+
+### Can AI replace deterministic workflows?
+
+Not for every process. Agents can interpret intent, retrieve information and prepare actions. Critical processes can use Temporal, Camunda or similar workflow engines for defined steps, human approval, retries and compensation. Integration patterns do not mean those engines are automatically included or configured.
+
+### Are all integrations ready out of the box?
+
+The public content supports integration with enterprise APIs, identity providers, data sources and applications. ERP, CRM, billing, document systems and core systems are example integration targets. Exact connectors, mappings, supported versions and implementation responsibilities must be confirmed for the delivery.
+
+### Where can the products run?
+
+Deployment is product-specific. KumuluzAI describes dedicated single-tenant environments and cloud, hybrid or on-premise deployment. Kumuluz API describes on-premise and SaaS models. Digital Platform describes cloud, hybrid and on-premise implementation, with container/Kubernetes and OpenShift-oriented architecture. Crowdsensing describes cloud-native deployment and hybrid integration. Discuss the selected product and data requirements rather than assuming one deployment model for everything.
+
+### How does KumuluzEE relate to the current Digital Platform?
+
+KumuluzEE is part of the earlier cloud-native microservice heritage, maintained where needed for existing environments. It is not the primary technology foundation for new Digital Platform projects; those follow a framework-flexible, Quarkus-first direction. This distinction does not establish deprecation or licensing status.
+
+### Does privacy-aware processing guarantee compliance?
+
+No. Crowdsensing advertises consent-aware processing, anonymization and aggregation patterns. KumuluzAI advertises permission-aware knowledge, sensitive-data handling and governance. These support responsible implementation but do not themselves establish certification, compliance, approved retention or lawful processing for a particular organisation.
+
+### What should be confirmed before procurement or delivery?
+
+Confirm required APIs and tools, model strategy, source permissions, integration scope, deployment, residency, human approvals, workflow semantics, operational ownership and commercial terms. The public pages do not establish specific licenses, certifications, service-level agreements or measured performance guarantees.
+
+### Related documentation and contact
+
+Read [overview](https://kumuluz.com/docs/overview.md), [architecture](https://kumuluz.com/docs/architecture.md), [solutions](https://kumuluz.com/docs/solutions.md) and [Sunesis and Kumuluz](https://kumuluz.com/docs/company.md).
+
+[Request a demo or contact the team](https://kumuluz.com/en/#contact) to evaluate the right starting scope.
+
+---
+
+Source: https://kumuluz.com/docs/kumuluz-ai.md
+
+## KumuluzAI Platform
+
+KumuluzAI Platform is an enterprise AgenticAI foundation for building, managing and operating AI agents, assistants, retrieval-augmented generation (RAG) solutions and AI-enabled business applications. It combines reusable knowledge, tools, model access and governance rather than creating a separate AI stack for each use case.
+
+Canonical HTML: https://kumuluz.com/en/products/kumuluz-ai/
+
+### Supported platform capabilities
+
+- **Agent runtime and orchestration:** tool-using agents, multi-step workflows, task planning, reusable agent templates and lifecycle management.
+- **Enterprise knowledge and RAG:** document ingestion and indexing, enterprise knowledge connectors, vector search, semantic retrieval, source attribution, permission-aware access and knowledge-base management.
+- **Tool and system integration:** a tool registry, API integration, function/tool calling, MCP-ready integration patterns, least-privilege access and approval-controlled execution.
+- **Model gateway and routing:** model-provider abstraction, external and self-hosted model routing, selection policies, fallback strategies, hybrid LLM deployment, budget controls and usage tracking.
+- **Security and guardrails:** prompt shielding, input/output validation, sensitive-data and PII handling, policy-based tool access, moderation patterns and safe execution boundaries.
+- **Identity and access control:** enterprise identity integration, user and role-based access, agent permissions, tool authorization, knowledge permissions and identity propagation.
+- **Human-in-the-loop workflows:** approvals, review checkpoints, escalation, manual override and traceable sensitive-action decisions.
+- **Auditability and traceability:** session history, tool-call logs, retrieval traces, prompt/response tracking, user context and decision/approval history.
+- **Observability and cost control:** usage monitoring, token/model visibility, cost tracking, error visibility, operational dashboards and improvement feedback.
+- **Management console:** centralized management of agents, tools, knowledge sources, prompts, configuration, policies, approvals, usage and audit views.
+
+These are advertised capability areas. The model strategy, knowledge connectors, tools, policies and operational configuration are selected for the implementation.
+
+### Named assistants and knowledge accelerators
+
+#### AI Smart Assistant
+
+AI Smart Assistant helps users find information, ask questions, navigate digital services and complete simple supported tasks through conversation. Advertised use cases include customer support, employee assistance, digital service navigation, internal helpdesk support, FAQ automation and first AI deployments. It can be used in customer channels, employee portals, support environments or digital products.
+
+#### AI Knowledge Mentor
+
+AI Knowledge Mentor makes internal documentation, procedures, policies and learning materials easier to access and understand. Advertised use cases include employee onboarding, knowledge management, training and enablement, policy guidance and document-heavy business processes.
+
+The English solutions index lists **AI Smart Assistant** alongside KumuluzAI for enterprise AI assistants, and uses the shorter label **Knowledge Mentor** alongside KumuluzAI for AI knowledge management. The product page describes the knowledge accelerator as **AI Knowledge Mentor**. These references identify focused solution building blocks, not additional standalone flagship products.
+
+These are focused assistant solutions and accelerators, not additional top-level products. They can be delivered as standalone assistant implementations or as part of a broader KumuluzAI platform roadmap.
+
+### Use cases
+
+KumuluzAI supports enterprise agents, agentic process assistance, RAG-based knowledge services, customer/employee assistants and AI capabilities embedded in existing applications. Industry examples include claims support in insurance, KYC assistance in banking, case preparation in public administration, field-support knowledge in utilities and product/service knowledge in manufacturing.
+
+A delivery-specific claims assistant, for example, could retrieve approved policy guidance and call a case-status tool. Whether it can initiate an operation, and whether approval is required, depends on the configured permissions and business process. This example does not promise a ready-made integration with every claims system.
+
+### Architectural relationships
+
+The platform sits between channels, enterprise knowledge, models and business tools. Its architecture includes user/channel, agent orchestration, knowledge, tool integration, model gateway, and governance/control layers.
+
+[Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md) can govern the APIs and tools agents use. [Business APIs](https://kumuluz.com/docs/business-apis.md) provide reusable business operations behind those tools. [Digital Platform](https://kumuluz.com/docs/digital-platform.md) supports implementation of services, connectors, MCP-enabled tools and deterministic workflows. [Crowdsensing](https://kumuluz.com/docs/crowdsensing.md) can contribute structured real-world data and insights.
+
+Temporal, Camunda or similar engines can execute critical process steps while an agent gathers context or proposes actions. Workflow engine selection and integration are implementation decisions, not automatic inclusions.
+
+### Deployment and governance boundaries
+
+The English content describes dedicated single-tenant deployment, cloud/hybrid/on-premise options, Kubernetes/OpenShift-ready environments and external, private or hybrid model strategies.
+
+Knowledge access must respect source permissions. Tool execution must respect user context, allowed operations, validation and approvals. Model routing requires appropriate data-handling policies. Auditability and guardrails support governance but do not guarantee that generated answers are correct or establish regulatory certification.
+
+Exact integrations, residency arrangements, operational ownership, licensing and service levels require confirmation. Public capability descriptions are not quantified performance or universal connector guarantees.
+
+### Related documentation and next steps
+
+Read [overview](https://kumuluz.com/docs/overview.md), [architecture](https://kumuluz.com/docs/architecture.md), [solutions](https://kumuluz.com/docs/solutions.md), [FAQ](https://kumuluz.com/docs/faq.md) and [company](https://kumuluz.com/docs/company.md).
+
+[Request a KumuluzAI demo or contact the team](https://kumuluz.com/en/#contact) with the users, knowledge sources, tools and approval boundaries for your first use case.
+
+---
+
+Source: https://kumuluz.com/docs/kumuluz-api.md
+
+## Kumuluz API
+
+Kumuluz API is an API management and API economy platform for exposing, managing, securing and monitoring APIs across internal teams, partners, applications and AI agents. It is the governance and access layer for an API ecosystem, not the business implementation behind every endpoint.
+
+Canonical HTML: https://kumuluz.com/en/products/kumuluz-api/
+
+### Supported capability areas
+
+- **API catalog and documentation:** register and discover APIs, specifications, ownership, consumers and reusable capabilities.
+- **Developer and consumer portal:** self-service discovery, documentation, access requests and subscription management for internal and external consumers.
+- **API gateway management:** centralized routing, authentication, access policies, traffic control and monitoring.
+- **AI agent and MCP integration:** structured, discoverable exposure of approved APIs and integration with agentic platforms.
+- **Contextual routing and request checks:** route requests by context, target capability or policy, with basic structure, parameter and access checks before backend execution.
+- **LLM routing and token logging:** route selected requests to LLM endpoints and record token consumption for usage and cost visibility.
+- **Access control and policies:** consumer management, access plans, subscriptions, API keys, quotas and permissions.
+- **Sandbox environments:** exploration and integration testing before production use.
+- **Change and version management:** understand consumers, dependencies and change impact before evolving interfaces.
+- **Monitoring and analytics:** API traffic, response behavior, usage trends, consumer activity and agent-enabled consumption.
+- **B2B integration support:** visibility and control over partner API integrations.
+- **API economy enablement:** expose APIs as reusable business assets for digital channels, partners and ecosystem services.
+
+Access plans and service-level expectations are management concerns; the public description does not itself establish a contractual SLA.
+
+### MCP and AI gateway responsibilities
+
+The English content distinguishes two MCP-related capabilities:
+
+1. Selected APIs and business capabilities can be exposed through MCP server patterns for governed agent discovery and tool use.
+2. The **Kumuluz API MCP server** can expose the API management platform's own capabilities to agentic systems.
+
+These are not the same interface or permission scope. Agent integration also includes contextual routing, basic request validation, tool-boundary policies, LLM routing and usage/token logging. Discoverability does not make every operation authorized, and gateway checks do not replace domain-level validation.
+
+### Use cases and consumer experience
+
+Typical starting scenarios are an enterprise API catalog, a partner API ecosystem, an AI agent tool gateway, MCP-enabled exposure, gateway access control, API change governance and API economy initiatives.
+
+The onboarding experience can include API discovery, documentation, controlled access requests, subscription approval, API key provisioning and sandbox exploration. This gives developers, partners and agent integration teams a structured way to consume capabilities.
+
+The English content describes use in banking, insurance, enterprise services and aviation maintenance. A delivery-specific partner onboarding programme could catalog selected APIs and grant access after review; a banking integration programme could use ownership and dependency information to plan changes. These examples do not prove that every backend connector or industry workflow is included.
+
+### Architectural relationships
+
+API providers may include microservices, legacy applications, cloud services, business systems and LLM endpoints. Management and consumer portal layers organize discovery and access. The gateway enforces routing and policies. Agent/MCP and LLM routing layers support AI-related consumption, while analytics and governance track usage and change impact.
+
+[KumuluzAI Platform](https://kumuluz.com/docs/kumuluz-ai.md) can use managed APIs as approved tools. [Business APIs](https://kumuluz.com/docs/business-apis.md) supply reusable business operations. [Digital Platform](https://kumuluz.com/docs/digital-platform.md) supports the services and connectors that provide them. [Crowdsensing](https://kumuluz.com/docs/crowdsensing.md) data and analytics can also be exposed through managed APIs.
+
+Kumuluz API does not replace agent runtime, enterprise knowledge retrieval, backend business logic or deterministic workflow orchestration.
+
+### Deployment and governance boundaries
+
+The product describes on-premise and SaaS deployment models, modular adoption, separate management/developer experiences, enterprise security integration and operational monitoring.
+
+API owners must define contracts, consumer permissions, versions and supported operations. Backends remain responsible for business rules and data authorization. Model routing requires appropriate provider and data-handling policies. Logs support visibility, not automatic compliance certification.
+
+Actual gateway configuration, identities, connectors, token accounting and commercial terms depend on scope. No blanket out-of-the-box integrations, measured performance, license or service-level commitments should be inferred.
+
+### Related documentation and next steps
+
+See [overview](https://kumuluz.com/docs/overview.md), [architecture](https://kumuluz.com/docs/architecture.md), [solutions](https://kumuluz.com/docs/solutions.md), [FAQ](https://kumuluz.com/docs/faq.md) and [company](https://kumuluz.com/docs/company.md).
+
+[Request a Kumuluz API demo or contact the team](https://kumuluz.com/en/#contact) with your API inventory, consumer groups and governance requirements.
+
+---
+
+Source: https://kumuluz.com/docs/overview.md
+
+## Kumuluz platform overview
+
+Kumuluz is the Sunesis family of enterprise platforms and accelerators for governed AI agents, API ecosystems, reusable business capabilities, cloud-native digital services and distributed real-world data. Its purpose is to provide shared foundations rather than a separate technology stack for every new application or AI experiment.
+
+Canonical HTML: https://kumuluz.com/en/
+
+### The current five-product family
+
+| Product                                         | Primary role                                                                                          | Typical starting point                                                         |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| [KumuluzAI Platform](https://kumuluz.com/docs/kumuluz-ai.md)             | Build, run and govern agents, assistants, enterprise knowledge retrieval and tool use.                | A customer assistant, employee knowledge assistant or governed agent workflow. |
+| [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md)                   | Discover, expose, secure, manage and monitor APIs for applications, partners and agents.              | API inventory, developer onboarding, partner access or an agent tool gateway.  |
+| [Kumuluz Business APIs](https://kumuluz.com/docs/business-apis.md)       | Reuse business operations across products, workflows and AI agents.                                   | Customer data, orders, payments, onboarding, cases or notifications.           |
+| [Kumuluz Digital Platform](https://kumuluz.com/docs/digital-platform.md) | Engineer cloud-native services, APIs, connectors, tools and deterministic workflows.                  | Modernize a backend or establish foundations for multiple digital products.    |
+| [Kumuluz Crowdsensing](https://kumuluz.com/docs/crowdsensing.md)         | Collect and process distributed observations with privacy-aware processing and AI-enhanced analytics. | Smart community services, field observations, IoT data or contextual services. |
+
+These are complementary roles, not a requirement to deploy all five products. A focused use case can grow into broader platform adoption as reuse and governance needs become clearer.
+
+### How the capabilities work together
+
+KumuluzAI connects users to approved knowledge, models and tools. Kumuluz API provides API discovery, access policies, gateway routing, MCP integration patterns and usage visibility. Business APIs provide the business meaning behind those interfaces. Digital Platform supplies the engineering foundation for the services, adapters and workflows that implement them. Crowdsensing contributes real-world data and analytical context.
+
+For example, a delivery-specific service assistant could retrieve a procedure, read a case through an approved Business API and prepare a proposed action. A workflow engine such as Temporal or Camunda could then enforce approval and execute the business-critical steps. This is an architectural example, not a packaged integration promised for every customer.
+
+### Governance is part of the architecture
+
+The advertised capabilities include identity integration, authorization, permission-aware retrieval, controlled API and tool access, human review, auditability, lifecycle management and operational visibility. AI reasoning does not replace business validation or authorization. A model's recommendation is not itself permission to execute an operation.
+
+Deployment choices, connected systems, data handling, model providers, approval requirements and operating responsibilities are defined for the implementation. Supported integration patterns do not establish universal out-of-the-box connectivity. Public descriptions do not establish a particular license, certification, contractual service level or measured performance outcome.
+
+### Seven solution paths
+
+- [Agentic AI platforms](https://kumuluz.com/en/solutions/agentic-ai-platforms/): shared governance for agents, knowledge and tools.
+- [Enterprise AI assistants](https://kumuluz.com/en/solutions/enterprise-ai-assistants/): customer and employee assistance.
+- [AI knowledge management](https://kumuluz.com/en/solutions/ai-knowledge-management/): source-aware access to enterprise knowledge.
+- [API management and API economy](https://kumuluz.com/en/solutions/api-management/): governed API ecosystems.
+- [Cloud-native digital platforms](https://kumuluz.com/en/solutions/cloud-native-digital-platforms/): service, integration and workflow foundations.
+- [Business APIs](https://kumuluz.com/en/solutions/business-apis/): reusable business capabilities.
+- [Crowdsensing and smart communities](https://kumuluz.com/en/solutions/crowdsensing-smart-communities/): distributed data and smart services.
+
+### Current products and historical names
+
+KumuluzEE is an earlier microservice framework in the Kumuluz cloud-native heritage. The current English content states that it is maintained where needed for existing environments, but is not the primary foundation for new Digital Platform projects. New Java cloud-native projects follow a framework-flexible, Quarkus-first direction.
+
+### Related documentation and next steps
+
+Read [architecture](https://kumuluz.com/docs/architecture.md), [solutions](https://kumuluz.com/docs/solutions.md), the [product selection FAQ](https://kumuluz.com/docs/faq.md) and [Sunesis and Kumuluz](https://kumuluz.com/docs/company.md).
+
+[Request a demo or contact the team](https://kumuluz.com/en/#contact) with your use case, existing systems and governance constraints.
+
+---
+
+Source: https://kumuluz.com/docs/solutions.md
+
+## Kumuluz solutions
+
+Kumuluz solutions describe enterprise problems and combinations of platform capabilities. They are not seven additional products. The current family comprises KumuluzAI Platform, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform and Kumuluz Crowdsensing.
+
+Canonical HTML: https://kumuluz.com/en/solutions/
+
+### Agentic AI platforms
+
+[English solution page](https://kumuluz.com/en/solutions/agentic-ai-platforms/).
+
+Build a shared platform for agents that retrieve knowledge, call tools and support multi-step tasks instead of creating disconnected AI pilots. [KumuluzAI](https://kumuluz.com/docs/kumuluz-ai.md) provides agent orchestration, RAG, model routing, policies, approvals, auditability and cost visibility. [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md), [Business APIs](https://kumuluz.com/docs/business-apis.md) and [Digital Platform](https://kumuluz.com/docs/digital-platform.md) provide governed interfaces and implementations. Use cases include process assistance, case preparation and reusable agents across departments. Sensitive actions remain subject to authorization and deterministic workflow control.
+
+### Enterprise AI assistants
+
+[English solution page](https://kumuluz.com/en/solutions/enterprise-ai-assistants/).
+
+Help customers and employees find information, navigate services and complete supported tasks through conversational interfaces. KumuluzAI supplies the governed foundation; AI Smart Assistant is a named accelerator for customer support, employee assistance, portal guidance, helpdesk and FAQ use cases. Approved knowledge and controlled tools can extend assistance beyond simple chat. Channels and backend integrations are configured for the delivery, and escalation or human approval remains necessary where the process requires it.
+
+The English solutions index explicitly lists **AI Smart Assistant** and **KumuluzAI** as products involved in this solution. That solution-level reference does not make AI Smart Assistant a sixth flagship product.
+
+### AI knowledge management
+
+[English solution page](https://kumuluz.com/en/solutions/ai-knowledge-management/).
+
+Make documents, procedures, policies and knowledge bases accessible through source-aware AI and permission-aware retrieval. KumuluzAI supports ingestion, indexing, semantic retrieval, RAG and source attribution. AI Knowledge Mentor addresses employee onboarding, training, policy guidance and document-heavy processes. Source ownership, access permissions and content lifecycle remain explicit responsibilities; retrieved text or generated guidance does not replace authoritative business decisions.
+
+The English solutions index uses **Knowledge Mentor** alongside **KumuluzAI**; the KumuluzAI product page describes **AI Knowledge Mentor** as a knowledge accelerator. Both naming forms are relevant to discovery, but neither establishes an additional standalone flagship product.
+
+### API management and API economy
+
+[English solution page](https://kumuluz.com/en/solutions/api-management/).
+
+Turn APIs into discoverable, governed assets for internal teams, partners and agents. Kumuluz API provides catalogs, documentation, consumer/developer portals, onboarding, subscriptions, gateway policies, sandboxes, change management and monitoring. Agent-oriented scenarios include MCP exposure, contextual routing, basic request checks, LLM routing and token logging. API economy is an enablement scenario, not a guarantee of revenue or an included commercial model. API owners retain responsibility for semantics, versions and backend authorization.
+
+### Cloud-native digital platforms
+
+[English solution page](https://kumuluz.com/en/solutions/cloud-native-digital-platforms/).
+
+Build or modernize modular services, portals, backends, APIs, adapters and workflows on Kumuluz Digital Platform foundations. Its framework-flexible, Quarkus-first direction for new Java cloud-native work combines API-first design, containers, deployment automation, security patterns and observability. Business APIs can supply reusable domains and Kumuluz API can govern exposure. Existing systems can be modernized incrementally; connectors and migration boundaries must be designed rather than assumed.
+
+### Business APIs
+
+[English solution page](https://kumuluz.com/en/solutions/business-apis/).
+
+Reuse common operations across applications, partners, workflows and AI tools. The advertised example domains cover customer and identity, products and catalogs, orders and transactions, subscriptions and billing, KYC and onboarding, cases/tasks/workflows, and notifications/communication. Business APIs can be exposed through MCP-oriented patterns and orchestrated as Temporal activities or Camunda service tasks. The catalogue describes example capabilities; exact APIs, business rules, approval behavior and integrations depend on delivery scope.
+
+### Crowdsensing and smart communities
+
+[English solution page](https://kumuluz.com/en/solutions/crowdsensing-smart-communities/).
+
+Use Kumuluz Crowdsensing to collect observations from people, mobile devices, sensors and enterprise systems, then validate, aggregate and analyze them. Supported capability areas include anomaly detection, pattern recognition, forecasting, segmentation, recommendations, geolocation, dashboards and event-triggered services. Use cases include citizen feedback, infrastructure reporting, mobility, field observations and IoT-enabled services. Managed APIs and reusable business operations can turn insights into notifications or cases; privacy and consent boundaries still apply.
+
+### Choosing a starting solution
+
+Start with the problem rather than every product at once. A knowledge assistant can begin with approved documents; an API programme can begin with inventory and access control; modernization can begin with one service boundary; crowdsensing can begin with a defined data source and purpose. Additional tools, workflows and products can follow where reuse is valuable.
+
+ERP, CRM, billing, document platforms and particular workflow engines are integration scenarios, not blanket out-of-the-box integration promises. Product descriptions do not establish licenses, certifications, contractual service levels or quantified performance guarantees.
+
+### Related documentation and next steps
+
+Read [overview](https://kumuluz.com/docs/overview.md), [architecture](https://kumuluz.com/docs/architecture.md), [product selection FAQ](https://kumuluz.com/docs/faq.md) and [Sunesis and Kumuluz](https://kumuluz.com/docs/company.md).
+
+[Request a solution-focused demo or contact the team](https://kumuluz.com/en/#contact) with the user journey, systems, data and approval requirements.
