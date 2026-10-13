@@ -5,13 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run discovery:generate && npm run discovery:check && npm run test:discovery && next build && npm run discovery:export",
     "start": "next start",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
-    "doctor": "npx react-doctor@latest"
+    "doctor": "npx react-doctor@latest",
+    "discovery:generate": "node scripts/discovery.mjs generate",
+    "discovery:check": "node scripts/discovery.mjs check",
+    "discovery:export": "node scripts/discovery.mjs export",
+    "discovery:smoke": "node scripts/discovery.mjs smoke",
+    "test:discovery": "node --test scripts/discovery.test.mjs"
   },
   "dependencies": {
     "@firecms/neat": "^1.0.0",
