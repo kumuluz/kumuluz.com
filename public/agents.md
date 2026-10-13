@@ -10,7 +10,7 @@ Canonical HTML: https://kumuluz.com/en/
 - [/llms-full.txt](/llms-full.txt): expanded English discovery content.
 - [Platform overview](/docs/overview.md): the current five-product family and how its roles connect.
 - [Architecture](/docs/architecture.md): agent, API, service, workflow, data and governance boundaries.
-- [Solutions](/docs/solutions.md): all seven advertised solution areas.
+- [Solutions](/docs/solutions.md): all seven solution areas.
 - [Product selection FAQ](/docs/faq.md): product differences, starting points and limitations.
 - [Sunesis and Kumuluz](/docs/company.md): product ownership, tailored delivery and cloud-native heritage.
 
@@ -26,9 +26,9 @@ Canonical HTML: https://kumuluz.com/en/
 
 KumuluzAI runs and governs agents and assistants. Kumuluz API manages interface exposure and consumption. Business APIs provide reusable business operations. Digital Platform supplies engineering foundations for services, connectors and workflows. Crowdsensing supplies distributed data collection and AI-enhanced insights.
 
-AI Smart Assistant and AI Knowledge Mentor are named assistant/knowledge accelerators described in the KumuluzAI document. The Business APIs document covers the advertised example API catalogue, and the Digital Platform document covers the current platform capability catalogue and reusable building blocks.
+AI Smart Assistant and AI Knowledge Mentor are accelerators described in the KumuluzAI document. The Business APIs document covers the example API catalogue, and the Digital Platform document covers the current platform capability catalogue and reusable building blocks.
 
-The solutions index also uses the name **Knowledge Mentor** for the AI knowledge management solution. This shorter solution reference and the product-page name **AI Knowledge Mentor** are both covered in the curated documents; they do not imply another flagship product.
+The solutions index uses the shorter name **Knowledge Mentor** for AI Knowledge Mentor.
 
 ## Solution discovery
 
@@ -44,10 +44,8 @@ The [English solutions index](https://kumuluz.com/en/solutions/) links these sev
 
 ## Scope and interpretation
 
-The curated documents summarize public English content and link its canonical HTML pages. Architecture examples, enterprise systems and workflow engines illustrate delivery patterns; they do not establish universal out-of-the-box integrations. API and tool access remain subject to identity, permissions, validation, business rules and human oversight where required.
+These documents summarize the English website and link its canonical HTML pages. API and tool access remain subject to identity, permissions, validation, business rules and human oversight where required.
 
-KumuluzEE belongs to the earlier cloud-native heritage and is maintained where needed for existing environments. The current new-project Digital Platform direction is framework-flexible and Quarkus-first; this distinction does not assert deprecation.
-
-Public capability descriptions and references do not establish licenses, certifications, contractual service levels, measured performance or the exact scope of a customer deployment.
+KumuluzEE belongs to the earlier cloud-native heritage and is maintained where needed for existing environments. The current new-project Digital Platform direction is framework-flexible and Quarkus-first.
 
 For a use-case-specific demo, current availability or delivery/commercial clarification, [contact the Kumuluz team](https://kumuluz.com/en/#contact).

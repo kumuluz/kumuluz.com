@@ -105,7 +105,7 @@ export function generate(docs) {
     '',
     `> ${intro}`,
     '',
-    'Curated English discovery aids, not guarantees of crawler adoption or ranking. The five current building blocks are KumuluzAI Platform, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform and Kumuluz Crowdsensing.',
+    'The five current building blocks are KumuluzAI Platform, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform and Kumuluz Crowdsensing.',
     '',
     '## Platform and product documentation',
     '',
@@ -131,7 +131,7 @@ export function generate(docs) {
       '',
       intro,
       '',
-      `Generated from the curated English Markdown documents linked in [llms.txt](${origin}/llms.txt). Canonical HTML pages remain the authoritative product presentation. Examples are not promises of packaged integrations; deployment-specific scope and governance must be agreed with Sunesis.`,
+      `Generated from the English Markdown documents linked in [llms.txt](${origin}/llms.txt). The canonical HTML pages remain the authoritative product presentation.`,
       '',
       ...docs.map((doc) => {
         const absoluteLinks = doc.text.replace(

@@ -24,16 +24,20 @@ default English locale at `/en/`.
 
 ## Scripts
 
-| Script                 | Description                      |
-| ---------------------- | -------------------------------- |
-| `npm run dev`          | Start the local dev server       |
-| `npm run build`        | Static export to `out/`          |
-| `npm run start`        | Serve the production build       |
-| `npm run lint`         | Run ESLint                       |
-| `npm run lint:fix`     | Run ESLint with `--fix`          |
-| `npm run format`       | Format with Prettier             |
-| `npm run format:check` | Check formatting without writing |
-| `npm run doctor`       | Run `react-doctor` diagnostics   |
+| Script                                | Description                                      |
+| ------------------------------------- | ------------------------------------------------ |
+| `npm run dev`                         | Start the local dev server                       |
+| `npm run build`                       | Static export to `out/`                          |
+| `npm run start`                       | Serve the production build                       |
+| `npm run lint`                        | Run ESLint                                       |
+| `npm run lint:fix`                    | Run ESLint with `--fix`                          |
+| `npm run format`                      | Format with Prettier                             |
+| `npm run format:check`                | Check formatting without writing                 |
+| `npm run doctor`                      | Run `react-doctor` diagnostics                   |
+| `npm run discovery:generate`          | Regenerate `llms.txt` and `llms-full.txt`        |
+| `npm run discovery:check`             | Check discovery docs, links and generated briefs |
+| `npm run test:discovery`              | Run discovery regression tests                   |
+| `npm run discovery:smoke -- <origin>` | Check discovery files on a deployed site         |
 
 ## Project structure
 
@@ -73,8 +77,8 @@ Static-export constraints worth noting:
 
 ## English discovery content
 
-These are informational reading aids, not guarantees of search-engine indexing,
-LLM adoption or ranking. The bilingual HTML product pages remain authoritative.
+English Markdown versions of the product content for AI assistants and crawlers.
+The bilingual HTML product pages remain authoritative.
 
 - `public/docs/{kumuluz-ai,kumuluz-api,business-apis,digital-platform,crowdsensing}.md`:
   substantial documents for all five current platform building blocks.
@@ -110,7 +114,6 @@ npm run lint
 npx tsc --noEmit --incremental false
 npm run format:check
 npm run build
-npm run discovery:export
 ```
 
 Commit generated briefs with their curated sources. `discovery:check` rejects
@@ -123,12 +126,10 @@ No runtime API, new dependency or secret is needed.
 
 ### HTTP verification (preview and production)
 
-Use the **actual** preview URL from the PR's `deploy/netlify` status or deployment,
-and run from a checkout of the deployed revision:
+Run from a checkout of the deployed revision, using the PR's deploy preview URL:
 
 ```sh
-npm run discovery:smoke -- https://deploy-preview-3--kumuluz-com.netlify.app
-# For another PR, replace the origin above with its actual deploy-preview URL.
+npm run discovery:smoke -- https://deploy-preview-<PR>--kumuluz-com.netlify.app
 npm run discovery:smoke -- https://kumuluz.com
 ```
 
@@ -138,23 +139,6 @@ or `text/markdown`, the expected unique heading and an exact content match to
 the checkout. It rejects redirects, HTML fallbacks and stale deployments, checks
 every endpoint even after a failure, and exits nonzero with per-URL diagnostics.
 Requests use Slovenian language preference to catch accidental locale redirects,
-without JavaScript, authentication or cookies. Never bypass site access protection.
+without JavaScript, authentication or cookies.
 Netlify text headers are scoped to discovery files; global security headers and
 the `/`-only language redirect are unchanged.
-
-For a basic current-production baseline before these changes are published:
-
-```sh
-curl --max-time 30 -i https://kumuluz.com/llms.txt
-curl --max-time 30 -i https://kumuluz.com/llms-full.txt
-curl --max-time 30 -i https://kumuluz.com/agents.md
-```
-
-A pre-merge production smoke run is expected to report differences or missing
-new files; that is not evidence of a failed preview. Record the Git revision,
-base URL and complete per-endpoint results separately for local export, preview
-HTTP and current production. GitHub's successful Netlify status or a passing
-build alone does not prove raw endpoints work over HTTP. If DNS, access protection
-or deployment availability prevents verification, report that blocker rather
-than claiming publication. Confirm new production content only after an
-authorized merge/deploy; this task does not authorize either.

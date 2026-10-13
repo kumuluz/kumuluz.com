@@ -20,19 +20,19 @@ Its AI role includes background data analysis, not only conversational interacti
 - **API and integration readiness:** expose data, insights, events and platform capabilities to other systems.
 - **AI agent integration:** provide structured real-world context for agents and assistants.
 
-Analytical methods and processing rules are configured for the data and use case. Prediction and recommendations support decisions; they are not promises of accuracy or fully automatic execution.
+Analytical methods and processing rules are configured for the data and use case. Predictions and recommendations support human decisions.
 
 ## Use cases
 
-Advertised scenarios include smart cities and communities, IoT-enabled data collection, AI-enhanced analytics services, personalized/contextual communication, field data collection and AI-ready data services.
+Scenarios include smart cities and communities, IoT-enabled data collection, AI-enhanced analytics services, personalized/contextual communication, field data collection and AI-ready data services.
 
-Examples include citizen feedback, infrastructure reporting, environmental observations, mobility signals, field-team reports, energy/utility observations, agriculture sensor data, customer feedback and enterprise asset observations. These are use-case directions rather than assertions that every sensor protocol, mobile application or industry backend is supplied.
+Examples include citizen feedback, infrastructure reporting, environmental observations, mobility signals, field-team reports, energy/utility observations, agriculture sensor data, customer feedback and enterprise asset observations.
 
-A delivery-specific infrastructure reporting service could collect user observations, aggregate location-related signals, display trends and create a reviewed service task. The data collection purpose, consent, visibility and action thresholds need to be designed for that service.
+An infrastructure reporting service, for example, can collect user observations, aggregate location-related signals, display trends and create a reviewed service task. The data collection purpose, consent, visibility and action thresholds are designed for that service.
 
 ## Architectural relationships
 
-The advertised architecture has data-source, collection, processing/privacy, AI/analytics, visualization/insight, API/integration and smart-service layers.
+The architecture has data-source, collection, processing/privacy, AI/analytics, visualization/insight, API/integration and smart-service layers.
 
 [KumuluzAI Platform](kumuluz-ai.md) can use approved data and insights as context. [Kumuluz API](kumuluz-api.md) can expose, secure and monitor the resulting data or analytics APIs. [Digital Platform](digital-platform.md) can supply services, connectors and workflows around the solution. [Business APIs](business-apis.md) can connect insights to notifications, cases, tasks, service requests and customer interactions.
 
@@ -40,17 +40,15 @@ An insight becoming available to an agent does not authorize the agent to disclo
 
 ## Green.Dat.AI research context
 
-The English product content states that Kumuluz Crowdsensing has been used in the Green.Dat.AI Horizon Europe context, connecting distributed data collection with AI-ready data spaces and sustainable data analytics. It discusses energy-efficient analytics context and cross-industry pilots such as smart energy, agriculture, mobility and banking.
-
-This is an advertised research and innovation context, not a claim that every production delivery includes those pilots, achieves measured energy savings or holds a certification.
+Kumuluz Crowdsensing has been used in the context of Green.Dat.AI, a Horizon Europe project focused on energy-efficient AI-ready data spaces. It connects distributed data collection with sustainable data analytics, in a project with cross-industry pilots such as smart energy, agriculture, mobility and banking.
 
 ## Deployment and governance boundaries
 
-The product describes cloud-native deployment, hybrid integration with existing platforms, API-based integration, analytics pipelines and monitoring of data flows, events, alerts and service behavior.
+Crowdsensing supports cloud-native deployment, hybrid integration with existing platforms, API-based integration, analytics pipelines and monitoring of data flows, events, alerts and service behavior.
 
-Privacy-aware processing is an implementation capability, not automatic legal compliance. Collection purpose, consent, anonymization, aggregation, access rights and onward use must be defined for the selected data. Sensitive location or behavior information requires particular attention when reused for personalization or agent context.
+Collection purpose, consent, anonymization, aggregation, access rights and onward use are defined for the selected data. Sensitive location or behavior information requires particular attention when reused for personalization or agent context.
 
-Actual data connectors, analytics, operating responsibilities and commercial terms depend on scope. Public descriptions do not establish licenses, service-level agreements, measured performance or blanket out-of-the-box integrations.
+Data connectors, analytics, operating responsibilities and commercial terms are defined for each deployment.
 
 ## Related documentation and next steps
 

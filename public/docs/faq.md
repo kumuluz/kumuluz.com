@@ -1,6 +1,6 @@
 # Kumuluz product selection FAQ
 
-This FAQ explains product roles and selection boundaries using the public English product and solution descriptions. It is a discovery aid, not a deployment specification or commercial offer.
+This FAQ explains the role of each Kumuluz product and how to choose a starting point.
 
 Canonical HTML: https://kumuluz.com/en/
 
@@ -12,9 +12,9 @@ These roles can be combined, but adopting one product does not require adopting 
 
 ## Is KumuluzAI just a chatbot?
 
-No. Its advertised role includes agent runtime and orchestration, RAG, tool calling, model routing, identity-aware access, guardrails, human approvals, auditability and usage/cost visibility. Conversational assistants are useful starting solutions on this broader foundation.
+No. Its role includes agent runtime and orchestration, RAG, tool calling, model routing, identity-aware access, guardrails, human approvals, auditability and usage/cost visibility. Conversational assistants are useful starting solutions on this broader foundation.
 
-AI Smart Assistant focuses on customer and employee assistance, support and digital service navigation. AI Knowledge Mentor focuses on internal documents, procedures, onboarding and learning. They are named AI assistants and knowledge accelerators, not extra top-level family products.
+AI Smart Assistant focuses on customer and employee assistance, support and digital service navigation. AI Knowledge Mentor focuses on internal documents, procedures, onboarding and learning. Both are accelerators built on KumuluzAI.
 
 ## How do Kumuluz API and Business APIs differ?
 
@@ -26,31 +26,31 @@ Digital Platform supplies engineering foundations for services, integrations, MC
 
 ## Does MCP support make every backend safe for an agent?
 
-No. MCP-oriented interfaces can make approved capabilities discoverable and callable, but authorization, tool schemas, input validation, least privilege, business rules and auditability remain necessary. Kumuluz API also advertises its own MCP server for interaction with the API management platform itself. That is distinct from exposing a selected business API as an agent tool.
+No. MCP-oriented interfaces can make approved capabilities discoverable and callable, but authorization, tool schemas, input validation, least privilege, business rules and auditability remain necessary. Kumuluz API also provides its own MCP server for interaction with the API management platform itself. That is distinct from exposing a selected business API as an agent tool.
 
 ## Can AI replace deterministic workflows?
 
-Not for every process. Agents can interpret intent, retrieve information and prepare actions. Critical processes can use Temporal, Camunda or similar workflow engines for defined steps, human approval, retries and compensation. Integration patterns do not mean those engines are automatically included or configured.
+Not for every process. Agents can interpret intent, retrieve information and prepare actions. Critical processes can use Temporal, Camunda or similar workflow engines for defined steps, human approval, retries and compensation.
 
 ## Are all integrations ready out of the box?
 
-The public content supports integration with enterprise APIs, identity providers, data sources and applications. ERP, CRM, billing, document systems and core systems are example integration targets. Exact connectors, mappings, supported versions and implementation responsibilities must be confirmed for the delivery.
+Integrations are configured for each delivery. Kumuluz products integrate with enterprise APIs, identity providers, data sources and applications, and ERP, CRM, billing, document systems and core systems are typical targets. Connectors, mappings, supported versions and implementation responsibilities are defined together with the customer.
 
 ## Where can the products run?
 
-Deployment is product-specific. KumuluzAI describes dedicated single-tenant environments and cloud, hybrid or on-premise deployment. Kumuluz API describes on-premise and SaaS models. Digital Platform describes cloud, hybrid and on-premise implementation, with container/Kubernetes and OpenShift-oriented architecture. Crowdsensing describes cloud-native deployment and hybrid integration. Discuss the selected product and data requirements rather than assuming one deployment model for everything.
+Deployment is product-specific. KumuluzAI supports dedicated single-tenant environments and cloud, hybrid or on-premise deployment. Kumuluz API is available on-premise and as SaaS. Digital Platform supports cloud, hybrid and on-premise implementation, with container/Kubernetes and OpenShift-oriented architecture. Crowdsensing uses cloud-native deployment and hybrid integration. Discuss the selected product and data requirements rather than assuming one deployment model for everything.
 
 ## How does KumuluzEE relate to the current Digital Platform?
 
-KumuluzEE is part of the earlier cloud-native microservice heritage, maintained where needed for existing environments. It is not the primary technology foundation for new Digital Platform projects; those follow a framework-flexible, Quarkus-first direction. This distinction does not establish deprecation or licensing status.
+KumuluzEE is part of the earlier cloud-native microservice heritage, maintained where needed for existing environments. It is not the primary technology foundation for new Digital Platform projects; those follow a framework-flexible, Quarkus-first direction.
 
 ## Does privacy-aware processing guarantee compliance?
 
-No. Crowdsensing advertises consent-aware processing, anonymization and aggregation patterns. KumuluzAI advertises permission-aware knowledge, sensitive-data handling and governance. These support responsible implementation but do not themselves establish certification, compliance, approved retention or lawful processing for a particular organisation.
+No. Crowdsensing provides consent-aware processing, anonymization and aggregation patterns, and KumuluzAI provides permission-aware knowledge, sensitive-data handling and governance. These support responsible implementation, but compliance depends on each organisation's purposes, consent, retention and access rules.
 
 ## What should be confirmed before procurement or delivery?
 
-Confirm required APIs and tools, model strategy, source permissions, integration scope, deployment, residency, human approvals, workflow semantics, operational ownership and commercial terms. The public pages do not establish specific licenses, certifications, service-level agreements or measured performance guarantees.
+Confirm required APIs and tools, model strategy, source permissions, integration scope, deployment, residency, human approvals, workflow semantics, operational ownership and commercial terms.
 
 ## Related documentation and contact
 

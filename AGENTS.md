@@ -11,7 +11,7 @@
 - This is a static export: `output: 'export'`, trailing slashes and unoptimized
   images. Do not introduce server-only endpoints or middleware to serve documents.
 - Netlify publishes `out/`; its language edge redirect applies only to `/`.
-  Keep existing CSP and other security headers; do not loosen preview protection.
+  Keep existing CSP and other security headers.
 
 ## Commands
 
@@ -23,11 +23,10 @@ npm run lint
 npx tsc --noEmit --incremental false
 npm run format:check
 npm run test:discovery
-npm run discovery:generate
+npm run discovery:generate   # after editing public/docs/*.md
 npm run discovery:check
-npm run build
-npm run discovery:export
-npm run discovery:smoke -- https://DEPLOY-PREVIEW-HOST
+npm run build                # also runs generate, check, tests and export checks
+npm run discovery:smoke -- https://deploy-preview-<PR>--kumuluz-com.netlify.app
 npm run discovery:smoke -- https://kumuluz.com
 ```
 
@@ -53,18 +52,10 @@ Distinguish the current connected five-product family from KumuluzEE heritage
 and related technologies. Describe integration/use-case examples as examples;
 do not invent certifications, licenses, SLAs, performance guarantees, customer
 claims or universal packaged integrations. Sunesis develops and delivers Kumuluz.
-Discovery files are reading aids, not ranking or indexing guarantees.
 
-## Verification and deployment evidence
+## Verification
 
-Check generated files for drift before building, and inspect the exported raw
-files after building. The smoke command checks every discovery asset by GET,
-requires HTTP 200, UTF-8 text/Markdown (not HTML), rejects redirects and compares
-complete content with this checkout. It accepts any deployment origin and uses
-no cookies, credentials or JavaScript.
-
-Report local export, actual preview HTTP evidence and current production
-separately, with the Git revision and URL. A passing build is not deployment
-proof. Inspect PR checks/statuses/deployments for the actual Netlify preview;
-if inaccessible, report the concrete blocker and reproducible commands.
-Do not merge or publish production without authorization.
+Run `npm run discovery:check` before building; it fails on stale generated briefs.
+After a deploy, run the smoke command against the deploy preview or production.
+It GETs every discovery asset, requires HTTP 200 with UTF-8 text/Markdown (not
+HTML), rejects redirects and compares the complete content with this checkout.

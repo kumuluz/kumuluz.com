@@ -14,7 +14,7 @@ Container-ready services, Kubernetes-oriented deployment, scalable backend desig
 
 ### Framework-flexible, Quarkus-first
 
-MicroProfile-compatible architecture, Jakarta EE-compatible development principles, runtime flexibility and Kubernetes-oriented design. Quarkus is preferred for new Java cloud-native work; the platform is not described as requiring a single runtime for every environment.
+MicroProfile-compatible architecture, Jakarta EE-compatible development principles, runtime flexibility and Kubernetes-oriented design. Quarkus is preferred for new Java cloud-native work, without requiring a single runtime for every environment.
 
 ### Service and API development
 
@@ -54,9 +54,9 @@ Architecture templates, standardized backends, shared services, reusable APIs, t
 
 ## Agent-ready and reusable building blocks
 
-The advertised agent-ready building blocks are **agent-ready services**, **tool-safe APIs**, **MCP-enabled tools**, **connectors and adapters**, **workflow orchestration**, and **reusable skills and capabilities**. These give agents approved interfaces instead of direct, uncontrolled backend access.
+The agent-ready building blocks are **agent-ready services**, **tool-safe APIs**, **MCP-enabled tools**, **connectors and adapters**, **workflow orchestration**, and **reusable skills and capabilities**. These give agents approved interfaces instead of direct, uncontrolled backend access.
 
-The product also advertises examples of reusable digital capabilities:
+Examples of reusable digital capabilities:
 
 - User and profile services
 - Customer data APIs
@@ -67,13 +67,13 @@ The product also advertises examples of reusable digital capabilities:
 - Business workflow services
 - Agent tools and skills
 
-These describe capabilities that teams can create and reuse; they are not a blanket promise of preconfigured modules or enterprise connectors.
+Teams build these once and reuse them across products.
 
 ## Use cases and modernization paths
 
-The current English catalogue names seven delivery scenario groups:
+Digital Platform covers seven delivery scenario groups:
 
-| Advertised scenario                    | Explicit examples                                                                                                                                                                                                                            |
+| Scenario                               | Explicit examples                                                                                                                                                                                                                            |
 | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enterprise digital platforms           | Customer self-service platforms, partner portals, business portals, internal enterprise platforms, digital service platforms and multi-channel digital solutions.                                                                            |
 | AI-agent-ready service layers          | Agent-callable services, tool-safe APIs, MCP-enabled tools, agent integration adapters, agentic workflow services and controlled backend access layers.                                                                                      |
@@ -83,11 +83,9 @@ The current English catalogue names seven delivery scenario groups:
 | Microservice-based digital solutions   | Domain-driven microservices, modular backend architectures, event-enabled services, service-based business platforms, independently deployable components and scalable distributed applications.                                             |
 | Reusable digital capabilities          | User/profile services, customer data APIs, product catalog APIs, order/subscription services, notification services, integration services, business workflow services and agent tools/skills, detailed above.                                |
 
-These are advertised scenarios and examples, not additional named flagship products or a list of modules automatically supplied in every deployment.
-
 Modernization patterns include API enablement, tool-safe service design, MCP-enabled exposure, modularization, workflow boundaries, the strangler pattern, integration modernization and platform consolidation. Existing systems can remain in place while selected functionality is wrapped or replaced incrementally.
 
-For example, a delivery-specific customer portal could use reusable customer APIs, integration adapters and an approval workflow around an existing billing system. The billing integration, business rules and migration plan require project design rather than being assumed available out of the box.
+For example, a customer portal can use reusable customer APIs, integration adapters and an approval workflow around an existing billing system, with the billing integration, business rules and migration plan designed for the project.
 
 ## Architectural relationships
 
@@ -99,13 +97,11 @@ Digital channels and agents consume an API/tool layer backed by modular services
 
 Agents can gather context or suggest actions, while services and workflow engines enforce critical business execution. Tool contracts, validation, authorization, idempotency, approvals and auditability must be implemented for the process. Gateway or MCP access does not remove those responsibilities.
 
-The product describes cloud, hybrid and on-premise delivery, container/Kubernetes-oriented deployment and OpenShift-compatible architecture. Exact infrastructure and operational responsibilities depend on the delivery.
+Digital Platform supports cloud, hybrid and on-premise delivery, container/Kubernetes-oriented deployment and OpenShift-compatible architecture.
 
 ### KumuluzEE and the current technology direction
 
-The current English Digital Platform page identifies KumuluzEE as an earlier microservice framework, maintained where needed in existing environments, but not the primary foundation for new projects. The new-project direction is framework-flexible and Quarkus-first.
-
-This distinction does not establish deprecation, licensing terms, certification or performance guarantees.
+KumuluzEE is an earlier microservice framework, maintained where needed in existing environments, but not the primary foundation for new projects. The new-project direction is framework-flexible and Quarkus-first.
 
 ## Related documentation and next steps
 

@@ -20,13 +20,13 @@ These are complementary roles, not a requirement to deploy all five products. A 
 
 KumuluzAI connects users to approved knowledge, models and tools. Kumuluz API provides API discovery, access policies, gateway routing, MCP integration patterns and usage visibility. Business APIs provide the business meaning behind those interfaces. Digital Platform supplies the engineering foundation for the services, adapters and workflows that implement them. Crowdsensing contributes real-world data and analytical context.
 
-For example, a delivery-specific service assistant could retrieve a procedure, read a case through an approved Business API and prepare a proposed action. A workflow engine such as Temporal or Camunda could then enforce approval and execute the business-critical steps. This is an architectural example, not a packaged integration promised for every customer.
+For example, a delivery-specific service assistant could retrieve a procedure, read a case through an approved Business API and prepare a proposed action. A workflow engine such as Temporal or Camunda could then enforce approval and execute the business-critical steps.
 
 ## Governance is part of the architecture
 
-The advertised capabilities include identity integration, authorization, permission-aware retrieval, controlled API and tool access, human review, auditability, lifecycle management and operational visibility. AI reasoning does not replace business validation or authorization. A model's recommendation is not itself permission to execute an operation.
+Governance capabilities include identity integration, authorization, permission-aware retrieval, controlled API and tool access, human review, auditability, lifecycle management and operational visibility. AI reasoning does not replace business validation or authorization. A model's recommendation is not itself permission to execute an operation.
 
-Deployment choices, connected systems, data handling, model providers, approval requirements and operating responsibilities are defined for the implementation. Supported integration patterns do not establish universal out-of-the-box connectivity. Public descriptions do not establish a particular license, certification, contractual service level or measured performance outcome.
+Deployment choices, connected systems, data handling, model providers, approval requirements and operating responsibilities are defined for each implementation.
 
 ## Seven solution paths
 
@@ -40,7 +40,7 @@ Deployment choices, connected systems, data handling, model providers, approval 
 
 ## Current products and historical names
 
-KumuluzEE is an earlier microservice framework in the Kumuluz cloud-native heritage. The current English content states that it is maintained where needed for existing environments, but is not the primary foundation for new Digital Platform projects. New Java cloud-native projects follow a framework-flexible, Quarkus-first direction.
+KumuluzEE is an earlier microservice framework in the Kumuluz cloud-native heritage. It is maintained where needed for existing environments, but is not the primary foundation for new Digital Platform projects. New Java cloud-native projects follow a framework-flexible, Quarkus-first direction.
 
 ## Related documentation and next steps
 
