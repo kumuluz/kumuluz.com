@@ -1,12 +1,12 @@
 # Kumuluz architecture
 
-Kumuluz supports a connected, API-first enterprise architecture in which AI agents, digital channels, business operations, workflows and real-world data have distinct responsibilities. Each implementation uses the layers it needs.
+Kumuluz supports a connected, API-first enterprise architecture in which AI agents, digital workers, digital channels, business operations, workflows and real-world data have distinct responsibilities. Autonomous AgenticAI organizations combine these layers with human oversight; each implementation uses the layers it needs.
 
 Canonical HTML: https://kumuluz.com/en/about/
 
 ## Architectural layers and product responsibilities
 
-1. **Users and channels.** Portals, mobile applications, partner systems, employee tools and conversational interfaces consume approved capabilities.
+1. **Users, channels and triggers.** Portals, mobile applications, partner systems, employee tools and conversational interfaces consume approved capabilities. Business events and schedules can trigger proactive digital workers.
 2. **Agents and knowledge.** [KumuluzAI Platform](kumuluz-ai.md) provides agent runtime and orchestration, enterprise RAG, tool integration, model routing and centralized governance. Knowledge retrieval preserves permissions and source traceability.
 3. **API and tool governance.** [Kumuluz API](kumuluz-api.md) catalogs interfaces, manages consumers and subscriptions, applies gateway access policies, performs basic request checks and supports contextual routing. MCP server patterns expose selected APIs to agentic systems as discoverable tools, and the Kumuluz API MCP server lets agents interact with the API management platform itself. LLM routing and token logging support visibility into AI-enabled API usage.
 4. **Business capabilities.** [Kumuluz Business APIs](business-apis.md) encapsulate reusable operations such as customer lookup, order status, payments, onboarding, KYC, cases and notifications.
@@ -20,6 +20,16 @@ Canonical HTML: https://kumuluz.com/en/about/
 Agents can interpret intent, retrieve context, propose actions and call approved tools. Business-critical processes may instead require defined steps, validation, approval, retries, timeouts and compensation. Temporal, Camunda or similar engines implement these deterministic workflows.
 
 An illustrative onboarding flow could use an agent to explain requirements and prepare context, Business APIs to submit documents and check status, and a workflow to enforce review and execute approved steps. Kumuluz API controls the exposed interfaces; Digital Platform supports implementation of services and connectors. The workflow, contracts, idempotency and compensation behavior must be designed for the specific process.
+
+## Autonomous operations and digital worker boundaries
+
+For autonomous operations, agents use governed Business APIs and MCP tools instead of direct access to backend systems or databases. Each digital role has explicit read, autonomous-write and approval-required permissions. People retain responsibility and receive escalations with case context, checked information, attempted actions and the decision needed.
+
+Long-running processes need durable state, bounded retries, timeouts, compensation and safe resumption from confirmed checkpoints. Per-case time, tool-call and cost limits help constrain resource use and prevent loops. These controls are designed and validated for the selected workflow, not inferred from model reasoning.
+
+Technical traces alone do not detect every business failure. A process-specific evaluation layer must check outcome quality, business-rule adherence, silent errors and stalled handovers. Measure autonomous end-to-end completion, escalation, rework and time and cost per completed case. Human feedback can inform proposed changes, but improvements are evaluated on historical cases before controlled rollout.
+
+OAuth2/OIDC identity propagation, OpenTelemetry tracing and narrowly scoped, single-use authorization such as Mandate Sentinel are implementation-specific integration patterns described for autonomous operations. They are not universal packaged integrations or guarantees of every KumuluzAI deployment. See [KumuluzAI](./kumuluz-ai.md) for the platform and solution distinction.
 
 ## Explicit trust boundaries
 

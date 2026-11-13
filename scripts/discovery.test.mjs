@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { test } from 'node:test'
 import {
+  assets,
   canonicalUrl,
   checkExport,
   generate,
@@ -15,6 +16,32 @@ import {
   validateRawLinks,
   validateText,
 } from './discovery.mjs'
+
+test('discovery makes digital workers discoverable with autonomy and delivery boundaries', async () => {
+  const { entries, docs } = await assets()
+  const product = docs.find((doc) => doc.path === '/docs/kumuluz-ai.md')
+  assert(product, 'KumuluzAI product document must be indexed')
+  assert.match(
+    product.description,
+    /digital workers and autonomous organizations/,
+  )
+  assert(entries['/llms.txt'].includes(product.description))
+  for (const path of ['/docs/kumuluz-ai.md', '/llms-full.txt']) {
+    const text = entries[path]
+    assert.match(text, /event or schedule triggers/)
+    assert.match(text, /Autonomy does not remove human accountability/)
+    assert.match(text, /cost per completed business case/)
+    assert.match(text, /historical cases before a controlled rollout/)
+    assert.match(
+      text,
+      /implementation-specific integration patterns, not universally bundled capabilities/,
+    )
+  }
+  assert.match(
+    entries['/agents.md'],
+    /not packaged integrations, customer claims or guarantees/,
+  )
+})
 
 test('canonical English references accept the homepage and product pages', () => {
   for (const url of [

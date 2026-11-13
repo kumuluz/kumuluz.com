@@ -29,9 +29,10 @@ const en: SolutionsCopy = {
       slug: 'agentic-ai-platforms',
       label: 'Agentic AI Platforms',
       description:
-        'Build a governed enterprise platform for AI agents, with controlled access to tools, APIs and data.',
+        'Build digital workers and autonomous AgenticAI organizations with governed tools, coordinated workflows and human oversight.',
       title: 'Agentic AI Platforms',
-      theme: 'Build a governed enterprise platform for AI agents.',
+      theme:
+        'From governed AI agents to digital workers and autonomous operations.',
       products: [
         'KumuluzAI',
         'Kumuluz API',
@@ -129,9 +130,10 @@ const sl: SolutionsCopy = {
       slug: 'agentic-ai-platforms',
       label: 'Agentic AI platforme',
       description:
-        'Zgradite vodeno enterprise platformo za AI agente z nadzorovanim dostopom do orodij, API-jev in podatkov.',
+        'Gradite digitalne delavce in avtonomne AgenticAI organizacije z nadzorovanimi orodji, usklajenimi procesi in človeškim nadzorom.',
       title: 'Agentic AI platforme',
-      theme: 'Zgradite vodeno enterprise platformo za AI agente.',
+      theme:
+        'Od nadzorovanih AI agentov do digitalnih delavcev in avtonomnega poslovanja.',
       products: [
         'KumuluzAI',
         'Kumuluz API',

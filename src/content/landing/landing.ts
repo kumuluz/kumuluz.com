@@ -92,9 +92,9 @@ const enLanding = {
       outputLabel: 'Consistent answer',
     },
     agenticOperations: {
-      title: 'Designed for AgenticAI-ready enterprise architecture',
+      title: 'A foundation for digital workers and autonomous organizations',
       intro:
-        'Kumuluz helps organizations define clear boundaries between AI reasoning and enterprise execution, so AI agents can safely interact with knowledge, APIs, tools, workflows and data instead of connecting directly to backend systems.',
+        'Build toward an autonomous AgenticAI organization where digital workers proactively run agreed business processes and people supervise outcomes, exceptions and approvals. Clear boundaries between AI reasoning and deterministic execution keep tools and backend systems under control.',
       cards: [
         {
           title: 'Knowledge',
@@ -102,7 +102,7 @@ const enLanding = {
         },
         {
           title: 'Agents',
-          text: 'KumuluzAI agents and assistants reason, retrieve context, use tools and support users under governance.',
+          text: 'KumuluzAI agents, assistants and digital workers use context and approved tools, responding to users or acting on business events within defined authority.',
         },
         {
           title: 'APIs and tools',
@@ -152,7 +152,7 @@ const enLanding = {
         {
           title: 'KumuluzAI Platform',
           label: 'Governed AgenticAI platform',
-          text: 'Build AI agents and assistants that access enterprise knowledge, use approved tools, route model requests, follow policies, support human approvals and provide auditability.',
+          text: 'Build AI assistants, digital workers and autonomous AgenticAI organizations with enterprise knowledge, governed tools, proactive workflows, human oversight and measurable process outcomes.',
         },
       ],
     },
@@ -472,9 +472,9 @@ const slLanding = {
       outputLabel: 'Konsistenten odgovor',
     },
     agenticOperations: {
-      title: 'Zasnovano za AgenticAI-ready enterprise arhitekturo',
+      title: 'Temelj za digitalne delavce in avtonomne organizacije',
       intro:
-        'Kumuluz organizacijam pomaga določiti jasne meje med AI sklepanjem in enterprise izvajanjem, da lahko AI agenti varno sodelujejo z znanjem, API-ji, orodji, workflowi in podatki namesto neposrednega povezovanja z zalednimi sistemi.',
+        'Gradite avtonomno AgenticAI organizacijo, kjer digitalni delavci proaktivno izvajajo dogovorjene poslovne procese, ljudje pa spremljajo rezultate, izjeme in odobritve. Jasne meje med AI sklepanjem in determinističnim izvajanjem ohranjajo nadzor nad orodji in zalednimi sistemi.',
       cards: [
         {
           title: 'Znanje',
@@ -482,7 +482,7 @@ const slLanding = {
         },
         {
           title: 'Agenti',
-          text: 'KumuluzAI agenti in asistenti sklepajo, pridobivajo kontekst, uporabljajo orodja in podpirajo uporabnike pod governance nadzorom.',
+          text: 'KumuluzAI agenti, asistenti in digitalni delavci uporabljajo kontekst in odobrena orodja ter se odzivajo na uporabnike ali poslovne dogodke znotraj določenih pooblastil.',
         },
         {
           title: 'API-ji in orodja',
@@ -532,7 +532,7 @@ const slLanding = {
         {
           title: 'KumuluzAI Platform',
           label: 'Upravljana AgenticAI platforma',
-          text: 'Gradite AI agente in asistente, ki dostopajo do enterprise znanja, uporabljajo odobrena orodja, usmerjajo zahtevke modelom, sledijo politikam, podpirajo človeške odobritve in omogočajo revizijske sledi.',
+          text: 'Gradite AI asistente, digitalne delavce in avtonomne AgenticAI organizacije s poslovnim znanjem, nadzorovanimi orodji, proaktivnimi procesi, človeškim nadzorom in merljivimi procesnimi izidi.',
         },
       ],
     },

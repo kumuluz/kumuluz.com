@@ -17,24 +17,46 @@ import type { SolutionPageContent } from '../../views/solutions/types'
 
 const en: SolutionPageContent = {
   seo: {
-    title: 'Agentic AI Platforms | Governed Enterprise AI Agents with Kumuluz',
+    title: 'AgenticAI Solutions | Autonomous Organizations with Kumuluz',
     description:
-      'Build governed enterprise Agentic AI platforms with KumuluzAI, API management, reusable Business APIs, MCP-enabled tools, deterministic workflows and enterprise deployment control.',
+      'Build autonomous AgenticAI organizations and digital worker teams with KumuluzAI, governed Business APIs, deterministic workflows and human oversight.',
   },
   hero: {
     type: 'hero',
     eyebrow: 'Agentic AI Platforms',
-    title: 'Build governed enterprise platforms for AI agents',
+    title: 'Build digital worker teams and autonomous AgenticAI organizations',
     body: [
-      'AgenticAI can transform how organizations automate processes, support employees, serve customers and connect knowledge with action.',
+      'Move from assistants that wait for a request to digital workers that proactively handle business events, coordinate tasks and complete agreed operational processes.',
       'But enterprise AI agents need more than model access — they need a secure platform foundation for knowledge, tools, APIs, workflows, identity, human approvals, auditability, cost control and governance.',
-      'Kumuluz helps you build Agentic AI platforms where AI agents reason, retrieve knowledge, use approved tools, call APIs, interact with business systems and participate in deterministic workflows — under enterprise control.',
+      'KumuluzAI supplies the agent foundation, while Kumuluz API, Business APIs and Digital Platform connect governed tools and deterministic execution. Sunesis designs the digital roles, integrations and controls for your organization — from one worker to connected autonomous operations.',
     ],
     primaryCta: 'Request a demo',
     secondaryCta: 'Explore KumuluzAI',
     trustLine: 'Trusted by',
   },
   sections: [
+    {
+      type: 'cards',
+      title: 'From one digital worker to connected operations',
+      body: [
+        'An autonomous AgenticAI organization is a designed operating model, not an off-the-shelf replacement for people. Digital workers execute agreed operations; people retain accountability, supervise results and handle exceptions and required approvals.',
+      ],
+      columns: 3,
+      items: [
+        {
+          title: 'Define the first digital role',
+          text: 'Choose one process, its event or schedule triggers, permitted reads and writes, escalation thresholds and baseline success measures.',
+        },
+        {
+          title: 'Connect a digital worker team',
+          text: 'Coordinate intake, validation, execution and follow-up across specialized agents, approved Business APIs and durable workflows.',
+        },
+        {
+          title: 'Expand on measured results',
+          text: 'Track autonomous completion, escalation, rework, handover delays and time and cost per completed case before extending autonomy to other processes.',
+        },
+      ],
+    },
     {
       type: 'cards',
       title: 'AI agents need a platform, not another silo',
@@ -198,12 +220,12 @@ const en: SolutionPageContent = {
       variant: 'numbered',
       items: [
         {
-          title: 'Users and channels',
-          text: 'Employees, customers, operators, portals, mobile apps, service desks and business applications that interact with AI agents.',
+          title: 'Users, events and schedules',
+          text: 'Users and digital channels interact with agents; approved business events and schedules can trigger proactive digital workers.',
         },
         {
           title: 'KumuluzAI agent layer',
-          text: 'AI agents, assistants, RAG, prompts, policies, guardrails, human approvals, agent sessions and model routing.',
+          text: 'AI agents, digital workers, assistants, RAG, policies, guardrails, human approvals, agent coordination and model routing.',
         },
         {
           title: 'MCP and tool layer',
@@ -268,7 +290,7 @@ const en: SolutionPageContent = {
         {
           icon: Workflow,
           title: 'Agentic process automation',
-          text: 'AI agents that participate in business workflows and use tools to support multi-step processes.',
+          text: 'Digital workers that proactively process cases, monitor deadlines and coordinate approved actions across systems. These are implementation examples, with role-specific permissions and human checkpoints.',
           bulletsTitle: 'Examples',
           bullets: [
             'Customer onboarding',
@@ -490,7 +512,7 @@ const en: SolutionPageContent = {
       type: 'steps',
       title: 'How organizations start with AgenticAI',
       intro:
-        'Organizations can start with a focused AI use case and evolve toward a broader AgenticAI platform over time.',
+        'Start with an assistant or one digital worker and expand toward an autonomous AgenticAI organization as results and risk allow.',
       items: [
         {
           title: 'Identify high-value agent scenarios',
@@ -514,7 +536,7 @@ const en: SolutionPageContent = {
         },
         {
           title: 'Monitor, learn and improve',
-          text: 'Usage, agent behavior, knowledge retrieval, API calls, token consumption and workflow outcomes are monitored.',
+          text: 'Combine technical monitoring with evaluation of silent errors, business-rule adherence and completed-process metrics. Use corrections and resolved exceptions to propose improvements, validate them on historical cases and roll them out under change control.',
         },
         {
           title: 'Scale across use cases',
@@ -560,7 +582,7 @@ const en: SolutionPageContent = {
         'Ready to move from AI pilots to an enterprise AgenticAI platform?',
       body: [
         'Kumuluz helps organizations build governed Agentic AI platforms where agents can access knowledge, use tools, call APIs, participate in workflows and operate under enterprise control.',
-        'Start with a focused use case and evolve toward a reusable platform foundation for AgenticAI across the organization.',
+        'Bring one process and define the first digital worker, its autonomy boundaries and measurable outcomes before expanding across the organization.',
       ],
       primaryCta: 'Request a demo',
       secondaryCta: 'Explore KumuluzAI',
@@ -570,24 +592,47 @@ const en: SolutionPageContent = {
 
 const sl: SolutionPageContent = {
   seo: {
-    title: 'Agentic AI platforme | Vodeni poslovni AI agenti s Kumuluz',
+    title: 'AgenticAI rešitve | Avtonomne organizacije s Kumuluz',
     description:
-      'Zgradite vodene poslovne Agentic AI platforme s KumuluzAI, upravljanjem API-jev, ponovno uporabnimi Business API-ji, MCP-pripravljenimi orodji, determinističnimi workflowi in nadzorom poslovne uvedbe.',
+      'Gradite avtonomne AgenticAI organizacije in ekipe digitalnih delavcev s KumuluzAI, nadzorovanimi Business API-ji, determinističnimi procesi in človeškim nadzorom.',
   },
   hero: {
     type: 'hero',
     eyebrow: 'Agentic AI platforme',
-    title: 'Zgradite vodene poslovne platforme za AI agente',
+    title:
+      'Gradite ekipe digitalnih delavcev in avtonomne AgenticAI organizacije',
     body: [
-      'AgenticAI lahko spremeni način, kako organizacije avtomatizirajo procese, podpirajo zaposlene, strežejo strankam in povezujejo znanje z dejanji.',
+      'Preidite od asistentov, ki čakajo na zahtevo, k digitalnim delavcem, ki proaktivno obravnavajo poslovne dogodke, usklajujejo naloge in zaključujejo dogovorjene operativne procese.',
       'A poslovni AI agenti potrebujejo več kot le dostop do modelov — potrebujejo varen platformski temelj za znanje, orodja, API-je, workflowe, identiteto, človeške odobritve, sledljivost, nadzor stroškov in upravljanje.',
-      'Kumuluz vam pomaga graditi Agentic AI platforme, kjer AI agenti sklepajo, pridobivajo znanje, uporabljajo odobrena orodja, kličejo API-je, komunicirajo s poslovnimi sistemi in sodelujejo v determinističnih workflowih — pod poslovnim nadzorom.',
+      'KumuluzAI zagotavlja agentni temelj, Kumuluz API, Business APIs in Digital Platform pa povezujejo nadzorovana orodja in deterministično izvajanje. Sunesis zasnuje digitalne vloge, integracije in nadzor za vašo organizacijo — od enega delavca do povezanega avtonomnega poslovanja.',
     ],
     primaryCta: 'Naročite demo',
     secondaryCta: 'Raziščite KumuluzAI',
     trustLine: 'Zaupajo nam',
   },
   sections: [
+    {
+      type: 'cards',
+      title: 'Od enega digitalnega delavca do povezanega poslovanja',
+      body: [
+        'Avtonomna AgenticAI organizacija je načrtovan operativni model, ne že pripravljena zamenjava za ljudi. Digitalni delavci izvajajo dogovorjene operacije; ljudje ohranijo odgovornost, spremljajo rezultate ter obravnavajo izjeme in zahtevane odobritve.',
+      ],
+      columns: 3,
+      items: [
+        {
+          title: 'Opredelite prvo digitalno vlogo',
+          text: 'Izberite en proces, njegove dogodkovne ali časovne sprožilce, dovoljeno branje in pisanje, pragove eskalacije ter izhodiščna merila uspešnosti.',
+        },
+        {
+          title: 'Povežite ekipo digitalnih delavcev',
+          text: 'Uskladite prejem, preverjanje, izvedbo in nadaljnjo obravnavo med specializiranimi agenti, odobrenimi Business API-ji in procesi s trajnim stanjem.',
+        },
+        {
+          title: 'Širite na podlagi izmerjenih rezultatov',
+          text: 'Pred širitvijo avtonomije na druge procese spremljajte samostojno zaključevanje, eskalacije, ponovno obdelavo, zastoje pri predajah ter čas in strošek na zaključen primer.',
+        },
+      ],
+    },
     {
       type: 'cards',
       title: 'AI agenti potrebujejo platformo, ne novega silosa',
@@ -751,12 +796,12 @@ const sl: SolutionPageContent = {
       variant: 'numbered',
       items: [
         {
-          title: 'Uporabniki in kanali',
-          text: 'Zaposleni, stranke, operaterji, portali, mobilne aplikacije, servisni centri in poslovne aplikacije, ki komunicirajo z AI agenti.',
+          title: 'Uporabniki, dogodki in urniki',
+          text: 'Uporabniki in digitalni kanali komunicirajo z agenti; odobreni poslovni dogodki in urniki lahko sprožajo proaktivne digitalne delavce.',
         },
         {
           title: 'Plast agentov KumuluzAI',
-          text: 'AI agenti, asistenti, RAG, pozivi, politike, varovala, človeške odobritve, seje agentov in usmerjanje modelov.',
+          text: 'AI agenti, digitalni delavci, asistenti, RAG, politike, varovala, človeške odobritve, usklajevanje agentov in usmerjanje modelov.',
         },
         {
           title: 'Plast MCP in orodij',
@@ -821,7 +866,7 @@ const sl: SolutionPageContent = {
         {
           icon: Workflow,
           title: 'Agentna avtomatizacija procesov',
-          text: 'AI agenti, ki sodelujejo v poslovnih workflowih in uporabljajo orodja za podporo večkorakovnim procesom.',
+          text: 'Digitalni delavci, ki proaktivno obravnavajo primere, spremljajo roke in usklajujejo odobrena dejanja med sistemi. To so primeri izvedb s pooblastili posameznih vlog in človeškimi kontrolnimi točkami.',
           bulletsTitle: 'Primeri',
           bullets: [
             'Uvajanje strank',
@@ -1043,7 +1088,7 @@ const sl: SolutionPageContent = {
       type: 'steps',
       title: 'Kako organizacije začnejo z AgenticAI',
       intro:
-        'Organizacije lahko začnejo z osredotočenim AI primerom uporabe in se sčasoma razvijejo proti širši AgenticAI platformi.',
+        'Začnite z asistentom ali enim digitalnim delavcem ter uvedbo razširite v avtonomno AgenticAI organizacijo glede na rezultate in tveganja.',
       items: [
         {
           title: 'Prepoznajte scenarije agentov visoke vrednosti',
@@ -1067,7 +1112,7 @@ const sl: SolutionPageContent = {
         },
         {
           title: 'Spremljajte, se učite in izboljšujte',
-          text: 'Spremljajo se uporaba, vedenje agentov, pridobivanje znanja, klici API-jev, poraba žetonov in izidi workflowov.',
+          text: 'Povežite tehnični nadzor z vrednotenjem tihih napak, skladnosti s poslovnimi pravili in metrik zaključenih procesov. Iz popravkov in razrešenih izjem oblikujte izboljšave, jih preverite na preteklih primerih in uvedite pod nadzorom sprememb.',
         },
         {
           title: 'Skalirajte med primeri uporabe',
@@ -1113,7 +1158,7 @@ const sl: SolutionPageContent = {
         'Pripravljeni na prehod od AI pilotov k poslovni AgenticAI platformi?',
       body: [
         'Kumuluz organizacijam pomaga graditi vodene Agentic AI platforme, kjer lahko agenti dostopajo do znanja, uporabljajo orodja, kličejo API-je, sodelujejo v workflowih in delujejo pod poslovnim nadzorom.',
-        'Začnite z osredotočenim primerom uporabe in se razvijte proti ponovno uporabnemu platformskemu temelju za AgenticAI po vsej organizaciji.',
+        'Prinesite en proces in pred širitvijo po organizaciji določite prvega digitalnega delavca, njegove meje avtonomije in merljive rezultate.',
       ],
       primaryCta: 'Naročite demo',
       secondaryCta: 'Raziščite KumuluzAI',

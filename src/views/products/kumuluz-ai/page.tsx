@@ -1,7 +1,7 @@
 'use client'
 
 import { MotionConfig } from 'motion/react'
-import type { LanguageCode } from '../../../lib/router'
+import { buildPath, type LanguageCode } from '../../../lib/router'
 import type { ProductPageBlock, ProductPageContent } from '../types'
 import { CapabilitiesSection } from './sections/capabilities'
 import { CardsSection } from './sections/cards'
@@ -36,7 +36,10 @@ export function KumuluzAiPage({ page, language }: KumuluzAiPageProps) {
           block={block}
           key={key}
           primaryHref={contactHref}
-          secondaryHref={contactHref}
+          secondaryHref={buildPath(language, {
+            name: 'solutions',
+            slug: 'agentic-ai-platforms',
+          })}
         />
       )
     }

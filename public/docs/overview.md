@@ -1,6 +1,6 @@
 # Kumuluz platform overview
 
-Kumuluz is the Sunesis family of enterprise platforms and accelerators for governed AI agents, API ecosystems, reusable business capabilities, cloud-native digital services and distributed real-world data. Its purpose is to provide shared foundations rather than a separate technology stack for every new application or AI experiment.
+Kumuluz is the Sunesis family of enterprise platforms and accelerators for governed AI agents, digital workers, autonomous AgenticAI organizations, API ecosystems, reusable business capabilities, cloud-native digital services and distributed real-world data. Its purpose is to provide shared foundations rather than a separate technology stack for every new application or AI experiment.
 
 Canonical HTML: https://kumuluz.com/en/
 
@@ -8,13 +8,19 @@ Canonical HTML: https://kumuluz.com/en/
 
 | Product                                         | Primary role                                                                                          | Typical starting point                                                         |
 | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [KumuluzAI Platform](kumuluz-ai.md)             | Build, run and govern agents, assistants, enterprise knowledge retrieval and tool use.                | A customer assistant, employee knowledge assistant or governed agent workflow. |
+| [KumuluzAI Platform](kumuluz-ai.md)             | Build and govern assistants, digital workers and autonomous AgenticAI organizations.                  | A knowledge assistant, one digital worker or a governed agent workflow.        |
 | [Kumuluz API](kumuluz-api.md)                   | Discover, expose, secure, manage and monitor APIs for applications, partners and agents.              | API inventory, developer onboarding, partner access or an agent tool gateway.  |
 | [Kumuluz Business APIs](business-apis.md)       | Reuse business operations across products, workflows and AI agents.                                   | Customer data, orders, payments, onboarding, cases or notifications.           |
 | [Kumuluz Digital Platform](digital-platform.md) | Engineer cloud-native services, APIs, connectors, tools and deterministic workflows.                  | Modernize a backend or establish foundations for multiple digital products.    |
 | [Kumuluz Crowdsensing](crowdsensing.md)         | Collect and process distributed observations with privacy-aware processing and AI-enhanced analytics. | Smart community services, field observations, IoT data or contextual services. |
 
 These are complementary roles, not a requirement to deploy all five products. A focused use case can grow into broader platform adoption as reuse and governance needs become clearer.
+
+## Digital workers and autonomous organizations
+
+KumuluzAI supports a progression from responsive assistants and tool-using agents to proactive digital workers, coordinated teams and autonomous AgenticAI organizations. A digital worker has a defined operational role, event or schedule triggers, permitted actions, escalation rules and success measures. People retain accountability and supervise exceptions and required approvals.
+
+This is a tailored operating model built by Sunesis on the platform, not a ready-made organization. Measure autonomous completion, escalation, rework, handover delays and time and cost per completed case before expanding autonomy. See [KumuluzAI](./kumuluz-ai.md) for capabilities and implementation boundaries.
 
 ## How the capabilities work together
 
@@ -30,7 +36,7 @@ Deployment choices, connected systems, data handling, model providers, approval 
 
 ## Seven solution paths
 
-- [Agentic AI platforms](https://kumuluz.com/en/solutions/agentic-ai-platforms/): shared governance for agents, knowledge and tools.
+- [Agentic AI platforms](https://kumuluz.com/en/solutions/agentic-ai-platforms/): governed agents, digital worker teams and autonomous operations.
 - [Enterprise AI assistants](https://kumuluz.com/en/solutions/enterprise-ai-assistants/): customer and employee assistance.
 - [AI knowledge management](https://kumuluz.com/en/solutions/ai-knowledge-management/): source-aware access to enterprise knowledge.
 - [API management and API economy](https://kumuluz.com/en/solutions/api-management/): governed API ecosystems.

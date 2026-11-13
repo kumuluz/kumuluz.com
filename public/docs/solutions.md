@@ -1,6 +1,6 @@
 # Kumuluz solutions
 
-Kumuluz solutions describe enterprise problems and the combinations of Kumuluz products that address them. The product family comprises KumuluzAI Platform, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform and Kumuluz Crowdsensing.
+Kumuluz solutions describe enterprise problems and the combinations of Kumuluz products that address them, including digital workers and autonomous AgenticAI organizations. The product family comprises KumuluzAI Platform, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform and Kumuluz Crowdsensing.
 
 Canonical HTML: https://kumuluz.com/en/solutions/
 
@@ -9,6 +9,10 @@ Canonical HTML: https://kumuluz.com/en/solutions/
 [English solution page](https://kumuluz.com/en/solutions/agentic-ai-platforms/).
 
 Build a shared platform for agents that retrieve knowledge, call tools and support multi-step tasks instead of creating disconnected AI pilots. [KumuluzAI](kumuluz-ai.md) provides agent orchestration, RAG, model routing, policies, approvals, auditability and cost visibility. [Kumuluz API](kumuluz-api.md), [Business APIs](business-apis.md) and [Digital Platform](digital-platform.md) provide governed interfaces and implementations. Use cases include process assistance, case preparation and reusable agents across departments. Sensitive actions remain subject to authorization and deterministic workflow control.
+
+Extend from one digital worker to coordinated teams and an autonomous AgenticAI organization. Digital workers act on business events and schedules, carry out agreed operations and follow cases to completion instead of waiting for chat requests. Define role ownership, permitted reads and writes, handovers, escalation thresholds and human approvals before expanding autonomy.
+
+Sunesis designs the operating model, integrations and process-specific control layer; it is not an off-the-shelf replacement for people. Measure autonomous completion, escalation, rework, handover delays and time and cost per completed case. Combine technical monitoring with evaluation of silent errors and business-rule adherence, and validate feedback-driven improvements on historical cases before controlled rollout.
 
 ## Enterprise AI assistants
 

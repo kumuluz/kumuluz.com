@@ -1,6 +1,6 @@
 # Kumuluz product selection FAQ
 
-This FAQ explains the role of each Kumuluz product and how to choose a starting point.
+This FAQ explains the role of each Kumuluz product and how to choose a starting point, including digital workers and autonomous AgenticAI organizations.
 
 Canonical HTML: https://kumuluz.com/en/
 
@@ -15,6 +15,24 @@ These roles can be combined, but adopting one product does not require adopting 
 No. Its role includes agent runtime and orchestration, RAG, tool calling, model routing, identity-aware access, guardrails, human approvals, auditability and usage/cost visibility. Conversational assistants are useful starting solutions on this broader foundation.
 
 AI Smart Assistant focuses on customer and employee assistance, support and digital service navigation. AI Knowledge Mentor focuses on internal documents, procedures, onboarding and learning. Both are accelerators built on KumuluzAI.
+
+## How is a digital worker different from an AI assistant?
+
+An assistant usually responds to a person. A digital worker proactively handles a defined operational role with event or schedule triggers, permitted actions, escalation rules and measurable process outcomes. It can monitor events, coordinate approved actions and follow cases to completion in the background. A team of specialized digital workers coordinates roles and handovers across a complete process.
+
+## Does an autonomous AgenticAI organization operate without people?
+
+No. People retain accountability, set policies, supervise results and resolve exceptions or approve sensitive actions. Digital worker teams carry out agreed operations within defined authority. KumuluzAI is the platform foundation; Sunesis designs and integrates the digital roles, workflows, controls and evaluation for each organization. This is not a ready-made autonomous organization or a promise of unrestricted automation.
+
+## How should digital worker performance and improvement be evaluated?
+
+Track autonomous end-to-end completion, escalation and rework rates, handover bottlenecks, and time and cost per completed business case. Technical monitoring alone is not enough: process-specific evaluation must also detect silent errors and check business-rule adherence and outcome quality.
+
+Human corrections, approvals and resolved exceptions can inform proposed improvements to context, routing, model choice and process steps. Evaluate changes on historical cases before a controlled rollout. This does not imply automatic model retraining or uncontrolled changes to production.
+
+## Are all autonomous-operation controls standard packaged features?
+
+No. KumuluzAI provides agent orchestration, governed tools, identity, approvals, auditability and observability. Digital roles, triggers, durable workflow behavior, evaluation and escalation thresholds are configured or implemented for each solution. OAuth2/OIDC identity propagation, OpenTelemetry tracing and narrowly scoped, single-use authorization such as Mandate Sentinel are implementation-specific integration patterns, not universally bundled capabilities.
 
 ## How do Kumuluz API and Business APIs differ?
 

@@ -1,6 +1,6 @@
 # Kumuluz — Full machine-readable brief
 
-Kumuluz is a modern connected enterprise platform family developed and delivered by Sunesis. It connects AI agents, governed APIs, reusable business capabilities, cloud-native services, deterministic workflows and distributed data.
+Kumuluz is a modern connected enterprise platform family developed and delivered by Sunesis. It connects AI agents and digital workers, governed APIs, reusable business capabilities, cloud-native services, deterministic workflows and distributed data. KumuluzAI supports building autonomous AgenticAI organizations with defined authority and human oversight.
 
 Generated from the English Markdown documents linked in [llms.txt](https://kumuluz.com/llms.txt). The canonical HTML pages remain the authoritative product presentation.
 
@@ -10,13 +10,13 @@ Source: https://kumuluz.com/docs/architecture.md
 
 ## Kumuluz architecture
 
-Kumuluz supports a connected, API-first enterprise architecture in which AI agents, digital channels, business operations, workflows and real-world data have distinct responsibilities. Each implementation uses the layers it needs.
+Kumuluz supports a connected, API-first enterprise architecture in which AI agents, digital workers, digital channels, business operations, workflows and real-world data have distinct responsibilities. Autonomous AgenticAI organizations combine these layers with human oversight; each implementation uses the layers it needs.
 
 Canonical HTML: https://kumuluz.com/en/about/
 
 ### Architectural layers and product responsibilities
 
-1. **Users and channels.** Portals, mobile applications, partner systems, employee tools and conversational interfaces consume approved capabilities.
+1. **Users, channels and triggers.** Portals, mobile applications, partner systems, employee tools and conversational interfaces consume approved capabilities. Business events and schedules can trigger proactive digital workers.
 2. **Agents and knowledge.** [KumuluzAI Platform](https://kumuluz.com/docs/kumuluz-ai.md) provides agent runtime and orchestration, enterprise RAG, tool integration, model routing and centralized governance. Knowledge retrieval preserves permissions and source traceability.
 3. **API and tool governance.** [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md) catalogs interfaces, manages consumers and subscriptions, applies gateway access policies, performs basic request checks and supports contextual routing. MCP server patterns expose selected APIs to agentic systems as discoverable tools, and the Kumuluz API MCP server lets agents interact with the API management platform itself. LLM routing and token logging support visibility into AI-enabled API usage.
 4. **Business capabilities.** [Kumuluz Business APIs](https://kumuluz.com/docs/business-apis.md) encapsulate reusable operations such as customer lookup, order status, payments, onboarding, KYC, cases and notifications.
@@ -30,6 +30,16 @@ Canonical HTML: https://kumuluz.com/en/about/
 Agents can interpret intent, retrieve context, propose actions and call approved tools. Business-critical processes may instead require defined steps, validation, approval, retries, timeouts and compensation. Temporal, Camunda or similar engines implement these deterministic workflows.
 
 An illustrative onboarding flow could use an agent to explain requirements and prepare context, Business APIs to submit documents and check status, and a workflow to enforce review and execute approved steps. Kumuluz API controls the exposed interfaces; Digital Platform supports implementation of services and connectors. The workflow, contracts, idempotency and compensation behavior must be designed for the specific process.
+
+### Autonomous operations and digital worker boundaries
+
+For autonomous operations, agents use governed Business APIs and MCP tools instead of direct access to backend systems or databases. Each digital role has explicit read, autonomous-write and approval-required permissions. People retain responsibility and receive escalations with case context, checked information, attempted actions and the decision needed.
+
+Long-running processes need durable state, bounded retries, timeouts, compensation and safe resumption from confirmed checkpoints. Per-case time, tool-call and cost limits help constrain resource use and prevent loops. These controls are designed and validated for the selected workflow, not inferred from model reasoning.
+
+Technical traces alone do not detect every business failure. A process-specific evaluation layer must check outcome quality, business-rule adherence, silent errors and stalled handovers. Measure autonomous end-to-end completion, escalation, rework and time and cost per completed case. Human feedback can inform proposed changes, but improvements are evaluated on historical cases before controlled rollout.
+
+OAuth2/OIDC identity propagation, OpenTelemetry tracing and narrowly scoped, single-use authorization such as Mandate Sentinel are implementation-specific integration patterns described for autonomous operations. They are not universal packaged integrations or guarantees of every KumuluzAI deployment. See [KumuluzAI](https://kumuluz.com/docs/kumuluz-ai.md) for the platform and solution distinction.
 
 ### Explicit trust boundaries
 
@@ -430,7 +440,7 @@ Source: https://kumuluz.com/docs/faq.md
 
 ## Kumuluz product selection FAQ
 
-This FAQ explains the role of each Kumuluz product and how to choose a starting point.
+This FAQ explains the role of each Kumuluz product and how to choose a starting point, including digital workers and autonomous AgenticAI organizations.
 
 Canonical HTML: https://kumuluz.com/en/
 
@@ -445,6 +455,24 @@ These roles can be combined, but adopting one product does not require adopting 
 No. Its role includes agent runtime and orchestration, RAG, tool calling, model routing, identity-aware access, guardrails, human approvals, auditability and usage/cost visibility. Conversational assistants are useful starting solutions on this broader foundation.
 
 AI Smart Assistant focuses on customer and employee assistance, support and digital service navigation. AI Knowledge Mentor focuses on internal documents, procedures, onboarding and learning. Both are accelerators built on KumuluzAI.
+
+### How is a digital worker different from an AI assistant?
+
+An assistant usually responds to a person. A digital worker proactively handles a defined operational role with event or schedule triggers, permitted actions, escalation rules and measurable process outcomes. It can monitor events, coordinate approved actions and follow cases to completion in the background. A team of specialized digital workers coordinates roles and handovers across a complete process.
+
+### Does an autonomous AgenticAI organization operate without people?
+
+No. People retain accountability, set policies, supervise results and resolve exceptions or approve sensitive actions. Digital worker teams carry out agreed operations within defined authority. KumuluzAI is the platform foundation; Sunesis designs and integrates the digital roles, workflows, controls and evaluation for each organization. This is not a ready-made autonomous organization or a promise of unrestricted automation.
+
+### How should digital worker performance and improvement be evaluated?
+
+Track autonomous end-to-end completion, escalation and rework rates, handover bottlenecks, and time and cost per completed business case. Technical monitoring alone is not enough: process-specific evaluation must also detect silent errors and check business-rule adherence and outcome quality.
+
+Human corrections, approvals and resolved exceptions can inform proposed improvements to context, routing, model choice and process steps. Evaluate changes on historical cases before a controlled rollout. This does not imply automatic model retraining or uncontrolled changes to production.
+
+### Are all autonomous-operation controls standard packaged features?
+
+No. KumuluzAI provides agent orchestration, governed tools, identity, approvals, auditability and observability. Digital roles, triggers, durable workflow behavior, evaluation and escalation thresholds are configured or implemented for each solution. OAuth2/OIDC identity propagation, OpenTelemetry tracing and narrowly scoped, single-use authorization such as Mandate Sentinel are implementation-specific integration patterns, not universally bundled capabilities.
 
 ### How do Kumuluz API and Business APIs differ?
 
@@ -494,24 +522,43 @@ Source: https://kumuluz.com/docs/kumuluz-ai.md
 
 ## KumuluzAI Platform
 
-KumuluzAI Platform is an enterprise AgenticAI foundation for building, managing and operating AI agents, assistants, retrieval-augmented generation (RAG) solutions and AI-enabled business applications. It combines reusable knowledge, tools, model access and governance rather than creating a separate AI stack for each use case.
+KumuluzAI Platform is an enterprise AgenticAI foundation for building, managing and operating AI agents, digital workers and autonomous organizations with defined authority and human oversight. Assistants, retrieval-augmented generation (RAG) solutions and AI-enabled business applications remain practical starting points on the same reusable knowledge, tool, model and governance foundation.
 
 Canonical HTML: https://kumuluz.com/en/products/kumuluz-ai/
 
+### From assistants to autonomous AgenticAI organizations
+
+An AI assistant usually responds to a person. A tool-using agent plans multiple steps and invokes approved tools. A **digital worker** is a defined operational role with event or schedule triggers, responsibilities, permitted actions, escalation rules and success measures. It can proactively monitor events and handle cases continuously in the background rather than waiting for a chat request.
+
+A **digital worker team** coordinates specialized roles and handovers across a complete process. An **autonomous AgenticAI organization** connects those teams across routine daily operations. People set goals and boundaries, supervise outcomes, resolve exceptions and approve sensitive actions. Autonomy does not remove human accountability.
+
+Sunesis designs and integrates these operating models on KumuluzAI. They are not preconfigured autonomous organizations or a guarantee that every process can run without human intervention. Start with one bounded process and expand according to measured outcomes and risk.
+
 ### Supported platform capabilities
 
-- **Agent runtime and orchestration:** tool-using agents, multi-step workflows, task planning, reusable agent templates and lifecycle management.
+- **Agent runtime and orchestration:** tool-using agents, digital workers, multi-step workflows, task planning, reusable agent templates and lifecycle management. Event- and schedule-driven execution patterns and digital role coordination are configured for each implementation.
 - **Enterprise knowledge and RAG:** document ingestion and indexing, enterprise knowledge connectors, vector search, semantic retrieval, source attribution, permission-aware access and knowledge-base management.
 - **Tool and system integration:** a tool registry, API integration, function/tool calling, MCP-ready integration patterns, least-privilege access and approval-controlled execution.
 - **Model gateway and routing:** model-provider abstraction, external and self-hosted model routing, selection policies, fallback strategies, hybrid LLM deployment, budget controls and usage tracking.
 - **Security and guardrails:** prompt shielding, input/output validation, sensitive-data and PII handling, policy-based tool access, moderation patterns and safe execution boundaries.
-- **Identity and access control:** enterprise identity integration, user and role-based access, agent permissions, tool authorization, knowledge permissions and identity propagation.
-- **Human-in-the-loop workflows:** approvals, review checkpoints, escalation, manual override and traceable sensitive-action decisions.
-- **Auditability and traceability:** session history, tool-call logs, retrieval traces, prompt/response tracking, user context and decision/approval history.
+- **Identity and access control:** enterprise identity integration, user and role-based access, agent permissions, tool authorization, knowledge permissions and identity propagation. Each digital role needs explicit read, autonomous-write and approval-required boundaries.
+- **Human-in-the-loop workflows:** approvals, review checkpoints, escalation, manual override and traceable sensitive-action decisions. Design handovers to include case context, checked information, attempted actions and the specific human decision needed.
+- **Auditability and traceability:** session history, tool-call logs, retrieval traces, prompt/response tracking, triggering user/event/schedule, execution identity and decision/approval history.
 - **Observability and cost control:** usage monitoring, token/model visibility, cost tracking, error visibility, operational dashboards and improvement feedback.
 - **Management console:** centralized management of agents, tools, knowledge sources, prompts, configuration, policies, approvals, usage and audit views.
 
 The model strategy, knowledge connectors, tools, policies and operational configuration are selected for each implementation.
+
+### Operating, measuring and improving digital workers
+
+Autonomous operations require a process-specific control and evaluation layer alongside platform observability. These are solution design requirements, implemented and validated for the selected workflow:
+
+- **Detect silent errors:** evaluate business-rule adherence and outcome quality as well as technical availability. Monitor stale context, missed exceptions, repeated agent exchanges and stalled handovers.
+- **Bound execution:** define per-case time, tool-call and cost limits, prevent loops and design retries, timeouts and compensation. Durable workflows preserve state and support safe resumption from confirmed checkpoints.
+- **Measure completed processes:** track the share of cases completed autonomously from start to finish, escalation and rework rates, handover bottlenecks, and time and cost per completed business case.
+- **Use operational feedback:** human corrections, approvals and resolved exceptions inform proposed improvements to context, routing, model choice and process steps. This does not imply automatic model retraining.
+- **Validate changes:** evaluate proposed improvements on historical cases before a controlled rollout. Automated improvement does not mean uncontrolled production changes.
+- **Retain human control:** define accountable owners and escalation thresholds, with approval for sensitive financial, contractual or communication actions according to the process.
 
 ### Named assistants and knowledge accelerators
 
@@ -527,17 +574,21 @@ AI Smart Assistant is part of the enterprise AI assistants solution, and AI Know
 
 ### Use cases
 
-KumuluzAI supports enterprise agents, agentic process assistance, RAG-based knowledge services, customer/employee assistants and AI capabilities embedded in existing applications. Industry examples include claims support in insurance, KYC assistance in banking, case preparation in public administration, field-support knowledge in utilities and product/service knowledge in manufacturing.
+KumuluzAI supports digital workers, autonomous AgenticAI organizations, enterprise agents, agentic process assistance, RAG-based knowledge services, customer/employee assistants and AI capabilities embedded in existing applications. Industry examples include claims support in insurance, KYC assistance in banking, case preparation in public administration, field-support knowledge in utilities and product/service knowledge in manufacturing.
 
 A claims assistant, for example, can retrieve approved policy guidance and call a case-status tool. Whether it can initiate an operation, and whether approval is required, depends on the configured permissions and business process.
 
+An illustrative digital service worker can receive a request, check documentation, request missing information, update a case through approved Business APIs and monitor deadlines. A team can coordinate intake, validation and follow-up while handing exceptions to a person with decision-ready context. These are implementation examples, not packaged integrations or customer claims.
+
 ### Architectural relationships
 
-The platform sits between channels, enterprise knowledge, models and business tools. Its architecture includes user/channel, agent orchestration, knowledge, tool integration, model gateway, and governance/control layers.
+The platform sits between channels, business events, schedules, enterprise knowledge, models and business tools. Its architecture includes trigger/channel, agent orchestration, knowledge, tool integration, model gateway, and governance/control layers.
 
 [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md) can govern the APIs and tools agents use. [Business APIs](https://kumuluz.com/docs/business-apis.md) provide reusable business operations behind those tools. [Digital Platform](https://kumuluz.com/docs/digital-platform.md) supports implementation of services, connectors, MCP-enabled tools and deterministic workflows. [Crowdsensing](https://kumuluz.com/docs/crowdsensing.md) can contribute structured real-world data and insights.
 
 Temporal, Camunda or similar engines can execute critical process steps while an agent gathers context or proposes actions. Workflow engine selection and integration are decided per implementation.
+
+For autonomous operations, probabilistic model reasoning remains separate from deterministic business execution. Agents use governed Business APIs and MCP tools rather than direct backend or database access. OAuth2/OIDC identity propagation, OpenTelemetry tracing and narrowly scoped, single-use authorization such as Mandate Sentinel are implementation-specific integration patterns, not universally bundled capabilities.
 
 ### Deployment and governance boundaries
 
@@ -551,7 +602,7 @@ Integrations, data residency, operational ownership, licensing and service level
 
 Read [overview](https://kumuluz.com/docs/overview.md), [architecture](https://kumuluz.com/docs/architecture.md), [solutions](https://kumuluz.com/docs/solutions.md), [FAQ](https://kumuluz.com/docs/faq.md) and [company](https://kumuluz.com/docs/company.md).
 
-[Request a KumuluzAI demo or contact the team](https://kumuluz.com/en/#contact) with the users, knowledge sources, tools and approval boundaries for your first use case.
+[Request a KumuluzAI demo or contact the team](https://kumuluz.com/en/#contact) with one process, its digital roles, triggers, knowledge sources, tools, autonomy boundaries and success measures. You can also start with a focused assistant.
 
 ---
 
@@ -624,7 +675,7 @@ Source: https://kumuluz.com/docs/overview.md
 
 ## Kumuluz platform overview
 
-Kumuluz is the Sunesis family of enterprise platforms and accelerators for governed AI agents, API ecosystems, reusable business capabilities, cloud-native digital services and distributed real-world data. Its purpose is to provide shared foundations rather than a separate technology stack for every new application or AI experiment.
+Kumuluz is the Sunesis family of enterprise platforms and accelerators for governed AI agents, digital workers, autonomous AgenticAI organizations, API ecosystems, reusable business capabilities, cloud-native digital services and distributed real-world data. Its purpose is to provide shared foundations rather than a separate technology stack for every new application or AI experiment.
 
 Canonical HTML: https://kumuluz.com/en/
 
@@ -632,13 +683,19 @@ Canonical HTML: https://kumuluz.com/en/
 
 | Product                                         | Primary role                                                                                          | Typical starting point                                                         |
 | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [KumuluzAI Platform](https://kumuluz.com/docs/kumuluz-ai.md)             | Build, run and govern agents, assistants, enterprise knowledge retrieval and tool use.                | A customer assistant, employee knowledge assistant or governed agent workflow. |
+| [KumuluzAI Platform](https://kumuluz.com/docs/kumuluz-ai.md)             | Build and govern assistants, digital workers and autonomous AgenticAI organizations.                  | A knowledge assistant, one digital worker or a governed agent workflow.        |
 | [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md)                   | Discover, expose, secure, manage and monitor APIs for applications, partners and agents.              | API inventory, developer onboarding, partner access or an agent tool gateway.  |
 | [Kumuluz Business APIs](https://kumuluz.com/docs/business-apis.md)       | Reuse business operations across products, workflows and AI agents.                                   | Customer data, orders, payments, onboarding, cases or notifications.           |
 | [Kumuluz Digital Platform](https://kumuluz.com/docs/digital-platform.md) | Engineer cloud-native services, APIs, connectors, tools and deterministic workflows.                  | Modernize a backend or establish foundations for multiple digital products.    |
 | [Kumuluz Crowdsensing](https://kumuluz.com/docs/crowdsensing.md)         | Collect and process distributed observations with privacy-aware processing and AI-enhanced analytics. | Smart community services, field observations, IoT data or contextual services. |
 
 These are complementary roles, not a requirement to deploy all five products. A focused use case can grow into broader platform adoption as reuse and governance needs become clearer.
+
+### Digital workers and autonomous organizations
+
+KumuluzAI supports a progression from responsive assistants and tool-using agents to proactive digital workers, coordinated teams and autonomous AgenticAI organizations. A digital worker has a defined operational role, event or schedule triggers, permitted actions, escalation rules and success measures. People retain accountability and supervise exceptions and required approvals.
+
+This is a tailored operating model built by Sunesis on the platform, not a ready-made organization. Measure autonomous completion, escalation, rework, handover delays and time and cost per completed case before expanding autonomy. See [KumuluzAI](https://kumuluz.com/docs/kumuluz-ai.md) for capabilities and implementation boundaries.
 
 ### How the capabilities work together
 
@@ -654,7 +711,7 @@ Deployment choices, connected systems, data handling, model providers, approval 
 
 ### Seven solution paths
 
-- [Agentic AI platforms](https://kumuluz.com/en/solutions/agentic-ai-platforms/): shared governance for agents, knowledge and tools.
+- [Agentic AI platforms](https://kumuluz.com/en/solutions/agentic-ai-platforms/): governed agents, digital worker teams and autonomous operations.
 - [Enterprise AI assistants](https://kumuluz.com/en/solutions/enterprise-ai-assistants/): customer and employee assistance.
 - [AI knowledge management](https://kumuluz.com/en/solutions/ai-knowledge-management/): source-aware access to enterprise knowledge.
 - [API management and API economy](https://kumuluz.com/en/solutions/api-management/): governed API ecosystems.
@@ -678,7 +735,7 @@ Source: https://kumuluz.com/docs/solutions.md
 
 ## Kumuluz solutions
 
-Kumuluz solutions describe enterprise problems and the combinations of Kumuluz products that address them. The product family comprises KumuluzAI Platform, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform and Kumuluz Crowdsensing.
+Kumuluz solutions describe enterprise problems and the combinations of Kumuluz products that address them, including digital workers and autonomous AgenticAI organizations. The product family comprises KumuluzAI Platform, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform and Kumuluz Crowdsensing.
 
 Canonical HTML: https://kumuluz.com/en/solutions/
 
@@ -687,6 +744,10 @@ Canonical HTML: https://kumuluz.com/en/solutions/
 [English solution page](https://kumuluz.com/en/solutions/agentic-ai-platforms/).
 
 Build a shared platform for agents that retrieve knowledge, call tools and support multi-step tasks instead of creating disconnected AI pilots. [KumuluzAI](https://kumuluz.com/docs/kumuluz-ai.md) provides agent orchestration, RAG, model routing, policies, approvals, auditability and cost visibility. [Kumuluz API](https://kumuluz.com/docs/kumuluz-api.md), [Business APIs](https://kumuluz.com/docs/business-apis.md) and [Digital Platform](https://kumuluz.com/docs/digital-platform.md) provide governed interfaces and implementations. Use cases include process assistance, case preparation and reusable agents across departments. Sensitive actions remain subject to authorization and deterministic workflow control.
+
+Extend from one digital worker to coordinated teams and an autonomous AgenticAI organization. Digital workers act on business events and schedules, carry out agreed operations and follow cases to completion instead of waiting for chat requests. Define role ownership, permitted reads and writes, handovers, escalation thresholds and human approvals before expanding autonomy.
+
+Sunesis designs the operating model, integrations and process-specific control layer; it is not an off-the-shelf replacement for people. Measure autonomous completion, escalation, rework, handover delays and time and cost per completed case. Combine technical monitoring with evaluation of silent errors and business-rule adherence, and validate feedback-driven improvements on historical cases before controlled rollout.
 
 ### Enterprise AI assistants
 

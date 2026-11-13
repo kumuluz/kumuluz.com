@@ -7,16 +7,50 @@ import ts from 'typescript'
 export const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 export const origin = 'https://kumuluz.com'
 export const required = {
-  'overview.md': ['Kumuluz platform overview', 'Sunesis'],
-  'architecture.md': ['Kumuluz architecture', 'MCP', 'deterministic'],
+  'overview.md': [
+    'Kumuluz platform overview',
+    'Sunesis',
+    'digital workers',
+    'autonomous AgenticAI organizations',
+  ],
+  'architecture.md': [
+    'Kumuluz architecture',
+    'MCP',
+    'deterministic',
+    'digital worker',
+    'silent errors',
+    'controlled rollout',
+  ],
   'solutions.md': [
     'Kumuluz solutions',
     'Knowledge Mentor',
     'AI Smart Assistant',
+    'digital worker',
+    'autonomous AgenticAI organization',
   ],
-  'faq.md': ['Kumuluz product selection FAQ', 'KumuluzEE'],
+  'faq.md': [
+    'Kumuluz product selection FAQ',
+    'KumuluzEE',
+    'digital worker',
+    'human',
+    'controlled rollout',
+  ],
   'company.md': ['Sunesis and Kumuluz', 'Sunesis'],
-  'kumuluz-ai.md': ['KumuluzAI Platform', 'RAG', 'routing', 'approval'],
+  'kumuluz-ai.md': [
+    'KumuluzAI Platform',
+    'RAG',
+    'routing',
+    'approval',
+    'digital worker',
+    'autonomous AgenticAI organization',
+    'event or schedule',
+    'human accountability',
+    'silent errors',
+    'cost per completed business case',
+    'historical cases',
+    'controlled rollout',
+    'implementation-specific',
+  ],
   'kumuluz-api.md': ['Kumuluz API', 'MCP', 'routing', 'token'],
   'business-apis.md': ['Kumuluz Business APIs', 'workflow', 'capabilities'],
   'digital-platform.md': [
@@ -99,7 +133,7 @@ export async function documents() {
 
 export function generate(docs) {
   const intro =
-    'Kumuluz is a modern connected enterprise platform family developed and delivered by Sunesis. It connects AI agents, governed APIs, reusable business capabilities, cloud-native services, deterministic workflows and distributed data.'
+    'Kumuluz is a modern connected enterprise platform family developed and delivered by Sunesis. It connects AI agents and digital workers, governed APIs, reusable business capabilities, cloud-native services, deterministic workflows and distributed data. KumuluzAI supports building autonomous AgenticAI organizations with defined authority and human oversight.'
   const index = [
     '# Kumuluz',
     '',
@@ -195,6 +229,9 @@ export async function assets() {
   validateText(guide, 'Kumuluz discovery guide for agents', [
     'Sunesis',
     'llms.txt',
+    'digital worker',
+    'autonomous AgenticAI organization',
+    'implementation-specific',
   ])
   const entries = { ...generated, '/agents.md': guide }
   for (const doc of docs) entries[doc.path] = doc.text

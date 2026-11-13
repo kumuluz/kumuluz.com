@@ -24,11 +24,21 @@ Canonical HTML: https://kumuluz.com/en/
 | Kumuluz Digital Platform | [/docs/digital-platform.md](/docs/digital-platform.md) | [Product page](https://kumuluz.com/en/products/digital-platform/) |
 | Kumuluz Crowdsensing     | [/docs/crowdsensing.md](/docs/crowdsensing.md)         | [Product page](https://kumuluz.com/en/products/crowdsensing/)     |
 
-KumuluzAI runs and governs agents and assistants. Kumuluz API manages interface exposure and consumption. Business APIs provide reusable business operations. Digital Platform supplies engineering foundations for services, connectors and workflows. Crowdsensing supplies distributed data collection and AI-enhanced insights.
+KumuluzAI provides the AgenticAI foundation for agents, assistants, digital workers and autonomous organizations with human oversight. Kumuluz API manages interface exposure and consumption. Business APIs provide reusable business operations. Digital Platform supplies engineering foundations for services, connectors and workflows. Crowdsensing supplies distributed data collection and AI-enhanced insights.
 
 AI Smart Assistant and AI Knowledge Mentor are accelerators described in the KumuluzAI document. The Business APIs document covers the example API catalogue, and the Digital Platform document covers the current platform capability catalogue and reusable building blocks.
 
 The solutions index uses the shorter name **Knowledge Mentor** for AI Knowledge Mentor.
+
+## Digital workers and autonomous AgenticAI organizations
+
+Read [KumuluzAI](./docs/kumuluz-ai.md), [architecture](./docs/architecture.md) and [FAQ](./docs/faq.md) for definitions and boundaries. An assistant responds to a user; a digital worker proactively handles a defined operational role using event or schedule triggers, approved tools, explicit permissions and escalation rules. Coordinated teams can support autonomous AgenticAI organizations, with people retaining accountability, supervising outcomes and handling exceptions and required approvals.
+
+Distinguish platform capabilities from tailored operating models. Sunesis designs the roles, integrations, durable workflows, process-specific evaluation and controls for each implementation. Examples are not packaged integrations, customer claims or guarantees of fully unattended business operations. OAuth2/OIDC, OpenTelemetry and Mandate Sentinel are implementation-specific integration patterns, not universally bundled capabilities.
+
+Process measures include autonomous completion, escalation, rework, handover delays and time and cost per completed case. Feedback-driven improvement requires evaluation on historical cases before controlled rollout; it does not imply automatic model retraining or uncontrolled production changes.
+
+These English discovery documents summarize the bilingual website. Slovenian HTML uses the corresponding `/sl/` routes; raw discovery URLs remain locale-independent.
 
 ## Solution discovery
 

@@ -87,12 +87,15 @@ const en: ExpertisePageContent = {
     },
     {
       type: 'split',
-      title: 'From AI assistants to agentic operating models',
+      title:
+        'From AI assistants to digital workers and autonomous organizations',
       body: [
         'Many organizations begin with AI assistants that answer questions or help users find information. This is a useful first step, but the real value of AgenticAI appears when AI agents can take responsibility for complete workflows.',
         'Sunesis helps organizations design agentic operating models where specialized AI agents work together as a governed digital workforce. Agents can receive requests, retrieve knowledge, classify cases, validate information, call APIs, use Business APIs, prepare decisions, trigger workflows, request approvals and monitor process progress.',
         'This does not mean removing humans from responsibility. It means redesigning work so that AI agents handle repetitive, knowledge-intensive and coordination-heavy tasks, while people focus on supervision, exception handling, expert judgment, relationship management and final accountability.',
         'With KumuluzAI, Kumuluz API, Business APIs and workflow engines such as Temporal or Camunda, Sunesis can help organizations move from isolated assistants to AI-native departments, process operations and digital agent teams.',
+        'Digital workers go beyond user-initiated agent systems: business events and schedules can trigger continuous background work. We define digital roles, read/write permissions, autonomy limits and decision-ready escalations before connecting teams into an autonomous AgenticAI organization.',
+        'Our delivery approach combines technical and business-outcome monitoring to detect silent errors, loops and handover bottlenecks. We measure autonomous completion, escalation, rework and time and cost per completed case. Human feedback informs proposed improvements that are evaluated on historical cases before controlled rollout.',
       ],
       quote:
         'Sunesis helps organizations build AI-native operating models where AI agents act as a governed digital workforce for entire workflows — not just as assistants for individual tasks.',
@@ -120,8 +123,8 @@ const en: ExpertisePageContent = {
           text: 'People remain in control where judgment, accountability, risk, customer relationship or regulatory requirements demand human involvement.',
         },
         {
-          title: 'Autonomous routine operations',
-          text: 'Agents can handle repetitive, rules-based, document-heavy or coordination-heavy work with minimal human intervention.',
+          title: 'Proactive digital workers',
+          text: 'Digital roles monitor events, act within defined authority and follow cases through to completion. People receive exceptions with checked information, attempted actions and the decision needed.',
         },
         {
           title: 'Exception-based work model',
@@ -273,7 +276,7 @@ const en: ExpertisePageContent = {
       numbered: true,
       variant: 'cards',
       intro:
-        'Organizations do not need to become AI-native overnight. Most start with a focused assistant or process use case and gradually evolve — from AI assistants to tool-using agents, workflow-connected agents, digital agent teams and AI-native operating models.',
+        'Organizations do not need to become autonomous overnight. Start with an assistant or bounded process and progress through tool-using agents, digital workers and coordinated teams toward an autonomous AgenticAI organization, guided by risk and measured results.',
       items: [
         {
           title: 'AI assistant',
@@ -284,15 +287,15 @@ const en: ExpertisePageContent = {
           text: 'AI agents use approved tools and APIs to retrieve data, check statuses or perform simple actions. Outcome: more useful assistants that can interact with enterprise systems under control.',
         },
         {
-          title: 'Workflow-connected agent',
-          text: 'Agents participate in business workflows where critical steps are executed through deterministic workflow engines and Business APIs. Outcome: AI supports real process execution while maintaining reliability, auditability and human approvals.',
+          title: 'Digital worker',
+          text: 'A defined operational role acts on events or schedules and uses approved tools. Critical steps run through deterministic workflows and Business APIs, with human approval where required.',
         },
         {
-          title: 'Digital agent team',
+          title: 'Digital worker team',
           text: 'Multiple specialized agents collaborate across an end-to-end process, each with a defined role and scope. Outcome: complex workflows can be coordinated by digital agent teams instead of a single assistant.',
         },
         {
-          title: 'AI-native operating model',
+          title: 'Autonomous AgenticAI organization',
           text: 'Selected operational functions or departments are redesigned around AI agents, Business APIs, workflows, governance and human supervision. Outcome: routine work is handled primarily by agents, while people focus on oversight, exceptions, expert judgment and accountability.',
         },
       ],
@@ -775,12 +778,15 @@ const sl: ExpertisePageContent = {
     },
     {
       type: 'split',
-      title: 'Od AI asistentov do agentnih operativnih modelov',
+      title:
+        'Od AI asistentov do digitalnih delavcev in avtonomnih organizacij',
       body: [
         'Mnoge organizacije začnejo z AI asistenti, ki odgovarjajo na vprašanja ali pomagajo uporabnikom najti informacije. To je koristen prvi korak, a prava vrednost AgenticAI se pokaže, ko lahko AI agenti prevzamejo odgovornost za celotne workflowe.',
         'Sunesis organizacijam pomaga načrtovati agentne operativne modele, kjer specializirani AI agenti sodelujejo kot nadzorovana digitalna delovna sila. Agenti lahko sprejemajo zahteve, pridobivajo znanje, klasificirajo primere, validirajo informacije, kličejo API-je, uporabljajo Business API-je, pripravljajo odločitve, sprožajo workflowe, zahtevajo odobritve in spremljajo napredek procesov.',
         'To ne pomeni odvzemanja odgovornosti ljudem. Pomeni preoblikovanje dela, tako da AI agenti opravljajo ponavljajoče se, znanjsko intenzivne in usklajevalne naloge, medtem ko se ljudje osredotočajo na nadzor, obravnavo izjem, strokovno presojo, upravljanje odnosov in končno odgovornost.',
         'S KumuluzAI, Kumuluz API, Business API-ji in workflow pogoni, kot sta Temporal ali Camunda, lahko Sunesis organizacijam pomaga pri prehodu od izoliranih asistentov k AI-native oddelkom, procesnim operacijam in digitalnim agentnim ekipam.',
+        'Digitalni delavci presegajo agentne sisteme, ki jih sproža uporabnik: poslovni dogodki in urniki lahko sprožajo neprekinjeno delo v ozadju. Pred povezovanjem ekip v avtonomno AgenticAI organizacijo določimo digitalne vloge, pravice branja in pisanja, meje avtonomije ter eskalacije s kontekstom za odločanje.',
+        'Pri uvedbi združujemo tehnični nadzor in vrednotenje poslovnih izidov za zaznavanje tihih napak, zank in zastojev pri predajah. Merimo samostojno zaključevanje, eskalacije, ponovno obdelavo ter čas in strošek na zaključen primer. Človeške povratne informacije uporabimo za predloge izboljšav, ki jih preverimo na preteklih primerih pred nadzorovano uvedbo.',
       ],
       quote:
         'Sunesis organizacijam pomaga graditi AI-native operativne modele, kjer AI agenti delujejo kot nadzorovana digitalna delovna sila za celotne workflowe — ne le kot asistenti za posamezne naloge.',
@@ -808,8 +814,8 @@ const sl: ExpertisePageContent = {
           text: 'Ljudje ostanejo v nadzoru tam, kjer presoja, odgovornost, tveganje, odnos s stranko ali regulativne zahteve terjajo človeško vključenost.',
         },
         {
-          title: 'Avtonomne rutinske operacije',
-          text: 'Agenti lahko opravljajo ponavljajoče se, na pravilih temelječe, dokumentno ali usklajevalno intenzivno delo z minimalnim človeškim posegom.',
+          title: 'Proaktivni digitalni delavci',
+          text: 'Digitalne vloge spremljajo dogodke, delujejo znotraj določenih pooblastil in vodijo primere do zaključka. Ljudje prejmejo izjeme s preverjenimi podatki, poskusi rešitve in potrebno odločitvijo.',
         },
         {
           title: 'Model dela na podlagi izjem',
@@ -961,7 +967,7 @@ const sl: ExpertisePageContent = {
       numbered: true,
       variant: 'cards',
       intro:
-        'Organizacijam ni treba postati AI-native čez noč. Večina začne z osredotočenim asistentom ali primerom uporabe in se postopoma razvija — od AI asistentov k agentom z orodji, z workflowi povezanim agentom, digitalnim agentnim ekipam in AI-native operativnim modelom.',
+        'Organizacijam ni treba postati avtonomne čez noč. Začnite z asistentom ali omejenim procesom ter napredujte prek agentov z orodji, digitalnih delavcev in usklajenih ekip do avtonomne AgenticAI organizacije glede na tveganja in izmerjene rezultate.',
       items: [
         {
           title: 'AI asistent',
@@ -972,15 +978,15 @@ const sl: ExpertisePageContent = {
           text: 'AI agenti uporabljajo odobrena orodja in API-je za pridobivanje podatkov, preverjanje statusov ali enostavna dejanja. Rezultat: uporabnejši asistenti, ki lahko nadzorovano komunicirajo z enterprise sistemi.',
         },
         {
-          title: 'Z workflowi povezan agent',
-          text: 'Agenti sodelujejo v poslovnih workflowih, kjer se kritični koraki izvajajo prek determinističnih workflow pogonov in Business API-jev. Rezultat: AI podpira resnično izvedbo procesov ob ohranjanju zanesljivosti, revizije in človeških odobritev.',
+          title: 'Digitalni delavec',
+          text: 'Določena operativna vloga se odziva na dogodke ali urnike in uporablja odobrena orodja. Kritični koraki potekajo prek determinističnih procesov in Business API-jev s človeškimi odobritvami, kjer so zahtevane.',
         },
         {
-          title: 'Digitalna agentna ekipa',
+          title: 'Ekipa digitalnih delavcev',
           text: 'Več specializiranih agentov sodeluje skozi proces od začetka do konca, vsak z določeno vlogo in obsegom. Rezultat: kompleksne workflowe lahko usklajujejo digitalne agentne ekipe namesto enega samega asistenta.',
         },
         {
-          title: 'AI-native operativni model',
+          title: 'Avtonomna AgenticAI organizacija',
           text: 'Izbrane operativne funkcije ali oddelki so preoblikovani okoli AI agentov, Business API-jev, workflowov, upravljanja in človeškega nadzora. Rezultat: rutinsko delo opravljajo predvsem agenti, ljudje pa se osredotočajo na nadzor, izjeme, strokovno presojo in odgovornost.',
         },
       ],

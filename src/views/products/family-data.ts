@@ -21,7 +21,7 @@ const en: Record<ProductSlug, FamilyMember> = {
     slug: 'kumuluz-ai',
     label: 'AgenticAI',
     title: 'KumuluzAI Platform',
-    text: 'Build, run and orchestrate AI agents and assistants with enterprise context, control and integration.',
+    text: 'Build AI assistants, digital workers and autonomous AgenticAI organizations with governed tools and human oversight.',
   },
   'digital-platform': {
     slug: 'digital-platform',
@@ -54,7 +54,7 @@ const sl: Record<ProductSlug, FamilyMember> = {
     slug: 'kumuluz-ai',
     label: 'AgenticAI',
     title: 'KumuluzAI Platform',
-    text: 'Gradite, poganjajte in orkestrirajte AI agente in asistente s poslovnim kontekstom, nadzorom in integracijo.',
+    text: 'Gradite AI asistente, digitalne delavce in avtonomne AgenticAI organizacije z nadzorovanimi orodji in človeškim nadzorom.',
   },
   'digital-platform': {
     slug: 'digital-platform',
