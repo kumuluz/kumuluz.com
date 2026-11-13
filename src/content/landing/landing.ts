@@ -22,6 +22,11 @@ const enLanding = {
           product: 'SI-GEOS AI agent',
         },
         {
+          icon: 'seal',
+          title: 'Seal of Excellence',
+          product: 'European Commission',
+        },
+        {
           icon: 'star',
           title: 'Duke’s Choice Award',
           product: 'Kumuluz',
@@ -395,6 +400,11 @@ const slLanding = {
           icon: 'medal',
           title: 'Finalist GoDigital 2026',
           product: 'AI agent SI-GEOS',
+        },
+        {
+          icon: 'seal',
+          title: 'Pečat odličnosti',
+          product: 'Evropska komisija',
         },
         {
           icon: 'star',
