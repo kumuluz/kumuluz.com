@@ -8,6 +8,26 @@ const enLanding = {
     primaryCta: 'Request a demo',
     secondaryCta: 'Explore solutions',
     trustLine: 'Trusted by',
+    awards: {
+      label: 'Awards',
+      items: [
+        {
+          icon: 'trophy',
+          title: 'AI of the Year 2026',
+          product: 'RikoAI solution',
+        },
+        {
+          icon: 'medal',
+          title: 'GoDigital 2026 finalist',
+          product: 'SI-GEOS AI agent',
+        },
+        {
+          icon: 'star',
+          title: 'Duke’s Choice Award',
+          product: 'Kumuluz',
+        },
+      ],
+    },
   },
   intro: {
     eyebrow: 'A platform foundation',
@@ -363,6 +383,26 @@ const slLanding = {
     primaryCta: 'Naročite demo',
     secondaryCta: 'Raziščite rešitve',
     trustLine: 'Zaupajo nam',
+    awards: {
+      label: 'Nagrade',
+      items: [
+        {
+          icon: 'trophy',
+          title: 'UI leta 2026',
+          product: 'Rešitev RikoAI',
+        },
+        {
+          icon: 'medal',
+          title: 'Finalist GoDigital 2026',
+          product: 'AI agent SI-GEOS',
+        },
+        {
+          icon: 'star',
+          title: 'Duke’s Choice Award',
+          product: 'Kumuluz',
+        },
+      ],
+    },
   },
   intro: {
     eyebrow: 'Platformni temelj',
