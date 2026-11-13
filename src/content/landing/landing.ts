@@ -258,7 +258,7 @@ const enLanding = {
       items: [
         {
           title: 'AgenticAI platforms',
-          text: 'Build governed AI agent platforms with knowledge, tools, APIs, workflows, model routing, approvals and auditability.',
+          text: 'Build AI agents, digital workers and autonomous AgenticAI organizations with knowledge, governed tools and workflows, human approvals and measurable process outcomes.',
         },
         {
           title: 'Enterprise AI assistants',
@@ -638,7 +638,7 @@ const slLanding = {
       items: [
         {
           title: 'AgenticAI platforme',
-          text: 'Zgradite upravljane platforme AI agentov z znanjem, orodji, API-ji, workflowi, usmerjanjem modelov, odobritvami in sledljivostjo.',
+          text: 'Gradite AI agente, digitalne delavce in avtonomne AgenticAI organizacije z znanjem, nadzorovanimi orodji in procesi, človeškimi odobritvami ter merljivimi procesnimi izidi.',
         },
         {
           title: 'Enterprise AI asistenti',

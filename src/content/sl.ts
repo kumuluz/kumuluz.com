@@ -3,7 +3,7 @@ export const slContent = {
     title:
       'Kumuluz | Enterprise platforme za AgenticAI, API-je in digitalne storitve',
     description:
-      'Kumuluz organizacijam pomaga graditi upravljane AgenticAI platforme, API ekosisteme, ponovno uporabne Business API-je, cloud-native digitalne storitve in AI-podprte podatkovne rešitve.',
+      'Platforme Kumuluz za digitalne delavce, avtonomne AgenticAI organizacije, upravljane API-je, poslovne zmožnosti in cloud-native digitalne storitve.',
   },
   nav: {
     closeMenu: 'Zapri meni',
@@ -22,7 +22,7 @@ export const slContent = {
               {
                 label: 'KumuluzAI',
                 description:
-                  'Poganjajte in vodite poslovne AI agente na nadzorovani AgenticAI platformi.',
+                  'Gradite AI agente, digitalne delavce in avtonomne organizacije z nadzorovanimi orodji in človeškim nadzorom.',
               },
               {
                 label: 'Kumuluz Digital Platform',
@@ -58,7 +58,7 @@ export const slContent = {
               {
                 label: 'Agentic AI platforme',
                 description:
-                  'Zgradite vodeno enterprise platformo za AI agente z nadzorovanim dostopom do orodij, API-jev in podatkov.',
+                  'Povežite ekipe digitalnih delavcev v avtonomno AgenticAI poslovanje z upravljanimi procesi in človeškim nadzorom.',
               },
               {
                 label: 'Enterprise AI asistenti',

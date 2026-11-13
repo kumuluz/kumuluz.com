@@ -472,7 +472,7 @@ const en: KumuluzPageContent = {
       items: [
         {
           title: 'KumuluzAI Platform',
-          text: 'The AgenticAI platform for secure and governed AI agents, assistants, RAG, tool use and enterprise automation.',
+          text: 'The AgenticAI platform for AI agents, assistants, digital workers and autonomous organizations, with RAG, governed tools and human oversight.',
         },
         {
           title: 'Kumuluz API',
@@ -974,7 +974,7 @@ const sl: KumuluzPageContent = {
       items: [
         {
           title: 'KumuluzAI Platform',
-          text: 'AgenticAI platforma za varne in nadzorovane AI agente, asistente, RAG, uporabo orodij in enterprise avtomatizacijo.',
+          text: 'AgenticAI platforma za AI agente, asistente, digitalne delavce in avtonomne organizacije z RAG, nadzorovanimi orodji in človeškim nadzorom.',
         },
         {
           title: 'Kumuluz API',

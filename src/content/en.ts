@@ -3,7 +3,7 @@ export const enContent = {
     title:
       'Kumuluz | Enterprise Platforms for AgenticAI, APIs and Digital Services',
     description:
-      'Kumuluz helps organizations build governed AgenticAI platforms, API ecosystems, reusable Business APIs, cloud-native digital services and AI-enhanced data solutions.',
+      'Kumuluz platforms for digital workers, autonomous AgenticAI organizations, governed APIs, reusable business capabilities and cloud-native digital services.',
   },
   nav: {
     closeMenu: 'Close menu',
@@ -22,7 +22,7 @@ export const enContent = {
               {
                 label: 'KumuluzAI',
                 description:
-                  'Run and govern enterprise AI agents on a controlled AgenticAI platform.',
+                  'Build AI agents, digital workers and autonomous organizations with governed tools and human oversight.',
               },
               {
                 label: 'Kumuluz Digital Platform',
@@ -58,7 +58,7 @@ export const enContent = {
               {
                 label: 'Agentic AI Platforms',
                 description:
-                  'Build a governed enterprise platform for AI agents, with controlled access to tools, APIs and data.',
+                  'Connect digital worker teams into autonomous AgenticAI operations with governed workflows and human oversight.',
               },
               {
                 label: 'Enterprise AI Assistants',

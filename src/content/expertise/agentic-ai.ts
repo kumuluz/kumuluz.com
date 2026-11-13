@@ -15,9 +15,9 @@ import type { ExpertisePageContent } from '../../views/expertise/types'
 
 const en: ExpertisePageContent = {
   seo: {
-    title: 'AgenticAI Solutions for Enterprise Workflow Automation | Sunesis',
+    title: 'AgenticAI & Digital Worker Development | Sunesis',
     description:
-      'Sunesis designs and builds governed AgenticAI solutions, AI agents and digital agent teams that automate enterprise workflows using knowledge, APIs, tools and KumuluzAI.',
+      'Sunesis develops digital workers and autonomous AgenticAI organizations on KumuluzAI, with governed business workflows, secure integrations and human oversight.',
   },
   hero: {
     type: 'hero',
@@ -706,9 +706,9 @@ const en: ExpertisePageContent = {
 
 const sl: ExpertisePageContent = {
   seo: {
-    title: 'AgenticAI rešitve za avtomatizacijo poslovnih workflowov | Sunesis',
+    title: 'Razvoj AgenticAI in digitalnih delavcev | Sunesis',
     description:
-      'Sunesis načrtuje in gradi nadzorovane AgenticAI rešitve, AI agente in digitalne agentne ekipe, ki avtomatizirajo poslovne workflowe z znanjem, API-ji, orodji in KumuluzAI.',
+      'Sunesis razvija digitalne delavce in avtonomne AgenticAI organizacije na KumuluzAI z upravljanimi procesi, varnimi integracijami in človeškim nadzorom.',
   },
   hero: {
     type: 'hero',

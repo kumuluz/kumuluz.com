@@ -127,7 +127,7 @@ const en: AboutPageContent = {
           icon: Bot,
           label: 'AgenticAI',
           title: 'KumuluzAI Platform',
-          text: 'Runs and governs AI agents, assistants, enterprise knowledge access, tool use, model routing, human approvals, policies, auditability and cost visibility.',
+          text: 'Runs and governs AI agents, assistants and digital workers for autonomous AgenticAI organizations, with enterprise knowledge, approved tools, model routing, human approvals, policies, auditability and cost visibility.',
         },
         {
           icon: Network,
@@ -612,7 +612,7 @@ const sl: AboutPageContent = {
           icon: Bot,
           label: 'AgenticAI',
           title: 'KumuluzAI Platform',
-          text: 'Poganja in vodi AI agente, asistente, dostop do poslovnega znanja, uporabo orodij, usmerjanje modelov, človeške odobritve, politike, revizijo in vidnost stroškov.',
+          text: 'Poganja in upravlja AI agente, asistente in digitalne delavce za avtonomne AgenticAI organizacije s poslovnim znanjem, odobrenimi orodji, usmerjanjem modelov, človeškimi odobritvami, politikami, sledljivostjo in pregledom stroškov.',
         },
         {
           icon: Network,

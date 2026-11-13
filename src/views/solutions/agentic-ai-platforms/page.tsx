@@ -1,7 +1,7 @@
 'use client'
 
 import { MotionConfig } from 'motion/react'
-import type { LanguageCode } from '../../../lib/router'
+import { buildPath, type LanguageCode } from '../../../lib/router'
 import type { SolutionPageBlock, SolutionPageContent } from '../types'
 import { CapabilitiesSection } from './sections/capabilities'
 import { CardsSection } from './sections/cards'
@@ -22,6 +22,10 @@ export function AgenticAiPlatformsPage({
   language,
 }: AgenticAiPlatformsPageProps) {
   const contactHref = `/${language}/#contact`
+  const productHref = buildPath(language, {
+    name: 'products',
+    slug: 'kumuluz-ai',
+  })
 
   const isLight = (block: SolutionPageBlock) =>
     block.type !== 'kumuluz' && block.type !== 'finalCta'
@@ -39,7 +43,7 @@ export function AgenticAiPlatformsPage({
           block={block}
           key={key}
           primaryHref={contactHref}
-          secondaryHref={contactHref}
+          secondaryHref={productHref}
         />
       )
     }
@@ -68,7 +72,7 @@ export function AgenticAiPlatformsPage({
       <SolutionHero
         hero={page.hero}
         primaryHref={contactHref}
-        secondaryHref="#capabilities"
+        secondaryHref={productHref}
       />
       {page.sections.map((block, index) => renderBlock(block, index))}
     </MotionConfig>
